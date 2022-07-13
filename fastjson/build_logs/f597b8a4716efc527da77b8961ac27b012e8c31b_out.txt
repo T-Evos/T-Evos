@@ -1,0 +1,42 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ------------------------< com.alibaba:fastjson >------------------------
+[INFO] Building fastjson 1.2.75_preview_03
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ fastjson ---
+[INFO] Deleting ./fastjson/target
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ fastjson ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 6 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.0:compile (default-compile) @ fastjson ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 190 source files to ./fastjson/target/classes
+[INFO] ./fastjson/src/main/java/com/alibaba/fastjson/JSON.java: Some input files use or override a deprecated API.
+[INFO] ./fastjson/src/main/java/com/alibaba/fastjson/JSON.java: Recompile with -Xlint:deprecation for details.
+[INFO] ./fastjson/src/main/java/com/alibaba/fastjson/JSON.java: Some input files use unchecked or unsafe operations.
+[INFO] ./fastjson/src/main/java/com/alibaba/fastjson/JSON.java: Recompile with -Xlint:unchecked for details.
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] ./fastjson/src/main/java/com/alibaba/fastjson/parser/DefaultJSONParser.java:[131,17] method setDateFormat(java.text.DateFormat) is already defined in class com.alibaba.fastjson.parser.DefaultJSONParser
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  7.602 s
+[INFO] Finished at: 
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.8.0:compile (default-compile) on project fastjson: Compilation failure
+[ERROR] ./fastjson/src/main/java/com/alibaba/fastjson/parser/DefaultJSONParser.java:[131,17] method setDateFormat(java.text.DateFormat) is already defined in class com.alibaba.fastjson.parser.DefaultJSONParser
+[ERROR] 
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException

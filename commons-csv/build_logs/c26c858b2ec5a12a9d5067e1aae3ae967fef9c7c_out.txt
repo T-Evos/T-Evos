@@ -1,0 +1,152 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] -------------------< org.apache.commons:commons-csv >-------------------
+[INFO] Building Apache Commons CSV 1.3-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.6.1:clean (default-clean) @ commons-csv ---
+[INFO] Deleting ./commons-csv/target
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.3.1:enforce (enforce-maven-3) @ commons-csv ---
+[INFO] 
+[INFO] --- build-helper-maven-plugin:1.9.1:parse-version (parse-version) @ commons-csv ---
+[INFO] 
+[INFO] --- maven-antrun-plugin:1.8:run (javadoc.resources) @ commons-csv ---
+[INFO] Executing tasks
+
+main:
+     [copy] Copying 2 files to ./commons-csv/target/apidocs/META-INF
+[INFO] Executed tasks
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.5:process (default) @ commons-csv ---
+[INFO] 
+[INFO] --- buildnumber-maven-plugin:1.3:create (default) @ commons-csv ---
+[INFO] Executing: /bin/sh -c cd ./commons-csv && svn --non-interactive info
+[INFO] Working directory: ./commons-csv
+[INFO] Storing buildNumber: ?????? at timestamp: 1655829334376
+[INFO] Executing: /bin/sh -c cd ./commons-csv && svn --non-interactive info
+[INFO] Working directory: ./commons-csv
+[INFO] Storing buildScmBranch: UNKNOWN_BRANCH
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:resources (default-resources) @ commons-csv ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory ./commons-csv/src/main/resources
+[INFO] Copying 2 resources to META-INF
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.3:compile (default-compile) @ commons-csv ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 11 source files to ./commons-csv/target/classes
+[INFO] 
+[INFO] --- maven-bundle-plugin:2.5.3:manifest (bundle-manifest) @ commons-csv ---
+[INFO] 
+[INFO] --- animal-sniffer-maven-plugin:1.14:check (checkAPIcompatibility) @ commons-csv ---
+[INFO] Checking unresolved references to org.codehaus.mojo.signature:java16:1.0
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:testResources (default-testResources) @ commons-csv ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 15 resources
+[INFO] Copying 2 resources to META-INF
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.3:testCompile (default-testCompile) @ commons-csv ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 16 source files to ./commons-csv/target/test-classes
+[INFO] ./commons-csv/src/test/java/org/apache/commons/csv/CSVPrinterTest.java: ./commons-csv/src/test/java/org/apache/commons/csv/CSVPrinterTest.java uses or overrides a deprecated API.
+[INFO] ./commons-csv/src/test/java/org/apache/commons/csv/CSVPrinterTest.java: Recompile with -Xlint:deprecation for details.
+[INFO] 
+[INFO] --- jacoco-maven-plugin:0.7.5.201505241946:prepare-agent (prepare-agent) @ commons-csv ---
+[INFO] argLine set to -javaagent:/home/ubuntu/.m2/repository/org/jacoco/org.jacoco.agent/0.7.5.201505241946/org.jacoco.agent-0.7.5.201505241946-runtime.jar=destfile=./commons-csv/target/jacoco.exec
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.18.1:test (default-test) @ commons-csv ---
+[INFO] Surefire report directory: ./commons-csv/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running org.apache.commons.csv.CSVFormatTest
+Tests run: 44, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.309 sec - in org.apache.commons.csv.CSVFormatTest
+Running org.apache.commons.csv.LexerTest
+Tests run: 26, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.048 sec - in org.apache.commons.csv.LexerTest
+Running org.apache.commons.csv.CSVRecordTest
+Tests run: 17, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.035 sec - in org.apache.commons.csv.CSVRecordTest
+Running org.apache.commons.csv.JiraCsv167Test
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 1, Time elapsed: 0.004 sec - in org.apache.commons.csv.JiraCsv167Test
+Running org.apache.commons.csv.CSVFormatPredefinedTest
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.013 sec - in org.apache.commons.csv.CSVFormatPredefinedTest
+Running org.apache.commons.csv.FercGovTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.033 sec - in org.apache.commons.csv.FercGovTest
+Running org.apache.commons.csv.AssertionsTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in org.apache.commons.csv.AssertionsTest
+Running org.apache.commons.csv.CSVFileParserTest
+Tests run: 12, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.057 sec - in org.apache.commons.csv.CSVFileParserTest
+Running org.apache.commons.csv.CSVPrinterTest
+Tests run: 57, Failures: 4, Errors: 0, Skipped: 0, Time elapsed: 11.422 sec <<< FAILURE! - in org.apache.commons.csv.CSVPrinterTest
+testJira135_part1(org.apache.commons.csv.CSVPrinterTest)  Time elapsed: 0.022 sec  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<"[\]""
+> but was:<"["]""
+>
+	at org.junit.Assert.assertEquals(Assert.java:115)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at org.apache.commons.csv.CSVPrinterTest.testJira135_part1(CSVPrinterTest.java:292)
+
+testJira135_part2(org.apache.commons.csv.CSVPrinterTest)  Time elapsed: 0 sec  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<"[\n]"
+> but was:<"[
+]"
+>
+	at org.junit.Assert.assertEquals(Assert.java:115)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at org.apache.commons.csv.CSVPrinterTest.testJira135_part2(CSVPrinterTest.java:277)
+
+testJira135_part3(org.apache.commons.csv.CSVPrinterTest)  Time elapsed: 0 sec  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<"\[\]"
+> but was:<"\[]"
+>
+	at org.junit.Assert.assertEquals(Assert.java:115)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at org.apache.commons.csv.CSVPrinterTest.testJira135_part3(CSVPrinterTest.java:262)
+
+testJira135All(org.apache.commons.csv.CSVPrinterTest)  Time elapsed: 0.005 sec  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<"[\"","\n","\"]
+> but was:<"[""","
+",\]
+>
+	at org.junit.Assert.assertEquals(Assert.java:115)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at org.apache.commons.csv.CSVPrinterTest.testJira135All(CSVPrinterTest.java:247)
+
+Running org.apache.commons.csv.CSVParserTest
+Tests run: 65, Failures: 0, Errors: 0, Skipped: 3, Time elapsed: 0.066 sec - in org.apache.commons.csv.CSVParserTest
+Running org.apache.commons.csv.TokenMatchersTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.013 sec - in org.apache.commons.csv.TokenMatchersTest
+Running org.apache.commons.csv.ExtendedBufferedReaderTest
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec - in org.apache.commons.csv.ExtendedBufferedReaderTest
+
+Results :
+
+Failed tests: 
+  CSVPrinterTest.testJira135All:247 expected:<"[\"","\n","\"]
+> but was:<"[""","
+",\]
+>
+  CSVPrinterTest.testJira135_part1:292 expected:<"[\]""
+> but was:<"["]""
+>
+  CSVPrinterTest.testJira135_part2:277 expected:<"[\n]"
+> but was:<"[
+]"
+>
+  CSVPrinterTest.testJira135_part3:262 expected:<"\[\]"
+> but was:<"\[]"
+>
+
+Tests run: 240, Failures: 4, Errors: 0, Skipped: 4
+
+[ERROR] There are test failures.
+
+Please refer to ./commons-csv/target/surefire-reports for the individual test results.
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  57.449 s
+[INFO] Finished at: 
+[INFO] ------------------------------------------------------------------------

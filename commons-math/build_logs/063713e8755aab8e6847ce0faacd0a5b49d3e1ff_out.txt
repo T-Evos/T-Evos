@@ -1,0 +1,147 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ------------------< org.apache.commons:commons-math4 >------------------
+[INFO] Building Apache Commons Math 4.0-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:3.0.0:clean (default-clean) @ commons-math4 ---
+[INFO] Deleting ./commons-math/target
+[INFO] 
+[INFO] --- maven-enforcer-plugin:3.0.0-M2:enforce (enforce-maven-version) @ commons-math4 ---
+[INFO] 
+[INFO] --- maven-enforcer-plugin:3.0.0-M2:enforce (enforce-maven-3) @ commons-math4 ---
+[INFO] 
+[INFO] --- build-helper-maven-plugin:1.7:parse-version (parse-version) @ commons-math4 ---
+[INFO] 
+[INFO] --- maven-antrun-plugin:1.7:run (javadoc.resources) @ commons-math4 ---
+[INFO] Executing tasks
+
+main:
+     [copy] Copying 2 files to ./commons-math/target/apidocs/META-INF
+[INFO] Executed tasks
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.5:process (process-resource-bundles) @ commons-math4 ---
+[INFO] 
+[INFO] --- buildnumber-maven-plugin:1.4:create (default) @ commons-math4 ---
+[INFO] Executing: /bin/sh -c cd './commons-math' && 'git' 'rev-parse' '--verify' 'HEAD'
+[INFO] Working directory: ./commons-math
+[INFO] Storing buildNumber: 063713e8755aab8e6847ce0faacd0a5b49d3e1ff at timestamp: 
+[WARNING] Cannot get the branch information from the git repository: 
+Detecting the current branch failed: fatal: ref HEAD is not a symbolic ref
+
+[INFO] Executing: /bin/sh -c cd './commons-math' && 'git' 'rev-parse' '--verify' 'HEAD'
+[INFO] Working directory: ./commons-math
+[INFO] Storing buildScmBranch: UNKNOWN
+[INFO] 
+[INFO] --- maven-jgit-buildnumber-plugin:1.2.11:extract-buildnumber (default) @ commons-math4 ---
+[INFO] Git info extracted in 169ms, revision: '063713e', branch: '', tag: '', commitsCount: '6406', commitDate: '
+[INFO] 
+[INFO] --- maven-resources-plugin:3.0.2:resources (default-resources) @ commons-math4 ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 3 resources
+[INFO] Copying 2 resources to META-INF
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.7.0:compile (default-compile) @ commons-math4 ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 808 source files to ./commons-math/target/classes
+[INFO] ./commons-math/src/main/java/org/apache/commons/math4/fitting/leastsquares/LeastSquaresAdapter.java: Some input files use or override a deprecated API.
+[INFO] ./commons-math/src/main/java/org/apache/commons/math4/fitting/leastsquares/LeastSquaresAdapter.java: Recompile with -Xlint:deprecation for details.
+[INFO] ./commons-math/src/main/java/org/apache/commons/math4/geometry/partitioning/AbstractRegion.java: Some input files use unchecked or unsafe operations.
+[INFO] ./commons-math/src/main/java/org/apache/commons/math4/geometry/partitioning/AbstractRegion.java: Recompile with -Xlint:unchecked for details.
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] ./commons-math/src/main/java/org/apache/commons/math4/fraction/Fraction.java:[502,38] cannot find symbol
+  symbol:   method mulAndCheck(int,int)
+  location: class org.apache.commons.numbers.core.ArithmeticUtils
+[ERROR] ./commons-math/src/main/java/org/apache/commons/math4/fraction/Fraction.java:[503,38] cannot find symbol
+  symbol:   method mulAndCheck(int,int)
+  location: class org.apache.commons.numbers.core.ArithmeticUtils
+[ERROR] ./commons-math/src/main/java/org/apache/commons/math4/fraction/Fraction.java:[505,41] cannot find symbol
+  symbol:   method addAndCheck(int,int)
+  location: class org.apache.commons.numbers.core.ArithmeticUtils
+[ERROR] ./commons-math/src/main/java/org/apache/commons/math4/fraction/Fraction.java:[506,33] cannot find symbol
+  symbol:   method subAndCheck(int,int)
+  location: class org.apache.commons.numbers.core.ArithmeticUtils
+[ERROR] ./commons-math/src/main/java/org/apache/commons/math4/fraction/Fraction.java:[507,33] cannot find symbol
+  symbol:   method mulAndCheck(int,int)
+  location: class org.apache.commons.numbers.core.ArithmeticUtils
+[ERROR] ./commons-math/src/main/java/org/apache/commons/math4/fraction/Fraction.java:[529,32] cannot find symbol
+  symbol:   method mulAndCheck(int,int)
+  location: class org.apache.commons.numbers.core.ArithmeticUtils
+[ERROR] ./commons-math/src/main/java/org/apache/commons/math4/fraction/Fraction.java:[556,25] cannot find symbol
+  symbol:   method mulAndCheck(int,int)
+  location: class org.apache.commons.numbers.core.ArithmeticUtils
+[ERROR] ./commons-math/src/main/java/org/apache/commons/math4/fraction/Fraction.java:[557,32] cannot find symbol
+  symbol:   method mulAndCheck(int,int)
+  location: class org.apache.commons.numbers.core.ArithmeticUtils
+[ERROR] ./commons-math/src/main/java/org/apache/commons/math4/complex/ComplexUtils.java:[140,23] cannot find symbol
+  symbol:   method ofReal(double)
+  location: class org.apache.commons.numbers.complex.Complex
+[ERROR] ./commons-math/src/main/java/org/apache/commons/math4/complex/ComplexUtils.java:[154,23] cannot find symbol
+  symbol:   method ofReal(float)
+  location: class org.apache.commons.numbers.complex.Complex
+[ERROR] ./commons-math/src/main/java/org/apache/commons/math4/complex/ComplexUtils.java:[439,31] cannot find symbol
+  symbol:   method ofReal(double)
+  location: class org.apache.commons.numbers.complex.Complex
+[ERROR] ./commons-math/src/main/java/org/apache/commons/math4/complex/ComplexUtils.java:[457,31] cannot find symbol
+  symbol:   method ofReal(float)
+  location: class org.apache.commons.numbers.complex.Complex
+[ERROR] ./commons-math/src/main/java/org/apache/commons/math4/complex/ComplexUtils.java:[2222,24] cannot find symbol
+  symbol:   method getArgument()
+  location: class org.apache.commons.numbers.complex.Complex
+[INFO] 13 errors 
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  8.004 s
+[INFO] Finished at: 
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.7.0:compile (default-compile) on project commons-math4: Compilation failure: Compilation failure: 
+[ERROR] ./commons-math/src/main/java/org/apache/commons/math4/fraction/Fraction.java:[502,38] cannot find symbol
+[ERROR]   symbol:   method mulAndCheck(int,int)
+[ERROR]   location: class org.apache.commons.numbers.core.ArithmeticUtils
+[ERROR] ./commons-math/src/main/java/org/apache/commons/math4/fraction/Fraction.java:[503,38] cannot find symbol
+[ERROR]   symbol:   method mulAndCheck(int,int)
+[ERROR]   location: class org.apache.commons.numbers.core.ArithmeticUtils
+[ERROR] ./commons-math/src/main/java/org/apache/commons/math4/fraction/Fraction.java:[505,41] cannot find symbol
+[ERROR]   symbol:   method addAndCheck(int,int)
+[ERROR]   location: class org.apache.commons.numbers.core.ArithmeticUtils
+[ERROR] ./commons-math/src/main/java/org/apache/commons/math4/fraction/Fraction.java:[506,33] cannot find symbol
+[ERROR]   symbol:   method subAndCheck(int,int)
+[ERROR]   location: class org.apache.commons.numbers.core.ArithmeticUtils
+[ERROR] ./commons-math/src/main/java/org/apache/commons/math4/fraction/Fraction.java:[507,33] cannot find symbol
+[ERROR]   symbol:   method mulAndCheck(int,int)
+[ERROR]   location: class org.apache.commons.numbers.core.ArithmeticUtils
+[ERROR] ./commons-math/src/main/java/org/apache/commons/math4/fraction/Fraction.java:[529,32] cannot find symbol
+[ERROR]   symbol:   method mulAndCheck(int,int)
+[ERROR]   location: class org.apache.commons.numbers.core.ArithmeticUtils
+[ERROR] ./commons-math/src/main/java/org/apache/commons/math4/fraction/Fraction.java:[556,25] cannot find symbol
+[ERROR]   symbol:   method mulAndCheck(int,int)
+[ERROR]   location: class org.apache.commons.numbers.core.ArithmeticUtils
+[ERROR] ./commons-math/src/main/java/org/apache/commons/math4/fraction/Fraction.java:[557,32] cannot find symbol
+[ERROR]   symbol:   method mulAndCheck(int,int)
+[ERROR]   location: class org.apache.commons.numbers.core.ArithmeticUtils
+[ERROR] ./commons-math/src/main/java/org/apache/commons/math4/complex/ComplexUtils.java:[140,23] cannot find symbol
+[ERROR]   symbol:   method ofReal(double)
+[ERROR]   location: class org.apache.commons.numbers.complex.Complex
+[ERROR] ./commons-math/src/main/java/org/apache/commons/math4/complex/ComplexUtils.java:[154,23] cannot find symbol
+[ERROR]   symbol:   method ofReal(float)
+[ERROR]   location: class org.apache.commons.numbers.complex.Complex
+[ERROR] ./commons-math/src/main/java/org/apache/commons/math4/complex/ComplexUtils.java:[439,31] cannot find symbol
+[ERROR]   symbol:   method ofReal(double)
+[ERROR]   location: class org.apache.commons.numbers.complex.Complex
+[ERROR] ./commons-math/src/main/java/org/apache/commons/math4/complex/ComplexUtils.java:[457,31] cannot find symbol
+[ERROR]   symbol:   method ofReal(float)
+[ERROR]   location: class org.apache.commons.numbers.complex.Complex
+[ERROR] ./commons-math/src/main/java/org/apache/commons/math4/complex/ComplexUtils.java:[2222,24] cannot find symbol
+[ERROR]   symbol:   method getArgument()
+[ERROR]   location: class org.apache.commons.numbers.complex.Complex
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException

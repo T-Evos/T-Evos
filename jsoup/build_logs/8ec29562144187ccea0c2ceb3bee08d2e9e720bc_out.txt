@@ -1,0 +1,1388 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] --------------------------< org.jsoup:jsoup >---------------------------
+[INFO] Building jsoup Java HTML Parser 1.11.1-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+Downloading from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-server/9.4.7.v20170914/jetty-server-9.4.7.v20170914.pom
+Progress (1): 1.4/2.6 kB
+Progress (1): 2.6 kB    
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-server/9.4.7.v20170914/jetty-server-9.4.7.v20170914.pom (2.6 kB at 6.6 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-project/9.4.7.v20170914/jetty-project-9.4.7.v20170914.pom
+Progress (1): 1.4/56 kB
+Progress (1): 2.7/56 kB
+Progress (1): 4.1/56 kB
+Progress (1): 5.5/56 kB
+Progress (1): 6.9/56 kB
+Progress (1): 8.2/56 kB
+Progress (1): 9.6/56 kB
+Progress (1): 11/56 kB 
+Progress (1): 12/56 kB
+Progress (1): 14/56 kB
+Progress (1): 15/56 kB
+Progress (1): 16/56 kB
+Progress (1): 18/56 kB
+Progress (1): 19/56 kB
+Progress (1): 21/56 kB
+Progress (1): 22/56 kB
+Progress (1): 23/56 kB
+Progress (1): 25/56 kB
+Progress (1): 26/56 kB
+Progress (1): 27/56 kB
+Progress (1): 29/56 kB
+Progress (1): 30/56 kB
+Progress (1): 32/56 kB
+Progress (1): 33/56 kB
+Progress (1): 34/56 kB
+Progress (1): 36/56 kB
+Progress (1): 37/56 kB
+Progress (1): 38/56 kB
+Progress (1): 40/56 kB
+Progress (1): 41/56 kB
+Progress (1): 43/56 kB
+Progress (1): 44/56 kB
+Progress (1): 45/56 kB
+Progress (1): 47/56 kB
+Progress (1): 48/56 kB
+Progress (1): 49/56 kB
+Progress (1): 51/56 kB
+Progress (1): 52/56 kB
+Progress (1): 53/56 kB
+Progress (1): 55/56 kB
+Progress (1): 56/56 kB
+Progress (1): 56 kB   
+                   
+Downloaded from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-project/9.4.7.v20170914/jetty-project-9.4.7.v20170914.pom (56 kB at 531 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-http/9.4.7.v20170914/jetty-http-9.4.7.v20170914.pom
+Progress (1): 1.4/2.7 kB
+Progress (1): 2.7 kB    
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-http/9.4.7.v20170914/jetty-http-9.4.7.v20170914.pom (2.7 kB at 196 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-util/9.4.7.v20170914/jetty-util-9.4.7.v20170914.pom
+Progress (1): 1.4/2.5 kB
+Progress (1): 2.5 kB    
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-util/9.4.7.v20170914/jetty-util-9.4.7.v20170914.pom (2.5 kB at 52 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-io/9.4.7.v20170914/jetty-io-9.4.7.v20170914.pom
+Progress (1): 1.3 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-io/9.4.7.v20170914/jetty-io-9.4.7.v20170914.pom (1.3 kB at 81 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-servlet/9.4.7.v20170914/jetty-servlet-9.4.7.v20170914.pom
+Progress (1): 1.4/2.1 kB
+Progress (1): 2.1 kB    
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-servlet/9.4.7.v20170914/jetty-servlet-9.4.7.v20170914.pom (2.1 kB at 152 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-security/9.4.7.v20170914/jetty-security-9.4.7.v20170914.pom
+Progress (1): 1.4/2.0 kB
+Progress (1): 2.0 kB    
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-security/9.4.7.v20170914/jetty-security-9.4.7.v20170914.pom (2.0 kB at 134 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-server/9.4.7.v20170914/jetty-server-9.4.7.v20170914.jar
+Downloading from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-http/9.4.7.v20170914/jetty-http-9.4.7.v20170914.jar
+Downloading from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-util/9.4.7.v20170914/jetty-util-9.4.7.v20170914.jar
+Progress (1): 1.4/165 kB
+Progress (1): 2.7/165 kB
+Progress (1): 4.1/165 kB
+Progress (1): 5.5/165 kB
+Progress (1): 6.9/165 kB
+Progress (1): 8.2/165 kB
+Progress (1): 9.6/165 kB
+Progress (1): 11/165 kB 
+Progress (1): 12/165 kB
+Progress (1): 14/165 kB
+Progress (2): 14/165 kB | 1.4/464 kB
+Progress (2): 15/165 kB | 1.4/464 kB
+Progress (2): 15/165 kB | 2.7/464 kB
+Progress (2): 16/165 kB | 2.7/464 kB
+Progress (2): 16/165 kB | 4.1/464 kB
+Progress (2): 18/165 kB | 4.1/464 kB
+Progress (2): 18/165 kB | 5.5/464 kB
+Progress (2): 19/165 kB | 5.5/464 kB
+Progress (2): 19/165 kB | 6.9/464 kB
+Progress (2): 21/165 kB | 6.9/464 kB
+Progress (2): 21/165 kB | 8.2/464 kB
+Progress (2): 22/165 kB | 8.2/464 kB
+Progress (2): 22/165 kB | 9.6/464 kB
+Progress (2): 23/165 kB | 9.6/464 kB
+Progress (2): 23/165 kB | 11/464 kB 
+Progress (2): 25/165 kB | 11/464 kB
+Progress (2): 25/165 kB | 12/464 kB
+Progress (2): 26/165 kB | 12/464 kB
+Progress (2): 26/165 kB | 14/464 kB
+Progress (2): 27/165 kB | 14/464 kB
+Progress (2): 27/165 kB | 15/464 kB
+Progress (2): 29/165 kB | 15/464 kB
+Progress (2): 29/165 kB | 16/464 kB
+Progress (2): 30/165 kB | 16/464 kB
+Progress (2): 30/165 kB | 18/464 kB
+Progress (2): 32/165 kB | 18/464 kB
+Progress (2): 32/165 kB | 19/464 kB
+Progress (2): 33/165 kB | 19/464 kB
+Progress (2): 33/165 kB | 21/464 kB
+Progress (3): 33/165 kB | 21/464 kB | 1.4/581 kB
+Progress (3): 34/165 kB | 21/464 kB | 1.4/581 kB
+Progress (3): 34/165 kB | 21/464 kB | 2.7/581 kB
+Progress (3): 34/165 kB | 22/464 kB | 2.7/581 kB
+Progress (3): 34/165 kB | 23/464 kB | 2.7/581 kB
+Progress (3): 34/165 kB | 23/464 kB | 4.1/581 kB
+Progress (3): 36/165 kB | 23/464 kB | 4.1/581 kB
+Progress (3): 36/165 kB | 23/464 kB | 5.5/581 kB
+Progress (3): 36/165 kB | 25/464 kB | 5.5/581 kB
+                                                
+Downloading from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-io/9.4.7.v20170914/jetty-io-9.4.7.v20170914.jar
+Progress (3): 36/165 kB | 26/464 kB | 5.5/581 kB
+Progress (3): 36/165 kB | 26/464 kB | 6.9/581 kB
+Progress (3): 37/165 kB | 26/464 kB | 6.9/581 kB
+Progress (3): 37/165 kB | 26/464 kB | 8.2/581 kB
+Progress (3): 38/165 kB | 26/464 kB | 8.2/581 kB
+Progress (3): 38/165 kB | 27/464 kB | 8.2/581 kB
+Progress (3): 40/165 kB | 27/464 kB | 8.2/581 kB
+Progress (3): 40/165 kB | 27/464 kB | 9.6/581 kB
+Progress (3): 41/165 kB | 27/464 kB | 9.6/581 kB
+Progress (3): 43/165 kB | 27/464 kB | 9.6/581 kB
+Progress (3): 43/165 kB | 29/464 kB | 9.6/581 kB
+Progress (3): 44/165 kB | 29/464 kB | 9.6/581 kB
+Progress (3): 44/165 kB | 29/464 kB | 11/581 kB 
+Progress (3): 45/165 kB | 29/464 kB | 11/581 kB
+Progress (3): 47/165 kB | 29/464 kB | 11/581 kB
+Progress (3): 48/165 kB | 29/464 kB | 11/581 kB
+Progress (3): 48/165 kB | 30/464 kB | 11/581 kB
+Progress (3): 49/165 kB | 30/464 kB | 11/581 kB
+Progress (3): 49/165 kB | 30/464 kB | 12/581 kB
+Progress (3): 51/165 kB | 30/464 kB | 12/581 kB
+Progress (3): 51/165 kB | 32/464 kB | 12/581 kB
+Progress (3): 51/165 kB | 33/464 kB | 12/581 kB
+Progress (3): 52/165 kB | 33/464 kB | 12/581 kB
+Progress (3): 52/165 kB | 33/464 kB | 14/581 kB
+Progress (3): 52/165 kB | 33/464 kB | 15/581 kB
+Progress (3): 53/165 kB | 33/464 kB | 15/581 kB
+Progress (3): 53/165 kB | 34/464 kB | 15/581 kB
+Progress (3): 53/165 kB | 36/464 kB | 15/581 kB
+Progress (3): 55/165 kB | 36/464 kB | 15/581 kB
+Progress (3): 55/165 kB | 36/464 kB | 16/581 kB
+Progress (3): 56/165 kB | 36/464 kB | 16/581 kB
+Progress (3): 56/165 kB | 37/464 kB | 16/581 kB
+Progress (4): 56/165 kB | 37/464 kB | 16/581 kB | 1.4/130 kB
+Progress (4): 56/165 kB | 38/464 kB | 16/581 kB | 1.4/130 kB
+Progress (4): 56/165 kB | 40/464 kB | 16/581 kB | 1.4/130 kB
+Progress (4): 58/165 kB | 40/464 kB | 16/581 kB | 1.4/130 kB
+Progress (4): 58/165 kB | 40/464 kB | 18/581 kB | 1.4/130 kB
+Progress (4): 59/165 kB | 40/464 kB | 18/581 kB | 1.4/130 kB
+Progress (4): 59/165 kB | 41/464 kB | 18/581 kB | 1.4/130 kB
+Progress (4): 59/165 kB | 41/464 kB | 18/581 kB | 2.7/130 kB
+Progress (4): 60/165 kB | 41/464 kB | 18/581 kB | 2.7/130 kB
+Progress (4): 60/165 kB | 41/464 kB | 19/581 kB | 2.7/130 kB
+Progress (4): 62/165 kB | 41/464 kB | 19/581 kB | 2.7/130 kB
+Progress (4): 62/165 kB | 43/464 kB | 19/581 kB | 2.7/130 kB
+Progress (4): 63/165 kB | 43/464 kB | 19/581 kB | 2.7/130 kB
+Progress (4): 63/165 kB | 43/464 kB | 21/581 kB | 2.7/130 kB
+Progress (4): 63/165 kB | 43/464 kB | 21/581 kB | 4.1/130 kB
+Progress (4): 63/165 kB | 43/464 kB | 22/581 kB | 4.1/130 kB
+Progress (4): 64/165 kB | 43/464 kB | 22/581 kB | 4.1/130 kB
+Progress (4): 64/165 kB | 44/464 kB | 22/581 kB | 4.1/130 kB
+Progress (4): 66/165 kB | 44/464 kB | 22/581 kB | 4.1/130 kB
+Progress (4): 66/165 kB | 44/464 kB | 23/581 kB | 4.1/130 kB
+Progress (4): 66/165 kB | 44/464 kB | 23/581 kB | 5.5/130 kB
+Progress (4): 66/165 kB | 44/464 kB | 25/581 kB | 5.5/130 kB
+Progress (4): 66/165 kB | 44/464 kB | 26/581 kB | 5.5/130 kB
+Progress (4): 67/165 kB | 44/464 kB | 26/581 kB | 5.5/130 kB
+Progress (4): 67/165 kB | 45/464 kB | 26/581 kB | 5.5/130 kB
+Progress (4): 69/165 kB | 45/464 kB | 26/581 kB | 5.5/130 kB
+Progress (4): 69/165 kB | 45/464 kB | 27/581 kB | 5.5/130 kB
+Progress (4): 69/165 kB | 45/464 kB | 27/581 kB | 6.9/130 kB
+Progress (4): 69/165 kB | 45/464 kB | 29/581 kB | 6.9/130 kB
+Progress (4): 69/165 kB | 45/464 kB | 30/581 kB | 6.9/130 kB
+Progress (4): 70/165 kB | 45/464 kB | 30/581 kB | 6.9/130 kB
+Progress (4): 70/165 kB | 47/464 kB | 30/581 kB | 6.9/130 kB
+Progress (4): 71/165 kB | 47/464 kB | 30/581 kB | 6.9/130 kB
+Progress (4): 71/165 kB | 47/464 kB | 32/581 kB | 6.9/130 kB
+Progress (4): 71/165 kB | 47/464 kB | 32/581 kB | 8.2/130 kB
+Progress (4): 71/165 kB | 47/464 kB | 33/581 kB | 8.2/130 kB
+Progress (4): 73/165 kB | 47/464 kB | 33/581 kB | 8.2/130 kB
+Progress (4): 73/165 kB | 48/464 kB | 33/581 kB | 8.2/130 kB
+Progress (4): 74/165 kB | 48/464 kB | 33/581 kB | 8.2/130 kB
+Progress (4): 74/165 kB | 48/464 kB | 34/581 kB | 8.2/130 kB
+Progress (4): 74/165 kB | 48/464 kB | 34/581 kB | 9.6/130 kB
+Progress (4): 74/165 kB | 48/464 kB | 36/581 kB | 9.6/130 kB
+Progress (4): 75/165 kB | 48/464 kB | 36/581 kB | 9.6/130 kB
+Progress (4): 75/165 kB | 49/464 kB | 36/581 kB | 9.6/130 kB
+Progress (4): 75/165 kB | 51/464 kB | 36/581 kB | 9.6/130 kB
+Progress (4): 77/165 kB | 51/464 kB | 36/581 kB | 9.6/130 kB
+Progress (4): 77/165 kB | 51/464 kB | 37/581 kB | 9.6/130 kB
+Progress (4): 77/165 kB | 51/464 kB | 37/581 kB | 11/130 kB 
+Progress (4): 77/165 kB | 51/464 kB | 38/581 kB | 11/130 kB
+Progress (4): 78/165 kB | 51/464 kB | 38/581 kB | 11/130 kB
+Progress (4): 78/165 kB | 52/464 kB | 38/581 kB | 11/130 kB
+Progress (4): 78/165 kB | 52/464 kB | 40/581 kB | 11/130 kB
+Progress (4): 78/165 kB | 52/464 kB | 40/581 kB | 12/130 kB
+Progress (4): 78/165 kB | 52/464 kB | 41/581 kB | 12/130 kB
+Progress (4): 80/165 kB | 52/464 kB | 41/581 kB | 12/130 kB
+Progress (4): 80/165 kB | 53/464 kB | 41/581 kB | 12/130 kB
+Progress (4): 80/165 kB | 55/464 kB | 41/581 kB | 12/130 kB
+Progress (4): 81/165 kB | 55/464 kB | 41/581 kB | 12/130 kB
+Progress (4): 81/165 kB | 55/464 kB | 43/581 kB | 12/130 kB
+Progress (4): 81/165 kB | 55/464 kB | 43/581 kB | 14/130 kB
+Progress (4): 81/165 kB | 55/464 kB | 44/581 kB | 14/130 kB
+Progress (4): 82/165 kB | 55/464 kB | 44/581 kB | 14/130 kB
+Progress (4): 82/165 kB | 56/464 kB | 44/581 kB | 14/130 kB
+Progress (4): 84/165 kB | 56/464 kB | 44/581 kB | 14/130 kB
+Progress (4): 84/165 kB | 56/464 kB | 45/581 kB | 14/130 kB
+Progress (4): 84/165 kB | 56/464 kB | 45/581 kB | 15/130 kB
+Progress (4): 84/165 kB | 56/464 kB | 47/581 kB | 15/130 kB
+Progress (4): 85/165 kB | 56/464 kB | 47/581 kB | 15/130 kB
+Progress (4): 85/165 kB | 58/464 kB | 47/581 kB | 15/130 kB
+Progress (4): 86/165 kB | 58/464 kB | 47/581 kB | 15/130 kB
+Progress (4): 86/165 kB | 58/464 kB | 47/581 kB | 16/130 kB
+Progress (4): 88/165 kB | 58/464 kB | 47/581 kB | 16/130 kB
+                                                           
+Downloading from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-servlet/9.4.7.v20170914/jetty-servlet-9.4.7.v20170914.jar
+Progress (4): 88/165 kB | 59/464 kB | 47/581 kB | 16/130 kB
+Progress (4): 89/165 kB | 59/464 kB | 47/581 kB | 16/130 kB
+Progress (4): 89/165 kB | 59/464 kB | 47/581 kB | 18/130 kB
+Progress (4): 90/165 kB | 59/464 kB | 47/581 kB | 18/130 kB
+Progress (4): 90/165 kB | 60/464 kB | 47/581 kB | 18/130 kB
+Progress (4): 92/165 kB | 60/464 kB | 47/581 kB | 18/130 kB
+Progress (4): 92/165 kB | 60/464 kB | 47/581 kB | 19/130 kB
+Progress (4): 92/165 kB | 62/464 kB | 47/581 kB | 19/130 kB
+Progress (4): 93/165 kB | 62/464 kB | 47/581 kB | 19/130 kB
+Progress (4): 93/165 kB | 62/464 kB | 47/581 kB | 21/130 kB
+Progress (4): 95/165 kB | 62/464 kB | 47/581 kB | 21/130 kB
+Progress (4): 95/165 kB | 63/464 kB | 47/581 kB | 21/130 kB
+Progress (4): 96/165 kB | 63/464 kB | 47/581 kB | 21/130 kB
+Progress (4): 96/165 kB | 63/464 kB | 47/581 kB | 22/130 kB
+Progress (4): 97/165 kB | 63/464 kB | 47/581 kB | 22/130 kB
+Progress (4): 97/165 kB | 64/464 kB | 47/581 kB | 22/130 kB
+Progress (4): 99/165 kB | 64/464 kB | 47/581 kB | 22/130 kB
+Progress (4): 99/165 kB | 64/464 kB | 47/581 kB | 23/130 kB
+Progress (4): 100/165 kB | 64/464 kB | 47/581 kB | 23/130 kB
+Progress (4): 101/165 kB | 64/464 kB | 47/581 kB | 23/130 kB
+Progress (4): 103/165 kB | 64/464 kB | 47/581 kB | 23/130 kB
+Progress (4): 103/165 kB | 66/464 kB | 47/581 kB | 23/130 kB
+Progress (4): 103/165 kB | 66/464 kB | 47/581 kB | 25/130 kB
+Progress (4): 103/165 kB | 67/464 kB | 47/581 kB | 25/130 kB
+Progress (4): 104/165 kB | 67/464 kB | 47/581 kB | 25/130 kB
+Progress (4): 104/165 kB | 69/464 kB | 47/581 kB | 25/130 kB
+Progress (4): 104/165 kB | 69/464 kB | 47/581 kB | 26/130 kB
+Progress (4): 104/165 kB | 69/464 kB | 47/581 kB | 27/130 kB
+Progress (4): 104/165 kB | 70/464 kB | 47/581 kB | 27/130 kB
+Progress (4): 106/165 kB | 70/464 kB | 47/581 kB | 27/130 kB
+Progress (4): 107/165 kB | 70/464 kB | 47/581 kB | 27/130 kB
+Progress (4): 107/165 kB | 71/464 kB | 47/581 kB | 27/130 kB
+Progress (4): 107/165 kB | 71/464 kB | 47/581 kB | 29/130 kB
+Progress (4): 107/165 kB | 73/464 kB | 47/581 kB | 29/130 kB
+Progress (4): 108/165 kB | 73/464 kB | 47/581 kB | 29/130 kB
+Progress (4): 110/165 kB | 73/464 kB | 47/581 kB | 29/130 kB
+Progress (4): 110/165 kB | 74/464 kB | 47/581 kB | 29/130 kB
+Progress (4): 110/165 kB | 74/464 kB | 47/581 kB | 30/130 kB
+Progress (4): 110/165 kB | 74/464 kB | 47/581 kB | 32/130 kB
+Progress (4): 111/165 kB | 74/464 kB | 47/581 kB | 32/130 kB
+Progress (4): 111/165 kB | 74/464 kB | 47/581 kB | 33/130 kB
+Progress (4): 111/165 kB | 75/464 kB | 47/581 kB | 33/130 kB
+Progress (4): 111/165 kB | 75/464 kB | 47/581 kB | 34/130 kB
+Progress (4): 111/165 kB | 77/464 kB | 47/581 kB | 34/130 kB
+Progress (4): 112/165 kB | 77/464 kB | 47/581 kB | 34/130 kB
+Progress (4): 112/165 kB | 78/464 kB | 47/581 kB | 34/130 kB
+Progress (4): 112/165 kB | 78/464 kB | 47/581 kB | 36/130 kB
+Progress (4): 112/165 kB | 80/464 kB | 47/581 kB | 36/130 kB
+Progress (4): 112/165 kB | 81/464 kB | 47/581 kB | 36/130 kB
+Progress (4): 114/165 kB | 81/464 kB | 47/581 kB | 36/130 kB
+Progress (4): 114/165 kB | 82/464 kB | 47/581 kB | 36/130 kB
+Progress (4): 114/165 kB | 82/464 kB | 47/581 kB | 37/130 kB
+Progress (4): 115/165 kB | 82/464 kB | 47/581 kB | 37/130 kB
+Progress (4): 115/165 kB | 82/464 kB | 47/581 kB | 38/130 kB
+Progress (4): 115/165 kB | 84/464 kB | 47/581 kB | 38/130 kB
+Progress (4): 115/165 kB | 84/464 kB | 47/581 kB | 40/130 kB
+Progress (4): 117/165 kB | 84/464 kB | 47/581 kB | 40/130 kB
+Progress (4): 117/165 kB | 84/464 kB | 47/581 kB | 41/130 kB
+Progress (4): 117/165 kB | 84/464 kB | 47/581 kB | 43/130 kB
+Progress (4): 117/165 kB | 85/464 kB | 47/581 kB | 43/130 kB
+Progress (4): 117/165 kB | 85/464 kB | 47/581 kB | 44/130 kB
+Progress (4): 117/165 kB | 86/464 kB | 47/581 kB | 44/130 kB
+Progress (4): 118/165 kB | 86/464 kB | 47/581 kB | 44/130 kB
+Progress (4): 118/165 kB | 86/464 kB | 47/581 kB | 45/130 kB
+Progress (4): 118/165 kB | 86/464 kB | 47/581 kB | 47/130 kB
+Progress (4): 118/165 kB | 88/464 kB | 47/581 kB | 47/130 kB
+Progress (4): 118/165 kB | 89/464 kB | 47/581 kB | 47/130 kB
+Progress (4): 119/165 kB | 89/464 kB | 47/581 kB | 47/130 kB
+Progress (4): 119/165 kB | 90/464 kB | 47/581 kB | 47/130 kB
+Progress (4): 119/165 kB | 90/464 kB | 47/581 kB | 48/130 kB
+Progress (4): 119/165 kB | 92/464 kB | 47/581 kB | 48/130 kB
+Progress (4): 119/165 kB | 93/464 kB | 47/581 kB | 48/130 kB
+Progress (4): 119/165 kB | 95/464 kB | 47/581 kB | 48/130 kB
+Progress (4): 119/165 kB | 96/464 kB | 47/581 kB | 48/130 kB
+Progress (4): 119/165 kB | 97/464 kB | 47/581 kB | 48/130 kB
+Progress (4): 121/165 kB | 97/464 kB | 47/581 kB | 48/130 kB
+Progress (4): 121/165 kB | 99/464 kB | 47/581 kB | 48/130 kB
+Progress (4): 121/165 kB | 99/464 kB | 47/581 kB | 49/130 kB
+Progress (4): 121/165 kB | 100/464 kB | 47/581 kB | 49/130 kB
+Progress (4): 122/165 kB | 100/464 kB | 47/581 kB | 49/130 kB
+Progress (4): 122/165 kB | 101/464 kB | 47/581 kB | 49/130 kB
+Progress (4): 122/165 kB | 101/464 kB | 47/581 kB | 51/130 kB
+Progress (4): 123/165 kB | 101/464 kB | 47/581 kB | 51/130 kB
+Progress (4): 123/165 kB | 101/464 kB | 47/581 kB | 52/130 kB
+Progress (4): 125/165 kB | 101/464 kB | 47/581 kB | 52/130 kB
+Progress (4): 125/165 kB | 103/464 kB | 47/581 kB | 52/130 kB
+Progress (4): 125/165 kB | 104/464 kB | 47/581 kB | 52/130 kB
+Progress (4): 125/165 kB | 106/464 kB | 47/581 kB | 52/130 kB
+Progress (4): 126/165 kB | 106/464 kB | 47/581 kB | 52/130 kB
+Progress (4): 126/165 kB | 106/464 kB | 47/581 kB | 53/130 kB
+Progress (4): 126/165 kB | 106/464 kB | 47/581 kB | 55/130 kB
+Progress (4): 126/165 kB | 106/464 kB | 47/581 kB | 56/130 kB
+Progress (4): 128/165 kB | 106/464 kB | 47/581 kB | 56/130 kB
+Progress (4): 128/165 kB | 107/464 kB | 47/581 kB | 56/130 kB
+Progress (4): 128/165 kB | 108/464 kB | 47/581 kB | 56/130 kB
+Progress (4): 129/165 kB | 108/464 kB | 47/581 kB | 56/130 kB
+Progress (4): 129/165 kB | 108/464 kB | 47/581 kB | 58/130 kB
+Progress (4): 129/165 kB | 110/464 kB | 47/581 kB | 58/130 kB
+Progress (5): 129/165 kB | 110/464 kB | 47/581 kB | 58/130 kB | 1.4/110 kB
+Progress (5): 129/165 kB | 111/464 kB | 47/581 kB | 58/130 kB | 1.4/110 kB
+Progress (5): 130/165 kB | 111/464 kB | 47/581 kB | 58/130 kB | 1.4/110 kB
+Progress (5): 130/165 kB | 111/464 kB | 47/581 kB | 59/130 kB | 1.4/110 kB
+Progress (5): 132/165 kB | 111/464 kB | 47/581 kB | 59/130 kB | 1.4/110 kB
+Progress (5): 132/165 kB | 112/464 kB | 47/581 kB | 59/130 kB | 1.4/110 kB
+Progress (5): 132/165 kB | 112/464 kB | 47/581 kB | 59/130 kB | 2.7/110 kB
+Progress (5): 132/165 kB | 112/464 kB | 47/581 kB | 59/130 kB | 4.1/110 kB
+Progress (5): 132/165 kB | 112/464 kB | 47/581 kB | 59/130 kB | 5.5/110 kB
+Progress (5): 132/165 kB | 114/464 kB | 47/581 kB | 59/130 kB | 5.5/110 kB
+Progress (5): 132/165 kB | 115/464 kB | 47/581 kB | 59/130 kB | 5.5/110 kB
+Progress (5): 132/165 kB | 117/464 kB | 47/581 kB | 59/130 kB | 5.5/110 kB
+Progress (5): 132/165 kB | 118/464 kB | 47/581 kB | 59/130 kB | 5.5/110 kB
+Progress (5): 133/165 kB | 118/464 kB | 47/581 kB | 59/130 kB | 5.5/110 kB
+Progress (5): 133/165 kB | 118/464 kB | 47/581 kB | 60/130 kB | 5.5/110 kB
+Progress (5): 134/165 kB | 118/464 kB | 47/581 kB | 60/130 kB | 5.5/110 kB
+Progress (5): 134/165 kB | 119/464 kB | 47/581 kB | 60/130 kB | 5.5/110 kB
+Progress (5): 134/165 kB | 119/464 kB | 47/581 kB | 60/130 kB | 6.9/110 kB
+Progress (5): 136/165 kB | 119/464 kB | 47/581 kB | 60/130 kB | 6.9/110 kB
+Progress (5): 136/165 kB | 119/464 kB | 47/581 kB | 62/130 kB | 6.9/110 kB
+Progress (5): 137/165 kB | 119/464 kB | 47/581 kB | 62/130 kB | 6.9/110 kB
+Progress (5): 137/165 kB | 119/464 kB | 47/581 kB | 62/130 kB | 8.2/110 kB
+Progress (5): 137/165 kB | 121/464 kB | 47/581 kB | 62/130 kB | 8.2/110 kB
+Progress (5): 137/165 kB | 122/464 kB | 47/581 kB | 62/130 kB | 8.2/110 kB
+Progress (5): 138/165 kB | 122/464 kB | 47/581 kB | 62/130 kB | 8.2/110 kB
+Progress (5): 138/165 kB | 122/464 kB | 47/581 kB | 62/130 kB | 9.6/110 kB
+Progress (5): 138/165 kB | 122/464 kB | 47/581 kB | 63/130 kB | 9.6/110 kB
+Progress (5): 138/165 kB | 122/464 kB | 47/581 kB | 63/130 kB | 11/110 kB 
+Progress (5): 138/165 kB | 122/464 kB | 47/581 kB | 63/130 kB | 12/110 kB
+Progress (5): 140/165 kB | 122/464 kB | 47/581 kB | 63/130 kB | 12/110 kB
+Progress (5): 140/165 kB | 123/464 kB | 47/581 kB | 63/130 kB | 12/110 kB
+Progress (5): 141/165 kB | 123/464 kB | 47/581 kB | 63/130 kB | 12/110 kB
+Progress (5): 141/165 kB | 123/464 kB | 47/581 kB | 63/130 kB | 14/110 kB
+Progress (5): 141/165 kB | 123/464 kB | 47/581 kB | 63/130 kB | 15/110 kB
+Progress (5): 141/165 kB | 123/464 kB | 47/581 kB | 63/130 kB | 16/110 kB
+Progress (5): 141/165 kB | 123/464 kB | 47/581 kB | 64/130 kB | 16/110 kB
+Progress (5): 141/165 kB | 123/464 kB | 47/581 kB | 64/130 kB | 18/110 kB
+Progress (5): 143/165 kB | 123/464 kB | 47/581 kB | 64/130 kB | 18/110 kB
+Progress (5): 143/165 kB | 125/464 kB | 47/581 kB | 64/130 kB | 18/110 kB
+Progress (5): 144/165 kB | 125/464 kB | 47/581 kB | 64/130 kB | 18/110 kB
+Progress (5): 144/165 kB | 125/464 kB | 47/581 kB | 64/130 kB | 19/110 kB
+Progress (5): 144/165 kB | 125/464 kB | 47/581 kB | 64/130 kB | 21/110 kB
+Progress (5): 144/165 kB | 125/464 kB | 47/581 kB | 64/130 kB | 22/110 kB
+Progress (5): 144/165 kB | 125/464 kB | 47/581 kB | 66/130 kB | 22/110 kB
+Progress (5): 144/165 kB | 125/464 kB | 47/581 kB | 66/130 kB | 23/110 kB
+Progress (5): 145/165 kB | 125/464 kB | 47/581 kB | 66/130 kB | 23/110 kB
+Progress (5): 147/165 kB | 125/464 kB | 47/581 kB | 66/130 kB | 23/110 kB
+Progress (5): 147/165 kB | 126/464 kB | 47/581 kB | 66/130 kB | 23/110 kB
+Progress (5): 147/165 kB | 128/464 kB | 47/581 kB | 66/130 kB | 23/110 kB
+Progress (5): 147/165 kB | 129/464 kB | 47/581 kB | 66/130 kB | 23/110 kB
+Progress (5): 147/165 kB | 130/464 kB | 47/581 kB | 66/130 kB | 23/110 kB
+Progress (5): 147/165 kB | 132/464 kB | 47/581 kB | 66/130 kB | 23/110 kB
+Progress (5): 148/165 kB | 132/464 kB | 47/581 kB | 66/130 kB | 23/110 kB
+Progress (5): 148/165 kB | 132/464 kB | 47/581 kB | 67/130 kB | 23/110 kB
+Progress (5): 149/165 kB | 132/464 kB | 47/581 kB | 67/130 kB | 23/110 kB
+Progress (5): 149/165 kB | 132/464 kB | 47/581 kB | 67/130 kB | 25/110 kB
+Progress (5): 149/165 kB | 132/464 kB | 47/581 kB | 67/130 kB | 26/110 kB
+Progress (5): 149/165 kB | 132/464 kB | 47/581 kB | 67/130 kB | 27/110 kB
+Progress (5): 149/165 kB | 132/464 kB | 47/581 kB | 67/130 kB | 29/110 kB
+Progress (5): 149/165 kB | 132/464 kB | 47/581 kB | 67/130 kB | 30/110 kB
+Progress (5): 149/165 kB | 133/464 kB | 47/581 kB | 67/130 kB | 30/110 kB
+Progress (5): 149/165 kB | 134/464 kB | 47/581 kB | 67/130 kB | 30/110 kB
+Progress (5): 149/165 kB | 134/464 kB | 47/581 kB | 67/130 kB | 32/110 kB
+Progress (5): 151/165 kB | 134/464 kB | 47/581 kB | 67/130 kB | 32/110 kB
+Progress (5): 151/165 kB | 134/464 kB | 47/581 kB | 69/130 kB | 32/110 kB
+Progress (5): 151/165 kB | 134/464 kB | 47/581 kB | 70/130 kB | 32/110 kB
+Progress (5): 152/165 kB | 134/464 kB | 47/581 kB | 70/130 kB | 32/110 kB
+Progress (5): 152/165 kB | 134/464 kB | 47/581 kB | 70/130 kB | 33/110 kB
+Progress (5): 152/165 kB | 134/464 kB | 47/581 kB | 70/130 kB | 34/110 kB
+Progress (5): 152/165 kB | 134/464 kB | 47/581 kB | 70/130 kB | 36/110 kB
+Progress (5): 152/165 kB | 134/464 kB | 47/581 kB | 70/130 kB | 37/110 kB
+Progress (5): 152/165 kB | 136/464 kB | 47/581 kB | 70/130 kB | 37/110 kB
+Progress (5): 152/165 kB | 137/464 kB | 47/581 kB | 70/130 kB | 37/110 kB
+Progress (5): 152/165 kB | 137/464 kB | 47/581 kB | 70/130 kB | 38/110 kB
+Progress (5): 152/165 kB | 137/464 kB | 47/581 kB | 70/130 kB | 40/110 kB
+Progress (5): 152/165 kB | 137/464 kB | 47/581 kB | 70/130 kB | 41/110 kB
+Progress (5): 154/165 kB | 137/464 kB | 47/581 kB | 70/130 kB | 41/110 kB
+Progress (5): 155/165 kB | 137/464 kB | 47/581 kB | 70/130 kB | 41/110 kB
+Progress (5): 155/165 kB | 137/464 kB | 47/581 kB | 71/130 kB | 41/110 kB
+Progress (5): 155/165 kB | 137/464 kB | 47/581 kB | 71/130 kB | 43/110 kB
+Progress (5): 155/165 kB | 138/464 kB | 47/581 kB | 71/130 kB | 43/110 kB
+Progress (5): 155/165 kB | 138/464 kB | 47/581 kB | 71/130 kB | 44/110 kB
+Progress (5): 155/165 kB | 138/464 kB | 47/581 kB | 73/130 kB | 44/110 kB
+Progress (5): 156/165 kB | 138/464 kB | 47/581 kB | 73/130 kB | 44/110 kB
+Progress (5): 156/165 kB | 138/464 kB | 47/581 kB | 74/130 kB | 44/110 kB
+Progress (5): 156/165 kB | 138/464 kB | 47/581 kB | 74/130 kB | 45/110 kB
+Progress (5): 156/165 kB | 140/464 kB | 47/581 kB | 74/130 kB | 45/110 kB
+Progress (5): 156/165 kB | 141/464 kB | 47/581 kB | 74/130 kB | 45/110 kB
+Progress (5): 156/165 kB | 141/464 kB | 47/581 kB | 74/130 kB | 47/110 kB
+Progress (5): 156/165 kB | 141/464 kB | 47/581 kB | 75/130 kB | 47/110 kB
+Progress (5): 156/165 kB | 141/464 kB | 47/581 kB | 77/130 kB | 47/110 kB
+Progress (5): 158/165 kB | 141/464 kB | 47/581 kB | 77/130 kB | 47/110 kB
+Progress (5): 158/165 kB | 141/464 kB | 47/581 kB | 78/130 kB | 47/110 kB
+Progress (5): 158/165 kB | 141/464 kB | 47/581 kB | 78/130 kB | 48/110 kB
+Progress (5): 158/165 kB | 141/464 kB | 47/581 kB | 78/130 kB | 49/110 kB
+Progress (5): 158/165 kB | 141/464 kB | 47/581 kB | 78/130 kB | 51/110 kB
+Progress (5): 158/165 kB | 141/464 kB | 47/581 kB | 78/130 kB | 52/110 kB
+Progress (5): 158/165 kB | 141/464 kB | 47/581 kB | 78/130 kB | 53/110 kB
+Progress (5): 158/165 kB | 141/464 kB | 47/581 kB | 78/130 kB | 55/110 kB
+Progress (5): 158/165 kB | 141/464 kB | 47/581 kB | 78/130 kB | 56/110 kB
+Progress (5): 158/165 kB | 143/464 kB | 47/581 kB | 78/130 kB | 56/110 kB
+Progress (5): 158/165 kB | 143/464 kB | 47/581 kB | 78/130 kB | 58/110 kB
+Progress (5): 158/165 kB | 143/464 kB | 47/581 kB | 78/130 kB | 59/110 kB
+Progress (5): 158/165 kB | 143/464 kB | 47/581 kB | 78/130 kB | 60/110 kB
+Progress (5): 158/165 kB | 143/464 kB | 47/581 kB | 80/130 kB | 60/110 kB
+Progress (5): 158/165 kB | 143/464 kB | 47/581 kB | 81/130 kB | 60/110 kB
+Progress (5): 158/165 kB | 143/464 kB | 47/581 kB | 82/130 kB | 60/110 kB
+Progress (5): 159/165 kB | 143/464 kB | 47/581 kB | 82/130 kB | 60/110 kB
+Progress (5): 160/165 kB | 143/464 kB | 47/581 kB | 82/130 kB | 60/110 kB
+Progress (5): 160/165 kB | 143/464 kB | 47/581 kB | 84/130 kB | 60/110 kB
+Progress (5): 160/165 kB | 144/464 kB | 47/581 kB | 84/130 kB | 60/110 kB
+Progress (5): 160/165 kB | 145/464 kB | 47/581 kB | 84/130 kB | 60/110 kB
+Progress (5): 160/165 kB | 145/464 kB | 47/581 kB | 85/130 kB | 60/110 kB
+Progress (5): 160/165 kB | 145/464 kB | 47/581 kB | 86/130 kB | 60/110 kB
+Progress (5): 162/165 kB | 145/464 kB | 47/581 kB | 86/130 kB | 60/110 kB
+Progress (5): 163/165 kB | 145/464 kB | 47/581 kB | 86/130 kB | 60/110 kB
+Progress (5): 163/165 kB | 145/464 kB | 47/581 kB | 88/130 kB | 60/110 kB
+Progress (5): 163/165 kB | 145/464 kB | 47/581 kB | 89/130 kB | 60/110 kB
+Progress (5): 163/165 kB | 145/464 kB | 47/581 kB | 90/130 kB | 60/110 kB
+Progress (5): 163/165 kB | 145/464 kB | 47/581 kB | 92/130 kB | 60/110 kB
+Progress (5): 163/165 kB | 145/464 kB | 47/581 kB | 93/130 kB | 60/110 kB
+Progress (5): 163/165 kB | 147/464 kB | 47/581 kB | 93/130 kB | 60/110 kB
+Progress (5): 163/165 kB | 147/464 kB | 47/581 kB | 95/130 kB | 60/110 kB
+Progress (5): 165/165 kB | 147/464 kB | 47/581 kB | 95/130 kB | 60/110 kB
+Progress (5): 165/165 kB | 147/464 kB | 47/581 kB | 96/130 kB | 60/110 kB
+Progress (5): 165/165 kB | 148/464 kB | 47/581 kB | 96/130 kB | 60/110 kB
+Progress (5): 165/165 kB | 148/464 kB | 47/581 kB | 97/130 kB | 60/110 kB
+Progress (5): 165/165 kB | 148/464 kB | 47/581 kB | 99/130 kB | 60/110 kB
+Progress (5): 165 kB | 148/464 kB | 47/581 kB | 99/130 kB | 60/110 kB    
+Progress (5): 165 kB | 148/464 kB | 47/581 kB | 100/130 kB | 60/110 kB
+Progress (5): 165 kB | 149/464 kB | 47/581 kB | 100/130 kB | 60/110 kB
+Progress (5): 165 kB | 151/464 kB | 47/581 kB | 100/130 kB | 60/110 kB
+Progress (5): 165 kB | 151/464 kB | 47/581 kB | 100/130 kB | 62/110 kB
+Progress (5): 165 kB | 151/464 kB | 47/581 kB | 101/130 kB | 62/110 kB
+Progress (5): 165 kB | 152/464 kB | 47/581 kB | 101/130 kB | 62/110 kB
+Progress (5): 165 kB | 152/464 kB | 47/581 kB | 101/130 kB | 63/110 kB
+Progress (5): 165 kB | 152/464 kB | 47/581 kB | 101/130 kB | 64/110 kB
+Progress (5): 165 kB | 154/464 kB | 47/581 kB | 101/130 kB | 64/110 kB
+Progress (5): 165 kB | 155/464 kB | 47/581 kB | 101/130 kB | 64/110 kB
+Progress (5): 165 kB | 155/464 kB | 47/581 kB | 103/130 kB | 64/110 kB
+Progress (5): 165 kB | 156/464 kB | 47/581 kB | 103/130 kB | 64/110 kB
+Progress (5): 165 kB | 156/464 kB | 47/581 kB | 103/130 kB | 66/110 kB
+Progress (5): 165 kB | 158/464 kB | 47/581 kB | 103/130 kB | 66/110 kB
+Progress (5): 165 kB | 158/464 kB | 47/581 kB | 104/130 kB | 66/110 kB
+Progress (5): 165 kB | 159/464 kB | 47/581 kB | 104/130 kB | 66/110 kB
+Progress (5): 165 kB | 159/464 kB | 47/581 kB | 104/130 kB | 67/110 kB
+Progress (5): 165 kB | 160/464 kB | 47/581 kB | 104/130 kB | 67/110 kB
+Progress (5): 165 kB | 160/464 kB | 47/581 kB | 106/130 kB | 67/110 kB
+Progress (5): 165 kB | 160/464 kB | 47/581 kB | 106/130 kB | 69/110 kB
+Progress (5): 165 kB | 160/464 kB | 47/581 kB | 106/130 kB | 70/110 kB
+Progress (5): 165 kB | 160/464 kB | 47/581 kB | 106/130 kB | 71/110 kB
+Progress (5): 165 kB | 160/464 kB | 47/581 kB | 106/130 kB | 73/110 kB
+                                                                      
+Downloaded from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-http/9.4.7.v20170914/jetty-http-9.4.7.v20170914.jar (165 kB at 709 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-security/9.4.7.v20170914/jetty-security-9.4.7.v20170914.jar
+Progress (4): 160/464 kB | 47/581 kB | 106/130 kB | 74/110 kB
+Progress (4): 160/464 kB | 47/581 kB | 106/130 kB | 75/110 kB
+Progress (4): 160/464 kB | 47/581 kB | 106/130 kB | 77/110 kB
+Progress (4): 160/464 kB | 47/581 kB | 106/130 kB | 78/110 kB
+Progress (4): 160/464 kB | 47/581 kB | 106/130 kB | 80/110 kB
+Progress (4): 160/464 kB | 47/581 kB | 106/130 kB | 81/110 kB
+Progress (4): 160/464 kB | 47/581 kB | 106/130 kB | 82/110 kB
+Progress (4): 160/464 kB | 47/581 kB | 106/130 kB | 84/110 kB
+Progress (4): 160/464 kB | 47/581 kB | 106/130 kB | 85/110 kB
+Progress (4): 160/464 kB | 47/581 kB | 106/130 kB | 86/110 kB
+Progress (4): 160/464 kB | 47/581 kB | 106/130 kB | 88/110 kB
+Progress (4): 160/464 kB | 47/581 kB | 106/130 kB | 89/110 kB
+Progress (4): 160/464 kB | 47/581 kB | 106/130 kB | 90/110 kB
+Progress (4): 160/464 kB | 47/581 kB | 106/130 kB | 92/110 kB
+Progress (4): 160/464 kB | 47/581 kB | 106/130 kB | 93/110 kB
+Progress (5): 160/464 kB | 47/581 kB | 106/130 kB | 93/110 kB | 1.4/93 kB
+Progress (5): 160/464 kB | 47/581 kB | 106/130 kB | 95/110 kB | 1.4/93 kB
+Progress (5): 160/464 kB | 47/581 kB | 106/130 kB | 95/110 kB | 2.7/93 kB
+Progress (5): 160/464 kB | 47/581 kB | 106/130 kB | 96/110 kB | 2.7/93 kB
+Progress (5): 160/464 kB | 47/581 kB | 106/130 kB | 96/110 kB | 4.1/93 kB
+Progress (5): 160/464 kB | 47/581 kB | 106/130 kB | 96/110 kB | 5.5/93 kB
+Progress (5): 160/464 kB | 47/581 kB | 106/130 kB | 97/110 kB | 5.5/93 kB
+Progress (5): 160/464 kB | 47/581 kB | 106/130 kB | 97/110 kB | 6.9/93 kB
+Progress (5): 160/464 kB | 47/581 kB | 106/130 kB | 99/110 kB | 6.9/93 kB
+Progress (5): 160/464 kB | 47/581 kB | 106/130 kB | 100/110 kB | 6.9/93 kB
+Progress (5): 160/464 kB | 47/581 kB | 106/130 kB | 101/110 kB | 6.9/93 kB
+Progress (5): 160/464 kB | 47/581 kB | 106/130 kB | 101/110 kB | 8.2/93 kB
+Progress (5): 160/464 kB | 47/581 kB | 106/130 kB | 101/110 kB | 9.6/93 kB
+Progress (5): 160/464 kB | 47/581 kB | 106/130 kB | 101/110 kB | 11/93 kB 
+Progress (5): 160/464 kB | 47/581 kB | 106/130 kB | 101/110 kB | 12/93 kB
+Progress (5): 160/464 kB | 47/581 kB | 106/130 kB | 101/110 kB | 14/93 kB
+Progress (5): 160/464 kB | 47/581 kB | 106/130 kB | 101/110 kB | 15/93 kB
+Progress (5): 160/464 kB | 47/581 kB | 106/130 kB | 101/110 kB | 16/93 kB
+Progress (5): 160/464 kB | 47/581 kB | 106/130 kB | 101/110 kB | 18/93 kB
+Progress (5): 160/464 kB | 47/581 kB | 106/130 kB | 101/110 kB | 19/93 kB
+Progress (5): 160/464 kB | 47/581 kB | 106/130 kB | 101/110 kB | 21/93 kB
+Progress (5): 160/464 kB | 47/581 kB | 106/130 kB | 101/110 kB | 22/93 kB
+Progress (5): 160/464 kB | 47/581 kB | 106/130 kB | 101/110 kB | 23/93 kB
+Progress (5): 160/464 kB | 47/581 kB | 106/130 kB | 103/110 kB | 23/93 kB
+Progress (5): 160/464 kB | 47/581 kB | 106/130 kB | 103/110 kB | 25/93 kB
+Progress (5): 160/464 kB | 47/581 kB | 106/130 kB | 104/110 kB | 25/93 kB
+Progress (5): 160/464 kB | 47/581 kB | 106/130 kB | 106/110 kB | 25/93 kB
+Progress (5): 160/464 kB | 48/581 kB | 106/130 kB | 106/110 kB | 25/93 kB
+Progress (5): 160/464 kB | 48/581 kB | 106/130 kB | 107/110 kB | 25/93 kB
+Progress (5): 160/464 kB | 48/581 kB | 106/130 kB | 108/110 kB | 25/93 kB
+Progress (5): 160/464 kB | 48/581 kB | 106/130 kB | 110/110 kB | 25/93 kB
+Progress (5): 160/464 kB | 49/581 kB | 106/130 kB | 110/110 kB | 25/93 kB
+Progress (5): 160/464 kB | 49/581 kB | 106/130 kB | 110 kB | 25/93 kB    
+Progress (5): 160/464 kB | 51/581 kB | 106/130 kB | 110 kB | 25/93 kB
+Progress (5): 160/464 kB | 52/581 kB | 106/130 kB | 110 kB | 25/93 kB
+Progress (5): 162/464 kB | 52/581 kB | 106/130 kB | 110 kB | 25/93 kB
+Progress (5): 162/464 kB | 53/581 kB | 106/130 kB | 110 kB | 25/93 kB
+Progress (5): 162/464 kB | 55/581 kB | 106/130 kB | 110 kB | 25/93 kB
+Progress (5): 163/464 kB | 55/581 kB | 106/130 kB | 110 kB | 25/93 kB
+Progress (5): 163/464 kB | 56/581 kB | 106/130 kB | 110 kB | 25/93 kB
+Progress (5): 163/464 kB | 58/581 kB | 106/130 kB | 110 kB | 25/93 kB
+Progress (5): 163/464 kB | 59/581 kB | 106/130 kB | 110 kB | 25/93 kB
+Progress (5): 165/464 kB | 59/581 kB | 106/130 kB | 110 kB | 25/93 kB
+Progress (5): 166/464 kB | 59/581 kB | 106/130 kB | 110 kB | 25/93 kB
+Progress (5): 166/464 kB | 60/581 kB | 106/130 kB | 110 kB | 25/93 kB
+Progress (5): 166/464 kB | 62/581 kB | 106/130 kB | 110 kB | 25/93 kB
+Progress (5): 166/464 kB | 63/581 kB | 106/130 kB | 110 kB | 25/93 kB
+Progress (5): 166/464 kB | 64/581 kB | 106/130 kB | 110 kB | 25/93 kB
+Progress (5): 166/464 kB | 66/581 kB | 106/130 kB | 110 kB | 25/93 kB
+Progress (5): 166/464 kB | 67/581 kB | 106/130 kB | 110 kB | 25/93 kB
+Progress (5): 166/464 kB | 69/581 kB | 106/130 kB | 110 kB | 25/93 kB
+                                                                     
+Downloaded from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-servlet/9.4.7.v20170914/jetty-servlet-9.4.7.v20170914.jar (110 kB at 447 kB/s)
+Progress (4): 166/464 kB | 70/581 kB | 106/130 kB | 25/93 kB
+Progress (4): 166/464 kB | 71/581 kB | 106/130 kB | 25/93 kB
+Progress (4): 166/464 kB | 73/581 kB | 106/130 kB | 25/93 kB
+Progress (4): 166/464 kB | 74/581 kB | 106/130 kB | 25/93 kB
+Progress (4): 166/464 kB | 75/581 kB | 106/130 kB | 25/93 kB
+Progress (4): 166/464 kB | 77/581 kB | 106/130 kB | 25/93 kB
+Progress (4): 166/464 kB | 78/581 kB | 106/130 kB | 25/93 kB
+Progress (4): 166/464 kB | 80/581 kB | 106/130 kB | 25/93 kB
+Progress (4): 166/464 kB | 81/581 kB | 106/130 kB | 25/93 kB
+Progress (4): 166/464 kB | 82/581 kB | 106/130 kB | 25/93 kB
+Progress (4): 166/464 kB | 84/581 kB | 106/130 kB | 25/93 kB
+Progress (4): 166/464 kB | 85/581 kB | 106/130 kB | 25/93 kB
+Progress (4): 166/464 kB | 86/581 kB | 106/130 kB | 25/93 kB
+Progress (4): 166/464 kB | 88/581 kB | 106/130 kB | 25/93 kB
+Progress (4): 166/464 kB | 89/581 kB | 106/130 kB | 25/93 kB
+Progress (4): 166/464 kB | 90/581 kB | 106/130 kB | 25/93 kB
+Progress (4): 166/464 kB | 92/581 kB | 106/130 kB | 25/93 kB
+Progress (4): 166/464 kB | 93/581 kB | 106/130 kB | 25/93 kB
+Progress (4): 166/464 kB | 95/581 kB | 106/130 kB | 25/93 kB
+Progress (4): 166/464 kB | 96/581 kB | 106/130 kB | 25/93 kB
+Progress (4): 166/464 kB | 97/581 kB | 106/130 kB | 25/93 kB
+Progress (4): 166/464 kB | 99/581 kB | 106/130 kB | 25/93 kB
+Progress (4): 166/464 kB | 100/581 kB | 106/130 kB | 25/93 kB
+Progress (4): 166/464 kB | 101/581 kB | 106/130 kB | 25/93 kB
+Progress (4): 166/464 kB | 103/581 kB | 106/130 kB | 25/93 kB
+Progress (4): 166/464 kB | 104/581 kB | 106/130 kB | 25/93 kB
+Progress (4): 166/464 kB | 106/581 kB | 106/130 kB | 25/93 kB
+Progress (4): 166/464 kB | 107/581 kB | 106/130 kB | 25/93 kB
+Progress (4): 166/464 kB | 108/581 kB | 106/130 kB | 25/93 kB
+Progress (4): 166/464 kB | 110/581 kB | 106/130 kB | 25/93 kB
+Progress (4): 166/464 kB | 111/581 kB | 106/130 kB | 25/93 kB
+Progress (4): 166/464 kB | 112/581 kB | 106/130 kB | 25/93 kB
+Progress (4): 166/464 kB | 114/581 kB | 106/130 kB | 25/93 kB
+Progress (4): 166/464 kB | 115/581 kB | 106/130 kB | 25/93 kB
+Progress (4): 166/464 kB | 117/581 kB | 106/130 kB | 25/93 kB
+Progress (4): 166/464 kB | 118/581 kB | 106/130 kB | 25/93 kB
+Progress (4): 166/464 kB | 119/581 kB | 106/130 kB | 25/93 kB
+Progress (4): 166/464 kB | 121/581 kB | 106/130 kB | 25/93 kB
+Progress (4): 166/464 kB | 122/581 kB | 106/130 kB | 25/93 kB
+Progress (4): 166/464 kB | 123/581 kB | 106/130 kB | 25/93 kB
+Progress (4): 166/464 kB | 125/581 kB | 106/130 kB | 25/93 kB
+Progress (4): 166/464 kB | 126/581 kB | 106/130 kB | 25/93 kB
+Progress (4): 166/464 kB | 128/581 kB | 106/130 kB | 25/93 kB
+Progress (4): 166/464 kB | 129/581 kB | 106/130 kB | 25/93 kB
+Progress (4): 166/464 kB | 130/581 kB | 106/130 kB | 25/93 kB
+Progress (4): 166/464 kB | 132/581 kB | 106/130 kB | 25/93 kB
+Progress (4): 166/464 kB | 133/581 kB | 106/130 kB | 25/93 kB
+Progress (4): 166/464 kB | 134/581 kB | 106/130 kB | 25/93 kB
+Progress (4): 166/464 kB | 136/581 kB | 106/130 kB | 25/93 kB
+Progress (4): 166/464 kB | 137/581 kB | 106/130 kB | 25/93 kB
+Progress (4): 166/464 kB | 138/581 kB | 106/130 kB | 25/93 kB
+Progress (4): 166/464 kB | 140/581 kB | 106/130 kB | 25/93 kB
+Progress (4): 166/464 kB | 141/581 kB | 106/130 kB | 25/93 kB
+Progress (4): 166/464 kB | 143/581 kB | 106/130 kB | 25/93 kB
+Progress (4): 166/464 kB | 144/581 kB | 106/130 kB | 25/93 kB
+Progress (4): 166/464 kB | 145/581 kB | 106/130 kB | 25/93 kB
+Progress (4): 166/464 kB | 147/581 kB | 106/130 kB | 25/93 kB
+Progress (4): 166/464 kB | 148/581 kB | 106/130 kB | 25/93 kB
+Progress (4): 166/464 kB | 149/581 kB | 106/130 kB | 25/93 kB
+Progress (4): 166/464 kB | 151/581 kB | 106/130 kB | 25/93 kB
+Progress (4): 166/464 kB | 152/581 kB | 106/130 kB | 25/93 kB
+Progress (4): 166/464 kB | 154/581 kB | 106/130 kB | 25/93 kB
+Progress (4): 166/464 kB | 155/581 kB | 106/130 kB | 25/93 kB
+Progress (4): 166/464 kB | 156/581 kB | 106/130 kB | 25/93 kB
+Progress (4): 166/464 kB | 158/581 kB | 106/130 kB | 25/93 kB
+Progress (4): 166/464 kB | 159/581 kB | 106/130 kB | 25/93 kB
+Progress (4): 166/464 kB | 160/581 kB | 106/130 kB | 25/93 kB
+Progress (4): 166/464 kB | 162/581 kB | 106/130 kB | 25/93 kB
+Progress (4): 166/464 kB | 162/581 kB | 107/130 kB | 25/93 kB
+Progress (4): 166/464 kB | 162/581 kB | 108/130 kB | 25/93 kB
+Progress (4): 166/464 kB | 163/581 kB | 108/130 kB | 25/93 kB
+Progress (4): 166/464 kB | 165/581 kB | 108/130 kB | 25/93 kB
+Progress (4): 166/464 kB | 166/581 kB | 108/130 kB | 25/93 kB
+Progress (4): 166/464 kB | 166/581 kB | 110/130 kB | 25/93 kB
+Progress (4): 166/464 kB | 167/581 kB | 110/130 kB | 25/93 kB
+Progress (4): 166/464 kB | 169/581 kB | 110/130 kB | 25/93 kB
+Progress (4): 166/464 kB | 169/581 kB | 111/130 kB | 25/93 kB
+Progress (4): 166/464 kB | 169/581 kB | 112/130 kB | 25/93 kB
+Progress (4): 166/464 kB | 169/581 kB | 114/130 kB | 25/93 kB
+Progress (4): 166/464 kB | 170/581 kB | 114/130 kB | 25/93 kB
+Progress (4): 166/464 kB | 171/581 kB | 114/130 kB | 25/93 kB
+Progress (4): 166/464 kB | 173/581 kB | 114/130 kB | 25/93 kB
+Progress (4): 166/464 kB | 174/581 kB | 114/130 kB | 25/93 kB
+Progress (4): 166/464 kB | 174/581 kB | 115/130 kB | 25/93 kB
+Progress (4): 166/464 kB | 174/581 kB | 117/130 kB | 25/93 kB
+Progress (4): 166/464 kB | 174/581 kB | 118/130 kB | 25/93 kB
+Progress (4): 166/464 kB | 174/581 kB | 119/130 kB | 25/93 kB
+Progress (4): 166/464 kB | 174/581 kB | 121/130 kB | 25/93 kB
+Progress (4): 166/464 kB | 174/581 kB | 122/130 kB | 25/93 kB
+Progress (4): 166/464 kB | 174/581 kB | 123/130 kB | 25/93 kB
+Progress (4): 166/464 kB | 174/581 kB | 125/130 kB | 25/93 kB
+Progress (4): 166/464 kB | 174/581 kB | 126/130 kB | 25/93 kB
+Progress (4): 166/464 kB | 174/581 kB | 128/130 kB | 25/93 kB
+Progress (4): 166/464 kB | 174/581 kB | 129/130 kB | 25/93 kB
+Progress (4): 166/464 kB | 174/581 kB | 130 kB | 25/93 kB    
+                                                         
+Downloaded from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-io/9.4.7.v20170914/jetty-io-9.4.7.v20170914.jar (130 kB at 346 kB/s)
+Progress (3): 166/464 kB | 174/581 kB | 26/93 kB
+Progress (3): 166/464 kB | 174/581 kB | 27/93 kB
+Progress (3): 166/464 kB | 174/581 kB | 29/93 kB
+Progress (3): 166/464 kB | 174/581 kB | 30/93 kB
+Progress (3): 166/464 kB | 174/581 kB | 32/93 kB
+Progress (3): 166/464 kB | 174/581 kB | 33/93 kB
+Progress (3): 166/464 kB | 174/581 kB | 34/93 kB
+Progress (3): 166/464 kB | 174/581 kB | 36/93 kB
+Progress (3): 166/464 kB | 174/581 kB | 37/93 kB
+Progress (3): 166/464 kB | 174/581 kB | 38/93 kB
+Progress (3): 166/464 kB | 174/581 kB | 40/93 kB
+Progress (3): 166/464 kB | 174/581 kB | 41/93 kB
+Progress (3): 166/464 kB | 174/581 kB | 43/93 kB
+Progress (3): 166/464 kB | 174/581 kB | 44/93 kB
+Progress (3): 166/464 kB | 174/581 kB | 45/93 kB
+Progress (3): 166/464 kB | 174/581 kB | 47/93 kB
+Progress (3): 166/464 kB | 174/581 kB | 48/93 kB
+Progress (3): 166/464 kB | 174/581 kB | 49/93 kB
+Progress (3): 166/464 kB | 174/581 kB | 51/93 kB
+Progress (3): 166/464 kB | 174/581 kB | 52/93 kB
+Progress (3): 166/464 kB | 174/581 kB | 53/93 kB
+Progress (3): 166/464 kB | 174/581 kB | 55/93 kB
+Progress (3): 166/464 kB | 174/581 kB | 56/93 kB
+Progress (3): 166/464 kB | 174/581 kB | 58/93 kB
+Progress (3): 166/464 kB | 174/581 kB | 59/93 kB
+Progress (3): 166/464 kB | 174/581 kB | 60/93 kB
+Progress (3): 166/464 kB | 174/581 kB | 62/93 kB
+Progress (3): 166/464 kB | 174/581 kB | 63/93 kB
+Progress (3): 166/464 kB | 174/581 kB | 64/93 kB
+Progress (3): 166/464 kB | 174/581 kB | 66/93 kB
+Progress (3): 166/464 kB | 174/581 kB | 67/93 kB
+Progress (3): 166/464 kB | 174/581 kB | 69/93 kB
+Progress (3): 166/464 kB | 174/581 kB | 70/93 kB
+Progress (3): 166/464 kB | 174/581 kB | 71/93 kB
+Progress (3): 166/464 kB | 174/581 kB | 73/93 kB
+Progress (3): 166/464 kB | 174/581 kB | 74/93 kB
+Progress (3): 166/464 kB | 174/581 kB | 75/93 kB
+Progress (3): 166/464 kB | 174/581 kB | 77/93 kB
+Progress (3): 166/464 kB | 174/581 kB | 78/93 kB
+Progress (3): 166/464 kB | 174/581 kB | 80/93 kB
+Progress (3): 166/464 kB | 174/581 kB | 81/93 kB
+Progress (3): 166/464 kB | 174/581 kB | 82/93 kB
+Progress (3): 166/464 kB | 174/581 kB | 84/93 kB
+Progress (3): 167/464 kB | 174/581 kB | 84/93 kB
+Progress (3): 167/464 kB | 174/581 kB | 85/93 kB
+Progress (3): 167/464 kB | 174/581 kB | 86/93 kB
+Progress (3): 167/464 kB | 174/581 kB | 88/93 kB
+Progress (3): 169/464 kB | 174/581 kB | 88/93 kB
+Progress (3): 169/464 kB | 174/581 kB | 89/93 kB
+Progress (3): 169/464 kB | 174/581 kB | 90/93 kB
+Progress (3): 169/464 kB | 174/581 kB | 92/93 kB
+Progress (3): 169/464 kB | 174/581 kB | 93 kB   
+                                             
+Downloaded from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-security/9.4.7.v20170914/jetty-security-9.4.7.v20170914.jar (93 kB at 236 kB/s)
+Progress (2): 169/464 kB | 175/581 kB
+Progress (2): 169/464 kB | 177/581 kB
+Progress (2): 169/464 kB | 178/581 kB
+Progress (2): 169/464 kB | 180/581 kB
+Progress (2): 169/464 kB | 181/581 kB
+Progress (2): 169/464 kB | 182/581 kB
+Progress (2): 169/464 kB | 184/581 kB
+Progress (2): 169/464 kB | 185/581 kB
+Progress (2): 169/464 kB | 186/581 kB
+Progress (2): 169/464 kB | 188/581 kB
+Progress (2): 169/464 kB | 189/581 kB
+Progress (2): 169/464 kB | 191/581 kB
+Progress (2): 169/464 kB | 192/581 kB
+Progress (2): 169/464 kB | 193/581 kB
+Progress (2): 169/464 kB | 195/581 kB
+Progress (2): 169/464 kB | 196/581 kB
+Progress (2): 169/464 kB | 197/581 kB
+Progress (2): 169/464 kB | 199/581 kB
+Progress (2): 169/464 kB | 200/581 kB
+Progress (2): 169/464 kB | 202/581 kB
+Progress (2): 169/464 kB | 203/581 kB
+Progress (2): 169/464 kB | 204/581 kB
+Progress (2): 169/464 kB | 206/581 kB
+Progress (2): 169/464 kB | 207/581 kB
+Progress (2): 169/464 kB | 208/581 kB
+Progress (2): 169/464 kB | 210/581 kB
+Progress (2): 169/464 kB | 211/581 kB
+Progress (2): 169/464 kB | 213/581 kB
+Progress (2): 169/464 kB | 214/581 kB
+Progress (2): 169/464 kB | 215/581 kB
+Progress (2): 169/464 kB | 217/581 kB
+Progress (2): 169/464 kB | 218/581 kB
+Progress (2): 169/464 kB | 219/581 kB
+Progress (2): 169/464 kB | 223/581 kB
+Progress (2): 169/464 kB | 227/581 kB
+Progress (2): 169/464 kB | 231/581 kB
+Progress (2): 169/464 kB | 235/581 kB
+Progress (2): 169/464 kB | 239/581 kB
+Progress (2): 169/464 kB | 243/581 kB
+Progress (2): 169/464 kB | 247/581 kB
+Progress (2): 169/464 kB | 252/581 kB
+Progress (2): 169/464 kB | 256/581 kB
+Progress (2): 169/464 kB | 260/581 kB
+Progress (2): 169/464 kB | 264/581 kB
+Progress (2): 169/464 kB | 268/581 kB
+Progress (2): 169/464 kB | 272/581 kB
+Progress (2): 169/464 kB | 276/581 kB
+Progress (2): 169/464 kB | 280/581 kB
+Progress (2): 169/464 kB | 284/581 kB
+Progress (2): 169/464 kB | 288/581 kB
+Progress (2): 169/464 kB | 292/581 kB
+Progress (2): 169/464 kB | 297/581 kB
+Progress (2): 169/464 kB | 301/581 kB
+Progress (2): 169/464 kB | 305/581 kB
+Progress (2): 169/464 kB | 309/581 kB
+Progress (2): 169/464 kB | 313/581 kB
+Progress (2): 169/464 kB | 317/581 kB
+Progress (2): 169/464 kB | 321/581 kB
+Progress (2): 169/464 kB | 325/581 kB
+Progress (2): 169/464 kB | 329/581 kB
+Progress (2): 169/464 kB | 333/581 kB
+Progress (2): 170/464 kB | 333/581 kB
+Progress (2): 170/464 kB | 338/581 kB
+Progress (2): 170/464 kB | 342/581 kB
+Progress (2): 170/464 kB | 346/581 kB
+Progress (2): 170/464 kB | 350/581 kB
+Progress (2): 171/464 kB | 350/581 kB
+Progress (2): 171/464 kB | 354/581 kB
+Progress (2): 171/464 kB | 358/581 kB
+Progress (2): 171/464 kB | 362/581 kB
+Progress (2): 171/464 kB | 366/581 kB
+Progress (2): 173/464 kB | 366/581 kB
+Progress (2): 174/464 kB | 366/581 kB
+Progress (2): 174/464 kB | 370/581 kB
+Progress (2): 174/464 kB | 374/581 kB
+Progress (2): 174/464 kB | 378/581 kB
+Progress (2): 174/464 kB | 383/581 kB
+Progress (2): 174/464 kB | 387/581 kB
+Progress (2): 174/464 kB | 391/581 kB
+Progress (2): 174/464 kB | 395/581 kB
+Progress (2): 174/464 kB | 399/581 kB
+Progress (2): 174/464 kB | 403/581 kB
+Progress (2): 174/464 kB | 407/581 kB
+Progress (2): 174/464 kB | 411/581 kB
+Progress (2): 174/464 kB | 415/581 kB
+Progress (2): 174/464 kB | 419/581 kB
+Progress (2): 174/464 kB | 424/581 kB
+Progress (2): 174/464 kB | 428/581 kB
+Progress (2): 174/464 kB | 432/581 kB
+Progress (2): 175/464 kB | 432/581 kB
+Progress (2): 175/464 kB | 436/581 kB
+Progress (2): 175/464 kB | 438/581 kB
+Progress (2): 177/464 kB | 438/581 kB
+Progress (2): 178/464 kB | 438/581 kB
+Progress (2): 180/464 kB | 438/581 kB
+Progress (2): 181/464 kB | 438/581 kB
+Progress (2): 181/464 kB | 442/581 kB
+Progress (2): 181/464 kB | 446/581 kB
+Progress (2): 181/464 kB | 450/581 kB
+Progress (2): 181/464 kB | 454/581 kB
+Progress (2): 181/464 kB | 458/581 kB
+Progress (2): 181/464 kB | 463/581 kB
+Progress (2): 181/464 kB | 467/581 kB
+Progress (2): 181/464 kB | 471/581 kB
+Progress (2): 182/464 kB | 471/581 kB
+Progress (2): 182/464 kB | 475/581 kB
+Progress (2): 182/464 kB | 479/581 kB
+Progress (2): 182/464 kB | 483/581 kB
+Progress (2): 182/464 kB | 487/581 kB
+Progress (2): 182/464 kB | 491/581 kB
+Progress (2): 182/464 kB | 495/581 kB
+Progress (2): 182/464 kB | 499/581 kB
+Progress (2): 182/464 kB | 504/581 kB
+Progress (2): 184/464 kB | 504/581 kB
+Progress (2): 185/464 kB | 504/581 kB
+Progress (2): 186/464 kB | 504/581 kB
+Progress (2): 188/464 kB | 504/581 kB
+Progress (2): 189/464 kB | 504/581 kB
+Progress (2): 191/464 kB | 504/581 kB
+Progress (2): 191/464 kB | 508/581 kB
+Progress (2): 191/464 kB | 512/581 kB
+Progress (2): 191/464 kB | 516/581 kB
+Progress (2): 191/464 kB | 520/581 kB
+Progress (2): 192/464 kB | 520/581 kB
+Progress (2): 193/464 kB | 520/581 kB
+Progress (2): 195/464 kB | 520/581 kB
+Progress (2): 196/464 kB | 520/581 kB
+Progress (2): 197/464 kB | 520/581 kB
+Progress (2): 199/464 kB | 520/581 kB
+Progress (2): 199/464 kB | 524/581 kB
+Progress (2): 199/464 kB | 528/581 kB
+Progress (2): 199/464 kB | 532/581 kB
+Progress (2): 199/464 kB | 536/581 kB
+Progress (2): 200/464 kB | 536/581 kB
+Progress (2): 202/464 kB | 536/581 kB
+Progress (2): 203/464 kB | 536/581 kB
+Progress (2): 204/464 kB | 536/581 kB
+Progress (2): 206/464 kB | 536/581 kB
+Progress (2): 207/464 kB | 536/581 kB
+Progress (2): 208/464 kB | 536/581 kB
+Progress (2): 210/464 kB | 536/581 kB
+Progress (2): 210/464 kB | 540/581 kB
+Progress (2): 210/464 kB | 544/581 kB
+Progress (2): 210/464 kB | 549/581 kB
+Progress (2): 210/464 kB | 553/581 kB
+Progress (2): 211/464 kB | 553/581 kB
+Progress (2): 213/464 kB | 553/581 kB
+Progress (2): 214/464 kB | 553/581 kB
+Progress (2): 215/464 kB | 553/581 kB
+Progress (2): 217/464 kB | 553/581 kB
+Progress (2): 218/464 kB | 553/581 kB
+Progress (2): 219/464 kB | 553/581 kB
+Progress (2): 221/464 kB | 553/581 kB
+Progress (2): 222/464 kB | 553/581 kB
+Progress (2): 222/464 kB | 557/581 kB
+Progress (2): 222/464 kB | 561/581 kB
+Progress (2): 222/464 kB | 565/581 kB
+Progress (2): 222/464 kB | 569/581 kB
+Progress (2): 223/464 kB | 569/581 kB
+Progress (2): 225/464 kB | 569/581 kB
+Progress (2): 226/464 kB | 569/581 kB
+Progress (2): 228/464 kB | 569/581 kB
+Progress (2): 228/464 kB | 573/581 kB
+Progress (2): 228/464 kB | 577/581 kB
+Progress (2): 228/464 kB | 581 kB    
+Progress (2): 229/464 kB | 581 kB
+Progress (2): 230/464 kB | 581 kB
+                                 
+Downloaded from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-server/9.4.7.v20170914/jetty-server-9.4.7.v20170914.jar (581 kB at 712 kB/s)
+Progress (1): 232/464 kB
+Progress (1): 233/464 kB
+Progress (1): 234/464 kB
+Progress (1): 236/464 kB
+Progress (1): 237/464 kB
+Progress (1): 239/464 kB
+Progress (1): 240/464 kB
+Progress (1): 241/464 kB
+Progress (1): 243/464 kB
+Progress (1): 244/464 kB
+Progress (1): 245/464 kB
+Progress (1): 247/464 kB
+Progress (1): 248/464 kB
+Progress (1): 250/464 kB
+Progress (1): 251/464 kB
+Progress (1): 252/464 kB
+Progress (1): 254/464 kB
+Progress (1): 255/464 kB
+Progress (1): 256/464 kB
+Progress (1): 258/464 kB
+Progress (1): 259/464 kB
+Progress (1): 260/464 kB
+Progress (1): 262/464 kB
+Progress (1): 263/464 kB
+Progress (1): 265/464 kB
+Progress (1): 266/464 kB
+Progress (1): 267/464 kB
+Progress (1): 269/464 kB
+Progress (1): 270/464 kB
+Progress (1): 271/464 kB
+Progress (1): 273/464 kB
+Progress (1): 274/464 kB
+Progress (1): 276/464 kB
+Progress (1): 277/464 kB
+Progress (1): 278/464 kB
+Progress (1): 280/464 kB
+Progress (1): 281/464 kB
+Progress (1): 282/464 kB
+Progress (1): 284/464 kB
+Progress (1): 285/464 kB
+Progress (1): 287/464 kB
+Progress (1): 288/464 kB
+Progress (1): 289/464 kB
+Progress (1): 291/464 kB
+Progress (1): 292/464 kB
+Progress (1): 293/464 kB
+Progress (1): 295/464 kB
+Progress (1): 296/464 kB
+Progress (1): 298/464 kB
+Progress (1): 299/464 kB
+Progress (1): 300/464 kB
+Progress (1): 302/464 kB
+Progress (1): 303/464 kB
+Progress (1): 304/464 kB
+Progress (1): 306/464 kB
+Progress (1): 307/464 kB
+Progress (1): 308/464 kB
+Progress (1): 310/464 kB
+Progress (1): 311/464 kB
+Progress (1): 313/464 kB
+Progress (1): 314/464 kB
+Progress (1): 315/464 kB
+Progress (1): 317/464 kB
+Progress (1): 318/464 kB
+Progress (1): 319/464 kB
+Progress (1): 321/464 kB
+Progress (1): 322/464 kB
+Progress (1): 324/464 kB
+Progress (1): 325/464 kB
+Progress (1): 326/464 kB
+Progress (1): 328/464 kB
+Progress (1): 328/464 kB
+Progress (1): 332/464 kB
+Progress (1): 337/464 kB
+Progress (1): 341/464 kB
+Progress (1): 345/464 kB
+Progress (1): 349/464 kB
+Progress (1): 353/464 kB
+Progress (1): 357/464 kB
+Progress (1): 361/464 kB
+Progress (1): 365/464 kB
+Progress (1): 369/464 kB
+Progress (1): 373/464 kB
+Progress (1): 378/464 kB
+Progress (1): 382/464 kB
+Progress (1): 386/464 kB
+Progress (1): 390/464 kB
+Progress (1): 394/464 kB
+Progress (1): 398/464 kB
+Progress (1): 402/464 kB
+Progress (1): 406/464 kB
+Progress (1): 410/464 kB
+Progress (1): 414/464 kB
+Progress (1): 418/464 kB
+Progress (1): 423/464 kB
+Progress (1): 427/464 kB
+Progress (1): 431/464 kB
+Progress (1): 435/464 kB
+Progress (1): 439/464 kB
+Progress (1): 443/464 kB
+Progress (1): 447/464 kB
+Progress (1): 451/464 kB
+Progress (1): 455/464 kB
+Progress (1): 459/464 kB
+Progress (1): 464/464 kB
+Progress (1): 464 kB    
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-util/9.4.7.v20170914/jetty-util-9.4.7.v20170914.jar (464 kB at 466 kB/s)
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ jsoup ---
+[INFO] Deleting ./jsoup/target
+[INFO] 
+[INFO] --- maven-resources-plugin:3.0.1:resources (default-resources) @ jsoup ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 3 resources
+[INFO] Copying 3 resources to META-INF/
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.5.1:compile (default-compile) @ jsoup ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 63 source files to ./jsoup/target/classes
+[INFO] ./jsoup/src/main/java/org/jsoup/nodes/Attributes.java: ./jsoup/src/main/java/org/jsoup/nodes/Attributes.java uses or overrides a deprecated API.
+[INFO] ./jsoup/src/main/java/org/jsoup/nodes/Attributes.java: Recompile with -Xlint:deprecation for details.
+[INFO] 
+[INFO] --- animal-sniffer-maven-plugin:1.16:check (animal-sniffer) @ jsoup ---
+[INFO] Checking unresolved references to net.sf.androidscents.signature:android-api-level-8:2.2_r3
+[INFO] 
+[INFO] >>> maven-bundle-plugin:2.5.4:manifest (bundle-manifest) > process-classes @ jsoup >>>
+[INFO] 
+[INFO] --- maven-resources-plugin:3.0.1:resources (default-resources) @ jsoup ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 3 resources
+[INFO] Copying 3 resources to META-INF/
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.5.1:compile (default-compile) @ jsoup ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 63 source files to ./jsoup/target/classes
+[INFO] ./jsoup/src/main/java/org/jsoup/nodes/Attributes.java: ./jsoup/src/main/java/org/jsoup/nodes/Attributes.java uses or overrides a deprecated API.
+[INFO] ./jsoup/src/main/java/org/jsoup/nodes/Attributes.java: Recompile with -Xlint:deprecation for details.
+[INFO] 
+[INFO] --- animal-sniffer-maven-plugin:1.16:check (animal-sniffer) @ jsoup ---
+[INFO] Checking unresolved references to net.sf.androidscents.signature:android-api-level-8:2.2_r3
+[INFO] 
+[INFO] <<< maven-bundle-plugin:2.5.4:manifest (bundle-manifest) < process-classes @ jsoup <<<
+[INFO] 
+[INFO] 
+[INFO] --- maven-bundle-plugin:2.5.4:manifest (bundle-manifest) @ jsoup ---
+[INFO] 
+[INFO] --- maven-resources-plugin:3.0.1:testResources (default-testResources) @ jsoup ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 23 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.5.1:testCompile (default-testCompile) @ jsoup ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 37 source files to ./jsoup/target/test-classes
+[INFO] ./jsoup/src/test/java/org/jsoup/parser/AttributeParseTest.java: Some input files use or override a deprecated API.
+[INFO] ./jsoup/src/test/java/org/jsoup/parser/AttributeParseTest.java: Recompile with -Xlint:deprecation for details.
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ jsoup ---
+[INFO] Surefire report directory: ./jsoup/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running org.jsoup.nodes.TextNodeTest
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.172 sec
+Running org.jsoup.nodes.AttributeTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 sec
+Running org.jsoup.nodes.ElementTest
+Tests run: 84, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.159 sec
+Running org.jsoup.nodes.AttributesTest
+Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 sec
+Running org.jsoup.nodes.FormElementTest
+Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.032 sec
+Running org.jsoup.nodes.DocumentTest
+Tests run: 29, Failures: 0, Errors: 0, Skipped: 1, Time elapsed: 0.131 sec
+Running org.jsoup.nodes.EntitiesTest
+Tests run: 15, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.014 sec
+Running org.jsoup.nodes.DocumentTypeTest
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.019 sec
+Running org.jsoup.nodes.NodeTest
+Tests run: 25, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.03 sec
+Running org.jsoup.integration.ConnectTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.483 sec
+Running org.jsoup.integration.UrlConnectTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 1, Time elapsed: 0.004 sec
+Running org.jsoup.integration.ParseTest
+Tests run: 12, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.18 sec
+Running org.jsoup.internal.ConstrainableInputStreamTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 1, Time elapsed: 0 sec
+Running org.jsoup.parser.XmlTreeBuilderTest
+Tests run: 17, Failures: 0, Errors: 0, Skipped: 1, Time elapsed: 0.025 sec
+Running org.jsoup.parser.ParserSettingsTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.009 sec
+Running org.jsoup.parser.TokenQueueTest
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 sec
+Running org.jsoup.parser.CharacterReaderTest
+Tests run: 20, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.015 sec
+Running org.jsoup.parser.TagTest
+Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 sec
+Running org.jsoup.parser.AttributeParseTest
+Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.013 sec
+Running org.jsoup.parser.HtmlParserTest
+Tests run: 117, Failures: 0, Errors: 0, Skipped: 1, Time elapsed: 0.204 sec
+Running org.jsoup.safety.CleanerTest
+Tests run: 32, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.057 sec
+Running org.jsoup.select.QueryParserTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
+Running org.jsoup.select.ElementsTest
+Tests run: 34, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.062 sec
+Running org.jsoup.select.SelectorTest
+Tests run: 58, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.053 sec
+Running org.jsoup.select.TraversorTest
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 sec
+Running org.jsoup.select.CssTest
+Tests run: 17, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.067 sec
+Running org.jsoup.helper.DataUtilTest
+Tests run: 13, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.022 sec
+Running org.jsoup.helper.W3CDomTest
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.225 sec
+Running org.jsoup.helper.HttpConnectionTest
+Tests run: 21, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 sec
+Running org.jsoup.helper.StringUtilTest
+Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec
+
+Results :
+
+Tests run: 577, Failures: 0, Errors: 0, Skipped: 5
+
+[INFO] 
+[INFO] --- maven-jar-plugin:3.0.2:jar (default-jar) @ jsoup ---
+[INFO] Building jar: ./jsoup/target/jsoup-1.11.1-SNAPSHOT.jar
+[INFO] 
+[INFO] --- maven-javadoc-plugin:3.0.0-M1:jar (attach-javadoc) @ jsoup ---
+[INFO] 
+Loading source files for package org.jsoup.nodes...
+Loading source files for package org.jsoup...
+Loading source files for package org.jsoup.internal...
+Loading source files for package org.jsoup.parser...
+Loading source files for package org.jsoup.safety...
+Loading source files for package org.jsoup.examples...
+Loading source files for package org.jsoup.select...
+Loading source files for package org.jsoup.helper...
+Constructing Javadoc information...
+Standard Doclet version 1.8.0_191
+Building tree for all the packages and classes...
+Generating ./jsoup/target/apidocs/org/jsoup/nodes/Attribute.html...
+Generating ./jsoup/target/apidocs/org/jsoup/nodes/Attributes.html...
+Generating ./jsoup/target/apidocs/org/jsoup/nodes/BooleanAttribute.html...
+Generating ./jsoup/target/apidocs/org/jsoup/nodes/Comment.html...
+Generating ./jsoup/target/apidocs/org/jsoup/nodes/DataNode.html...
+Generating ./jsoup/target/apidocs/org/jsoup/nodes/Document.html...
+Generating ./jsoup/target/apidocs/org/jsoup/nodes/Document.OutputSettings.html...
+Generating ./jsoup/target/apidocs/org/jsoup/nodes/Document.OutputSettings.Syntax.html...
+Generating ./jsoup/target/apidocs/org/jsoup/nodes/Document.QuirksMode.html...
+Generating ./jsoup/target/apidocs/org/jsoup/nodes/DocumentType.html...
+Generating ./jsoup/target/apidocs/org/jsoup/nodes/Element.html...
+Generating ./jsoup/target/apidocs/org/jsoup/nodes/Entities.html...
+Generating ./jsoup/target/apidocs/org/jsoup/nodes/Entities.EscapeMode.html...
+Generating ./jsoup/target/apidocs/org/jsoup/nodes/FormElement.html...
+Generating ./jsoup/target/apidocs/org/jsoup/nodes/Node.html...
+Generating ./jsoup/target/apidocs/org/jsoup/nodes/TextNode.html...
+Generating ./jsoup/target/apidocs/org/jsoup/nodes/XmlDeclaration.html...
+Generating ./jsoup/target/apidocs/org/jsoup/Connection.html...
+Generating ./jsoup/target/apidocs/org/jsoup/Connection.Base.html...
+Generating ./jsoup/target/apidocs/org/jsoup/Connection.KeyVal.html...
+Generating ./jsoup/target/apidocs/org/jsoup/Connection.Method.html...
+Generating ./jsoup/target/apidocs/org/jsoup/Connection.Request.html...
+Generating ./jsoup/target/apidocs/org/jsoup/Connection.Response.html...
+Generating ./jsoup/target/apidocs/org/jsoup/HttpStatusException.html...
+Generating ./jsoup/target/apidocs/org/jsoup/Jsoup.html...
+Generating ./jsoup/target/apidocs/org/jsoup/SerializationException.html...
+Generating ./jsoup/target/apidocs/org/jsoup/UncheckedIOException.html...
+Generating ./jsoup/target/apidocs/org/jsoup/UnsupportedMimeTypeException.html...
+Generating ./jsoup/target/apidocs/org/jsoup/internal/ConstrainableInputStream.html...
+Generating ./jsoup/target/apidocs/org/jsoup/internal/Normalizer.html...
+Generating ./jsoup/target/apidocs/org/jsoup/parser/CharacterReader.html...
+Generating ./jsoup/target/apidocs/org/jsoup/parser/HtmlTreeBuilder.html...
+Generating ./jsoup/target/apidocs/org/jsoup/parser/ParseError.html...
+Generating ./jsoup/target/apidocs/org/jsoup/parser/ParseErrorList.html...
+Generating ./jsoup/target/apidocs/org/jsoup/parser/Parser.html...
+Generating ./jsoup/target/apidocs/org/jsoup/parser/ParseSettings.html...
+Generating ./jsoup/target/apidocs/org/jsoup/parser/Tag.html...
+Generating ./jsoup/target/apidocs/org/jsoup/parser/TokenQueue.html...
+Generating ./jsoup/target/apidocs/org/jsoup/parser/XmlTreeBuilder.html...
+Generating ./jsoup/target/apidocs/org/jsoup/safety/Cleaner.html...
+Generating ./jsoup/target/apidocs/org/jsoup/safety/Whitelist.html...
+Generating ./jsoup/target/apidocs/org/jsoup/examples/HtmlToPlainText.html...
+Generating ./jsoup/target/apidocs/org/jsoup/examples/ListLinks.html...
+Generating ./jsoup/target/apidocs/org/jsoup/select/Collector.html...
+Generating ./jsoup/target/apidocs/org/jsoup/select/Elements.html...
+Generating ./jsoup/target/apidocs/org/jsoup/select/Evaluator.html...
+Generating ./jsoup/target/apidocs/org/jsoup/select/Evaluator.AllElements.html...
+Generating ./jsoup/target/apidocs/org/jsoup/select/Evaluator.Attribute.html...
+Generating ./jsoup/target/apidocs/org/jsoup/select/Evaluator.AttributeKeyPair.html...
+Generating ./jsoup/target/apidocs/org/jsoup/select/Evaluator.AttributeStarting.html...
+Generating ./jsoup/target/apidocs/org/jsoup/select/Evaluator.AttributeWithValue.html...
+Generating ./jsoup/target/apidocs/org/jsoup/select/Evaluator.AttributeWithValueContaining.html...
+Generating ./jsoup/target/apidocs/org/jsoup/select/Evaluator.AttributeWithValueEnding.html...
+Generating ./jsoup/target/apidocs/org/jsoup/select/Evaluator.AttributeWithValueMatching.html...
+Generating ./jsoup/target/apidocs/org/jsoup/select/Evaluator.AttributeWithValueNot.html...
+Generating ./jsoup/target/apidocs/org/jsoup/select/Evaluator.AttributeWithValueStarting.html...
+Generating ./jsoup/target/apidocs/org/jsoup/select/Evaluator.Class.html...
+Generating ./jsoup/target/apidocs/org/jsoup/select/Evaluator.ContainsData.html...
+Generating ./jsoup/target/apidocs/org/jsoup/select/Evaluator.ContainsOwnText.html...
+Generating ./jsoup/target/apidocs/org/jsoup/select/Evaluator.ContainsText.html...
+Generating ./jsoup/target/apidocs/org/jsoup/select/Evaluator.CssNthEvaluator.html...
+Generating ./jsoup/target/apidocs/org/jsoup/select/Evaluator.Id.html...
+Generating ./jsoup/target/apidocs/org/jsoup/select/Evaluator.IndexEquals.html...
+Generating ./jsoup/target/apidocs/org/jsoup/select/Evaluator.IndexEvaluator.html...
+Generating ./jsoup/target/apidocs/org/jsoup/select/Evaluator.IndexGreaterThan.html...
+Generating ./jsoup/target/apidocs/org/jsoup/select/Evaluator.IndexLessThan.html...
+Generating ./jsoup/target/apidocs/org/jsoup/select/Evaluator.IsEmpty.html...
+Generating ./jsoup/target/apidocs/org/jsoup/select/Evaluator.IsFirstChild.html...
+Generating ./jsoup/target/apidocs/org/jsoup/select/Evaluator.IsFirstOfType.html...
+Generating ./jsoup/target/apidocs/org/jsoup/select/Evaluator.IsLastChild.html...
+Generating ./jsoup/target/apidocs/org/jsoup/select/Evaluator.IsLastOfType.html...
+Generating ./jsoup/target/apidocs/org/jsoup/select/Evaluator.IsNthChild.html...
+Generating ./jsoup/target/apidocs/org/jsoup/select/Evaluator.IsNthLastChild.html...
+Generating ./jsoup/target/apidocs/org/jsoup/select/Evaluator.IsNthLastOfType.html...
+Generating ./jsoup/target/apidocs/org/jsoup/select/Evaluator.IsNthOfType.html...
+Generating ./jsoup/target/apidocs/org/jsoup/select/Evaluator.IsOnlyChild.html...
+Generating ./jsoup/target/apidocs/org/jsoup/select/Evaluator.IsOnlyOfType.html...
+Generating ./jsoup/target/apidocs/org/jsoup/select/Evaluator.IsRoot.html...
+Generating ./jsoup/target/apidocs/org/jsoup/select/Evaluator.Matches.html...
+Generating ./jsoup/target/apidocs/org/jsoup/select/Evaluator.MatchesOwn.html...
+Generating ./jsoup/target/apidocs/org/jsoup/select/Evaluator.Tag.html...
+Generating ./jsoup/target/apidocs/org/jsoup/select/Evaluator.TagEndsWith.html...
+Generating ./jsoup/target/apidocs/org/jsoup/select/NodeFilter.html...
+Generating ./jsoup/target/apidocs/org/jsoup/select/NodeFilter.FilterResult.html...
+Generating ./jsoup/target/apidocs/org/jsoup/select/NodeTraversor.html...
+Generating ./jsoup/target/apidocs/org/jsoup/select/NodeVisitor.html...
+Generating ./jsoup/target/apidocs/org/jsoup/select/QueryParser.html...
+Generating ./jsoup/target/apidocs/org/jsoup/select/Selector.html...
+Generating ./jsoup/target/apidocs/org/jsoup/select/Selector.SelectorParseException.html...
+Generating ./jsoup/target/apidocs/org/jsoup/helper/ChangeNotifyingArrayList.html...
+Generating ./jsoup/target/apidocs/org/jsoup/helper/DataUtil.html...
+Generating ./jsoup/target/apidocs/org/jsoup/helper/HttpConnection.html...
+Generating ./jsoup/target/apidocs/org/jsoup/helper/HttpConnection.KeyVal.html...
+Generating ./jsoup/target/apidocs/org/jsoup/helper/HttpConnection.Request.html...
+Generating ./jsoup/target/apidocs/org/jsoup/helper/HttpConnection.Response.html...
+Generating ./jsoup/target/apidocs/org/jsoup/helper/StringUtil.html...
+Generating ./jsoup/target/apidocs/org/jsoup/helper/Validate.html...
+Generating ./jsoup/target/apidocs/org/jsoup/helper/W3CDom.html...
+Generating ./jsoup/target/apidocs/org/jsoup/helper/W3CDom.W3CBuilder.html...
+Generating ./jsoup/target/apidocs/overview-frame.html...
+Generating ./jsoup/target/apidocs/org/jsoup/package-frame.html...
+Generating ./jsoup/target/apidocs/org/jsoup/package-summary.html...
+Generating ./jsoup/target/apidocs/org/jsoup/package-tree.html...
+Generating ./jsoup/target/apidocs/org/jsoup/examples/package-frame.html...
+Generating ./jsoup/target/apidocs/org/jsoup/examples/package-summary.html...
+Generating ./jsoup/target/apidocs/org/jsoup/examples/package-tree.html...
+Generating ./jsoup/target/apidocs/org/jsoup/helper/package-frame.html...
+Generating ./jsoup/target/apidocs/org/jsoup/helper/package-summary.html...
+Generating ./jsoup/target/apidocs/org/jsoup/helper/package-tree.html...
+Generating ./jsoup/target/apidocs/org/jsoup/internal/package-frame.html...
+Generating ./jsoup/target/apidocs/org/jsoup/internal/package-summary.html...
+Generating ./jsoup/target/apidocs/org/jsoup/internal/package-tree.html...
+Generating ./jsoup/target/apidocs/org/jsoup/nodes/package-frame.html...
+Generating ./jsoup/target/apidocs/org/jsoup/nodes/package-summary.html...
+Generating ./jsoup/target/apidocs/org/jsoup/nodes/package-tree.html...
+Generating ./jsoup/target/apidocs/org/jsoup/parser/package-frame.html...
+Generating ./jsoup/target/apidocs/org/jsoup/parser/package-summary.html...
+Generating ./jsoup/target/apidocs/org/jsoup/parser/package-tree.html...
+Generating ./jsoup/target/apidocs/org/jsoup/safety/package-frame.html...
+Generating ./jsoup/target/apidocs/org/jsoup/safety/package-summary.html...
+Generating ./jsoup/target/apidocs/org/jsoup/safety/package-tree.html...
+Generating ./jsoup/target/apidocs/org/jsoup/select/package-frame.html...
+Generating ./jsoup/target/apidocs/org/jsoup/select/package-summary.html...
+Generating ./jsoup/target/apidocs/org/jsoup/select/package-tree.html...
+Generating ./jsoup/target/apidocs/constant-values.html...
+Generating ./jsoup/target/apidocs/serialized-form.html...
+Generating ./jsoup/target/apidocs/org/jsoup/nodes/class-use/TextNode.html...
+Generating ./jsoup/target/apidocs/org/jsoup/nodes/class-use/Attribute.html...
+Generating ./jsoup/target/apidocs/org/jsoup/nodes/class-use/DocumentType.html...
+Generating ./jsoup/target/apidocs/org/jsoup/nodes/class-use/FormElement.html...
+Generating ./jsoup/target/apidocs/org/jsoup/nodes/class-use/XmlDeclaration.html...
+Generating ./jsoup/target/apidocs/org/jsoup/nodes/class-use/Comment.html...
+Generating ./jsoup/target/apidocs/org/jsoup/nodes/class-use/DataNode.html...
+Generating ./jsoup/target/apidocs/org/jsoup/nodes/class-use/Entities.html...
+Generating ./jsoup/target/apidocs/org/jsoup/nodes/class-use/Entities.EscapeMode.html...
+Generating ./jsoup/target/apidocs/org/jsoup/nodes/class-use/Document.html...
+Generating ./jsoup/target/apidocs/org/jsoup/nodes/class-use/Document.OutputSettings.html...
+Generating ./jsoup/target/apidocs/org/jsoup/nodes/class-use/Document.OutputSettings.Syntax.html...
+Generating ./jsoup/target/apidocs/org/jsoup/nodes/class-use/Document.QuirksMode.html...
+Generating ./jsoup/target/apidocs/org/jsoup/nodes/class-use/BooleanAttribute.html...
+Generating ./jsoup/target/apidocs/org/jsoup/nodes/class-use/Node.html...
+Generating ./jsoup/target/apidocs/org/jsoup/nodes/class-use/Element.html...
+Generating ./jsoup/target/apidocs/org/jsoup/nodes/class-use/Attributes.html...
+Generating ./jsoup/target/apidocs/org/jsoup/class-use/HttpStatusException.html...
+Generating ./jsoup/target/apidocs/org/jsoup/class-use/UnsupportedMimeTypeException.html...
+Generating ./jsoup/target/apidocs/org/jsoup/class-use/Connection.html...
+Generating ./jsoup/target/apidocs/org/jsoup/class-use/Connection.Method.html...
+Generating ./jsoup/target/apidocs/org/jsoup/class-use/Connection.Base.html...
+Generating ./jsoup/target/apidocs/org/jsoup/class-use/Connection.Request.html...
+Generating ./jsoup/target/apidocs/org/jsoup/class-use/Connection.Response.html...
+Generating ./jsoup/target/apidocs/org/jsoup/class-use/Connection.KeyVal.html...
+Generating ./jsoup/target/apidocs/org/jsoup/class-use/SerializationException.html...
+Generating ./jsoup/target/apidocs/org/jsoup/class-use/Jsoup.html...
+Generating ./jsoup/target/apidocs/org/jsoup/class-use/UncheckedIOException.html...
+Generating ./jsoup/target/apidocs/org/jsoup/internal/class-use/ConstrainableInputStream.html...
+Generating ./jsoup/target/apidocs/org/jsoup/internal/class-use/Normalizer.html...
+Generating ./jsoup/target/apidocs/org/jsoup/parser/class-use/XmlTreeBuilder.html...
+Generating ./jsoup/target/apidocs/org/jsoup/parser/class-use/ParseSettings.html...
+Generating ./jsoup/target/apidocs/org/jsoup/parser/class-use/TokenQueue.html...
+Generating ./jsoup/target/apidocs/org/jsoup/parser/class-use/HtmlTreeBuilder.html...
+Generating ./jsoup/target/apidocs/org/jsoup/parser/class-use/CharacterReader.html...
+Generating ./jsoup/target/apidocs/org/jsoup/parser/class-use/ParseErrorList.html...
+Generating ./jsoup/target/apidocs/org/jsoup/parser/class-use/ParseError.html...
+Generating ./jsoup/target/apidocs/org/jsoup/parser/class-use/Tag.html...
+Generating ./jsoup/target/apidocs/org/jsoup/parser/class-use/Parser.html...
+Generating ./jsoup/target/apidocs/org/jsoup/safety/class-use/Whitelist.html...
+Generating ./jsoup/target/apidocs/org/jsoup/safety/class-use/Cleaner.html...
+Generating ./jsoup/target/apidocs/org/jsoup/examples/class-use/ListLinks.html...
+Generating ./jsoup/target/apidocs/org/jsoup/examples/class-use/HtmlToPlainText.html...
+Generating ./jsoup/target/apidocs/org/jsoup/select/class-use/NodeVisitor.html...
+Generating ./jsoup/target/apidocs/org/jsoup/select/class-use/NodeFilter.html...
+Generating ./jsoup/target/apidocs/org/jsoup/select/class-use/NodeFilter.FilterResult.html...
+Generating ./jsoup/target/apidocs/org/jsoup/select/class-use/Evaluator.html...
+Generating ./jsoup/target/apidocs/org/jsoup/select/class-use/Evaluator.Tag.html...
+Generating ./jsoup/target/apidocs/org/jsoup/select/class-use/Evaluator.TagEndsWith.html...
+Generating ./jsoup/target/apidocs/org/jsoup/select/class-use/Evaluator.Id.html...
+Generating ./jsoup/target/apidocs/org/jsoup/select/class-use/Evaluator.Class.html...
+Generating ./jsoup/target/apidocs/org/jsoup/select/class-use/Evaluator.Attribute.html...
+Generating ./jsoup/target/apidocs/org/jsoup/select/class-use/Evaluator.AttributeStarting.html...
+Generating ./jsoup/target/apidocs/org/jsoup/select/class-use/Evaluator.AttributeWithValue.html...
+Generating ./jsoup/target/apidocs/org/jsoup/select/class-use/Evaluator.AttributeWithValueNot.html...
+Generating ./jsoup/target/apidocs/org/jsoup/select/class-use/Evaluator.AttributeWithValueStarting.html...
+Generating ./jsoup/target/apidocs/org/jsoup/select/class-use/Evaluator.AttributeWithValueEnding.html...
+Generating ./jsoup/target/apidocs/org/jsoup/select/class-use/Evaluator.AttributeWithValueContaining.html...
+Generating ./jsoup/target/apidocs/org/jsoup/select/class-use/Evaluator.AttributeWithValueMatching.html...
+Generating ./jsoup/target/apidocs/org/jsoup/select/class-use/Evaluator.AttributeKeyPair.html...
+Generating ./jsoup/target/apidocs/org/jsoup/select/class-use/Evaluator.AllElements.html...
+Generating ./jsoup/target/apidocs/org/jsoup/select/class-use/Evaluator.IndexLessThan.html...
+Generating ./jsoup/target/apidocs/org/jsoup/select/class-use/Evaluator.IndexGreaterThan.html...
+Generating ./jsoup/target/apidocs/org/jsoup/select/class-use/Evaluator.IndexEquals.html...
+Generating ./jsoup/target/apidocs/org/jsoup/select/class-use/Evaluator.IsLastChild.html...
+Generating ./jsoup/target/apidocs/org/jsoup/select/class-use/Evaluator.IsFirstOfType.html...
+Generating ./jsoup/target/apidocs/org/jsoup/select/class-use/Evaluator.IsLastOfType.html...
+Generating ./jsoup/target/apidocs/org/jsoup/select/class-use/Evaluator.CssNthEvaluator.html...
+Generating ./jsoup/target/apidocs/org/jsoup/select/class-use/Evaluator.IsNthChild.html...
+Generating ./jsoup/target/apidocs/org/jsoup/select/class-use/Evaluator.IsNthLastChild.html...
+Generating ./jsoup/target/apidocs/org/jsoup/select/class-use/Evaluator.IsNthOfType.html...
+Generating ./jsoup/target/apidocs/org/jsoup/select/class-use/Evaluator.IsNthLastOfType.html...
+Generating ./jsoup/target/apidocs/org/jsoup/select/class-use/Evaluator.IsFirstChild.html...
+Generating ./jsoup/target/apidocs/org/jsoup/select/class-use/Evaluator.IsRoot.html...
+Generating ./jsoup/target/apidocs/org/jsoup/select/class-use/Evaluator.IsOnlyChild.html...
+Generating ./jsoup/target/apidocs/org/jsoup/select/class-use/Evaluator.IsOnlyOfType.html...
+Generating ./jsoup/target/apidocs/org/jsoup/select/class-use/Evaluator.IsEmpty.html...
+Generating ./jsoup/target/apidocs/org/jsoup/select/class-use/Evaluator.IndexEvaluator.html...
+Generating ./jsoup/target/apidocs/org/jsoup/select/class-use/Evaluator.ContainsText.html...
+Generating ./jsoup/target/apidocs/org/jsoup/select/class-use/Evaluator.ContainsData.html...
+Generating ./jsoup/target/apidocs/org/jsoup/select/class-use/Evaluator.ContainsOwnText.html...
+Generating ./jsoup/target/apidocs/org/jsoup/select/class-use/Evaluator.Matches.html...
+Generating ./jsoup/target/apidocs/org/jsoup/select/class-use/Evaluator.MatchesOwn.html...
+Generating ./jsoup/target/apidocs/org/jsoup/select/class-use/Selector.html...
+Generating ./jsoup/target/apidocs/org/jsoup/select/class-use/Selector.SelectorParseException.html...
+Generating ./jsoup/target/apidocs/org/jsoup/select/class-use/QueryParser.html...
+Generating ./jsoup/target/apidocs/org/jsoup/select/class-use/Elements.html...
+Generating ./jsoup/target/apidocs/org/jsoup/select/class-use/Collector.html...
+Generating ./jsoup/target/apidocs/org/jsoup/select/class-use/NodeTraversor.html...
+Generating ./jsoup/target/apidocs/org/jsoup/helper/class-use/W3CDom.html...
+Generating ./jsoup/target/apidocs/org/jsoup/helper/class-use/W3CDom.W3CBuilder.html...
+Generating ./jsoup/target/apidocs/org/jsoup/helper/class-use/HttpConnection.html...
+Generating ./jsoup/target/apidocs/org/jsoup/helper/class-use/HttpConnection.Request.html...
+Generating ./jsoup/target/apidocs/org/jsoup/helper/class-use/HttpConnection.Response.html...
+Generating ./jsoup/target/apidocs/org/jsoup/helper/class-use/HttpConnection.KeyVal.html...
+Generating ./jsoup/target/apidocs/org/jsoup/helper/class-use/Validate.html...
+Generating ./jsoup/target/apidocs/org/jsoup/helper/class-use/StringUtil.html...
+Generating ./jsoup/target/apidocs/org/jsoup/helper/class-use/ChangeNotifyingArrayList.html...
+Generating ./jsoup/target/apidocs/org/jsoup/helper/class-use/DataUtil.html...
+Generating ./jsoup/target/apidocs/org/jsoup/package-use.html...
+Generating ./jsoup/target/apidocs/org/jsoup/examples/package-use.html...
+Generating ./jsoup/target/apidocs/org/jsoup/helper/package-use.html...
+Generating ./jsoup/target/apidocs/org/jsoup/internal/package-use.html...
+Generating ./jsoup/target/apidocs/org/jsoup/nodes/package-use.html...
+Generating ./jsoup/target/apidocs/org/jsoup/parser/package-use.html...
+Generating ./jsoup/target/apidocs/org/jsoup/safety/package-use.html...
+Generating ./jsoup/target/apidocs/org/jsoup/select/package-use.html...
+Building index for all the packages and classes...
+Generating ./jsoup/target/apidocs/overview-tree.html...
+Generating ./jsoup/target/apidocs/index-all.html...
+Generating ./jsoup/target/apidocs/deprecated-list.html...
+Building index for all classes...
+Generating ./jsoup/target/apidocs/allclasses-frame.html...
+Generating ./jsoup/target/apidocs/allclasses-noframe.html...
+Generating ./jsoup/target/apidocs/index.html...
+Generating ./jsoup/target/apidocs/overview-summary.html...
+Generating ./jsoup/target/apidocs/help-doc.html...
+[INFO] Building jar: ./jsoup/target/jsoup-1.11.1-SNAPSHOT-javadoc.jar
+[INFO] 
+[INFO] >>> maven-source-plugin:3.0.1:jar (attach-sources) > generate-sources @ jsoup >>>
+[INFO] 
+[INFO] <<< maven-source-plugin:3.0.1:jar (attach-sources) < generate-sources @ jsoup <<<
+[INFO] 
+[INFO] 
+[INFO] --- maven-source-plugin:3.0.1:jar (attach-sources) @ jsoup ---
+[INFO] Building jar: ./jsoup/target/jsoup-1.11.1-SNAPSHOT-sources.jar
+[INFO] 
+[INFO] --- maven-install-plugin:2.4:install (default-install) @ jsoup ---
+[INFO] Installing ./jsoup/target/jsoup-1.11.1-SNAPSHOT.jar to ./.m2/repository/org/jsoup/jsoup/1.11.1-SNAPSHOT/jsoup-1.11.1-SNAPSHOT.jar
+[INFO] Installing ./jsoup/pom.xml to ./.m2/repository/org/jsoup/jsoup/1.11.1-SNAPSHOT/jsoup-1.11.1-SNAPSHOT.pom
+[INFO] Installing ./jsoup/target/jsoup-1.11.1-SNAPSHOT-javadoc.jar to ./.m2/repository/org/jsoup/jsoup/1.11.1-SNAPSHOT/jsoup-1.11.1-SNAPSHOT-javadoc.jar
+[INFO] Installing ./jsoup/target/jsoup-1.11.1-SNAPSHOT-sources.jar to ./.m2/repository/org/jsoup/jsoup/1.11.1-SNAPSHOT/jsoup-1.11.1-SNAPSHOT-sources.jar
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  19.266 s
+[INFO] Finished at: 
+[INFO] ------------------------------------------------------------------------

@@ -1,0 +1,2 @@
+,Project,Commit,Test_fqn,Test,Tests run,Failure,Error,Skipped,Time
+0,junit4,d573af741a7077d0db032bdb7f331fd4f40439b2,org.junit.tests.AllTests,AllTests,874,0,0,0,8.218

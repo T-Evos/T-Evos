@@ -1,0 +1,164 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ------------------< org.apache.commons:commons-lang3 >------------------
+[INFO] Building Apache Commons Lang 3.12.0-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:3.1.0:clean (default-clean) @ commons-lang3 ---
+[INFO] Deleting ./commons-lang/target
+[INFO] 
+[INFO] --- maven-enforcer-plugin:3.0.0-M3:enforce (enforce-maven-version) @ commons-lang3 ---
+[INFO] 
+[INFO] --- maven-enforcer-plugin:3.0.0-M3:enforce (enforce-maven-3) @ commons-lang3 ---
+[INFO] 
+[INFO] --- apache-rat-plugin:0.13:check (rat-check) @ commons-lang3 ---
+[INFO] Enabled default license matchers.
+[INFO] Will parse SCM ignores for exclusions...
+[INFO] Parsing exclusions from ./commons-lang/.gitignore
+[INFO] Finished adding exclusions from SCM ignore files.
+[INFO] 73 implicit excludes (use -debug for more details).
+[INFO] 14 explicit excludes (use -debug for more details).
+[INFO] 433 resources included (use -debug for more details)
+[INFO] Rat check: Summary over all files. Unapproved: 0, unknown: 0, generated: 0, approved: 428 licenses.
+[INFO] 
+[INFO] --- build-helper-maven-plugin:3.2.0:parse-version (parse-version) @ commons-lang3 ---
+[INFO] 
+[INFO] --- maven-antrun-plugin:1.8:run (javadoc.resources) @ commons-lang3 ---
+[INFO] Executing tasks
+
+main:
+     [copy] Copying 2 files to ./commons-lang/target/apidocs/META-INF
+[INFO] Executed tasks
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.7.0:process (process-resource-bundles) @ commons-lang3 ---
+[INFO] Skipping remote resources execution.
+[INFO] 
+[INFO] --- buildnumber-maven-plugin:1.4:create (default) @ commons-lang3 ---
+[INFO] Executing: /bin/sh -c cd './commons-lang' && 'git' 'rev-parse' '--verify' 'HEAD'
+[INFO] Working directory: ./commons-lang
+[INFO] Storing buildNumber: 3a3c517b4074b752d2e17153b8f8b5ab225b9f92 at timestamp: 1625639996136
+[WARNING] Cannot get the branch information from the git repository: 
+Detecting the current branch failed: fatal: ref HEAD is not a symbolic ref
+
+[INFO] Executing: /bin/sh -c cd './commons-lang' && 'git' 'rev-parse' '--verify' 'HEAD'
+[INFO] Working directory: ./commons-lang
+[INFO] Storing buildScmBranch: UNKNOWN
+[INFO] 
+[INFO] --- maven-resources-plugin:3.1.0:resources (default-resources) @ commons-lang3 ---
+[INFO] Using 'ISO-8859-1' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory ./commons-lang/src/main/resources
+[INFO] Copying 2 resources to META-INF
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.1:compile (default-compile) @ commons-lang3 ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 210 source files to ./commons-lang/target/classes
+[INFO] ./commons-lang/src/main/java/org/apache/commons/lang3/builder/ToStringStyle.java: Some input files use or override a deprecated API.
+[INFO] ./commons-lang/src/main/java/org/apache/commons/lang3/builder/ToStringStyle.java: Recompile with -Xlint:deprecation for details.
+[INFO] ./commons-lang/src/main/java/org/apache/commons/lang3/function/FailableObjIntConsumer.java: Some input files use unchecked or unsafe operations.
+[INFO] ./commons-lang/src/main/java/org/apache/commons/lang3/function/FailableObjIntConsumer.java: Recompile with -Xlint:unchecked for details.
+[INFO] 
+[INFO] --- maven-bundle-plugin:5.1.1:manifest (bundle-manifest) @ commons-lang3 ---
+[INFO] 
+[INFO] --- maven-resources-plugin:3.1.0:testResources (default-testResources) @ commons-lang3 ---
+[INFO] Using 'ISO-8859-1' encoding to copy filtered resources.
+[INFO] Copying 2 resources
+[INFO] Copying 2 resources to META-INF
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.1:testCompile (default-testCompile) @ commons-lang3 ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 182 source files to ./commons-lang/target/test-classes
+[INFO] ./commons-lang/src/test/java/org/apache/commons/lang3/ObjectUtilsTest.java: Some input files use or override a deprecated API.
+[INFO] ./commons-lang/src/test/java/org/apache/commons/lang3/ObjectUtilsTest.java: Recompile with -Xlint:deprecation for details.
+[INFO] ./commons-lang/src/test/java/org/apache/commons/lang3/builder/ReflectionDiffBuilderTest.java: Some input files use unchecked or unsafe operations.
+[INFO] ./commons-lang/src/test/java/org/apache/commons/lang3/builder/ReflectionDiffBuilderTest.java: Recompile with -Xlint:unchecked for details.
+[INFO] 
+[INFO] --- animal-sniffer-maven-plugin:1.19:check (checkAPIcompatibility) @ commons-lang3 ---
+[INFO] Checking unresolved references to org.codehaus.mojo.signature:java18:1.0
+[INFO] 
+[INFO] --- jacoco-maven-plugin:0.8.6:prepare-agent (prepare-agent) @ commons-lang3 ---
+[INFO] argLine set to -javaagent:./.m2/repository/org/jacoco/org.jacoco.agent/0.8.6/org.jacoco.agent-0.8.6-runtime.jar=destfile=./commons-lang/target/jacoco.exec -Xmx512m
+[INFO] 
+[INFO] --- maven-surefire-plugin:3.0.0-M5:test (default-test) @ commons-lang3 ---
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] 
+[INFO] Results:
+[INFO] 
+[INFO] Tests run: 0, Failures: 0, Errors: 0, Skipped: 0
+[INFO] 
+[INFO] 
+[INFO] --- maven-jar-plugin:3.2.0:jar (default-jar) @ commons-lang3 ---
+[INFO] Building jar: ./commons-lang/target/commons-lang3-3.12.0-SNAPSHOT.jar
+[INFO] 
+[INFO] --- maven-site-plugin:3.9.1:attach-descriptor (attach-descriptor) @ commons-lang3 ---
+[INFO] Skipping because packaging 'jar' is not pom.
+[INFO] 
+[INFO] --- maven-jar-plugin:3.2.0:test-jar (default) @ commons-lang3 ---
+[INFO] Building jar: ./commons-lang/target/commons-lang3-3.12.0-SNAPSHOT-tests.jar
+[INFO] 
+[INFO] --- maven-source-plugin:3.2.1:jar-no-fork (create-source-jar) @ commons-lang3 ---
+[INFO] Building jar: ./commons-lang/target/commons-lang3-3.12.0-SNAPSHOT-sources.jar
+[INFO] 
+[INFO] --- maven-source-plugin:3.2.1:test-jar-no-fork (create-source-jar) @ commons-lang3 ---
+[INFO] Building jar: ./commons-lang/target/commons-lang3-3.12.0-SNAPSHOT-test-sources.jar
+[INFO] 
+[INFO] >>> maven-javadoc-plugin:3.2.0:javadoc (create-javadoc-jar) > generate-sources @ commons-lang3 >>>
+[INFO] 
+[INFO] --- maven-enforcer-plugin:3.0.0-M3:enforce (enforce-maven-version) @ commons-lang3 ---
+[INFO] 
+[INFO] --- maven-enforcer-plugin:3.0.0-M3:enforce (enforce-maven-3) @ commons-lang3 ---
+[INFO] 
+[INFO] --- apache-rat-plugin:0.13:check (rat-check) @ commons-lang3 ---
+[INFO] Enabled default license matchers.
+[INFO] Will parse SCM ignores for exclusions...
+[INFO] Parsing exclusions from ./commons-lang/.gitignore
+[INFO] Finished adding exclusions from SCM ignore files.
+[INFO] 73 implicit excludes (use -debug for more details).
+[INFO] 14 explicit excludes (use -debug for more details).
+[INFO] 433 resources included (use -debug for more details)
+[INFO] Rat check: Summary over all files. Unapproved: 0, unknown: 0, generated: 0, approved: 428 licenses.
+[INFO] 
+[INFO] --- build-helper-maven-plugin:3.2.0:parse-version (parse-version) @ commons-lang3 ---
+[INFO] 
+[INFO] --- maven-antrun-plugin:1.8:run (javadoc.resources) @ commons-lang3 ---
+[INFO] Executing tasks
+
+main:
+[INFO] Executed tasks
+[INFO] 
+[INFO] <<< maven-javadoc-plugin:3.2.0:javadoc (create-javadoc-jar) < generate-sources @ commons-lang3 <<<
+[INFO] 
+[INFO] 
+[INFO] --- maven-javadoc-plugin:3.2.0:javadoc (create-javadoc-jar) @ commons-lang3 ---
+[INFO] No previous run data found, generating javadoc.
+[INFO] 
+[INFO] --- maven-javadoc-plugin:3.2.0:jar (create-javadoc-jar) @ commons-lang3 ---
+[INFO] Configuration changed, re-generating javadoc.
+[INFO] Building jar: ./commons-lang/target/commons-lang3-3.12.0-SNAPSHOT-javadoc.jar
+[INFO] 
+[INFO] --- jacoco-maven-plugin:0.8.6:check (check) @ commons-lang3 ---
+[INFO] Loading execution data file ./commons-lang/target/jacoco.exec
+[INFO] Analyzed bundle 'commons-lang3' with 290 classes
+[WARNING] Rule violated for bundle commons-lang3: classes covered ratio is 0.00, but expected minimum is 1.00
+[WARNING] Rule violated for bundle commons-lang3: instructions covered ratio is 0.00, but expected minimum is 0.90
+[WARNING] Rule violated for bundle commons-lang3: methods covered ratio is 0.00, but expected minimum is 0.95
+[WARNING] Rule violated for bundle commons-lang3: branches covered ratio is 0.00, but expected minimum is 0.85
+[WARNING] Rule violated for bundle commons-lang3: lines covered ratio is 0.00, but expected minimum is 0.90
+[WARNING] Rule violated for bundle commons-lang3: complexity covered ratio is 0.00, but expected minimum is 0.85
+[WARNING] Coverage checks have not been met. See log for details.
+[INFO] 
+[INFO] --- maven-install-plugin:2.5.2:install (default-install) @ commons-lang3 ---
+[INFO] Installing ./commons-lang/target/commons-lang3-3.12.0-SNAPSHOT.jar to ./.m2/repository/org/apache/commons/commons-lang3/3.12.0-SNAPSHOT/commons-lang3-3.12.0-SNAPSHOT.jar
+[INFO] Installing ./commons-lang/pom.xml to ./.m2/repository/org/apache/commons/commons-lang3/3.12.0-SNAPSHOT/commons-lang3-3.12.0-SNAPSHOT.pom
+[INFO] Installing ./commons-lang/target/commons-lang3-3.12.0-SNAPSHOT-tests.jar to ./.m2/repository/org/apache/commons/commons-lang3/3.12.0-SNAPSHOT/commons-lang3-3.12.0-SNAPSHOT-tests.jar
+[INFO] Installing ./commons-lang/target/commons-lang3-3.12.0-SNAPSHOT-sources.jar to ./.m2/repository/org/apache/commons/commons-lang3/3.12.0-SNAPSHOT/commons-lang3-3.12.0-SNAPSHOT-sources.jar
+[INFO] Installing ./commons-lang/target/commons-lang3-3.12.0-SNAPSHOT-test-sources.jar to ./.m2/repository/org/apache/commons/commons-lang3/3.12.0-SNAPSHOT/commons-lang3-3.12.0-SNAPSHOT-test-sources.jar
+[INFO] Installing ./commons-lang/target/commons-lang3-3.12.0-SNAPSHOT-javadoc.jar to ./.m2/repository/org/apache/commons/commons-lang3/3.12.0-SNAPSHOT/commons-lang3-3.12.0-SNAPSHOT-javadoc.jar
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  24.849 s
+[INFO] Finished at: 
+[INFO] ------------------------------------------------------------------------

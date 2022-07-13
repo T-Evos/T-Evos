@@ -1,0 +1,120 @@
+[INFO] Scanning for projects...
+[WARNING] The project junit:junit:jar:4.12-SNAPSHOT uses prerequisites which is only intended for maven-plugin projects but not for non maven-plugin projects. For such purposes you should use the maven-enforcer-plugin. See https://maven.apache.org/enforcer/enforcer-rules/requireMavenVersion.html
+[INFO] 
+[INFO] ----------------------------< junit:junit >-----------------------------
+[INFO] Building JUnit 4.12-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ junit ---
+[INFO] Deleting ./junit4/target
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.1.1:enforce (enforce-versions) @ junit ---
+[INFO] 
+[INFO] --- maven-replacer-plugin:1.3.8:replace (default) @ junit ---
+[INFO] Replacement run on 1 file.
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ junit ---
+[INFO] Using 'ISO-8859-1' encoding to copy filtered resources.
+[INFO] Copying 2 resources
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.5.1:compile (default-compile) @ junit ---
+[INFO] Compiling 176 source files to ./junit4/target/classes
+[WARNING] To suppress warnings about obsolete options, use -Xlint:-options.
+./junit4/src/main/java/junit/extensions/TestDecorator.java:[3,22] [deprecation] Assert in junit.framework has been deprecated
+[WARNING] ./junit4/src/main/java/junit/framework/TestCase.java:[76,39] [deprecation] Assert in junit.framework has been deprecated
+[WARNING] ./junit4/src/main/java/junit/extensions/TestDecorator.java:[12,35] [deprecation] Assert in junit.framework has been deprecated
+[WARNING] ./junit4/src/main/java/junit/framework/ComparisonCompactor.java:[23,19] [deprecation] Assert in junit.framework has been deprecated
+[WARNING] ./junit4/src/main/java/junit/framework/ComparisonCompactor.java:[30,15] [deprecation] Assert in junit.framework has been deprecated
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ junit ---
+[INFO] Using 'ISO-8859-1' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory ./junit4/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.5.1:testCompile (default-testCompile) @ junit ---
+[INFO] Compiling 179 source files to ./junit4/target/test-classes
+[WARNING] To suppress warnings about obsolete options, use -Xlint:-options.
+./junit4/src/test/java/org/junit/tests/experimental/rules/TestWatcherTest.java:[3,29] [deprecation] Assert in junit.framework has been deprecated
+[WARNING] ./junit4/src/test/java/org/junit/tests/experimental/rules/MethodRulesTest.java:[20,22] [deprecation] TestWatchman in org.junit.rules has been deprecated
+[WARNING] ./junit4/src/test/java/org/junit/tests/validation/BadlyFormedClassesTest.java:[7,33] [deprecation] JUnit4ClassRunner in org.junit.internal.runners has been deprecated
+[WARNING] ./junit4/src/test/java/org/junit/tests/deprecated/JUnit4ClassRunnerTest.java:[8,33] [deprecation] JUnit4ClassRunner in org.junit.internal.runners has been deprecated
+[WARNING] ./junit4/src/test/java/org/junit/tests/experimental/rules/TestWatchmanTest.java:[3,29] [deprecation] Assert in junit.framework has been deprecated
+[WARNING] ./junit4/src/test/java/org/junit/tests/experimental/rules/TestWatchmanTest.java:[11,22] [deprecation] TestWatchman in org.junit.rules has been deprecated
+[WARNING] ./junit4/src/test/java/org/junit/tests/AllTests.java:[20,33] [deprecation] JUnit4ClassRunnerTest in org.junit.tests.deprecated has been deprecated
+[WARNING] ./junit4/src/test/java/org/junit/tests/running/core/MainRunner.java:[43,23] [deprecation] getInCheck() in SecurityManager has been deprecated
+[WARNING] ./junit4/src/test/java/org/junit/tests/running/core/MainRunner.java:[44,79] [deprecation] getInCheck() in SecurityManager has been deprecated
+[WARNING] ./junit4/src/test/java/org/junit/tests/running/core/MainRunner.java:[179,20] [deprecation] checkMulticast(InetAddress,byte) in SecurityManager has been deprecated
+[WARNING] ./junit4/src/test/java/org/junit/tests/running/core/MainRunner.java:[181,39] [deprecation] checkMulticast(InetAddress,byte) in SecurityManager has been deprecated
+[WARNING] ./junit4/src/test/java/org/junit/tests/running/core/MainRunner.java:[200,23] [deprecation] checkTopLevelWindow(Object) in SecurityManager has been deprecated
+[WARNING] ./junit4/src/test/java/org/junit/tests/running/core/MainRunner.java:[201,60] [deprecation] checkTopLevelWindow(Object) in SecurityManager has been deprecated
+[WARNING] ./junit4/src/test/java/org/junit/tests/running/core/MainRunner.java:[201,114] [deprecation] checkTopLevelWindow(Object) in SecurityManager has been deprecated
+[WARNING] ./junit4/src/test/java/org/junit/tests/running/core/MainRunner.java:[212,20] [deprecation] checkSystemClipboardAccess() in SecurityManager has been deprecated
+[WARNING] ./junit4/src/test/java/org/junit/tests/running/core/MainRunner.java:[214,39] [deprecation] checkSystemClipboardAccess() in SecurityManager has been deprecated
+[WARNING] ./junit4/src/test/java/org/junit/tests/running/core/MainRunner.java:[219,20] [deprecation] checkAwtEventQueueAccess() in SecurityManager has been deprecated
+[WARNING] ./junit4/src/test/java/org/junit/tests/running/core/MainRunner.java:[221,39] [deprecation] checkAwtEventQueueAccess() in SecurityManager has been deprecated
+[WARNING] ./junit4/src/test/java/org/junit/tests/running/core/MainRunner.java:[247,20] [deprecation] checkMemberAccess(Class<?>,int) in SecurityManager has been deprecated
+[WARNING] ./junit4/src/test/java/org/junit/tests/running/core/MainRunner.java:[249,39] [deprecation] checkMemberAccess(Class<?>,int) in SecurityManager has been deprecated
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.3:test (default-test) @ junit ---
+[INFO] Surefire report directory: ./junit4/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running org.junit.tests.AllTests
+Tests run: 730, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 4.417 sec <<< FAILURE!
+inaccessibleBaseClassIsCaughtAtValidation(org.junit.tests.validation.InaccessibleBaseClassTest)  Time elapsed: 5 sec  <<< ERROR!
+java.lang.AssertionError: Expected exception: org.junit.runners.model.InitializationError
+	at org.junit.internal.runners.statements.ExpectException.evaluate(ExpectException.java:33)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:72)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:51)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at org.junit.runners.Suite.runChild(Suite.java:127)
+	at org.junit.runners.Suite.runChild(Suite.java:26)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at junit.framework.JUnit4TestAdapter.run(JUnit4TestAdapter.java:38)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.maven.surefire.junit.JUnitTestSet.execute(JUnitTestSet.java:95)
+	at org.apache.maven.surefire.junit.JUnit3Provider.executeTestSet(JUnit3Provider.java:121)
+	at org.apache.maven.surefire.junit.JUnit3Provider.invoke(JUnit3Provider.java:98)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+
+
+Results :
+
+Tests in error: 
+  inaccessibleBaseClassIsCaughtAtValidation(org.junit.tests.validation.InaccessibleBaseClassTest): Expected exception: org.junit.runners.model.InitializationError
+
+Tests run: 730, Failures: 0, Errors: 1, Skipped: 0
+
+[ERROR] There are test failures.
+
+Please refer to ./junit4/target/surefire-reports for the individual test results.
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  12.927 s
+[INFO] Finished at: 
+[INFO] ------------------------------------------------------------------------

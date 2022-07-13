@@ -1,0 +1,55 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ---------------------< com.google.code.gson:gson >----------------------
+[INFO] Building Gson 2.1-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ gson ---
+[INFO] Deleting ./gson/gson/target
+[INFO] 
+[INFO] --- cobertura-maven-plugin:2.4:clean (clean) @ gson ---
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.0-beta-1:enforce (enforce-maven) @ gson ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ gson ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory ./gson/gson/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.2:compile (default-compile) @ gson ---
+[INFO] Compiling 70 source files to ./gson/gson/target/classes
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ gson ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory ./gson/gson/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.2:testCompile (default-testCompile) @ gson ---
+[INFO] Compiling 78 source files to ./gson/gson/target/test-classes
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] ./gson/gson/src/test/java/com/google/gson/LruCacheTest.java:[31,4] error: cannot find symbol
+[ERROR]  class LruCacheTest
+./gson/gson/src/test/java/com/google/gson/LruCacheTest.java:[45,4] error: cannot find symbol
+[ERROR]  class LruCacheTest
+./gson/gson/src/test/java/com/google/gson/LruCacheTest.java:[57,4] error: cannot find symbol
+[INFO] 3 errors 
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  3.594 s
+[INFO] Finished at: 
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:2.3.2:testCompile (default-testCompile) on project gson: Compilation failure: Compilation failure: 
+[ERROR] ./gson/gson/src/test/java/com/google/gson/LruCacheTest.java:[31,4] error: cannot find symbol
+[ERROR]  class LruCacheTest
+[ERROR] ./gson/gson/src/test/java/com/google/gson/LruCacheTest.java:[45,4] error: cannot find symbol
+[ERROR]  class LruCacheTest
+[ERROR] ./gson/gson/src/test/java/com/google/gson/LruCacheTest.java:[57,4] error: cannot find symbol
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException

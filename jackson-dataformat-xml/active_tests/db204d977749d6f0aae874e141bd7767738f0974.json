@@ -1,0 +1,214 @@
+{
+    "com.fasterxml.jackson.dataformat.xml.RoundtripContentTest": [
+        "testRoundtrip"
+    ],
+    "com.fasterxml.jackson.dataformat.xml.VersionInfoTest": [
+        "testMapperVersions",
+        "testMapperCopy",
+        "testMapperSerialization"
+    ],
+    "com.fasterxml.jackson.dataformat.xml.adapters.TestIssue47Attribute": [
+        "testEmptyStringFromElemAndAttr"
+    ],
+    "com.fasterxml.jackson.dataformat.xml.deser.TestBinaryData": [
+        "testTwoBinaryProps"
+    ],
+    "com.fasterxml.jackson.dataformat.xml.deser.TestDeserialization": [
+        "testFromAttribute",
+        "testMapWithAttr",
+        "testOptionalAttr",
+        "testMissingOptionalAttr",
+        "testRoundTripWithJacksonExample"
+    ],
+    "com.fasterxml.jackson.dataformat.xml.deser.TestEnums": [
+        "testEnum"
+    ],
+    "com.fasterxml.jackson.dataformat.xml.deser.TestStringValues": [
+        "testSimpleStringElement",
+        "testEmptyStringElement",
+        "testMissingString",
+        "testStringWithAttribute",
+        "testStringsWithAttribute",
+        "testStringArrayWithAttribute"
+    ],
+    "com.fasterxml.jackson.dataformat.xml.deser.TestViews": [
+        "testIssue44",
+        "testNullSuppression",
+        "testIssue7"
+    ],
+    "com.fasterxml.jackson.dataformat.xml.incr.IncrementalWritingTest": [
+        "testSimple"
+    ],
+    "com.fasterxml.jackson.dataformat.xml.incr.PartialReadTest": [
+        "testSimpleRead"
+    ],
+    "com.fasterxml.jackson.dataformat.xml.jaxb.AttributesWithJAXBTest": [
+        "testTwoAttributes",
+        "testAttributeAndElement"
+    ],
+    "com.fasterxml.jackson.dataformat.xml.jaxb.ElementWrapperTest": [
+        "testElementWrapper",
+        "testNoElementWrapper"
+    ],
+    "com.fasterxml.jackson.dataformat.xml.jaxb.WithJAXBAnnotationsTest": [
+        "testRootName",
+        "testSerializeAsAttr",
+        "testAsTextWithJAXB",
+        "testPersonAsXml"
+    ],
+    "com.fasterxml.jackson.dataformat.xml.lists.Issue101UnwrappedListAttributesTest": [
+        "testWithTwoAttributes",
+        "testOptionalsWithMissingType"
+    ],
+    "com.fasterxml.jackson.dataformat.xml.lists.ListAnnotationSharingTest": [
+        "testAnnotationSharing"
+    ],
+    "com.fasterxml.jackson.dataformat.xml.lists.ListAsObjectTest": [
+        "testCollection"
+    ],
+    "com.fasterxml.jackson.dataformat.xml.lists.ListDeserializationTest": [
+        "testWrappedList",
+        "testWrappedListBeanDeser",
+        "testWrappedListWithGetters",
+        "testWrappedListWithAttribute",
+        "testUnwrappedListBeanDeser"
+    ],
+    "com.fasterxml.jackson.dataformat.xml.lists.ListRoundtripTest": [
+        "testParentListRoundtrip",
+        "testOptionals",
+        "testListWithAttrOnlyValues"
+    ],
+    "com.fasterxml.jackson.dataformat.xml.lists.ListSerializationTest": [
+        "testSimpleWrappedList",
+        "testStringList"
+    ],
+    "com.fasterxml.jackson.dataformat.xml.lists.NestedUnwrappedListsTest": [
+        "testNested1_2",
+        "testNestedWithEmpty",
+        "testNestedWithEmpty2",
+        "testNested1_2b",
+        "testNested2_1"
+    ],
+    "com.fasterxml.jackson.dataformat.xml.lists.RootListHandlingTest": [
+        "testRenamedRootItem",
+        "testListSerialization",
+        "testArraySerialization"
+    ],
+    "com.fasterxml.jackson.dataformat.xml.lists.UnwrappedListsTest": [
+        "testWrappedLists",
+        "testUnwrappedLists",
+        "testDefaultWrapping",
+        "testOptionalsWithMissingType",
+        "testDefaultWrappingWithEmptyLists"
+    ],
+    "com.fasterxml.jackson.dataformat.xml.lists.WrappedListsTest": [
+        "testEmptyList"
+    ],
+    "com.fasterxml.jackson.dataformat.xml.misc.ArrayConversionsTest": [
+        "testNullXform",
+        "testByteArrayFrom",
+        "testShortArrayToX",
+        "testIntArrayToX",
+        "testLongArrayToX",
+        "testListToIntArray",
+        "testListAsProperty",
+        "testArrayIdentityTransforms"
+    ],
+    "com.fasterxml.jackson.dataformat.xml.misc.ObjectId104Test": [
+        "testSimpleCollectionDeserWithForwardRefs"
+    ],
+    "com.fasterxml.jackson.dataformat.xml.misc.PolymorphicTypesTest": [
+        "testAsClassProperty",
+        "testAsClassObject",
+        "testAsPropertyWithObjectId"
+    ],
+    "com.fasterxml.jackson.dataformat.xml.misc.TextValueTest": [
+        "testSerializeAsText",
+        "testDeserializeAsText",
+        "testIssue24",
+        "testIssue66",
+        "testTextOnlyPojo",
+        "testAlternateTextElementName"
+    ],
+    "com.fasterxml.jackson.dataformat.xml.misc.UnwrappingWithXMLTest": [
+        "testSimpleUnwrappingRoundtrip",
+        "testUnwrappingWithAttribute",
+        "testUnwrappingSubWithAttribute"
+    ],
+    "com.fasterxml.jackson.dataformat.xml.misc.XmlTextTest": [
+        "testXmlTextWithSuppressedValue"
+    ],
+    "com.fasterxml.jackson.dataformat.xml.ser.TestIndentation": [
+        "testSimpleStringBean",
+        "testSimpleIntBean",
+        "testSimpleMap",
+        "testWithAttr",
+        "testEmptyElem"
+    ],
+    "com.fasterxml.jackson.dataformat.xml.ser.TestJDKSerializability": [
+        "testMapper",
+        "testXmlFactory"
+    ],
+    "com.fasterxml.jackson.dataformat.xml.ser.TestNamespaces": [
+        "testRootNamespace"
+    ],
+    "com.fasterxml.jackson.dataformat.xml.ser.TestSerialization": [
+        "testRootName",
+        "testCustomSerializer",
+        "testNakedMap",
+        "testSimpleNsElem",
+        "testSimpleAttrAndElem",
+        "testSimpleAttribute",
+        "testMap"
+    ],
+    "com.fasterxml.jackson.dataformat.xml.ser.TestSerializationAttr": [
+        "testSimpleNsAttr",
+        "testIssue19",
+        "testIssue6",
+        "testIssue117AnySetterAttrs"
+    ],
+    "com.fasterxml.jackson.dataformat.xml.ser.TestSerializationManual": [
+        "testIssue54"
+    ],
+    "com.fasterxml.jackson.dataformat.xml.ser.TestSerializationOrdering": [
+        "testOrdering"
+    ],
+    "com.fasterxml.jackson.dataformat.xml.ser.TestSerializerCustom": [
+        "testIssue42"
+    ],
+    "com.fasterxml.jackson.dataformat.xml.ser.TestXmlDeclaration": [
+        "testXml10Declaration",
+        "testXml11Declaration"
+    ],
+    "com.fasterxml.jackson.dataformat.xml.stream.FormatDetectionTest": [
+        "testSimpleValidXmlDecl",
+        "testSimpleValidRoot",
+        "testSimpleValidDoctype",
+        "testSimpleValidComment",
+        "testSimpleValidPI",
+        "testListViaObjectReader",
+        "testSimpleInvalid",
+        "testSimpleViaObjectReader"
+    ],
+    "com.fasterxml.jackson.dataformat.xml.stream.XmlGeneratorTest": [
+        "testSecondLevelAttribute",
+        "testSimpleAttribute",
+        "testSimpleElement",
+        "testAttrAndElem",
+        "testWriteToFile"
+    ],
+    "com.fasterxml.jackson.dataformat.xml.stream.XmlParserTest": [
+        "testSimplest",
+        "testSimpleWithEmpty",
+        "testSimpleNested",
+        "testRoundTripWithSample",
+        "testForceElementAsArray",
+        "testXmlAttributes"
+    ],
+    "com.fasterxml.jackson.dataformat.xml.stream.XmlTokenStreamTest": [
+        "testSimple",
+        "testRootAttributes",
+        "testEmptyTags",
+        "testNested"
+    ]
+}

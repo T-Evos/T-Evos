@@ -1,0 +1,66 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] --------------------------< org.jsoup:jsoup >---------------------------
+[INFO] Building jsoup 1.8.2-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ jsoup ---
+[INFO] Deleting ./jsoup/target
+[INFO] 
+[INFO] --- maven-resources-plugin:2.4:resources (default-resources) @ jsoup ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 2 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.0.2:compile (default-compile) @ jsoup ---
+[INFO] Compiling 53 source files to ./jsoup/target/classes
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  2.300 s
+[INFO] Finished at: 
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:2.0.2:compile (default-compile) on project jsoup: Compilation failure: Compilation failure: 
+[ERROR] ./jsoup/src/main/java/org/jsoup/nodes/Attributes.java:[14,16] error: cannot find symbol
+[ERROR] 
+[ERROR] could not parse error message:   symbol:   class SerializationException
+[ERROR]   location: package org.jsoup
+[ERROR] ./jsoup/src/main/java/org/jsoup/nodes/Attribute.java:3: error: cannot find symbol
+[ERROR] import org.jsoup.SerializationException;
+[ERROR]                 ^
+[ERROR] 
+[ERROR] could not parse error message:   symbol:   class SerializationException
+[ERROR]   location: package org.jsoup
+[ERROR] ./jsoup/src/main/java/org/jsoup/nodes/Node.java:3: error: cannot find symbol
+[ERROR] import org.jsoup.SerializationException;
+[ERROR]                 ^
+[ERROR] 
+[ERROR] could not parse error message:   symbol:   class SerializationException
+[ERROR]   location: package org.jsoup
+[ERROR] ./jsoup/src/main/java/org/jsoup/nodes/Attributes.java:164: error: cannot find symbol
+[ERROR]         	throw new SerializationException("Attribute serialization failed!", exception);
+[ERROR]         	          ^
+[ERROR] 
+[ERROR] could not parse error message:   symbol:   class SerializationException
+[ERROR]   location: class Attributes
+[ERROR] ./jsoup/src/main/java/org/jsoup/nodes/Attribute.java:84: error: cannot find symbol
+[ERROR]         	throw new SerializationException(String.format("Serialization of the attribute \"%s\" failed!", getKey()) , exception);
+[ERROR]         	          ^
+[ERROR] 
+[ERROR] could not parse error message:   symbol:   class SerializationException
+[ERROR]   location: class Attribute
+[ERROR] ./jsoup/src/main/java/org/jsoup/nodes/Node.java:678: error: cannot find symbol
+[ERROR] 				throw new SerializationException("Node head serialization failed!", exception);
+[ERROR] 				          ^
+[ERROR] 
+[ERROR] could not parse error message:   symbol:   class SerializationException
+[ERROR]   location: class OuterHtmlVisitor
+[ERROR] ./jsoup/src/main/java/org/jsoup/nodes/Node.java:687: error: cannot find symbol
+[ERROR] 					throw new SerializationException("Node tail serialization failed!", exception);
+[ERROR] 					          ^
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException

@@ -1,0 +1,102 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] --------------< org.apache.commons:commons-collections4 >---------------
+[INFO] Building Apache Commons Collections 4.1-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ commons-collections4 ---
+[INFO] Deleting ./commons-collections/target
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.3.1:enforce (enforce-maven-3) @ commons-collections4 ---
+[INFO] 
+[INFO] --- maven-antrun-plugin:1.7:run (javadoc.resources) @ commons-collections4 ---
+[INFO] Executing tasks
+
+main:
+     [copy] Copying 2 files to ./commons-collections/target/apidocs/META-INF
+[INFO] Executed tasks
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.5:process (default) @ commons-collections4 ---
+[INFO] 
+[INFO] --- buildnumber-maven-plugin:1.2:create (default) @ commons-collections4 ---
+[INFO] Checking for local modifications: skipped.
+[INFO] Updating project files from SCM: skipped.
+[INFO] Executing: /bin/sh -c cd ./commons-collections && svn --non-interactive info
+[INFO] Working directory: ./commons-collections
+[INFO] Storing buildNumber: ?????? at timestamp: 1625625096480
+[INFO] Executing: /bin/sh -c cd ./commons-collections && svn --non-interactive info
+[INFO] Working directory: ./commons-collections
+[INFO] Storing buildScmBranch: UNKNOWN_BRANCH
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ commons-collections4 ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory ./commons-collections/src/main/resources
+[INFO] Copying 2 resources to META-INF
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ commons-collections4 ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 301 source files to ./commons-collections/target/classes
+[WARNING] ./commons-collections/src/main/java/org/apache/commons/collections4/iterators/ObjectGraphIterator.java: Some input files use or override a deprecated API.
+[WARNING] ./commons-collections/src/main/java/org/apache/commons/collections4/iterators/ObjectGraphIterator.java: Recompile with -Xlint:deprecation for details.
+[INFO] 
+[INFO] --- maven-bundle-plugin:2.4.0:manifest (bundle-manifest) @ commons-collections4 ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ commons-collections4 ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 158 resources
+[INFO] Copying 2 resources to META-INF
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ commons-collections4 ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 191 source files to ./commons-collections/target/test-classes
+[WARNING] ./commons-collections/src/test/java/org/apache/commons/collections4/TransformerUtilsTest.java: ./commons-collections/src/test/java/org/apache/commons/collections4/TransformerUtilsTest.java uses or overrides a deprecated API.
+[WARNING] ./commons-collections/src/test/java/org/apache/commons/collections4/TransformerUtilsTest.java: Recompile with -Xlint:deprecation for details.
+[INFO] 
+[INFO] --- jacoco-maven-plugin:0.6.4.201312101107:prepare-agent (prepare-agent) @ commons-collections4 ---
+[INFO] argLine set to -javaagent:./.m2/repository/org/jacoco/org.jacoco.agent/0.6.4.201312101107/org.jacoco.agent-0.6.4.201312101107-runtime.jar=destfile=./commons-collections/target/jacoco.exec
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.17:test (default-test) @ commons-collections4 ---
+[INFO] Surefire report directory: ./commons-collections/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Exception in thread "main" java.lang.reflect.InvocationTargetException
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+FATAL ERROR in native method: processing of -javaagent failed
+	at sun.instrument.InstrumentationImpl.loadClassAndStartAgent(InstrumentationImpl.java:386)
+	at sun.instrument.InstrumentationImpl.loadClassAndCallPremain(InstrumentationImpl.java:401)
+Caused by: java.lang.RuntimeException: Class java/util/UUID could not be instrumented.
+	at org.jacoco.agent.rt.internal_6effb9e.core.runtime.ModifiedSystemClassRuntime.createFor(ModifiedSystemClassRuntime.java:138)
+	at org.jacoco.agent.rt.internal_6effb9e.core.runtime.ModifiedSystemClassRuntime.createFor(ModifiedSystemClassRuntime.java:99)
+	at org.jacoco.agent.rt.internal_6effb9e.PreMain.createRuntime(PreMain.java:55)
+	at org.jacoco.agent.rt.internal_6effb9e.PreMain.premain(PreMain.java:47)
+	... 6 more
+Caused by: java.lang.NoSuchFieldException: $jacocoAccess
+	at java.lang.Class.getField(Class.java:1703)
+	at org.jacoco.agent.rt.internal_6effb9e.core.runtime.ModifiedSystemClassRuntime.createFor(ModifiedSystemClassRuntime.java:136)
+	... 9 more
+Aborted (core dumped)
+
+Results :
+
+Tests run: 0, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  10.920 s
+[INFO] Finished at: 
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-surefire-plugin:2.17:test (default-test) on project commons-collections4: Execution default-test of goal org.apache.maven.plugins:maven-surefire-plugin:2.17:test failed: The forked VM terminated without properly saying goodbye. VM crash or System.exit called?
+[ERROR] Command was /bin/sh -c cd ./commons-collections && /usr/lib/jvm/java-8-oracle/jre/bin/java -javaagent:./.m2/repository/org/jacoco/org.jacoco.agent/0.6.4.201312101107/org.jacoco.agent-0.6.4.201312101107-runtime.jar=destfile=./commons-collections/target/jacoco.exec -jar ./commons-collections/target/surefire/surefirebooter7209966958072293943.jar ./commons-collections/target/surefire/surefire234037800274023480tmp ./commons-collections/target/surefire/surefire_06575684602183981775tmp
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/PluginExecutionException

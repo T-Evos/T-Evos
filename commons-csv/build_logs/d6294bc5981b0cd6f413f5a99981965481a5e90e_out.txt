@@ -1,0 +1,93 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] -------------------< org.apache.commons:commons-csv >-------------------
+[INFO] Building Apache Commons CSV 1.0-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ commons-csv ---
+[INFO] Deleting ./commons-csv/target
+[INFO] 
+[INFO] --- maven-antrun-plugin:1.7:run (javadoc.resources) @ commons-csv ---
+[INFO] Executing tasks
+
+main:
+     [copy] Copying 2 files to ./commons-csv/target/apidocs/META-INF
+[INFO] Executed tasks
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.5:process (default) @ commons-csv ---
+[INFO] 
+[INFO] --- buildnumber-maven-plugin:1.2:create (default) @ commons-csv ---
+[INFO] Checking for local modifications: skipped.
+[INFO] Updating project files from SCM: skipped.
+[INFO] Executing: /bin/sh -c cd ./commons-csv && svn --non-interactive info
+[INFO] Working directory: ./commons-csv
+[INFO] Storing buildNumber: ?????? at timestamp: 1655837874005
+[INFO] Executing: /bin/sh -c cd ./commons-csv && svn --non-interactive info
+[INFO] Working directory: ./commons-csv
+[INFO] Storing buildScmBranch: UNKNOWN_BRANCH
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ commons-csv ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory ./commons-csv/src/main/resources
+[INFO] Copying 2 resources to META-INF
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ commons-csv ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 11 source files to ./commons-csv/target/classes
+[INFO] 
+[INFO] --- maven-bundle-plugin:2.4.0:manifest (bundle-manifest) @ commons-csv ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ commons-csv ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 14 resources
+[INFO] Copying 2 resources to META-INF
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ commons-csv ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 14 source files to ./commons-csv/target/test-classes
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.16:test (default-test) @ commons-csv ---
+[INFO] Surefire report directory: ./commons-csv/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running org.apache.commons.csv.CSVFormatTest
+Tests run: 38, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.364 sec - in org.apache.commons.csv.CSVFormatTest
+Running org.apache.commons.csv.LexerTest
+Tests run: 26, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.064 sec - in org.apache.commons.csv.LexerTest
+Running org.apache.commons.csv.CSVRecordTest
+Tests run: 15, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.028 sec - in org.apache.commons.csv.CSVRecordTest
+Running org.apache.commons.csv.FercGovTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.067 sec - in org.apache.commons.csv.FercGovTest
+Running org.apache.commons.csv.AssertionsTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 sec - in org.apache.commons.csv.AssertionsTest
+Running org.apache.commons.csv.CSVFileParserTest
+Tests run: 12, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.042 sec - in org.apache.commons.csv.CSVFileParserTest
+Running org.apache.commons.csv.CSVPrinterTest
+Java HotSpot(TM) 64-Bit Server VM warning: INFO: os::commit_memory(0x00000000ed600000, 121110528, 0) failed; error='Cannot allocate memory' (errno=12)
+#
+# There is insufficient memory for the Java Runtime Environment to continue.
+# Native memory allocation (mmap) failed to map 121110528 bytes for committing reserved memory.
+# An error report file with more information is saved as:
+# ./commons-csv/hs_err_pid5984.log
+
+Results :
+
+Tests run: 95, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  44.337 s
+[INFO] Finished at: 
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-surefire-plugin:2.16:test (default-test) on project commons-csv: Execution default-test of goal org.apache.maven.plugins:maven-surefire-plugin:2.16:test failed: The forked VM terminated without saying properly goodbye. VM crash or System.exit called ?
+[ERROR] Command was/bin/sh -c cd ./commons-csv && /usr/lib/jvm/java-8-oracle/jre/bin/java -jar ./commons-csv/target/surefire/surefirebooter1323899723550447532.jar ./commons-csv/target/surefire/surefire3849748414082437029tmp ./commons-csv/target/surefire/surefire_04556889173783816467tmp
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/PluginExecutionException

@@ -1,0 +1,64 @@
+[INFO] Scanning for projects...
+[INFO] Inspecting build with total of 1 modules...
+[INFO] Installing Nexus Staging features:
+[INFO]   ... total of 1 executions of maven-deploy-plugin replaced with nexus-staging-maven-plugin
+[INFO] 
+[INFO] ----------------------< org.jfree:jfreechart-fx >-----------------------
+[INFO] Building JFreeChart 1.0.20-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ jfreechart-fx ---
+[INFO] Deleting ./jfreechart/target
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.2:enforce (enforce-maven) @ jfreechart-fx ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ jfreechart-fx ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 12 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ jfreechart-fx ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 617 source files to ./jfreechart/target/classes
+[WARNING] ./jfreechart/source/org/jfree/chart/plot/ContourPlotUtilities.java: Some input files use or override a deprecated API.
+[WARNING] ./jfreechart/source/org/jfree/chart/plot/ContourPlotUtilities.java: Recompile with -Xlint:deprecation for details.
+[WARNING] ./jfreechart/source/org/jfree/chart/JFreeChart.java: Some input files use unchecked or unsafe operations.
+[WARNING] ./jfreechart/source/org/jfree/chart/JFreeChart.java: Recompile with -Xlint:unchecked for details.
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ jfreechart-fx ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory ./jfreechart/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ jfreechart-fx ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.10:test (default-test) @ jfreechart-fx ---
+[INFO] No tests to run.
+[INFO] Surefire report directory: ./jfreechart/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+
+Results :
+
+Tests run: 0, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] 
+[INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ jfreechart-fx ---
+[INFO] Building jar: ./jfreechart/target/jfreechart-fx-1.0.20-SNAPSHOT.jar
+[INFO] 
+[INFO] --- maven-gpg-plugin:1.5:sign (sign-artifacts) @ jfreechart-fx ---
+/bin/sh: gpg: command not found
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  9.105 s
+[INFO] Finished at: 
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-gpg-plugin:1.5:sign (sign-artifacts) on project jfreechart-fx: Exit code: 127 -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoExecutionException

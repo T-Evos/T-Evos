@@ -1,0 +1,306 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] --------------< com.fasterxml.jackson.core:jackson-core >---------------
+[INFO] Building Jackson-core 2.10.0-SNAPSHOT
+[INFO] -------------------------------[ bundle ]-------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.6.1:clean (default-clean) @ jackson-core ---
+[INFO] Deleting ./jackson-core/target
+[INFO] 
+[INFO] --- maven-enforcer-plugin:3.0.0-M1:enforce (enforce-java) @ jackson-core ---
+[INFO] 
+[INFO] --- maven-enforcer-plugin:3.0.0-M1:enforce (enforce-properties) @ jackson-core ---
+[INFO] 
+[INFO] --- build-helper-maven-plugin:1.7:add-source (add-generated-sources) @ jackson-core ---
+[INFO] Source directory: ./jackson-core/target/generated-sources added.
+[INFO] 
+[INFO] --- replacer:1.5.3:replace (process-packageVersion) @ jackson-core ---
+[INFO] Replacement run on 1 file.
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:resources (default-resources) @ jackson-core ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.7.0:compile (default-compile) @ jackson-core ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 103 source files to ./jackson-core/target/classes
+[WARNING] bootstrap class path not set in conjunction with -source 1.6
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:testResources (default-testResources) @ jackson-core ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 2 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.7.0:testCompile (default-testCompile) @ jackson-core ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 137 source files to ./jackson-core/target/test-classes
+[WARNING] bootstrap class path not set in conjunction with -source 1.6
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.17:test (default-test) @ jackson-core ---
+[INFO] Surefire report directory: ./jackson-core/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running com.fasterxml.jackson.core.sym.TestByteBasedSymbols
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.075 sec - in com.fasterxml.jackson.core.sym.TestByteBasedSymbols
+Running com.fasterxml.jackson.core.sym.TestSymbolsWithMediaItem
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.01 sec - in com.fasterxml.jackson.core.sym.TestSymbolsWithMediaItem
+Running com.fasterxml.jackson.core.sym.SymbolTableMergingTest
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.016 sec - in com.fasterxml.jackson.core.sym.SymbolTableMergingTest
+Running com.fasterxml.jackson.core.sym.SymbolsViaParserTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.029 sec - in com.fasterxml.jackson.core.sym.SymbolsViaParserTest
+Running com.fasterxml.jackson.core.sym.TestSymbolTables
+Tests run: 14, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.386 sec - in com.fasterxml.jackson.core.sym.TestSymbolTables
+Running com.fasterxml.jackson.core.sym.TestHashCollisionChars
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 sec - in com.fasterxml.jackson.core.sym.TestHashCollisionChars
+Running com.fasterxml.jackson.core.PointerFromContextTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.015 sec - in com.fasterxml.jackson.core.PointerFromContextTest
+Running com.fasterxml.jackson.core.util.TestSerializedString
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.017 sec - in com.fasterxml.jackson.core.util.TestSerializedString
+Running com.fasterxml.jackson.core.util.SeparatorsTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.042 sec - in com.fasterxml.jackson.core.util.SeparatorsTest
+Running com.fasterxml.jackson.core.util.TestTextBuffer
+Tests run: 16, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.024 sec - in com.fasterxml.jackson.core.util.TestTextBuffer
+Running com.fasterxml.jackson.core.util.TestCharTypes
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 sec - in com.fasterxml.jackson.core.util.TestCharTypes
+Running com.fasterxml.jackson.core.util.TestDefaultPrettyPrinter
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.01 sec - in com.fasterxml.jackson.core.util.TestDefaultPrettyPrinter
+Running com.fasterxml.jackson.core.util.TestDelegates
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 sec - in com.fasterxml.jackson.core.util.TestDelegates
+Running com.fasterxml.jackson.core.util.DefaultIndenterTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.fasterxml.jackson.core.util.DefaultIndenterTest
+Running com.fasterxml.jackson.core.util.TestVersionUtil
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 sec - in com.fasterxml.jackson.core.util.TestVersionUtil
+Running com.fasterxml.jackson.core.util.ByteArrayBuilderTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 sec - in com.fasterxml.jackson.core.util.ByteArrayBuilderTest
+Running com.fasterxml.jackson.core.util.VersionUtilTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec - in com.fasterxml.jackson.core.util.VersionUtilTest
+Running com.fasterxml.jackson.core.util.RequestPayloadTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec - in com.fasterxml.jackson.core.util.RequestPayloadTest
+Running com.fasterxml.jackson.core.util.TestNumberPrinting
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.379 sec - in com.fasterxml.jackson.core.util.TestNumberPrinting
+Running com.fasterxml.jackson.core.read.ParserErrorHandlingTest
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.025 sec - in com.fasterxml.jackson.core.read.ParserErrorHandlingTest
+Running com.fasterxml.jackson.core.read.NonStandardParserFeaturesTest
+Tests run: 11, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.041 sec - in com.fasterxml.jackson.core.read.NonStandardParserFeaturesTest
+Running com.fasterxml.jackson.core.read.JsonParserTest
+Tests run: 20, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.094 sec - in com.fasterxml.jackson.core.read.JsonParserTest
+Running com.fasterxml.jackson.core.read.NextXxxAccessTest
+Tests run: 12, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.595 sec - in com.fasterxml.jackson.core.read.NextXxxAccessTest
+Running com.fasterxml.jackson.core.read.UTF8NamesParseTest
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.015 sec - in com.fasterxml.jackson.core.read.UTF8NamesParseTest
+Running com.fasterxml.jackson.core.read.ParserSymbolHandlingTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 sec - in com.fasterxml.jackson.core.read.ParserSymbolHandlingTest
+Running com.fasterxml.jackson.core.read.ParserScopeMatchingTest
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.012 sec - in com.fasterxml.jackson.core.read.ParserScopeMatchingTest
+Running com.fasterxml.jackson.core.read.ValueConversionsTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 sec - in com.fasterxml.jackson.core.read.ValueConversionsTest
+Running com.fasterxml.jackson.core.read.NumberCoercionTest
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.011 sec - in com.fasterxml.jackson.core.read.NumberCoercionTest
+Running com.fasterxml.jackson.core.read.NumberParsingTest
+Tests run: 19, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.36 sec - in com.fasterxml.jackson.core.read.NumberParsingTest
+Running com.fasterxml.jackson.core.read.UTF32ParseTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 sec - in com.fasterxml.jackson.core.read.UTF32ParseTest
+Running com.fasterxml.jackson.core.read.ParserDupHandlingTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.01 sec - in com.fasterxml.jackson.core.read.ParserDupHandlingTest
+Running com.fasterxml.jackson.core.read.TrailingCommasTest
+Tests run: 208, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.098 sec - in com.fasterxml.jackson.core.read.TrailingCommasTest
+Running com.fasterxml.jackson.core.read.CommentParsingTest
+Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.fasterxml.jackson.core.read.CommentParsingTest
+Running com.fasterxml.jackson.core.read.DataInputTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.fasterxml.jackson.core.read.DataInputTest
+Running com.fasterxml.jackson.core.base64.Base64CodecTest
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.009 sec - in com.fasterxml.jackson.core.base64.Base64CodecTest
+Running com.fasterxml.jackson.core.base64.Base64GenerationTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.026 sec - in com.fasterxml.jackson.core.base64.Base64GenerationTest
+Running com.fasterxml.jackson.core.base64.Base64BinaryParsingTest
+Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.144 sec - in com.fasterxml.jackson.core.base64.Base64BinaryParsingTest
+Running com.fasterxml.jackson.core.io.TestIOContext
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in com.fasterxml.jackson.core.io.TestIOContext
+Running com.fasterxml.jackson.core.io.TestMergedStream
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in com.fasterxml.jackson.core.io.TestMergedStream
+Running com.fasterxml.jackson.core.io.SegmentedStringWriterTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec - in com.fasterxml.jackson.core.io.SegmentedStringWriterTest
+Running com.fasterxml.jackson.core.io.TestCharTypes
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec - in com.fasterxml.jackson.core.io.TestCharTypes
+Running com.fasterxml.jackson.core.io.TestJsonStringEncoder
+Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.026 sec - in com.fasterxml.jackson.core.io.TestJsonStringEncoder
+Running com.fasterxml.jackson.core.io.UTF8WriterTest
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 sec - in com.fasterxml.jackson.core.io.UTF8WriterTest
+Running com.fasterxml.jackson.core.TestJsonPointer
+Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec - in com.fasterxml.jackson.core.TestJsonPointer
+Running com.fasterxml.jackson.core.JsonpCharacterEscapesTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec - in com.fasterxml.jackson.core.JsonpCharacterEscapesTest
+Running com.fasterxml.jackson.core.json.JsonReadContextTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec - in com.fasterxml.jackson.core.json.JsonReadContextTest
+Running com.fasterxml.jackson.core.json.TestMaxErrorSize
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.fasterxml.jackson.core.json.TestMaxErrorSize
+Running com.fasterxml.jackson.core.json.JsonFactoryTest
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.012 sec - in com.fasterxml.jackson.core.json.JsonFactoryTest
+Running com.fasterxml.jackson.core.json.TestWithTonsaSymbols
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.045 sec - in com.fasterxml.jackson.core.json.TestWithTonsaSymbols
+Running com.fasterxml.jackson.core.json.TestRootValues
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in com.fasterxml.jackson.core.json.TestRootValues
+Running com.fasterxml.jackson.core.json.async.AsyncNumberCoercionTest
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.01 sec - in com.fasterxml.jackson.core.json.async.AsyncNumberCoercionTest
+Running com.fasterxml.jackson.core.json.async.AsyncMissingValuesInObjectTest
+Tests run: 20, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.011 sec - in com.fasterxml.jackson.core.json.async.AsyncMissingValuesInObjectTest
+Running com.fasterxml.jackson.core.json.async.AsyncStringObjectTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 sec - in com.fasterxml.jackson.core.json.async.AsyncStringObjectTest
+Running com.fasterxml.jackson.core.json.async.AsyncSimpleObjectTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 sec - in com.fasterxml.jackson.core.json.async.AsyncSimpleObjectTest
+Running com.fasterxml.jackson.core.json.async.AsyncScalarArrayTest
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.014 sec - in com.fasterxml.jackson.core.json.async.AsyncScalarArrayTest
+Running com.fasterxml.jackson.core.json.async.AsyncNonStdNumbersTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 sec - in com.fasterxml.jackson.core.json.async.AsyncNonStdNumbersTest
+Running com.fasterxml.jackson.core.json.async.AsyncStringArrayTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.032 sec - in com.fasterxml.jackson.core.json.async.AsyncStringArrayTest
+Running com.fasterxml.jackson.core.json.async.AsyncInvalidCharsTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.fasterxml.jackson.core.json.async.AsyncInvalidCharsTest
+Running com.fasterxml.jackson.core.json.async.AsyncCharEscapingTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 sec - in com.fasterxml.jackson.core.json.async.AsyncCharEscapingTest
+Running com.fasterxml.jackson.core.json.async.AsyncFieldNamesTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 sec - in com.fasterxml.jackson.core.json.async.AsyncFieldNamesTest
+Running com.fasterxml.jackson.core.json.async.AsyncCommentParsingTest
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 sec - in com.fasterxml.jackson.core.json.async.AsyncCommentParsingTest
+Running com.fasterxml.jackson.core.json.async.AsyncRootValuesTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 sec - in com.fasterxml.jackson.core.json.async.AsyncRootValuesTest
+Running com.fasterxml.jackson.core.json.async.AsyncTokenFilterTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.01 sec - in com.fasterxml.jackson.core.json.async.AsyncTokenFilterTest
+Running com.fasterxml.jackson.core.json.async.AsyncRootNumbersTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 sec - in com.fasterxml.jackson.core.json.async.AsyncRootNumbersTest
+Running com.fasterxml.jackson.core.json.async.ConfigTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.fasterxml.jackson.core.json.async.ConfigTest
+Running com.fasterxml.jackson.core.json.async.AsyncParserNamesTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 sec - in com.fasterxml.jackson.core.json.async.AsyncParserNamesTest
+Running com.fasterxml.jackson.core.json.async.AsyncNonStdParsingTest
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.027 sec - in com.fasterxml.jackson.core.json.async.AsyncNonStdParsingTest
+Running com.fasterxml.jackson.core.json.async.AsyncScopeMatchingTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.fasterxml.jackson.core.json.async.AsyncScopeMatchingTest
+Running com.fasterxml.jackson.core.json.async.AsyncUnicodeHandlingTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.029 sec - in com.fasterxml.jackson.core.json.async.AsyncUnicodeHandlingTest
+Running com.fasterxml.jackson.core.json.async.AsyncSimpleNestedTest
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 sec - in com.fasterxml.jackson.core.json.async.AsyncSimpleNestedTest
+Running com.fasterxml.jackson.core.json.async.AsyncBinaryParseTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.218 sec - in com.fasterxml.jackson.core.json.async.AsyncBinaryParseTest
+Running com.fasterxml.jackson.core.json.async.AsyncNumberLeadingZeroesTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.fasterxml.jackson.core.json.async.AsyncNumberLeadingZeroesTest
+Running com.fasterxml.jackson.core.json.async.AsyncMissingValuesInArrayTest
+Tests run: 20, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.011 sec - in com.fasterxml.jackson.core.json.async.AsyncMissingValuesInArrayTest
+Running com.fasterxml.jackson.core.json.TestCharEscaping
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 sec - in com.fasterxml.jackson.core.json.TestCharEscaping
+Running com.fasterxml.jackson.core.json.GeneratorFailFromReaderTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in com.fasterxml.jackson.core.json.GeneratorFailFromReaderTest
+Running com.fasterxml.jackson.core.json.LocationInObjectTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in com.fasterxml.jackson.core.json.LocationInObjectTest
+Running com.fasterxml.jackson.core.json.StringGenerationFromReaderTest
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.922 sec - in com.fasterxml.jackson.core.json.StringGenerationFromReaderTest
+Running com.fasterxml.jackson.core.json.LocationOffsetsTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.fasterxml.jackson.core.json.LocationOffsetsTest
+Running com.fasterxml.jackson.core.json.TestGeneratorWithSerializedString
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.fasterxml.jackson.core.json.TestGeneratorWithSerializedString
+Running com.fasterxml.jackson.core.json.RawValueWithSurrogatesTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.022 sec - in com.fasterxml.jackson.core.json.RawValueWithSurrogatesTest
+Running com.fasterxml.jackson.core.json.GeneratorBasicTest
+Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.fasterxml.jackson.core.json.GeneratorBasicTest
+Running com.fasterxml.jackson.core.json.TestDecorators
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.fasterxml.jackson.core.json.TestDecorators
+Running com.fasterxml.jackson.core.json.TestCustomEscaping
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in com.fasterxml.jackson.core.json.TestCustomEscaping
+Running com.fasterxml.jackson.core.json.GeneratorFailTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.fasterxml.jackson.core.json.GeneratorFailTest
+Running com.fasterxml.jackson.core.json.TestParserOverrides
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.fasterxml.jackson.core.json.TestParserOverrides
+Running com.fasterxml.jackson.core.json.StringGenerationTest
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.285 sec - in com.fasterxml.jackson.core.json.StringGenerationTest
+Running com.fasterxml.jackson.core.json.TestGeneratorDupHandling
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in com.fasterxml.jackson.core.json.TestGeneratorDupHandling
+Running com.fasterxml.jackson.core.json.ArrayGenerationTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.046 sec - in com.fasterxml.jackson.core.json.ArrayGenerationTest
+Running com.fasterxml.jackson.core.json.TestUnicode
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec - in com.fasterxml.jackson.core.json.TestUnicode
+Running com.fasterxml.jackson.core.json.ParserSequenceTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec - in com.fasterxml.jackson.core.json.ParserSequenceTest
+Running com.fasterxml.jackson.core.json.RequestPayloadOnExceptionTest
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec - in com.fasterxml.jackson.core.json.RequestPayloadOnExceptionTest
+Running com.fasterxml.jackson.core.json.LocationInArrayTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.fasterxml.jackson.core.json.LocationInArrayTest
+Running com.fasterxml.jackson.core.json.TestUtf8Generator
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 sec - in com.fasterxml.jackson.core.json.TestUtf8Generator
+Running com.fasterxml.jackson.core.json.JsonParserClosedCaseTest
+Tests run: 12, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 sec - in com.fasterxml.jackson.core.json.JsonParserClosedCaseTest
+Running com.fasterxml.jackson.core.json.GeneratorFeaturesTest
+Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 sec - in com.fasterxml.jackson.core.json.GeneratorFeaturesTest
+Running com.fasterxml.jackson.core.type.TypeReferenceTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 sec - in com.fasterxml.jackson.core.type.TypeReferenceTest
+Running com.fasterxml.jackson.core.TestVersions
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 sec - in com.fasterxml.jackson.core.TestVersions
+Running com.fasterxml.jackson.core.TestLocation
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 sec - in com.fasterxml.jackson.core.TestLocation
+Running com.fasterxml.jackson.core.format.TestJsonFormatDetection
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 sec - in com.fasterxml.jackson.core.format.TestJsonFormatDetection
+Running com.fasterxml.jackson.core.format.DataFormatMatcherTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.fasterxml.jackson.core.format.DataFormatMatcherTest
+Running com.fasterxml.jackson.core.filter.BasicGeneratorFilteringTest
+Tests run: 12, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.011 sec - in com.fasterxml.jackson.core.filter.BasicGeneratorFilteringTest
+Running com.fasterxml.jackson.core.filter.BasicParserFilteringTest
+Tests run: 22, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.015 sec - in com.fasterxml.jackson.core.filter.BasicParserFilteringTest
+Running com.fasterxml.jackson.core.filter.JsonPointerGeneratorFilteringTest
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 sec - in com.fasterxml.jackson.core.filter.JsonPointerGeneratorFilteringTest
+Running com.fasterxml.jackson.core.filter.JsonPointerParserFilteringTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec - in com.fasterxml.jackson.core.filter.JsonPointerParserFilteringTest
+Running com.fasterxml.jackson.core.main.TestParserClosing
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec - in com.fasterxml.jackson.core.main.TestParserClosing
+Running com.fasterxml.jackson.core.main.TestParserFeatures
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec - in com.fasterxml.jackson.core.main.TestParserFeatures
+Running com.fasterxml.jackson.core.main.TestParserLinefeeds
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 sec - in com.fasterxml.jackson.core.main.TestParserLinefeeds
+Running com.fasterxml.jackson.core.main.TestParserWithObjects
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.fasterxml.jackson.core.main.TestParserWithObjects
+Running com.fasterxml.jackson.core.main.TestGeneratorCopy
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.fasterxml.jackson.core.main.TestGeneratorCopy
+Running com.fasterxml.jackson.core.main.TestGeneratorClosing
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.fasterxml.jackson.core.main.TestGeneratorClosing
+Running com.fasterxml.jackson.core.main.TestArrayParsing
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.fasterxml.jackson.core.main.TestArrayParsing
+Running com.fasterxml.jackson.core.main.TestNumberParsing
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.279 sec - in com.fasterxml.jackson.core.main.TestNumberParsing
+Running com.fasterxml.jackson.core.main.TestGeneratorMisc
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.937 sec - in com.fasterxml.jackson.core.main.TestGeneratorMisc
+Running com.fasterxml.jackson.core.main.TestRawStringWriting
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.088 sec - in com.fasterxml.jackson.core.main.TestRawStringWriting
+Running com.fasterxml.jackson.core.main.TestGeneratorArray
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec - in com.fasterxml.jackson.core.main.TestGeneratorArray
+Running com.fasterxml.jackson.core.main.TestGeneratorObject
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 sec - in com.fasterxml.jackson.core.main.TestGeneratorObject
+Running com.fasterxml.jackson.core.main.TestPrettyPrinter
+Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.009 sec - in com.fasterxml.jackson.core.main.TestPrettyPrinter
+Running com.fasterxml.jackson.core.TestJDKSerializability
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.067 sec - in com.fasterxml.jackson.core.TestJDKSerializability
+Running com.fasterxml.jackson.core.TestExceptions
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in com.fasterxml.jackson.core.TestExceptions
+Running com.fasterxml.jackson.core.VersionTest
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in com.fasterxml.jackson.core.VersionTest
+
+Results :
+
+Tests run: 812, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] 
+[INFO] --- maven-bundle-plugin:2.5.3:bundle (default-bundle) @ jackson-core ---
+[INFO] 
+[INFO] --- maven-site-plugin:3.1:attach-descriptor (attach-descriptor) @ jackson-core ---
+[INFO] 
+[INFO] --- maven-install-plugin:2.5.2:install (default-install) @ jackson-core ---
+[INFO] Installing ./jackson-core/target/jackson-core-2.10.0-SNAPSHOT.jar to ./.m2/repository/com/fasterxml/jackson/core/jackson-core/2.10.0-SNAPSHOT/jackson-core-2.10.0-SNAPSHOT.jar
+[INFO] Installing ./jackson-core/pom.xml to ./.m2/repository/com/fasterxml/jackson/core/jackson-core/2.10.0-SNAPSHOT/jackson-core-2.10.0-SNAPSHOT.pom
+[INFO] 
+[INFO] --- maven-bundle-plugin:2.5.3:install (default-install) @ jackson-core ---
+[INFO] Installing com/fasterxml/jackson/core/jackson-core/2.10.0-SNAPSHOT/jackson-core-2.10.0-SNAPSHOT.jar
+[INFO] Writing OBR metadata
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  16.418 s
+[INFO] Finished at: 
+[INFO] ------------------------------------------------------------------------

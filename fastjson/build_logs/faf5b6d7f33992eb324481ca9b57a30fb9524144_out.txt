@@ -1,0 +1,146 @@
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.alibaba:fastjson:jar:1.2.60_preview_01
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-gpg-plugin is missing. @ line 176, column 21
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-surefire-plugin is missing. @ line 144, column 21
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-source-plugin is missing. @ line 128, column 21
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-javadoc-plugin is missing. @ line 154, column 21
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO] 
+[INFO] ------------------------< com.alibaba:fastjson >------------------------
+[INFO] Building fastjson 1.2.60_preview_01
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ fastjson ---
+[INFO] Deleting ./fastjson/target
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ fastjson ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 6 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.0:compile (default-compile) @ fastjson ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 176 source files to ./fastjson/target/classes
+[INFO] ./fastjson/src/main/java/com/alibaba/fastjson/JSON.java: Some input files use or override a deprecated API.
+[INFO] ./fastjson/src/main/java/com/alibaba/fastjson/JSON.java: Recompile with -Xlint:deprecation for details.
+[INFO] ./fastjson/src/main/java/com/alibaba/fastjson/JSON.java: Some input files use unchecked or unsafe operations.
+[INFO] ./fastjson/src/main/java/com/alibaba/fastjson/JSON.java: Recompile with -Xlint:unchecked for details.
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ fastjson ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 97 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.0:testCompile (default-testCompile) @ fastjson ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 2612 source files to ./fastjson/target/test-classes
+[INFO] ./fastjson/src/test/java/com/alibaba/json/bvt/util/AntiCollisionHashMapTest.java: Some input files use or override a deprecated API.
+[INFO] ./fastjson/src/test/java/com/alibaba/json/bvt/util/AntiCollisionHashMapTest.java: Recompile with -Xlint:deprecation for details.
+[INFO] ./fastjson/src/test/java/com/alibaba/json/bvt/kotlin/DataClassTest.java: Some input files use unchecked or unsafe operations.
+[INFO] ./fastjson/src/test/java/com/alibaba/json/bvt/kotlin/DataClassTest.java: Recompile with -Xlint:unchecked for details.
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] ./fastjson/src/test/java/com/alibaba/json/bvt/mixins/MixinSerForFieldsTest.java:[30,13] cannot find symbol
+  symbol:   method addMixIn(java.lang.Class<com.alibaba.json.bvt.mixins.MixinSerForFieldsTest.BeanClass>,java.lang.Class<com.alibaba.json.bvt.mixins.MixinSerForFieldsTest.MixIn>)
+  location: class com.alibaba.fastjson.JSON
+[ERROR] ./fastjson/src/test/java/com/alibaba/json/bvt/mixins/MixinSerForFieldsTest.java:[35,13] cannot find symbol
+  symbol:   method removeMixIn(java.lang.Class<com.alibaba.json.bvt.mixins.MixinSerForFieldsTest.BeanClass>)
+  location: class com.alibaba.fastjson.JSON
+[ERROR] ./fastjson/src/test/java/com/alibaba/json/bvt/mixins/MixinSerForMethodsTest.java:[71,13] cannot find symbol
+  symbol:   method addMixIn(java.lang.Class<com.alibaba.json.bvt.mixins.MixinSerForMethodsTest.BaseClass2>,java.lang.Class<com.alibaba.json.bvt.mixins.MixinSerForMethodsTest.MixIn>)
+  location: class com.alibaba.fastjson.JSON
+[ERROR] ./fastjson/src/test/java/com/alibaba/json/bvt/mixins/MixinSerForMethodsTest.java:[77,13] cannot find symbol
+  symbol:   method removeMixIn(java.lang.Class<com.alibaba.json.bvt.mixins.MixinSerForMethodsTest.BaseClass>)
+  location: class com.alibaba.fastjson.JSON
+[ERROR] ./fastjson/src/test/java/com/alibaba/json/bvt/mixins/MixinInheritanceTest.java:[44,13] cannot find symbol
+  symbol:   method addMixIn(java.lang.Class<com.alibaba.json.bvt.mixins.MixinInheritanceTest.Beano>,java.lang.Class<com.alibaba.json.bvt.mixins.MixinInheritanceTest.BeanoMixinSub>)
+  location: class com.alibaba.fastjson.JSON
+[ERROR] ./fastjson/src/test/java/com/alibaba/json/bvt/mixins/MixinInheritanceTest.java:[52,13] cannot find symbol
+  symbol:   method removeMixIn(java.lang.Class<com.alibaba.json.bvt.mixins.MixinInheritanceTest.Beano>)
+  location: class com.alibaba.fastjson.JSON
+[ERROR] ./fastjson/src/test/java/com/alibaba/json/bvt/mixins/MixinInheritanceTest.java:[56,13] cannot find symbol
+  symbol:   method addMixIn(java.lang.Class<com.alibaba.json.bvt.mixins.MixinInheritanceTest.Beano2>,java.lang.Class<com.alibaba.json.bvt.mixins.MixinInheritanceTest.BeanoMixinSub2>)
+  location: class com.alibaba.fastjson.JSON
+[ERROR] ./fastjson/src/test/java/com/alibaba/json/bvt/mixins/MixinInheritanceTest.java:[62,13] cannot find symbol
+  symbol:   method removeMixIn(java.lang.Class<com.alibaba.json.bvt.mixins.MixinInheritanceTest.Beano2>)
+  location: class com.alibaba.fastjson.JSON
+[ERROR] ./fastjson/src/test/java/com/alibaba/json/bvt/mixins/MixinDeserForMethodsTest.java:[55,13] cannot find symbol
+  symbol:   method addMixIn(java.lang.Class<com.alibaba.json.bvt.mixins.MixinDeserForMethodsTest.BaseClass2>,java.lang.Class<com.alibaba.json.bvt.mixins.MixinDeserForMethodsTest.MixIn>)
+  location: class com.alibaba.fastjson.JSON
+[ERROR] ./fastjson/src/test/java/com/alibaba/json/bvt/mixins/MixinDeserForMethodsTest.java:[63,13] cannot find symbol
+  symbol:   method removeMixIn(java.lang.Class<com.alibaba.json.bvt.mixins.MixinDeserForMethodsTest.BaseClass2>)
+  location: class com.alibaba.fastjson.JSON
+[ERROR] ./fastjson/src/test/java/com/alibaba/json/bvt/mixins/MixinDeserForClassTest.java:[46,13] cannot find symbol
+  symbol:   method addMixIn(java.lang.Class<com.alibaba.json.bvt.mixins.MixinDeserForClassTest.BaseClass>,java.lang.Class<com.alibaba.json.bvt.mixins.MixinDeserForClassTest.Mixin>)
+  location: class com.alibaba.fastjson.JSON
+[ERROR] ./fastjson/src/test/java/com/alibaba/json/bvt/mixins/MixinDeserForClassTest.java:[49,13] cannot find symbol
+  symbol:   method removeMixIn(java.lang.Class<com.alibaba.json.bvt.mixins.MixinDeserForClassTest.BaseClass>)
+  location: class com.alibaba.fastjson.JSON
+[ERROR] ./fastjson/src/test/java/com/alibaba/json/bvt/mixins/MixinMergingTest.java:[31,13] cannot find symbol
+  symbol:   method addMixIn(java.lang.Class<com.alibaba.json.bvt.mixins.MixinMergingTest.Person>,java.lang.Class<com.alibaba.json.bvt.mixins.MixinMergingTest.PersonMixin>)
+  location: class com.alibaba.fastjson.JSON
+[ERROR] ./fastjson/src/test/java/com/alibaba/json/bvt/mixins/MixinMergingTest.java:[33,13] cannot find symbol
+  symbol:   method removeMixIn(java.lang.Class<com.alibaba.json.bvt.mixins.MixinMergingTest.Person>)
+  location: class com.alibaba.fastjson.JSON
+[INFO] 14 errors 
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  26.996 s
+[INFO] Finished at: 
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.8.0:testCompile (default-testCompile) on project fastjson: Compilation failure: Compilation failure: 
+[ERROR] ./fastjson/src/test/java/com/alibaba/json/bvt/mixins/MixinSerForFieldsTest.java:[30,13] cannot find symbol
+[ERROR]   symbol:   method addMixIn(java.lang.Class<com.alibaba.json.bvt.mixins.MixinSerForFieldsTest.BeanClass>,java.lang.Class<com.alibaba.json.bvt.mixins.MixinSerForFieldsTest.MixIn>)
+[ERROR]   location: class com.alibaba.fastjson.JSON
+[ERROR] ./fastjson/src/test/java/com/alibaba/json/bvt/mixins/MixinSerForFieldsTest.java:[35,13] cannot find symbol
+[ERROR]   symbol:   method removeMixIn(java.lang.Class<com.alibaba.json.bvt.mixins.MixinSerForFieldsTest.BeanClass>)
+[ERROR]   location: class com.alibaba.fastjson.JSON
+[ERROR] ./fastjson/src/test/java/com/alibaba/json/bvt/mixins/MixinSerForMethodsTest.java:[71,13] cannot find symbol
+[ERROR]   symbol:   method addMixIn(java.lang.Class<com.alibaba.json.bvt.mixins.MixinSerForMethodsTest.BaseClass2>,java.lang.Class<com.alibaba.json.bvt.mixins.MixinSerForMethodsTest.MixIn>)
+[ERROR]   location: class com.alibaba.fastjson.JSON
+[ERROR] ./fastjson/src/test/java/com/alibaba/json/bvt/mixins/MixinSerForMethodsTest.java:[77,13] cannot find symbol
+[ERROR]   symbol:   method removeMixIn(java.lang.Class<com.alibaba.json.bvt.mixins.MixinSerForMethodsTest.BaseClass>)
+[ERROR]   location: class com.alibaba.fastjson.JSON
+[ERROR] ./fastjson/src/test/java/com/alibaba/json/bvt/mixins/MixinInheritanceTest.java:[44,13] cannot find symbol
+[ERROR]   symbol:   method addMixIn(java.lang.Class<com.alibaba.json.bvt.mixins.MixinInheritanceTest.Beano>,java.lang.Class<com.alibaba.json.bvt.mixins.MixinInheritanceTest.BeanoMixinSub>)
+[ERROR]   location: class com.alibaba.fastjson.JSON
+[ERROR] ./fastjson/src/test/java/com/alibaba/json/bvt/mixins/MixinInheritanceTest.java:[52,13] cannot find symbol
+[ERROR]   symbol:   method removeMixIn(java.lang.Class<com.alibaba.json.bvt.mixins.MixinInheritanceTest.Beano>)
+[ERROR]   location: class com.alibaba.fastjson.JSON
+[ERROR] ./fastjson/src/test/java/com/alibaba/json/bvt/mixins/MixinInheritanceTest.java:[56,13] cannot find symbol
+[ERROR]   symbol:   method addMixIn(java.lang.Class<com.alibaba.json.bvt.mixins.MixinInheritanceTest.Beano2>,java.lang.Class<com.alibaba.json.bvt.mixins.MixinInheritanceTest.BeanoMixinSub2>)
+[ERROR]   location: class com.alibaba.fastjson.JSON
+[ERROR] ./fastjson/src/test/java/com/alibaba/json/bvt/mixins/MixinInheritanceTest.java:[62,13] cannot find symbol
+[ERROR]   symbol:   method removeMixIn(java.lang.Class<com.alibaba.json.bvt.mixins.MixinInheritanceTest.Beano2>)
+[ERROR]   location: class com.alibaba.fastjson.JSON
+[ERROR] ./fastjson/src/test/java/com/alibaba/json/bvt/mixins/MixinDeserForMethodsTest.java:[55,13] cannot find symbol
+[ERROR]   symbol:   method addMixIn(java.lang.Class<com.alibaba.json.bvt.mixins.MixinDeserForMethodsTest.BaseClass2>,java.lang.Class<com.alibaba.json.bvt.mixins.MixinDeserForMethodsTest.MixIn>)
+[ERROR]   location: class com.alibaba.fastjson.JSON
+[ERROR] ./fastjson/src/test/java/com/alibaba/json/bvt/mixins/MixinDeserForMethodsTest.java:[63,13] cannot find symbol
+[ERROR]   symbol:   method removeMixIn(java.lang.Class<com.alibaba.json.bvt.mixins.MixinDeserForMethodsTest.BaseClass2>)
+[ERROR]   location: class com.alibaba.fastjson.JSON
+[ERROR] ./fastjson/src/test/java/com/alibaba/json/bvt/mixins/MixinDeserForClassTest.java:[46,13] cannot find symbol
+[ERROR]   symbol:   method addMixIn(java.lang.Class<com.alibaba.json.bvt.mixins.MixinDeserForClassTest.BaseClass>,java.lang.Class<com.alibaba.json.bvt.mixins.MixinDeserForClassTest.Mixin>)
+[ERROR]   location: class com.alibaba.fastjson.JSON
+[ERROR] ./fastjson/src/test/java/com/alibaba/json/bvt/mixins/MixinDeserForClassTest.java:[49,13] cannot find symbol
+[ERROR]   symbol:   method removeMixIn(java.lang.Class<com.alibaba.json.bvt.mixins.MixinDeserForClassTest.BaseClass>)
+[ERROR]   location: class com.alibaba.fastjson.JSON
+[ERROR] ./fastjson/src/test/java/com/alibaba/json/bvt/mixins/MixinMergingTest.java:[31,13] cannot find symbol
+[ERROR]   symbol:   method addMixIn(java.lang.Class<com.alibaba.json.bvt.mixins.MixinMergingTest.Person>,java.lang.Class<com.alibaba.json.bvt.mixins.MixinMergingTest.PersonMixin>)
+[ERROR]   location: class com.alibaba.fastjson.JSON
+[ERROR] ./fastjson/src/test/java/com/alibaba/json/bvt/mixins/MixinMergingTest.java:[33,13] cannot find symbol
+[ERROR]   symbol:   method removeMixIn(java.lang.Class<com.alibaba.json.bvt.mixins.MixinMergingTest.Person>)
+[ERROR]   location: class com.alibaba.fastjson.JSON
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException

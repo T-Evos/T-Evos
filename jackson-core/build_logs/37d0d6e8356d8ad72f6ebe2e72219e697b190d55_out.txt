@@ -1,0 +1,52 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] --------------< com.fasterxml.jackson.core:jackson-core >---------------
+[INFO] Building Jackson-core 2.6.0-SNAPSHOT
+[INFO] -------------------------------[ bundle ]-------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ jackson-core ---
+[INFO] Deleting ./jackson-core/target
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.3.1:enforce (enforce-java) @ jackson-core ---
+[INFO] 
+[INFO] --- build-helper-maven-plugin:1.7:add-source (add-generated-sources) @ jackson-core ---
+[INFO] Source directory: ./jackson-core/target/generated-sources added.
+[INFO] 
+[INFO] --- replacer:1.5.2:replace (process-packageVersion) @ jackson-core ---
+[INFO] Replacement run on 1 file.
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ jackson-core ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ jackson-core ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 85 source files to ./jackson-core/target/classes
+[INFO] -------------------------------------------------------------
+[WARNING] COMPILATION WARNING : 
+[INFO] -------------------------------------------------------------
+[WARNING] bootstrap class path not set in conjunction with -source 1.6
+[INFO] 1 warning
+[INFO] -------------------------------------------------------------
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] ./jackson-core/src/main/java/com/fasterxml/jackson/core/filter/FilteringParserDelegate.java:[239,5] missing return statement
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  3.602 s
+[INFO] Finished at: 
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.1:compile (default-compile) on project jackson-core: Compilation failure
+[ERROR] ./jackson-core/src/main/java/com/fasterxml/jackson/core/filter/FilteringParserDelegate.java:[239,5] missing return statement
+[ERROR] 
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException

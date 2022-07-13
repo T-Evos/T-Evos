@@ -1,0 +1,105 @@
+[INFO] Scanning for projects...
+[INFO] Inspecting build with total of 1 modules...
+[INFO] Installing Nexus Staging features:
+[INFO]   ... total of 1 executions of maven-deploy-plugin replaced with nexus-staging-maven-plugin
+[INFO] 
+[INFO] ------------------------< org.jfree:jfreechart >------------------------
+[INFO] Building JFreeChart 1.5.0-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ jfreechart ---
+[INFO] Deleting ./jfreechart/target
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ jfreechart ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 37 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ jfreechart ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 643 source files to ./jfreechart/target/classes
+[WARNING] ./jfreechart/src/main/java/org/jfree/chart/urls/URLUtilities.java: ./jfreechart/src/main/java/org/jfree/chart/urls/URLUtilities.java uses or overrides a deprecated API.
+[WARNING] ./jfreechart/src/main/java/org/jfree/chart/urls/URLUtilities.java: Recompile with -Xlint:deprecation for details.
+[WARNING] ./jfreechart/src/main/java/org/jfree/chart/JFreeChart.java: Some input files use unchecked or unsafe operations.
+[WARNING] ./jfreechart/src/main/java/org/jfree/chart/JFreeChart.java: Recompile with -Xlint:unchecked for details.
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ jfreechart ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory ./jfreechart/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ jfreechart ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 350 source files to ./jfreechart/target/test-classes
+[INFO] -------------------------------------------------------------
+[WARNING] COMPILATION WARNING : 
+[INFO] -------------------------------------------------------------
+[WARNING] ./jfreechart/src/test/java/org/jfree/chart/plot/CombinedRangeCategoryPlotTest.java: Some input files use unchecked or unsafe operations.
+[WARNING] ./jfreechart/src/test/java/org/jfree/chart/plot/CombinedRangeCategoryPlotTest.java: Recompile with -Xlint:unchecked for details.
+[INFO] 2 warnings 
+[INFO] -------------------------------------------------------------
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] ./jfreechart/src/test/java/org/jfree/chart/plot/PiePlotTest.java:[152,14] cannot find symbol
+  symbol:   method setBaseSectionPaint(java.awt.GradientPaint)
+  location: variable plot1 of type org.jfree.chart.plot.PiePlot
+[ERROR] ./jfreechart/src/test/java/org/jfree/chart/plot/PiePlotTest.java:[155,14] cannot find symbol
+  symbol:   method setBaseSectionPaint(java.awt.GradientPaint)
+  location: variable plot2 of type org.jfree.chart.plot.PiePlot
+[ERROR] ./jfreechart/src/test/java/org/jfree/chart/plot/PiePlotTest.java:[174,14] cannot find symbol
+  symbol:   method setBaseSectionOutlinePaint(java.awt.GradientPaint)
+  location: variable plot1 of type org.jfree.chart.plot.PiePlot
+[ERROR] ./jfreechart/src/test/java/org/jfree/chart/plot/PiePlotTest.java:[177,14] cannot find symbol
+  symbol:   method setBaseSectionOutlinePaint(java.awt.GradientPaint)
+  location: variable plot2 of type org.jfree.chart.plot.PiePlot
+[ERROR] ./jfreechart/src/test/java/org/jfree/chart/plot/PiePlotTest.java:[188,14] cannot find symbol
+  symbol:   method setBaseSectionOutlineStroke(java.awt.BasicStroke)
+  location: variable plot1 of type org.jfree.chart.plot.PiePlot
+[ERROR] ./jfreechart/src/test/java/org/jfree/chart/plot/PiePlotTest.java:[190,14] cannot find symbol
+  symbol:   method setBaseSectionOutlineStroke(java.awt.BasicStroke)
+  location: variable plot2 of type org.jfree.chart.plot.PiePlot
+[ERROR] ./jfreechart/src/test/java/org/jfree/chart/plot/PiePlotTest.java:[567,27] cannot find symbol
+  symbol:   method getBaseSectionPaint()
+  location: variable plot of type org.jfree.chart.plot.PiePlot
+[ERROR] ./jfreechart/src/test/java/org/jfree/chart/plot/PiePlotTest.java:[571,17] cannot find symbol
+  symbol:   method setBaseSectionPaint(<nulltype>)
+  location: variable plot of type org.jfree.chart.plot.PiePlot
+[INFO] 8 errors 
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  9.262 s
+[INFO] Finished at: 
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.1:testCompile (default-testCompile) on project jfreechart: Compilation failure: Compilation failure: 
+[ERROR] ./jfreechart/src/test/java/org/jfree/chart/plot/PiePlotTest.java:[152,14] cannot find symbol
+[ERROR]   symbol:   method setBaseSectionPaint(java.awt.GradientPaint)
+[ERROR]   location: variable plot1 of type org.jfree.chart.plot.PiePlot
+[ERROR] ./jfreechart/src/test/java/org/jfree/chart/plot/PiePlotTest.java:[155,14] cannot find symbol
+[ERROR]   symbol:   method setBaseSectionPaint(java.awt.GradientPaint)
+[ERROR]   location: variable plot2 of type org.jfree.chart.plot.PiePlot
+[ERROR] ./jfreechart/src/test/java/org/jfree/chart/plot/PiePlotTest.java:[174,14] cannot find symbol
+[ERROR]   symbol:   method setBaseSectionOutlinePaint(java.awt.GradientPaint)
+[ERROR]   location: variable plot1 of type org.jfree.chart.plot.PiePlot
+[ERROR] ./jfreechart/src/test/java/org/jfree/chart/plot/PiePlotTest.java:[177,14] cannot find symbol
+[ERROR]   symbol:   method setBaseSectionOutlinePaint(java.awt.GradientPaint)
+[ERROR]   location: variable plot2 of type org.jfree.chart.plot.PiePlot
+[ERROR] ./jfreechart/src/test/java/org/jfree/chart/plot/PiePlotTest.java:[188,14] cannot find symbol
+[ERROR]   symbol:   method setBaseSectionOutlineStroke(java.awt.BasicStroke)
+[ERROR]   location: variable plot1 of type org.jfree.chart.plot.PiePlot
+[ERROR] ./jfreechart/src/test/java/org/jfree/chart/plot/PiePlotTest.java:[190,14] cannot find symbol
+[ERROR]   symbol:   method setBaseSectionOutlineStroke(java.awt.BasicStroke)
+[ERROR]   location: variable plot2 of type org.jfree.chart.plot.PiePlot
+[ERROR] ./jfreechart/src/test/java/org/jfree/chart/plot/PiePlotTest.java:[567,27] cannot find symbol
+[ERROR]   symbol:   method getBaseSectionPaint()
+[ERROR]   location: variable plot of type org.jfree.chart.plot.PiePlot
+[ERROR] ./jfreechart/src/test/java/org/jfree/chart/plot/PiePlotTest.java:[571,17] cannot find symbol
+[ERROR]   symbol:   method setBaseSectionPaint(<nulltype>)
+[ERROR]   location: variable plot of type org.jfree.chart.plot.PiePlot
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException

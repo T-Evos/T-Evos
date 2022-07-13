@@ -1,0 +1,83 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ------------------< org.apache.commons:commons-math4 >------------------
+[INFO] Building Apache Commons Math 4.0-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.6.1:clean (default-clean) @ commons-math4 ---
+[INFO] Deleting ./commons-math/target
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.3.1:enforce (enforce-maven-3) @ commons-math4 ---
+[INFO] 
+[INFO] --- build-helper-maven-plugin:1.7:parse-version (parse-version) @ commons-math4 ---
+[INFO] 
+[INFO] --- maven-antrun-plugin:1.7:run (javadoc.resources) @ commons-math4 ---
+[INFO] Executing tasks
+
+main:
+     [copy] Copying 2 files to ./commons-math/target/apidocs/META-INF
+[INFO] Executed tasks
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.5:process (default) @ commons-math4 ---
+[INFO] 
+[INFO] --- buildnumber-maven-plugin:1.3:create (default) @ commons-math4 ---
+[INFO] Executing: /bin/sh -c cd ./commons-math && git rev-parse --verify HEAD
+[INFO] Working directory: ./commons-math
+[INFO] Storing buildNumber: null at timestamp: 
+[WARNING] Cannot get the branch information from the git repository: 
+Detecting the current branch failed: fatal: ref HEAD is not a symbolic ref
+
+[INFO] Executing: /bin/sh -c cd ./commons-math && git rev-parse --verify HEAD
+[INFO] Working directory: ./commons-math
+[INFO] Storing buildScmBranch: UNKNOWN
+[INFO] 
+[INFO] --- maven-jgit-buildnumber-plugin:1.2.10:extract-buildnumber (default) @ commons-math4 ---
+[INFO] Git info extracted, revision: 'f8fa825', branch: '', tag: '', commitsCount: '5873', commitDate: '
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:resources (default-resources) @ commons-math4 ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 2 resources
+[INFO] Copying 2 resources to META-INF
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.3:compile (default-compile) @ commons-math4 ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 834 source files to ./commons-math/target/classes
+[INFO] ./commons-math/src/main/java/org/apache/commons/math4/fitting/leastsquares/LeastSquaresAdapter.java: Some input files use or override a deprecated API.
+[INFO] ./commons-math/src/main/java/org/apache/commons/math4/fitting/leastsquares/LeastSquaresAdapter.java: Recompile with -Xlint:deprecation for details.
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] ./commons-math/src/main/java/org/apache/commons/math4/ode/events/FieldEventState.java:[21,41] cannot find symbol
+  symbol:   class FieldUnivariateFunction
+  location: package org.apache.commons.math4.analysis
+[ERROR] ./commons-math/src/main/java/org/apache/commons/math4/ode/events/FieldEventState.java:[205,19] cannot find symbol
+  symbol:   class FieldUnivariateFunction
+  location: class org.apache.commons.math4.ode.events.FieldEventState<T>
+[ERROR] ./commons-math/src/main/java/org/apache/commons/math4/ode/events/FieldEventState.java:[205,54] cannot find symbol
+  symbol:   class FieldUnivariateFunction
+  location: class org.apache.commons.math4.ode.events.FieldEventState<T>
+[INFO] 3 errors 
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  5.793 s
+[INFO] Finished at: 
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.3:compile (default-compile) on project commons-math4: Compilation failure: Compilation failure: 
+[ERROR] ./commons-math/src/main/java/org/apache/commons/math4/ode/events/FieldEventState.java:[21,41] cannot find symbol
+[ERROR]   symbol:   class FieldUnivariateFunction
+[ERROR]   location: package org.apache.commons.math4.analysis
+[ERROR] ./commons-math/src/main/java/org/apache/commons/math4/ode/events/FieldEventState.java:[205,19] cannot find symbol
+[ERROR]   symbol:   class FieldUnivariateFunction
+[ERROR]   location: class org.apache.commons.math4.ode.events.FieldEventState<T>
+[ERROR] ./commons-math/src/main/java/org/apache/commons/math4/ode/events/FieldEventState.java:[205,54] cannot find symbol
+[ERROR]   symbol:   class FieldUnivariateFunction
+[ERROR]   location: class org.apache.commons.math4.ode.events.FieldEventState<T>
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException

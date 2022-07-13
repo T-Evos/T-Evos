@@ -1,0 +1,101 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] --------------< org.apache.commons:commons-collections4 >---------------
+[INFO] Building Apache Commons Collections 4.5-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:3.1.0:clean (default-clean) @ commons-collections4 ---
+[INFO] Deleting ./commons-collections/target
+[INFO] 
+[INFO] --- maven-enforcer-plugin:3.0.0-M2:enforce (enforce-maven-version) @ commons-collections4 ---
+[INFO] 
+[INFO] --- maven-enforcer-plugin:3.0.0-M2:enforce (enforce-maven-3) @ commons-collections4 ---
+[INFO] 
+[INFO] --- apache-rat-plugin:0.13:check (rat-check) @ commons-collections4 ---
+[INFO] Enabled default license matchers.
+[INFO] Will parse SCM ignores for exclusions...
+[INFO] Parsing exclusions from ./commons-collections/.gitignore
+[INFO] Finished adding exclusions from SCM ignore files.
+[INFO] 72 implicit excludes (use -debug for more details).
+[INFO] 11 explicit excludes (use -debug for more details).
+[INFO] 637 resources included (use -debug for more details)
+[INFO] Rat check: Summary over all files. Unapproved: 0, unknown: 0, generated: 0, approved: 632 licenses.
+[INFO] 
+[INFO] --- build-helper-maven-plugin:3.0.0:parse-version (parse-version) @ commons-collections4 ---
+[INFO] 
+[INFO] --- maven-antrun-plugin:1.8:run (javadoc.resources) @ commons-collections4 ---
+[INFO] Executing tasks
+
+main:
+     [copy] Copying 2 files to ./commons-collections/target/apidocs/META-INF
+[INFO] Executed tasks
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.5:process (process-resource-bundles) @ commons-collections4 ---
+[INFO] 
+[INFO] --- buildnumber-maven-plugin:1.4:create (default) @ commons-collections4 ---
+[INFO] Executing: /bin/sh -c cd './commons-collections' && 'git' 'rev-parse' '--verify' 'HEAD'
+[INFO] Working directory: ./commons-collections
+[INFO] Storing buildNumber: 514c2eddfcfe99f114b14e5db510af9f6daead51 at timestamp: 1625623123555
+[WARNING] Cannot get the branch information from the git repository: 
+Detecting the current branch failed: fatal: ref HEAD is not a symbolic ref
+
+[INFO] Executing: /bin/sh -c cd './commons-collections' && 'git' 'rev-parse' '--verify' 'HEAD'
+[INFO] Working directory: ./commons-collections
+[INFO] Storing buildScmBranch: UNKNOWN
+[INFO] 
+[INFO] --- maven-resources-plugin:3.1.0:resources (default-resources) @ commons-collections4 ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory ./commons-collections/src/main/resources
+[INFO] Copying 2 resources to META-INF
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.1:compile (default-compile) @ commons-collections4 ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 351 source files to ./commons-collections/target/classes
+[INFO] ./commons-collections/src/main/java/org/apache/commons/collections4/MapUtils.java: Some input files use or override a deprecated API.
+[INFO] ./commons-collections/src/main/java/org/apache/commons/collections4/MapUtils.java: Recompile with -Xlint:deprecation for details.
+[INFO] ./commons-collections/src/main/java/org/apache/commons/collections4/CollectionUtils.java: Some input files use unchecked or unsafe operations.
+[INFO] ./commons-collections/src/main/java/org/apache/commons/collections4/CollectionUtils.java: Recompile with -Xlint:unchecked for details.
+[INFO] 
+[INFO] --- maven-bundle-plugin:4.2.1:manifest (bundle-manifest) @ commons-collections4 ---
+[INFO] 
+[INFO] --- animal-sniffer-maven-plugin:1.18:check (checkAPIcompatibility) @ commons-collections4 ---
+[INFO] Checking unresolved references to org.codehaus.mojo.signature:java18:1.0
+[INFO] 
+[INFO] --- maven-resources-plugin:3.1.0:testResources (default-testResources) @ commons-collections4 ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 180 resources
+[INFO] Copying 2 resources to META-INF
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.1:testCompile (default-testCompile) @ commons-collections4 ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 239 source files to ./commons-collections/target/test-classes
+[INFO] ./commons-collections/src/test/java/org/apache/commons/collections4/MapUtilsTest.java: Some input files use or override a deprecated API.
+[INFO] ./commons-collections/src/test/java/org/apache/commons/collections4/MapUtilsTest.java: Recompile with -Xlint:deprecation for details.
+[INFO] ./commons-collections/src/test/java/org/apache/commons/collections4/multimap/AbstractMultiValuedMapTest.java: Some input files use unchecked or unsafe operations.
+[INFO] ./commons-collections/src/test/java/org/apache/commons/collections4/multimap/AbstractMultiValuedMapTest.java: Recompile with -Xlint:unchecked for details.
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] ./commons-collections/src/test/java/org/apache/commons/collections4/bloomfilter/hasher/DynamicHasherBuilderTest.java:[69,13] cannot find symbol
+  symbol:   method fail(java.lang.String)
+  location: class org.apache.commons.collections4.bloomfilter.hasher.DynamicHasherBuilderTest
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  15.435 s
+[INFO] Finished at: 
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.8.1:testCompile (default-testCompile) on project commons-collections4: Compilation failure
+[ERROR] ./commons-collections/src/test/java/org/apache/commons/collections4/bloomfilter/hasher/DynamicHasherBuilderTest.java:[69,13] cannot find symbol
+[ERROR]   symbol:   method fail(java.lang.String)
+[ERROR]   location: class org.apache.commons.collections4.bloomfilter.hasher.DynamicHasherBuilderTest
+[ERROR] 
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException

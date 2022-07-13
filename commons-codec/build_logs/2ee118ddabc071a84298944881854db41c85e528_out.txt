@@ -1,0 +1,96 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] --------------------< commons-codec:commons-codec >---------------------
+[INFO] Building Apache Commons Codec 1.14-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:3.1.0:clean (default-clean) @ commons-codec ---
+[INFO] Deleting ./commons-codec/target
+[INFO] 
+[INFO] --- maven-enforcer-plugin:3.0.0-M2:enforce (enforce-maven-version) @ commons-codec ---
+[INFO] 
+[INFO] --- maven-enforcer-plugin:3.0.0-M2:enforce (enforce-maven-3) @ commons-codec ---
+[INFO] 
+[INFO] --- apache-rat-plugin:0.13:check (rat-check) @ commons-codec ---
+[INFO] Enabled default license matchers.
+[INFO] Will parse SCM ignores for exclusions...
+[INFO] Parsing exclusions from ./commons-codec/.gitignore
+[INFO] Finished adding exclusions from SCM ignore files.
+[INFO] 72 implicit excludes (use -debug for more details).
+[INFO] 10 explicit excludes (use -debug for more details).
+[INFO] 296 resources included (use -debug for more details)
+[INFO] Rat check: Summary over all files. Unapproved: 1, unknown: 1, generated: 0, approved: 288 licenses.
+[WARNING] Rat check: 1 files with unapproved licenses. See RAT report in: ./commons-codec/target/rat.txt
+[INFO] 
+[INFO] --- build-helper-maven-plugin:3.0.0:parse-version (parse-version) @ commons-codec ---
+[INFO] 
+[INFO] --- maven-antrun-plugin:1.8:run (javadoc.resources) @ commons-codec ---
+[INFO] Executing tasks
+
+main:
+     [copy] Copying 2 files to ./commons-codec/target/apidocs/META-INF
+[INFO] Executed tasks
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.5:process (process-resource-bundles) @ commons-codec ---
+[INFO] 
+[INFO] --- buildnumber-maven-plugin:1.4:create (default) @ commons-codec ---
+[INFO] Executing: /bin/sh -c cd './commons-codec' && 'git' 'rev-parse' '--verify' 'HEAD'
+[INFO] Working directory: ./commons-codec
+[INFO] Storing buildNumber: 2ee118ddabc071a84298944881854db41c85e528 at timestamp: 1633691367313
+[WARNING] Cannot get the branch information from the git repository: 
+Detecting the current branch failed: fatal: ref HEAD is not a symbolic ref
+
+[INFO] Executing: /bin/sh -c cd './commons-codec' && 'git' 'rev-parse' '--verify' 'HEAD'
+[INFO] Working directory: ./commons-codec
+[INFO] Storing buildScmBranch: UNKNOWN
+[INFO] 
+[INFO] --- maven-resources-plugin:3.1.0:resources (default-resources) @ commons-codec ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 128 resources
+[INFO] Copying 2 resources to META-INF
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.0:compile (default-compile) @ commons-codec ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 68 source files to ./commons-codec/target/classes
+[INFO] 
+[INFO] --- maven-bundle-plugin:3.5.1:manifest (bundle-manifest) @ commons-codec ---
+[INFO] 
+[INFO] --- animal-sniffer-maven-plugin:1.17:check (checkAPIcompatibility) @ commons-codec ---
+[INFO] Checking unresolved references to org.codehaus.mojo.signature:java17:1.0
+[INFO] 
+[INFO] --- maven-resources-plugin:3.1.0:testResources (default-testResources) @ commons-codec ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 2 resources
+[INFO] Copying 2 resources to META-INF
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.0:testCompile (default-testCompile) @ commons-codec ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 64 source files to ./commons-codec/target/test-classes
+[INFO] ./commons-codec/src/test/java/org/apache/commons/codec/digest/MurmurHash3Test.java: ./commons-codec/src/test/java/org/apache/commons/codec/digest/MurmurHash3Test.java uses or overrides a deprecated API.
+[INFO] ./commons-codec/src/test/java/org/apache/commons/codec/digest/MurmurHash3Test.java: Recompile with -Xlint:deprecation for details.
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] ./commons-codec/src/test/java/org/apache/commons/codec/binary/Base64Test.java:[1309,6] cannot find symbol
+  symbol:   class Ignore
+  location: class org.apache.commons.codec.binary.Base64Test
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  7.432 s
+[INFO] Finished at: 
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.8.0:testCompile (default-testCompile) on project commons-codec: Compilation failure
+[ERROR] ./commons-codec/src/test/java/org/apache/commons/codec/binary/Base64Test.java:[1309,6] cannot find symbol
+[ERROR]   symbol:   class Ignore
+[ERROR]   location: class org.apache.commons.codec.binary.Base64Test
+[ERROR] 
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException

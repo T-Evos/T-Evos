@@ -1,0 +1,142 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] -------------------< org.apache.commons:commons-csv >-------------------
+[INFO] Building Apache Commons CSV 1.7-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:3.0.0:clean (default-clean) @ commons-csv ---
+[INFO] Deleting ./commons-csv/target
+[INFO] 
+[INFO] --- maven-enforcer-plugin:3.0.0-M2:enforce (enforce-maven-version) @ commons-csv ---
+[INFO] 
+[INFO] --- maven-enforcer-plugin:3.0.0-M2:enforce (enforce-maven-3) @ commons-csv ---
+[INFO] 
+[INFO] --- build-helper-maven-plugin:3.0.0:parse-version (parse-version) @ commons-csv ---
+[INFO] 
+[INFO] --- maven-antrun-plugin:1.8:run (javadoc.resources) @ commons-csv ---
+[INFO] Executing tasks
+
+main:
+     [copy] Copying 2 files to ./commons-csv/target/apidocs/META-INF
+[INFO] Executed tasks
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.5:process (process-resource-bundles) @ commons-csv ---
+[INFO] 
+[INFO] --- buildnumber-maven-plugin:1.4:create (default) @ commons-csv ---
+[INFO] Executing: /bin/sh -c cd './commons-csv' && 'git' 'rev-parse' '--verify' 'HEAD'
+[INFO] Working directory: ./commons-csv
+[INFO] Storing buildNumber: 60b1c8e5c1b9f3a248d8d13240cf151a13f5953d at timestamp: 1655786933416
+[WARNING] Cannot get the branch information from the git repository: 
+Detecting the current branch failed: fatal: ref HEAD is not a symbolic ref
+
+[INFO] Executing: /bin/sh -c cd './commons-csv' && 'git' 'rev-parse' '--verify' 'HEAD'
+[INFO] Working directory: ./commons-csv
+[INFO] Storing buildScmBranch: UNKNOWN
+[INFO] 
+[INFO] --- maven-resources-plugin:3.0.2:resources (default-resources) @ commons-csv ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory ./commons-csv/src/main/resources
+[INFO] Copying 2 resources to META-INF
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.7.0:compile (default-compile) @ commons-csv ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 11 source files to ./commons-csv/target/classes
+[INFO] 
+[INFO] --- maven-bundle-plugin:3.5.0:manifest (bundle-manifest) @ commons-csv ---
+[INFO] 
+[INFO] --- animal-sniffer-maven-plugin:1.16:check (checkAPIcompatibility) @ commons-csv ---
+[INFO] Checking unresolved references to org.codehaus.mojo.signature:java17:1.0
+[INFO] 
+[INFO] --- maven-resources-plugin:3.0.2:testResources (default-testResources) @ commons-csv ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 14 resources
+[INFO] Copying 2 resources to META-INF
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.7.0:testCompile (default-testCompile) @ commons-csv ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 19 source files to ./commons-csv/target/test-classes
+[INFO] 
+[INFO] --- jacoco-maven-plugin:0.8.1:prepare-agent (prepare-agent) @ commons-csv ---
+[INFO] argLine set to -javaagent:/home/ubuntu/.m2/repository/org/jacoco/org.jacoco.agent/0.8.1/org.jacoco.agent-0.8.1-runtime.jar=destfile=./commons-csv/target/jacoco.exec
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.22.0:test (default-test) @ commons-csv ---
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running org.apache.commons.csv.CSVFormatTest
+[ERROR] Tests run: 56, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.284 s <<< FAILURE! - in org.apache.commons.csv.CSVFormatTest
+[ERROR] testEqualsWithNull(org.apache.commons.csv.CSVFormatTest)  Time elapsed: 0.006 s  <<< FAILURE!
+java.lang.AssertionError: expected:<34> but was:<92>
+	at org.apache.commons.csv.CSVFormatTest.testEqualsWithNull(CSVFormatTest.java:393)
+
+[INFO] Running org.apache.commons.csv.LexerTest
+[INFO] Tests run: 26, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.049 s - in org.apache.commons.csv.LexerTest
+[INFO] Running org.apache.commons.csv.CSVRecordTest
+[INFO] Tests run: 17, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.018 s - in org.apache.commons.csv.CSVRecordTest
+[INFO] Running org.apache.commons.csv.CSVFormatPredefinedTest
+[INFO] Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.018 s - in org.apache.commons.csv.CSVFormatPredefinedTest
+[INFO] Running org.apache.commons.csv.AssertionsTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in org.apache.commons.csv.AssertionsTest
+[INFO] Running org.apache.commons.csv.CSVFileParserTest
+[INFO] Tests run: 12, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.032 s - in org.apache.commons.csv.CSVFileParserTest
+[INFO] Running org.apache.commons.csv.CSVPrinterTest
+\N
+\N
+\N
+\N
+\N
+\N
+\N
+\N
+\N
+\N
+\N
+\N
+\N
+\N
+\N
+\N
+\N
+\N
+\N
+\N
+\N
+\N
+\N
+[Ljava.lang.Object;@51288417
+[WARNING] Tests run: 91, Failures: 0, Errors: 0, Skipped: 9, Time elapsed: 12.722 s - in org.apache.commons.csv.CSVPrinterTest
+[INFO] Running org.apache.commons.csv.CSVParserTest
+[WARNING] Tests run: 75, Failures: 0, Errors: 0, Skipped: 3, Time elapsed: 0.101 s - in org.apache.commons.csv.CSVParserTest
+[INFO] Running org.apache.commons.csv.TokenMatchersTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.029 s - in org.apache.commons.csv.TokenMatchersTest
+[INFO] Running org.apache.commons.csv.issues.JiraCsv198Test
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.026 s - in org.apache.commons.csv.issues.JiraCsv198Test
+[INFO] Running org.apache.commons.csv.issues.JiraCsv203Test
+[INFO] Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in org.apache.commons.csv.issues.JiraCsv203Test
+[INFO] Running org.apache.commons.csv.issues.JiraCsv167Test
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.015 s - in org.apache.commons.csv.issues.JiraCsv167Test
+[INFO] Running org.apache.commons.csv.issues.JiraCsv213Test
+[WARNING] Tests run: 1, Failures: 0, Errors: 0, Skipped: 1, Time elapsed: 0 s - in org.apache.commons.csv.issues.JiraCsv213Test
+[INFO] Running org.apache.commons.csv.issues.JiraCsv164Test
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.apache.commons.csv.issues.JiraCsv164Test
+[INFO] Running org.apache.commons.csv.ExtendedBufferedReaderTest
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in org.apache.commons.csv.ExtendedBufferedReaderTest
+[INFO] 
+[INFO] Results:
+[INFO] 
+[ERROR] Failures: 
+[ERROR]   CSVFormatTest.testEqualsWithNull:393 expected:<34> but was:<92>
+[INFO] 
+[ERROR] Tests run: 308, Failures: 1, Errors: 0, Skipped: 13
+[INFO] 
+[ERROR] There are test failures.
+
+Please refer to ./commons-csv/target/surefire-reports for the individual test results.
+Please refer to dump files (if any exist) [date]-jvmRun[N].dump, [date].dumpstream and [date]-jvmRun[N].dumpstream.
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  34.412 s
+[INFO] Finished at: 
+[INFO] ------------------------------------------------------------------------

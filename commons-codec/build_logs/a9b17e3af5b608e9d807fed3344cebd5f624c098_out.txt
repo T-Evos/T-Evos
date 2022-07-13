@@ -1,0 +1,194 @@
+[INFO] Scanning for projects...
+[WARNING] The project commons-codec:commons-codec:jar:1.11-SNAPSHOT uses prerequisites which is only intended for maven-plugin projects but not for non maven-plugin projects. For such purposes you should use the maven-enforcer-plugin. See https://maven.apache.org/enforcer/enforcer-rules/requireMavenVersion.html
+[INFO] 
+[INFO] --------------------< commons-codec:commons-codec >---------------------
+[INFO] Building Apache Commons Codec 1.11-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:3.0.0:clean (default-clean) @ commons-codec ---
+[INFO] Deleting ./commons-codec/target
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.4.1:enforce (enforce-maven-3) @ commons-codec ---
+[INFO] 
+[INFO] --- build-helper-maven-plugin:1.10:parse-version (parse-version) @ commons-codec ---
+[INFO] 
+[INFO] --- maven-antrun-plugin:1.8:run (javadoc.resources) @ commons-codec ---
+[INFO] Executing tasks
+
+main:
+     [copy] Copying 2 files to ./commons-codec/target/apidocs/META-INF
+[INFO] Executed tasks
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.5:process (default) @ commons-codec ---
+[INFO] 
+[INFO] --- buildnumber-maven-plugin:1.4:create (default) @ commons-codec ---
+[INFO] Executing: /bin/sh -c cd './commons-codec' && 'svn' '--non-interactive' 'info'
+[INFO] Working directory: ./commons-codec
+[INFO] Storing buildNumber: ?????? at timestamp: 1633691220523
+[INFO] Executing: /bin/sh -c cd './commons-codec' && 'svn' '--non-interactive' 'info'
+[INFO] Working directory: ./commons-codec
+[INFO] Storing buildScmBranch: UNKNOWN_BRANCH
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:resources (default-resources) @ commons-codec ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 128 resources
+[INFO] Copying 2 resources to META-INF
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.5.1:compile (default-compile) @ commons-codec ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 63 source files to ./commons-codec/target/classes
+[INFO] ./commons-codec/src/main/java/org/apache/commons/codec/digest/Sha2Crypt.java: Some input files use or override a deprecated API.
+[INFO] ./commons-codec/src/main/java/org/apache/commons/codec/digest/Sha2Crypt.java: Recompile with -Xlint:deprecation for details.
+[INFO] 
+[INFO] --- maven-bundle-plugin:3.0.1:manifest (bundle-manifest) @ commons-codec ---
+[INFO] 
+[INFO] --- animal-sniffer-maven-plugin:1.15:check (checkAPIcompatibility) @ commons-codec ---
+[INFO] Checking unresolved references to org.codehaus.mojo.signature:java16:1.0
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:testResources (default-testResources) @ commons-codec ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory ./commons-codec/src/test/resources
+[INFO] Copying 2 resources to META-INF
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.5.1:testCompile (default-testCompile) @ commons-codec ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 57 source files to ./commons-codec/target/test-classes
+[INFO] 
+[INFO] --- jacoco-maven-plugin:0.7.6.201602180812:prepare-agent (prepare-agent) @ commons-codec ---
+[INFO] argLine set to -javaagent:./.m2/repository/org/jacoco/org.jacoco.agent/0.7.6.201602180812/org.jacoco.agent-0.7.6.201602180812-runtime.jar=destfile=./commons-codec/target/jacoco.exec
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.19.1:test (default-test) @ commons-codec ---
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running org.apache.commons.codec.net.RFC1522CodecTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.111 sec - in org.apache.commons.codec.net.RFC1522CodecTest
+Running org.apache.commons.codec.net.BCodecTest
+Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.017 sec - in org.apache.commons.codec.net.BCodecTest
+Running org.apache.commons.codec.net.QuotedPrintableCodecTest
+Tests run: 21, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.032 sec - in org.apache.commons.codec.net.QuotedPrintableCodecTest
+Running org.apache.commons.codec.net.UtilsTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in org.apache.commons.codec.net.UtilsTest
+Running org.apache.commons.codec.net.URLCodecTest
+Tests run: 16, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.015 sec - in org.apache.commons.codec.net.URLCodecTest
+Running org.apache.commons.codec.net.QCodecTest
+Tests run: 12, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.02 sec - in org.apache.commons.codec.net.QCodecTest
+Running org.apache.commons.codec.EncoderExceptionTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in org.apache.commons.codec.EncoderExceptionTest
+Running org.apache.commons.codec.digest.MessageDigestAlgorithmTest
+Tests run: 66, Failures: 0, Errors: 0, Skipped: 24, Time elapsed: 3.286 sec - in org.apache.commons.codec.digest.MessageDigestAlgorithmTest
+Running org.apache.commons.codec.digest.CryptTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.081 sec - in org.apache.commons.codec.digest.CryptTest
+Running org.apache.commons.codec.digest.DigestUtilsTest
+Tests run: 30, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.519 sec - in org.apache.commons.codec.digest.DigestUtilsTest
+Running org.apache.commons.codec.digest.UnixCryptTest
+Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.016 sec - in org.apache.commons.codec.digest.UnixCryptTest
+Running org.apache.commons.codec.digest.HmacUtilsTest
+Tests run: 24, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.181 sec - in org.apache.commons.codec.digest.HmacUtilsTest
+Running org.apache.commons.codec.digest.Md5CryptTest
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.011 sec - in org.apache.commons.codec.digest.Md5CryptTest
+Running org.apache.commons.codec.digest.PureJavaCrc32Test
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.143 sec - in org.apache.commons.codec.digest.PureJavaCrc32Test
+Running org.apache.commons.codec.digest.B64Test
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in org.apache.commons.codec.digest.B64Test
+Running org.apache.commons.codec.digest.Sha256CryptTest
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.081 sec - in org.apache.commons.codec.digest.Sha256CryptTest
+Running org.apache.commons.codec.digest.Sha2CryptTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in org.apache.commons.codec.digest.Sha2CryptTest
+Running org.apache.commons.codec.digest.Apr1CryptTest
+Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.021 sec - in org.apache.commons.codec.digest.Apr1CryptTest
+Running org.apache.commons.codec.digest.Sha512CryptTest
+Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.072 sec - in org.apache.commons.codec.digest.Sha512CryptTest
+Running org.apache.commons.codec.DecoderExceptionTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec - in org.apache.commons.codec.DecoderExceptionTest
+Running org.apache.commons.codec.language.MetaphoneTest
+Tests run: 34, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.039 sec - in org.apache.commons.codec.language.MetaphoneTest
+Running org.apache.commons.codec.language.bm.PhoneticEngineRegressionTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.2 sec - in org.apache.commons.codec.language.bm.PhoneticEngineRegressionTest
+Running org.apache.commons.codec.language.bm.LanguageGuessingTest
+Tests run: 18, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.022 sec - in org.apache.commons.codec.language.bm.LanguageGuessingTest
+Running org.apache.commons.codec.language.bm.RuleTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 sec - in org.apache.commons.codec.language.bm.RuleTest
+Running org.apache.commons.codec.language.bm.PhoneticEngineTest
+Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.02 sec - in org.apache.commons.codec.language.bm.PhoneticEngineTest
+Running org.apache.commons.codec.language.bm.BeiderMorseEncoderTest
+Tests run: 22, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.485 sec - in org.apache.commons.codec.language.bm.BeiderMorseEncoderTest
+Running org.apache.commons.codec.language.Caverphone2Test
+Tests run: 13, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.017 sec - in org.apache.commons.codec.language.Caverphone2Test
+Running org.apache.commons.codec.language.DoubleMetaphoneTest
+Tests run: 16, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.026 sec - in org.apache.commons.codec.language.DoubleMetaphoneTest
+Running org.apache.commons.codec.language.SoundexTest
+Tests run: 29, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.013 sec - in org.apache.commons.codec.language.SoundexTest
+Running org.apache.commons.codec.language.ColognePhoneticTest
+Tests run: 13, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.009 sec - in org.apache.commons.codec.language.ColognePhoneticTest
+Running org.apache.commons.codec.language.DaitchMokotoffSoundexTest
+Tests run: 13, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.016 sec - in org.apache.commons.codec.language.DaitchMokotoffSoundexTest
+Running org.apache.commons.codec.language.Caverphone1Test
+Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec - in org.apache.commons.codec.language.Caverphone1Test
+Running org.apache.commons.codec.language.RefinedSoundexTest
+Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 sec - in org.apache.commons.codec.language.RefinedSoundexTest
+Running org.apache.commons.codec.language.DoubleMetaphone2Test
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.015 sec - in org.apache.commons.codec.language.DoubleMetaphone2Test
+Running org.apache.commons.codec.language.NysiisTest
+Tests run: 23, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.012 sec - in org.apache.commons.codec.language.NysiisTest
+Running org.apache.commons.codec.language.MatchRatingApproachEncoderTest
+Tests run: 96, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.019 sec - in org.apache.commons.codec.language.MatchRatingApproachEncoderTest
+Running org.apache.commons.codec.StringEncoderComparatorTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in org.apache.commons.codec.StringEncoderComparatorTest
+Running org.apache.commons.codec.binary.HexTest
+Tests run: 38, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.169 sec - in org.apache.commons.codec.binary.HexTest
+Running org.apache.commons.codec.binary.Base64Codec13Test
+Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.023 sec - in org.apache.commons.codec.binary.Base64Codec13Test
+Running org.apache.commons.codec.binary.BaseNCodecTest
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec - in org.apache.commons.codec.binary.BaseNCodecTest
+Running org.apache.commons.codec.binary.StringUtilsTest
+Tests run: 17, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 sec - in org.apache.commons.codec.binary.StringUtilsTest
+Running org.apache.commons.codec.binary.Base32InputStreamTest
+Tests run: 16, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.088 sec - in org.apache.commons.codec.binary.Base32InputStreamTest
+Running org.apache.commons.codec.binary.Base64Test
+Tests run: 56, Failures: 0, Errors: 0, Skipped: 1, Time elapsed: 0.032 sec - in org.apache.commons.codec.binary.Base64Test
+Running org.apache.commons.codec.binary.Base32Test
+Tests run: 12, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in org.apache.commons.codec.binary.Base32Test
+Running org.apache.commons.codec.binary.BinaryCodecTest
+Tests run: 13, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.013 sec - in org.apache.commons.codec.binary.BinaryCodecTest
+Running org.apache.commons.codec.binary.Base64InputStreamTest
+Tests run: 19, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.091 sec - in org.apache.commons.codec.binary.Base64InputStreamTest
+Running org.apache.commons.codec.binary.Base32OutputStreamTest
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.061 sec - in org.apache.commons.codec.binary.Base32OutputStreamTest
+Running org.apache.commons.codec.binary.Base64OutputStreamTest
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.074 sec - in org.apache.commons.codec.binary.Base64OutputStreamTest
+Running org.apache.commons.codec.CharEncodingTest
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in org.apache.commons.codec.CharEncodingTest
+Running org.apache.commons.codec.CharsetsTest
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 sec - in org.apache.commons.codec.CharsetsTest
+
+Results :
+
+Tests run: 769, Failures: 0, Errors: 0, Skipped: 25
+
+[INFO] 
+[INFO] --- maven-jar-plugin:2.6:jar (default-jar) @ commons-codec ---
+[INFO] Building jar: ./commons-codec/target/commons-codec-1.11-SNAPSHOT.jar
+[INFO] 
+[INFO] --- maven-site-plugin:3.4:attach-descriptor (attach-descriptor) @ commons-codec ---
+[INFO] 
+[INFO] --- maven-jar-plugin:2.6:test-jar (default) @ commons-codec ---
+[INFO] Building jar: ./commons-codec/target/commons-codec-1.11-SNAPSHOT-tests.jar
+[INFO] 
+[INFO] --- jacoco-maven-plugin:0.7.6.201602180812:check (check) @ commons-codec ---
+[INFO] Analyzed bundle 'Apache Commons Codec' with 86 classes
+[WARNING] Rule violated for bundle Apache Commons Codec: classes covered ratio is 0.94, but expected minimum is 1.00
+[WARNING] Rule violated for bundle Apache Commons Codec: methods covered ratio is 0.91, but expected minimum is 0.95
+[WARNING] Coverage checks have not been met. See log for details.
+[INFO] 
+[INFO] --- maven-install-plugin:2.5.2:install (default-install) @ commons-codec ---
+[INFO] Installing ./commons-codec/target/commons-codec-1.11-SNAPSHOT.jar to ./.m2/repository/commons-codec/commons-codec/1.11-SNAPSHOT/commons-codec-1.11-SNAPSHOT.jar
+[INFO] Installing ./commons-codec/pom.xml to ./.m2/repository/commons-codec/commons-codec/1.11-SNAPSHOT/commons-codec-1.11-SNAPSHOT.pom
+[INFO] Installing ./commons-codec/target/commons-codec-1.11-SNAPSHOT-tests.jar to ./.m2/repository/commons-codec/commons-codec/1.11-SNAPSHOT/commons-codec-1.11-SNAPSHOT-tests.jar
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  18.738 s
+[INFO] Finished at: 
+[INFO] ------------------------------------------------------------------------

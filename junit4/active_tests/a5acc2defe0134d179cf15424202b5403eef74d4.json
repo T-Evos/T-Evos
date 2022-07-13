@@ -1,0 +1,1317 @@
+{
+    "junit.tests.extensions.ActiveTestTest": [
+        "testActiveRepeatedTest0",
+        "testActiveRepeatedTest1",
+        "testActiveRepeatedTest",
+        "testActiveTest"
+    ],
+    "junit.tests.extensions.ExtensionTest": [
+        "testRunningErrorInTestSetup",
+        "testSetupErrorDontTearDown",
+        "testRunningErrorsInTestSetup",
+        "testSetupErrorInTestSetup"
+    ],
+    "junit.tests.extensions.RepeatedTestTest": [
+        "testRepeatedMoreThanOnce",
+        "testRepeatedOnce",
+        "testRepeatedZero",
+        "testRepeatedNegative"
+    ],
+    "junit.tests.framework.AssertTest": [
+        "testAssertNotNull",
+        "testAssertNotSame",
+        "testAssertEqualsNull",
+        "testAssertStringEquals",
+        "testFail",
+        "testAssertStringNotEqualsNull",
+        "testAssertionFailedErrorToStringWithMessage",
+        "testAssertNullNotEqualsString",
+        "testAssertFalse",
+        "testAssertionFailedErrorToStringWithNoMessage",
+        "testAssertEquals",
+        "testAssertNullNotEqualsNull",
+        "testAssertNotSameFailsNull",
+        "testAssertNull",
+        "testAssertSame",
+        "testAssertTrue"
+    ],
+    "junit.tests.framework.AssertionFailedErrorTest": [
+        "testCreateErrorWithoutMessageInsteadOfNull",
+        "testCreateErrorWithMessage",
+        "testCreateErrorWithoutMessage"
+    ],
+    "junit.tests.framework.ComparisonCompactorTest": [
+        "testComparisonErrorOverlappingMatches",
+        "testComparisonErrorOverlappingMatchesContext",
+        "testStartAndEndContextWithEllipses",
+        "testEndSame",
+        "testComparisonErrorWithActualNullContext",
+        "testComparisonErrorEndSameCompleteContext",
+        "testComparisonErrorWithActualNull",
+        "testStartSame",
+        "testComparisonErrorWithExpectedNull",
+        "testSame",
+        "testComparisonErrorStartSameComplete",
+        "testComparisonErrorOverlappingMatches2",
+        "testBug609972",
+        "testStartAndEndContext",
+        "testComparisonErrorWithExpectedNullContext",
+        "testMessage",
+        "testComparisonErrorOverlappingMatches2Context",
+        "testComparisonErrorEndSameComplete",
+        "testNoContextStartAndEndSame"
+    ],
+    "junit.tests.framework.ComparisonFailureTest": [
+        "testThrowing",
+        "testConnection",
+        "testExceptionToStringWithoutMessage",
+        "testExceptionToStringWithMessage"
+    ],
+    "junit.tests.framework.DoublePrecisionAssertTest": [
+        "testAssertNegInfinityEqualsInfinity",
+        "testAssertNaNEqualsNaN",
+        "testAssertNaNEqualsFails",
+        "testAssertPosInfinityEqualsInfinity",
+        "testAssertEqualsNaNFails",
+        "testAssertPosInfinityNotEquals",
+        "testAssertPosInfinityNotEqualsNegInfinity"
+    ],
+    "junit.tests.framework.FloatAssertTest": [
+        "testAssertNegInfinityEqualsInfinity",
+        "testAssertNaNEqualsNaN",
+        "testAssertNaNEqualsFails",
+        "testAssertPosInfinityEqualsInfinity",
+        "testAssertEqualsNaNFails",
+        "testAllInfinities",
+        "testAssertPosInfinityNotEquals",
+        "testAssertPosInfinityNotEqualsNegInfinity"
+    ],
+    "junit.tests.framework.NoArgTestCaseTest": [
+        "testNothing"
+    ],
+    "junit.tests.framework.SuiteTest": [
+        "testNoTestCases",
+        "testOneTestCase",
+        "testNotPublicTestCase",
+        "testNotVoidTestCase",
+        "testNotExistingTestCase",
+        "testInheritedTests",
+        "testOneTestCaseEclipseSeesSameStructureAs381",
+        "testNoTestCaseClass",
+        "testShadowedTests",
+        "testAddTestSuite",
+        "testCreateSuiteFromArray"
+    ],
+    "junit.tests.framework.TestCaseTest": [
+        "testTearDownFails",
+        "testExceptionRunningAndTearDown",
+        "testNoArgTestCasePasses",
+        "testTearDownSetupFails",
+        "testFailure",
+        "testErrorTearingDownDoesntMaskErrorRunning",
+        "testError",
+        "testTearDownAfterError",
+        "testRunAndTearDownFails",
+        "testSetupFails",
+        "testNamelessTestCase",
+        "testWasRun",
+        "testCaseToString",
+        "testSuccess"
+    ],
+    "junit.tests.framework.TestImplementorTest": [
+        "testSuccessfulRun"
+    ],
+    "junit.tests.framework.TestListenerTest": [
+        "testFailure",
+        "testStartStop",
+        "testError"
+    ],
+    "junit.tests.runner.BaseTestRunnerTest": [
+        "testInvokeSuiteOnNonSubclassOfTestCase",
+        "testInvokeNonStaticSuite"
+    ],
+    "junit.tests.runner.ResultTest": [
+        "testRunSuccessResultCanBeSerialised",
+        "testRunFailureResultCanBeSerialised"
+    ],
+    "junit.tests.runner.StackFilterTest": [
+        "testFilter"
+    ],
+    "junit.tests.runner.TextFeedbackTest": [
+        "testEmptySuite",
+        "testTwoTests",
+        "testOneTest",
+        "testFailure",
+        "testError"
+    ],
+    "junit.tests.runner.TextRunnerSingleMethodTest": [
+        "testSingle"
+    ],
+    "junit.tests.runner.TextRunnerTest": [
+        "testFailure",
+        "testError",
+        "testRunReturnsResult",
+        "testSuccess"
+    ],
+    "org.junit.AssumptionViolatedExceptionTest": [
+        "canSetCauseWithInstanceCreatedWithObjectAndMatcher",
+        "canSetCauseWithInstanceCreatedWithAssumptionObjectAndMatcher",
+        "canInitCauseWithInstanceCreatedWithString",
+        "simpleAssumptionViolatedExceptionDescribesItself",
+        "canSetCauseWithInstanceCreatedWithExplicitThrowableConstructor",
+        "assumptionViolatedExceptionWithMatcherDescribesItself",
+        "canSetCauseWithInstanceCreatedWithMainConstructor",
+        "toStringReportsMatcher",
+        "toStringReportsValue"
+    ],
+    "org.junit.experimental.categories.CategoriesAndParameterizedTest": [
+        "runsTestMethodWithCategory",
+        "runsTestsWithoutCategory",
+        "doesNotRunTestsWithoutCategory"
+    ],
+    "org.junit.experimental.categories.CategoryFilterFactoryTest": [
+        "shouldCreateFilter",
+        "shouldThrowException"
+    ],
+    "org.junit.experimental.categories.CategoryTest": [
+        "categoryFilterRejectsIncompatibleCategory",
+        "testsThatAreBothIncludedAndExcludedAreExcluded",
+        "testCountWithMultipleExcludeFilter",
+        "anyMethodWithExcludedCategoryWillBeExcluded",
+        "testCount",
+        "oneRunnableOthersAvoided",
+        "testCountWithExplicitExcludeFilter",
+        "subclassesOfIncludedCategoriesAreRun",
+        "sameAsNoIncludeCategoryAnnotation",
+        "classesCanBeCategories",
+        "noIncludeCategoryAnnotation",
+        "testCountWithMultipleIncludeFilter",
+        "ifNoTestsToRunUseErrorRunner",
+        "allIncludedSuiteCategoriesMustBeMatched",
+        "testCountWithExplicitIncludeFilter",
+        "describeACategoryFilter",
+        "runMethodWithTwoCategories",
+        "testCountOnJustA",
+        "testCountWithExplicitExcludeFilter_usingConstructor",
+        "testCountOnAWithoutSlowTests",
+        "categoryFilterLeavesOnlyMatchingMethods_usingConstructor",
+        "ignoredTest",
+        "testInheritance",
+        "describeMultipleCategoryFilter",
+        "emptyCategoriesSuite",
+        "categoryFilterLeavesOnlyMatchingMethods"
+    ],
+    "org.junit.experimental.categories.CategoryValidatorTest": [
+        "errorIsAddedWhenCategoryIsUsedWithBefore",
+        "errorIsNotAddedWhenCategoryIsNotCombinedWithIllegalCombination",
+        "errorIsAddedWhenCategoryIsUsedWithAfter",
+        "errorIsAddedWhenCategoryIsUsedWithBeforeClass",
+        "errorIsAddedWhenCategoryIsUsedWithAfterClass"
+    ],
+    "org.junit.experimental.categories.JavadocTest": [
+        "slowTests",
+        "fastSmokeTests"
+    ],
+    "org.junit.experimental.categories.MultiCategoryTest": [
+        "inheritanceAnyIncluded",
+        "runSuite",
+        "inheritanceAllAny",
+        "inheritanceAnyAll",
+        "inheritanceAllIncluded"
+    ],
+    "org.junit.internal.ArrayComparisonFailureTest": [
+        "classShouldAccept411Version",
+        "classShouldAccept412Version"
+    ],
+    "org.junit.internal.MethodSorterTest": [
+        "testMethodsNullSorterSelf",
+        "testDefaultMethodSorter",
+        "testAscendingMethodSorter",
+        "testJvmMethodSorter",
+        "testMethodsNullSorterSub",
+        "testMethodsNullSorterSuper"
+    ],
+    "org.junit.internal.builders.AnnotatedBuilderTest": [
+        "memberClassDeepInsideAnnotatedMemberClass_isRunWithParentMemberClassRunner",
+        "memberClassInsideAnnotatedTopLevelClass_isRunWithTopLevelRunner",
+        "annotatedMemberClassInsideAnnotatedTopLevelClass_isRunWithOwnRunner",
+        "memberClassDeepInsideAnnotatedTopLevelClass_isRunWithTopLevelRunner",
+        "topLevelTestClassWithAnnotation_isRunWithAnnotatedRunner",
+        "topLevelTestClassWithoutAnnotation_isRunWithDefaultRunner"
+    ],
+    "org.junit.internal.matchers.StacktracePrintingMatcherTest": [
+        "assertThatIncludesStacktrace",
+        "succeedsWhenInnerMatcherSucceeds",
+        "failsWhenInnerMatcherFails"
+    ],
+    "org.junit.internal.matchers.ThrowableCauseMatcherTest": [
+        "shouldAllowCauseOfDifferentClassFromRoot"
+    ],
+    "org.junit.internal.runners.ErrorReportingRunnerTest": [
+        "givenInvalidTestClassErrorAsCause",
+        "cannotCreateWithNullClass",
+        "cannotCreateWithoutClass",
+        "cannotCreateWithNullClasses",
+        "cannotCreateWithNullClass2",
+        "givenInvalidTestClass_integrationTest"
+    ],
+    "org.junit.internal.runners.statements.FailOnTimeoutTest": [
+        "throwTimeoutExceptionOnSecondCallAlthoughFirstCallThrowsException",
+        "stackTraceContainsRealCauseOfTimeout",
+        "stopEndlessStatement",
+        "throwExceptionWithNiceMessageOnTimeout",
+        "throwExceptionIfTheSecondCallToEvaluateNeedsTooMuchTime",
+        "throwsExceptionWithTimeoutValueAndTimeUnitSet",
+        "throwsTestTimedOutException",
+        "sendUpExceptionThrownByStatement"
+    ],
+    "org.junit.rules.BlockJUnit4ClassRunnerOverrideTest": [
+        "overrideCreateTestMethod",
+        "createTestDefersToNoArgCreateTest",
+        "overrideRulesMethod",
+        "overrideTestRulesMethod"
+    ],
+    "org.junit.rules.ClassRulesTest": [
+        "methodRuleIsAppliedOnce",
+        "methodCustomRuleIsAppliedOnce",
+        "customRuleIsAppliedOnce",
+        "ruleIsIntroducedAndEvaluatedOnSubclass",
+        "testCallMethodOnlyOnceRule",
+        "methodRuleIsIntroducedAndEvaluatedOnSubclass",
+        "usesFieldAndMethodRule",
+        "ruleIsAppliedOnce"
+    ],
+    "org.junit.rules.DisableOnDebugTest": [
+        "givenPreJava5DebugArgumentsInReverseIsDebuggingShouldReturnTrue",
+        "whenRunWithPreJava5DebugArgumentsInReverseOrderTestShouldFail",
+        "givenPreJava5DebugArgumentsIsDebuggingShouldReturnTrue",
+        "whenRunWithPostJava5DebugArgumentsTestShouldFail",
+        "givenPostJava5DebugArgumentsIsDebuggingShouldReturnTrue",
+        "givenArgumentsWithoutDebugFlagsIsDebuggingShouldReturnFalse",
+        "whenRunWithPreJava5DebugArgumentsTestShouldFail",
+        "whenRunWithoutDebugFlagsTestShouldPass"
+    ],
+    "org.junit.rules.ExpectedExceptionTest": [
+        "runTestAndVerifyResult[class org.junit.rules.ExpectedExceptionTest$EmptyTestExpectingNoException]",
+        "runTestAndVerifyResult[class org.junit.rules.ExpectedExceptionTest$ThrowExceptionWithExpectedType]",
+        "runTestAndVerifyResult[class org.junit.rules.ExpectedExceptionTest$ThrowExceptionWithExpectedPartOfMessage]",
+        "runTestAndVerifyResult[class org.junit.rules.ExpectedExceptionTest$ThrowExceptionWithWrongType]",
+        "runTestAndVerifyResult[class org.junit.rules.ExpectedExceptionTest$HasWrongMessage]",
+        "runTestAndVerifyResult[class org.junit.rules.ExpectedExceptionTest$ThrowNoExceptionButExpectExceptionWithType]",
+        "runTestAndVerifyResult[class org.junit.rules.ExpectedExceptionTest$WronglyExpectsExceptionMessage]",
+        "runTestAndVerifyResult[class org.junit.rules.ExpectedExceptionTest$ExpectsSubstring]",
+        "runTestAndVerifyResult[class org.junit.rules.ExpectedExceptionTest$ExpectsSubstringNullMessage]",
+        "runTestAndVerifyResult[class org.junit.rules.ExpectedExceptionTest$ExpectsMessageMatcher]",
+        "runTestAndVerifyResult[class org.junit.rules.ExpectedExceptionTest$ExpectedMessageMatcherFails]",
+        "runTestAndVerifyResult[class org.junit.rules.ExpectedExceptionTest$ExpectsMatcher]",
+        "runTestAndVerifyResult[class org.junit.rules.ExpectedExceptionTest$ExpectAssertionErrorWhichIsNotThrown]",
+        "runTestAndVerifyResult[class org.junit.rules.ExpectedExceptionTest$FailedAssumptionAndExpectException]",
+        "runTestAndVerifyResult[class org.junit.rules.ExpectedExceptionTest$FailBeforeExpectingException]",
+        "runTestAndVerifyResult[class org.junit.rules.ExpectedExceptionTest$ExpectsMultipleMatchers]",
+        "runTestAndVerifyResult[class org.junit.rules.ExpectedExceptionTest$ThrowExceptionWithMatchingCause]",
+        "runTestAndVerifyResult[class org.junit.rules.ExpectedExceptionTest$ThrowExpectedNullCause]",
+        "runTestAndVerifyResult[class org.junit.rules.ExpectedExceptionTest$ThrowUnexpectedCause]",
+        "runTestAndVerifyResult[class org.junit.rules.ExpectedExceptionTest$UseNoCustomMessage]",
+        "runTestAndVerifyResult[class org.junit.rules.ExpectedExceptionTest$UseCustomMessageWithoutPlaceHolder]",
+        "runTestAndVerifyResult[class org.junit.rules.ExpectedExceptionTest$UseCustomMessageWithPlaceHolder]"
+    ],
+    "org.junit.rules.ExternalResourceRuleTest": [
+        "shouldWrapAssumptionFailuresWhenClosingResourceFails",
+        "shouldThrowMultipleFailureExceptionWhenTestFailsAndClosingResourceFails",
+        "externalResourceGeneratesCorrectSequence"
+    ],
+    "org.junit.rules.MethodRulesTest": [
+        "runsAllMethodRulesThatAreReturnedByMethods",
+        "beforesAndAfters",
+        "ruleIsIntroducedAndEvaluated",
+        "useCustomMethodRule",
+        "validateWrongTypedField",
+        "runsMethodRuleThatIsReturnedByMethod",
+        "ruleIsIntroducedAndEvaluatedOnSubclass",
+        "onFailure",
+        "multipleRulesAreRun",
+        "ignoreNonRules",
+        "callsMethodReturningRuleOnlyOnce",
+        "succeeded",
+        "validatePrivateRule",
+        "validateWrongTypedFieldInSuperclass"
+    ],
+    "org.junit.rules.NameRulesTest$BeforeAndAfterTest": [
+        "x"
+    ],
+    "org.junit.rules.NameRulesTest$TestNames": [
+        "testA",
+        "testB"
+    ],
+    "org.junit.rules.RuleChainTest": [
+        "aroundShouldNotAllowNullRules",
+        "executeRulesInCorrectOrder",
+        "whenRuleChainHasNullRuleTheStacktraceShouldPointToIt"
+    ],
+    "org.junit.rules.RuleMemberValidatorTest": [
+        "methodAcceptMethodRuleMethod",
+        "rejectClassRuleThatIsImplemetationOfMethodRule",
+        "acceptMethodRule",
+        "acceptMethodNonStaticTestRule",
+        "rejectMethodStaticTestRule",
+        "rejectArbitraryObjectWithRuleAnnotation",
+        "rejectClassRuleThatReturnsImplementationOfMethodRule",
+        "methodRejectNonStaticClassRule",
+        "rejectStaticMethodRule",
+        "rejectMethodStaticMethodRule",
+        "rejectNonStaticClassRule",
+        "acceptStaticTestRuleThatIsAlsoClassRule",
+        "acceptMethodStaticTestRuleThatIsAlsoClassRule",
+        "rejectClassRuleMethodReturnsAnArbitraryObject",
+        "methodRejectProtectedClassRule",
+        "rejectProtectedClassRule",
+        "rejectClassRuleInNonPublicClass",
+        "rejectClassRuleIsAnArbitraryObject",
+        "methodRejectArbitraryObjectWithRuleAnnotation",
+        "acceptNonStaticTestRule",
+        "rejectStaticTestRule"
+    ],
+    "org.junit.rules.StopwatchTest": [
+        "runtimeDuringTestShouldReturnTimeSinceStart",
+        "failed",
+        "succeeded",
+        "runtimeAfterTestShouldReturnRunDuration",
+        "skipped"
+    ],
+    "org.junit.rules.TempFolderRuleTest": [
+        "recursiveDeleteFolderWithOneElement",
+        "recursiveDeleteFolderWithZeroElements",
+        "subFolderIsDeleted",
+        "randomFilesAreDeleted",
+        "tempFolderIsDeleted",
+        "incorrectUsageWithoutApplyingTheRuleShouldNotPolluteTheCurrentWorkingDirectory",
+        "recursiveDeleteFolderWithOneRandomElement",
+        "randomSubFoldersAreDeleted",
+        "nameClashesResultInTestFailures"
+    ],
+    "org.junit.rules.TemporaryFolderRuleAssuredDeletionTest": [
+        "testStrictVerificationSuccess",
+        "testStrictVerificationFailure"
+    ],
+    "org.junit.rules.TemporaryFolderUsageTest": [
+        "deleteShouldDoNothingIfRootFolderWasNotInitialized",
+        "newFolderWithGivenPathThrowsIllegalStateExceptionIfCreateWasNotInvoked",
+        "getRootShouldThrowIllegalStateExceptionIfCreateWasNotInvoked",
+        "createInitializesRootFolder",
+        "newFileThrowsIllegalStateExceptionIfCreateWasNotInvoked",
+        "newNestedFoldersCreatedUnderRootFolder",
+        "newFolderWithGivenFolderThrowsIllegalArgumentExceptionIfFolderExists",
+        "newFolderWithPathContainingFileSeparaterCreatesDirectories",
+        "newRandomFolderIsCreatedUnderRootFolder",
+        "newRandomFileIsCreatedUnderRootFolder",
+        "newFolderThrowsIllegalStateExceptionIfCreateWasNotInvoked",
+        "newFileWithGivenFilenameThrowsIllegalArgumentExceptionIfFileExists",
+        "canSetTheBaseFileForATemporaryFolder",
+        "newFolderWithPathContainingForwardSlashCreatesDirectories",
+        "newNamedFileIsCreatedUnderRootFolder",
+        "newFolderWithGivenPathThrowsIOExceptionIfFolderNamesConsistOfMultiplePathComponents",
+        "newFolderWithPathStartingWithFileSeparatorThrowsIOException",
+        "newFolderWithGivenPathThrowsIllegalArgumentExceptionIfPathExists",
+        "newFolderWithGivenFolderThrowsIllegalArgumentExceptionIfFileExists",
+        "newFileWithGivenNameThrowsIllegalStateExceptionIfCreateWasNotInvoked",
+        "deleteRemovesRootFolder"
+    ],
+    "org.junit.rules.TestRuleTest": [
+        "beforesAndAfters",
+        "methodValidateWrongTypedField",
+        "methodOnlyApplyOnceEvenIfImplementsBothInterfaces",
+        "methodValidatePrivateRule",
+        "ruleIsIntroducedAndEvaluated",
+        "useCustomMethodRule",
+        "methodBeforesAndAfters",
+        "methodOnSkipped",
+        "validateWrongTypedField",
+        "methodRuleIsIntroducedAndEvaluated",
+        "onlyApplyOnceEvenIfImplementsBothInterfaces",
+        "ruleIsIntroducedAndEvaluatedOnSubclass",
+        "methodUseCustomMethodRule",
+        "testCallMethodOnlyOnceRule",
+        "methodRuleIsIntroducedAndEvaluatedOnSubclass",
+        "onFailure",
+        "multipleRulesAreRun",
+        "methodOnFailure",
+        "ignoreNonRules",
+        "usesFieldAndMethodRule",
+        "succeeded",
+        "methodSucceeded",
+        "methodMultipleRulesAreRun",
+        "methodIgnoreNonRules",
+        "methodValidateWrongTypedFieldInSuperclass",
+        "validatePrivateRule",
+        "validateWrongTypedFieldInSuperclass"
+    ],
+    "org.junit.rules.TestWatcherTest": [
+        "internalViolatedAssumption",
+        "neitherLogSuccessNorFailedForViolatedAssumption",
+        "testWatcherSkippedThrowsException",
+        "testWatcherStartingThrowsException",
+        "testWatcherFailedAndFinishedThrowsException",
+        "testWatcherFailedThrowsException",
+        "logFailingTest"
+    ],
+    "org.junit.rules.TestWatchmanTest": [
+        "neitherLogSuccessNorFailedForViolatedAssumption",
+        "neitherLogSuccessNorFailedForViolatedAssumption",
+        "logFailingTest",
+        "logFailingTest"
+    ],
+    "org.junit.rules.TimeoutRuleTest": [
+        "timeUnitTimeout",
+        "longTimeout",
+        "nullTimeUnit"
+    ],
+    "org.junit.rules.VerifierRuleTest": [
+        "passingAssumptionViolatedExceptionShouldResultInFailure",
+        "usedErrorCollectorCheckSucceedsShouldFail",
+        "usedErrorCollectorCheckSucceedsShouldPass",
+        "usedErrorCollectorCheckThrowsMatchingClassShouldPass",
+        "usedErrorCollectorTwiceShouldFail",
+        "usedErrorCollectorShouldFail",
+        "usedErrorCollectorCheckThrowsNothingThrownShouldFail",
+        "usedErrorCollectorCheckSucceedsWithAssumptionViolatedExceptionShouldFail",
+        "usedErrorCollectorCheckThrowsClassMismatchShouldFail",
+        "usedErrorCollectorCheckThatShouldFail",
+        "verifierRunsAfterTest"
+    ],
+    "org.junit.runner.FilterFactoriesTest": [
+        "shouldThrowExceptionIfNotFilterFactory",
+        "shouldCreateFilter",
+        "shouldCreateFilterWithArguments",
+        "shouldCreateFilterWithNoArguments",
+        "shouldThrowExceptionIfNotInstantiable",
+        "shouldPassOnDescriptionToFilterFactory"
+    ],
+    "org.junit.runner.FilterOptionIntegrationTest": [
+        "shouldExcludeSomeTests",
+        "shouldIncludeSomeTests",
+        "shouldCombineFilters",
+        "shouldRunAllTests"
+    ],
+    "org.junit.runner.JUnitCommandLineParseResultTest": [
+        "shouldStopParsingOptionsUponDoubleHyphenArg",
+        "shouldCreateFailureUponUncreatedFilter",
+        "shouldCreateFailureUponUnfoundFilterFactory",
+        "shouldParseFilterArgWithEqualsSyntax",
+        "shouldCreateFailureUponBaldFilterOptionNotFollowedByValue",
+        "shouldCreateFailureUponUnknownTestClass",
+        "shouldAddToClasses",
+        "shouldParseFilterArgInWhichValueIsASeparateArg",
+        "shouldStopParsingOptionsUponNonOption",
+        "shouldCreateFailureUponUnknownOption"
+    ],
+    "org.junit.runner.JUnitCoreTest": [
+        "shouldAddFailuresToResult"
+    ],
+    "org.junit.runner.RequestTest": [
+        "createsADescriptionWithANameForClasses"
+    ],
+    "org.junit.runner.notification.ConcurrentRunNotifierTest": [
+        "reportConcurrentFailuresAfterAddFirstListener",
+        "realUsage",
+        "reportConcurrentFailuresAfterAddListener"
+    ],
+    "org.junit.runner.notification.RunNotifierTest": [
+        "notifiesSecondListenerIfFirstThrowsException",
+        "wrapIfNotThreadSafeShouldNotWrapThreadSafeListeners",
+        "addFirstAndRemoveWithThreadSafeListener",
+        "wrapIfNotThreadSafeShouldWrapNonThreadSafeListeners",
+        "addAndRemoveWithThreadSafeListener",
+        "addAndRemoveWithNonThreadSafeListener",
+        "addFirstAndRemoveWithNonThreadSafeListener",
+        "hasNoProblemsWithFailingListeners"
+    ],
+    "org.junit.runner.notification.SynchronizedRunListenerTest": [
+        "overridesAllMethodsInRunListener",
+        "toStringDelegates",
+        "equalsDelegates",
+        "hashCodeDelegates",
+        "namedListenerCorrectlyImplementsEqualsAndHashCode"
+    ],
+    "org.junit.runners.CustomBlockJUnit4ClassRunnerTest": [
+        "exceptionsFromMethodBlockMustNotResultInUnrootedTests"
+    ],
+    "org.junit.runners.model.FrameworkFieldTest": [
+        "hasToStringWhichPrintsFieldName",
+        "cannotBeCreatedWithoutUnderlyingField",
+        "presentAnnotationIsAvailable",
+        "missingAnnotationIsNotAvailable"
+    ],
+    "org.junit.runners.model.FrameworkMethodTest": [
+        "cannotBeCreatedWithoutUnderlyingField",
+        "hasToStringWhichPrintsMethodName",
+        "presentAnnotationIsAvailable",
+        "missingAnnotationIsNotAvailable"
+    ],
+    "org.junit.runners.model.InvalidTestClassErrorTest": [
+        "invalidTestClassErrorShouldListAllValidationErrorsInItsMessage"
+    ],
+    "org.junit.runners.model.TestClassTest": [
+        "providesAnnotatedFieldsSortedByName",
+        "isNotEqualToNull",
+        "identifiesPublicModifier",
+        "identifiesNonPublicModifier",
+        "providesAnnotatedMethodsSortedByName",
+        "annotatedFieldValues",
+        "isEqualToTestClassThatWrapsSameJavaClass",
+        "hasSameHashCodeAsTestClassThatWrapsSameJavaClass",
+        "fieldsOnSubclassesShadowSuperclasses",
+        "isEqualToTestClassThatWrapsNoJavaClassToo",
+        "presentAnnotationIsAvailable",
+        "annotatedMethodValues",
+        "complainIfMultipleConstructors",
+        "dontMarkNonInnerClassAsInnerClass",
+        "isNotEqualToTestClassThatWrapsADifferentJavaClass",
+        "dontMarkStaticInnerClassAsNonStatic",
+        "hasHashCodeWithoutJavaClass",
+        "identifyNonStaticInnerClass",
+        "missingAnnotationIsNotAvailable"
+    ],
+    "org.junit.runners.parameterized.BlockJUnit4ClassRunnerWithParametersTest": [
+        "hasAllAnnotationsExceptRunWith"
+    ],
+    "org.junit.runners.parameterized.ParameterizedNamesTest": [
+        "parameterizedTestsWithSpecialCharsInName"
+    ],
+    "org.junit.runners.parameterized.TestWithParametersTest": [
+        "hasMeaningfulToString",
+        "isNotEqualToTestWithDifferentParameters",
+        "cannotBeCreatedWithoutParameters",
+        "isNotEqualToTestWithDifferentTestClass",
+        "doesNotAllowToModifyProvidedParameters",
+        "hasSameHashCodeAsEqualTest",
+        "cannotBeCreatedWithoutAName",
+        "cannotBeCreatedWithoutTestClass",
+        "isEqualToTestWithSameNameAndTestClassAndParameters",
+        "isNotEqualToTestWithDifferentName",
+        "doesNotConsiderParametersWhichChangedAfterTestInstantiation",
+        "isNotEqualToObjectWithDifferentClass"
+    ],
+    "org.junit.samples.ListTest": [
+        "testCopy",
+        "contains",
+        "removeElement",
+        "elementAt",
+        "removeAll"
+    ],
+    "org.junit.samples.money.MoneyTest": [
+        "testSimpleSubtract",
+        "testNormalize2",
+        "testNormalize3",
+        "testNormalize4",
+        "testBagNotEquals",
+        "testBagSubtract",
+        "testSimpleAdd",
+        "zeroMoniesAreEqualRegardlessOfCurrency",
+        "testPrint",
+        "testMoneyHash",
+        "testSimpleBagAdd",
+        "testBagSimpleAdd",
+        "testSimpleNegate",
+        "testMoneyBagHash",
+        "testBagNegate",
+        "testSimpleMultiply",
+        "testBagSumAdd",
+        "testMoneyBagEquals",
+        "testBagMultiply",
+        "testSimplify",
+        "testIsZero",
+        "testMoneyEquals",
+        "testMixedSimpleAdd"
+    ],
+    "org.junit.tests.ObjectContractTest": [
+        "equalsMeansEqualHashCodes",
+        "equalsThrowsNoException"
+    ],
+    "org.junit.tests.assertion.AssertionTest": [
+        "floatsNotEqualWithoutDelta",
+        "notEqualsNullWithObjectWithMessage",
+        "sameNullMessage",
+        "charsNotEqual",
+        "multiDimensionalArraysDifferentLengthMessage",
+        "stringsDifferWithUserMessage",
+        "expectThrowsUsesCanonicalNameWhenRequiredExceptionNotThrown",
+        "failWithNoMessageToString",
+        "floatsNotDoublesInArrays",
+        "assertThatIncludesDescriptionOfTestedValueInErrorMessage",
+        "nullMessage",
+        "arraysDifferAtElement0withMessage",
+        "arraysWithNullElementEqual",
+        "expectThrowsUsesNameUponTypeMismatchWithAnonymousClass",
+        "failWithMessageToString",
+        "IntegerDoesNotEqualLong",
+        "shortsNotEqual",
+        "arraysDifferAtElement1withMessage",
+        "objectsNotEquals",
+        "multiDimensionalIntArraysAreEqual",
+        "oneDimensionalBooleanArraysAreNotEqual",
+        "equals",
+        "objectsAreSame",
+        "implicitTypecastEquality",
+        "oneDimensionalFloatArraysAreNotEqual",
+        "oneDimensionalPrimitiveArraysAreEqual",
+        "expectThrowsDetectsTypeMismatchesViaExplicitTypeHint",
+        "notSameWithMessage",
+        "arraysElementsDiffer",
+        "oneDimensionalDoubleArraysAreNotEqual",
+        "bytesNotEqual",
+        "multiDimensionalArraysDifferentLengthNoMessage",
+        "primitiveArraysConvertedToStringCorrectly",
+        "intsNotEqual",
+        "multiDimensionalArraysAreEqual",
+        "arraysDifferentLengthDifferingAtEndAndExpectedArrayLongerMessage",
+        "arraysDifferAtElement0nullMessage",
+        "expectThrowsIncludesAnInformativeDefaultMessage",
+        "arraysNotEqualWithMessage",
+        "expectThrowsSuppliesACoherentErrorMessageUponTypeMismatch",
+        "assertThatIncludesAdvancedMismatch",
+        "arraysDifferAtElement1nullMessage",
+        "notEqualsNullWithObject",
+        "compareBigDecimalAndInteger",
+        "arraysEqualWithMessage",
+        "notSameNullMessage",
+        "arraysDifferentLengthDifferingAtStartMessage",
+        "same",
+        "multiDimensionalArraysDeclaredAsOneDimensionalAreEqual",
+        "fails",
+        "floatsNotEqual",
+        "intsEqualLongs",
+        "expectThrowsWrapsAndPropagatesUnexpectedExceptions",
+        "arraysDifferentLengthDifferingAtEndMessage",
+        "arraysNotEqual",
+        "bigDecimalsNotEqual",
+        "twoDimensionalArraysDifferentInnerLengthNotEqual",
+        "expectThrowsRequiresAnExceptionToBeThrown",
+        "multiDimensionalArraysAreNotEqual",
+        "assertNotEqualsIgnoresDeltaOnNaN",
+        "stringNullAndNullWorksToo",
+        "doublesNotEqual",
+        "expectThrowsUsesCanonicalNameUponTypeMismatch",
+        "twoDimensionalArraysDifferentOuterLengthNotEqual",
+        "arraysActualNullMessage",
+        "longsNotEqual",
+        "nullMessageDisappearsWithAssertEquals",
+        "multiDimensionalArraysAreNotEqualNoMessage",
+        "sameObjectIsNotEqual",
+        "assertNotEqualsIgnoresFloatDeltaOnNaN",
+        "booleansNotEqual",
+        "assertNotEqualsIncludesTheValueBeingTested",
+        "assertThatDescriptionCanBeElided",
+        "assertNotEqualsWorksWithPrimitiveTypes",
+        "nullNullmessage",
+        "errorMessageDistinguishesDifferentValuesWithSameToString",
+        "stringsNotEqual",
+        "sameWithMessage",
+        "nullAndStringNullPrintCorrectError",
+        "arraysDeclaredAsObjectAreComparedAsObjects",
+        "expectThrowsReturnsTheSameObjectThrown",
+        "objectsNotSame",
+        "arraysEqual",
+        "nullMessageDisappearsWithStringAssertEquals",
+        "naNsAreEqual",
+        "assertNotEqualsIncludesCorrectMessage",
+        "assertNotEqualsConsidersFloatDeltaCorrectly",
+        "arraysExpectedNullMessage",
+        "objectsWithDiferentReferencesAreNotEqual",
+        "twoDimensionalArraysConvertedToStringCorrectly",
+        "notEqualsObjectWithNull",
+        "assertNotEqualsConsidersDeltaCorrectly",
+        "notEqualsObjectWithNullWithMessage",
+        "notSame",
+        "nullWithMessage"
+    ],
+    "org.junit.tests.assertion.ComparisonFailureTest": [
+        "compactFailureMessage[compact-msg-0, exp=\"b\"]",
+        "compactFailureMessage[compact-msg-1, exp=\"bc\"]",
+        "compactFailureMessage[compact-msg-2, exp=\"cb\"]",
+        "compactFailureMessage[compact-msg-3, exp=\"adc\"]",
+        "compactFailureMessage[compact-msg-4, exp=\"abc\"]",
+        "compactFailureMessage[compact-msg-5, exp=\"ab\"]",
+        "compactFailureMessage[compact-msg-6, exp=\"abbc\"]",
+        "compactFailureMessage[compact-msg-7, exp=\"01234567890123456789PRE:world:POST\"]",
+        "compactFailureMessage[compact-msg-8, exp=\"PRE:world:01234567890123456789POST\"]",
+        "compactFailureMessage[compact-msg-9, exp=\"0\"]",
+        "compactFailureMessage[compact-msg-10, exp=\"a\"]",
+        "compactFailureMessage[compact-msg-11, exp=\"\"]"
+    ],
+    "org.junit.tests.assertion.MultipleFailureExceptionTest": [
+        "assertEmptyDoesNotThrowForEmptyList",
+        "assertEmptyThrowsMultipleFailureExceptionForManyThrowables",
+        "assertEmptyErrorListConstructorFailure",
+        "assertEmptyRethrowsSingleError",
+        "assertEmptyWrapsAssumptionFailuresForManyThrowables",
+        "assertEmptyRethrowsSingleRuntimeException"
+    ],
+    "org.junit.tests.deprecated.JUnit4ClassRunnerTest": [
+        "runWithOldJUnit4ClassRunner",
+        "runWithOldJUnit4ClassRunnerAndBadConstructor"
+    ],
+    "org.junit.tests.description.AnnotatedDescriptionTest": [
+        "childlessCopyOfDescriptionStillHasAnnotations",
+        "annotationsExistOnDescriptionsOfIgnoredClass",
+        "getAnnotationsReturnsAllAnnotations",
+        "characterizeCreatingMyOwnAnnotation",
+        "descriptionOfTestClassHasValuedAnnotation",
+        "annotationsExistOnDescriptionsOfClasses"
+    ],
+    "org.junit.tests.description.SuiteDescriptionTest": [
+        "hashCodeIsReasonable",
+        "equalsIsCorrect"
+    ],
+    "org.junit.tests.description.TestDescriptionMethodNameTest": [
+        "methodNameTest[0]",
+        "methodNameTest[1]",
+        "methodNameTest[2]",
+        "methodNameTest[3]",
+        "methodNameTest[4]",
+        "methodNameTest[5]",
+        "methodNameTest[6]",
+        "methodNameTest[7]",
+        "methodNameTest[8]",
+        "methodNameTest[9]",
+        "methodNameTest[10]"
+    ],
+    "org.junit.tests.description.TestDescriptionTest": [
+        "equalsIsFalseForSameNameAndDifferentUniqueId",
+        "equalsIsFalseForNonTestDescription",
+        "equalsIsTrueForSameNameAndNoExplicitUniqueId"
+    ],
+    "org.junit.tests.experimental.AssumptionTest": [
+        "failingAssumptionInBeforeClassIgnoresClass",
+        "failedAssumptionsMeanPassing",
+        "assumeThatPasses",
+        "assumeThatWorks",
+        "assumptionsWithMessageAndCause",
+        "assumeWithExpectedException",
+        "failingAssumptionInConstructorIgnoresClass",
+        "assumeTrueWorks",
+        "passingAssumptionsScootThrough",
+        "assumeNoExceptionThrows",
+        "assumeThatPassesOnStrings",
+        "assumeNotNullIncludesParameterList",
+        "failedAssumptionsWithMessage",
+        "failedAssumptionsCanBeDetectedByListeners",
+        "failingAssumptionInBeforePreventsTestRun",
+        "assumeNotNullThrowsExceptionForNullArray",
+        "assumeNotNullPasses",
+        "assumptionsWithMessage",
+        "assumeNotNullThrowsException"
+    ],
+    "org.junit.tests.experimental.MatcherTest": [
+        "differentMatchersHaveDifferentDescriptions"
+    ],
+    "org.junit.tests.experimental.max.DescriptionTest": [
+        "parseMethod_whenCantParse",
+        "parseClass_whenCantParse",
+        "createSuiteDescription_whenNull",
+        "createSuiteDescription_whenZeroLength",
+        "parseClassAndMethodNoAnnotations",
+        "usesPassedInClassObject",
+        "sameNamesButDifferentUniqueIdAreNotEqual",
+        "parseClassNameAndMethodUniqueId",
+        "parseClassAndMethodWithAnnotations"
+    ],
+    "org.junit.tests.experimental.max.JUnit38SortingTest": [
+        "preferRecentlyFailed38Test"
+    ],
+    "org.junit.tests.experimental.max.MaxStarterTest": [
+        "testCountsStandUpToFiltration",
+        "preferFast",
+        "testsAreOnlyIncludedOnceWhenExpandingForSorting",
+        "correctErrorFromMalformedTest",
+        "halfMalformed",
+        "sortTestsInMultipleClasses",
+        "preferNewTests",
+        "twoTestsNotRunComeBackInRandomOrder",
+        "preferNewTestsOverTestsThatFailed",
+        "preferRecentlyFailed",
+        "listenersAreCalledCorrectlyInTheFaceOfFailures",
+        "filterSingleMethodFromOldTestClass",
+        "maxShouldSkipMalformedJUnit38Classes",
+        "rememberOldRuns",
+        "junit3TestsAreRunOnce",
+        "correctErrorFromHalfMalformedTest"
+    ],
+    "org.junit.tests.experimental.parallel.ParallelClassTest": [
+        "testsRunInParallel"
+    ],
+    "org.junit.tests.experimental.parallel.ParallelMethodTest": [
+        "testsRunInParallel"
+    ],
+    "org.junit.tests.experimental.results.PrintableResultTest": [
+        "includeMultipleFailures",
+        "backTraceHasGoodToString"
+    ],
+    "org.junit.tests.experimental.results.ResultMatchersTest": [
+        "hasFailureContaining_givenResultWithOneFailure",
+        "hasFailuresHasGoodDescription",
+        "hasFailureContaining_givenResultWithNoFailures"
+    ],
+    "org.junit.tests.experimental.theories.AssumingInTheoriesTest": [
+        "theoryMeansOnlyAssumeShouldFail",
+        "noTheoryAnnotationMeansAssumeShouldIgnore"
+    ],
+    "org.junit.tests.experimental.theories.ParameterSignatureTest": [
+        "wrapperTypesShouldBeAcceptedAsPrimitiveTypes",
+        "getAnnotations",
+        "primitiveTypesShouldBeAcceptedAsWrapperTypeAssignables",
+        "primitiveTypesShouldBeAcceptedAsWrapperTypes",
+        "getType"
+    ],
+    "org.junit.tests.experimental.theories.PotentialAssignmentTest": [
+        "shouldReturnGivenValue",
+        "shouldNotUseQuotesForNullValueDescriptions",
+        "shouldIncludeFailureInDescriptionIfToStringFails",
+        "shouldUseQuotedValueInDescription"
+    ],
+    "org.junit.tests.experimental.theories.TestedOnSupplierTest": [
+        "descriptionStatesParameterName"
+    ],
+    "org.junit.tests.experimental.theories.extendingwithstubs.StubbedTheoriesTest": [
+        "ask"
+    ],
+    "org.junit.tests.experimental.theories.internal.AllMembersSupplierTest": [
+        "dataPointMethodShouldBeRecognizedForOverlyGeneralParameters",
+        "allMembersFailsOnFailingDataPointsArrayMethod",
+        "dataPointsCollectionMethodShouldBeRecognized",
+        "dataPointsArrayShouldBeRecognized",
+        "dataPointsArrayFieldMayContainNullValue",
+        "dataPointsArrayMethodMayContainNullValue",
+        "dataPointsAnnotationMeansTreatAsArrayOnly",
+        "dataPointsCollectionFieldsShouldBeRecognized",
+        "dataPointsCollectionShouldBeRecognizedIgnoringStrangeTypes",
+        "dataPointsArrayShouldBeRecognizedOnValueTypeNotFieldType"
+    ],
+    "org.junit.tests.experimental.theories.internal.ParameterizedAssertionErrorTest": [
+        "canJoinWhenToStringFails",
+        "isNotEqualToNull",
+        "equalParameterizedAssertionErrorsHaveSameToString",
+        "buildParameterizedAssertionError",
+        "differentParameterizedAssertionErrorsHaveDifferentToStrings",
+        "equalsReturnsTrue",
+        "sameHashCodeWhenEquals"
+    ],
+    "org.junit.tests.experimental.theories.internal.SpecificDataPointsSupplierTest": [
+        "shouldReturnNothingIfTheNamedDataPointsAreMissing",
+        "shouldReturnOnlyTheNamedMethodDataPoints",
+        "shouldReturnOnlyTheNamedSingleFieldDataPoints",
+        "shouldReturnOnlyTheNamedDataPoints",
+        "shouldReturnOnlyTheNamedFieldDataPoints",
+        "shouldReturnOnlyTheNamedSingleMethodDataPoints"
+    ],
+    "org.junit.tests.experimental.theories.runner.FailingDataPointMethods": [
+        "shouldIgnoreSingleDataPointMethodExceptionsOnRequest",
+        "shouldNotIgnoreNonMatchingMultipleDataPointExceptions",
+        "shouldNotIgnoreNonMatchingSingleDataPointExceptions",
+        "shouldFailFromExceptionsInDataPointArrayMethods",
+        "shouldFailFromExceptionsInSingleDataPointMethods",
+        "shouldIgnoreMultipleDataPointMethodExceptionsOnRequest"
+    ],
+    "org.junit.tests.experimental.theories.runner.SuccessfulWithDataPointFields$BeforeAndAfterEachTime": [
+        "stringsAreOK"
+    ],
+    "org.junit.tests.experimental.theories.runner.SuccessfulWithDataPointFields$BeforeAndAfterOnSameInstance": [
+        "stringsAreOK"
+    ],
+    "org.junit.tests.experimental.theories.runner.SuccessfulWithDataPointFields$DifferentTypesInConstructor": [
+        "yesIndeed"
+    ],
+    "org.junit.tests.experimental.theories.runner.SuccessfulWithDataPointFields$HasATwoParameterTheory": [
+        "allIntsAreEqual"
+    ],
+    "org.junit.tests.experimental.theories.runner.SuccessfulWithDataPointFields$NewObjectEachTime": [
+        "addToEmptyList"
+    ],
+    "org.junit.tests.experimental.theories.runner.SuccessfulWithDataPointFields$OneTestTwoAnnotations": [
+        "stringsAreOK"
+    ],
+    "org.junit.tests.experimental.theories.runner.SuccessfulWithDataPointFields$PositiveInts": [
+        "haveAPostiveSquare"
+    ],
+    "org.junit.tests.experimental.theories.runner.SuccessfulWithDataPointFields$PositiveIntsWithMethodParams": [
+        "haveAPostiveSquare"
+    ],
+    "org.junit.tests.experimental.theories.runner.SuccessfulWithDataPointFields$PositiveIntsWithNegativeField": [
+        "haveAPostiveSquare"
+    ],
+    "org.junit.tests.experimental.theories.runner.SuccessfulWithDataPointFields$StaticPublicNonDataPoints": [
+        "onlyAnnotatedFields"
+    ],
+    "org.junit.tests.experimental.theories.runner.TheoriesPerformanceTest": [
+        "tryCombinationsQuickly"
+    ],
+    "org.junit.tests.experimental.theories.runner.TypeMatchingBetweenMultiDataPointsMethod": [
+        "ignoreWrongTypedDataPointsMethod",
+        "pickUpMultiPointDataPointMethods"
+    ],
+    "org.junit.tests.experimental.theories.runner.UnsuccessfulWithDataPointFields": [
+        "dataPointFieldsMustBeStatic",
+        "reportBadParams",
+        "dataPointMethodsMustBePublic",
+        "theoryAnnotationsAreRetained",
+        "dataPointMethodsMustBeStatic",
+        "theoryClassMethodsShowUp",
+        "nullsUsedUnlessProhibited",
+        "theoriesMustBePublic",
+        "canRunTheories",
+        "dataPointFieldsMustBePublic"
+    ],
+    "org.junit.tests.experimental.theories.runner.WhenNoParametersMatch": [
+        "showFailedAssumptionsWhenNoParametersFound"
+    ],
+    "org.junit.tests.experimental.theories.runner.WithAutoGeneratedDataPoints": [
+        "shouldAutomaticallyGenerateBooleanDataPoints",
+        "shouldNotAutogenerateEnumDataPointsWhenSpecificDataPointGiven",
+        "shouldNotAutogenerateBooleanDataPointsWhenSpecificDataPointGiven",
+        "shouldAutomaticallyGenerateEnumDataPoints"
+    ],
+    "org.junit.tests.experimental.theories.runner.WithDataPointMethod": [
+        "mutableObjectsAreCreatedAfresh",
+        "ignoreDataPointMethodsWithoutAnnotation",
+        "ignoreDataPointMethodsWithWrongTypes",
+        "pickUpDataPointMethods"
+    ],
+    "org.junit.tests.experimental.theories.runner.WithExtendedParameterSources": [
+        "dataPointCanBeArray",
+        "shouldFilterOutNullSingleDataPoints",
+        "getDataPointsFromArrayMethod",
+        "getDataPointsFromArrayMethodInSpiteOfMalformedness",
+        "getDataPointsFromArray",
+        "ShouldRejectTheoriesWithOnlyDisallowedNullData",
+        "shouldFilterOutNullElementsFromDataPointArrays",
+        "testedOnLimitsParameters"
+    ],
+    "org.junit.tests.experimental.theories.runner.WithNamedDataPoints": [
+        "onlyUseSpecificDataPointsIfSpecified"
+    ],
+    "org.junit.tests.experimental.theories.runner.WithOnlyTestAnnotations": [
+        "honorExpected",
+        "testErrorWhenTestHasParametersDespiteTheories",
+        "honorExpectedPassing",
+        "honorTimeout"
+    ],
+    "org.junit.tests.experimental.theories.runner.WithParameterSupplier": [
+        "shouldRejectSuppliersWithTwoConstructors",
+        "shouldPickUpDataPointsFromParameterSupplier",
+        "shouldRejectSuppliersWithUnknownConstructors",
+        "shouldAcceptSuppliersWithTestClassConstructor"
+    ],
+    "org.junit.tests.experimental.theories.runner.WithUnresolvedGenericTypeVariablesOnTheoryParms": [
+        "whereTypeVariableIsOnArrayTypeOnTheoryParm",
+        "whereTypeVariableIsOnWildcardUpperBoundOnTheoryParm",
+        "whereTypeVariablesAbound",
+        "whereTypeVariableIsOnComponentOfArrayTypeOnTheoryParm",
+        "whereTypeVariableIsOnTheoryClass",
+        "whereTypeVariableIsOnTheoryParm",
+        "whereTypeVariableIsOnTheTheory",
+        "whereTypeVariableIsOnParameterizedTheoryParm",
+        "whereTypeVariableIsOnWildcardLowerBoundOnTheoryParm"
+    ],
+    "org.junit.tests.junit3compatibility.AllTestsTest": [
+        "correctTestCountAdapted",
+        "exceptionThrownWhenSuiteIsBad",
+        "someUsefulDescription",
+        "ensureTestIsRun",
+        "correctTestCount"
+    ],
+    "org.junit.tests.junit3compatibility.ClassRequestTest": [
+        "noSuiteMethodIfMethodPrivate"
+    ],
+    "org.junit.tests.junit3compatibility.ForwardCompatibilityPrintingTest": [
+        "testError",
+        "testErrorAdapted"
+    ],
+    "org.junit.tests.junit3compatibility.ForwardCompatibilityTest": [
+        "testException",
+        "testNoException",
+        "testNotifyResult",
+        "testExpected",
+        "testToString",
+        "testBeforeAndAfterClass",
+        "testToStringSuite",
+        "testCompatibility",
+        "testInvalidMethod",
+        "testExceptionInBefore",
+        "testUseGlobalCache",
+        "testRunWithClass"
+    ],
+    "org.junit.tests.junit3compatibility.InitializationErrorForwardCompatibilityTest": [
+        "initializationErrorsShowUpAsWarnings",
+        "initializationErrorsAreThrownAtRuntime",
+        "generatedErrorTestsMatchUp"
+    ],
+    "org.junit.tests.junit3compatibility.JUnit38ClassRunnerTest": [
+        "invalidTestMethodReportedCorrectly",
+        "getDescriptionWithAnnotationInSuper",
+        "getDescriptionWithAnnotation",
+        "canUnadaptAnAdapter",
+        "filterNoTestsRemain",
+        "plansDecoratorCorrectly",
+        "testListener"
+    ],
+    "org.junit.tests.junit3compatibility.JUnit4TestAdapterTest": [
+        "testJUnit4SuiteThatContainsJUnit3SuiteClass",
+        "testJUnit3Suite",
+        "testJUnit4Suite"
+    ],
+    "org.junit.tests.junit3compatibility.OldTestClassAdaptingListenerTest": [
+        "addFailureDelegatesToNotifier"
+    ],
+    "org.junit.tests.junit3compatibility.SuiteMethodTest": [
+        "makeSureSuiteNotUsedWithJUnit4Classes2",
+        "makeSureSuiteIsCalled",
+        "suiteIsUsedWithJUnit4Classes",
+        "descriptionAndRunNotificationsAreConsistent",
+        "makeSureSuiteWorksWithJUnit4Classes"
+    ],
+    "org.junit.tests.listening.ListenerTest": [
+        "notifyListenersInTheOrderInWhichTheyAreAdded"
+    ],
+    "org.junit.tests.listening.RunnerTest": [
+        "oldTestCount",
+        "newTestCount",
+        "testFinished"
+    ],
+    "org.junit.tests.listening.TestListenerTest": [
+        "freshResultEachTime",
+        "reportsFailureOfListener",
+        "failingListener"
+    ],
+    "org.junit.tests.listening.TextListenerTest": [
+        "testError",
+        "testTime",
+        "testSuccess"
+    ],
+    "org.junit.tests.listening.UserStopTest": [
+        "stopClassRunner",
+        "userStop"
+    ],
+    "org.junit.tests.manipulation.FilterTest": [
+        "intersectAll",
+        "intersectionText",
+        "intersectSelf"
+    ],
+    "org.junit.tests.manipulation.FilterableTest": [
+        "testFilterInRunnerConstructor"
+    ],
+    "org.junit.tests.manipulation.SingleMethodTest": [
+        "filteringAwayEverythingThrowsException",
+        "eliminateUnnecessaryTreeBranches",
+        "filteringAffectsPlan",
+        "parameterizedBeforeClass",
+        "classesWithSuiteMethodsAreFiltered",
+        "oneTimeSetup",
+        "parameterizedFilterToSingleMethod",
+        "nonexistentMethodCreatesFailure"
+    ],
+    "org.junit.tests.manipulation.SortableTest$TestClassRunnerIsSortable": [
+        "sortingBackwardWorksOnSuite",
+        "sortingBackwardWorksOnTestClassRunner",
+        "sortingForwardWorksOnTestClassRunner",
+        "sortingForwardWorksOnSuite"
+    ],
+    "org.junit.tests.manipulation.SortableTest$TestClassRunnerIsSortableWithSuiteMethod": [
+        "sortingBackwardWorksOnTestClassRunner",
+        "sortingForwardWorksOnTestClassRunner"
+    ],
+    "org.junit.tests.manipulation.SortableTest$UnsortableRunnersAreHandledWithoutCrashing": [
+        "unsortablesAreHandledWithoutCrashing"
+    ],
+    "org.junit.tests.running.classes.BlockJUnit4ClassRunnerTest": [
+        "detectNonStaticEnclosedClass"
+    ],
+    "org.junit.tests.running.classes.ClassLevelMethodsWithIgnoredTestsTest": [
+        "beforeClassShouldNotRunWhenAllTestsAreFiltered",
+        "classRuleShouldNotBeAppliedWhenAllTestsAreIgnored",
+        "beforeClassShouldNotRunWhenAllTestsAreIgnored",
+        "beforeClassShouldNotRunWhenWholeClassIsIgnored",
+        "afterClassShouldNotRunWhenAllTestsAreIgnored"
+    ],
+    "org.junit.tests.running.classes.EnclosedTest": [
+        "enclosedRunnerRunsConcreteEnclosedClasses",
+        "enclosedRunnerIsNamedForEnclosingClass",
+        "enclosedRunnerPlansConcreteEnclosedClasses"
+    ],
+    "org.junit.tests.running.classes.IgnoreClassTest": [
+        "ignoreClass"
+    ],
+    "org.junit.tests.running.classes.ParameterizedTestTest": [
+        "usesIndexAsTestName",
+        "runsForEverySingleArgumentOfIterable",
+        "plansNamedCorrectly",
+        "providesDataByAnnotatedFields",
+        "countsFailures",
+        "countsRuns",
+        "numberOfFieldsAndParametersShouldMatch",
+        "runsEveryTestOfArray",
+        "validateClassCatchesNoParameters",
+        "countBeforeRun",
+        "failuresAddedForBadTestMethod",
+        "failuresNamedCorrectly",
+        "meaningfulFailureWhenParametersNotPublic",
+        "usesParametersRunnerFactoryThatWasSpecifiedByAnnotationInSuperClass",
+        "beforeAndAfterClassAreRun",
+        "usesParametersRunnerFactoryThatWasSpecifiedByAnnotation",
+        "failureOnInitialization",
+        "runsForEverySingleArgumentOfArray",
+        "exceptionWhenPrivateConstructor",
+        "meaningfulFailureWhenParametersAreNotAnIterable"
+    ],
+    "org.junit.tests.running.classes.ParentRunnerFilteringTest": [
+        "testRunSuiteFiltering",
+        "testSuiteFilteringWithUnmodifyableChildList",
+        "testCountSuiteFiltering",
+        "testCountClassFiltering",
+        "testSuiteFiltering"
+    ],
+    "org.junit.tests.running.classes.ParentRunnerTest": [
+        "parentRunnerTestMethods",
+        "assertionErrorAtParentLevelTest",
+        "assumptionViolatedAtParentLevel",
+        "failWithHelpfulMessageForNonStaticClassRule",
+        "failWithHelpfulMessageForProtectedClassRule",
+        "testMultipleFilters",
+        "cannotBeCreatedWithNonPublicTestClass",
+        "useChildHarvester"
+    ],
+    "org.junit.tests.running.classes.RunWithTest": [
+        "runWithExtendsToSubclasses",
+        "run",
+        "characterizeErrorMessageFromBadRunner"
+    ],
+    "org.junit.tests.running.classes.SuiteTest": [
+        "withoutSuiteClassAnnotationProducesFailure",
+        "suiteShouldComplainAboutNoSuiteClassesAnnotation",
+        "beforeAndAfterClassRunOnSuite",
+        "suiteShouldBeOKwithNonDefaultConstructor",
+        "suiteTestCountIsCorrect",
+        "ensureInheritedTestIsRun",
+        "whatHappensWhenASuiteHasAForkingCycle",
+        "whatHappensWhenASuiteHasACycle",
+        "ensureTestIsRun",
+        "whatHappensWhenASuiteContainsItselfIndirectly",
+        "ensureSuitesWorkWithForwardCompatibility",
+        "forwardCompatibilityWorksWithTestCount",
+        "forwardCompatibilityWorksWithGetTests"
+    ],
+    "org.junit.tests.running.classes.UseSuiteAsASuperclassTest": [
+        "ensureTestsAreRun"
+    ],
+    "org.junit.tests.running.classes.parent.ParentRunnerClassLoaderTest": [
+        "testClassRuleAccessToClassInAnotherClassLoader",
+        "testBackwardCompatibilityWithOverrideGetName",
+        "testDescriptionContainCorrectTestClass"
+    ],
+    "org.junit.tests.running.core.CommandLineTest": [
+        "runTwoClassesAsArray",
+        "runAClass",
+        "runATest",
+        "runTwoClasses"
+    ],
+    "org.junit.tests.running.core.JUnitCoreReturnsCorrectExitCodeTest": [
+        "failureCausesExitCodeOf1",
+        "successCausesExitCodeOf0",
+        "missingClassCausesExitCodeOf1"
+    ],
+    "org.junit.tests.running.core.SystemExitTest": [
+        "failureCausesExitCodeOf1"
+    ],
+    "org.junit.tests.running.methods.AnnotationTest": [
+        "testException",
+        "testErrorInBeforeClass",
+        "testTeardownAfterFailure",
+        "testRunAllAftersRegardless",
+        "testAnnotatedMethodWithFutureProofExplicitRunner",
+        "testTwoTests",
+        "testOldTest",
+        "testShadowing",
+        "testOrder",
+        "testSetup",
+        "testTeardown",
+        "testNonStaticOneTimeSetup",
+        "testOneTimeTeardown",
+        "testOldSuiteTest",
+        "testErrorInAfterClass",
+        "testRunAllAfters",
+        "testRunAllAfterClasses",
+        "testExceptionNotThrown",
+        "testTestAndTeardownFailure",
+        "testOrderingOfInheritance",
+        "testRunFailure",
+        "testAnnotatedMethod",
+        "testRunAllAfterClassesRegardless",
+        "testTestInheritance",
+        "testTeardownFailure",
+        "testOneTimeSetup",
+        "testSetupFailure"
+    ],
+    "org.junit.tests.running.methods.ExpectedTest": [
+        "expected",
+        "expectsSuperclass",
+        "unexpected",
+        "noneThrown"
+    ],
+    "org.junit.tests.running.methods.InheritedTestTest": [
+        "subclassWithInheritedTestAndOwnBeforeRunsBefore",
+        "subclassWithOnlyInheritedTestsRuns"
+    ],
+    "org.junit.tests.running.methods.ParameterizedTestMethodTest": [
+        "testFailures[0]",
+        "testFailures[1]",
+        "testFailures[2]"
+    ],
+    "org.junit.tests.running.methods.TestMethodTest": [
+        "overloaded",
+        "onlyIgnoredMethodsIsStillFineTestClass",
+        "dontValidateShadowedMethods",
+        "constructorParameter",
+        "ignoreRunner",
+        "validateInheritedMethods",
+        "testFailures",
+        "compatibility"
+    ],
+    "org.junit.tests.running.methods.TimeoutTest": [
+        "testZeroTimeoutIsIgnored",
+        "timeoutFailureMultithreadedStuckInMain",
+        "testGetTimeout",
+        "stalledThreadAppearsInStackTrace",
+        "infiniteLoopRunsForApproximatelyLengthOfTimeout",
+        "timeoutFailureMultithreaded",
+        "failureWithTimeout",
+        "timeoutFailure",
+        "makeSureAfterIsCalledAfterATimeout",
+        "successWithTimeout",
+        "failureWithTimeoutRunTimeException",
+        "infiniteLoop",
+        "compatibility"
+    ],
+    "org.junit.tests.validation.BadlyFormedClassesTest": [
+        "constructorException",
+        "badBeforeMethodWithLegacyRunner",
+        "noRunnableMethods"
+    ],
+    "org.junit.tests.validation.FailedConstructionTest": [
+        "failedConstructionIsTestFailure"
+    ],
+    "org.junit.tests.validation.ValidationTest": [
+        "initializationErrorIsOnCorrectClass",
+        "nonStaticBeforeClass"
+    ],
+    "org.junit.validator.AnnotationValidatorFactoryTest": [
+        "createAnnotationValidator",
+        "exceptionWhenAnnotationValidatorCantBeCreated"
+    ],
+    "org.junit.validator.AnnotationsValidatorTest": [
+        "validatorIsCalledForAMethod",
+        "validatorIsCalledForAClass",
+        "validatorIsCalledForAField"
+    ],
+    "org.junit.validator.PublicClassValidatorTest": [
+        "acceptsPublicClass",
+        "rejectsNonPublicClass"
+    ]
+}

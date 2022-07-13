@@ -1,0 +1,42 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ------------------------< org.jfree:jfreechart >------------------------
+[INFO] Building JFreeChart 1.5.0
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ jfreechart ---
+[INFO] Deleting ./jfreechart/target
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ jfreechart ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 42 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.7.0:compile (default-compile) @ jfreechart ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 640 source files to ./jfreechart/target/classes
+[INFO] ./jfreechart/src/main/java/org/jfree/chart/urls/URLUtilities.java: ./jfreechart/src/main/java/org/jfree/chart/urls/URLUtilities.java uses or overrides a deprecated API.
+[INFO] ./jfreechart/src/main/java/org/jfree/chart/urls/URLUtilities.java: Recompile with -Xlint:deprecation for details.
+[INFO] ./jfreechart/src/main/java/org/jfree/chart/JFreeChart.java: Some input files use unchecked or unsafe operations.
+[INFO] ./jfreechart/src/main/java/org/jfree/chart/JFreeChart.java: Recompile with -Xlint:unchecked for details.
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] ./jfreechart/src/main/java/org/jfree/data/DefaultKeyedValues2D.java:[198,5] missing return statement
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  6.283 s
+[INFO] Finished at: 
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.7.0:compile (default-compile) on project jfreechart: Compilation failure
+[ERROR] ./jfreechart/src/main/java/org/jfree/data/DefaultKeyedValues2D.java:[198,5] missing return statement
+[ERROR] 
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException

@@ -1,0 +1,568 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ------< com.fasterxml.jackson.dataformat:jackson-dataformat-xml >-------
+[INFO] Building Jackson-dataformat-XML 2.9.4-SNAPSHOT
+[INFO] -------------------------------[ bundle ]-------------------------------
+Downloading from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.9.3/jackson-databind-2.9.3.pom
+Progress (1): 1.4/5.9 kB
+Progress (1): 2.7/5.9 kB
+Progress (1): 4.1/5.9 kB
+Progress (1): 5.5/5.9 kB
+Progress (1): 5.9 kB    
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.9.3/jackson-databind-2.9.3.pom (5.9 kB at 4.4 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/module/jackson-module-jaxb-annotations/2.9.3/jackson-module-jaxb-annotations-2.9.3.pom
+Progress (1): 1.4/2.0 kB
+Progress (1): 2.0 kB    
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/module/jackson-module-jaxb-annotations/2.9.3/jackson-module-jaxb-annotations-2.9.3.pom (2.0 kB at 5.1 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/module/jackson-modules-base/2.9.3/jackson-modules-base-2.9.3.pom
+Progress (1): 1.4/2.6 kB
+Progress (1): 2.6 kB    
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/module/jackson-modules-base/2.9.3/jackson-modules-base-2.9.3.pom (2.6 kB at 6.4 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.9.3/jackson-databind-2.9.3.jar
+Downloading from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/module/jackson-module-jaxb-annotations/2.9.3/jackson-module-jaxb-annotations-2.9.3.jar
+Progress (1): 0/1.3 MB
+Progress (1): 0/1.3 MB
+Progress (1): 0/1.3 MB
+Progress (1): 0/1.3 MB
+Progress (1): 0/1.3 MB
+Progress (1): 0/1.3 MB
+Progress (1): 0/1.3 MB
+Progress (1): 0/1.3 MB
+Progress (1): 0/1.3 MB
+Progress (1): 0/1.3 MB
+Progress (1): 0/1.3 MB
+Progress (1): 0/1.3 MB
+Progress (1): 0/1.3 MB
+Progress (1): 0/1.3 MB
+Progress (1): 0/1.3 MB
+Progress (1): 0/1.3 MB
+Progress (1): 0/1.3 MB
+Progress (1): 0/1.3 MB
+Progress (1): 0/1.3 MB
+Progress (1): 0/1.3 MB
+Progress (1): 0/1.3 MB
+Progress (1): 0/1.3 MB
+Progress (1): 0/1.3 MB
+Progress (1): 0/1.3 MB
+Progress (1): 0/1.3 MB
+Progress (1): 0/1.3 MB
+Progress (1): 0/1.3 MB
+Progress (1): 0/1.3 MB
+Progress (1): 0/1.3 MB
+Progress (1): 0/1.3 MB
+Progress (1): 0/1.3 MB
+Progress (1): 0/1.3 MB
+Progress (1): 0/1.3 MB
+Progress (1): 0/1.3 MB
+Progress (1): 0/1.3 MB
+Progress (1): 0/1.3 MB
+Progress (1): 0.1/1.3 MB
+Progress (1): 0.1/1.3 MB
+Progress (1): 0.1/1.3 MB
+Progress (1): 0.1/1.3 MB
+Progress (1): 0.1/1.3 MB
+Progress (1): 0.1/1.3 MB
+Progress (1): 0.1/1.3 MB
+Progress (1): 0.1/1.3 MB
+Progress (1): 0.1/1.3 MB
+Progress (1): 0.1/1.3 MB
+Progress (1): 0.1/1.3 MB
+Progress (1): 0.1/1.3 MB
+Progress (1): 0.1/1.3 MB
+Progress (1): 0.1/1.3 MB
+Progress (1): 0.1/1.3 MB
+Progress (1): 0.1/1.3 MB
+Progress (2): 0.1/1.3 MB | 1.4/33 kB
+Progress (2): 0.1/1.3 MB | 2.7/33 kB
+Progress (2): 0.1/1.3 MB | 4.1/33 kB
+Progress (2): 0.1/1.3 MB | 4.1/33 kB
+Progress (2): 0.1/1.3 MB | 4.1/33 kB
+Progress (2): 0.1/1.3 MB | 5.5/33 kB
+Progress (2): 0.1/1.3 MB | 5.5/33 kB
+Progress (2): 0.1/1.3 MB | 6.9/33 kB
+Progress (2): 0.1/1.3 MB | 6.9/33 kB
+Progress (2): 0.1/1.3 MB | 8.2/33 kB
+Progress (2): 0.1/1.3 MB | 9.6/33 kB
+Progress (2): 0.1/1.3 MB | 11/33 kB 
+Progress (2): 0.1/1.3 MB | 12/33 kB
+Progress (2): 0.1/1.3 MB | 14/33 kB
+Progress (2): 0.1/1.3 MB | 15/33 kB
+Progress (2): 0.1/1.3 MB | 15/33 kB
+Progress (2): 0.1/1.3 MB | 15/33 kB
+Progress (2): 0.1/1.3 MB | 15/33 kB
+Progress (2): 0.1/1.3 MB | 15/33 kB
+Progress (2): 0.1/1.3 MB | 16/33 kB
+Progress (2): 0.1/1.3 MB | 17/33 kB
+Progress (2): 0.1/1.3 MB | 19/33 kB
+Progress (2): 0.2/1.3 MB | 19/33 kB
+Progress (2): 0.2/1.3 MB | 19/33 kB
+Progress (2): 0.2/1.3 MB | 19/33 kB
+Progress (2): 0.2/1.3 MB | 19/33 kB
+Progress (2): 0.2/1.3 MB | 20/33 kB
+Progress (2): 0.2/1.3 MB | 21/33 kB
+Progress (2): 0.2/1.3 MB | 23/33 kB
+Progress (2): 0.2/1.3 MB | 23/33 kB
+Progress (2): 0.2/1.3 MB | 23/33 kB
+Progress (2): 0.2/1.3 MB | 23/33 kB
+Progress (2): 0.2/1.3 MB | 23/33 kB
+Progress (2): 0.2/1.3 MB | 24/33 kB
+Progress (2): 0.2/1.3 MB | 25/33 kB
+Progress (2): 0.2/1.3 MB | 25/33 kB
+Progress (2): 0.2/1.3 MB | 25/33 kB
+Progress (2): 0.2/1.3 MB | 25/33 kB
+Progress (2): 0.2/1.3 MB | 25/33 kB
+Progress (2): 0.2/1.3 MB | 27/33 kB
+Progress (2): 0.2/1.3 MB | 28/33 kB
+Progress (2): 0.2/1.3 MB | 28/33 kB
+Progress (2): 0.2/1.3 MB | 28/33 kB
+Progress (2): 0.2/1.3 MB | 28/33 kB
+Progress (2): 0.2/1.3 MB | 28/33 kB
+Progress (2): 0.2/1.3 MB | 30/33 kB
+Progress (2): 0.2/1.3 MB | 31/33 kB
+Progress (2): 0.2/1.3 MB | 31/33 kB
+Progress (2): 0.2/1.3 MB | 31/33 kB
+Progress (2): 0.2/1.3 MB | 31/33 kB
+Progress (2): 0.2/1.3 MB | 31/33 kB
+Progress (2): 0.2/1.3 MB | 32/33 kB
+Progress (2): 0.2/1.3 MB | 33 kB   
+Progress (2): 0.2/1.3 MB | 33 kB
+Progress (2): 0.2/1.3 MB | 33 kB
+Progress (2): 0.2/1.3 MB | 33 kB
+Progress (2): 0.2/1.3 MB | 33 kB
+Progress (2): 0.2/1.3 MB | 33 kB
+Progress (2): 0.3/1.3 MB | 33 kB
+Progress (2): 0.3/1.3 MB | 33 kB
+Progress (2): 0.3/1.3 MB | 33 kB
+Progress (2): 0.3/1.3 MB | 33 kB
+Progress (2): 0.3/1.3 MB | 33 kB
+Progress (2): 0.3/1.3 MB | 33 kB
+Progress (2): 0.3/1.3 MB | 33 kB
+Progress (2): 0.3/1.3 MB | 33 kB
+Progress (2): 0.3/1.3 MB | 33 kB
+Progress (2): 0.3/1.3 MB | 33 kB
+Progress (2): 0.3/1.3 MB | 33 kB
+Progress (2): 0.3/1.3 MB | 33 kB
+Progress (2): 0.3/1.3 MB | 33 kB
+Progress (2): 0.3/1.3 MB | 33 kB
+Progress (2): 0.3/1.3 MB | 33 kB
+Progress (2): 0.3/1.3 MB | 33 kB
+Progress (2): 0.3/1.3 MB | 33 kB
+Progress (2): 0.3/1.3 MB | 33 kB
+Progress (2): 0.3/1.3 MB | 33 kB
+Progress (2): 0.3/1.3 MB | 33 kB
+Progress (2): 0.3/1.3 MB | 33 kB
+Progress (2): 0.3/1.3 MB | 33 kB
+Progress (2): 0.3/1.3 MB | 33 kB
+Progress (2): 0.3/1.3 MB | 33 kB
+Progress (2): 0.4/1.3 MB | 33 kB
+Progress (2): 0.4/1.3 MB | 33 kB
+Progress (2): 0.4/1.3 MB | 33 kB
+Progress (2): 0.4/1.3 MB | 33 kB
+Progress (2): 0.4/1.3 MB | 33 kB
+Progress (2): 0.4/1.3 MB | 33 kB
+Progress (2): 0.4/1.3 MB | 33 kB
+Progress (2): 0.4/1.3 MB | 33 kB
+Progress (2): 0.4/1.3 MB | 33 kB
+Progress (2): 0.4/1.3 MB | 33 kB
+Progress (2): 0.4/1.3 MB | 33 kB
+Progress (2): 0.4/1.3 MB | 33 kB
+Progress (2): 0.4/1.3 MB | 33 kB
+Progress (2): 0.4/1.3 MB | 33 kB
+Progress (2): 0.4/1.3 MB | 33 kB
+Progress (2): 0.4/1.3 MB | 33 kB
+Progress (2): 0.4/1.3 MB | 33 kB
+Progress (2): 0.4/1.3 MB | 33 kB
+Progress (2): 0.4/1.3 MB | 33 kB
+Progress (2): 0.4/1.3 MB | 33 kB
+Progress (2): 0.4/1.3 MB | 33 kB
+Progress (2): 0.4/1.3 MB | 33 kB
+Progress (2): 0.4/1.3 MB | 33 kB
+Progress (2): 0.4/1.3 MB | 33 kB
+Progress (2): 0.4/1.3 MB | 33 kB
+Progress (2): 0.5/1.3 MB | 33 kB
+Progress (2): 0.5/1.3 MB | 33 kB
+Progress (2): 0.5/1.3 MB | 33 kB
+Progress (2): 0.5/1.3 MB | 33 kB
+Progress (2): 0.5/1.3 MB | 33 kB
+Progress (2): 0.5/1.3 MB | 33 kB
+Progress (2): 0.5/1.3 MB | 33 kB
+Progress (2): 0.5/1.3 MB | 33 kB
+Progress (2): 0.5/1.3 MB | 33 kB
+Progress (2): 0.5/1.3 MB | 33 kB
+                                
+Downloaded from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/module/jackson-module-jaxb-annotations/2.9.3/jackson-module-jaxb-annotations-2.9.3.jar (33 kB at 37 kB/s)
+Progress (1): 0.5/1.3 MB
+Progress (1): 0.5/1.3 MB
+Progress (1): 0.5/1.3 MB
+Progress (1): 0.5/1.3 MB
+Progress (1): 0.5/1.3 MB
+Progress (1): 0.5/1.3 MB
+Progress (1): 0.5/1.3 MB
+Progress (1): 0.5/1.3 MB
+Progress (1): 0.5/1.3 MB
+Progress (1): 0.5/1.3 MB
+Progress (1): 0.5/1.3 MB
+Progress (1): 0.5/1.3 MB
+Progress (1): 0.5/1.3 MB
+Progress (1): 0.5/1.3 MB
+Progress (1): 0.6/1.3 MB
+Progress (1): 0.6/1.3 MB
+Progress (1): 0.6/1.3 MB
+Progress (1): 0.6/1.3 MB
+Progress (1): 0.6/1.3 MB
+Progress (1): 0.6/1.3 MB
+Progress (1): 0.6/1.3 MB
+Progress (1): 0.6/1.3 MB
+Progress (1): 0.6/1.3 MB
+Progress (1): 0.6/1.3 MB
+Progress (1): 0.6/1.3 MB
+Progress (1): 0.6/1.3 MB
+Progress (1): 0.6/1.3 MB
+Progress (1): 0.6/1.3 MB
+Progress (1): 0.6/1.3 MB
+Progress (1): 0.6/1.3 MB
+Progress (1): 0.6/1.3 MB
+Progress (1): 0.6/1.3 MB
+Progress (1): 0.6/1.3 MB
+Progress (1): 0.6/1.3 MB
+Progress (1): 0.6/1.3 MB
+Progress (1): 0.6/1.3 MB
+Progress (1): 0.6/1.3 MB
+Progress (1): 0.6/1.3 MB
+Progress (1): 0.6/1.3 MB
+Progress (1): 0.7/1.3 MB
+Progress (1): 0.7/1.3 MB
+Progress (1): 0.7/1.3 MB
+Progress (1): 0.7/1.3 MB
+Progress (1): 0.7/1.3 MB
+Progress (1): 0.7/1.3 MB
+Progress (1): 0.7/1.3 MB
+Progress (1): 0.7/1.3 MB
+Progress (1): 0.7/1.3 MB
+Progress (1): 0.7/1.3 MB
+Progress (1): 0.7/1.3 MB
+Progress (1): 0.7/1.3 MB
+Progress (1): 0.7/1.3 MB
+Progress (1): 0.7/1.3 MB
+Progress (1): 0.7/1.3 MB
+Progress (1): 0.7/1.3 MB
+Progress (1): 0.7/1.3 MB
+Progress (1): 0.7/1.3 MB
+Progress (1): 0.7/1.3 MB
+Progress (1): 0.7/1.3 MB
+Progress (1): 0.7/1.3 MB
+Progress (1): 0.7/1.3 MB
+Progress (1): 0.7/1.3 MB
+Progress (1): 0.7/1.3 MB
+Progress (1): 0.8/1.3 MB
+Progress (1): 0.8/1.3 MB
+Progress (1): 0.8/1.3 MB
+Progress (1): 0.8/1.3 MB
+Progress (1): 0.8/1.3 MB
+Progress (1): 0.8/1.3 MB
+Progress (1): 0.8/1.3 MB
+Progress (1): 0.8/1.3 MB
+Progress (1): 0.8/1.3 MB
+Progress (1): 0.8/1.3 MB
+Progress (1): 0.8/1.3 MB
+Progress (1): 0.8/1.3 MB
+Progress (1): 0.8/1.3 MB
+Progress (1): 0.8/1.3 MB
+Progress (1): 0.8/1.3 MB
+Progress (1): 0.8/1.3 MB
+Progress (1): 0.8/1.3 MB
+Progress (1): 0.8/1.3 MB
+Progress (1): 0.8/1.3 MB
+Progress (1): 0.8/1.3 MB
+Progress (1): 0.8/1.3 MB
+Progress (1): 0.8/1.3 MB
+Progress (1): 0.8/1.3 MB
+Progress (1): 0.8/1.3 MB
+Progress (1): 0.9/1.3 MB
+Progress (1): 0.9/1.3 MB
+Progress (1): 0.9/1.3 MB
+Progress (1): 0.9/1.3 MB
+Progress (1): 0.9/1.3 MB
+Progress (1): 0.9/1.3 MB
+Progress (1): 0.9/1.3 MB
+Progress (1): 0.9/1.3 MB
+Progress (1): 0.9/1.3 MB
+Progress (1): 0.9/1.3 MB
+Progress (1): 0.9/1.3 MB
+Progress (1): 0.9/1.3 MB
+Progress (1): 0.9/1.3 MB
+Progress (1): 0.9/1.3 MB
+Progress (1): 0.9/1.3 MB
+Progress (1): 0.9/1.3 MB
+Progress (1): 0.9/1.3 MB
+Progress (1): 0.9/1.3 MB
+Progress (1): 0.9/1.3 MB
+Progress (1): 0.9/1.3 MB
+Progress (1): 0.9/1.3 MB
+Progress (1): 0.9/1.3 MB
+Progress (1): 0.9/1.3 MB
+Progress (1): 0.9/1.3 MB
+Progress (1): 0.9/1.3 MB
+Progress (1): 0.9/1.3 MB
+Progress (1): 1.0/1.3 MB
+Progress (1): 1.0/1.3 MB
+Progress (1): 1.0/1.3 MB
+Progress (1): 1.0/1.3 MB
+Progress (1): 1.0/1.3 MB
+Progress (1): 1.0/1.3 MB
+Progress (1): 1.0/1.3 MB
+Progress (1): 1.0/1.3 MB
+Progress (1): 1.0/1.3 MB
+Progress (1): 1.0/1.3 MB
+Progress (1): 1.0/1.3 MB
+Progress (1): 1.0/1.3 MB
+Progress (1): 1.0/1.3 MB
+Progress (1): 1.0/1.3 MB
+Progress (1): 1.0/1.3 MB
+Progress (1): 1.0/1.3 MB
+Progress (1): 1.0/1.3 MB
+Progress (1): 1.0/1.3 MB
+Progress (1): 1.0/1.3 MB
+Progress (1): 1.0/1.3 MB
+Progress (1): 1.0/1.3 MB
+Progress (1): 1.0/1.3 MB
+Progress (1): 1.0/1.3 MB
+Progress (1): 1.0/1.3 MB
+Progress (1): 1.1/1.3 MB
+Progress (1): 1.1/1.3 MB
+Progress (1): 1.1/1.3 MB
+Progress (1): 1.1/1.3 MB
+Progress (1): 1.1/1.3 MB
+Progress (1): 1.1/1.3 MB
+Progress (1): 1.1/1.3 MB
+Progress (1): 1.1/1.3 MB
+Progress (1): 1.1/1.3 MB
+Progress (1): 1.1/1.3 MB
+Progress (1): 1.1/1.3 MB
+Progress (1): 1.1/1.3 MB
+Progress (1): 1.1/1.3 MB
+Progress (1): 1.1/1.3 MB
+Progress (1): 1.1/1.3 MB
+Progress (1): 1.1/1.3 MB
+Progress (1): 1.1/1.3 MB
+Progress (1): 1.1/1.3 MB
+Progress (1): 1.1/1.3 MB
+Progress (1): 1.1/1.3 MB
+Progress (1): 1.1/1.3 MB
+Progress (1): 1.1/1.3 MB
+Progress (1): 1.1/1.3 MB
+Progress (1): 1.1/1.3 MB
+Progress (1): 1.1/1.3 MB
+Progress (1): 1.2/1.3 MB
+Progress (1): 1.2/1.3 MB
+Progress (1): 1.2/1.3 MB
+Progress (1): 1.2/1.3 MB
+Progress (1): 1.2/1.3 MB
+Progress (1): 1.2/1.3 MB
+Progress (1): 1.2/1.3 MB
+Progress (1): 1.2/1.3 MB
+Progress (1): 1.2/1.3 MB
+Progress (1): 1.2/1.3 MB
+Progress (1): 1.2/1.3 MB
+Progress (1): 1.2/1.3 MB
+Progress (1): 1.2/1.3 MB
+Progress (1): 1.2/1.3 MB
+Progress (1): 1.2/1.3 MB
+Progress (1): 1.2/1.3 MB
+Progress (1): 1.2/1.3 MB
+Progress (1): 1.2/1.3 MB
+Progress (1): 1.2/1.3 MB
+Progress (1): 1.2/1.3 MB
+Progress (1): 1.2/1.3 MB
+Progress (1): 1.2/1.3 MB
+Progress (1): 1.2/1.3 MB
+Progress (1): 1.2/1.3 MB
+Progress (1): 1.3/1.3 MB
+Progress (1): 1.3/1.3 MB
+Progress (1): 1.3/1.3 MB
+Progress (1): 1.3/1.3 MB
+Progress (1): 1.3/1.3 MB
+Progress (1): 1.3/1.3 MB
+Progress (1): 1.3/1.3 MB
+Progress (1): 1.3/1.3 MB
+Progress (1): 1.3/1.3 MB
+Progress (1): 1.3/1.3 MB
+Progress (1): 1.3/1.3 MB
+Progress (1): 1.3/1.3 MB
+Progress (1): 1.3/1.3 MB
+Progress (1): 1.3/1.3 MB
+Progress (1): 1.3/1.3 MB
+Progress (1): 1.3/1.3 MB
+Progress (1): 1.3/1.3 MB
+Progress (1): 1.3/1.3 MB
+Progress (1): 1.3/1.3 MB
+Progress (1): 1.3/1.3 MB
+Progress (1): 1.3/1.3 MB
+Progress (1): 1.3 MB    
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.9.3/jackson-databind-2.9.3.jar (1.3 MB at 953 kB/s)
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ jackson-dataformat-xml ---
+[INFO] Deleting ./jackson-dataformat-xml/target
+[INFO] 
+[INFO] --- maven-enforcer-plugin:3.0.0-M1:enforce (enforce-java) @ jackson-dataformat-xml ---
+[INFO] 
+[INFO] --- build-helper-maven-plugin:1.7:add-source (add-generated-sources) @ jackson-dataformat-xml ---
+[INFO] Source directory: ./jackson-dataformat-xml/target/generated-sources added.
+[INFO] 
+[INFO] --- replacer:1.5.2:replace (process-packageVersion) @ jackson-dataformat-xml ---
+[INFO] Replacement run on 1 file.
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ jackson-dataformat-xml ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 4 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.2:compile (default-compile) @ jackson-dataformat-xml ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 36 source files to ./jackson-dataformat-xml/target/classes
+[WARNING] bootstrap class path not set in conjunction with -source 1.7
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ jackson-dataformat-xml ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory ./jackson-dataformat-xml/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.2:testCompile (default-testCompile) @ jackson-dataformat-xml ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 73 source files to ./jackson-dataformat-xml/target/test-classes
+[WARNING] bootstrap class path not set in conjunction with -source 1.7
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.17:test (default-test) @ jackson-dataformat-xml ---
+[INFO] Surefire report directory: ./jackson-dataformat-xml/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running com.fasterxml.jackson.dataformat.xml.misc.ObjectId104Test
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.59 sec - in com.fasterxml.jackson.dataformat.xml.misc.ObjectId104Test
+Running com.fasterxml.jackson.dataformat.xml.misc.PolymorphicTypesTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.078 sec - in com.fasterxml.jackson.dataformat.xml.misc.PolymorphicTypesTest
+Running com.fasterxml.jackson.dataformat.xml.misc.XmlTextTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.041 sec - in com.fasterxml.jackson.dataformat.xml.misc.XmlTextTest
+Running com.fasterxml.jackson.dataformat.xml.misc.DTDSupportTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.055 sec - in com.fasterxml.jackson.dataformat.xml.misc.DTDSupportTest
+Running com.fasterxml.jackson.dataformat.xml.misc.TextValueTest
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.09 sec - in com.fasterxml.jackson.dataformat.xml.misc.TextValueTest
+Running com.fasterxml.jackson.dataformat.xml.misc.EmptyPolymorphicTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.072 sec - in com.fasterxml.jackson.dataformat.xml.misc.EmptyPolymorphicTest
+Running com.fasterxml.jackson.dataformat.xml.misc.RootNameTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.037 sec - in com.fasterxml.jackson.dataformat.xml.misc.RootNameTest
+Running com.fasterxml.jackson.dataformat.xml.misc.UnwrappingWithXMLTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.051 sec - in com.fasterxml.jackson.dataformat.xml.misc.UnwrappingWithXMLTest
+Running com.fasterxml.jackson.dataformat.xml.misc.NodeTest
+-> {"":"first","child":"4"}
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.025 sec - in com.fasterxml.jackson.dataformat.xml.misc.NodeTest
+Running com.fasterxml.jackson.dataformat.xml.misc.ArrayConversionsTest
+Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.082 sec - in com.fasterxml.jackson.dataformat.xml.misc.ArrayConversionsTest
+Running com.fasterxml.jackson.dataformat.xml.incr.PartialReadTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.069 sec - in com.fasterxml.jackson.dataformat.xml.incr.PartialReadTest
+Running com.fasterxml.jackson.dataformat.xml.incr.IncrementalWritingTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.034 sec - in com.fasterxml.jackson.dataformat.xml.incr.IncrementalWritingTest
+Running com.fasterxml.jackson.dataformat.xml.lists.ListDeserializationTest
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.052 sec - in com.fasterxml.jackson.dataformat.xml.lists.ListDeserializationTest
+Running com.fasterxml.jackson.dataformat.xml.lists.Issue101UnwrappedListAttributesTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.037 sec - in com.fasterxml.jackson.dataformat.xml.lists.Issue101UnwrappedListAttributesTest
+Running com.fasterxml.jackson.dataformat.xml.lists.ListAsObjectTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.033 sec - in com.fasterxml.jackson.dataformat.xml.lists.ListAsObjectTest
+Running com.fasterxml.jackson.dataformat.xml.lists.NestedUnwrappedListsTest
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.06 sec - in com.fasterxml.jackson.dataformat.xml.lists.NestedUnwrappedListsTest
+Running com.fasterxml.jackson.dataformat.xml.lists.ListRoundtripTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.07 sec - in com.fasterxml.jackson.dataformat.xml.lists.ListRoundtripTest
+Running com.fasterxml.jackson.dataformat.xml.lists.WrappedListsTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.02 sec - in com.fasterxml.jackson.dataformat.xml.lists.WrappedListsTest
+Running com.fasterxml.jackson.dataformat.xml.lists.DeserializePolyList178Test
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.02 sec - in com.fasterxml.jackson.dataformat.xml.lists.DeserializePolyList178Test
+Running com.fasterxml.jackson.dataformat.xml.lists.EmptyListDeserTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.015 sec - in com.fasterxml.jackson.dataformat.xml.lists.EmptyListDeserTest
+Running com.fasterxml.jackson.dataformat.xml.lists.ListDeser191Test
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.023 sec - in com.fasterxml.jackson.dataformat.xml.lists.ListDeser191Test
+Running com.fasterxml.jackson.dataformat.xml.lists.RootListHandlingTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.088 sec - in com.fasterxml.jackson.dataformat.xml.lists.RootListHandlingTest
+Running com.fasterxml.jackson.dataformat.xml.lists.ListSerializationTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.029 sec - in com.fasterxml.jackson.dataformat.xml.lists.ListSerializationTest
+Running com.fasterxml.jackson.dataformat.xml.lists.NestedUnwrappedLists180Test
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.026 sec - in com.fasterxml.jackson.dataformat.xml.lists.NestedUnwrappedLists180Test
+Running com.fasterxml.jackson.dataformat.xml.lists.UnwrappedListWithEmptyCData129Test
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.032 sec - in com.fasterxml.jackson.dataformat.xml.lists.UnwrappedListWithEmptyCData129Test
+Running com.fasterxml.jackson.dataformat.xml.lists.ListAnnotationSharingTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.045 sec - in com.fasterxml.jackson.dataformat.xml.lists.ListAnnotationSharingTest
+Running com.fasterxml.jackson.dataformat.xml.lists.UnwrappedListsTest
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.13 sec - in com.fasterxml.jackson.dataformat.xml.lists.UnwrappedListsTest
+Running com.fasterxml.jackson.dataformat.xml.deser.TestBinaryData
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.009 sec - in com.fasterxml.jackson.dataformat.xml.deser.TestBinaryData
+Running com.fasterxml.jackson.dataformat.xml.deser.SimpleStringValuesTest
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.065 sec - in com.fasterxml.jackson.dataformat.xml.deser.SimpleStringValuesTest
+Running com.fasterxml.jackson.dataformat.xml.deser.EmptyStringValueTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.024 sec - in com.fasterxml.jackson.dataformat.xml.deser.EmptyStringValueTest
+Running com.fasterxml.jackson.dataformat.xml.deser.TestDeserialization
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.078 sec - in com.fasterxml.jackson.dataformat.xml.deser.TestDeserialization
+Running com.fasterxml.jackson.dataformat.xml.deser.TestEnums
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 sec - in com.fasterxml.jackson.dataformat.xml.deser.TestEnums
+Running com.fasterxml.jackson.dataformat.xml.deser.XmlTokenStreamTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.031 sec - in com.fasterxml.jackson.dataformat.xml.deser.XmlTokenStreamTest
+Running com.fasterxml.jackson.dataformat.xml.deser.CaseInsensitiveDeserTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.035 sec - in com.fasterxml.jackson.dataformat.xml.deser.CaseInsensitiveDeserTest
+Running com.fasterxml.jackson.dataformat.xml.deser.ExceptionDeserializationTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.04 sec - in com.fasterxml.jackson.dataformat.xml.deser.ExceptionDeserializationTest
+Running com.fasterxml.jackson.dataformat.xml.deser.TestViews
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.07 sec - in com.fasterxml.jackson.dataformat.xml.deser.TestViews
+Running com.fasterxml.jackson.dataformat.xml.deser.DeserErrorHandling236Test
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.01 sec - in com.fasterxml.jackson.dataformat.xml.deser.DeserErrorHandling236Test
+Running com.fasterxml.jackson.dataformat.xml.stream.XmlGeneratorTest
+Tests run: 11, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.052 sec - in com.fasterxml.jackson.dataformat.xml.stream.XmlGeneratorTest
+Running com.fasterxml.jackson.dataformat.xml.stream.XmlParserNextXxxTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 sec - in com.fasterxml.jackson.dataformat.xml.stream.XmlParserNextXxxTest
+Running com.fasterxml.jackson.dataformat.xml.stream.FormatDetectionTest
+Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.07 sec - in com.fasterxml.jackson.dataformat.xml.stream.FormatDetectionTest
+Running com.fasterxml.jackson.dataformat.xml.stream.XmlParserTest
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.054 sec - in com.fasterxml.jackson.dataformat.xml.stream.XmlParserTest
+Running com.fasterxml.jackson.dataformat.xml.adapters.TestIssue47Attribute
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.015 sec - in com.fasterxml.jackson.dataformat.xml.adapters.TestIssue47Attribute
+Running com.fasterxml.jackson.dataformat.xml.jaxb.JAXBObjectId170Test
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.033 sec - in com.fasterxml.jackson.dataformat.xml.jaxb.JAXBObjectId170Test
+Running com.fasterxml.jackson.dataformat.xml.jaxb.WithJAXBAnnotationsTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.028 sec - in com.fasterxml.jackson.dataformat.xml.jaxb.WithJAXBAnnotationsTest
+Running com.fasterxml.jackson.dataformat.xml.jaxb.AttributesWithJAXBTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.01 sec - in com.fasterxml.jackson.dataformat.xml.jaxb.AttributesWithJAXBTest
+Running com.fasterxml.jackson.dataformat.xml.jaxb.ElementWrapperTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.019 sec - in com.fasterxml.jackson.dataformat.xml.jaxb.ElementWrapperTest
+Running com.fasterxml.jackson.dataformat.xml.RoundtripContentTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.029 sec - in com.fasterxml.jackson.dataformat.xml.RoundtripContentTest
+Running com.fasterxml.jackson.dataformat.xml.ser.TestSerializationAttr
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.032 sec - in com.fasterxml.jackson.dataformat.xml.ser.TestSerializationAttr
+Running com.fasterxml.jackson.dataformat.xml.ser.TestXmlDeclaration
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.013 sec - in com.fasterxml.jackson.dataformat.xml.ser.TestXmlDeclaration
+Running com.fasterxml.jackson.dataformat.xml.ser.TestSerialization
+Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.05 sec - in com.fasterxml.jackson.dataformat.xml.ser.TestSerialization
+Running com.fasterxml.jackson.dataformat.xml.ser.TestSerializationOrdering
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.012 sec - in com.fasterxml.jackson.dataformat.xml.ser.TestSerializationOrdering
+Running com.fasterxml.jackson.dataformat.xml.ser.TestNamespaces
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 sec - in com.fasterxml.jackson.dataformat.xml.ser.TestNamespaces
+Running com.fasterxml.jackson.dataformat.xml.ser.TestIndentation
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.045 sec - in com.fasterxml.jackson.dataformat.xml.ser.TestIndentation
+Running com.fasterxml.jackson.dataformat.xml.ser.TestSerializerCustom
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 sec - in com.fasterxml.jackson.dataformat.xml.ser.TestSerializerCustom
+Running com.fasterxml.jackson.dataformat.xml.ser.TestJDKSerializability
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.289 sec - in com.fasterxml.jackson.dataformat.xml.ser.TestJDKSerializability
+Running com.fasterxml.jackson.dataformat.xml.ser.TestSerializationManual
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec - in com.fasterxml.jackson.dataformat.xml.ser.TestSerializationManual
+Running com.fasterxml.jackson.dataformat.xml.VersionInfoTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.035 sec - in com.fasterxml.jackson.dataformat.xml.VersionInfoTest
+
+Results :
+
+Tests run: 159, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  17.583 s
+[INFO] Finished at: 
+[INFO] ------------------------------------------------------------------------

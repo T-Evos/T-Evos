@@ -1,0 +1,634 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ------------------< org.apache.commons:commons-lang3 >------------------
+[INFO] Building Apache Commons Lang 3.11-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:3.1.0:clean (default-clean) @ commons-lang3 ---
+[INFO] Deleting ./commons-lang/target
+[INFO] 
+[INFO] --- maven-enforcer-plugin:3.0.0-M2:enforce (enforce-maven-version) @ commons-lang3 ---
+[INFO] 
+[INFO] --- maven-enforcer-plugin:3.0.0-M2:enforce (enforce-maven-3) @ commons-lang3 ---
+[INFO] 
+[INFO] --- apache-rat-plugin:0.13:check (rat-check) @ commons-lang3 ---
+[INFO] Enabled default license matchers.
+[INFO] Will parse SCM ignores for exclusions...
+[INFO] Parsing exclusions from ./commons-lang/.gitignore
+[INFO] Finished adding exclusions from SCM ignore files.
+[INFO] 73 implicit excludes (use -debug for more details).
+[INFO] 14 explicit excludes (use -debug for more details).
+[INFO] 415 resources included (use -debug for more details)
+[INFO] Rat check: Summary over all files. Unapproved: 0, unknown: 0, generated: 0, approved: 410 licenses.
+[INFO] 
+[INFO] --- build-helper-maven-plugin:3.0.0:parse-version (parse-version) @ commons-lang3 ---
+[INFO] 
+[INFO] --- maven-antrun-plugin:1.8:run (javadoc.resources) @ commons-lang3 ---
+[INFO] Executing tasks
+
+main:
+     [copy] Copying 2 files to ./commons-lang/target/apidocs/META-INF
+[INFO] Executed tasks
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.5:process (process-resource-bundles) @ commons-lang3 ---
+[INFO] 
+[INFO] --- buildnumber-maven-plugin:1.4:create (default) @ commons-lang3 ---
+[INFO] Executing: /bin/sh -c cd './commons-lang' && 'git' 'rev-parse' '--verify' 'HEAD'
+[INFO] Working directory: ./commons-lang
+[INFO] Storing buildNumber: 5d1a5517c99067a49b85891f194d09bf00ec1006 at timestamp: 1625608891841
+[WARNING] Cannot get the branch information from the git repository: 
+Detecting the current branch failed: fatal: ref HEAD is not a symbolic ref
+
+[INFO] Executing: /bin/sh -c cd './commons-lang' && 'git' 'rev-parse' '--verify' 'HEAD'
+[INFO] Working directory: ./commons-lang
+[INFO] Storing buildScmBranch: UNKNOWN
+[INFO] 
+[INFO] --- maven-resources-plugin:3.1.0:resources (default-resources) @ commons-lang3 ---
+[INFO] Using 'ISO-8859-1' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory ./commons-lang/src/main/resources
+[INFO] Copying 2 resources to META-INF
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.1:compile (default-compile) @ commons-lang3 ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 193 source files to ./commons-lang/target/classes
+[INFO] ./commons-lang/src/main/java/org/apache/commons/lang3/builder/ToStringStyle.java: Some input files use or override a deprecated API.
+[INFO] ./commons-lang/src/main/java/org/apache/commons/lang3/builder/ToStringStyle.java: Recompile with -Xlint:deprecation for details.
+[INFO] ./commons-lang/src/main/java/org/apache/commons/lang3/text/StrBuilder.java: Some input files use unchecked or unsafe operations.
+[INFO] ./commons-lang/src/main/java/org/apache/commons/lang3/text/StrBuilder.java: Recompile with -Xlint:unchecked for details.
+[INFO] 
+[INFO] --- maven-bundle-plugin:4.2.1:manifest (bundle-manifest) @ commons-lang3 ---
+[INFO] 
+[INFO] --- animal-sniffer-maven-plugin:1.18:check (checkAPIcompatibility) @ commons-lang3 ---
+[INFO] Checking unresolved references to org.codehaus.mojo.signature:java18:1.0
+[INFO] 
+[INFO] --- maven-resources-plugin:3.1.0:testResources (default-testResources) @ commons-lang3 ---
+[INFO] Using 'ISO-8859-1' encoding to copy filtered resources.
+[INFO] Copying 2 resources
+[INFO] Copying 2 resources to META-INF
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.1:testCompile (default-testCompile) @ commons-lang3 ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 181 source files to ./commons-lang/target/test-classes
+[INFO] ./commons-lang/src/test/java/org/apache/commons/lang3/ObjectUtilsTest.java: Some input files use or override a deprecated API.
+[INFO] ./commons-lang/src/test/java/org/apache/commons/lang3/ObjectUtilsTest.java: Recompile with -Xlint:deprecation for details.
+[INFO] ./commons-lang/src/test/java/org/apache/commons/lang3/builder/ReflectionDiffBuilderTest.java: Some input files use unchecked or unsafe operations.
+[INFO] ./commons-lang/src/test/java/org/apache/commons/lang3/builder/ReflectionDiffBuilderTest.java: Recompile with -Xlint:unchecked for details.
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] ./commons-lang/src/test/java/org/apache/commons/lang3/function/FailableFunctionsTest.java:[272,71] cannot find symbol
+  symbol:   variable Failable
+  location: class org.apache.commons.lang3.function.FailableFunctionsTest
+[ERROR] ./commons-lang/src/test/java/org/apache/commons/lang3/function/FailableFunctionsTest.java:[272,87] invalid method reference
+  non-static method test() cannot be referenced from a static context
+[ERROR] ./commons-lang/src/test/java/org/apache/commons/lang3/function/FailableFunctionsTest.java:[276,56] cannot find symbol
+  symbol:   variable Failable
+  location: class org.apache.commons.lang3.function.FailableFunctionsTest
+[ERROR] ./commons-lang/src/test/java/org/apache/commons/lang3/function/FailableFunctionsTest.java:[276,72] invalid method reference
+  non-static method test() cannot be referenced from a static context
+[ERROR] ./commons-lang/src/test/java/org/apache/commons/lang3/function/FailableFunctionsTest.java:[281,60] cannot find symbol
+  symbol:   variable Failable
+  location: class org.apache.commons.lang3.function.FailableFunctionsTest
+[ERROR] ./commons-lang/src/test/java/org/apache/commons/lang3/function/FailableFunctionsTest.java:[281,76] invalid method reference
+  non-static method test() cannot be referenced from a static context
+[ERROR] ./commons-lang/src/test/java/org/apache/commons/lang3/function/FailableFunctionsTest.java:[287,9] cannot find symbol
+  symbol:   variable Failable
+  location: class org.apache.commons.lang3.function.FailableFunctionsTest
+[ERROR] ./commons-lang/src/test/java/org/apache/commons/lang3/function/FailableFunctionsTest.java:[287,25] invalid method reference
+  non-static method test() cannot be referenced from a static context
+[ERROR] ./commons-lang/src/test/java/org/apache/commons/lang3/function/FailableFunctionsTest.java:[294,71] cannot find symbol
+  symbol:   variable Failable
+  location: class org.apache.commons.lang3.function.FailableFunctionsTest
+[ERROR] ./commons-lang/src/test/java/org/apache/commons/lang3/function/FailableFunctionsTest.java:[294,87] invalid method reference
+  non-static method test() cannot be referenced from a static context
+[ERROR] ./commons-lang/src/test/java/org/apache/commons/lang3/function/FailableFunctionsTest.java:[299,56] cannot find symbol
+  symbol:   variable Failable
+  location: class org.apache.commons.lang3.function.FailableFunctionsTest
+[ERROR] ./commons-lang/src/test/java/org/apache/commons/lang3/function/FailableFunctionsTest.java:[299,72] invalid method reference
+  non-static method test() cannot be referenced from a static context
+[ERROR] ./commons-lang/src/test/java/org/apache/commons/lang3/function/FailableFunctionsTest.java:[304,60] cannot find symbol
+  symbol:   variable Failable
+  location: class org.apache.commons.lang3.function.FailableFunctionsTest
+[ERROR] ./commons-lang/src/test/java/org/apache/commons/lang3/function/FailableFunctionsTest.java:[304,76] invalid method reference
+  non-static method test() cannot be referenced from a static context
+[ERROR] ./commons-lang/src/test/java/org/apache/commons/lang3/function/FailableFunctionsTest.java:[310,9] cannot find symbol
+  symbol:   variable Failable
+  location: class org.apache.commons.lang3.function.FailableFunctionsTest
+[ERROR] ./commons-lang/src/test/java/org/apache/commons/lang3/function/FailableFunctionsTest.java:[310,25] invalid method reference
+  non-static method test() cannot be referenced from a static context
+[ERROR] ./commons-lang/src/test/java/org/apache/commons/lang3/function/FailableFunctionsTest.java:[317,71] cannot find symbol
+  symbol:   variable Failable
+  location: class org.apache.commons.lang3.function.FailableFunctionsTest
+[ERROR] ./commons-lang/src/test/java/org/apache/commons/lang3/function/FailableFunctionsTest.java:[323,56] cannot find symbol
+  symbol:   variable Failable
+  location: class org.apache.commons.lang3.function.FailableFunctionsTest
+[ERROR] ./commons-lang/src/test/java/org/apache/commons/lang3/function/FailableFunctionsTest.java:[329,60] cannot find symbol
+  symbol:   variable Failable
+  location: class org.apache.commons.lang3.function.FailableFunctionsTest
+[ERROR] ./commons-lang/src/test/java/org/apache/commons/lang3/function/FailableFunctionsTest.java:[336,9] cannot find symbol
+  symbol:   variable Failable
+  location: class org.apache.commons.lang3.function.FailableFunctionsTest
+[ERROR] ./commons-lang/src/test/java/org/apache/commons/lang3/function/FailableFunctionsTest.java:[344,71] cannot find symbol
+  symbol:   variable Failable
+  location: class org.apache.commons.lang3.function.FailableFunctionsTest
+[ERROR] ./commons-lang/src/test/java/org/apache/commons/lang3/function/FailableFunctionsTest.java:[350,56] cannot find symbol
+  symbol:   variable Failable
+  location: class org.apache.commons.lang3.function.FailableFunctionsTest
+[ERROR] ./commons-lang/src/test/java/org/apache/commons/lang3/function/FailableFunctionsTest.java:[356,60] cannot find symbol
+  symbol:   variable Failable
+  location: class org.apache.commons.lang3.function.FailableFunctionsTest
+[ERROR] ./commons-lang/src/test/java/org/apache/commons/lang3/function/FailableFunctionsTest.java:[363,9] cannot find symbol
+  symbol:   variable Failable
+  location: class org.apache.commons.lang3.function.FailableFunctionsTest
+[ERROR] ./commons-lang/src/test/java/org/apache/commons/lang3/function/FailableFunctionsTest.java:[371,71] cannot find symbol
+  symbol:   variable Failable
+  location: class org.apache.commons.lang3.function.FailableFunctionsTest
+[ERROR] ./commons-lang/src/test/java/org/apache/commons/lang3/function/FailableFunctionsTest.java:[377,56] cannot find symbol
+  symbol:   variable Failable
+  location: class org.apache.commons.lang3.function.FailableFunctionsTest
+[ERROR] ./commons-lang/src/test/java/org/apache/commons/lang3/function/FailableFunctionsTest.java:[383,60] cannot find symbol
+  symbol:   variable Failable
+  location: class org.apache.commons.lang3.function.FailableFunctionsTest
+[ERROR] ./commons-lang/src/test/java/org/apache/commons/lang3/function/FailableFunctionsTest.java:[390,9] cannot find symbol
+  symbol:   variable Failable
+  location: class org.apache.commons.lang3.function.FailableFunctionsTest
+[ERROR] ./commons-lang/src/test/java/org/apache/commons/lang3/function/FailableFunctionsTest.java:[399,19] cannot find symbol
+  symbol:   variable Failable
+  location: class org.apache.commons.lang3.function.FailableFunctionsTest
+[ERROR] ./commons-lang/src/test/java/org/apache/commons/lang3/function/FailableFunctionsTest.java:[406,56] cannot find symbol
+  symbol:   variable Failable
+  location: class org.apache.commons.lang3.function.FailableFunctionsTest
+[ERROR] ./commons-lang/src/test/java/org/apache/commons/lang3/function/FailableFunctionsTest.java:[413,60] cannot find symbol
+  symbol:   variable Failable
+  location: class org.apache.commons.lang3.function.FailableFunctionsTest
+[ERROR] ./commons-lang/src/test/java/org/apache/commons/lang3/function/FailableFunctionsTest.java:[421,9] cannot find symbol
+  symbol:   variable Failable
+  location: class org.apache.commons.lang3.function.FailableFunctionsTest
+[ERROR] ./commons-lang/src/test/java/org/apache/commons/lang3/function/FailableFunctionsTest.java:[430,71] cannot find symbol
+  symbol:   variable Failable
+  location: class org.apache.commons.lang3.function.FailableFunctionsTest
+[ERROR] ./commons-lang/src/test/java/org/apache/commons/lang3/function/FailableFunctionsTest.java:[437,56] cannot find symbol
+  symbol:   variable Failable
+  location: class org.apache.commons.lang3.function.FailableFunctionsTest
+[ERROR] ./commons-lang/src/test/java/org/apache/commons/lang3/function/FailableFunctionsTest.java:[444,60] cannot find symbol
+  symbol:   variable Failable
+  location: class org.apache.commons.lang3.function.FailableFunctionsTest
+[ERROR] ./commons-lang/src/test/java/org/apache/commons/lang3/function/FailableFunctionsTest.java:[452,9] cannot find symbol
+  symbol:   variable Failable
+  location: class org.apache.commons.lang3.function.FailableFunctionsTest
+[ERROR] ./commons-lang/src/test/java/org/apache/commons/lang3/function/FailableFunctionsTest.java:[461,71] cannot find symbol
+  symbol:   variable Failable
+  location: class org.apache.commons.lang3.function.FailableFunctionsTest
+[ERROR] ./commons-lang/src/test/java/org/apache/commons/lang3/function/FailableFunctionsTest.java:[468,56] cannot find symbol
+  symbol:   variable Failable
+  location: class org.apache.commons.lang3.function.FailableFunctionsTest
+[ERROR] ./commons-lang/src/test/java/org/apache/commons/lang3/function/FailableFunctionsTest.java:[475,60] cannot find symbol
+  symbol:   variable Failable
+  location: class org.apache.commons.lang3.function.FailableFunctionsTest
+[ERROR] ./commons-lang/src/test/java/org/apache/commons/lang3/function/FailableFunctionsTest.java:[483,9] cannot find symbol
+  symbol:   variable Failable
+  location: class org.apache.commons.lang3.function.FailableFunctionsTest
+[ERROR] ./commons-lang/src/test/java/org/apache/commons/lang3/function/FailableFunctionsTest.java:[493,19] cannot find symbol
+  symbol:   variable Failable
+  location: class org.apache.commons.lang3.function.FailableFunctionsTest
+[ERROR] ./commons-lang/src/test/java/org/apache/commons/lang3/function/FailableFunctionsTest.java:[493,34] invalid method reference
+  non-static method testAsInteger() cannot be referenced from a static context
+[ERROR] ./commons-lang/src/test/java/org/apache/commons/lang3/function/FailableFunctionsTest.java:[497,56] cannot find symbol
+  symbol:   variable Failable
+  location: class org.apache.commons.lang3.function.FailableFunctionsTest
+[ERROR] ./commons-lang/src/test/java/org/apache/commons/lang3/function/FailableFunctionsTest.java:[497,71] invalid method reference
+  non-static method testAsInteger() cannot be referenced from a static context
+[ERROR] ./commons-lang/src/test/java/org/apache/commons/lang3/function/FailableFunctionsTest.java:[501,60] cannot find symbol
+  symbol:   variable Failable
+  location: class org.apache.commons.lang3.function.FailableFunctionsTest
+[ERROR] ./commons-lang/src/test/java/org/apache/commons/lang3/function/FailableFunctionsTest.java:[501,75] invalid method reference
+  non-static method testAsInteger() cannot be referenced from a static context
+[ERROR] ./commons-lang/src/test/java/org/apache/commons/lang3/function/FailableFunctionsTest.java:[506,27] cannot find symbol
+  symbol:   variable Failable
+  location: class org.apache.commons.lang3.function.FailableFunctionsTest
+[ERROR] ./commons-lang/src/test/java/org/apache/commons/lang3/function/FailableFunctionsTest.java:[506,42] invalid method reference
+  non-static method testAsInteger() cannot be referenced from a static context
+[ERROR] ./commons-lang/src/test/java/org/apache/commons/lang3/function/FailableFunctionsTest.java:[516,19] cannot find symbol
+  symbol:   variable Failable
+  location: class org.apache.commons.lang3.function.FailableFunctionsTest
+[ERROR] ./commons-lang/src/test/java/org/apache/commons/lang3/function/FailableFunctionsTest.java:[520,26] cannot find symbol
+  symbol:   variable Failable
+  location: class org.apache.commons.lang3.function.FailableFunctionsTest
+[ERROR] ./commons-lang/src/test/java/org/apache/commons/lang3/function/FailableFunctionsTest.java:[529,19] cannot find symbol
+  symbol:   variable Failable
+  location: class org.apache.commons.lang3.function.FailableFunctionsTest
+[ERROR] ./commons-lang/src/test/java/org/apache/commons/lang3/function/FailableFunctionsTest.java:[529,34] invalid method reference
+  non-static method testAsInteger() cannot be referenced from a static context
+[ERROR] ./commons-lang/src/test/java/org/apache/commons/lang3/function/FailableFunctionsTest.java:[534,56] cannot find symbol
+  symbol:   variable Failable
+  location: class org.apache.commons.lang3.function.FailableFunctionsTest
+[ERROR] ./commons-lang/src/test/java/org/apache/commons/lang3/function/FailableFunctionsTest.java:[534,71] invalid method reference
+  non-static method testAsInteger() cannot be referenced from a static context
+[ERROR] ./commons-lang/src/test/java/org/apache/commons/lang3/function/FailableFunctionsTest.java:[539,60] cannot find symbol
+  symbol:   variable Failable
+  location: class org.apache.commons.lang3.function.FailableFunctionsTest
+[ERROR] ./commons-lang/src/test/java/org/apache/commons/lang3/function/FailableFunctionsTest.java:[539,75] invalid method reference
+  non-static method testAsInteger() cannot be referenced from a static context
+[ERROR] ./commons-lang/src/test/java/org/apache/commons/lang3/function/FailableFunctionsTest.java:[545,27] cannot find symbol
+  symbol:   variable Failable
+  location: class org.apache.commons.lang3.function.FailableFunctionsTest
+[ERROR] ./commons-lang/src/test/java/org/apache/commons/lang3/function/FailableFunctionsTest.java:[545,42] invalid method reference
+  non-static method testAsInteger() cannot be referenced from a static context
+[ERROR] ./commons-lang/src/test/java/org/apache/commons/lang3/function/FailableFunctionsTest.java:[553,15] cannot find symbol
+  symbol:   class FailableCallable
+  location: class org.apache.commons.lang3.function.FailableFunctionsTest
+[ERROR] ./commons-lang/src/test/java/org/apache/commons/lang3/function/FailableFunctionsTest.java:[553,91] method reference not expected here
+[ERROR] ./commons-lang/src/test/java/org/apache/commons/lang3/function/FailableFunctionsTest.java:[554,60] cannot find symbol
+  symbol:   variable Failable
+  location: class org.apache.commons.lang3.function.FailableFunctionsTest
+[ERROR] ./commons-lang/src/test/java/org/apache/commons/lang3/function/FailableFunctionsTest.java:[564,19] cannot find symbol
+  symbol:   variable Failable
+  location: class org.apache.commons.lang3.function.FailableFunctionsTest
+[ERROR] ./commons-lang/src/test/java/org/apache/commons/lang3/function/FailableFunctionsTest.java:[573,51] cannot find symbol
+  symbol:   variable Failable
+  location: class org.apache.commons.lang3.function.FailableFunctionsTest
+[ERROR] ./commons-lang/src/test/java/org/apache/commons/lang3/function/FailableFunctionsTest.java:[573,71] invalid method reference
+  non-static method test() cannot be referenced from a static context
+[ERROR] ./commons-lang/src/test/java/org/apache/commons/lang3/function/FailableFunctionsTest.java:[590,9] cannot find symbol
+  symbol:   variable Failable
+  location: class org.apache.commons.lang3.function.FailableFunctionsTest
+[ERROR] ./commons-lang/src/test/java/org/apache/commons/lang3/function/FailableFunctionsTest.java:[590,25] invalid method reference
+  non-static method test() cannot be referenced from a static context
+[ERROR] ./commons-lang/src/test/java/org/apache/commons/lang3/function/FailableFunctionsTest.java:[596,35] cannot find symbol
+  symbol:   variable Failable
+  location: class org.apache.commons.lang3.function.FailableFunctionsTest
+[ERROR] ./commons-lang/src/test/java/org/apache/commons/lang3/function/FailableFunctionsTest.java:[610,15] cannot find symbol
+  symbol:   class FailableSupplier
+  location: class org.apache.commons.lang3.function.FailableFunctionsTest
+[ERROR] ./commons-lang/src/test/java/org/apache/commons/lang3/function/FailableFunctionsTest.java:[610,87] method reference not expected here
+[ERROR] ./commons-lang/src/test/java/org/apache/commons/lang3/function/FailableFunctionsTest.java:[611,60] cannot find symbol
+  symbol:   variable Failable
+  location: class org.apache.commons.lang3.function.FailableFunctionsTest
+[ERROR] ./commons-lang/src/test/java/org/apache/commons/lang3/function/FailableFunctionsTest.java:[624,15] cannot find symbol
+  symbol:   class FailableBiConsumer
+  location: class org.apache.commons.lang3.function.FailableFunctionsTest
+[ERROR] ./commons-lang/src/test/java/org/apache/commons/lang3/function/FailableFunctionsTest.java:[624,93] lambda expression not expected here
+[ERROR] ./commons-lang/src/test/java/org/apache/commons/lang3/function/FailableFunctionsTest.java:[628,64] cannot find symbol
+  symbol:   variable Failable
+  location: class org.apache.commons.lang3.function.FailableFunctionsTest
+[ERROR] ./commons-lang/src/test/java/org/apache/commons/lang3/function/FailableFunctionsTest.java:[650,15] cannot find symbol
+  symbol:   class FailableBiFunction
+  location: class org.apache.commons.lang3.function.FailableFunctionsTest
+[ERROR] ./commons-lang/src/test/java/org/apache/commons/lang3/function/FailableFunctionsTest.java:[650,102] lambda expression not expected here
+[ERROR] ./commons-lang/src/test/java/org/apache/commons/lang3/function/FailableFunctionsTest.java:[654,75] cannot find symbol
+  symbol:   variable Failable
+  location: class org.apache.commons.lang3.function.FailableFunctionsTest
+[ERROR] ./commons-lang/src/test/java/org/apache/commons/lang3/function/FailableFunctionsTest.java:[677,15] cannot find symbol
+  symbol:   class FailableBiPredicate
+  location: class org.apache.commons.lang3.function.FailableFunctionsTest
+[ERROR] ./commons-lang/src/test/java/org/apache/commons/lang3/function/FailableFunctionsTest.java:[677,84] lambda expression not expected here
+[ERROR] ./commons-lang/src/test/java/org/apache/commons/lang3/function/FailableFunctionsTest.java:[679,45] cannot find symbol
+  symbol:   variable Failable
+  location: class org.apache.commons.lang3.function.FailableFunctionsTest
+[ERROR] ./commons-lang/src/test/java/org/apache/commons/lang3/function/FailableFunctionsTest.java:[694,19] cannot find symbol
+  symbol:   variable Failable
+  location: class org.apache.commons.lang3.function.FailableFunctionsTest
+[ERROR] ./commons-lang/src/test/java/org/apache/commons/lang3/function/FailableFunctionsTest.java:[699,50] cannot find symbol
+  symbol:   variable Failable
+  location: class org.apache.commons.lang3.function.FailableFunctionsTest
+[ERROR] ./commons-lang/src/test/java/org/apache/commons/lang3/function/FailableFunctionsTest.java:[722,15] cannot find symbol
+  symbol:   class FailableFunction
+  location: class org.apache.commons.lang3.function.FailableFunctionsTest
+[ERROR] ./commons-lang/src/test/java/org/apache/commons/lang3/function/FailableFunctionsTest.java:[722,82] lambda expression not expected here
+[ERROR] ./commons-lang/src/test/java/org/apache/commons/lang3/function/FailableFunctionsTest.java:[726,55] cannot find symbol
+  symbol:   variable Failable
+  location: class org.apache.commons.lang3.function.FailableFunctionsTest
+[ERROR] ./commons-lang/src/test/java/org/apache/commons/lang3/function/FailableFunctionsTest.java:[750,19] cannot find symbol
+  symbol:   variable Failable
+  location: class org.apache.commons.lang3.function.FailableFunctionsTest
+[ERROR] ./commons-lang/src/test/java/org/apache/commons/lang3/function/FailableFunctionsTest.java:[755,56] cannot find symbol
+  symbol:   variable Failable
+  location: class org.apache.commons.lang3.function.FailableFunctionsTest
+[ERROR] ./commons-lang/src/test/java/org/apache/commons/lang3/function/FailableFunctionsTest.java:[760,60] cannot find symbol
+  symbol:   variable Failable
+  location: class org.apache.commons.lang3.function.FailableFunctionsTest
+[ERROR] ./commons-lang/src/test/java/org/apache/commons/lang3/function/FailableFunctionsTest.java:[766,21] cannot find symbol
+  symbol:   variable Failable
+  location: class org.apache.commons.lang3.function.FailableFunctionsTest
+[ERROR] ./commons-lang/src/test/java/org/apache/commons/lang3/function/FailableFunctionsTest.java:[774,19] cannot find symbol
+  symbol:   variable Failable
+  location: class org.apache.commons.lang3.function.FailableFunctionsTest
+[ERROR] ./commons-lang/src/test/java/org/apache/commons/lang3/function/FailableFunctionsTest.java:[779,56] cannot find symbol
+  symbol:   variable Failable
+  location: class org.apache.commons.lang3.function.FailableFunctionsTest
+[ERROR] ./commons-lang/src/test/java/org/apache/commons/lang3/function/FailableFunctionsTest.java:[784,60] cannot find symbol
+  symbol:   variable Failable
+  location: class org.apache.commons.lang3.function.FailableFunctionsTest
+[ERROR] ./commons-lang/src/test/java/org/apache/commons/lang3/function/FailableFunctionsTest.java:[790,25] cannot find symbol
+  symbol:   variable Failable
+  location: class org.apache.commons.lang3.function.FailableFunctionsTest
+[ERROR] ./commons-lang/src/test/java/org/apache/commons/lang3/function/FailableFunctionsTest.java:[797,71] cannot find symbol
+  symbol:   variable Failable
+  location: class org.apache.commons.lang3.function.FailableFunctionsTest
+[ERROR] ./commons-lang/src/test/java/org/apache/commons/lang3/function/FailableFunctionsTest.java:[802,56] cannot find symbol
+  symbol:   variable Failable
+  location: class org.apache.commons.lang3.function.FailableFunctionsTest
+[ERROR] ./commons-lang/src/test/java/org/apache/commons/lang3/function/FailableFunctionsTest.java:[807,60] cannot find symbol
+  symbol:   variable Failable
+  location: class org.apache.commons.lang3.function.FailableFunctionsTest
+[ERROR] ./commons-lang/src/test/java/org/apache/commons/lang3/function/FailableFunctionsTest.java:[813,23] cannot find symbol
+  symbol:   variable Failable
+  location: class org.apache.commons.lang3.function.FailableFunctionsTest
+[ERROR] ./commons-lang/src/test/java/org/apache/commons/lang3/function/FailableFunctionsTest.java:[822,19] cannot find symbol
+  symbol:   variable Failable
+  location: class org.apache.commons.lang3.function.FailableFunctionsTest
+[ERROR] ./commons-lang/src/test/java/org/apache/commons/lang3/function/FailableFunctionsTest.java:[827,56] cannot find symbol
+  symbol:   variable Failable
+  location: class org.apache.commons.lang3.function.FailableFunctionsTest
+[ERROR] ./commons-lang/src/test/java/org/apache/commons/lang3/function/FailableFunctionsTest.java:[832,60] cannot find symbol
+  symbol:   variable Failable
+  location: class org.apache.commons.lang3.function.FailableFunctionsTest
+[ERROR] ./commons-lang/src/test/java/org/apache/commons/lang3/function/FailableFunctionsTest.java:[838,24] cannot find symbol
+  symbol:   variable Failable
+  location: class org.apache.commons.lang3.function.FailableFunctionsTest
+[INFO] 100 errors 
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  11.924 s
+[INFO] Finished at: 
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.8.1:testCompile (default-testCompile) on project commons-lang3: Compilation failure: Compilation failure: 
+[ERROR] ./commons-lang/src/test/java/org/apache/commons/lang3/function/FailableFunctionsTest.java:[272,71] cannot find symbol
+[ERROR]   symbol:   variable Failable
+[ERROR]   location: class org.apache.commons.lang3.function.FailableFunctionsTest
+[ERROR] ./commons-lang/src/test/java/org/apache/commons/lang3/function/FailableFunctionsTest.java:[272,87] invalid method reference
+[ERROR]   non-static method test() cannot be referenced from a static context
+[ERROR] ./commons-lang/src/test/java/org/apache/commons/lang3/function/FailableFunctionsTest.java:[276,56] cannot find symbol
+[ERROR]   symbol:   variable Failable
+[ERROR]   location: class org.apache.commons.lang3.function.FailableFunctionsTest
+[ERROR] ./commons-lang/src/test/java/org/apache/commons/lang3/function/FailableFunctionsTest.java:[276,72] invalid method reference
+[ERROR]   non-static method test() cannot be referenced from a static context
+[ERROR] ./commons-lang/src/test/java/org/apache/commons/lang3/function/FailableFunctionsTest.java:[281,60] cannot find symbol
+[ERROR]   symbol:   variable Failable
+[ERROR]   location: class org.apache.commons.lang3.function.FailableFunctionsTest
+[ERROR] ./commons-lang/src/test/java/org/apache/commons/lang3/function/FailableFunctionsTest.java:[281,76] invalid method reference
+[ERROR]   non-static method test() cannot be referenced from a static context
+[ERROR] ./commons-lang/src/test/java/org/apache/commons/lang3/function/FailableFunctionsTest.java:[287,9] cannot find symbol
+[ERROR]   symbol:   variable Failable
+[ERROR]   location: class org.apache.commons.lang3.function.FailableFunctionsTest
+[ERROR] ./commons-lang/src/test/java/org/apache/commons/lang3/function/FailableFunctionsTest.java:[287,25] invalid method reference
+[ERROR]   non-static method test() cannot be referenced from a static context
+[ERROR] ./commons-lang/src/test/java/org/apache/commons/lang3/function/FailableFunctionsTest.java:[294,71] cannot find symbol
+[ERROR]   symbol:   variable Failable
+[ERROR]   location: class org.apache.commons.lang3.function.FailableFunctionsTest
+[ERROR] ./commons-lang/src/test/java/org/apache/commons/lang3/function/FailableFunctionsTest.java:[294,87] invalid method reference
+[ERROR]   non-static method test() cannot be referenced from a static context
+[ERROR] ./commons-lang/src/test/java/org/apache/commons/lang3/function/FailableFunctionsTest.java:[299,56] cannot find symbol
+[ERROR]   symbol:   variable Failable
+[ERROR]   location: class org.apache.commons.lang3.function.FailableFunctionsTest
+[ERROR] ./commons-lang/src/test/java/org/apache/commons/lang3/function/FailableFunctionsTest.java:[299,72] invalid method reference
+[ERROR]   non-static method test() cannot be referenced from a static context
+[ERROR] ./commons-lang/src/test/java/org/apache/commons/lang3/function/FailableFunctionsTest.java:[304,60] cannot find symbol
+[ERROR]   symbol:   variable Failable
+[ERROR]   location: class org.apache.commons.lang3.function.FailableFunctionsTest
+[ERROR] ./commons-lang/src/test/java/org/apache/commons/lang3/function/FailableFunctionsTest.java:[304,76] invalid method reference
+[ERROR]   non-static method test() cannot be referenced from a static context
+[ERROR] ./commons-lang/src/test/java/org/apache/commons/lang3/function/FailableFunctionsTest.java:[310,9] cannot find symbol
+[ERROR]   symbol:   variable Failable
+[ERROR]   location: class org.apache.commons.lang3.function.FailableFunctionsTest
+[ERROR] ./commons-lang/src/test/java/org/apache/commons/lang3/function/FailableFunctionsTest.java:[310,25] invalid method reference
+[ERROR]   non-static method test() cannot be referenced from a static context
+[ERROR] ./commons-lang/src/test/java/org/apache/commons/lang3/function/FailableFunctionsTest.java:[317,71] cannot find symbol
+[ERROR]   symbol:   variable Failable
+[ERROR]   location: class org.apache.commons.lang3.function.FailableFunctionsTest
+[ERROR] ./commons-lang/src/test/java/org/apache/commons/lang3/function/FailableFunctionsTest.java:[323,56] cannot find symbol
+[ERROR]   symbol:   variable Failable
+[ERROR]   location: class org.apache.commons.lang3.function.FailableFunctionsTest
+[ERROR] ./commons-lang/src/test/java/org/apache/commons/lang3/function/FailableFunctionsTest.java:[329,60] cannot find symbol
+[ERROR]   symbol:   variable Failable
+[ERROR]   location: class org.apache.commons.lang3.function.FailableFunctionsTest
+[ERROR] ./commons-lang/src/test/java/org/apache/commons/lang3/function/FailableFunctionsTest.java:[336,9] cannot find symbol
+[ERROR]   symbol:   variable Failable
+[ERROR]   location: class org.apache.commons.lang3.function.FailableFunctionsTest
+[ERROR] ./commons-lang/src/test/java/org/apache/commons/lang3/function/FailableFunctionsTest.java:[344,71] cannot find symbol
+[ERROR]   symbol:   variable Failable
+[ERROR]   location: class org.apache.commons.lang3.function.FailableFunctionsTest
+[ERROR] ./commons-lang/src/test/java/org/apache/commons/lang3/function/FailableFunctionsTest.java:[350,56] cannot find symbol
+[ERROR]   symbol:   variable Failable
+[ERROR]   location: class org.apache.commons.lang3.function.FailableFunctionsTest
+[ERROR] ./commons-lang/src/test/java/org/apache/commons/lang3/function/FailableFunctionsTest.java:[356,60] cannot find symbol
+[ERROR]   symbol:   variable Failable
+[ERROR]   location: class org.apache.commons.lang3.function.FailableFunctionsTest
+[ERROR] ./commons-lang/src/test/java/org/apache/commons/lang3/function/FailableFunctionsTest.java:[363,9] cannot find symbol
+[ERROR]   symbol:   variable Failable
+[ERROR]   location: class org.apache.commons.lang3.function.FailableFunctionsTest
+[ERROR] ./commons-lang/src/test/java/org/apache/commons/lang3/function/FailableFunctionsTest.java:[371,71] cannot find symbol
+[ERROR]   symbol:   variable Failable
+[ERROR]   location: class org.apache.commons.lang3.function.FailableFunctionsTest
+[ERROR] ./commons-lang/src/test/java/org/apache/commons/lang3/function/FailableFunctionsTest.java:[377,56] cannot find symbol
+[ERROR]   symbol:   variable Failable
+[ERROR]   location: class org.apache.commons.lang3.function.FailableFunctionsTest
+[ERROR] ./commons-lang/src/test/java/org/apache/commons/lang3/function/FailableFunctionsTest.java:[383,60] cannot find symbol
+[ERROR]   symbol:   variable Failable
+[ERROR]   location: class org.apache.commons.lang3.function.FailableFunctionsTest
+[ERROR] ./commons-lang/src/test/java/org/apache/commons/lang3/function/FailableFunctionsTest.java:[390,9] cannot find symbol
+[ERROR]   symbol:   variable Failable
+[ERROR]   location: class org.apache.commons.lang3.function.FailableFunctionsTest
+[ERROR] ./commons-lang/src/test/java/org/apache/commons/lang3/function/FailableFunctionsTest.java:[399,19] cannot find symbol
+[ERROR]   symbol:   variable Failable
+[ERROR]   location: class org.apache.commons.lang3.function.FailableFunctionsTest
+[ERROR] ./commons-lang/src/test/java/org/apache/commons/lang3/function/FailableFunctionsTest.java:[406,56] cannot find symbol
+[ERROR]   symbol:   variable Failable
+[ERROR]   location: class org.apache.commons.lang3.function.FailableFunctionsTest
+[ERROR] ./commons-lang/src/test/java/org/apache/commons/lang3/function/FailableFunctionsTest.java:[413,60] cannot find symbol
+[ERROR]   symbol:   variable Failable
+[ERROR]   location: class org.apache.commons.lang3.function.FailableFunctionsTest
+[ERROR] ./commons-lang/src/test/java/org/apache/commons/lang3/function/FailableFunctionsTest.java:[421,9] cannot find symbol
+[ERROR]   symbol:   variable Failable
+[ERROR]   location: class org.apache.commons.lang3.function.FailableFunctionsTest
+[ERROR] ./commons-lang/src/test/java/org/apache/commons/lang3/function/FailableFunctionsTest.java:[430,71] cannot find symbol
+[ERROR]   symbol:   variable Failable
+[ERROR]   location: class org.apache.commons.lang3.function.FailableFunctionsTest
+[ERROR] ./commons-lang/src/test/java/org/apache/commons/lang3/function/FailableFunctionsTest.java:[437,56] cannot find symbol
+[ERROR]   symbol:   variable Failable
+[ERROR]   location: class org.apache.commons.lang3.function.FailableFunctionsTest
+[ERROR] ./commons-lang/src/test/java/org/apache/commons/lang3/function/FailableFunctionsTest.java:[444,60] cannot find symbol
+[ERROR]   symbol:   variable Failable
+[ERROR]   location: class org.apache.commons.lang3.function.FailableFunctionsTest
+[ERROR] ./commons-lang/src/test/java/org/apache/commons/lang3/function/FailableFunctionsTest.java:[452,9] cannot find symbol
+[ERROR]   symbol:   variable Failable
+[ERROR]   location: class org.apache.commons.lang3.function.FailableFunctionsTest
+[ERROR] ./commons-lang/src/test/java/org/apache/commons/lang3/function/FailableFunctionsTest.java:[461,71] cannot find symbol
+[ERROR]   symbol:   variable Failable
+[ERROR]   location: class org.apache.commons.lang3.function.FailableFunctionsTest
+[ERROR] ./commons-lang/src/test/java/org/apache/commons/lang3/function/FailableFunctionsTest.java:[468,56] cannot find symbol
+[ERROR]   symbol:   variable Failable
+[ERROR]   location: class org.apache.commons.lang3.function.FailableFunctionsTest
+[ERROR] ./commons-lang/src/test/java/org/apache/commons/lang3/function/FailableFunctionsTest.java:[475,60] cannot find symbol
+[ERROR]   symbol:   variable Failable
+[ERROR]   location: class org.apache.commons.lang3.function.FailableFunctionsTest
+[ERROR] ./commons-lang/src/test/java/org/apache/commons/lang3/function/FailableFunctionsTest.java:[483,9] cannot find symbol
+[ERROR]   symbol:   variable Failable
+[ERROR]   location: class org.apache.commons.lang3.function.FailableFunctionsTest
+[ERROR] ./commons-lang/src/test/java/org/apache/commons/lang3/function/FailableFunctionsTest.java:[493,19] cannot find symbol
+[ERROR]   symbol:   variable Failable
+[ERROR]   location: class org.apache.commons.lang3.function.FailableFunctionsTest
+[ERROR] ./commons-lang/src/test/java/org/apache/commons/lang3/function/FailableFunctionsTest.java:[493,34] invalid method reference
+[ERROR]   non-static method testAsInteger() cannot be referenced from a static context
+[ERROR] ./commons-lang/src/test/java/org/apache/commons/lang3/function/FailableFunctionsTest.java:[497,56] cannot find symbol
+[ERROR]   symbol:   variable Failable
+[ERROR]   location: class org.apache.commons.lang3.function.FailableFunctionsTest
+[ERROR] ./commons-lang/src/test/java/org/apache/commons/lang3/function/FailableFunctionsTest.java:[497,71] invalid method reference
+[ERROR]   non-static method testAsInteger() cannot be referenced from a static context
+[ERROR] ./commons-lang/src/test/java/org/apache/commons/lang3/function/FailableFunctionsTest.java:[501,60] cannot find symbol
+[ERROR]   symbol:   variable Failable
+[ERROR]   location: class org.apache.commons.lang3.function.FailableFunctionsTest
+[ERROR] ./commons-lang/src/test/java/org/apache/commons/lang3/function/FailableFunctionsTest.java:[501,75] invalid method reference
+[ERROR]   non-static method testAsInteger() cannot be referenced from a static context
+[ERROR] ./commons-lang/src/test/java/org/apache/commons/lang3/function/FailableFunctionsTest.java:[506,27] cannot find symbol
+[ERROR]   symbol:   variable Failable
+[ERROR]   location: class org.apache.commons.lang3.function.FailableFunctionsTest
+[ERROR] ./commons-lang/src/test/java/org/apache/commons/lang3/function/FailableFunctionsTest.java:[506,42] invalid method reference
+[ERROR]   non-static method testAsInteger() cannot be referenced from a static context
+[ERROR] ./commons-lang/src/test/java/org/apache/commons/lang3/function/FailableFunctionsTest.java:[516,19] cannot find symbol
+[ERROR]   symbol:   variable Failable
+[ERROR]   location: class org.apache.commons.lang3.function.FailableFunctionsTest
+[ERROR] ./commons-lang/src/test/java/org/apache/commons/lang3/function/FailableFunctionsTest.java:[520,26] cannot find symbol
+[ERROR]   symbol:   variable Failable
+[ERROR]   location: class org.apache.commons.lang3.function.FailableFunctionsTest
+[ERROR] ./commons-lang/src/test/java/org/apache/commons/lang3/function/FailableFunctionsTest.java:[529,19] cannot find symbol
+[ERROR]   symbol:   variable Failable
+[ERROR]   location: class org.apache.commons.lang3.function.FailableFunctionsTest
+[ERROR] ./commons-lang/src/test/java/org/apache/commons/lang3/function/FailableFunctionsTest.java:[529,34] invalid method reference
+[ERROR]   non-static method testAsInteger() cannot be referenced from a static context
+[ERROR] ./commons-lang/src/test/java/org/apache/commons/lang3/function/FailableFunctionsTest.java:[534,56] cannot find symbol
+[ERROR]   symbol:   variable Failable
+[ERROR]   location: class org.apache.commons.lang3.function.FailableFunctionsTest
+[ERROR] ./commons-lang/src/test/java/org/apache/commons/lang3/function/FailableFunctionsTest.java:[534,71] invalid method reference
+[ERROR]   non-static method testAsInteger() cannot be referenced from a static context
+[ERROR] ./commons-lang/src/test/java/org/apache/commons/lang3/function/FailableFunctionsTest.java:[539,60] cannot find symbol
+[ERROR]   symbol:   variable Failable
+[ERROR]   location: class org.apache.commons.lang3.function.FailableFunctionsTest
+[ERROR] ./commons-lang/src/test/java/org/apache/commons/lang3/function/FailableFunctionsTest.java:[539,75] invalid method reference
+[ERROR]   non-static method testAsInteger() cannot be referenced from a static context
+[ERROR] ./commons-lang/src/test/java/org/apache/commons/lang3/function/FailableFunctionsTest.java:[545,27] cannot find symbol
+[ERROR]   symbol:   variable Failable
+[ERROR]   location: class org.apache.commons.lang3.function.FailableFunctionsTest
+[ERROR] ./commons-lang/src/test/java/org/apache/commons/lang3/function/FailableFunctionsTest.java:[545,42] invalid method reference
+[ERROR]   non-static method testAsInteger() cannot be referenced from a static context
+[ERROR] ./commons-lang/src/test/java/org/apache/commons/lang3/function/FailableFunctionsTest.java:[553,15] cannot find symbol
+[ERROR]   symbol:   class FailableCallable
+[ERROR]   location: class org.apache.commons.lang3.function.FailableFunctionsTest
+[ERROR] ./commons-lang/src/test/java/org/apache/commons/lang3/function/FailableFunctionsTest.java:[553,91] method reference not expected here
+[ERROR] ./commons-lang/src/test/java/org/apache/commons/lang3/function/FailableFunctionsTest.java:[554,60] cannot find symbol
+[ERROR]   symbol:   variable Failable
+[ERROR]   location: class org.apache.commons.lang3.function.FailableFunctionsTest
+[ERROR] ./commons-lang/src/test/java/org/apache/commons/lang3/function/FailableFunctionsTest.java:[564,19] cannot find symbol
+[ERROR]   symbol:   variable Failable
+[ERROR]   location: class org.apache.commons.lang3.function.FailableFunctionsTest
+[ERROR] ./commons-lang/src/test/java/org/apache/commons/lang3/function/FailableFunctionsTest.java:[573,51] cannot find symbol
+[ERROR]   symbol:   variable Failable
+[ERROR]   location: class org.apache.commons.lang3.function.FailableFunctionsTest
+[ERROR] ./commons-lang/src/test/java/org/apache/commons/lang3/function/FailableFunctionsTest.java:[573,71] invalid method reference
+[ERROR]   non-static method test() cannot be referenced from a static context
+[ERROR] ./commons-lang/src/test/java/org/apache/commons/lang3/function/FailableFunctionsTest.java:[590,9] cannot find symbol
+[ERROR]   symbol:   variable Failable
+[ERROR]   location: class org.apache.commons.lang3.function.FailableFunctionsTest
+[ERROR] ./commons-lang/src/test/java/org/apache/commons/lang3/function/FailableFunctionsTest.java:[590,25] invalid method reference
+[ERROR]   non-static method test() cannot be referenced from a static context
+[ERROR] ./commons-lang/src/test/java/org/apache/commons/lang3/function/FailableFunctionsTest.java:[596,35] cannot find symbol
+[ERROR]   symbol:   variable Failable
+[ERROR]   location: class org.apache.commons.lang3.function.FailableFunctionsTest
+[ERROR] ./commons-lang/src/test/java/org/apache/commons/lang3/function/FailableFunctionsTest.java:[610,15] cannot find symbol
+[ERROR]   symbol:   class FailableSupplier
+[ERROR]   location: class org.apache.commons.lang3.function.FailableFunctionsTest
+[ERROR] ./commons-lang/src/test/java/org/apache/commons/lang3/function/FailableFunctionsTest.java:[610,87] method reference not expected here
+[ERROR] ./commons-lang/src/test/java/org/apache/commons/lang3/function/FailableFunctionsTest.java:[611,60] cannot find symbol
+[ERROR]   symbol:   variable Failable
+[ERROR]   location: class org.apache.commons.lang3.function.FailableFunctionsTest
+[ERROR] ./commons-lang/src/test/java/org/apache/commons/lang3/function/FailableFunctionsTest.java:[624,15] cannot find symbol
+[ERROR]   symbol:   class FailableBiConsumer
+[ERROR]   location: class org.apache.commons.lang3.function.FailableFunctionsTest
+[ERROR] ./commons-lang/src/test/java/org/apache/commons/lang3/function/FailableFunctionsTest.java:[624,93] lambda expression not expected here
+[ERROR] ./commons-lang/src/test/java/org/apache/commons/lang3/function/FailableFunctionsTest.java:[628,64] cannot find symbol
+[ERROR]   symbol:   variable Failable
+[ERROR]   location: class org.apache.commons.lang3.function.FailableFunctionsTest
+[ERROR] ./commons-lang/src/test/java/org/apache/commons/lang3/function/FailableFunctionsTest.java:[650,15] cannot find symbol
+[ERROR]   symbol:   class FailableBiFunction
+[ERROR]   location: class org.apache.commons.lang3.function.FailableFunctionsTest
+[ERROR] ./commons-lang/src/test/java/org/apache/commons/lang3/function/FailableFunctionsTest.java:[650,102] lambda expression not expected here
+[ERROR] ./commons-lang/src/test/java/org/apache/commons/lang3/function/FailableFunctionsTest.java:[654,75] cannot find symbol
+[ERROR]   symbol:   variable Failable
+[ERROR]   location: class org.apache.commons.lang3.function.FailableFunctionsTest
+[ERROR] ./commons-lang/src/test/java/org/apache/commons/lang3/function/FailableFunctionsTest.java:[677,15] cannot find symbol
+[ERROR]   symbol:   class FailableBiPredicate
+[ERROR]   location: class org.apache.commons.lang3.function.FailableFunctionsTest
+[ERROR] ./commons-lang/src/test/java/org/apache/commons/lang3/function/FailableFunctionsTest.java:[677,84] lambda expression not expected here
+[ERROR] ./commons-lang/src/test/java/org/apache/commons/lang3/function/FailableFunctionsTest.java:[679,45] cannot find symbol
+[ERROR]   symbol:   variable Failable
+[ERROR]   location: class org.apache.commons.lang3.function.FailableFunctionsTest
+[ERROR] ./commons-lang/src/test/java/org/apache/commons/lang3/function/FailableFunctionsTest.java:[694,19] cannot find symbol
+[ERROR]   symbol:   variable Failable
+[ERROR]   location: class org.apache.commons.lang3.function.FailableFunctionsTest
+[ERROR] ./commons-lang/src/test/java/org/apache/commons/lang3/function/FailableFunctionsTest.java:[699,50] cannot find symbol
+[ERROR]   symbol:   variable Failable
+[ERROR]   location: class org.apache.commons.lang3.function.FailableFunctionsTest
+[ERROR] ./commons-lang/src/test/java/org/apache/commons/lang3/function/FailableFunctionsTest.java:[722,15] cannot find symbol
+[ERROR]   symbol:   class FailableFunction
+[ERROR]   location: class org.apache.commons.lang3.function.FailableFunctionsTest
+[ERROR] ./commons-lang/src/test/java/org/apache/commons/lang3/function/FailableFunctionsTest.java:[722,82] lambda expression not expected here
+[ERROR] ./commons-lang/src/test/java/org/apache/commons/lang3/function/FailableFunctionsTest.java:[726,55] cannot find symbol
+[ERROR]   symbol:   variable Failable
+[ERROR]   location: class org.apache.commons.lang3.function.FailableFunctionsTest
+[ERROR] ./commons-lang/src/test/java/org/apache/commons/lang3/function/FailableFunctionsTest.java:[750,19] cannot find symbol
+[ERROR]   symbol:   variable Failable
+[ERROR]   location: class org.apache.commons.lang3.function.FailableFunctionsTest
+[ERROR] ./commons-lang/src/test/java/org/apache/commons/lang3/function/FailableFunctionsTest.java:[755,56] cannot find symbol
+[ERROR]   symbol:   variable Failable
+[ERROR]   location: class org.apache.commons.lang3.function.FailableFunctionsTest
+[ERROR] ./commons-lang/src/test/java/org/apache/commons/lang3/function/FailableFunctionsTest.java:[760,60] cannot find symbol
+[ERROR]   symbol:   variable Failable
+[ERROR]   location: class org.apache.commons.lang3.function.FailableFunctionsTest
+[ERROR] ./commons-lang/src/test/java/org/apache/commons/lang3/function/FailableFunctionsTest.java:[766,21] cannot find symbol
+[ERROR]   symbol:   variable Failable
+[ERROR]   location: class org.apache.commons.lang3.function.FailableFunctionsTest
+[ERROR] ./commons-lang/src/test/java/org/apache/commons/lang3/function/FailableFunctionsTest.java:[774,19] cannot find symbol
+[ERROR]   symbol:   variable Failable
+[ERROR]   location: class org.apache.commons.lang3.function.FailableFunctionsTest
+[ERROR] ./commons-lang/src/test/java/org/apache/commons/lang3/function/FailableFunctionsTest.java:[779,56] cannot find symbol
+[ERROR]   symbol:   variable Failable
+[ERROR]   location: class org.apache.commons.lang3.function.FailableFunctionsTest
+[ERROR] ./commons-lang/src/test/java/org/apache/commons/lang3/function/FailableFunctionsTest.java:[784,60] cannot find symbol
+[ERROR]   symbol:   variable Failable
+[ERROR]   location: class org.apache.commons.lang3.function.FailableFunctionsTest
+[ERROR] ./commons-lang/src/test/java/org/apache/commons/lang3/function/FailableFunctionsTest.java:[790,25] cannot find symbol
+[ERROR]   symbol:   variable Failable
+[ERROR]   location: class org.apache.commons.lang3.function.FailableFunctionsTest
+[ERROR] ./commons-lang/src/test/java/org/apache/commons/lang3/function/FailableFunctionsTest.java:[797,71] cannot find symbol
+[ERROR]   symbol:   variable Failable
+[ERROR]   location: class org.apache.commons.lang3.function.FailableFunctionsTest
+[ERROR] ./commons-lang/src/test/java/org/apache/commons/lang3/function/FailableFunctionsTest.java:[802,56] cannot find symbol
+[ERROR]   symbol:   variable Failable
+[ERROR]   location: class org.apache.commons.lang3.function.FailableFunctionsTest
+[ERROR] ./commons-lang/src/test/java/org/apache/commons/lang3/function/FailableFunctionsTest.java:[807,60] cannot find symbol
+[ERROR]   symbol:   variable Failable
+[ERROR]   location: class org.apache.commons.lang3.function.FailableFunctionsTest
+[ERROR] ./commons-lang/src/test/java/org/apache/commons/lang3/function/FailableFunctionsTest.java:[813,23] cannot find symbol
+[ERROR]   symbol:   variable Failable
+[ERROR]   location: class org.apache.commons.lang3.function.FailableFunctionsTest
+[ERROR] ./commons-lang/src/test/java/org/apache/commons/lang3/function/FailableFunctionsTest.java:[822,19] cannot find symbol
+[ERROR]   symbol:   variable Failable
+[ERROR]   location: class org.apache.commons.lang3.function.FailableFunctionsTest
+[ERROR] ./commons-lang/src/test/java/org/apache/commons/lang3/function/FailableFunctionsTest.java:[827,56] cannot find symbol
+[ERROR]   symbol:   variable Failable
+[ERROR]   location: class org.apache.commons.lang3.function.FailableFunctionsTest
+[ERROR] ./commons-lang/src/test/java/org/apache/commons/lang3/function/FailableFunctionsTest.java:[832,60] cannot find symbol
+[ERROR]   symbol:   variable Failable
+[ERROR]   location: class org.apache.commons.lang3.function.FailableFunctionsTest
+[ERROR] ./commons-lang/src/test/java/org/apache/commons/lang3/function/FailableFunctionsTest.java:[838,24] cannot find symbol
+[ERROR]   symbol:   variable Failable
+[ERROR]   location: class org.apache.commons.lang3.function.FailableFunctionsTest
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException

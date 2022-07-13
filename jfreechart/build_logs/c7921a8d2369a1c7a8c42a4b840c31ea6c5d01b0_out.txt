@@ -1,0 +1,1203 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ------------------------< org.jfree:jfreechart >------------------------
+[INFO] Building JFreeChart 1.6.0-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:3.1.0:clean (default-clean) @ jfreechart ---
+[INFO] Deleting ./jfreechart/target
+[INFO] 
+[INFO] --- maven-resources-plugin:3.1.0:resources (default-resources) @ jfreechart ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 42 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.1:compile (default-compile) @ jfreechart ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 637 source files to ./jfreechart/target/classes
+[WARNING] ./jfreechart/src/main/java/org/jfree/data/general/DatasetGroup.java:[53,8] Class org.jfree.data.general.DatasetGroup overrides equals, but neither it nor any superclass overrides hashCode method
+[WARNING] ./jfreechart/src/main/java/org/jfree/data/general/DatasetChangeEvent.java:[53,8] serializable class org.jfree.data.general.DatasetChangeEvent has no definition of serialVersionUID
+[WARNING] ./jfreechart/src/main/java/org/jfree/chart/annotations/AbstractAnnotation.java:[120,9] found raw type: java.util.List
+  missing type arguments for generic class java.util.List<E>
+[WARNING] ./jfreechart/src/main/java/org/jfree/chart/annotations/AbstractAnnotation.java:[62,17] serializable class org.jfree.chart.annotations.AbstractAnnotation has no definition of serialVersionUID
+[WARNING] ./jfreechart/src/main/java/org/jfree/chart/event/ChartChangeEvent.java:[54,8] serializable class org.jfree.chart.event.ChartChangeEvent has no definition of serialVersionUID
+[WARNING] ./jfreechart/src/main/java/org/jfree/chart/event/AnnotationChangeEvent.java:[52,8] serializable class org.jfree.chart.event.AnnotationChangeEvent has no definition of serialVersionUID
+[WARNING] ./jfreechart/src/main/java/org/jfree/chart/JFreeChart.java:[130,8] Class org.jfree.chart.JFreeChart overrides equals, but neither it nor any superclass overrides hashCode method
+[WARNING] ./jfreechart/src/main/java/org/jfree/chart/block/AbstractBlock.java:[72,8] Class org.jfree.chart.block.AbstractBlock overrides equals, but neither it nor any superclass overrides hashCode method
+[WARNING] ./jfreechart/src/main/java/org/jfree/chart/plot/CategoryPlot.java:[348,26] found raw type: org.jfree.data.category.CategoryDataset
+  missing type arguments for generic class org.jfree.data.category.CategoryDataset<R,C>
+[WARNING] ./jfreechart/src/main/java/org/jfree/chart/plot/CategoryPlot.java:[477,13] found raw type: java.lang.Comparable
+  missing type arguments for generic class java.lang.Comparable<T>
+[WARNING] ./jfreechart/src/main/java/org/jfree/chart/plot/CategoryPlot.java:[484,13] found raw type: java.lang.Comparable
+  missing type arguments for generic class java.lang.Comparable<T>
+[WARNING] ./jfreechart/src/main/java/org/jfree/chart/plot/CategoryPlot.java:[535,13] found raw type: java.util.List
+  missing type arguments for generic class java.util.List<E>
+[WARNING] ./jfreechart/src/main/java/org/jfree/chart/plot/CategoryPlot.java:[586,25] found raw type: org.jfree.data.category.CategoryDataset
+  missing type arguments for generic class org.jfree.data.category.CategoryDataset<R,C>
+[WARNING] ./jfreechart/src/main/java/org/jfree/chart/plot/CategoryPlot.java:[599,43] found raw type: java.util.TreeMap
+  missing type arguments for generic class java.util.TreeMap<K,V>
+[WARNING] ./jfreechart/src/main/java/org/jfree/chart/plot/CategoryPlot.java:[599,39] unchecked conversion
+  required: java.util.TreeMap<java.lang.Integer,java.util.List<java.lang.Integer>>
+  found:    java.util.TreeMap
+[WARNING] ./jfreechart/src/main/java/org/jfree/chart/plot/CategoryPlot.java:[600,42] found raw type: java.util.TreeMap
+  missing type arguments for generic class java.util.TreeMap<K,V>
+[WARNING] ./jfreechart/src/main/java/org/jfree/chart/plot/CategoryPlot.java:[600,38] unchecked conversion
+  required: java.util.TreeMap<java.lang.Integer,java.util.List<java.lang.Integer>>
+  found:    java.util.TreeMap
+[WARNING] ./jfreechart/src/main/java/org/jfree/chart/plot/CategoryPlot.java:[604,46] found raw type: org.jfree.data.category.CategoryDataset
+  missing type arguments for generic class org.jfree.data.category.CategoryDataset<R,C>
+[WARNING] ./jfreechart/src/main/java/org/jfree/chart/plot/CategoryPlot.java:[671,41] found raw type: java.util.ArrayList
+  missing type arguments for generic class java.util.ArrayList<E>
+[WARNING] ./jfreechart/src/main/java/org/jfree/chart/plot/CategoryPlot.java:[806,33] redundant cast to org.jfree.chart.axis.CategoryAxis
+[WARNING] ./jfreechart/src/main/java/org/jfree/chart/plot/CategoryPlot.java:[1296,12] found raw type: org.jfree.data.category.CategoryDataset
+  missing type arguments for generic class org.jfree.data.category.CategoryDataset<R,C>
+[WARNING] ./jfreechart/src/main/java/org/jfree/chart/plot/CategoryPlot.java:[1310,12] found raw type: org.jfree.data.category.CategoryDataset
+  missing type arguments for generic class org.jfree.data.category.CategoryDataset<R,C>
+[WARNING] ./jfreechart/src/main/java/org/jfree/chart/plot/CategoryPlot.java:[1325,28] found raw type: org.jfree.data.category.CategoryDataset
+  missing type arguments for generic class org.jfree.data.category.CategoryDataset<R,C>
+[WARNING] ./jfreechart/src/main/java/org/jfree/chart/plot/CategoryPlot.java:[1338,39] found raw type: org.jfree.data.category.CategoryDataset
+  missing type arguments for generic class org.jfree.data.category.CategoryDataset<R,C>
+[WARNING] ./jfreechart/src/main/java/org/jfree/chart/plot/CategoryPlot.java:[1339,9] found raw type: org.jfree.data.category.CategoryDataset
+  missing type arguments for generic class org.jfree.data.category.CategoryDataset<R,C>
+[WARNING] ./jfreechart/src/main/java/org/jfree/chart/plot/CategoryPlot.java:[1373,24] found raw type: org.jfree.data.category.CategoryDataset
+  missing type arguments for generic class org.jfree.data.category.CategoryDataset<R,C>
+[WARNING] ./jfreechart/src/main/java/org/jfree/chart/plot/CategoryPlot.java:[1374,29] found raw type: org.jfree.data.category.CategoryDataset
+  missing type arguments for generic class org.jfree.data.category.CategoryDataset<R,C>
+[WARNING] ./jfreechart/src/main/java/org/jfree/chart/plot/CategoryPlot.java:[1406,51] found raw type: java.util.List
+  missing type arguments for generic class java.util.List<E>
+[WARNING] ./jfreechart/src/main/java/org/jfree/chart/plot/CategoryPlot.java:[1409,52] found raw type: java.util.ArrayList
+  missing type arguments for generic class java.util.ArrayList<E>
+[WARNING] ./jfreechart/src/main/java/org/jfree/chart/plot/CategoryPlot.java:[1409,48] unchecked call to ArrayList(java.util.Collection<? extends E>) as a member of the raw type java.util.ArrayList
+[WARNING] ./jfreechart/src/main/java/org/jfree/chart/plot/CategoryPlot.java:[1409,40] unchecked method invocation: method put in class java.util.TreeMap is applied to given types
+  required: K,V
+  found: int,java.util.ArrayList
+[WARNING] ./jfreechart/src/main/java/org/jfree/chart/plot/CategoryPlot.java:[1409,48] unchecked conversion
+  required: V
+  found:    java.util.ArrayList
+[WARNING] ./jfreechart/src/main/java/org/jfree/chart/plot/CategoryPlot.java:[1421,35] found raw type: java.util.List
+  missing type arguments for generic class java.util.List<E>
+[WARNING] ./jfreechart/src/main/java/org/jfree/chart/plot/CategoryPlot.java:[1432,9] found raw type: java.util.HashSet
+  missing type arguments for generic class java.util.HashSet<E>
+[WARNING] ./jfreechart/src/main/java/org/jfree/chart/plot/CategoryPlot.java:[1432,27] found raw type: java.util.HashSet
+  missing type arguments for generic class java.util.HashSet<E>
+[WARNING] ./jfreechart/src/main/java/org/jfree/chart/plot/CategoryPlot.java:[1442,20] unchecked call to add(E) as a member of the raw type java.util.HashSet
+[WARNING] ./jfreechart/src/main/java/org/jfree/chart/plot/CategoryPlot.java:[1459,9] found raw type: java.util.List
+  missing type arguments for generic class java.util.List<E>
+[WARNING] ./jfreechart/src/main/java/org/jfree/chart/plot/CategoryPlot.java:[1480,9] found raw type: java.util.List
+  missing type arguments for generic class java.util.List<E>
+[WARNING] ./jfreechart/src/main/java/org/jfree/chart/plot/CategoryPlot.java:[1480,41] found raw type: java.util.ArrayList
+  missing type arguments for generic class java.util.ArrayList<E>
+[WARNING] ./jfreechart/src/main/java/org/jfree/chart/plot/CategoryPlot.java:[1481,24] unchecked call to add(E) as a member of the raw type java.util.List
+[WARNING] ./jfreechart/src/main/java/org/jfree/chart/plot/CategoryPlot.java:[1495,50] found raw type: java.util.List
+  missing type arguments for generic class java.util.List<E>
+[WARNING] ./jfreechart/src/main/java/org/jfree/chart/plot/CategoryPlot.java:[1498,51] found raw type: java.util.ArrayList
+  missing type arguments for generic class java.util.ArrayList<E>
+[WARNING] ./jfreechart/src/main/java/org/jfree/chart/plot/CategoryPlot.java:[1498,47] unchecked call to ArrayList(java.util.Collection<? extends E>) as a member of the raw type java.util.ArrayList
+[WARNING] ./jfreechart/src/main/java/org/jfree/chart/plot/CategoryPlot.java:[1498,39] unchecked method invocation: method put in class java.util.TreeMap is applied to given types
+  required: K,V
+  found: int,java.util.ArrayList
+[WARNING] ./jfreechart/src/main/java/org/jfree/chart/plot/CategoryPlot.java:[1498,47] unchecked conversion
+  required: V
+  found:    java.util.ArrayList
+[WARNING] ./jfreechart/src/main/java/org/jfree/chart/plot/CategoryPlot.java:[1516,9] found raw type: java.util.List
+  missing type arguments for generic class java.util.List<E>
+[WARNING] ./jfreechart/src/main/java/org/jfree/chart/plot/CategoryPlot.java:[1667,55] found raw type: org.jfree.data.category.CategoryDataset
+  missing type arguments for generic class org.jfree.data.category.CategoryDataset<R,C>
+[WARNING] ./jfreechart/src/main/java/org/jfree/chart/plot/CategoryPlot.java:[2185,14] found raw type: org.jfree.data.category.CategoryDataset
+  missing type arguments for generic class org.jfree.data.category.CategoryDataset<R,C>
+[WARNING] ./jfreechart/src/main/java/org/jfree/chart/plot/CategoryPlot.java:[2901,12] found raw type: java.lang.Comparable
+  missing type arguments for generic class java.lang.Comparable<T>
+[WARNING] ./jfreechart/src/main/java/org/jfree/chart/plot/CategoryPlot.java:[2913,42] found raw type: java.lang.Comparable
+  missing type arguments for generic class java.lang.Comparable<T>
+[WARNING] ./jfreechart/src/main/java/org/jfree/chart/plot/CategoryPlot.java:[2926,42] found raw type: java.lang.Comparable
+  missing type arguments for generic class java.lang.Comparable<T>
+[WARNING] ./jfreechart/src/main/java/org/jfree/chart/plot/CategoryPlot.java:[2940,12] found raw type: java.lang.Comparable
+  missing type arguments for generic class java.lang.Comparable<T>
+[WARNING] ./jfreechart/src/main/java/org/jfree/chart/plot/CategoryPlot.java:[2952,45] found raw type: java.lang.Comparable
+  missing type arguments for generic class java.lang.Comparable<T>
+[WARNING] ./jfreechart/src/main/java/org/jfree/chart/plot/CategoryPlot.java:[2965,45] found raw type: java.lang.Comparable
+  missing type arguments for generic class java.lang.Comparable<T>
+[WARNING] ./jfreechart/src/main/java/org/jfree/chart/plot/CategoryPlot.java:[3228,12] found raw type: java.util.List
+  missing type arguments for generic class java.util.List<E>
+[WARNING] ./jfreechart/src/main/java/org/jfree/chart/plot/CategoryPlot.java:[3255,29] unchecked call to add(E) as a member of the raw type java.util.List
+[WARNING] ./jfreechart/src/main/java/org/jfree/chart/plot/CategoryPlot.java:[3522,9] found raw type: java.util.Map
+  missing type arguments for generic class java.util.Map<K,V>
+[WARNING] ./jfreechart/src/main/java/org/jfree/chart/plot/CategoryPlot.java:[3647,9] found raw type: java.lang.Comparable
+  missing type arguments for generic class java.lang.Comparable<T>
+[WARNING] ./jfreechart/src/main/java/org/jfree/chart/plot/CategoryPlot.java:[3648,9] found raw type: java.lang.Comparable
+  missing type arguments for generic class java.lang.Comparable<T>
+[WARNING] ./jfreechart/src/main/java/org/jfree/chart/plot/CategoryPlot.java:[3701,33] found raw type: org.jfree.data.category.CategoryDataset
+  missing type arguments for generic class org.jfree.data.category.CategoryDataset<R,C>
+[WARNING] ./jfreechart/src/main/java/org/jfree/chart/plot/CategoryPlot.java:[3764,15] found raw type: java.util.Map
+  missing type arguments for generic class java.util.Map<K,V>
+[WARNING] ./jfreechart/src/main/java/org/jfree/chart/plot/CategoryPlot.java:[3785,9] found raw type: java.util.Map
+  missing type arguments for generic class java.util.Map<K,V>
+[WARNING] ./jfreechart/src/main/java/org/jfree/chart/plot/CategoryPlot.java:[3785,32] found raw type: java.util.HashMap
+  missing type arguments for generic class java.util.HashMap<K,V>
+[WARNING] ./jfreechart/src/main/java/org/jfree/chart/plot/CategoryPlot.java:[3790,9] found raw type: java.util.Iterator
+  missing type arguments for generic class java.util.Iterator<E>
+[WARNING] ./jfreechart/src/main/java/org/jfree/chart/plot/CategoryPlot.java:[3797,33] unchecked call to put(K,V) as a member of the raw type java.util.Map
+[WARNING] ./jfreechart/src/main/java/org/jfree/chart/plot/CategoryPlot.java:[3811,33] unchecked call to put(K,V) as a member of the raw type java.util.Map
+[WARNING] ./jfreechart/src/main/java/org/jfree/chart/plot/CategoryPlot.java:[3825,33] unchecked call to put(K,V) as a member of the raw type java.util.Map
+[WARNING] ./jfreechart/src/main/java/org/jfree/chart/plot/CategoryPlot.java:[3839,33] unchecked call to put(K,V) as a member of the raw type java.util.Map
+[WARNING] ./jfreechart/src/main/java/org/jfree/chart/plot/CategoryPlot.java:[3866,9] found raw type: org.jfree.data.category.CategoryDataset
+  missing type arguments for generic class org.jfree.data.category.CategoryDataset<R,C>
+[WARNING] ./jfreechart/src/main/java/org/jfree/chart/plot/CategoryPlot.java:[3938,9] found raw type: org.jfree.data.category.CategoryDataset
+  missing type arguments for generic class org.jfree.data.category.CategoryDataset<R,C>
+[WARNING] ./jfreechart/src/main/java/org/jfree/chart/plot/CategoryPlot.java:[3966,39] found raw type: java.util.List
+  missing type arguments for generic class java.util.List<E>
+[WARNING] ./jfreechart/src/main/java/org/jfree/chart/plot/CategoryPlot.java:[3985,9] found raw type: java.util.Iterator
+  missing type arguments for generic class java.util.Iterator<E>
+[WARNING] ./jfreechart/src/main/java/org/jfree/chart/plot/CategoryPlot.java:[4037,13] found raw type: java.util.Iterator
+  missing type arguments for generic class java.util.Iterator<E>
+[WARNING] ./jfreechart/src/main/java/org/jfree/chart/plot/CategoryPlot.java:[4067,9] found raw type: java.util.Collection
+  missing type arguments for generic class java.util.Collection<E>
+[WARNING] ./jfreechart/src/main/java/org/jfree/chart/plot/CategoryPlot.java:[4070,13] found raw type: java.util.Iterator
+  missing type arguments for generic class java.util.Iterator<E>
+[WARNING] ./jfreechart/src/main/java/org/jfree/chart/plot/CategoryPlot.java:[4098,9] found raw type: java.util.Collection
+  missing type arguments for generic class java.util.Collection<E>
+[WARNING] ./jfreechart/src/main/java/org/jfree/chart/plot/CategoryPlot.java:[4101,13] found raw type: java.util.Iterator
+  missing type arguments for generic class java.util.Iterator<E>
+[WARNING] ./jfreechart/src/main/java/org/jfree/chart/plot/CategoryPlot.java:[4159,13] found raw type: java.lang.Comparable
+  missing type arguments for generic class java.lang.Comparable<T>
+[WARNING] ./jfreechart/src/main/java/org/jfree/chart/plot/CategoryPlot.java:[4159,32] found raw type: java.lang.Comparable
+  missing type arguments for generic class java.lang.Comparable<T>
+[WARNING] ./jfreechart/src/main/java/org/jfree/chart/plot/CategoryPlot.java:[4162,9] found raw type: org.jfree.data.category.CategoryDataset
+  missing type arguments for generic class org.jfree.data.category.CategoryDataset<R,C>
+[WARNING] ./jfreechart/src/main/java/org/jfree/chart/plot/CategoryPlot.java:[4238,14] found raw type: org.jfree.data.category.CategoryDataset
+  missing type arguments for generic class org.jfree.data.category.CategoryDataset<R,C>
+[WARNING] ./jfreechart/src/main/java/org/jfree/chart/plot/CategoryPlot.java:[4238,62] found raw type: org.jfree.data.category.CategoryDataset
+  missing type arguments for generic class org.jfree.data.category.CategoryDataset<R,C>
+[WARNING] ./jfreechart/src/main/java/org/jfree/chart/plot/CategoryPlot.java:[4249,14] found raw type: org.jfree.data.category.CategoryDataset
+  missing type arguments for generic class org.jfree.data.category.CategoryDataset<R,C>
+[WARNING] ./jfreechart/src/main/java/org/jfree/chart/plot/CategoryPlot.java:[4268,18] found raw type: org.jfree.data.category.CategoryDataset
+  missing type arguments for generic class org.jfree.data.category.CategoryDataset<R,C>
+[WARNING] ./jfreechart/src/main/java/org/jfree/chart/plot/CategoryPlot.java:[4269,14] found raw type: org.jfree.data.category.CategoryDataset
+  missing type arguments for generic class org.jfree.data.category.CategoryDataset<R,C>
+[WARNING] ./jfreechart/src/main/java/org/jfree/chart/plot/CategoryPlot.java:[4269,54] found raw type: org.jfree.data.category.CategoryDataset
+  missing type arguments for generic class org.jfree.data.category.CategoryDataset<R,C>
+[WARNING] ./jfreechart/src/main/java/org/jfree/chart/plot/CategoryPlot.java:[4270,29] found raw type: org.jfree.data.category.CategoryDataset
+  missing type arguments for generic class org.jfree.data.category.CategoryDataset<R,C>
+[WARNING] ./jfreechart/src/main/java/org/jfree/chart/plot/CategoryPlot.java:[4271,13] found raw type: org.jfree.data.category.CategoryDataset
+  missing type arguments for generic class org.jfree.data.category.CategoryDataset<R,C>
+[WARNING] ./jfreechart/src/main/java/org/jfree/chart/plot/CategoryPlot.java:[4276,13] found raw type: java.util.List
+  missing type arguments for generic class java.util.List<E>
+[WARNING] ./jfreechart/src/main/java/org/jfree/chart/plot/CategoryPlot.java:[4299,18] found raw type: org.jfree.data.category.CategoryDataset
+  missing type arguments for generic class org.jfree.data.category.CategoryDataset<R,C>
+[WARNING] ./jfreechart/src/main/java/org/jfree/chart/plot/CategoryPlot.java:[4300,14] found raw type: org.jfree.data.category.CategoryDataset
+  missing type arguments for generic class org.jfree.data.category.CategoryDataset<R,C>
+[WARNING] ./jfreechart/src/main/java/org/jfree/chart/plot/CategoryPlot.java:[4300,54] found raw type: org.jfree.data.category.CategoryDataset
+  missing type arguments for generic class org.jfree.data.category.CategoryDataset<R,C>
+[WARNING] ./jfreechart/src/main/java/org/jfree/chart/plot/CategoryPlot.java:[4301,29] found raw type: org.jfree.data.category.CategoryDataset
+  missing type arguments for generic class org.jfree.data.category.CategoryDataset<R,C>
+[WARNING] ./jfreechart/src/main/java/org/jfree/chart/plot/CategoryPlot.java:[4303,13] found raw type: org.jfree.data.category.CategoryDataset
+  missing type arguments for generic class org.jfree.data.category.CategoryDataset<R,C>
+[WARNING] ./jfreechart/src/main/java/org/jfree/chart/plot/CategoryPlot.java:[4304,13] found raw type: java.util.List
+  missing type arguments for generic class java.util.List<E>
+[WARNING] ./jfreechart/src/main/java/org/jfree/chart/plot/CategoryPlot.java:[4433,12] found raw type: java.util.List
+  missing type arguments for generic class java.util.List<E>
+[WARNING] ./jfreechart/src/main/java/org/jfree/chart/plot/CategoryPlot.java:[4434,9] found raw type: java.util.List
+  missing type arguments for generic class java.util.List<E>
+[WARNING] ./jfreechart/src/main/java/org/jfree/chart/plot/CategoryPlot.java:[4436,50] unchecked method invocation: method unmodifiableList in class java.util.Collections is applied to given types
+  required: java.util.List<? extends T>
+  found: java.util.List
+[WARNING] ./jfreechart/src/main/java/org/jfree/chart/plot/CategoryPlot.java:[4436,77] unchecked conversion
+  required: java.util.List<? extends T>
+  found:    java.util.List
+[WARNING] ./jfreechart/src/main/java/org/jfree/chart/plot/CategoryPlot.java:[4451,12] found raw type: java.util.List
+  missing type arguments for generic class java.util.List<E>
+[INFO] ./jfreechart/src/main/java/org/jfree/chart/plot/CategoryPlot.java: Some input files additionally use or override a deprecated API.
+[INFO] ./jfreechart/src/main/java/org/jfree/chart/plot/CategoryPlot.java: Some input files additionally use unchecked or unsafe operations.
+[INFO] 
+[INFO] --- maven-resources-plugin:3.1.0:testResources (default-testResources) @ jfreechart ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory ./jfreechart/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.1:testCompile (default-testCompile) @ jfreechart ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 351 source files to ./jfreechart/target/test-classes
+[WARNING] ./jfreechart/src/test/java/org/jfree/chart/StackedAreaChartTest.java:[112,9] found raw type: org.jfree.data.category.CategoryDataset
+  missing type arguments for generic class org.jfree.data.category.CategoryDataset<R,C>
+[WARNING] ./jfreechart/src/test/java/org/jfree/chart/StackedAreaChartTest.java:[170,9] found raw type: org.jfree.data.category.CategoryDataset
+  missing type arguments for generic class org.jfree.data.category.CategoryDataset<R,C>
+[WARNING] ./jfreechart/src/test/java/org/jfree/chart/entity/StandardEntityCollectionTest.java:[69,37] found raw type: org.jfree.data.general.DefaultPieDataset
+  missing type arguments for generic class org.jfree.data.general.DefaultPieDataset<K>
+[WARNING] ./jfreechart/src/test/java/org/jfree/chart/entity/StandardEntityCollectionTest.java:[74,37] found raw type: org.jfree.data.general.DefaultPieDataset
+  missing type arguments for generic class org.jfree.data.general.DefaultPieDataset<K>
+[WARNING] ./jfreechart/src/test/java/org/jfree/chart/entity/StandardEntityCollectionTest.java:[86,37] found raw type: org.jfree.data.general.DefaultPieDataset
+  missing type arguments for generic class org.jfree.data.general.DefaultPieDataset<K>
+[WARNING] ./jfreechart/src/test/java/org/jfree/chart/entity/StandardEntityCollectionTest.java:[108,37] found raw type: org.jfree.data.general.DefaultPieDataset
+  missing type arguments for generic class org.jfree.data.general.DefaultPieDataset<K>
+[WARNING] ./jfreechart/src/test/java/org/jfree/chart/renderer/category/CategoryStepRendererTest.java:[118,9] found raw type: org.jfree.data.category.DefaultCategoryDataset
+  missing type arguments for generic class org.jfree.data.category.DefaultCategoryDataset<R,C>
+[WARNING] ./jfreechart/src/test/java/org/jfree/chart/renderer/category/CategoryStepRendererTest.java:[118,47] found raw type: org.jfree.data.category.DefaultCategoryDataset
+  missing type arguments for generic class org.jfree.data.category.DefaultCategoryDataset<R,C>
+[WARNING] ./jfreechart/src/test/java/org/jfree/chart/renderer/category/CategoryStepRendererTest.java:[119,26] unchecked call to addValue(double,R,C) as a member of the raw type org.jfree.data.category.DefaultCategoryDataset
+[WARNING] ./jfreechart/src/test/java/org/jfree/chart/renderer/category/CategoryStepRendererTest.java:[120,26] unchecked call to addValue(double,R,C) as a member of the raw type org.jfree.data.category.DefaultCategoryDataset
+[WARNING] ./jfreechart/src/test/java/org/jfree/chart/renderer/category/CategoryStepRendererTest.java:[121,9] found raw type: org.jfree.data.category.DefaultCategoryDataset
+  missing type arguments for generic class org.jfree.data.category.DefaultCategoryDataset<R,C>
+[WARNING] ./jfreechart/src/test/java/org/jfree/chart/renderer/category/CategoryStepRendererTest.java:[121,47] found raw type: org.jfree.data.category.DefaultCategoryDataset
+  missing type arguments for generic class org.jfree.data.category.DefaultCategoryDataset<R,C>
+[WARNING] ./jfreechart/src/test/java/org/jfree/chart/renderer/category/CategoryStepRendererTest.java:[122,26] unchecked call to addValue(double,R,C) as a member of the raw type org.jfree.data.category.DefaultCategoryDataset
+[WARNING] ./jfreechart/src/test/java/org/jfree/chart/renderer/category/CategoryStepRendererTest.java:[123,26] unchecked call to addValue(double,R,C) as a member of the raw type org.jfree.data.category.DefaultCategoryDataset
+[WARNING] ./jfreechart/src/test/java/org/jfree/chart/renderer/category/CategoryStepRendererTest.java:[124,26] unchecked call to addValue(double,R,C) as a member of the raw type org.jfree.data.category.DefaultCategoryDataset
+[WARNING] ./jfreechart/src/test/java/org/jfree/chart/StackedBarChartTest.java:[104,9] found raw type: org.jfree.data.category.CategoryDataset
+  missing type arguments for generic class org.jfree.data.category.CategoryDataset<R,C>
+[WARNING] ./jfreechart/src/test/java/org/jfree/chart/StackedBarChartTest.java:[159,9] found raw type: org.jfree.data.category.CategoryDataset
+  missing type arguments for generic class org.jfree.data.category.CategoryDataset<R,C>
+[WARNING] ./jfreechart/src/test/java/org/jfree/chart/WaterfallChartTest.java:[131,9] found raw type: org.jfree.data.category.CategoryDataset
+  missing type arguments for generic class org.jfree.data.category.CategoryDataset<R,C>
+[WARNING] ./jfreechart/src/test/java/org/jfree/chart/TestUtils.java:[63,72] found raw type: java.lang.Class
+  missing type arguments for generic class java.lang.Class<T>
+[WARNING] ./jfreechart/src/test/java/org/jfree/chart/TestUtils.java:[64,9] found raw type: java.util.Iterator
+  missing type arguments for generic class java.util.Iterator<E>
+[WARNING] ./jfreechart/src/test/java/org/jfree/chart/plot/CombinedRangeCategoryPlotTest.java:[131,9] found raw type: java.util.List
+  missing type arguments for generic class java.util.List<E>
+[WARNING] ./jfreechart/src/test/java/org/jfree/chart/AreaChartTest.java:[136,9] found raw type: org.jfree.data.category.CategoryDataset
+  missing type arguments for generic class org.jfree.data.category.CategoryDataset<R,C>
+[WARNING] ./jfreechart/src/test/java/org/jfree/chart/AreaChartTest.java:[159,9] found raw type: org.jfree.data.category.CategoryDataset
+  missing type arguments for generic class org.jfree.data.category.CategoryDataset<R,C>
+[WARNING] ./jfreechart/src/test/java/org/jfree/chart/urls/StandardPieURLGeneratorTest.java:[117,9] found raw type: org.jfree.data.general.DefaultPieDataset
+  missing type arguments for generic class org.jfree.data.general.DefaultPieDataset<K>
+[WARNING] ./jfreechart/src/test/java/org/jfree/chart/urls/StandardPieURLGeneratorTest.java:[117,41] found raw type: org.jfree.data.general.DefaultPieDataset
+  missing type arguments for generic class org.jfree.data.general.DefaultPieDataset<K>
+[WARNING] ./jfreechart/src/test/java/org/jfree/chart/axis/NumberAxisTest.java:[187,9] found raw type: org.jfree.data.category.DefaultCategoryDataset
+  missing type arguments for generic class org.jfree.data.category.DefaultCategoryDataset<R,C>
+[WARNING] ./jfreechart/src/test/java/org/jfree/chart/axis/NumberAxisTest.java:[187,46] found raw type: org.jfree.data.category.DefaultCategoryDataset
+  missing type arguments for generic class org.jfree.data.category.DefaultCategoryDataset<R,C>
+[WARNING] ./jfreechart/src/test/java/org/jfree/chart/axis/NumberAxisTest.java:[188,25] unchecked call to setValue(double,R,C) as a member of the raw type org.jfree.data.category.DefaultCategoryDataset
+[WARNING] ./jfreechart/src/test/java/org/jfree/chart/axis/NumberAxisTest.java:[189,25] unchecked call to setValue(double,R,C) as a member of the raw type org.jfree.data.category.DefaultCategoryDataset
+[WARNING] ./jfreechart/src/test/java/org/jfree/chart/axis/NumberAxisTest.java:[205,9] found raw type: org.jfree.data.category.DefaultCategoryDataset
+  missing type arguments for generic class org.jfree.data.category.DefaultCategoryDataset<R,C>
+[WARNING] ./jfreechart/src/test/java/org/jfree/chart/axis/NumberAxisTest.java:[205,46] found raw type: org.jfree.data.category.DefaultCategoryDataset
+  missing type arguments for generic class org.jfree.data.category.DefaultCategoryDataset<R,C>
+[WARNING] ./jfreechart/src/test/java/org/jfree/chart/axis/NumberAxisTest.java:[206,25] unchecked call to setValue(double,R,C) as a member of the raw type org.jfree.data.category.DefaultCategoryDataset
+[WARNING] ./jfreechart/src/test/java/org/jfree/chart/axis/NumberAxisTest.java:[207,25] unchecked call to setValue(double,R,C) as a member of the raw type org.jfree.data.category.DefaultCategoryDataset
+[WARNING] ./jfreechart/src/test/java/org/jfree/chart/axis/NumberAxisTest.java:[226,9] found raw type: org.jfree.data.category.DefaultCategoryDataset
+  missing type arguments for generic class org.jfree.data.category.DefaultCategoryDataset<R,C>
+[WARNING] ./jfreechart/src/test/java/org/jfree/chart/axis/NumberAxisTest.java:[226,46] found raw type: org.jfree.data.category.DefaultCategoryDataset
+  missing type arguments for generic class org.jfree.data.category.DefaultCategoryDataset<R,C>
+[WARNING] ./jfreechart/src/test/java/org/jfree/chart/axis/NumberAxisTest.java:[227,25] unchecked call to setValue(double,R,C) as a member of the raw type org.jfree.data.category.DefaultCategoryDataset
+[WARNING] ./jfreechart/src/test/java/org/jfree/chart/axis/NumberAxisTest.java:[228,25] unchecked call to setValue(double,R,C) as a member of the raw type org.jfree.data.category.DefaultCategoryDataset
+[WARNING] ./jfreechart/src/test/java/org/jfree/chart/axis/NumberAxisTest.java:[239,9] found raw type: org.jfree.data.category.DefaultCategoryDataset
+  missing type arguments for generic class org.jfree.data.category.DefaultCategoryDataset<R,C>
+[WARNING] ./jfreechart/src/test/java/org/jfree/chart/axis/NumberAxisTest.java:[239,47] found raw type: org.jfree.data.category.DefaultCategoryDataset
+  missing type arguments for generic class org.jfree.data.category.DefaultCategoryDataset<R,C>
+[WARNING] ./jfreechart/src/test/java/org/jfree/chart/axis/NumberAxisTest.java:[240,26] unchecked call to setValue(double,R,C) as a member of the raw type org.jfree.data.category.DefaultCategoryDataset
+[WARNING] ./jfreechart/src/test/java/org/jfree/chart/axis/NumberAxisTest.java:[241,26] unchecked call to setValue(double,R,C) as a member of the raw type org.jfree.data.category.DefaultCategoryDataset
+[WARNING] ./jfreechart/src/test/java/org/jfree/chart/axis/NumberAxisTest.java:[253,9] found raw type: org.jfree.data.category.DefaultCategoryDataset
+  missing type arguments for generic class org.jfree.data.category.DefaultCategoryDataset<R,C>
+[WARNING] ./jfreechart/src/test/java/org/jfree/chart/axis/NumberAxisTest.java:[253,46] found raw type: org.jfree.data.category.DefaultCategoryDataset
+  missing type arguments for generic class org.jfree.data.category.DefaultCategoryDataset<R,C>
+[WARNING] ./jfreechart/src/test/java/org/jfree/chart/axis/NumberAxisTest.java:[254,25] unchecked call to setValue(double,R,C) as a member of the raw type org.jfree.data.category.DefaultCategoryDataset
+[WARNING] ./jfreechart/src/test/java/org/jfree/chart/axis/NumberAxisTest.java:[255,25] unchecked call to setValue(double,R,C) as a member of the raw type org.jfree.data.category.DefaultCategoryDataset
+[WARNING] ./jfreechart/src/test/java/org/jfree/chart/axis/NumberAxisTest.java:[280,9] found raw type: org.jfree.data.category.DefaultCategoryDataset
+  missing type arguments for generic class org.jfree.data.category.DefaultCategoryDataset<R,C>
+[WARNING] ./jfreechart/src/test/java/org/jfree/chart/axis/NumberAxisTest.java:[280,47] found raw type: org.jfree.data.category.DefaultCategoryDataset
+  missing type arguments for generic class org.jfree.data.category.DefaultCategoryDataset<R,C>
+[WARNING] ./jfreechart/src/test/java/org/jfree/chart/axis/NumberAxisTest.java:[281,26] unchecked call to setValue(double,R,C) as a member of the raw type org.jfree.data.category.DefaultCategoryDataset
+[WARNING] ./jfreechart/src/test/java/org/jfree/chart/axis/NumberAxisTest.java:[282,26] unchecked call to setValue(double,R,C) as a member of the raw type org.jfree.data.category.DefaultCategoryDataset
+[WARNING] ./jfreechart/src/test/java/org/jfree/data/general/DatasetUtilsTest.java:[258,9] found raw type: org.jfree.data.category.CategoryDataset
+  missing type arguments for generic class org.jfree.data.category.CategoryDataset<R,C>
+[WARNING] ./jfreechart/src/test/java/org/jfree/data/general/DatasetUtilsTest.java:[329,9] found raw type: org.jfree.data.category.CategoryDataset
+  missing type arguments for generic class org.jfree.data.category.CategoryDataset<R,C>
+[WARNING] ./jfreechart/src/test/java/org/jfree/data/general/DatasetUtilsTest.java:[341,9] found raw type: org.jfree.data.category.DefaultCategoryDataset
+  missing type arguments for generic class org.jfree.data.category.DefaultCategoryDataset<R,C>
+[WARNING] ./jfreechart/src/test/java/org/jfree/data/general/DatasetUtilsTest.java:[341,46] found raw type: org.jfree.data.category.DefaultCategoryDataset
+  missing type arguments for generic class org.jfree.data.category.DefaultCategoryDataset<R,C>
+[WARNING] ./jfreechart/src/test/java/org/jfree/data/general/DatasetUtilsTest.java:[346,25] unchecked call to addValue(double,R,C) as a member of the raw type org.jfree.data.category.DefaultCategoryDataset
+[WARNING] ./jfreechart/src/test/java/org/jfree/data/general/DatasetUtilsTest.java:[352,25] unchecked call to addValue(java.lang.Number,R,C) as a member of the raw type org.jfree.data.category.DefaultCategoryDataset
+[WARNING] ./jfreechart/src/test/java/org/jfree/data/general/DatasetUtilsTest.java:[358,25] unchecked call to addValue(double,R,C) as a member of the raw type org.jfree.data.category.DefaultCategoryDataset
+[WARNING] ./jfreechart/src/test/java/org/jfree/data/general/DatasetUtilsTest.java:[519,9] found raw type: org.jfree.data.category.CategoryDataset
+  missing type arguments for generic class org.jfree.data.category.CategoryDataset<R,C>
+[WARNING] ./jfreechart/src/test/java/org/jfree/data/general/DatasetUtilsTest.java:[533,9] found raw type: org.jfree.data.category.CategoryDataset
+  missing type arguments for generic class org.jfree.data.category.CategoryDataset<R,C>
+[WARNING] ./jfreechart/src/test/java/org/jfree/data/general/DatasetUtilsTest.java:[547,9] found raw type: org.jfree.data.category.DefaultCategoryDataset
+  missing type arguments for generic class org.jfree.data.category.DefaultCategoryDataset<R,C>
+[WARNING] ./jfreechart/src/test/java/org/jfree/data/general/DatasetUtilsTest.java:[547,46] found raw type: org.jfree.data.category.DefaultCategoryDataset
+  missing type arguments for generic class org.jfree.data.category.DefaultCategoryDataset<R,C>
+[WARNING] ./jfreechart/src/test/java/org/jfree/data/general/DatasetUtilsTest.java:[548,25] unchecked call to addValue(double,R,C) as a member of the raw type org.jfree.data.category.DefaultCategoryDataset
+[WARNING] ./jfreechart/src/test/java/org/jfree/data/general/DatasetUtilsTest.java:[549,25] unchecked call to addValue(double,R,C) as a member of the raw type org.jfree.data.category.DefaultCategoryDataset
+[WARNING] ./jfreechart/src/test/java/org/jfree/data/general/DatasetUtilsTest.java:[561,9] found raw type: org.jfree.data.category.DefaultCategoryDataset
+  missing type arguments for generic class org.jfree.data.category.DefaultCategoryDataset<R,C>
+[WARNING] ./jfreechart/src/test/java/org/jfree/data/general/DatasetUtilsTest.java:[561,46] found raw type: org.jfree.data.category.DefaultCategoryDataset
+  missing type arguments for generic class org.jfree.data.category.DefaultCategoryDataset<R,C>
+[WARNING] ./jfreechart/src/test/java/org/jfree/data/general/DatasetUtilsTest.java:[562,25] unchecked call to addValue(double,R,C) as a member of the raw type org.jfree.data.category.DefaultCategoryDataset
+[WARNING] ./jfreechart/src/test/java/org/jfree/data/general/DatasetUtilsTest.java:[563,25] unchecked call to addValue(double,R,C) as a member of the raw type org.jfree.data.category.DefaultCategoryDataset
+[WARNING] ./jfreechart/src/test/java/org/jfree/data/general/DatasetUtilsTest.java:[575,9] found raw type: org.jfree.data.category.DefaultCategoryDataset
+  missing type arguments for generic class org.jfree.data.category.DefaultCategoryDataset<R,C>
+[WARNING] ./jfreechart/src/test/java/org/jfree/data/general/DatasetUtilsTest.java:[575,46] found raw type: org.jfree.data.category.DefaultCategoryDataset
+  missing type arguments for generic class org.jfree.data.category.DefaultCategoryDataset<R,C>
+[WARNING] ./jfreechart/src/test/java/org/jfree/data/general/DatasetUtilsTest.java:[576,25] unchecked call to addValue(double,R,C) as a member of the raw type org.jfree.data.category.DefaultCategoryDataset
+[WARNING] ./jfreechart/src/test/java/org/jfree/data/general/DatasetUtilsTest.java:[577,25] unchecked call to addValue(double,R,C) as a member of the raw type org.jfree.data.category.DefaultCategoryDataset
+[WARNING] ./jfreechart/src/test/java/org/jfree/data/general/DatasetUtilsTest.java:[578,25] unchecked call to addValue(double,R,C) as a member of the raw type org.jfree.data.category.DefaultCategoryDataset
+[WARNING] ./jfreechart/src/test/java/org/jfree/data/general/DatasetUtilsTest.java:[589,9] found raw type: org.jfree.data.category.DefaultCategoryDataset
+  missing type arguments for generic class org.jfree.data.category.DefaultCategoryDataset<R,C>
+[WARNING] ./jfreechart/src/test/java/org/jfree/data/general/DatasetUtilsTest.java:[589,46] found raw type: org.jfree.data.category.DefaultCategoryDataset
+  missing type arguments for generic class org.jfree.data.category.DefaultCategoryDataset<R,C>
+[WARNING] ./jfreechart/src/test/java/org/jfree/data/general/DatasetUtilsTest.java:[590,25] unchecked call to addValue(double,R,C) as a member of the raw type org.jfree.data.category.DefaultCategoryDataset
+[WARNING] ./jfreechart/src/test/java/org/jfree/data/general/DatasetUtilsTest.java:[591,25] unchecked call to addValue(double,R,C) as a member of the raw type org.jfree.data.category.DefaultCategoryDataset
+[WARNING] ./jfreechart/src/test/java/org/jfree/data/general/DatasetUtilsTest.java:[592,25] unchecked call to addValue(double,R,C) as a member of the raw type org.jfree.data.category.DefaultCategoryDataset
+[WARNING] ./jfreechart/src/test/java/org/jfree/data/general/DatasetUtilsTest.java:[593,25] unchecked call to addValue(double,R,C) as a member of the raw type org.jfree.data.category.DefaultCategoryDataset
+[WARNING] ./jfreechart/src/test/java/org/jfree/data/general/DatasetUtilsTest.java:[594,25] unchecked call to addValue(double,R,C) as a member of the raw type org.jfree.data.category.DefaultCategoryDataset
+[WARNING] ./jfreechart/src/test/java/org/jfree/data/general/DatasetUtilsTest.java:[595,25] unchecked call to addValue(double,R,C) as a member of the raw type org.jfree.data.category.DefaultCategoryDataset
+[WARNING] ./jfreechart/src/test/java/org/jfree/data/general/DatasetUtilsTest.java:[596,25] unchecked call to addValue(double,R,C) as a member of the raw type org.jfree.data.category.DefaultCategoryDataset
+[WARNING] ./jfreechart/src/test/java/org/jfree/data/general/DatasetUtilsTest.java:[597,25] unchecked call to addValue(double,R,C) as a member of the raw type org.jfree.data.category.DefaultCategoryDataset
+[WARNING] ./jfreechart/src/test/java/org/jfree/data/general/DatasetUtilsTest.java:[598,25] unchecked call to addValue(double,R,C) as a member of the raw type org.jfree.data.category.DefaultCategoryDataset
+[WARNING] ./jfreechart/src/test/java/org/jfree/data/general/DatasetUtilsTest.java:[599,25] unchecked call to addValue(double,R,C) as a member of the raw type org.jfree.data.category.DefaultCategoryDataset
+[WARNING] ./jfreechart/src/test/java/org/jfree/data/general/DatasetUtilsTest.java:[610,9] found raw type: org.jfree.data.category.DefaultCategoryDataset
+  missing type arguments for generic class org.jfree.data.category.DefaultCategoryDataset<R,C>
+[WARNING] ./jfreechart/src/test/java/org/jfree/data/general/DatasetUtilsTest.java:[610,46] found raw type: org.jfree.data.category.DefaultCategoryDataset
+  missing type arguments for generic class org.jfree.data.category.DefaultCategoryDataset<R,C>
+[WARNING] ./jfreechart/src/test/java/org/jfree/data/general/DatasetUtilsTest.java:[611,25] unchecked call to addValue(double,R,C) as a member of the raw type org.jfree.data.category.DefaultCategoryDataset
+[WARNING] ./jfreechart/src/test/java/org/jfree/data/general/DatasetUtilsTest.java:[612,25] unchecked call to addValue(double,R,C) as a member of the raw type org.jfree.data.category.DefaultCategoryDataset
+[WARNING] ./jfreechart/src/test/java/org/jfree/data/general/DatasetUtilsTest.java:[613,25] unchecked call to addValue(double,R,C) as a member of the raw type org.jfree.data.category.DefaultCategoryDataset
+[WARNING] ./jfreechart/src/test/java/org/jfree/data/general/DatasetUtilsTest.java:[614,25] unchecked call to addValue(double,R,C) as a member of the raw type org.jfree.data.category.DefaultCategoryDataset
+[WARNING] ./jfreechart/src/test/java/org/jfree/data/general/DatasetUtilsTest.java:[615,25] unchecked call to addValue(double,R,C) as a member of the raw type org.jfree.data.category.DefaultCategoryDataset
+[WARNING] ./jfreechart/src/test/java/org/jfree/data/general/DatasetUtilsTest.java:[627,9] found raw type: org.jfree.data.category.DefaultCategoryDataset
+  missing type arguments for generic class org.jfree.data.category.DefaultCategoryDataset<R,C>
+[WARNING] ./jfreechart/src/test/java/org/jfree/data/general/DatasetUtilsTest.java:[627,46] found raw type: org.jfree.data.category.DefaultCategoryDataset
+  missing type arguments for generic class org.jfree.data.category.DefaultCategoryDataset<R,C>
+[WARNING] ./jfreechart/src/test/java/org/jfree/data/general/DatasetUtilsTest.java:[628,25] unchecked call to addValue(double,R,C) as a member of the raw type org.jfree.data.category.DefaultCategoryDataset
+[WARNING] ./jfreechart/src/test/java/org/jfree/data/general/DatasetUtilsTest.java:[629,25] unchecked call to addValue(double,R,C) as a member of the raw type org.jfree.data.category.DefaultCategoryDataset
+[WARNING] ./jfreechart/src/test/java/org/jfree/data/general/DatasetUtilsTest.java:[630,25] unchecked call to addValue(double,R,C) as a member of the raw type org.jfree.data.category.DefaultCategoryDataset
+[WARNING] ./jfreechart/src/test/java/org/jfree/data/general/DatasetUtilsTest.java:[647,9] found raw type: org.jfree.data.category.CategoryDataset
+  missing type arguments for generic class org.jfree.data.category.CategoryDataset<R,C>
+[WARNING] ./jfreechart/src/test/java/org/jfree/data/general/DatasetUtilsTest.java:[665,9] found raw type: org.jfree.data.category.CategoryDataset
+  missing type arguments for generic class org.jfree.data.category.CategoryDataset<R,C>
+[WARNING] ./jfreechart/src/test/java/org/jfree/data/general/DatasetUtilsTest.java:[691,9] found raw type: org.jfree.data.category.DefaultCategoryDataset
+  missing type arguments for generic class org.jfree.data.category.DefaultCategoryDataset<R,C>
+[WARNING] ./jfreechart/src/test/java/org/jfree/data/general/DatasetUtilsTest.java:[691,40] found raw type: org.jfree.data.category.DefaultCategoryDataset
+  missing type arguments for generic class org.jfree.data.category.DefaultCategoryDataset<R,C>
+[WARNING] ./jfreechart/src/test/java/org/jfree/data/general/DatasetUtilsTest.java:[692,19] unchecked call to addValue(double,R,C) as a member of the raw type org.jfree.data.category.DefaultCategoryDataset
+[INFO] ./jfreechart/src/test/java/org/jfree/chart/imagemap/ImageMapUtilsTest.java: ./jfreechart/src/test/java/org/jfree/chart/imagemap/ImageMapUtilsTest.java uses or overrides a deprecated API.
+[INFO] ./jfreechart/src/test/java/org/jfree/data/general/DatasetUtilsTest.java: Some input files additionally use unchecked or unsafe operations.
+[INFO] 
+[INFO] --- maven-surefire-plugin:3.0.0-M4:test (default-test) @ jfreechart ---
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running org.jfree.chart.StackedBarChartTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 3.15 s - in org.jfree.chart.StackedBarChartTest
+[INFO] Running org.jfree.chart.imagemap.OverLIBToolTipTagFragmentGeneratorTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.02 s - in org.jfree.chart.imagemap.OverLIBToolTipTagFragmentGeneratorTest
+[INFO] Running org.jfree.chart.imagemap.DynamicDriveToolTipTagFragmentGeneratorTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.011 s - in org.jfree.chart.imagemap.DynamicDriveToolTipTagFragmentGeneratorTest
+[INFO] Running org.jfree.chart.imagemap.ImageMapUtilsTest
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.027 s - in org.jfree.chart.imagemap.ImageMapUtilsTest
+[INFO] Running org.jfree.chart.imagemap.StandardURLTagFragmentGeneratorTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.01 s - in org.jfree.chart.imagemap.StandardURLTagFragmentGeneratorTest
+[INFO] Running org.jfree.chart.imagemap.StandardToolTipTagFragmentGeneratorTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.023 s - in org.jfree.chart.imagemap.StandardToolTipTagFragmentGeneratorTest
+[INFO] Running org.jfree.chart.ScatterPlotTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.061 s - in org.jfree.chart.ScatterPlotTest
+[INFO] Running org.jfree.chart.renderer.AreaRendererEndTypeTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.011 s - in org.jfree.chart.renderer.AreaRendererEndTypeTest
+[INFO] Running org.jfree.chart.renderer.category.LayeredBarRendererTest
+[INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.14 s - in org.jfree.chart.renderer.category.LayeredBarRendererTest
+[INFO] Running org.jfree.chart.renderer.category.GroupedStackedBarRendererTest
+[INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.053 s - in org.jfree.chart.renderer.category.GroupedStackedBarRendererTest
+[INFO] Running org.jfree.chart.renderer.category.WaterfallBarRendererTest
+[INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.01 s - in org.jfree.chart.renderer.category.WaterfallBarRendererTest
+[INFO] Running org.jfree.chart.renderer.category.StackedBarRendererTest
+[INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.011 s - in org.jfree.chart.renderer.category.StackedBarRendererTest
+[INFO] Running org.jfree.chart.renderer.category.LevelRendererTest
+[INFO] Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.011 s - in org.jfree.chart.renderer.category.LevelRendererTest
+[INFO] Running org.jfree.chart.renderer.category.LineAndShapeRendererTest
+[INFO] Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.012 s - in org.jfree.chart.renderer.category.LineAndShapeRendererTest
+[INFO] Running org.jfree.chart.renderer.category.StackedAreaRendererTest
+[INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.018 s - in org.jfree.chart.renderer.category.StackedAreaRendererTest
+[INFO] Running org.jfree.chart.renderer.category.IntervalBarRendererTest
+[INFO] Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.028 s - in org.jfree.chart.renderer.category.IntervalBarRendererTest
+[INFO] Running org.jfree.chart.renderer.category.ScatterRendererTest
+[INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.01 s - in org.jfree.chart.renderer.category.ScatterRendererTest
+[INFO] Running org.jfree.chart.renderer.category.AbstractCategoryItemRendererTest
+[INFO] Tests run: 11, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.009 s - in org.jfree.chart.renderer.category.AbstractCategoryItemRendererTest
+[INFO] Running org.jfree.chart.renderer.category.AreaRendererTest
+[INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.02 s - in org.jfree.chart.renderer.category.AreaRendererTest
+[INFO] Running org.jfree.chart.renderer.category.GanttRendererTest
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.01 s - in org.jfree.chart.renderer.category.GanttRendererTest
+[INFO] Running org.jfree.chart.renderer.category.CategoryStepRendererTest
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 s - in org.jfree.chart.renderer.category.CategoryStepRendererTest
+[INFO] Running org.jfree.chart.renderer.category.StatisticalBarRendererTest
+[INFO] Tests run: 11, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.039 s - in org.jfree.chart.renderer.category.StatisticalBarRendererTest
+[INFO] Running org.jfree.chart.renderer.category.MinMaxCategoryRendererTest
+[INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.012 s - in org.jfree.chart.renderer.category.MinMaxCategoryRendererTest
+[INFO] Running org.jfree.chart.renderer.category.DefaultCategoryItemRendererTest
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.009 s - in org.jfree.chart.renderer.category.DefaultCategoryItemRendererTest
+[INFO] Running org.jfree.chart.renderer.category.StatisticalLineAndShapeRendererTest
+[INFO] Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.021 s - in org.jfree.chart.renderer.category.StatisticalLineAndShapeRendererTest
+[INFO] Running org.jfree.chart.renderer.category.BarRendererTest
+[INFO] Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 s - in org.jfree.chart.renderer.category.BarRendererTest
+[INFO] Running org.jfree.chart.renderer.category.GradientBarPainterTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in org.jfree.chart.renderer.category.GradientBarPainterTest
+[INFO] Running org.jfree.chart.renderer.category.BoxAndWhiskerRendererTest
+[INFO] Tests run: 18, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.059 s - in org.jfree.chart.renderer.category.BoxAndWhiskerRendererTest
+[INFO] Running org.jfree.chart.renderer.category.StandardBarPainterTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 s - in org.jfree.chart.renderer.category.StandardBarPainterTest
+[INFO] Running org.jfree.chart.renderer.RendererUtilsTest
+[INFO] Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 s - in org.jfree.chart.renderer.RendererUtilsTest
+[INFO] Running org.jfree.chart.renderer.LookupPaintScaleTest
+[INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 s - in org.jfree.chart.renderer.LookupPaintScaleTest
+[INFO] Running org.jfree.chart.renderer.GrayPaintScaleTest
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 s - in org.jfree.chart.renderer.GrayPaintScaleTest
+[INFO] Running org.jfree.chart.renderer.AbstractRendererTest
+[INFO] Tests run: 14, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.011 s - in org.jfree.chart.renderer.AbstractRendererTest
+[INFO] Running org.jfree.chart.renderer.OutlierTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in org.jfree.chart.renderer.OutlierTest
+[INFO] Running org.jfree.chart.renderer.xy.WindItemRendererTest
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 s - in org.jfree.chart.renderer.xy.WindItemRendererTest
+[INFO] Running org.jfree.chart.renderer.xy.XYBoxAndWhiskerRendererTest
+[INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.075 s - in org.jfree.chart.renderer.xy.XYBoxAndWhiskerRendererTest
+[INFO] Running org.jfree.chart.renderer.xy.XYDifferenceRendererTest
+[INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.013 s - in org.jfree.chart.renderer.xy.XYDifferenceRendererTest
+[INFO] Running org.jfree.chart.renderer.xy.GradientXYBarPainterTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in org.jfree.chart.renderer.xy.GradientXYBarPainterTest
+[INFO] Running org.jfree.chart.renderer.xy.XYAreaRenderer2Test
+[INFO] Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.015 s - in org.jfree.chart.renderer.xy.XYAreaRenderer2Test
+[INFO] Running org.jfree.chart.renderer.xy.AbstractXYItemRendererTest
+[INFO] Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 s - in org.jfree.chart.renderer.xy.AbstractXYItemRendererTest
+[INFO] Running org.jfree.chart.renderer.xy.CandlestickRendererTest
+[INFO] Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.031 s - in org.jfree.chart.renderer.xy.CandlestickRendererTest
+[INFO] Running org.jfree.chart.renderer.xy.StackedXYAreaRenderer2Test
+[INFO] Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.02 s - in org.jfree.chart.renderer.xy.StackedXYAreaRenderer2Test
+[INFO] Running org.jfree.chart.renderer.xy.StandardXYItemRendererTest
+[INFO] Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.016 s - in org.jfree.chart.renderer.xy.StandardXYItemRendererTest
+[INFO] Running org.jfree.chart.renderer.xy.XYStepAreaRendererTest
+[INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.019 s - in org.jfree.chart.renderer.xy.XYStepAreaRendererTest
+[INFO] Running org.jfree.chart.renderer.xy.XYBubbleRendererTest
+[INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.009 s - in org.jfree.chart.renderer.xy.XYBubbleRendererTest
+[INFO] Running org.jfree.chart.renderer.xy.XYLineAndShapeRendererTest
+[INFO] Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.028 s - in org.jfree.chart.renderer.xy.XYLineAndShapeRendererTest
+[INFO] Running org.jfree.chart.renderer.xy.ClusteredXYBarRendererTest
+[INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 s - in org.jfree.chart.renderer.xy.ClusteredXYBarRendererTest
+[INFO] Running org.jfree.chart.renderer.xy.XYSplineRendererTest
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.009 s - in org.jfree.chart.renderer.xy.XYSplineRendererTest
+[INFO] Running org.jfree.chart.renderer.xy.XYDotRendererTest
+[INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.009 s - in org.jfree.chart.renderer.xy.XYDotRendererTest
+[INFO] Running org.jfree.chart.renderer.xy.YIntervalRendererTest
+[INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.055 s - in org.jfree.chart.renderer.xy.YIntervalRendererTest
+[INFO] Running org.jfree.chart.renderer.xy.XYAreaRendererTest
+[INFO] Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.033 s - in org.jfree.chart.renderer.xy.XYAreaRendererTest
+[INFO] Running org.jfree.chart.renderer.xy.DeviationRendererTest
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in org.jfree.chart.renderer.xy.DeviationRendererTest
+[INFO] Running org.jfree.chart.renderer.xy.VectorRendererTest
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in org.jfree.chart.renderer.xy.VectorRendererTest
+[INFO] Running org.jfree.chart.renderer.xy.StandardXYBarPainterTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in org.jfree.chart.renderer.xy.StandardXYBarPainterTest
+[INFO] Running org.jfree.chart.renderer.xy.HighLowRendererTest
+[INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in org.jfree.chart.renderer.xy.HighLowRendererTest
+[INFO] Running org.jfree.chart.renderer.xy.StackedXYBarRendererTest
+[INFO] Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 s - in org.jfree.chart.renderer.xy.StackedXYBarRendererTest
+[INFO] Running org.jfree.chart.renderer.xy.XYErrorRendererTest
+[INFO] Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s - in org.jfree.chart.renderer.xy.XYErrorRendererTest
+[INFO] Running org.jfree.chart.renderer.xy.XYBlockRendererTest
+[INFO] Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 s - in org.jfree.chart.renderer.xy.XYBlockRendererTest
+[INFO] Running org.jfree.chart.renderer.xy.XYBarRendererTest
+[INFO] Tests run: 11, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.009 s - in org.jfree.chart.renderer.xy.XYBarRendererTest
+[INFO] Running org.jfree.chart.renderer.xy.StackedXYAreaRendererTest
+[INFO] Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.013 s - in org.jfree.chart.renderer.xy.StackedXYAreaRendererTest
+[INFO] Running org.jfree.chart.renderer.xy.XYShapeRendererTest
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s - in org.jfree.chart.renderer.xy.XYShapeRendererTest
+[INFO] Running org.jfree.chart.renderer.xy.XYStepRendererTest
+[INFO] Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.029 s - in org.jfree.chart.renderer.xy.XYStepRendererTest
+[INFO] Running org.jfree.chart.renderer.DefaultPolarItemRendererTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 s - in org.jfree.chart.renderer.DefaultPolarItemRendererTest
+[INFO] Running org.jfree.chart.needle.LineNeedleTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s - in org.jfree.chart.needle.LineNeedleTest
+[INFO] Running org.jfree.chart.needle.ArrowNeedleTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s - in org.jfree.chart.needle.ArrowNeedleTest
+[INFO] Running org.jfree.chart.needle.PinNeedleTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in org.jfree.chart.needle.PinNeedleTest
+[INFO] Running org.jfree.chart.needle.PlumNeedleTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 s - in org.jfree.chart.needle.PlumNeedleTest
+[INFO] Running org.jfree.chart.needle.PointerNeedleTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 s - in org.jfree.chart.needle.PointerNeedleTest
+[INFO] Running org.jfree.chart.needle.ShipNeedleTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.01 s - in org.jfree.chart.needle.ShipNeedleTest
+[INFO] Running org.jfree.chart.needle.WindNeedleTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 s - in org.jfree.chart.needle.WindNeedleTest
+[INFO] Running org.jfree.chart.needle.MeterNeedleTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s - in org.jfree.chart.needle.MeterNeedleTest
+[INFO] Running org.jfree.chart.needle.MiddlePinNeedleTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.031 s - in org.jfree.chart.needle.MiddlePinNeedleTest
+[INFO] Running org.jfree.chart.needle.LongNeedleTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 s - in org.jfree.chart.needle.LongNeedleTest
+[INFO] Running org.jfree.chart.panel.CrosshairOverlayTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.016 s - in org.jfree.chart.panel.CrosshairOverlayTest
+[INFO] Running org.jfree.chart.PieChart3DTest
+[ERROR] Tests run: 2, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 0.026 s <<< FAILURE! - in org.jfree.chart.PieChart3DTest
+[ERROR] org.jfree.chart.PieChart3DTest.testNullValueInDataset  Time elapsed: 0.017 s  <<< ERROR!
+java.lang.StackOverflowError
+
+[ERROR] org.jfree.chart.PieChart3DTest.testReplaceDatasetOnPieChart  Time elapsed: 0.003 s  <<< ERROR!
+java.lang.StackOverflowError
+
+[INFO] Running org.jfree.chart.plot.XYPlotTest
+[INFO] Tests run: 44, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.188 s - in org.jfree.chart.plot.XYPlotTest
+[INFO] Running org.jfree.chart.plot.CategoryPlotTest
+[INFO] Tests run: 37, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.098 s - in org.jfree.chart.plot.CategoryPlotTest
+[INFO] Running org.jfree.chart.plot.DefaultDrawingSupplierTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s - in org.jfree.chart.plot.DefaultDrawingSupplierTest
+[INFO] Running org.jfree.chart.plot.CompassPlotTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 s - in org.jfree.chart.plot.CompassPlotTest
+[INFO] Running org.jfree.chart.plot.PiePlotTest
+[ERROR] Tests run: 16, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 0.09 s <<< FAILURE! - in org.jfree.chart.plot.PiePlotTest
+[ERROR] org.jfree.chart.plot.PiePlotTest.testDrawWithNullLegendLabels  Time elapsed: 0.004 s  <<< ERROR!
+java.lang.StackOverflowError
+
+[ERROR] org.jfree.chart.plot.PiePlotTest.testGetLegendItems  Time elapsed: 0.003 s  <<< ERROR!
+java.lang.StackOverflowError
+
+[INFO] Running org.jfree.chart.plot.PlotRenderingInfoTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 s - in org.jfree.chart.plot.PlotRenderingInfoTest
+[INFO] Running org.jfree.chart.plot.MultiplePiePlotTest
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 s - in org.jfree.chart.plot.MultiplePiePlotTest
+[INFO] Running org.jfree.chart.plot.ValueMarkerTest
+[INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in org.jfree.chart.plot.ValueMarkerTest
+[INFO] Running org.jfree.chart.plot.PolarPlotTest
+[INFO] Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.009 s - in org.jfree.chart.plot.PolarPlotTest
+[INFO] Running org.jfree.chart.plot.SpiderWebPlotTest
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.009 s - in org.jfree.chart.plot.SpiderWebPlotTest
+[INFO] Running org.jfree.chart.plot.IntervalMarkerTest
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s - in org.jfree.chart.plot.IntervalMarkerTest
+[INFO] Running org.jfree.chart.plot.RingPlotTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.01 s - in org.jfree.chart.plot.RingPlotTest
+[INFO] Running org.jfree.chart.plot.CombinedDomainCategoryPlotTest
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.042 s - in org.jfree.chart.plot.CombinedDomainCategoryPlotTest
+[INFO] Running org.jfree.chart.plot.dial.DialTextAnnotationTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.011 s - in org.jfree.chart.plot.dial.DialTextAnnotationTest
+[INFO] Running org.jfree.chart.plot.dial.StandardDialRangeTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 s - in org.jfree.chart.plot.dial.StandardDialRangeTest
+[INFO] Running org.jfree.chart.plot.dial.DialPointerTest
+[INFO] Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 s - in org.jfree.chart.plot.dial.DialPointerTest
+[INFO] Running org.jfree.chart.plot.dial.AbstractDialLayerTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 s - in org.jfree.chart.plot.dial.AbstractDialLayerTest
+[INFO] Running org.jfree.chart.plot.dial.DialValueIndicatorTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.012 s - in org.jfree.chart.plot.dial.DialValueIndicatorTest
+[INFO] Running org.jfree.chart.plot.dial.DialPlotTest
+[INFO] Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.028 s - in org.jfree.chart.plot.dial.DialPlotTest
+[INFO] Running org.jfree.chart.plot.dial.DialBackgroundTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in org.jfree.chart.plot.dial.DialBackgroundTest
+[INFO] Running org.jfree.chart.plot.dial.StandardDialFrameTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.017 s - in org.jfree.chart.plot.dial.StandardDialFrameTest
+[INFO] Running org.jfree.chart.plot.dial.StandardDialScaleTest
+[INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.015 s - in org.jfree.chart.plot.dial.StandardDialScaleTest
+[INFO] Running org.jfree.chart.plot.dial.ArcDialFrameTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 s - in org.jfree.chart.plot.dial.ArcDialFrameTest
+[INFO] Running org.jfree.chart.plot.dial.DialCapTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 s - in org.jfree.chart.plot.dial.DialCapTest
+[INFO] Running org.jfree.chart.plot.MeterIntervalTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 s - in org.jfree.chart.plot.MeterIntervalTest
+[INFO] Running org.jfree.chart.plot.PieLabelRecordTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 s - in org.jfree.chart.plot.PieLabelRecordTest
+[INFO] Running org.jfree.chart.plot.ThermometerPlotTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.031 s - in org.jfree.chart.plot.ThermometerPlotTest
+[INFO] Running org.jfree.chart.plot.CrosshairTest
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in org.jfree.chart.plot.CrosshairTest
+[INFO] Running org.jfree.chart.plot.CombinedRangeXYPlotTest
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.021 s - in org.jfree.chart.plot.CombinedRangeXYPlotTest
+[INFO] Running org.jfree.chart.plot.MarkerTest
+[INFO] Tests run: 14, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in org.jfree.chart.plot.MarkerTest
+[INFO] Running org.jfree.chart.plot.PlotTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in org.jfree.chart.plot.PlotTest
+[INFO] Running org.jfree.chart.plot.PiePlot3DTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.023 s - in org.jfree.chart.plot.PiePlot3DTest
+[INFO] Running org.jfree.chart.plot.MeterPlotTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 s - in org.jfree.chart.plot.MeterPlotTest
+[INFO] Running org.jfree.chart.plot.CategoryMarkerTest
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 s - in org.jfree.chart.plot.CategoryMarkerTest
+[INFO] Running org.jfree.chart.plot.CombinedDomainXYPlotTest
+[INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.028 s - in org.jfree.chart.plot.CombinedDomainXYPlotTest
+[INFO] Running org.jfree.chart.plot.PlotOrientationTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.jfree.chart.plot.PlotOrientationTest
+[INFO] Running org.jfree.chart.plot.FastScatterPlotTest
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.033 s - in org.jfree.chart.plot.FastScatterPlotTest
+[INFO] Running org.jfree.chart.plot.CombinedRangeCategoryPlotTest
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.039 s - in org.jfree.chart.plot.CombinedRangeCategoryPlotTest
+[INFO] Running org.jfree.chart.XYBarChartTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in org.jfree.chart.XYBarChartTest
+[INFO] Running org.jfree.chart.util.RelativeDateFormatTest
+[INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.016 s - in org.jfree.chart.util.RelativeDateFormatTest
+[INFO] Running org.jfree.chart.util.LineUtilsTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 s - in org.jfree.chart.util.LineUtilsTest
+[INFO] Running org.jfree.chart.util.HMSNumberFormatTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 s - in org.jfree.chart.util.HMSNumberFormatTest
+[INFO] Running org.jfree.chart.util.LogFormatTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 s - in org.jfree.chart.util.LogFormatTest
+[INFO] Running org.jfree.chart.title.CompositeTitleTest
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s - in org.jfree.chart.title.CompositeTitleTest
+[INFO] Running org.jfree.chart.title.TitleTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.01 s - in org.jfree.chart.title.TitleTest
+[INFO] Running org.jfree.chart.title.PaintScaleLegendTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s - in org.jfree.chart.title.PaintScaleLegendTest
+[INFO] Running org.jfree.chart.title.DateTitleTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.024 s - in org.jfree.chart.title.DateTitleTest
+[INFO] Running org.jfree.chart.title.LegendGraphicTest
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in org.jfree.chart.title.LegendGraphicTest
+[INFO] Running org.jfree.chart.title.LegendTitleTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s - in org.jfree.chart.title.LegendTitleTest
+[INFO] Running org.jfree.chart.title.ShortTextTitleTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 s - in org.jfree.chart.title.ShortTextTitleTest
+[INFO] Running org.jfree.chart.title.TextTitleTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in org.jfree.chart.title.TextTitleTest
+[INFO] Running org.jfree.chart.WaterfallChartTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 s - in org.jfree.chart.WaterfallChartTest
+[INFO] Running org.jfree.chart.JFreeChartTest
+[ERROR] Tests run: 13, Failures: 0, Errors: 13, Skipped: 0, Time elapsed: 0.069 s <<< FAILURE! - in org.jfree.chart.JFreeChartTest
+[ERROR] org.jfree.chart.JFreeChartTest.testEquals2  Time elapsed: 0.004 s  <<< ERROR!
+java.lang.StackOverflowError
+
+[ERROR] org.jfree.chart.JFreeChartTest.testSubtitleCount  Time elapsed: 0.018 s  <<< ERROR!
+java.lang.StackOverflowError
+
+[ERROR] org.jfree.chart.JFreeChartTest.testLegendEvents  Time elapsed: 0.003 s  <<< ERROR!
+java.lang.StackOverflowError
+
+[ERROR] org.jfree.chart.JFreeChartTest.testTitleChangeEvent  Time elapsed: 0.001 s  <<< ERROR!
+java.lang.StackOverflowError
+
+[ERROR] org.jfree.chart.JFreeChartTest.testGetSubtitle  Time elapsed: 0.003 s  <<< ERROR!
+java.lang.StackOverflowError
+
+[ERROR] org.jfree.chart.JFreeChartTest.testAddSubtitle  Time elapsed: 0.002 s  <<< ERROR!
+java.lang.StackOverflowError
+
+[ERROR] org.jfree.chart.JFreeChartTest.testBug942  Time elapsed: 0.004 s  <<< ERROR!
+java.lang.StackOverflowError
+
+[ERROR] org.jfree.chart.JFreeChartTest.testEquals  Time elapsed: 0.012 s  <<< ERROR!
+java.lang.StackOverflowError
+
+[ERROR] org.jfree.chart.JFreeChartTest.testGetSubtitles  Time elapsed: 0.001 s  <<< ERROR!
+java.lang.StackOverflowError
+
+[ERROR] org.jfree.chart.JFreeChartTest.testSerialization1  Time elapsed: 0.005 s  <<< ERROR!
+java.lang.StackOverflowError
+
+[ERROR] org.jfree.chart.JFreeChartTest.testSerialization2  Time elapsed: 0.002 s  <<< ERROR!
+java.lang.StackOverflowError
+
+[ERROR] org.jfree.chart.JFreeChartTest.testSerialization3  Time elapsed: 0.01 s  <<< ERROR!
+java.lang.StackOverflowError
+
+[ERROR] org.jfree.chart.JFreeChartTest.testSerialization4  Time elapsed: 0.001 s  <<< ERROR!
+java.lang.StackOverflowError
+
+[INFO] Running org.jfree.chart.entity.CategoryLabelEntityTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in org.jfree.chart.entity.CategoryLabelEntityTest
+[INFO] Running org.jfree.chart.entity.StandardEntityCollectionTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in org.jfree.chart.entity.StandardEntityCollectionTest
+[INFO] Running org.jfree.chart.entity.PieSectionEntityTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.009 s - in org.jfree.chart.entity.PieSectionEntityTest
+[INFO] Running org.jfree.chart.entity.CategoryItemEntityTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s - in org.jfree.chart.entity.CategoryItemEntityTest
+[INFO] Running org.jfree.chart.entity.XYItemEntityTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.jfree.chart.entity.XYItemEntityTest
+[INFO] Running org.jfree.chart.entity.LegendItemEntityTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s - in org.jfree.chart.entity.LegendItemEntityTest
+[INFO] Running org.jfree.chart.entity.TickLabelEntityTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.018 s - in org.jfree.chart.entity.TickLabelEntityTest
+[INFO] Running org.jfree.chart.XYAreaChartTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.016 s - in org.jfree.chart.XYAreaChartTest
+[INFO] Running org.jfree.chart.ChartPanelTest
+[INFO] Tests run: 14, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.259 s - in org.jfree.chart.ChartPanelTest
+[INFO] Running org.jfree.chart.AreaChartTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.016 s - in org.jfree.chart.AreaChartTest
+[INFO] Running org.jfree.chart.TimeSeriesChartTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.01 s - in org.jfree.chart.TimeSeriesChartTest
+[INFO] Running org.jfree.chart.labels.SymbolicXYItemLabelGeneratorTest
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in org.jfree.chart.labels.SymbolicXYItemLabelGeneratorTest
+[INFO] Running org.jfree.chart.labels.StandardXYSeriesLabelGeneratorTest
+[INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 s - in org.jfree.chart.labels.StandardXYSeriesLabelGeneratorTest
+[INFO] Running org.jfree.chart.labels.BoxAndWhiskerToolTipGeneratorTest
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in org.jfree.chart.labels.BoxAndWhiskerToolTipGeneratorTest
+[INFO] Running org.jfree.chart.labels.StandardCategoryToolTipGeneratorTest
+[INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s - in org.jfree.chart.labels.StandardCategoryToolTipGeneratorTest
+[INFO] Running org.jfree.chart.labels.IntervalCategoryToolTipGeneratorTest
+[INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 s - in org.jfree.chart.labels.IntervalCategoryToolTipGeneratorTest
+[INFO] Running org.jfree.chart.labels.BubbleXYItemLabelGeneratorTest
+[INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 s - in org.jfree.chart.labels.BubbleXYItemLabelGeneratorTest
+[INFO] Running org.jfree.chart.labels.StandardCategoryItemLabelGeneratorTest
+[INFO] Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.023 s - in org.jfree.chart.labels.StandardCategoryItemLabelGeneratorTest
+[INFO] Running org.jfree.chart.labels.StandardPieSectionLabelGeneratorTest
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s - in org.jfree.chart.labels.StandardPieSectionLabelGeneratorTest
+[INFO] Running org.jfree.chart.labels.ItemLabelPositionTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in org.jfree.chart.labels.ItemLabelPositionTest
+[INFO] Running org.jfree.chart.labels.CustomXYItemLabelGeneratorTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in org.jfree.chart.labels.CustomXYItemLabelGeneratorTest
+[INFO] Running org.jfree.chart.labels.StandardCategorySeriesLabelGeneratorTest
+[INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 s - in org.jfree.chart.labels.StandardCategorySeriesLabelGeneratorTest
+[INFO] Running org.jfree.chart.labels.BoxAndWhiskerXYToolTipGeneratorTest
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in org.jfree.chart.labels.BoxAndWhiskerXYToolTipGeneratorTest
+[INFO] Running org.jfree.chart.labels.StandardXYToolTipGeneratorTest
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in org.jfree.chart.labels.StandardXYToolTipGeneratorTest
+[INFO] Running org.jfree.chart.labels.HighLowItemLabelGeneratorTest
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s - in org.jfree.chart.labels.HighLowItemLabelGeneratorTest
+[INFO] Running org.jfree.chart.labels.StandardXYItemLabelGeneratorTest
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 s - in org.jfree.chart.labels.StandardXYItemLabelGeneratorTest
+[INFO] Running org.jfree.chart.labels.IntervalCategoryItemLabelGeneratorTest
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 s - in org.jfree.chart.labels.IntervalCategoryItemLabelGeneratorTest
+[INFO] Running org.jfree.chart.labels.StandardPieToolTipGeneratorTest
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 s - in org.jfree.chart.labels.StandardPieToolTipGeneratorTest
+[INFO] Running org.jfree.chart.labels.ItemLabelAnchorTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in org.jfree.chart.labels.ItemLabelAnchorTest
+[INFO] Running org.jfree.chart.labels.MultipleXYSeriesLabelGeneratorTest
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.jfree.chart.labels.MultipleXYSeriesLabelGeneratorTest
+[INFO] Running org.jfree.chart.labels.StandardXYZToolTipGeneratorTest
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 s - in org.jfree.chart.labels.StandardXYZToolTipGeneratorTest
+[INFO] Running org.jfree.chart.LineChartTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.018 s - in org.jfree.chart.LineChartTest
+[INFO] Running org.jfree.chart.XYLineChartTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in org.jfree.chart.XYLineChartTest
+[INFO] Running org.jfree.chart.annotations.XYLineAnnotationTest
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 s - in org.jfree.chart.annotations.XYLineAnnotationTest
+[INFO] Running org.jfree.chart.annotations.XYDrawableAnnotationTest
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in org.jfree.chart.annotations.XYDrawableAnnotationTest
+[INFO] Running org.jfree.chart.annotations.XYTextAnnotationTest
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.jfree.chart.annotations.XYTextAnnotationTest
+[INFO] Running org.jfree.chart.annotations.XYBoxAnnotationTest
+[INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.036 s - in org.jfree.chart.annotations.XYBoxAnnotationTest
+[INFO] Running org.jfree.chart.annotations.TextAnnotationTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s - in org.jfree.chart.annotations.TextAnnotationTest
+[INFO] Running org.jfree.chart.annotations.CategoryLineAnnotationTest
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 s - in org.jfree.chart.annotations.CategoryLineAnnotationTest
+[INFO] Running org.jfree.chart.annotations.XYTitleAnnotationTest
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.01 s - in org.jfree.chart.annotations.XYTitleAnnotationTest
+[INFO] Running org.jfree.chart.annotations.CategoryTextAnnotationTest
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in org.jfree.chart.annotations.CategoryTextAnnotationTest
+[INFO] Running org.jfree.chart.annotations.XYPointerAnnotationTest
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in org.jfree.chart.annotations.XYPointerAnnotationTest
+[INFO] Running org.jfree.chart.annotations.XYShapeAnnotationTest
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 s - in org.jfree.chart.annotations.XYShapeAnnotationTest
+[INFO] Running org.jfree.chart.annotations.XYPolygonAnnotationTest
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in org.jfree.chart.annotations.XYPolygonAnnotationTest
+[INFO] Running org.jfree.chart.annotations.CategoryPointerAnnotationTest
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 s - in org.jfree.chart.annotations.CategoryPointerAnnotationTest
+[INFO] Running org.jfree.chart.XYStepChartTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.016 s - in org.jfree.chart.XYStepChartTest
+[INFO] Running org.jfree.chart.ChartRenderingInfoTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.012 s - in org.jfree.chart.ChartRenderingInfoTest
+[INFO] Running org.jfree.chart.urls.CustomCategoryURLGeneratorTest
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in org.jfree.chart.urls.CustomCategoryURLGeneratorTest
+[INFO] Running org.jfree.chart.urls.StandardXYURLGeneratorTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in org.jfree.chart.urls.StandardXYURLGeneratorTest
+[INFO] Running org.jfree.chart.urls.TimeSeriesURLGeneratorTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.013 s - in org.jfree.chart.urls.TimeSeriesURLGeneratorTest
+[INFO] Running org.jfree.chart.urls.StandardPieURLGeneratorTest
+[ERROR] Tests run: 4, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 s <<< FAILURE! - in org.jfree.chart.urls.StandardPieURLGeneratorTest
+[ERROR] org.jfree.chart.urls.StandardPieURLGeneratorTest.testURL  Time elapsed: 0 s  <<< ERROR!
+java.lang.StackOverflowError
+
+[INFO] Running org.jfree.chart.urls.CustomXYURLGeneratorTest
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s - in org.jfree.chart.urls.CustomXYURLGeneratorTest
+[INFO] Running org.jfree.chart.urls.CustomPieURLGeneratorTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 s - in org.jfree.chart.urls.CustomPieURLGeneratorTest
+[INFO] Running org.jfree.chart.urls.StandardCategoryURLGeneratorTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in org.jfree.chart.urls.StandardCategoryURLGeneratorTest
+[INFO] Running org.jfree.chart.MeterChartTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in org.jfree.chart.MeterChartTest
+[INFO] Running org.jfree.chart.axis.DateAxisTest
+[INFO] Tests run: 24, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.077 s - in org.jfree.chart.axis.DateAxisTest
+[INFO] Running org.jfree.chart.axis.AxisLocationTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in org.jfree.chart.axis.AxisLocationTest
+[INFO] Running org.jfree.chart.axis.AxisTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 s - in org.jfree.chart.axis.AxisTest
+[INFO] Running org.jfree.chart.axis.CategoryLabelWidthTypeTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in org.jfree.chart.axis.CategoryLabelWidthTypeTest
+[INFO] Running org.jfree.chart.axis.CategoryTickTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in org.jfree.chart.axis.CategoryTickTest
+[INFO] Running org.jfree.chart.axis.LogarithmicAxisTest
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.013 s - in org.jfree.chart.axis.LogarithmicAxisTest
+[INFO] Running org.jfree.chart.axis.StandardTickUnitSourceTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 s - in org.jfree.chart.axis.StandardTickUnitSourceTest
+[INFO] Running org.jfree.chart.axis.ExtendedCategoryAxisTest
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 s - in org.jfree.chart.axis.ExtendedCategoryAxisTest
+[INFO] Running org.jfree.chart.axis.SymbolAxisTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 s - in org.jfree.chart.axis.SymbolAxisTest
+[INFO] Running org.jfree.chart.axis.LogAxisTest
+[INFO] Tests run: 12, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.014 s - in org.jfree.chart.axis.LogAxisTest
+[INFO] Running org.jfree.chart.axis.DateTickMarkPositionTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in org.jfree.chart.axis.DateTickMarkPositionTest
+[INFO] Running org.jfree.chart.axis.DateTickUnitTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.01 s - in org.jfree.chart.axis.DateTickUnitTest
+[INFO] Running org.jfree.chart.axis.PeriodAxisLabelInfoTest
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 s - in org.jfree.chart.axis.PeriodAxisLabelInfoTest
+[INFO] Running org.jfree.chart.axis.PeriodAxisTest
+[INFO] Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.05 s - in org.jfree.chart.axis.PeriodAxisTest
+[INFO] Running org.jfree.chart.axis.AxisSpaceTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in org.jfree.chart.axis.AxisSpaceTest
+[INFO] Running org.jfree.chart.axis.ModuloAxisTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 s - in org.jfree.chart.axis.ModuloAxisTest
+[INFO] Running org.jfree.chart.axis.NumberTickUnitTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s - in org.jfree.chart.axis.NumberTickUnitTest
+[INFO] Running org.jfree.chart.axis.ValueAxisTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.024 s - in org.jfree.chart.axis.ValueAxisTest
+[INFO] Running org.jfree.chart.axis.CategoryAnchorTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in org.jfree.chart.axis.CategoryAnchorTest
+[INFO] Running org.jfree.chart.axis.CategoryLabelPositionsTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.jfree.chart.axis.CategoryLabelPositionsTest
+[INFO] Running org.jfree.chart.axis.MonthDateFormatTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 s - in org.jfree.chart.axis.MonthDateFormatTest
+[INFO] Running org.jfree.chart.axis.NumberAxisTest
+[INFO] Tests run: 12, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 s - in org.jfree.chart.axis.NumberAxisTest
+[INFO] Running org.jfree.chart.axis.CyclicNumberAxisTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 s - in org.jfree.chart.axis.CyclicNumberAxisTest
+[INFO] Running org.jfree.chart.axis.QuarterDateFormatTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.jfree.chart.axis.QuarterDateFormatTest
+[INFO] Running org.jfree.chart.axis.CategoryLabelPositionTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in org.jfree.chart.axis.CategoryLabelPositionTest
+[INFO] Running org.jfree.chart.axis.CategoryAxisTest
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in org.jfree.chart.axis.CategoryAxisTest
+[INFO] Running org.jfree.chart.axis.MarkerAxisBandTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s - in org.jfree.chart.axis.MarkerAxisBandTest
+[INFO] Running org.jfree.chart.axis.SubCategoryAxisTest
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 s - in org.jfree.chart.axis.SubCategoryAxisTest
+[INFO] Running org.jfree.chart.axis.TickUnitsTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in org.jfree.chart.axis.TickUnitsTest
+[INFO] Running org.jfree.chart.axis.DateTickTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 s - in org.jfree.chart.axis.DateTickTest
+[INFO] Running org.jfree.chart.StackedAreaChartTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.022 s - in org.jfree.chart.StackedAreaChartTest
+[INFO] Running org.jfree.chart.StrokeMapTest
+[INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in org.jfree.chart.StrokeMapTest
+[INFO] Running org.jfree.chart.PaintMapTest
+[INFO] Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.014 s - in org.jfree.chart.PaintMapTest
+[INFO] Running org.jfree.chart.XYStepAreaChartTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in org.jfree.chart.XYStepAreaChartTest
+[INFO] Running org.jfree.chart.PieChartTest
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 s <<< FAILURE! - in org.jfree.chart.PieChartTest
+[ERROR] org.jfree.chart.PieChartTest.testReplaceDatasetOnPieChart  Time elapsed: 0.001 s  <<< ERROR!
+java.lang.StackOverflowError
+
+[INFO] Running org.jfree.chart.LegendItemCollectionTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s - in org.jfree.chart.LegendItemCollectionTest
+[INFO] Running org.jfree.chart.StandardChartThemeTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.011 s - in org.jfree.chart.StandardChartThemeTest
+[INFO] Running org.jfree.chart.GanttChartTest
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.021 s - in org.jfree.chart.GanttChartTest
+[INFO] Running org.jfree.chart.HashUtilsTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in org.jfree.chart.HashUtilsTest
+[INFO] Running org.jfree.chart.BarChartTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 s - in org.jfree.chart.BarChartTest
+[INFO] Running org.jfree.chart.block.GridArrangementTest
+[INFO] Tests run: 18, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 s - in org.jfree.chart.block.GridArrangementTest
+[INFO] Running org.jfree.chart.block.EmptyBlockTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in org.jfree.chart.block.EmptyBlockTest
+[INFO] Running org.jfree.chart.block.AbstractBlockTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.jfree.chart.block.AbstractBlockTest
+[INFO] Running org.jfree.chart.block.ColumnArrangementTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 s - in org.jfree.chart.block.ColumnArrangementTest
+[INFO] Running org.jfree.chart.block.BlockContainerTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.011 s - in org.jfree.chart.block.BlockContainerTest
+[INFO] Running org.jfree.chart.block.LabelBlockTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s - in org.jfree.chart.block.LabelBlockTest
+[INFO] Running org.jfree.chart.block.RectangleConstraintTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in org.jfree.chart.block.RectangleConstraintTest
+[INFO] Running org.jfree.chart.block.LineBorderTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 s - in org.jfree.chart.block.LineBorderTest
+[INFO] Running org.jfree.chart.block.FlowArrangementTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.jfree.chart.block.FlowArrangementTest
+[INFO] Running org.jfree.chart.block.BorderArrangementTest
+[INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s - in org.jfree.chart.block.BorderArrangementTest
+[INFO] Running org.jfree.chart.block.BlockBorderTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 s - in org.jfree.chart.block.BlockBorderTest
+[INFO] Running org.jfree.chart.block.ColorBlockTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in org.jfree.chart.block.ColorBlockTest
+[INFO] Running org.jfree.chart.LegendItemTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s - in org.jfree.chart.LegendItemTest
+[INFO] Running org.jfree.data.statistics.StatisticsTest
+[INFO] Tests run: 12, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s - in org.jfree.data.statistics.StatisticsTest
+[INFO] Running org.jfree.data.statistics.SimpleHistogramBinTest
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in org.jfree.data.statistics.SimpleHistogramBinTest
+[INFO] Running org.jfree.data.statistics.HistogramDatasetTest
+[INFO] Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 s - in org.jfree.data.statistics.HistogramDatasetTest
+[INFO] Running org.jfree.data.statistics.SimpleHistogramDatasetTest
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 s - in org.jfree.data.statistics.SimpleHistogramDatasetTest
+[INFO] Running org.jfree.data.statistics.BoxAndWhiskerCalculatorTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in org.jfree.data.statistics.BoxAndWhiskerCalculatorTest
+[INFO] Running org.jfree.data.statistics.DefaultStatisticalCategoryDatasetTest
+[INFO] Tests run: 11, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 s - in org.jfree.data.statistics.DefaultStatisticalCategoryDatasetTest
+[INFO] Running org.jfree.data.statistics.BoxAndWhiskerItemTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.022 s - in org.jfree.data.statistics.BoxAndWhiskerItemTest
+[INFO] Running org.jfree.data.statistics.DefaultBoxAndWhiskerXYDatasetTest
+[INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 s - in org.jfree.data.statistics.DefaultBoxAndWhiskerXYDatasetTest
+[INFO] Running org.jfree.data.statistics.RegressionTest
+[INFO] Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 s - in org.jfree.data.statistics.RegressionTest
+[INFO] Running org.jfree.data.statistics.DefaultBoxAndWhiskerCategoryDatasetTest
+[INFO] Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 s - in org.jfree.data.statistics.DefaultBoxAndWhiskerCategoryDatasetTest
+[INFO] Running org.jfree.data.statistics.MeanAndStandardDeviationTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in org.jfree.data.statistics.MeanAndStandardDeviationTest
+[INFO] Running org.jfree.data.statistics.DefaultMultiValueCategoryDatasetTest
+[INFO] Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in org.jfree.data.statistics.DefaultMultiValueCategoryDatasetTest
+[INFO] Running org.jfree.data.statistics.HistogramBinTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in org.jfree.data.statistics.HistogramBinTest
+[INFO] Running org.jfree.data.DataUtilsTest
+[INFO] Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in org.jfree.data.DataUtilsTest
+[INFO] Running org.jfree.data.KeyedObjectTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in org.jfree.data.KeyedObjectTest
+[INFO] Running org.jfree.data.category.DefaultIntervalCategoryDatasetTest
+[INFO] Tests run: 20, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 s - in org.jfree.data.category.DefaultIntervalCategoryDatasetTest
+[INFO] Running org.jfree.data.category.DefaultCategoryDatasetTest
+[INFO] Tests run: 14, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in org.jfree.data.category.DefaultCategoryDatasetTest
+[INFO] Running org.jfree.data.category.SlidingCategoryDatasetTest
+[INFO] Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in org.jfree.data.category.SlidingCategoryDatasetTest
+[INFO] Running org.jfree.data.category.CategoryToPieDatasetTest
+[ERROR] Tests run: 6, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.011 s <<< FAILURE! - in org.jfree.data.category.CategoryToPieDatasetTest
+[ERROR] org.jfree.data.category.CategoryToPieDatasetTest.testEquals  Time elapsed: 0.005 s  <<< ERROR!
+java.lang.StackOverflowError
+
+[INFO] Running org.jfree.data.DefaultKeyedValues2DTest
+[ERROR] Tests run: 14, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.002 s <<< FAILURE! - in org.jfree.data.DefaultKeyedValues2DTest
+[ERROR] org.jfree.data.DefaultKeyedValues2DTest.testEquals  Time elapsed: 0.001 s  <<< FAILURE!
+java.lang.AssertionError
+	at org.jfree.data.DefaultKeyedValues2DTest.testEquals(DefaultKeyedValues2DTest.java:127)
+
+[INFO] Running org.jfree.data.general.DefaultPieDatasetTest
+[ERROR] Tests run: 5, Failures: 0, Errors: 5, Skipped: 0, Time elapsed: 0.034 s <<< FAILURE! - in org.jfree.data.general.DefaultPieDatasetTest
+[ERROR] org.jfree.data.general.DefaultPieDatasetTest.testGetIndex  Time elapsed: 0.013 s  <<< ERROR!
+java.lang.StackOverflowError
+
+[ERROR] org.jfree.data.general.DefaultPieDatasetTest.testSerialization  Time elapsed: 0.004 s  <<< ERROR!
+java.lang.StackOverflowError
+
+[ERROR] org.jfree.data.general.DefaultPieDatasetTest.testClear  Time elapsed: 0.011 s  <<< ERROR!
+java.lang.StackOverflowError
+
+[ERROR] org.jfree.data.general.DefaultPieDatasetTest.testCloning  Time elapsed: 0.003 s  <<< ERROR!
+java.lang.StackOverflowError
+
+[ERROR] org.jfree.data.general.DefaultPieDatasetTest.testGetKey  Time elapsed: 0.002 s  <<< ERROR!
+java.lang.StackOverflowError
+
+[INFO] Running org.jfree.data.general.DefaultKeyedValueDatasetTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in org.jfree.data.general.DefaultKeyedValueDatasetTest
+[INFO] Running org.jfree.data.general.DatasetGroupTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in org.jfree.data.general.DatasetGroupTest
+[INFO] Running org.jfree.data.general.DefaultHeatMapDatasetTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.018 s - in org.jfree.data.general.DefaultHeatMapDatasetTest
+[INFO] Running org.jfree.data.general.DatasetUtilsTest
+[ERROR] Tests run: 61, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 0.026 s <<< FAILURE! - in org.jfree.data.general.DatasetUtilsTest
+[ERROR] org.jfree.data.general.DatasetUtilsTest.testLimitPieDataset  Time elapsed: 0.002 s  <<< ERROR!
+java.lang.StackOverflowError
+
+[ERROR] org.jfree.data.general.DatasetUtilsTest.testCalculatePieDatasetTotal  Time elapsed: 0.001 s  <<< ERROR!
+java.lang.StackOverflowError
+
+[INFO] Running org.jfree.data.general.DefaultKeyedValuesDatasetTest
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.004 s <<< FAILURE! - in org.jfree.data.general.DefaultKeyedValuesDatasetTest
+[ERROR] org.jfree.data.general.DefaultKeyedValuesDatasetTest.testCloning  Time elapsed: 0.004 s  <<< ERROR!
+java.lang.StackOverflowError
+
+[INFO] Running org.jfree.data.general.DefaultKeyedValues2DDatasetTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 s - in org.jfree.data.general.DefaultKeyedValues2DDatasetTest
+[INFO] Running org.jfree.data.DefaultKeyedValueTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in org.jfree.data.DefaultKeyedValueTest
+[INFO] Running org.jfree.data.KeyedObjectsTest
+[INFO] Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 s - in org.jfree.data.KeyedObjectsTest
+[INFO] Running org.jfree.data.KeyedObjects2DTest
+[INFO] Tests run: 11, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 s - in org.jfree.data.KeyedObjects2DTest
+[INFO] Running org.jfree.data.KeyToGroupMapTest
+[INFO] Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s - in org.jfree.data.KeyToGroupMapTest
+[INFO] Running org.jfree.data.function.PolynomialFunction2DTest
+[INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 s - in org.jfree.data.function.PolynomialFunction2DTest
+[INFO] Running org.jfree.data.function.LineFunction2DTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in org.jfree.data.function.LineFunction2DTest
+[INFO] Running org.jfree.data.function.NormalDistributionFunction2DTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in org.jfree.data.function.NormalDistributionFunction2DTest
+[INFO] Running org.jfree.data.function.PowerFunction2DTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in org.jfree.data.function.PowerFunction2DTest
+[INFO] Running org.jfree.data.time.TimePeriodValuesTest
+[INFO] Tests run: 12, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.01 s - in org.jfree.data.time.TimePeriodValuesTest
+[INFO] Running org.jfree.data.time.HourTest
+[INFO] Tests run: 22, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 s - in org.jfree.data.time.HourTest
+[INFO] Running org.jfree.data.time.FixedMillisecondTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in org.jfree.data.time.FixedMillisecondTest
+[INFO] Running org.jfree.data.time.MonthTest
+[INFO] Tests run: 22, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 s - in org.jfree.data.time.MonthTest
+[INFO] Running org.jfree.data.time.ohlc.OHLCItemTest
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.01 s - in org.jfree.data.time.ohlc.OHLCItemTest
+[INFO] Running org.jfree.data.time.ohlc.OHLCTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.jfree.data.time.ohlc.OHLCTest
+[INFO] Running org.jfree.data.time.ohlc.OHLCSeriesTest
+[INFO] Tests run: 11, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.022 s - in org.jfree.data.time.ohlc.OHLCSeriesTest
+[INFO] Running org.jfree.data.time.ohlc.OHLCSeriesCollectionTest
+[INFO] Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.016 s - in org.jfree.data.time.ohlc.OHLCSeriesCollectionTest
+[INFO] Running org.jfree.data.time.TimePeriodAnchorTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.jfree.data.time.TimePeriodAnchorTest
+[INFO] Running org.jfree.data.time.SecondTest
+[INFO] Tests run: 17, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in org.jfree.data.time.SecondTest
+[INFO] Running org.jfree.data.time.SimpleTimePeriodTest
+[INFO] Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in org.jfree.data.time.SimpleTimePeriodTest
+[INFO] Running org.jfree.data.time.QuarterTest
+[INFO] Tests run: 23, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.009 s - in org.jfree.data.time.QuarterTest
+[INFO] Running org.jfree.data.time.TimeSeriesTest
+[INFO] Tests run: 44, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.027 s - in org.jfree.data.time.TimeSeriesTest
+[INFO] Running org.jfree.data.time.YearTest
+[INFO] Tests run: 22, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 s - in org.jfree.data.time.YearTest
+[INFO] Running org.jfree.data.time.TimePeriodValuesCollectionTest
+[INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s - in org.jfree.data.time.TimePeriodValuesCollectionTest
+[INFO] Running org.jfree.data.time.TimeTableXYDatasetTest
+[INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 s - in org.jfree.data.time.TimeTableXYDatasetTest
+[INFO] Running org.jfree.data.time.DayTest
+[INFO] Tests run: 22, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s - in org.jfree.data.time.DayTest
+[INFO] Running org.jfree.data.time.MillisecondTest
+[INFO] Tests run: 18, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 s - in org.jfree.data.time.MillisecondTest
+[INFO] Running org.jfree.data.time.TimeSeriesCollectionTest
+[INFO] Tests run: 12, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 s - in org.jfree.data.time.TimeSeriesCollectionTest
+[INFO] Running org.jfree.data.time.MinuteTest
+[INFO] Tests run: 18, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 s - in org.jfree.data.time.MinuteTest
+[INFO] Running org.jfree.data.time.WeekTest
+[INFO] Tests run: 24, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.015 s - in org.jfree.data.time.WeekTest
+[INFO] Running org.jfree.data.time.MovingAverageTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 s - in org.jfree.data.time.MovingAverageTest
+[INFO] Running org.jfree.data.time.TimePeriodValueTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in org.jfree.data.time.TimePeriodValueTest
+[INFO] Running org.jfree.data.time.DateRangeTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in org.jfree.data.time.DateRangeTest
+[INFO] Running org.jfree.data.time.TimeSeriesDataItemTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in org.jfree.data.time.TimeSeriesDataItemTest
+[INFO] Running org.jfree.data.gantt.SlidingGanttCategoryDatasetTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s - in org.jfree.data.gantt.SlidingGanttCategoryDatasetTest
+[INFO] Running org.jfree.data.gantt.TaskSeriesCollectionTest
+[INFO] Tests run: 24, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s - in org.jfree.data.gantt.TaskSeriesCollectionTest
+[INFO] Running org.jfree.data.gantt.TaskSeriesTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s - in org.jfree.data.gantt.TaskSeriesTest
+[INFO] Running org.jfree.data.gantt.XYTaskDatasetTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s - in org.jfree.data.gantt.XYTaskDatasetTest
+[INFO] Running org.jfree.data.gantt.TaskTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.jfree.data.gantt.TaskTest
+[INFO] Running org.jfree.data.RangeTest
+[INFO] Tests run: 13, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in org.jfree.data.RangeTest
+[INFO] Running org.jfree.data.DomainOrderTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in org.jfree.data.DomainOrderTest
+[INFO] Running org.jfree.data.RangeTypeTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in org.jfree.data.RangeTypeTest
+[INFO] Running org.jfree.data.ComparableObjectItemTest
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in org.jfree.data.ComparableObjectItemTest
+[INFO] Running org.jfree.data.ComparableObjectSeriesTest
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.jfree.data.ComparableObjectSeriesTest
+[INFO] Running org.jfree.data.DefaultKeyedValuesTest
+[INFO] Tests run: 18, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in org.jfree.data.DefaultKeyedValuesTest
+[INFO] Running org.jfree.data.xy.DefaultTableXYDatasetTest
+[INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.013 s - in org.jfree.data.xy.DefaultTableXYDatasetTest
+[INFO] Running org.jfree.data.xy.XYBarDatasetTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 s - in org.jfree.data.xy.XYBarDatasetTest
+[INFO] Running org.jfree.data.xy.XYSeriesTest
+[INFO] Tests run: 37, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 s - in org.jfree.data.xy.XYSeriesTest
+[INFO] Running org.jfree.data.xy.OHLCDataItemTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in org.jfree.data.xy.OHLCDataItemTest
+[INFO] Running org.jfree.data.xy.DefaultOHLCDatasetTest
+[INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in org.jfree.data.xy.DefaultOHLCDatasetTest
+[INFO] Running org.jfree.data.xy.XYIntervalSeriesTest
+[INFO] Tests run: 12, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 s - in org.jfree.data.xy.XYIntervalSeriesTest
+[INFO] Running org.jfree.data.xy.DefaultWindDatasetTest
+[INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.021 s - in org.jfree.data.xy.DefaultWindDatasetTest
+[INFO] Running org.jfree.data.xy.YIntervalSeriesCollectionTest
+[INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in org.jfree.data.xy.YIntervalSeriesCollectionTest
+[INFO] Running org.jfree.data.xy.XIntervalDataItemTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in org.jfree.data.xy.XIntervalDataItemTest
+[INFO] Running org.jfree.data.xy.XYIntervalSeriesCollectionTest
+[INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in org.jfree.data.xy.XYIntervalSeriesCollectionTest
+[INFO] Running org.jfree.data.xy.XYCoordinateTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in org.jfree.data.xy.XYCoordinateTest
+[INFO] Running org.jfree.data.xy.CategoryTableXYDatasetTest
+[INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 s - in org.jfree.data.xy.CategoryTableXYDatasetTest
+[INFO] Running org.jfree.data.xy.MatrixSeriesCollectionTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in org.jfree.data.xy.MatrixSeriesCollectionTest
+[INFO] Running org.jfree.data.xy.XIntervalSeriesTest
+[INFO] Tests run: 13, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s - in org.jfree.data.xy.XIntervalSeriesTest
+[INFO] Running org.jfree.data.xy.IntervalXYDelegateTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in org.jfree.data.xy.IntervalXYDelegateTest
+[INFO] Running org.jfree.data.xy.YWithXIntervalTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in org.jfree.data.xy.YWithXIntervalTest
+[INFO] Running org.jfree.data.xy.VectorSeriesCollectionTest
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.014 s - in org.jfree.data.xy.VectorSeriesCollectionTest
+[INFO] Running org.jfree.data.xy.TableXYDatasetTest
+[INFO] Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in org.jfree.data.xy.TableXYDatasetTest
+[INFO] Running org.jfree.data.xy.XIntervalSeriesCollectionTest
+[INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s - in org.jfree.data.xy.XIntervalSeriesCollectionTest
+[INFO] Running org.jfree.data.xy.XYIntervalDataItemTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s - in org.jfree.data.xy.XYIntervalDataItemTest
+[INFO] Running org.jfree.data.xy.DefaultIntervalXYDatasetTest
+[INFO] Tests run: 16, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 s - in org.jfree.data.xy.DefaultIntervalXYDatasetTest
+[INFO] Running org.jfree.data.xy.XYIntervalTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 s - in org.jfree.data.xy.XYIntervalTest
+[INFO] Running org.jfree.data.xy.VectorSeriesTest
+[INFO] Tests run: 11, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in org.jfree.data.xy.VectorSeriesTest
+[INFO] Running org.jfree.data.xy.DefaultXYDatasetTest
+[INFO] Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in org.jfree.data.xy.DefaultXYDatasetTest
+[INFO] Running org.jfree.data.xy.MatrixSeriesTest
+[INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.018 s - in org.jfree.data.xy.MatrixSeriesTest
+[INFO] Running org.jfree.data.xy.YIntervalTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 s - in org.jfree.data.xy.YIntervalTest
+[INFO] Running org.jfree.data.xy.YIntervalDataItemTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 s - in org.jfree.data.xy.YIntervalDataItemTest
+[INFO] Running org.jfree.data.xy.YIntervalSeriesTest
+[INFO] Tests run: 11, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in org.jfree.data.xy.YIntervalSeriesTest
+[INFO] Running org.jfree.data.xy.XYSeriesCollectionTest
+[INFO] Tests run: 18, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 s - in org.jfree.data.xy.XYSeriesCollectionTest
+[INFO] Running org.jfree.data.xy.DefaultXYZDatasetTest
+[INFO] Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.009 s - in org.jfree.data.xy.DefaultXYZDatasetTest
+[INFO] Running org.jfree.data.xy.VectorTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.014 s - in org.jfree.data.xy.VectorTest
+[INFO] Running org.jfree.data.xy.DefaultHighLowDatasetTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s - in org.jfree.data.xy.DefaultHighLowDatasetTest
+[INFO] Running org.jfree.data.xy.VectorDataItemTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in org.jfree.data.xy.VectorDataItemTest
+[INFO] Running org.jfree.data.xy.XYDataItemTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in org.jfree.data.xy.XYDataItemTest
+[INFO] 
+[INFO] Results:
+[INFO] 
+[ERROR] Failures: 
+[ERROR]   DefaultKeyedValues2DTest.testEquals:127
+[ERROR] Errors: 
+[ERROR]   JFreeChartTest.testAddSubtitle » StackOverflow
+[ERROR]   JFreeChartTest.testBug942 » StackOverflow
+[ERROR]   JFreeChartTest.testEquals » StackOverflow
+[ERROR]   JFreeChartTest.testEquals2 » StackOverflow
+[ERROR]   JFreeChartTest.testGetSubtitle » StackOverflow
+[ERROR]   JFreeChartTest.testGetSubtitles » StackOverflow
+[ERROR]   JFreeChartTest.testLegendEvents » StackOverflow
+[ERROR]   JFreeChartTest.testSerialization1 » StackOverflow
+[ERROR]   JFreeChartTest.testSerialization2 » StackOverflow
+[ERROR]   JFreeChartTest.testSerialization3 » StackOverflow
+[ERROR]   JFreeChartTest.testSerialization4 » StackOverflow
+[ERROR]   JFreeChartTest.testSubtitleCount » StackOverflow
+[ERROR]   JFreeChartTest.testTitleChangeEvent » StackOverflow
+[ERROR]   PieChart3DTest.testNullValueInDataset » StackOverflow
+[ERROR]   PieChart3DTest.testReplaceDatasetOnPieChart » StackOverflow
+[ERROR]   PieChartTest.testReplaceDatasetOnPieChart » StackOverflow
+[ERROR]   PiePlotTest.testDrawWithNullLegendLabels » StackOverflow
+[ERROR]   PiePlotTest.testGetLegendItems » StackOverflow
+[ERROR]   StandardPieURLGeneratorTest.testURL » StackOverflow
+[ERROR]   CategoryToPieDatasetTest.testEquals » StackOverflow
+[ERROR]   DatasetUtilsTest.testCalculatePieDatasetTotal » StackOverflow
+[ERROR]   DatasetUtilsTest.testLimitPieDataset » StackOverflow
+[ERROR]   DefaultKeyedValuesDatasetTest.testCloning » StackOverflow
+[ERROR]   DefaultPieDatasetTest.testClear » StackOverflow
+[ERROR]   DefaultPieDatasetTest.testCloning » StackOverflow
+[ERROR]   DefaultPieDatasetTest.testGetIndex » StackOverflow
+[ERROR]   DefaultPieDatasetTest.testGetKey » StackOverflow
+[ERROR]   DefaultPieDatasetTest.testSerialization » StackOverflow
+[INFO] 
+[ERROR] Tests run: 2181, Failures: 1, Errors: 28, Skipped: 0
+[INFO] 
+[ERROR] There are test failures.
+
+Please refer to ./jfreechart/target/surefire-reports for the individual test results.
+Please refer to dump files (if any exist) [date].dump, [date]-jvmRun[N].dump and [date].dumpstream.
+[INFO] 
+[INFO] --- maven-jar-plugin:3.2.0:jar (default-jar) @ jfreechart ---
+[INFO] Building jar: ./jfreechart/target/jfreechart-1.6.0-SNAPSHOT.jar
+[INFO] 
+[INFO] --- maven-install-plugin:2.4:install (default-install) @ jfreechart ---
+[INFO] Installing ./jfreechart/target/jfreechart-1.6.0-SNAPSHOT.jar to ./.m2/repository/org/jfree/jfreechart/1.6.0-SNAPSHOT/jfreechart-1.6.0-SNAPSHOT.jar
+[INFO] Installing ./jfreechart/pom.xml to ./.m2/repository/org/jfree/jfreechart/1.6.0-SNAPSHOT/jfreechart-1.6.0-SNAPSHOT.pom
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  24.465 s
+[INFO] Finished at: 
+[INFO] ------------------------------------------------------------------------

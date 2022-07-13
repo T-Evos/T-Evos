@@ -1,0 +1,1258 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ------------------------< org.jfree:jfreechart >------------------------
+[INFO] Building JFreeChart 1.0.15-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+Downloading from central: https://repo.maven.apache.org/maven2/com/lowagie/itext/2.1.5/itext-2.1.5.pom
+Progress (1): 1.4/2.9 kB
+Progress (1): 2.7/2.9 kB
+Progress (1): 2.9 kB    
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/com/lowagie/itext/2.1.5/itext-2.1.5.pom (2.9 kB at 283 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/bouncycastle/bcmail-jdk14/138/bcmail-jdk14-138.pom
+Progress (1): 1.0 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/bouncycastle/bcmail-jdk14/138/bcmail-jdk14-138.pom (1.0 kB at 2.7 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/bouncycastle/bcprov-jdk14/138/bcprov-jdk14-138.pom
+Progress (1): 1.0 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/bouncycastle/bcprov-jdk14/138/bcprov-jdk14-138.pom (1.0 kB at 1.7 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/lowagie/itext/2.1.5/itext-2.1.5.jar
+Downloading from central: https://repo.maven.apache.org/maven2/bouncycastle/bcprov-jdk14/138/bcprov-jdk14-138.jar
+Downloading from central: https://repo.maven.apache.org/maven2/bouncycastle/bcmail-jdk14/138/bcmail-jdk14-138.jar
+Progress (1): 1.4/192 kB
+Progress (1): 2.7/192 kB
+Progress (1): 4.1/192 kB
+Progress (1): 5.5/192 kB
+Progress (1): 6.9/192 kB
+Progress (1): 8.2/192 kB
+Progress (1): 9.6/192 kB
+Progress (2): 9.6/192 kB | 0/1.1 MB
+Progress (3): 9.6/192 kB | 0/1.1 MB | 0/1.6 MB
+Progress (3): 9.6/192 kB | 0/1.1 MB | 0/1.6 MB
+Progress (3): 9.6/192 kB | 0/1.1 MB | 0/1.6 MB
+Progress (3): 9.6/192 kB | 0/1.1 MB | 0/1.6 MB
+Progress (3): 9.6/192 kB | 0/1.1 MB | 0/1.6 MB
+Progress (3): 9.6/192 kB | 0/1.1 MB | 0/1.6 MB
+Progress (3): 9.6/192 kB | 0/1.1 MB | 0/1.6 MB
+Progress (3): 9.6/192 kB | 0/1.1 MB | 0/1.6 MB
+Progress (3): 9.6/192 kB | 0/1.1 MB | 0/1.6 MB
+Progress (3): 9.6/192 kB | 0/1.1 MB | 0/1.6 MB
+Progress (3): 9.6/192 kB | 0/1.1 MB | 0/1.6 MB
+Progress (3): 9.6/192 kB | 0/1.1 MB | 0/1.6 MB
+Progress (3): 9.6/192 kB | 0/1.1 MB | 0/1.6 MB
+Progress (3): 9.6/192 kB | 0/1.1 MB | 0/1.6 MB
+Progress (3): 9.6/192 kB | 0/1.1 MB | 0/1.6 MB
+Progress (3): 9.6/192 kB | 0/1.1 MB | 0/1.6 MB
+Progress (3): 9.6/192 kB | 0/1.1 MB | 0/1.6 MB
+Progress (3): 9.6/192 kB | 0/1.1 MB | 0/1.6 MB
+Progress (3): 9.6/192 kB | 0/1.1 MB | 0/1.6 MB
+Progress (3): 9.6/192 kB | 0/1.1 MB | 0/1.6 MB
+Progress (3): 9.6/192 kB | 0/1.1 MB | 0/1.6 MB
+Progress (3): 9.6/192 kB | 0/1.1 MB | 0/1.6 MB
+Progress (3): 9.6/192 kB | 0/1.1 MB | 0/1.6 MB
+Progress (3): 9.6/192 kB | 0/1.1 MB | 0/1.6 MB
+Progress (3): 9.6/192 kB | 0/1.1 MB | 0/1.6 MB
+Progress (3): 9.6/192 kB | 0/1.1 MB | 0/1.6 MB
+Progress (3): 9.6/192 kB | 0/1.1 MB | 0/1.6 MB
+Progress (3): 9.6/192 kB | 0/1.1 MB | 0/1.6 MB
+Progress (3): 9.6/192 kB | 0/1.1 MB | 0/1.6 MB
+Progress (3): 9.6/192 kB | 0/1.1 MB | 0/1.6 MB
+Progress (3): 9.6/192 kB | 0/1.1 MB | 0/1.6 MB
+Progress (3): 9.6/192 kB | 0/1.1 MB | 0/1.6 MB
+Progress (3): 9.6/192 kB | 0/1.1 MB | 0/1.6 MB
+Progress (3): 9.6/192 kB | 0/1.1 MB | 0/1.6 MB
+Progress (3): 9.6/192 kB | 0/1.1 MB | 0/1.6 MB
+Progress (3): 9.6/192 kB | 0/1.1 MB | 0/1.6 MB
+Progress (3): 9.6/192 kB | 0/1.1 MB | 0/1.6 MB
+Progress (3): 9.6/192 kB | 0/1.1 MB | 0/1.6 MB
+Progress (3): 9.6/192 kB | 0/1.1 MB | 0/1.6 MB
+Progress (3): 9.6/192 kB | 0/1.1 MB | 0/1.6 MB
+Progress (3): 9.6/192 kB | 0/1.1 MB | 0/1.6 MB
+Progress (3): 9.6/192 kB | 0/1.1 MB | 0/1.6 MB
+Progress (3): 9.6/192 kB | 0/1.1 MB | 0/1.6 MB
+Progress (3): 9.6/192 kB | 0/1.1 MB | 0/1.6 MB
+Progress (3): 9.6/192 kB | 0/1.1 MB | 0/1.6 MB
+Progress (3): 9.6/192 kB | 0/1.1 MB | 0/1.6 MB
+Progress (3): 9.6/192 kB | 0/1.1 MB | 0/1.6 MB
+Progress (3): 9.6/192 kB | 0/1.1 MB | 0/1.6 MB
+Progress (3): 9.6/192 kB | 0/1.1 MB | 0/1.6 MB
+Progress (3): 9.6/192 kB | 0/1.1 MB | 0/1.6 MB
+Progress (3): 9.6/192 kB | 0/1.1 MB | 0/1.6 MB
+Progress (3): 9.6/192 kB | 0/1.1 MB | 0/1.6 MB
+Progress (3): 9.6/192 kB | 0/1.1 MB | 0/1.6 MB
+Progress (3): 9.6/192 kB | 0/1.1 MB | 0/1.6 MB
+Progress (3): 9.6/192 kB | 0/1.1 MB | 0/1.6 MB
+Progress (3): 9.6/192 kB | 0/1.1 MB | 0/1.6 MB
+Progress (3): 9.6/192 kB | 0/1.1 MB | 0/1.6 MB
+Progress (3): 9.6/192 kB | 0/1.1 MB | 0/1.6 MB
+Progress (3): 9.6/192 kB | 0/1.1 MB | 0/1.6 MB
+Progress (3): 9.6/192 kB | 0/1.1 MB | 0/1.6 MB
+Progress (3): 9.6/192 kB | 0/1.1 MB | 0/1.6 MB
+Progress (3): 9.6/192 kB | 0.1/1.1 MB | 0/1.6 MB
+Progress (3): 9.6/192 kB | 0.1/1.1 MB | 0/1.6 MB
+Progress (3): 9.6/192 kB | 0.1/1.1 MB | 0/1.6 MB
+Progress (3): 9.6/192 kB | 0.1/1.1 MB | 0/1.6 MB
+Progress (3): 9.6/192 kB | 0.1/1.1 MB | 0/1.6 MB
+Progress (3): 9.6/192 kB | 0.1/1.1 MB | 0/1.6 MB
+Progress (3): 9.6/192 kB | 0.1/1.1 MB | 0/1.6 MB
+Progress (3): 9.6/192 kB | 0.1/1.1 MB | 0/1.6 MB
+Progress (3): 9.6/192 kB | 0.1/1.1 MB | 0/1.6 MB
+Progress (3): 9.6/192 kB | 0.1/1.1 MB | 0/1.6 MB
+Progress (3): 9.6/192 kB | 0.1/1.1 MB | 0/1.6 MB
+Progress (3): 9.6/192 kB | 0.1/1.1 MB | 0/1.6 MB
+Progress (3): 9.6/192 kB | 0.1/1.1 MB | 0/1.6 MB
+Progress (3): 9.6/192 kB | 0.1/1.1 MB | 0/1.6 MB
+Progress (3): 9.6/192 kB | 0.1/1.1 MB | 0/1.6 MB
+Progress (3): 9.6/192 kB | 0.1/1.1 MB | 0/1.6 MB
+Progress (3): 9.6/192 kB | 0.1/1.1 MB | 0/1.6 MB
+Progress (3): 9.6/192 kB | 0.1/1.1 MB | 0/1.6 MB
+Progress (3): 9.6/192 kB | 0.1/1.1 MB | 0/1.6 MB
+Progress (3): 9.6/192 kB | 0.1/1.1 MB | 0/1.6 MB
+Progress (3): 9.6/192 kB | 0.1/1.1 MB | 0/1.6 MB
+Progress (3): 9.6/192 kB | 0.1/1.1 MB | 0/1.6 MB
+Progress (3): 9.6/192 kB | 0.1/1.1 MB | 0/1.6 MB
+Progress (3): 9.6/192 kB | 0.1/1.1 MB | 0/1.6 MB
+Progress (3): 9.6/192 kB | 0.1/1.1 MB | 0.1/1.6 MB
+Progress (3): 11/192 kB | 0.1/1.1 MB | 0.1/1.6 MB 
+Progress (3): 11/192 kB | 0.1/1.1 MB | 0.1/1.6 MB
+Progress (3): 11/192 kB | 0.1/1.1 MB | 0.1/1.6 MB
+Progress (3): 11/192 kB | 0.1/1.1 MB | 0.1/1.6 MB
+Progress (3): 11/192 kB | 0.1/1.1 MB | 0.1/1.6 MB
+Progress (3): 12/192 kB | 0.1/1.1 MB | 0.1/1.6 MB
+Progress (3): 12/192 kB | 0.1/1.1 MB | 0.1/1.6 MB
+Progress (3): 14/192 kB | 0.1/1.1 MB | 0.1/1.6 MB
+Progress (3): 14/192 kB | 0.1/1.1 MB | 0.1/1.6 MB
+Progress (3): 15/192 kB | 0.1/1.1 MB | 0.1/1.6 MB
+Progress (3): 15/192 kB | 0.1/1.1 MB | 0.1/1.6 MB
+Progress (3): 16/192 kB | 0.1/1.1 MB | 0.1/1.6 MB
+Progress (3): 18/192 kB | 0.1/1.1 MB | 0.1/1.6 MB
+Progress (3): 19/192 kB | 0.1/1.1 MB | 0.1/1.6 MB
+Progress (3): 21/192 kB | 0.1/1.1 MB | 0.1/1.6 MB
+Progress (3): 22/192 kB | 0.1/1.1 MB | 0.1/1.6 MB
+Progress (3): 23/192 kB | 0.1/1.1 MB | 0.1/1.6 MB
+Progress (3): 25/192 kB | 0.1/1.1 MB | 0.1/1.6 MB
+Progress (3): 26/192 kB | 0.1/1.1 MB | 0.1/1.6 MB
+Progress (3): 27/192 kB | 0.1/1.1 MB | 0.1/1.6 MB
+Progress (3): 29/192 kB | 0.1/1.1 MB | 0.1/1.6 MB
+Progress (3): 30/192 kB | 0.1/1.1 MB | 0.1/1.6 MB
+Progress (3): 32/192 kB | 0.1/1.1 MB | 0.1/1.6 MB
+Progress (3): 33/192 kB | 0.1/1.1 MB | 0.1/1.6 MB
+Progress (3): 34/192 kB | 0.1/1.1 MB | 0.1/1.6 MB
+Progress (3): 36/192 kB | 0.1/1.1 MB | 0.1/1.6 MB
+Progress (3): 37/192 kB | 0.1/1.1 MB | 0.1/1.6 MB
+Progress (3): 38/192 kB | 0.1/1.1 MB | 0.1/1.6 MB
+Progress (3): 40/192 kB | 0.1/1.1 MB | 0.1/1.6 MB
+Progress (3): 41/192 kB | 0.1/1.1 MB | 0.1/1.6 MB
+Progress (3): 43/192 kB | 0.1/1.1 MB | 0.1/1.6 MB
+Progress (3): 44/192 kB | 0.1/1.1 MB | 0.1/1.6 MB
+Progress (3): 44/192 kB | 0.1/1.1 MB | 0.1/1.6 MB
+Progress (3): 44/192 kB | 0.1/1.1 MB | 0.1/1.6 MB
+Progress (3): 44/192 kB | 0.1/1.1 MB | 0.1/1.6 MB
+Progress (3): 44/192 kB | 0.1/1.1 MB | 0.1/1.6 MB
+Progress (3): 44/192 kB | 0.1/1.1 MB | 0.1/1.6 MB
+Progress (3): 44/192 kB | 0.1/1.1 MB | 0.1/1.6 MB
+Progress (3): 44/192 kB | 0.1/1.1 MB | 0.1/1.6 MB
+Progress (3): 44/192 kB | 0.1/1.1 MB | 0.1/1.6 MB
+Progress (3): 44/192 kB | 0.1/1.1 MB | 0.1/1.6 MB
+Progress (3): 44/192 kB | 0.1/1.1 MB | 0.1/1.6 MB
+Progress (3): 44/192 kB | 0.1/1.1 MB | 0.1/1.6 MB
+Progress (3): 44/192 kB | 0.1/1.1 MB | 0.1/1.6 MB
+Progress (3): 44/192 kB | 0.1/1.1 MB | 0.1/1.6 MB
+Progress (3): 44/192 kB | 0.1/1.1 MB | 0.1/1.6 MB
+Progress (3): 44/192 kB | 0.1/1.1 MB | 0.1/1.6 MB
+Progress (3): 44/192 kB | 0.1/1.1 MB | 0.1/1.6 MB
+Progress (3): 44/192 kB | 0.1/1.1 MB | 0.1/1.6 MB
+Progress (3): 44/192 kB | 0.1/1.1 MB | 0.1/1.6 MB
+Progress (3): 44/192 kB | 0.1/1.1 MB | 0.1/1.6 MB
+Progress (3): 44/192 kB | 0.1/1.1 MB | 0.1/1.6 MB
+Progress (3): 44/192 kB | 0.1/1.1 MB | 0.1/1.6 MB
+Progress (3): 44/192 kB | 0.1/1.1 MB | 0.1/1.6 MB
+Progress (3): 44/192 kB | 0.1/1.1 MB | 0.1/1.6 MB
+Progress (3): 44/192 kB | 0.1/1.1 MB | 0.1/1.6 MB
+Progress (3): 44/192 kB | 0.1/1.1 MB | 0.1/1.6 MB
+Progress (3): 44/192 kB | 0.1/1.1 MB | 0.1/1.6 MB
+Progress (3): 44/192 kB | 0.1/1.1 MB | 0.1/1.6 MB
+Progress (3): 44/192 kB | 0.1/1.1 MB | 0.1/1.6 MB
+Progress (3): 45/192 kB | 0.1/1.1 MB | 0.1/1.6 MB
+Progress (3): 47/192 kB | 0.1/1.1 MB | 0.1/1.6 MB
+Progress (3): 48/192 kB | 0.1/1.1 MB | 0.1/1.6 MB
+Progress (3): 49/192 kB | 0.1/1.1 MB | 0.1/1.6 MB
+Progress (3): 51/192 kB | 0.1/1.1 MB | 0.1/1.6 MB
+Progress (3): 52/192 kB | 0.1/1.1 MB | 0.1/1.6 MB
+Progress (3): 53/192 kB | 0.1/1.1 MB | 0.1/1.6 MB
+Progress (3): 53/192 kB | 0.1/1.1 MB | 0.1/1.6 MB
+Progress (3): 53/192 kB | 0.1/1.1 MB | 0.1/1.6 MB
+Progress (3): 53/192 kB | 0.1/1.1 MB | 0.1/1.6 MB
+Progress (3): 53/192 kB | 0.1/1.1 MB | 0.1/1.6 MB
+Progress (3): 55/192 kB | 0.1/1.1 MB | 0.1/1.6 MB
+Progress (3): 56/192 kB | 0.1/1.1 MB | 0.1/1.6 MB
+Progress (3): 58/192 kB | 0.1/1.1 MB | 0.1/1.6 MB
+Progress (3): 59/192 kB | 0.1/1.1 MB | 0.1/1.6 MB
+Progress (3): 60/192 kB | 0.1/1.1 MB | 0.1/1.6 MB
+Progress (3): 62/192 kB | 0.1/1.1 MB | 0.1/1.6 MB
+Progress (3): 63/192 kB | 0.1/1.1 MB | 0.1/1.6 MB
+Progress (3): 64/192 kB | 0.1/1.1 MB | 0.1/1.6 MB
+Progress (3): 66/192 kB | 0.1/1.1 MB | 0.1/1.6 MB
+Progress (3): 66/192 kB | 0.1/1.1 MB | 0.1/1.6 MB
+Progress (3): 66/192 kB | 0.1/1.1 MB | 0.1/1.6 MB
+Progress (3): 66/192 kB | 0.2/1.1 MB | 0.1/1.6 MB
+Progress (3): 66/192 kB | 0.2/1.1 MB | 0.1/1.6 MB
+Progress (3): 66/192 kB | 0.2/1.1 MB | 0.1/1.6 MB
+Progress (3): 66/192 kB | 0.2/1.1 MB | 0.1/1.6 MB
+Progress (3): 66/192 kB | 0.2/1.1 MB | 0.1/1.6 MB
+Progress (3): 66/192 kB | 0.2/1.1 MB | 0.1/1.6 MB
+Progress (3): 66/192 kB | 0.2/1.1 MB | 0.2/1.6 MB
+Progress (3): 66/192 kB | 0.2/1.1 MB | 0.2/1.6 MB
+Progress (3): 66/192 kB | 0.2/1.1 MB | 0.2/1.6 MB
+Progress (3): 66/192 kB | 0.2/1.1 MB | 0.2/1.6 MB
+Progress (3): 66/192 kB | 0.2/1.1 MB | 0.2/1.6 MB
+Progress (3): 66/192 kB | 0.2/1.1 MB | 0.2/1.6 MB
+Progress (3): 66/192 kB | 0.2/1.1 MB | 0.2/1.6 MB
+Progress (3): 66/192 kB | 0.2/1.1 MB | 0.2/1.6 MB
+Progress (3): 66/192 kB | 0.2/1.1 MB | 0.2/1.6 MB
+Progress (3): 66/192 kB | 0.2/1.1 MB | 0.2/1.6 MB
+Progress (3): 66/192 kB | 0.2/1.1 MB | 0.2/1.6 MB
+Progress (3): 66/192 kB | 0.2/1.1 MB | 0.2/1.6 MB
+Progress (3): 66/192 kB | 0.2/1.1 MB | 0.2/1.6 MB
+Progress (3): 66/192 kB | 0.2/1.1 MB | 0.2/1.6 MB
+Progress (3): 66/192 kB | 0.2/1.1 MB | 0.2/1.6 MB
+Progress (3): 66/192 kB | 0.2/1.1 MB | 0.2/1.6 MB
+Progress (3): 66/192 kB | 0.2/1.1 MB | 0.2/1.6 MB
+Progress (3): 66/192 kB | 0.2/1.1 MB | 0.2/1.6 MB
+Progress (3): 66/192 kB | 0.2/1.1 MB | 0.2/1.6 MB
+Progress (3): 66/192 kB | 0.2/1.1 MB | 0.2/1.6 MB
+Progress (3): 66/192 kB | 0.2/1.1 MB | 0.2/1.6 MB
+Progress (3): 66/192 kB | 0.2/1.1 MB | 0.2/1.6 MB
+Progress (3): 66/192 kB | 0.2/1.1 MB | 0.2/1.6 MB
+Progress (3): 66/192 kB | 0.2/1.1 MB | 0.2/1.6 MB
+Progress (3): 66/192 kB | 0.2/1.1 MB | 0.2/1.6 MB
+Progress (3): 66/192 kB | 0.2/1.1 MB | 0.2/1.6 MB
+Progress (3): 66/192 kB | 0.2/1.1 MB | 0.2/1.6 MB
+Progress (3): 66/192 kB | 0.2/1.1 MB | 0.2/1.6 MB
+Progress (3): 66/192 kB | 0.2/1.1 MB | 0.2/1.6 MB
+Progress (3): 66/192 kB | 0.2/1.1 MB | 0.2/1.6 MB
+Progress (3): 66/192 kB | 0.2/1.1 MB | 0.2/1.6 MB
+Progress (3): 66/192 kB | 0.2/1.1 MB | 0.2/1.6 MB
+Progress (3): 66/192 kB | 0.2/1.1 MB | 0.2/1.6 MB
+Progress (3): 66/192 kB | 0.2/1.1 MB | 0.2/1.6 MB
+Progress (3): 66/192 kB | 0.2/1.1 MB | 0.2/1.6 MB
+Progress (3): 66/192 kB | 0.2/1.1 MB | 0.2/1.6 MB
+Progress (3): 66/192 kB | 0.2/1.1 MB | 0.2/1.6 MB
+Progress (3): 66/192 kB | 0.2/1.1 MB | 0.2/1.6 MB
+Progress (3): 66/192 kB | 0.2/1.1 MB | 0.2/1.6 MB
+Progress (3): 66/192 kB | 0.2/1.1 MB | 0.2/1.6 MB
+Progress (3): 66/192 kB | 0.2/1.1 MB | 0.3/1.6 MB
+Progress (3): 70/192 kB | 0.2/1.1 MB | 0.3/1.6 MB
+Progress (3): 74/192 kB | 0.2/1.1 MB | 0.3/1.6 MB
+Progress (3): 78/192 kB | 0.2/1.1 MB | 0.3/1.6 MB
+Progress (3): 82/192 kB | 0.2/1.1 MB | 0.3/1.6 MB
+Progress (3): 82/192 kB | 0.2/1.1 MB | 0.3/1.6 MB
+Progress (3): 82/192 kB | 0.2/1.1 MB | 0.3/1.6 MB
+Progress (3): 82/192 kB | 0.2/1.1 MB | 0.3/1.6 MB
+Progress (3): 82/192 kB | 0.2/1.1 MB | 0.3/1.6 MB
+Progress (3): 82/192 kB | 0.2/1.1 MB | 0.3/1.6 MB
+Progress (3): 82/192 kB | 0.2/1.1 MB | 0.3/1.6 MB
+Progress (3): 82/192 kB | 0.2/1.1 MB | 0.3/1.6 MB
+Progress (3): 82/192 kB | 0.2/1.1 MB | 0.3/1.6 MB
+Progress (3): 82/192 kB | 0.2/1.1 MB | 0.3/1.6 MB
+Progress (3): 82/192 kB | 0.2/1.1 MB | 0.3/1.6 MB
+Progress (3): 82/192 kB | 0.2/1.1 MB | 0.3/1.6 MB
+Progress (3): 86/192 kB | 0.2/1.1 MB | 0.3/1.6 MB
+Progress (3): 90/192 kB | 0.2/1.1 MB | 0.3/1.6 MB
+Progress (3): 94/192 kB | 0.2/1.1 MB | 0.3/1.6 MB
+Progress (3): 99/192 kB | 0.2/1.1 MB | 0.3/1.6 MB
+Progress (3): 99/192 kB | 0.2/1.1 MB | 0.3/1.6 MB
+Progress (3): 99/192 kB | 0.2/1.1 MB | 0.3/1.6 MB
+Progress (3): 99/192 kB | 0.2/1.1 MB | 0.3/1.6 MB
+Progress (3): 99/192 kB | 0.2/1.1 MB | 0.3/1.6 MB
+Progress (3): 99/192 kB | 0.2/1.1 MB | 0.3/1.6 MB
+Progress (3): 99/192 kB | 0.2/1.1 MB | 0.3/1.6 MB
+Progress (3): 99/192 kB | 0.2/1.1 MB | 0.3/1.6 MB
+Progress (3): 99/192 kB | 0.2/1.1 MB | 0.3/1.6 MB
+Progress (3): 99/192 kB | 0.2/1.1 MB | 0.3/1.6 MB
+Progress (3): 99/192 kB | 0.2/1.1 MB | 0.3/1.6 MB
+Progress (3): 99/192 kB | 0.3/1.1 MB | 0.3/1.6 MB
+Progress (3): 99/192 kB | 0.3/1.1 MB | 0.3/1.6 MB
+Progress (3): 99/192 kB | 0.3/1.1 MB | 0.3/1.6 MB
+Progress (3): 99/192 kB | 0.3/1.1 MB | 0.3/1.6 MB
+Progress (3): 99/192 kB | 0.3/1.1 MB | 0.3/1.6 MB
+Progress (3): 99/192 kB | 0.3/1.1 MB | 0.3/1.6 MB
+Progress (3): 99/192 kB | 0.3/1.1 MB | 0.3/1.6 MB
+Progress (3): 99/192 kB | 0.3/1.1 MB | 0.3/1.6 MB
+Progress (3): 99/192 kB | 0.3/1.1 MB | 0.3/1.6 MB
+Progress (3): 99/192 kB | 0.3/1.1 MB | 0.3/1.6 MB
+Progress (3): 99/192 kB | 0.3/1.1 MB | 0.3/1.6 MB
+Progress (3): 99/192 kB | 0.3/1.1 MB | 0.3/1.6 MB
+Progress (3): 99/192 kB | 0.3/1.1 MB | 0.3/1.6 MB
+Progress (3): 99/192 kB | 0.3/1.1 MB | 0.3/1.6 MB
+Progress (3): 99/192 kB | 0.3/1.1 MB | 0.3/1.6 MB
+Progress (3): 99/192 kB | 0.3/1.1 MB | 0.4/1.6 MB
+Progress (3): 99/192 kB | 0.3/1.1 MB | 0.4/1.6 MB
+Progress (3): 99/192 kB | 0.3/1.1 MB | 0.4/1.6 MB
+Progress (3): 99/192 kB | 0.3/1.1 MB | 0.4/1.6 MB
+Progress (3): 99/192 kB | 0.3/1.1 MB | 0.4/1.6 MB
+Progress (3): 99/192 kB | 0.3/1.1 MB | 0.4/1.6 MB
+Progress (3): 99/192 kB | 0.3/1.1 MB | 0.4/1.6 MB
+Progress (3): 99/192 kB | 0.3/1.1 MB | 0.4/1.6 MB
+Progress (3): 99/192 kB | 0.3/1.1 MB | 0.4/1.6 MB
+Progress (3): 99/192 kB | 0.3/1.1 MB | 0.4/1.6 MB
+Progress (3): 99/192 kB | 0.3/1.1 MB | 0.4/1.6 MB
+Progress (3): 99/192 kB | 0.3/1.1 MB | 0.4/1.6 MB
+Progress (3): 99/192 kB | 0.3/1.1 MB | 0.4/1.6 MB
+Progress (3): 99/192 kB | 0.3/1.1 MB | 0.4/1.6 MB
+Progress (3): 99/192 kB | 0.3/1.1 MB | 0.4/1.6 MB
+Progress (3): 103/192 kB | 0.3/1.1 MB | 0.4/1.6 MB
+Progress (3): 107/192 kB | 0.3/1.1 MB | 0.4/1.6 MB
+Progress (3): 111/192 kB | 0.3/1.1 MB | 0.4/1.6 MB
+Progress (3): 115/192 kB | 0.3/1.1 MB | 0.4/1.6 MB
+Progress (3): 115/192 kB | 0.3/1.1 MB | 0.4/1.6 MB
+Progress (3): 115/192 kB | 0.3/1.1 MB | 0.4/1.6 MB
+Progress (3): 115/192 kB | 0.3/1.1 MB | 0.4/1.6 MB
+Progress (3): 115/192 kB | 0.3/1.1 MB | 0.4/1.6 MB
+Progress (3): 115/192 kB | 0.3/1.1 MB | 0.4/1.6 MB
+Progress (3): 115/192 kB | 0.3/1.1 MB | 0.4/1.6 MB
+Progress (3): 115/192 kB | 0.3/1.1 MB | 0.4/1.6 MB
+Progress (3): 115/192 kB | 0.3/1.1 MB | 0.4/1.6 MB
+Progress (3): 115/192 kB | 0.3/1.1 MB | 0.4/1.6 MB
+Progress (3): 115/192 kB | 0.3/1.1 MB | 0.5/1.6 MB
+Progress (3): 115/192 kB | 0.3/1.1 MB | 0.5/1.6 MB
+Progress (3): 115/192 kB | 0.3/1.1 MB | 0.5/1.6 MB
+Progress (3): 115/192 kB | 0.3/1.1 MB | 0.5/1.6 MB
+Progress (3): 115/192 kB | 0.3/1.1 MB | 0.5/1.6 MB
+Progress (3): 115/192 kB | 0.3/1.1 MB | 0.5/1.6 MB
+Progress (3): 115/192 kB | 0.3/1.1 MB | 0.5/1.6 MB
+Progress (3): 115/192 kB | 0.3/1.1 MB | 0.5/1.6 MB
+Progress (3): 115/192 kB | 0.3/1.1 MB | 0.5/1.6 MB
+Progress (3): 115/192 kB | 0.3/1.1 MB | 0.5/1.6 MB
+Progress (3): 115/192 kB | 0.3/1.1 MB | 0.5/1.6 MB
+Progress (3): 115/192 kB | 0.3/1.1 MB | 0.5/1.6 MB
+Progress (3): 115/192 kB | 0.3/1.1 MB | 0.5/1.6 MB
+Progress (3): 115/192 kB | 0.3/1.1 MB | 0.5/1.6 MB
+Progress (3): 115/192 kB | 0.3/1.1 MB | 0.5/1.6 MB
+Progress (3): 115/192 kB | 0.3/1.1 MB | 0.5/1.6 MB
+Progress (3): 115/192 kB | 0.3/1.1 MB | 0.5/1.6 MB
+Progress (3): 115/192 kB | 0.3/1.1 MB | 0.5/1.6 MB
+Progress (3): 115/192 kB | 0.3/1.1 MB | 0.5/1.6 MB
+Progress (3): 115/192 kB | 0.3/1.1 MB | 0.5/1.6 MB
+Progress (3): 115/192 kB | 0.3/1.1 MB | 0.5/1.6 MB
+Progress (3): 115/192 kB | 0.3/1.1 MB | 0.5/1.6 MB
+Progress (3): 115/192 kB | 0.3/1.1 MB | 0.5/1.6 MB
+Progress (3): 115/192 kB | 0.3/1.1 MB | 0.5/1.6 MB
+Progress (3): 115/192 kB | 0.3/1.1 MB | 0.5/1.6 MB
+Progress (3): 115/192 kB | 0.3/1.1 MB | 0.5/1.6 MB
+Progress (3): 115/192 kB | 0.3/1.1 MB | 0.5/1.6 MB
+Progress (3): 115/192 kB | 0.3/1.1 MB | 0.5/1.6 MB
+Progress (3): 115/192 kB | 0.3/1.1 MB | 0.5/1.6 MB
+Progress (3): 115/192 kB | 0.3/1.1 MB | 0.5/1.6 MB
+Progress (3): 115/192 kB | 0.3/1.1 MB | 0.5/1.6 MB
+Progress (3): 115/192 kB | 0.3/1.1 MB | 0.5/1.6 MB
+Progress (3): 115/192 kB | 0.3/1.1 MB | 0.5/1.6 MB
+Progress (3): 115/192 kB | 0.3/1.1 MB | 0.6/1.6 MB
+Progress (3): 115/192 kB | 0.3/1.1 MB | 0.6/1.6 MB
+Progress (3): 115/192 kB | 0.3/1.1 MB | 0.6/1.6 MB
+Progress (3): 115/192 kB | 0.3/1.1 MB | 0.6/1.6 MB
+Progress (3): 115/192 kB | 0.3/1.1 MB | 0.6/1.6 MB
+Progress (3): 115/192 kB | 0.3/1.1 MB | 0.6/1.6 MB
+Progress (3): 115/192 kB | 0.3/1.1 MB | 0.6/1.6 MB
+Progress (3): 115/192 kB | 0.3/1.1 MB | 0.6/1.6 MB
+Progress (3): 115/192 kB | 0.3/1.1 MB | 0.6/1.6 MB
+Progress (3): 115/192 kB | 0.3/1.1 MB | 0.6/1.6 MB
+Progress (3): 115/192 kB | 0.3/1.1 MB | 0.6/1.6 MB
+Progress (3): 115/192 kB | 0.3/1.1 MB | 0.6/1.6 MB
+Progress (3): 115/192 kB | 0.3/1.1 MB | 0.6/1.6 MB
+Progress (3): 115/192 kB | 0.3/1.1 MB | 0.6/1.6 MB
+Progress (3): 115/192 kB | 0.3/1.1 MB | 0.6/1.6 MB
+Progress (3): 115/192 kB | 0.3/1.1 MB | 0.6/1.6 MB
+Progress (3): 115/192 kB | 0.3/1.1 MB | 0.6/1.6 MB
+Progress (3): 115/192 kB | 0.3/1.1 MB | 0.6/1.6 MB
+Progress (3): 115/192 kB | 0.3/1.1 MB | 0.6/1.6 MB
+Progress (3): 115/192 kB | 0.3/1.1 MB | 0.6/1.6 MB
+Progress (3): 115/192 kB | 0.3/1.1 MB | 0.6/1.6 MB
+Progress (3): 115/192 kB | 0.3/1.1 MB | 0.6/1.6 MB
+Progress (3): 115/192 kB | 0.3/1.1 MB | 0.6/1.6 MB
+Progress (3): 115/192 kB | 0.3/1.1 MB | 0.6/1.6 MB
+Progress (3): 115/192 kB | 0.3/1.1 MB | 0.6/1.6 MB
+Progress (3): 115/192 kB | 0.3/1.1 MB | 0.6/1.6 MB
+Progress (3): 115/192 kB | 0.3/1.1 MB | 0.6/1.6 MB
+Progress (3): 115/192 kB | 0.3/1.1 MB | 0.6/1.6 MB
+Progress (3): 115/192 kB | 0.3/1.1 MB | 0.6/1.6 MB
+Progress (3): 115/192 kB | 0.4/1.1 MB | 0.6/1.6 MB
+Progress (3): 119/192 kB | 0.4/1.1 MB | 0.6/1.6 MB
+Progress (3): 123/192 kB | 0.4/1.1 MB | 0.6/1.6 MB
+Progress (3): 127/192 kB | 0.4/1.1 MB | 0.6/1.6 MB
+Progress (3): 131/192 kB | 0.4/1.1 MB | 0.6/1.6 MB
+Progress (3): 131/192 kB | 0.4/1.1 MB | 0.6/1.6 MB
+Progress (3): 131/192 kB | 0.4/1.1 MB | 0.6/1.6 MB
+Progress (3): 131/192 kB | 0.4/1.1 MB | 0.6/1.6 MB
+Progress (3): 131/192 kB | 0.4/1.1 MB | 0.6/1.6 MB
+Progress (3): 131/192 kB | 0.4/1.1 MB | 0.6/1.6 MB
+Progress (3): 131/192 kB | 0.4/1.1 MB | 0.6/1.6 MB
+Progress (3): 131/192 kB | 0.4/1.1 MB | 0.7/1.6 MB
+Progress (3): 131/192 kB | 0.4/1.1 MB | 0.7/1.6 MB
+Progress (3): 131/192 kB | 0.4/1.1 MB | 0.7/1.6 MB
+Progress (3): 131/192 kB | 0.4/1.1 MB | 0.7/1.6 MB
+Progress (3): 131/192 kB | 0.4/1.1 MB | 0.7/1.6 MB
+Progress (3): 131/192 kB | 0.4/1.1 MB | 0.7/1.6 MB
+Progress (3): 131/192 kB | 0.4/1.1 MB | 0.7/1.6 MB
+Progress (3): 131/192 kB | 0.4/1.1 MB | 0.7/1.6 MB
+Progress (3): 131/192 kB | 0.4/1.1 MB | 0.7/1.6 MB
+Progress (3): 131/192 kB | 0.4/1.1 MB | 0.7/1.6 MB
+Progress (3): 131/192 kB | 0.4/1.1 MB | 0.7/1.6 MB
+Progress (3): 131/192 kB | 0.4/1.1 MB | 0.7/1.6 MB
+Progress (3): 131/192 kB | 0.4/1.1 MB | 0.7/1.6 MB
+Progress (3): 131/192 kB | 0.4/1.1 MB | 0.7/1.6 MB
+Progress (3): 131/192 kB | 0.4/1.1 MB | 0.7/1.6 MB
+Progress (3): 131/192 kB | 0.4/1.1 MB | 0.7/1.6 MB
+Progress (3): 131/192 kB | 0.4/1.1 MB | 0.7/1.6 MB
+Progress (3): 131/192 kB | 0.4/1.1 MB | 0.7/1.6 MB
+Progress (3): 131/192 kB | 0.4/1.1 MB | 0.7/1.6 MB
+Progress (3): 131/192 kB | 0.4/1.1 MB | 0.7/1.6 MB
+Progress (3): 131/192 kB | 0.4/1.1 MB | 0.7/1.6 MB
+Progress (3): 131/192 kB | 0.4/1.1 MB | 0.7/1.6 MB
+Progress (3): 131/192 kB | 0.4/1.1 MB | 0.7/1.6 MB
+Progress (3): 131/192 kB | 0.4/1.1 MB | 0.7/1.6 MB
+Progress (3): 131/192 kB | 0.4/1.1 MB | 0.7/1.6 MB
+Progress (3): 131/192 kB | 0.4/1.1 MB | 0.8/1.6 MB
+Progress (3): 131/192 kB | 0.4/1.1 MB | 0.8/1.6 MB
+Progress (3): 131/192 kB | 0.4/1.1 MB | 0.8/1.6 MB
+Progress (3): 131/192 kB | 0.4/1.1 MB | 0.8/1.6 MB
+Progress (3): 131/192 kB | 0.4/1.1 MB | 0.8/1.6 MB
+Progress (3): 131/192 kB | 0.4/1.1 MB | 0.8/1.6 MB
+Progress (3): 131/192 kB | 0.4/1.1 MB | 0.8/1.6 MB
+Progress (3): 131/192 kB | 0.4/1.1 MB | 0.8/1.6 MB
+Progress (3): 131/192 kB | 0.4/1.1 MB | 0.8/1.6 MB
+Progress (3): 131/192 kB | 0.4/1.1 MB | 0.8/1.6 MB
+Progress (3): 131/192 kB | 0.4/1.1 MB | 0.8/1.6 MB
+Progress (3): 131/192 kB | 0.4/1.1 MB | 0.8/1.6 MB
+Progress (3): 131/192 kB | 0.4/1.1 MB | 0.8/1.6 MB
+Progress (3): 131/192 kB | 0.4/1.1 MB | 0.8/1.6 MB
+Progress (3): 131/192 kB | 0.4/1.1 MB | 0.8/1.6 MB
+Progress (3): 131/192 kB | 0.4/1.1 MB | 0.8/1.6 MB
+Progress (3): 131/192 kB | 0.4/1.1 MB | 0.8/1.6 MB
+Progress (3): 131/192 kB | 0.4/1.1 MB | 0.8/1.6 MB
+Progress (3): 131/192 kB | 0.4/1.1 MB | 0.8/1.6 MB
+Progress (3): 131/192 kB | 0.4/1.1 MB | 0.8/1.6 MB
+Progress (3): 131/192 kB | 0.4/1.1 MB | 0.8/1.6 MB
+Progress (3): 131/192 kB | 0.4/1.1 MB | 0.8/1.6 MB
+Progress (3): 131/192 kB | 0.4/1.1 MB | 0.8/1.6 MB
+Progress (3): 131/192 kB | 0.4/1.1 MB | 0.8/1.6 MB
+Progress (3): 131/192 kB | 0.4/1.1 MB | 0.8/1.6 MB
+Progress (3): 131/192 kB | 0.4/1.1 MB | 0.9/1.6 MB
+Progress (3): 131/192 kB | 0.4/1.1 MB | 0.9/1.6 MB
+Progress (3): 131/192 kB | 0.4/1.1 MB | 0.9/1.6 MB
+Progress (3): 131/192 kB | 0.4/1.1 MB | 0.9/1.6 MB
+Progress (3): 131/192 kB | 0.4/1.1 MB | 0.9/1.6 MB
+Progress (3): 131/192 kB | 0.4/1.1 MB | 0.9/1.6 MB
+Progress (3): 131/192 kB | 0.4/1.1 MB | 0.9/1.6 MB
+Progress (3): 131/192 kB | 0.4/1.1 MB | 0.9/1.6 MB
+Progress (3): 131/192 kB | 0.4/1.1 MB | 0.9/1.6 MB
+Progress (3): 131/192 kB | 0.4/1.1 MB | 0.9/1.6 MB
+Progress (3): 131/192 kB | 0.4/1.1 MB | 0.9/1.6 MB
+Progress (3): 131/192 kB | 0.4/1.1 MB | 0.9/1.6 MB
+Progress (3): 131/192 kB | 0.4/1.1 MB | 0.9/1.6 MB
+Progress (3): 131/192 kB | 0.4/1.1 MB | 0.9/1.6 MB
+Progress (3): 131/192 kB | 0.4/1.1 MB | 0.9/1.6 MB
+Progress (3): 131/192 kB | 0.4/1.1 MB | 0.9/1.6 MB
+Progress (3): 131/192 kB | 0.4/1.1 MB | 0.9/1.6 MB
+Progress (3): 131/192 kB | 0.4/1.1 MB | 0.9/1.6 MB
+Progress (3): 131/192 kB | 0.4/1.1 MB | 0.9/1.6 MB
+Progress (3): 135/192 kB | 0.4/1.1 MB | 0.9/1.6 MB
+Progress (3): 140/192 kB | 0.4/1.1 MB | 0.9/1.6 MB
+Progress (3): 144/192 kB | 0.4/1.1 MB | 0.9/1.6 MB
+Progress (3): 148/192 kB | 0.4/1.1 MB | 0.9/1.6 MB
+Progress (3): 148/192 kB | 0.4/1.1 MB | 0.9/1.6 MB
+Progress (3): 148/192 kB | 0.4/1.1 MB | 0.9/1.6 MB
+Progress (3): 148/192 kB | 0.4/1.1 MB | 0.9/1.6 MB
+Progress (3): 148/192 kB | 0.4/1.1 MB | 0.9/1.6 MB
+Progress (3): 148/192 kB | 0.4/1.1 MB | 0.9/1.6 MB
+Progress (3): 148/192 kB | 0.4/1.1 MB | 1.0/1.6 MB
+Progress (3): 148/192 kB | 0.4/1.1 MB | 1.0/1.6 MB
+Progress (3): 148/192 kB | 0.4/1.1 MB | 1.0/1.6 MB
+Progress (3): 148/192 kB | 0.4/1.1 MB | 1.0/1.6 MB
+Progress (3): 148/192 kB | 0.4/1.1 MB | 1.0/1.6 MB
+Progress (3): 148/192 kB | 0.4/1.1 MB | 1.0/1.6 MB
+Progress (3): 148/192 kB | 0.4/1.1 MB | 1.0/1.6 MB
+Progress (3): 148/192 kB | 0.4/1.1 MB | 1.0/1.6 MB
+Progress (3): 148/192 kB | 0.4/1.1 MB | 1.0/1.6 MB
+Progress (3): 148/192 kB | 0.4/1.1 MB | 1.0/1.6 MB
+Progress (3): 148/192 kB | 0.4/1.1 MB | 1.0/1.6 MB
+Progress (3): 148/192 kB | 0.4/1.1 MB | 1.0/1.6 MB
+Progress (3): 148/192 kB | 0.4/1.1 MB | 1.0/1.6 MB
+Progress (3): 148/192 kB | 0.4/1.1 MB | 1.0/1.6 MB
+Progress (3): 148/192 kB | 0.4/1.1 MB | 1.0/1.6 MB
+Progress (3): 148/192 kB | 0.4/1.1 MB | 1.0/1.6 MB
+Progress (3): 148/192 kB | 0.4/1.1 MB | 1.0/1.6 MB
+Progress (3): 148/192 kB | 0.4/1.1 MB | 1.0/1.6 MB
+Progress (3): 148/192 kB | 0.4/1.1 MB | 1.0/1.6 MB
+Progress (3): 148/192 kB | 0.4/1.1 MB | 1.0/1.6 MB
+Progress (3): 148/192 kB | 0.4/1.1 MB | 1.0/1.6 MB
+Progress (3): 148/192 kB | 0.4/1.1 MB | 1.0/1.6 MB
+Progress (3): 148/192 kB | 0.4/1.1 MB | 1.0/1.6 MB
+Progress (3): 148/192 kB | 0.4/1.1 MB | 1.0/1.6 MB
+Progress (3): 148/192 kB | 0.4/1.1 MB | 1.0/1.6 MB
+Progress (3): 148/192 kB | 0.4/1.1 MB | 1.1/1.6 MB
+Progress (3): 148/192 kB | 0.4/1.1 MB | 1.1/1.6 MB
+Progress (3): 148/192 kB | 0.4/1.1 MB | 1.1/1.6 MB
+Progress (3): 148/192 kB | 0.4/1.1 MB | 1.1/1.6 MB
+Progress (3): 148/192 kB | 0.4/1.1 MB | 1.1/1.6 MB
+Progress (3): 148/192 kB | 0.4/1.1 MB | 1.1/1.6 MB
+Progress (3): 148/192 kB | 0.4/1.1 MB | 1.1/1.6 MB
+Progress (3): 148/192 kB | 0.4/1.1 MB | 1.1/1.6 MB
+Progress (3): 148/192 kB | 0.4/1.1 MB | 1.1/1.6 MB
+Progress (3): 148/192 kB | 0.4/1.1 MB | 1.1/1.6 MB
+Progress (3): 148/192 kB | 0.4/1.1 MB | 1.1/1.6 MB
+Progress (3): 148/192 kB | 0.4/1.1 MB | 1.1/1.6 MB
+Progress (3): 148/192 kB | 0.4/1.1 MB | 1.1/1.6 MB
+Progress (3): 148/192 kB | 0.4/1.1 MB | 1.1/1.6 MB
+Progress (3): 148/192 kB | 0.4/1.1 MB | 1.1/1.6 MB
+Progress (3): 148/192 kB | 0.4/1.1 MB | 1.1/1.6 MB
+Progress (3): 148/192 kB | 0.4/1.1 MB | 1.1/1.6 MB
+Progress (3): 148/192 kB | 0.4/1.1 MB | 1.1/1.6 MB
+Progress (3): 148/192 kB | 0.4/1.1 MB | 1.1/1.6 MB
+Progress (3): 148/192 kB | 0.4/1.1 MB | 1.1/1.6 MB
+Progress (3): 148/192 kB | 0.4/1.1 MB | 1.1/1.6 MB
+Progress (3): 148/192 kB | 0.4/1.1 MB | 1.1/1.6 MB
+Progress (3): 148/192 kB | 0.4/1.1 MB | 1.1/1.6 MB
+Progress (3): 148/192 kB | 0.4/1.1 MB | 1.1/1.6 MB
+Progress (3): 148/192 kB | 0.4/1.1 MB | 1.2/1.6 MB
+Progress (3): 148/192 kB | 0.4/1.1 MB | 1.2/1.6 MB
+Progress (3): 148/192 kB | 0.4/1.1 MB | 1.2/1.6 MB
+Progress (3): 148/192 kB | 0.4/1.1 MB | 1.2/1.6 MB
+Progress (3): 148/192 kB | 0.4/1.1 MB | 1.2/1.6 MB
+Progress (3): 148/192 kB | 0.4/1.1 MB | 1.2/1.6 MB
+Progress (3): 148/192 kB | 0.4/1.1 MB | 1.2/1.6 MB
+Progress (3): 148/192 kB | 0.4/1.1 MB | 1.2/1.6 MB
+Progress (3): 148/192 kB | 0.4/1.1 MB | 1.2/1.6 MB
+Progress (3): 148/192 kB | 0.4/1.1 MB | 1.2/1.6 MB
+Progress (3): 148/192 kB | 0.4/1.1 MB | 1.2/1.6 MB
+Progress (3): 148/192 kB | 0.4/1.1 MB | 1.2/1.6 MB
+Progress (3): 148/192 kB | 0.4/1.1 MB | 1.2/1.6 MB
+Progress (3): 148/192 kB | 0.4/1.1 MB | 1.2/1.6 MB
+Progress (3): 148/192 kB | 0.4/1.1 MB | 1.2/1.6 MB
+Progress (3): 148/192 kB | 0.4/1.1 MB | 1.2/1.6 MB
+Progress (3): 148/192 kB | 0.4/1.1 MB | 1.2/1.6 MB
+Progress (3): 148/192 kB | 0.4/1.1 MB | 1.2/1.6 MB
+Progress (3): 148/192 kB | 0.4/1.1 MB | 1.2/1.6 MB
+Progress (3): 148/192 kB | 0.4/1.1 MB | 1.2/1.6 MB
+Progress (3): 148/192 kB | 0.4/1.1 MB | 1.2/1.6 MB
+Progress (3): 148/192 kB | 0.4/1.1 MB | 1.2/1.6 MB
+Progress (3): 148/192 kB | 0.4/1.1 MB | 1.2/1.6 MB
+Progress (3): 148/192 kB | 0.4/1.1 MB | 1.2/1.6 MB
+Progress (3): 148/192 kB | 0.4/1.1 MB | 1.2/1.6 MB
+Progress (3): 148/192 kB | 0.4/1.1 MB | 1.2/1.6 MB
+Progress (3): 148/192 kB | 0.4/1.1 MB | 1.2/1.6 MB
+Progress (3): 148/192 kB | 0.4/1.1 MB | 1.2/1.6 MB
+Progress (3): 148/192 kB | 0.4/1.1 MB | 1.2/1.6 MB
+Progress (3): 148/192 kB | 0.4/1.1 MB | 1.2/1.6 MB
+Progress (3): 148/192 kB | 0.4/1.1 MB | 1.2/1.6 MB
+Progress (3): 148/192 kB | 0.4/1.1 MB | 1.2/1.6 MB
+Progress (3): 148/192 kB | 0.4/1.1 MB | 1.2/1.6 MB
+Progress (3): 148/192 kB | 0.4/1.1 MB | 1.2/1.6 MB
+Progress (3): 148/192 kB | 0.4/1.1 MB | 1.2/1.6 MB
+Progress (3): 148/192 kB | 0.4/1.1 MB | 1.2/1.6 MB
+Progress (3): 148/192 kB | 0.4/1.1 MB | 1.2/1.6 MB
+Progress (3): 148/192 kB | 0.4/1.1 MB | 1.2/1.6 MB
+Progress (3): 148/192 kB | 0.4/1.1 MB | 1.2/1.6 MB
+Progress (3): 148/192 kB | 0.4/1.1 MB | 1.2/1.6 MB
+Progress (3): 148/192 kB | 0.4/1.1 MB | 1.2/1.6 MB
+Progress (3): 148/192 kB | 0.4/1.1 MB | 1.2/1.6 MB
+Progress (3): 148/192 kB | 0.4/1.1 MB | 1.2/1.6 MB
+Progress (3): 148/192 kB | 0.4/1.1 MB | 1.2/1.6 MB
+Progress (3): 148/192 kB | 0.4/1.1 MB | 1.3/1.6 MB
+Progress (3): 148/192 kB | 0.4/1.1 MB | 1.3/1.6 MB
+Progress (3): 148/192 kB | 0.4/1.1 MB | 1.3/1.6 MB
+Progress (3): 148/192 kB | 0.4/1.1 MB | 1.3/1.6 MB
+Progress (3): 148/192 kB | 0.4/1.1 MB | 1.3/1.6 MB
+Progress (3): 148/192 kB | 0.4/1.1 MB | 1.3/1.6 MB
+Progress (3): 148/192 kB | 0.4/1.1 MB | 1.3/1.6 MB
+Progress (3): 148/192 kB | 0.4/1.1 MB | 1.3/1.6 MB
+Progress (3): 148/192 kB | 0.4/1.1 MB | 1.3/1.6 MB
+Progress (3): 148/192 kB | 0.4/1.1 MB | 1.3/1.6 MB
+Progress (3): 148/192 kB | 0.4/1.1 MB | 1.3/1.6 MB
+Progress (3): 148/192 kB | 0.4/1.1 MB | 1.3/1.6 MB
+Progress (3): 148/192 kB | 0.4/1.1 MB | 1.3/1.6 MB
+Progress (3): 148/192 kB | 0.4/1.1 MB | 1.3/1.6 MB
+Progress (3): 148/192 kB | 0.4/1.1 MB | 1.3/1.6 MB
+Progress (3): 148/192 kB | 0.4/1.1 MB | 1.3/1.6 MB
+Progress (3): 148/192 kB | 0.4/1.1 MB | 1.3/1.6 MB
+Progress (3): 148/192 kB | 0.4/1.1 MB | 1.3/1.6 MB
+Progress (3): 152/192 kB | 0.4/1.1 MB | 1.3/1.6 MB
+Progress (3): 156/192 kB | 0.4/1.1 MB | 1.3/1.6 MB
+Progress (3): 160/192 kB | 0.4/1.1 MB | 1.3/1.6 MB
+Progress (3): 164/192 kB | 0.4/1.1 MB | 1.3/1.6 MB
+Progress (3): 164/192 kB | 0.4/1.1 MB | 1.3/1.6 MB
+Progress (3): 164/192 kB | 0.4/1.1 MB | 1.3/1.6 MB
+Progress (3): 164/192 kB | 0.4/1.1 MB | 1.3/1.6 MB
+Progress (3): 164/192 kB | 0.4/1.1 MB | 1.3/1.6 MB
+Progress (3): 164/192 kB | 0.4/1.1 MB | 1.3/1.6 MB
+Progress (3): 164/192 kB | 0.4/1.1 MB | 1.3/1.6 MB
+Progress (3): 164/192 kB | 0.4/1.1 MB | 1.3/1.6 MB
+Progress (3): 164/192 kB | 0.4/1.1 MB | 1.4/1.6 MB
+Progress (3): 164/192 kB | 0.4/1.1 MB | 1.4/1.6 MB
+Progress (3): 164/192 kB | 0.4/1.1 MB | 1.4/1.6 MB
+Progress (3): 164/192 kB | 0.4/1.1 MB | 1.4/1.6 MB
+Progress (3): 164/192 kB | 0.4/1.1 MB | 1.4/1.6 MB
+Progress (3): 164/192 kB | 0.4/1.1 MB | 1.4/1.6 MB
+Progress (3): 164/192 kB | 0.4/1.1 MB | 1.4/1.6 MB
+Progress (3): 164/192 kB | 0.4/1.1 MB | 1.4/1.6 MB
+Progress (3): 164/192 kB | 0.5/1.1 MB | 1.4/1.6 MB
+Progress (3): 164/192 kB | 0.5/1.1 MB | 1.4/1.6 MB
+Progress (3): 164/192 kB | 0.5/1.1 MB | 1.4/1.6 MB
+Progress (3): 164/192 kB | 0.5/1.1 MB | 1.4/1.6 MB
+Progress (3): 164/192 kB | 0.5/1.1 MB | 1.4/1.6 MB
+Progress (3): 164/192 kB | 0.5/1.1 MB | 1.4/1.6 MB
+Progress (3): 164/192 kB | 0.5/1.1 MB | 1.4/1.6 MB
+Progress (3): 164/192 kB | 0.5/1.1 MB | 1.4/1.6 MB
+Progress (3): 164/192 kB | 0.5/1.1 MB | 1.4/1.6 MB
+Progress (3): 164/192 kB | 0.5/1.1 MB | 1.4/1.6 MB
+Progress (3): 164/192 kB | 0.5/1.1 MB | 1.4/1.6 MB
+Progress (3): 164/192 kB | 0.5/1.1 MB | 1.4/1.6 MB
+Progress (3): 164/192 kB | 0.5/1.1 MB | 1.4/1.6 MB
+Progress (3): 164/192 kB | 0.5/1.1 MB | 1.4/1.6 MB
+Progress (3): 164/192 kB | 0.5/1.1 MB | 1.4/1.6 MB
+Progress (3): 164/192 kB | 0.5/1.1 MB | 1.4/1.6 MB
+Progress (3): 164/192 kB | 0.5/1.1 MB | 1.4/1.6 MB
+Progress (3): 164/192 kB | 0.5/1.1 MB | 1.4/1.6 MB
+Progress (3): 164/192 kB | 0.5/1.1 MB | 1.4/1.6 MB
+Progress (3): 164/192 kB | 0.5/1.1 MB | 1.4/1.6 MB
+Progress (3): 164/192 kB | 0.5/1.1 MB | 1.4/1.6 MB
+Progress (3): 164/192 kB | 0.5/1.1 MB | 1.4/1.6 MB
+Progress (3): 164/192 kB | 0.5/1.1 MB | 1.4/1.6 MB
+Progress (3): 164/192 kB | 0.5/1.1 MB | 1.4/1.6 MB
+Progress (3): 164/192 kB | 0.5/1.1 MB | 1.5/1.6 MB
+Progress (3): 164/192 kB | 0.5/1.1 MB | 1.5/1.6 MB
+Progress (3): 164/192 kB | 0.5/1.1 MB | 1.5/1.6 MB
+Progress (3): 164/192 kB | 0.5/1.1 MB | 1.5/1.6 MB
+Progress (3): 164/192 kB | 0.5/1.1 MB | 1.5/1.6 MB
+Progress (3): 164/192 kB | 0.5/1.1 MB | 1.5/1.6 MB
+Progress (3): 164/192 kB | 0.5/1.1 MB | 1.5/1.6 MB
+Progress (3): 164/192 kB | 0.5/1.1 MB | 1.5/1.6 MB
+Progress (3): 164/192 kB | 0.5/1.1 MB | 1.5/1.6 MB
+Progress (3): 164/192 kB | 0.5/1.1 MB | 1.5/1.6 MB
+Progress (3): 164/192 kB | 0.5/1.1 MB | 1.5/1.6 MB
+Progress (3): 164/192 kB | 0.5/1.1 MB | 1.5/1.6 MB
+Progress (3): 164/192 kB | 0.5/1.1 MB | 1.5/1.6 MB
+Progress (3): 164/192 kB | 0.5/1.1 MB | 1.5/1.6 MB
+Progress (3): 164/192 kB | 0.5/1.1 MB | 1.5/1.6 MB
+Progress (3): 164/192 kB | 0.5/1.1 MB | 1.5/1.6 MB
+Progress (3): 164/192 kB | 0.5/1.1 MB | 1.5/1.6 MB
+Progress (3): 164/192 kB | 0.5/1.1 MB | 1.5/1.6 MB
+Progress (3): 164/192 kB | 0.5/1.1 MB | 1.5/1.6 MB
+Progress (3): 164/192 kB | 0.5/1.1 MB | 1.5/1.6 MB
+Progress (3): 164/192 kB | 0.5/1.1 MB | 1.5/1.6 MB
+Progress (3): 164/192 kB | 0.5/1.1 MB | 1.5/1.6 MB
+Progress (3): 164/192 kB | 0.5/1.1 MB | 1.5/1.6 MB
+Progress (3): 164/192 kB | 0.5/1.1 MB | 1.5/1.6 MB
+Progress (3): 164/192 kB | 0.5/1.1 MB | 1.5/1.6 MB
+Progress (3): 164/192 kB | 0.5/1.1 MB | 1.6 MB    
+Progress (3): 164/192 kB | 0.5/1.1 MB | 1.6 MB
+Progress (3): 164/192 kB | 0.5/1.1 MB | 1.6 MB
+Progress (3): 164/192 kB | 0.5/1.1 MB | 1.6 MB
+Progress (3): 164/192 kB | 0.5/1.1 MB | 1.6 MB
+                                              
+Downloaded from central: https://repo.maven.apache.org/maven2/bouncycastle/bcprov-jdk14/138/bcprov-jdk14-138.jar (1.6 MB at 749 kB/s)
+Progress (2): 168/192 kB | 0.5/1.1 MB
+Progress (2): 172/192 kB | 0.5/1.1 MB
+Progress (2): 176/192 kB | 0.5/1.1 MB
+Progress (2): 180/192 kB | 0.5/1.1 MB
+Progress (2): 180/192 kB | 0.5/1.1 MB
+Progress (2): 180/192 kB | 0.5/1.1 MB
+Progress (2): 180/192 kB | 0.5/1.1 MB
+Progress (2): 180/192 kB | 0.5/1.1 MB
+Progress (2): 180/192 kB | 0.5/1.1 MB
+Progress (2): 180/192 kB | 0.5/1.1 MB
+Progress (2): 180/192 kB | 0.5/1.1 MB
+Progress (2): 180/192 kB | 0.5/1.1 MB
+Progress (2): 185/192 kB | 0.5/1.1 MB
+Progress (2): 189/192 kB | 0.5/1.1 MB
+Progress (2): 192 kB | 0.5/1.1 MB    
+                                 
+Downloaded from central: https://repo.maven.apache.org/maven2/bouncycastle/bcmail-jdk14/138/bcmail-jdk14-138.jar (192 kB at 78 kB/s)
+Progress (1): 0.5/1.1 MB
+Progress (1): 0.5/1.1 MB
+Progress (1): 0.5/1.1 MB
+Progress (1): 0.5/1.1 MB
+Progress (1): 0.5/1.1 MB
+Progress (1): 0.5/1.1 MB
+Progress (1): 0.5/1.1 MB
+Progress (1): 0.5/1.1 MB
+Progress (1): 0.6/1.1 MB
+Progress (1): 0.6/1.1 MB
+Progress (1): 0.6/1.1 MB
+Progress (1): 0.6/1.1 MB
+Progress (1): 0.6/1.1 MB
+Progress (1): 0.6/1.1 MB
+Progress (1): 0.6/1.1 MB
+Progress (1): 0.6/1.1 MB
+Progress (1): 0.6/1.1 MB
+Progress (1): 0.6/1.1 MB
+Progress (1): 0.6/1.1 MB
+Progress (1): 0.6/1.1 MB
+Progress (1): 0.6/1.1 MB
+Progress (1): 0.6/1.1 MB
+Progress (1): 0.6/1.1 MB
+Progress (1): 0.6/1.1 MB
+Progress (1): 0.6/1.1 MB
+Progress (1): 0.6/1.1 MB
+Progress (1): 0.6/1.1 MB
+Progress (1): 0.6/1.1 MB
+Progress (1): 0.6/1.1 MB
+Progress (1): 0.6/1.1 MB
+Progress (1): 0.6/1.1 MB
+Progress (1): 0.6/1.1 MB
+Progress (1): 0.7/1.1 MB
+Progress (1): 0.7/1.1 MB
+Progress (1): 0.7/1.1 MB
+Progress (1): 0.7/1.1 MB
+Progress (1): 0.7/1.1 MB
+Progress (1): 0.7/1.1 MB
+Progress (1): 0.7/1.1 MB
+Progress (1): 0.7/1.1 MB
+Progress (1): 0.7/1.1 MB
+Progress (1): 0.7/1.1 MB
+Progress (1): 0.7/1.1 MB
+Progress (1): 0.7/1.1 MB
+Progress (1): 0.7/1.1 MB
+Progress (1): 0.7/1.1 MB
+Progress (1): 0.7/1.1 MB
+Progress (1): 0.7/1.1 MB
+Progress (1): 0.7/1.1 MB
+Progress (1): 0.7/1.1 MB
+Progress (1): 0.7/1.1 MB
+Progress (1): 0.7/1.1 MB
+Progress (1): 0.7/1.1 MB
+Progress (1): 0.7/1.1 MB
+Progress (1): 0.7/1.1 MB
+Progress (1): 0.7/1.1 MB
+Progress (1): 0.7/1.1 MB
+Progress (1): 0.8/1.1 MB
+Progress (1): 0.8/1.1 MB
+Progress (1): 0.8/1.1 MB
+Progress (1): 0.8/1.1 MB
+Progress (1): 0.8/1.1 MB
+Progress (1): 0.8/1.1 MB
+Progress (1): 0.8/1.1 MB
+Progress (1): 0.8/1.1 MB
+Progress (1): 0.8/1.1 MB
+Progress (1): 0.8/1.1 MB
+Progress (1): 0.8/1.1 MB
+Progress (1): 0.8/1.1 MB
+Progress (1): 0.8/1.1 MB
+Progress (1): 0.8/1.1 MB
+Progress (1): 0.8/1.1 MB
+Progress (1): 0.8/1.1 MB
+Progress (1): 0.8/1.1 MB
+Progress (1): 0.8/1.1 MB
+Progress (1): 0.8/1.1 MB
+Progress (1): 0.8/1.1 MB
+Progress (1): 0.8/1.1 MB
+Progress (1): 0.8/1.1 MB
+Progress (1): 0.8/1.1 MB
+Progress (1): 0.8/1.1 MB
+Progress (1): 0.9/1.1 MB
+Progress (1): 0.9/1.1 MB
+Progress (1): 0.9/1.1 MB
+Progress (1): 0.9/1.1 MB
+Progress (1): 0.9/1.1 MB
+Progress (1): 0.9/1.1 MB
+Progress (1): 0.9/1.1 MB
+Progress (1): 0.9/1.1 MB
+Progress (1): 0.9/1.1 MB
+Progress (1): 0.9/1.1 MB
+Progress (1): 0.9/1.1 MB
+Progress (1): 0.9/1.1 MB
+Progress (1): 0.9/1.1 MB
+Progress (1): 0.9/1.1 MB
+Progress (1): 0.9/1.1 MB
+Progress (1): 0.9/1.1 MB
+Progress (1): 0.9/1.1 MB
+Progress (1): 0.9/1.1 MB
+Progress (1): 0.9/1.1 MB
+Progress (1): 0.9/1.1 MB
+Progress (1): 0.9/1.1 MB
+Progress (1): 0.9/1.1 MB
+Progress (1): 0.9/1.1 MB
+Progress (1): 0.9/1.1 MB
+Progress (1): 1.0/1.1 MB
+Progress (1): 1.0/1.1 MB
+Progress (1): 1.0/1.1 MB
+Progress (1): 1.0/1.1 MB
+Progress (1): 1.0/1.1 MB
+Progress (1): 1.0/1.1 MB
+Progress (1): 1.0/1.1 MB
+Progress (1): 1.0/1.1 MB
+Progress (1): 1.0/1.1 MB
+Progress (1): 1.0/1.1 MB
+Progress (1): 1.0/1.1 MB
+Progress (1): 1.0/1.1 MB
+Progress (1): 1.0/1.1 MB
+Progress (1): 1.0/1.1 MB
+Progress (1): 1.0/1.1 MB
+Progress (1): 1.0/1.1 MB
+Progress (1): 1.0/1.1 MB
+Progress (1): 1.0/1.1 MB
+Progress (1): 1.0/1.1 MB
+Progress (1): 1.0/1.1 MB
+Progress (1): 1.0/1.1 MB
+Progress (1): 1.0/1.1 MB
+Progress (1): 1.0/1.1 MB
+Progress (1): 1.0/1.1 MB
+Progress (1): 1.0/1.1 MB
+Progress (1): 1.1/1.1 MB
+Progress (1): 1.1/1.1 MB
+Progress (1): 1.1/1.1 MB
+Progress (1): 1.1/1.1 MB
+Progress (1): 1.1/1.1 MB
+Progress (1): 1.1/1.1 MB
+Progress (1): 1.1/1.1 MB
+Progress (1): 1.1/1.1 MB
+Progress (1): 1.1/1.1 MB
+Progress (1): 1.1/1.1 MB
+Progress (1): 1.1/1.1 MB
+Progress (1): 1.1/1.1 MB
+Progress (1): 1.1/1.1 MB
+Progress (1): 1.1/1.1 MB
+Progress (1): 1.1/1.1 MB
+Progress (1): 1.1/1.1 MB
+Progress (1): 1.1 MB    
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/com/lowagie/itext/2.1.5/itext-2.1.5.jar (1.1 MB at 196 kB/s)
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ jfreechart ---
+[INFO] Deleting ./jfreechart/target
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.0:enforce (enforce-maven) @ jfreechart ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.5:resources (default-resources) @ jfreechart ---
+[debug] execute contextualize
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 38 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.2:compile (default-compile) @ jfreechart ---
+[INFO] Compiling 600 source files to ./jfreechart/target/classes
+[INFO] 
+[INFO] --- maven-resources-plugin:2.5:testResources (default-testResources) @ jfreechart ---
+[debug] execute contextualize
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory ./jfreechart/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.2:testCompile (default-testCompile) @ jfreechart ---
+[INFO] Compiling 365 source files to ./jfreechart/target/test-classes
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] ./jfreechart/tests/org/jfree/chart/axis/PeriodAxisLabelInfoTest.java:[44,7] error: static import declarations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable static import declarations)
+./jfreechart/tests/org/jfree/chart/axis/PeriodAxisLabelInfoTest.java:[75,5] error: annotations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable annotations)
+./jfreechart/tests/org/jfree/chart/plot/ValueMarkerTest.java:[48,7] error: static import declarations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable static import declarations)
+./jfreechart/tests/org/jfree/chart/plot/ValueMarkerTest.java:[79,5] error: annotations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable annotations)
+./jfreechart/tests/org/jfree/chart/annotations/CategoryPointerAnnotationTest.java:[44,7] error: static import declarations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable static import declarations)
+./jfreechart/tests/org/jfree/chart/annotations/CategoryPointerAnnotationTest.java:[65,5] error: annotations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable annotations)
+./jfreechart/tests/org/jfree/chart/renderer/xy/XYStepAreaRendererTest.java:[47,7] error: static import declarations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable static import declarations)
+./jfreechart/tests/org/jfree/chart/renderer/xy/XYStepAreaRendererTest.java:[69,5] error: annotations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable annotations)
+./jfreechart/tests/org/jfree/data/time/WeekTest.java:[53,7] error: static import declarations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable static import declarations)
+./jfreechart/tests/org/jfree/data/time/WeekTest.java:[88,5] error: annotations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable annotations)
+./jfreechart/tests/org/jfree/chart/renderer/xy/XYDotRendererTest.java:[46,7] error: static import declarations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable static import declarations)
+./jfreechart/tests/org/jfree/chart/renderer/xy/XYDotRendererTest.java:[70,5] error: annotations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable annotations)
+./jfreechart/tests/org/jfree/data/xy/XYDataItemTest.java:[43,7] error: static import declarations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable static import declarations)
+./jfreechart/tests/org/jfree/data/xy/XYDataItemTest.java:[58,5] error: annotations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable annotations)
+./jfreechart/tests/org/jfree/chart/renderer/category/GradientBarPainterTest.java:[43,7] error: static import declarations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable static import declarations)
+./jfreechart/tests/org/jfree/chart/renderer/category/GradientBarPainterTest.java:[60,5] error: annotations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable annotations)
+./jfreechart/tests/org/jfree/chart/axis/CategoryAxis3DTest.java:[43,7] error: static import declarations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable static import declarations)
+./jfreechart/tests/org/jfree/chart/axis/CategoryAxis3DTest.java:[57,5] error: annotations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable annotations)
+./jfreechart/tests/org/jfree/chart/needle/PointerNeedleTest.java:[43,7] error: static import declarations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable static import declarations)
+./jfreechart/tests/org/jfree/chart/needle/PointerNeedleTest.java:[56,5] error: annotations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable annotations)
+./jfreechart/tests/org/jfree/chart/axis/DateTickTest.java:[43,7] error: static import declarations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable static import declarations)
+./jfreechart/tests/org/jfree/chart/axis/DateTickTest.java:[62,5] error: annotations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable annotations)
+./jfreechart/tests/org/jfree/data/xy/DefaultHighLowDatasetTest.java:[44,7] error: static import declarations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable static import declarations)
+./jfreechart/tests/org/jfree/data/xy/DefaultHighLowDatasetTest.java:[63,5] error: annotations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable annotations)
+./jfreechart/tests/org/jfree/data/general/DefaultHeatMapDatasetTest.java:[44,7] error: static import declarations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable static import declarations)
+./jfreechart/tests/org/jfree/data/general/DefaultHeatMapDatasetTest.java:[75,5] error: annotations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable annotations)
+./jfreechart/tests/org/jfree/chart/axis/StandardTickUnitSourceTest.java:[43,7] error: static import declarations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable static import declarations)
+./jfreechart/tests/org/jfree/chart/axis/StandardTickUnitSourceTest.java:[57,5] error: annotations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable annotations)
+./jfreechart/tests/org/jfree/chart/renderer/xy/XYLineAndShapeRendererTest.java:[47,7] error: static import declarations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable static import declarations)
+./jfreechart/tests/org/jfree/chart/renderer/xy/XYLineAndShapeRendererTest.java:[77,5] error: annotations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable annotations)
+./jfreechart/tests/org/jfree/chart/XYBarChartTest.java:[43,7] error: static import declarations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable static import declarations)
+./jfreechart/tests/org/jfree/chart/XYBarChartTest.java:[78,5] error: annotations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable annotations)
+./jfreechart/tests/org/jfree/chart/renderer/xy/GradientXYBarPainterTest.java:[43,7] error: static import declarations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable static import declarations)
+./jfreechart/tests/org/jfree/chart/renderer/xy/GradientXYBarPainterTest.java:[60,5] error: annotations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable annotations)
+./jfreechart/tests/org/jfree/chart/renderer/xy/StackedXYBarRendererTest.java:[46,7] error: static import declarations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable static import declarations)
+./jfreechart/tests/org/jfree/chart/renderer/xy/StackedXYBarRendererTest.java:[72,5] error: annotations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable annotations)
+./jfreechart/tests/org/jfree/chart/imagemap/StandardToolTipTagFragmentGeneratorTest.java:[43,7] error: static import declarations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable static import declarations)
+./jfreechart/tests/org/jfree/chart/imagemap/StandardToolTipTagFragmentGeneratorTest.java:[54,5] error: annotations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable annotations)
+./jfreechart/tests/org/jfree/data/gantt/TaskTest.java:[48,7] error: static import declarations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable static import declarations)
+./jfreechart/tests/org/jfree/data/gantt/TaskTest.java:[61,5] error: annotations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable annotations)
+./jfreechart/tests/org/jfree/chart/plot/CategoryPlotTest.java:[54,7] error: static import declarations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable static import declarations)
+./jfreechart/tests/org/jfree/chart/plot/CategoryPlotTest.java:[105,5] error: annotations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable annotations)
+./jfreechart/tests/org/jfree/data/time/ohlc/OHLCTest.java:[44,7] error: static import declarations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable static import declarations)
+./jfreechart/tests/org/jfree/data/time/ohlc/OHLCTest.java:[59,5] error: annotations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable annotations)
+./jfreechart/tests/org/jfree/data/xy/XYIntervalSeriesTest.java:[45,7] error: static import declarations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable static import declarations)
+./jfreechart/tests/org/jfree/data/xy/XYIntervalSeriesTest.java:[76,5] error: annotations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable annotations)
+./jfreechart/tests/org/jfree/chart/axis/CategoryAnchorTest.java:[44,7] error: static import declarations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable static import declarations)
+./jfreechart/tests/org/jfree/chart/axis/CategoryAnchorTest.java:[59,5] error: annotations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable annotations)
+./jfreechart/tests/org/jfree/data/statistics/SimpleHistogramDatasetTest.java:[44,7] error: static import declarations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable static import declarations)
+./jfreechart/tests/org/jfree/data/statistics/SimpleHistogramDatasetTest.java:[59,5] error: annotations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable annotations)
+./jfreechart/tests/org/jfree/data/xy/XYIntervalDataItemTest.java:[43,7] error: static import declarations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable static import declarations)
+./jfreechart/tests/org/jfree/data/xy/XYIntervalDataItemTest.java:[59,5] error: annotations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable annotations)
+./jfreechart/tests/org/jfree/chart/needle/LongNeedleTest.java:[43,7] error: static import declarations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable static import declarations)
+./jfreechart/tests/org/jfree/chart/needle/LongNeedleTest.java:[56,5] error: annotations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable annotations)
+./jfreechart/tests/org/jfree/chart/urls/StandardXYURLGeneratorTest.java:[44,7] error: static import declarations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable static import declarations)
+./jfreechart/tests/org/jfree/chart/urls/StandardXYURLGeneratorTest.java:[60,5] error: annotations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable annotations)
+./jfreechart/tests/org/jfree/data/time/TimeSeriesCollectionTest.java:[47,7] error: static import declarations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable static import declarations)
+./jfreechart/tests/org/jfree/data/time/TimeSeriesCollectionTest.java:[69,5] error: annotations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable annotations)
+./jfreechart/tests/org/jfree/data/DomainOrderTest.java:[45,7] error: static import declarations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable static import declarations)
+./jfreechart/tests/org/jfree/data/DomainOrderTest.java:[58,5] error: annotations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable annotations)
+./jfreechart/tests/org/jfree/data/DefaultKeyedValues2DTest.java:[49,7] error: static import declarations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable static import declarations)
+./jfreechart/tests/org/jfree/data/DefaultKeyedValues2DTest.java:[64,5] error: annotations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable annotations)
+./jfreechart/tests/org/jfree/chart/renderer/category/StackedAreaRendererTest.java:[45,7] error: static import declarations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable static import declarations)
+./jfreechart/tests/org/jfree/chart/renderer/category/StackedAreaRendererTest.java:[65,5] error: annotations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable annotations)
+./jfreechart/tests/org/jfree/data/function/NormalDistributionFunction2DTest.java:[45,7] error: static import declarations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable static import declarations)
+./jfreechart/tests/org/jfree/data/function/NormalDistributionFunction2DTest.java:[58,5] error: annotations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable annotations)
+./jfreechart/tests/org/jfree/chart/renderer/category/StatisticalBarRendererTest.java:[47,7] error: static import declarations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable static import declarations)
+./jfreechart/tests/org/jfree/chart/renderer/category/StatisticalBarRendererTest.java:[75,5] error: annotations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable annotations)
+./jfreechart/tests/org/jfree/chart/needle/LineNeedleTest.java:[43,7] error: static import declarations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable static import declarations)
+./jfreechart/tests/org/jfree/chart/needle/LineNeedleTest.java:[56,5] error: annotations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable annotations)
+./jfreechart/tests/org/jfree/chart/renderer/xy/YIntervalRendererTest.java:[47,7] error: static import declarations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable static import declarations)
+./jfreechart/tests/org/jfree/chart/renderer/xy/YIntervalRendererTest.java:[76,5] error: annotations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable annotations)
+./jfreechart/tests/org/jfree/chart/labels/StandardPieToolTipGeneratorTest.java:[50,7] error: static import declarations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable static import declarations)
+./jfreechart/tests/org/jfree/chart/labels/StandardPieToolTipGeneratorTest.java:[70,5] error: annotations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable annotations)
+./jfreechart/tests/org/jfree/data/statistics/DefaultBoxAndWhiskerXYDatasetTest.java:[43,7] error: static import declarations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable static import declarations)
+./jfreechart/tests/org/jfree/data/statistics/DefaultBoxAndWhiskerXYDatasetTest.java:[63,5] error: annotations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable annotations)
+./jfreechart/tests/org/jfree/chart/axis/LogAxisTest.java:[44,7] error: static import declarations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable static import declarations)
+./jfreechart/tests/org/jfree/chart/axis/LogAxisTest.java:[72,5] error: annotations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable annotations)
+./jfreechart/tests/org/jfree/data/time/MonthTest.java:[52,7] error: static import declarations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable static import declarations)
+./jfreechart/tests/org/jfree/data/time/MonthTest.java:[89,5] error: annotations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable annotations)
+./jfreechart/tests/org/jfree/chart/MeterChartTest.java:[62,5] error: annotations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable annotations)
+./jfreechart/tests/org/jfree/chart/labels/BoxAndWhiskerXYToolTipGeneratorTest.java:[46,7] error: static import declarations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable static import declarations)
+./jfreechart/tests/org/jfree/chart/labels/BoxAndWhiskerXYToolTipGeneratorTest.java:[66,5] error: annotations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable annotations)
+./jfreechart/tests/org/jfree/chart/axis/ExtendedCategoryAxisTest.java:[43,7] error: static import declarations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable static import declarations)
+./jfreechart/tests/org/jfree/chart/axis/ExtendedCategoryAxisTest.java:[63,5] error: annotations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable annotations)
+./jfreechart/tests/org/jfree/chart/plot/CompassPlotTest.java:[44,7] error: static import declarations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable static import declarations)
+./jfreechart/tests/org/jfree/chart/plot/CompassPlotTest.java:[65,5] error: annotations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable annotations)
+./jfreechart/tests/org/jfree/chart/LineChartTest.java:[62,7] error: static import declarations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable static import declarations)
+./jfreechart/tests/org/jfree/chart/LineChartTest.java:[77,5] error: annotations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable annotations)
+./jfreechart/tests/org/jfree/data/category/DefaultCategoryDatasetTest.java:[50,7] error: static import declarations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable static import declarations)
+./jfreechart/tests/org/jfree/data/category/DefaultCategoryDatasetTest.java:[64,5] error: annotations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable annotations)
+./jfreechart/tests/org/jfree/data/gantt/TaskSeriesTest.java:[47,7] error: static import declarations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable static import declarations)
+./jfreechart/tests/org/jfree/data/gantt/TaskSeriesTest.java:[60,5] error: annotations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable annotations)
+./jfreechart/tests/org/jfree/chart/renderer/xy/XYBarRendererTest.java:[48,7] error: static import declarations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable static import declarations)
+./jfreechart/tests/org/jfree/chart/renderer/xy/XYBarRendererTest.java:[82,5] error: annotations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable annotations)
+./jfreechart/tests/org/jfree/chart/axis/CategoryLabelPositionsTest.java:[44,7] error: static import declarations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable static import declarations)
+./jfreechart/tests/org/jfree/chart/axis/CategoryLabelPositionsTest.java:[64,5] error: annotations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable annotations)
+./jfreechart/tests/org/jfree/chart/block/ColumnArrangementTest.java:[43,7] error: static import declarations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable static import declarations)
+./jfreechart/tests/org/jfree/chart/block/ColumnArrangementTest.java:[61,5] error: annotations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable annotations)
+./jfreechart/tests/org/jfree/data/xy/DefaultIntervalXYDatasetTest.java:[45,7] error: static import declarations are not supported in -source 1.3
+[INFO] 100 errors 
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  23.794 s
+[INFO] Finished at: 
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:2.3.2:testCompile (default-testCompile) on project jfreechart: Compilation failure: Compilation failure: 
+[ERROR] ./jfreechart/tests/org/jfree/chart/axis/PeriodAxisLabelInfoTest.java:[44,7] error: static import declarations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable static import declarations)
+[ERROR] ./jfreechart/tests/org/jfree/chart/axis/PeriodAxisLabelInfoTest.java:[75,5] error: annotations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable annotations)
+[ERROR] ./jfreechart/tests/org/jfree/chart/plot/ValueMarkerTest.java:[48,7] error: static import declarations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable static import declarations)
+[ERROR] ./jfreechart/tests/org/jfree/chart/plot/ValueMarkerTest.java:[79,5] error: annotations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable annotations)
+[ERROR] ./jfreechart/tests/org/jfree/chart/annotations/CategoryPointerAnnotationTest.java:[44,7] error: static import declarations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable static import declarations)
+[ERROR] ./jfreechart/tests/org/jfree/chart/annotations/CategoryPointerAnnotationTest.java:[65,5] error: annotations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable annotations)
+[ERROR] ./jfreechart/tests/org/jfree/chart/renderer/xy/XYStepAreaRendererTest.java:[47,7] error: static import declarations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable static import declarations)
+[ERROR] ./jfreechart/tests/org/jfree/chart/renderer/xy/XYStepAreaRendererTest.java:[69,5] error: annotations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable annotations)
+[ERROR] ./jfreechart/tests/org/jfree/data/time/WeekTest.java:[53,7] error: static import declarations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable static import declarations)
+[ERROR] ./jfreechart/tests/org/jfree/data/time/WeekTest.java:[88,5] error: annotations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable annotations)
+[ERROR] ./jfreechart/tests/org/jfree/chart/renderer/xy/XYDotRendererTest.java:[46,7] error: static import declarations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable static import declarations)
+[ERROR] ./jfreechart/tests/org/jfree/chart/renderer/xy/XYDotRendererTest.java:[70,5] error: annotations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable annotations)
+[ERROR] ./jfreechart/tests/org/jfree/data/xy/XYDataItemTest.java:[43,7] error: static import declarations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable static import declarations)
+[ERROR] ./jfreechart/tests/org/jfree/data/xy/XYDataItemTest.java:[58,5] error: annotations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable annotations)
+[ERROR] ./jfreechart/tests/org/jfree/chart/renderer/category/GradientBarPainterTest.java:[43,7] error: static import declarations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable static import declarations)
+[ERROR] ./jfreechart/tests/org/jfree/chart/renderer/category/GradientBarPainterTest.java:[60,5] error: annotations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable annotations)
+[ERROR] ./jfreechart/tests/org/jfree/chart/axis/CategoryAxis3DTest.java:[43,7] error: static import declarations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable static import declarations)
+[ERROR] ./jfreechart/tests/org/jfree/chart/axis/CategoryAxis3DTest.java:[57,5] error: annotations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable annotations)
+[ERROR] ./jfreechart/tests/org/jfree/chart/needle/PointerNeedleTest.java:[43,7] error: static import declarations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable static import declarations)
+[ERROR] ./jfreechart/tests/org/jfree/chart/needle/PointerNeedleTest.java:[56,5] error: annotations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable annotations)
+[ERROR] ./jfreechart/tests/org/jfree/chart/axis/DateTickTest.java:[43,7] error: static import declarations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable static import declarations)
+[ERROR] ./jfreechart/tests/org/jfree/chart/axis/DateTickTest.java:[62,5] error: annotations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable annotations)
+[ERROR] ./jfreechart/tests/org/jfree/data/xy/DefaultHighLowDatasetTest.java:[44,7] error: static import declarations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable static import declarations)
+[ERROR] ./jfreechart/tests/org/jfree/data/xy/DefaultHighLowDatasetTest.java:[63,5] error: annotations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable annotations)
+[ERROR] ./jfreechart/tests/org/jfree/data/general/DefaultHeatMapDatasetTest.java:[44,7] error: static import declarations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable static import declarations)
+[ERROR] ./jfreechart/tests/org/jfree/data/general/DefaultHeatMapDatasetTest.java:[75,5] error: annotations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable annotations)
+[ERROR] ./jfreechart/tests/org/jfree/chart/axis/StandardTickUnitSourceTest.java:[43,7] error: static import declarations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable static import declarations)
+[ERROR] ./jfreechart/tests/org/jfree/chart/axis/StandardTickUnitSourceTest.java:[57,5] error: annotations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable annotations)
+[ERROR] ./jfreechart/tests/org/jfree/chart/renderer/xy/XYLineAndShapeRendererTest.java:[47,7] error: static import declarations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable static import declarations)
+[ERROR] ./jfreechart/tests/org/jfree/chart/renderer/xy/XYLineAndShapeRendererTest.java:[77,5] error: annotations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable annotations)
+[ERROR] ./jfreechart/tests/org/jfree/chart/XYBarChartTest.java:[43,7] error: static import declarations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable static import declarations)
+[ERROR] ./jfreechart/tests/org/jfree/chart/XYBarChartTest.java:[78,5] error: annotations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable annotations)
+[ERROR] ./jfreechart/tests/org/jfree/chart/renderer/xy/GradientXYBarPainterTest.java:[43,7] error: static import declarations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable static import declarations)
+[ERROR] ./jfreechart/tests/org/jfree/chart/renderer/xy/GradientXYBarPainterTest.java:[60,5] error: annotations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable annotations)
+[ERROR] ./jfreechart/tests/org/jfree/chart/renderer/xy/StackedXYBarRendererTest.java:[46,7] error: static import declarations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable static import declarations)
+[ERROR] ./jfreechart/tests/org/jfree/chart/renderer/xy/StackedXYBarRendererTest.java:[72,5] error: annotations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable annotations)
+[ERROR] ./jfreechart/tests/org/jfree/chart/imagemap/StandardToolTipTagFragmentGeneratorTest.java:[43,7] error: static import declarations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable static import declarations)
+[ERROR] ./jfreechart/tests/org/jfree/chart/imagemap/StandardToolTipTagFragmentGeneratorTest.java:[54,5] error: annotations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable annotations)
+[ERROR] ./jfreechart/tests/org/jfree/data/gantt/TaskTest.java:[48,7] error: static import declarations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable static import declarations)
+[ERROR] ./jfreechart/tests/org/jfree/data/gantt/TaskTest.java:[61,5] error: annotations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable annotations)
+[ERROR] ./jfreechart/tests/org/jfree/chart/plot/CategoryPlotTest.java:[54,7] error: static import declarations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable static import declarations)
+[ERROR] ./jfreechart/tests/org/jfree/chart/plot/CategoryPlotTest.java:[105,5] error: annotations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable annotations)
+[ERROR] ./jfreechart/tests/org/jfree/data/time/ohlc/OHLCTest.java:[44,7] error: static import declarations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable static import declarations)
+[ERROR] ./jfreechart/tests/org/jfree/data/time/ohlc/OHLCTest.java:[59,5] error: annotations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable annotations)
+[ERROR] ./jfreechart/tests/org/jfree/data/xy/XYIntervalSeriesTest.java:[45,7] error: static import declarations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable static import declarations)
+[ERROR] ./jfreechart/tests/org/jfree/data/xy/XYIntervalSeriesTest.java:[76,5] error: annotations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable annotations)
+[ERROR] ./jfreechart/tests/org/jfree/chart/axis/CategoryAnchorTest.java:[44,7] error: static import declarations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable static import declarations)
+[ERROR] ./jfreechart/tests/org/jfree/chart/axis/CategoryAnchorTest.java:[59,5] error: annotations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable annotations)
+[ERROR] ./jfreechart/tests/org/jfree/data/statistics/SimpleHistogramDatasetTest.java:[44,7] error: static import declarations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable static import declarations)
+[ERROR] ./jfreechart/tests/org/jfree/data/statistics/SimpleHistogramDatasetTest.java:[59,5] error: annotations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable annotations)
+[ERROR] ./jfreechart/tests/org/jfree/data/xy/XYIntervalDataItemTest.java:[43,7] error: static import declarations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable static import declarations)
+[ERROR] ./jfreechart/tests/org/jfree/data/xy/XYIntervalDataItemTest.java:[59,5] error: annotations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable annotations)
+[ERROR] ./jfreechart/tests/org/jfree/chart/needle/LongNeedleTest.java:[43,7] error: static import declarations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable static import declarations)
+[ERROR] ./jfreechart/tests/org/jfree/chart/needle/LongNeedleTest.java:[56,5] error: annotations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable annotations)
+[ERROR] ./jfreechart/tests/org/jfree/chart/urls/StandardXYURLGeneratorTest.java:[44,7] error: static import declarations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable static import declarations)
+[ERROR] ./jfreechart/tests/org/jfree/chart/urls/StandardXYURLGeneratorTest.java:[60,5] error: annotations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable annotations)
+[ERROR] ./jfreechart/tests/org/jfree/data/time/TimeSeriesCollectionTest.java:[47,7] error: static import declarations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable static import declarations)
+[ERROR] ./jfreechart/tests/org/jfree/data/time/TimeSeriesCollectionTest.java:[69,5] error: annotations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable annotations)
+[ERROR] ./jfreechart/tests/org/jfree/data/DomainOrderTest.java:[45,7] error: static import declarations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable static import declarations)
+[ERROR] ./jfreechart/tests/org/jfree/data/DomainOrderTest.java:[58,5] error: annotations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable annotations)
+[ERROR] ./jfreechart/tests/org/jfree/data/DefaultKeyedValues2DTest.java:[49,7] error: static import declarations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable static import declarations)
+[ERROR] ./jfreechart/tests/org/jfree/data/DefaultKeyedValues2DTest.java:[64,5] error: annotations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable annotations)
+[ERROR] ./jfreechart/tests/org/jfree/chart/renderer/category/StackedAreaRendererTest.java:[45,7] error: static import declarations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable static import declarations)
+[ERROR] ./jfreechart/tests/org/jfree/chart/renderer/category/StackedAreaRendererTest.java:[65,5] error: annotations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable annotations)
+[ERROR] ./jfreechart/tests/org/jfree/data/function/NormalDistributionFunction2DTest.java:[45,7] error: static import declarations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable static import declarations)
+[ERROR] ./jfreechart/tests/org/jfree/data/function/NormalDistributionFunction2DTest.java:[58,5] error: annotations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable annotations)
+[ERROR] ./jfreechart/tests/org/jfree/chart/renderer/category/StatisticalBarRendererTest.java:[47,7] error: static import declarations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable static import declarations)
+[ERROR] ./jfreechart/tests/org/jfree/chart/renderer/category/StatisticalBarRendererTest.java:[75,5] error: annotations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable annotations)
+[ERROR] ./jfreechart/tests/org/jfree/chart/needle/LineNeedleTest.java:[43,7] error: static import declarations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable static import declarations)
+[ERROR] ./jfreechart/tests/org/jfree/chart/needle/LineNeedleTest.java:[56,5] error: annotations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable annotations)
+[ERROR] ./jfreechart/tests/org/jfree/chart/renderer/xy/YIntervalRendererTest.java:[47,7] error: static import declarations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable static import declarations)
+[ERROR] ./jfreechart/tests/org/jfree/chart/renderer/xy/YIntervalRendererTest.java:[76,5] error: annotations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable annotations)
+[ERROR] ./jfreechart/tests/org/jfree/chart/labels/StandardPieToolTipGeneratorTest.java:[50,7] error: static import declarations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable static import declarations)
+[ERROR] ./jfreechart/tests/org/jfree/chart/labels/StandardPieToolTipGeneratorTest.java:[70,5] error: annotations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable annotations)
+[ERROR] ./jfreechart/tests/org/jfree/data/statistics/DefaultBoxAndWhiskerXYDatasetTest.java:[43,7] error: static import declarations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable static import declarations)
+[ERROR] ./jfreechart/tests/org/jfree/data/statistics/DefaultBoxAndWhiskerXYDatasetTest.java:[63,5] error: annotations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable annotations)
+[ERROR] ./jfreechart/tests/org/jfree/chart/axis/LogAxisTest.java:[44,7] error: static import declarations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable static import declarations)
+[ERROR] ./jfreechart/tests/org/jfree/chart/axis/LogAxisTest.java:[72,5] error: annotations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable annotations)
+[ERROR] ./jfreechart/tests/org/jfree/data/time/MonthTest.java:[52,7] error: static import declarations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable static import declarations)
+[ERROR] ./jfreechart/tests/org/jfree/data/time/MonthTest.java:[89,5] error: annotations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable annotations)
+[ERROR] ./jfreechart/tests/org/jfree/chart/MeterChartTest.java:[62,5] error: annotations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable annotations)
+[ERROR] ./jfreechart/tests/org/jfree/chart/labels/BoxAndWhiskerXYToolTipGeneratorTest.java:[46,7] error: static import declarations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable static import declarations)
+[ERROR] ./jfreechart/tests/org/jfree/chart/labels/BoxAndWhiskerXYToolTipGeneratorTest.java:[66,5] error: annotations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable annotations)
+[ERROR] ./jfreechart/tests/org/jfree/chart/axis/ExtendedCategoryAxisTest.java:[43,7] error: static import declarations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable static import declarations)
+[ERROR] ./jfreechart/tests/org/jfree/chart/axis/ExtendedCategoryAxisTest.java:[63,5] error: annotations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable annotations)
+[ERROR] ./jfreechart/tests/org/jfree/chart/plot/CompassPlotTest.java:[44,7] error: static import declarations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable static import declarations)
+[ERROR] ./jfreechart/tests/org/jfree/chart/plot/CompassPlotTest.java:[65,5] error: annotations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable annotations)
+[ERROR] ./jfreechart/tests/org/jfree/chart/LineChartTest.java:[62,7] error: static import declarations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable static import declarations)
+[ERROR] ./jfreechart/tests/org/jfree/chart/LineChartTest.java:[77,5] error: annotations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable annotations)
+[ERROR] ./jfreechart/tests/org/jfree/data/category/DefaultCategoryDatasetTest.java:[50,7] error: static import declarations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable static import declarations)
+[ERROR] ./jfreechart/tests/org/jfree/data/category/DefaultCategoryDatasetTest.java:[64,5] error: annotations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable annotations)
+[ERROR] ./jfreechart/tests/org/jfree/data/gantt/TaskSeriesTest.java:[47,7] error: static import declarations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable static import declarations)
+[ERROR] ./jfreechart/tests/org/jfree/data/gantt/TaskSeriesTest.java:[60,5] error: annotations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable annotations)
+[ERROR] ./jfreechart/tests/org/jfree/chart/renderer/xy/XYBarRendererTest.java:[48,7] error: static import declarations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable static import declarations)
+[ERROR] ./jfreechart/tests/org/jfree/chart/renderer/xy/XYBarRendererTest.java:[82,5] error: annotations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable annotations)
+[ERROR] ./jfreechart/tests/org/jfree/chart/axis/CategoryLabelPositionsTest.java:[44,7] error: static import declarations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable static import declarations)
+[ERROR] ./jfreechart/tests/org/jfree/chart/axis/CategoryLabelPositionsTest.java:[64,5] error: annotations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable annotations)
+[ERROR] ./jfreechart/tests/org/jfree/chart/block/ColumnArrangementTest.java:[43,7] error: static import declarations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable static import declarations)
+[ERROR] ./jfreechart/tests/org/jfree/chart/block/ColumnArrangementTest.java:[61,5] error: annotations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable annotations)
+[ERROR] ./jfreechart/tests/org/jfree/data/xy/DefaultIntervalXYDatasetTest.java:[45,7] error: static import declarations are not supported in -source 1.3
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException

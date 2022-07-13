@@ -1,0 +1,459 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ------------------------< org.jfree:jfreechart >------------------------
+[INFO] Building JFreeChart 1.6.0-snapshot
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:3.1.0:clean (default-clean) @ jfreechart ---
+[INFO] Deleting ./jfreechart/target
+[INFO] 
+[INFO] --- maven-resources-plugin:3.1.0:resources (default-resources) @ jfreechart ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 42 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.1:compile (default-compile) @ jfreechart ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 637 source files to ./jfreechart/target/classes
+[WARNING] ./jfreechart/src/main/java/org/jfree/data/general/SeriesDataset.java:[78,12] found raw type: java.lang.Comparable
+  missing type arguments for generic class java.lang.Comparable<T>
+[WARNING] ./jfreechart/src/main/java/org/jfree/data/general/SeriesDataset.java:[88,24] found raw type: java.lang.Comparable
+  missing type arguments for generic class java.lang.Comparable<T>
+[WARNING] ./jfreechart/src/main/java/org/jfree/data/general/DatasetGroup.java:[53,8] Class org.jfree.data.general.DatasetGroup overrides equals, but neither it nor any superclass overrides hashCode method
+[WARNING] ./jfreechart/src/main/java/org/jfree/data/general/DatasetChangeEvent.java:[53,8] serializable class org.jfree.data.general.DatasetChangeEvent has no definition of serialVersionUID
+[WARNING] ./jfreechart/src/main/java/org/jfree/chart/annotations/AbstractAnnotation.java:[120,9] found raw type: java.util.List
+  missing type arguments for generic class java.util.List<E>
+[WARNING] ./jfreechart/src/main/java/org/jfree/chart/annotations/AbstractAnnotation.java:[62,17] serializable class org.jfree.chart.annotations.AbstractAnnotation has no definition of serialVersionUID
+[WARNING] ./jfreechart/src/main/java/org/jfree/chart/event/ChartChangeEvent.java:[54,8] serializable class org.jfree.chart.event.ChartChangeEvent has no definition of serialVersionUID
+[WARNING] ./jfreechart/src/main/java/org/jfree/chart/event/AnnotationChangeEvent.java:[52,8] serializable class org.jfree.chart.event.AnnotationChangeEvent has no definition of serialVersionUID
+[WARNING] ./jfreechart/src/main/java/org/jfree/chart/JFreeChart.java:[130,8] Class org.jfree.chart.JFreeChart overrides equals, but neither it nor any superclass overrides hashCode method
+[WARNING] ./jfreechart/src/main/java/org/jfree/chart/block/AbstractBlock.java:[72,8] Class org.jfree.chart.block.AbstractBlock overrides equals, but neither it nor any superclass overrides hashCode method
+[WARNING] ./jfreechart/src/main/java/org/jfree/chart/plot/Plot.java:[1344,19] redundant cast to org.jfree.data.general.DatasetGroup
+[WARNING] ./jfreechart/src/main/java/org/jfree/chart/plot/Plot.java:[1347,15] redundant cast to org.jfree.chart.plot.DrawingSupplier
+[WARNING] ./jfreechart/src/main/java/org/jfree/chart/plot/CategoryPlot.java:[477,13] found raw type: java.lang.Comparable
+  missing type arguments for generic class java.lang.Comparable<T>
+[WARNING] ./jfreechart/src/main/java/org/jfree/chart/plot/CategoryPlot.java:[484,13] found raw type: java.lang.Comparable
+  missing type arguments for generic class java.lang.Comparable<T>
+[WARNING] ./jfreechart/src/main/java/org/jfree/chart/plot/CategoryPlot.java:[535,13] found raw type: java.util.List
+  missing type arguments for generic class java.util.List<E>
+[WARNING] ./jfreechart/src/main/java/org/jfree/chart/plot/CategoryPlot.java:[599,43] found raw type: java.util.TreeMap
+  missing type arguments for generic class java.util.TreeMap<K,V>
+[WARNING] ./jfreechart/src/main/java/org/jfree/chart/plot/CategoryPlot.java:[599,39] unchecked conversion
+  required: java.util.TreeMap<java.lang.Integer,java.util.List<java.lang.Integer>>
+  found:    java.util.TreeMap
+[WARNING] ./jfreechart/src/main/java/org/jfree/chart/plot/CategoryPlot.java:[600,42] found raw type: java.util.TreeMap
+  missing type arguments for generic class java.util.TreeMap<K,V>
+[WARNING] ./jfreechart/src/main/java/org/jfree/chart/plot/CategoryPlot.java:[600,38] unchecked conversion
+  required: java.util.TreeMap<java.lang.Integer,java.util.List<java.lang.Integer>>
+  found:    java.util.TreeMap
+[WARNING] ./jfreechart/src/main/java/org/jfree/chart/plot/CategoryPlot.java:[671,41] found raw type: java.util.ArrayList
+  missing type arguments for generic class java.util.ArrayList<E>
+[WARNING] ./jfreechart/src/main/java/org/jfree/chart/plot/CategoryPlot.java:[806,33] redundant cast to org.jfree.chart.axis.CategoryAxis
+[WARNING] ./jfreechart/src/main/java/org/jfree/chart/plot/CategoryPlot.java:[1406,51] found raw type: java.util.List
+  missing type arguments for generic class java.util.List<E>
+[WARNING] ./jfreechart/src/main/java/org/jfree/chart/plot/CategoryPlot.java:[1409,52] found raw type: java.util.ArrayList
+  missing type arguments for generic class java.util.ArrayList<E>
+[WARNING] ./jfreechart/src/main/java/org/jfree/chart/plot/CategoryPlot.java:[1409,48] unchecked call to ArrayList(java.util.Collection<? extends E>) as a member of the raw type java.util.ArrayList
+[WARNING] ./jfreechart/src/main/java/org/jfree/chart/plot/CategoryPlot.java:[1409,40] unchecked method invocation: method put in class java.util.TreeMap is applied to given types
+  required: K,V
+  found: int,java.util.ArrayList
+[WARNING] ./jfreechart/src/main/java/org/jfree/chart/plot/CategoryPlot.java:[1409,48] unchecked conversion
+  required: V
+  found:    java.util.ArrayList
+[WARNING] ./jfreechart/src/main/java/org/jfree/chart/plot/CategoryPlot.java:[1421,35] found raw type: java.util.List
+  missing type arguments for generic class java.util.List<E>
+[WARNING] ./jfreechart/src/main/java/org/jfree/chart/plot/CategoryPlot.java:[1432,9] found raw type: java.util.HashSet
+  missing type arguments for generic class java.util.HashSet<E>
+[WARNING] ./jfreechart/src/main/java/org/jfree/chart/plot/CategoryPlot.java:[1432,27] found raw type: java.util.HashSet
+  missing type arguments for generic class java.util.HashSet<E>
+[WARNING] ./jfreechart/src/main/java/org/jfree/chart/plot/CategoryPlot.java:[1442,20] unchecked call to add(E) as a member of the raw type java.util.HashSet
+[WARNING] ./jfreechart/src/main/java/org/jfree/chart/plot/CategoryPlot.java:[1459,9] found raw type: java.util.List
+  missing type arguments for generic class java.util.List<E>
+[WARNING] ./jfreechart/src/main/java/org/jfree/chart/plot/CategoryPlot.java:[1480,9] found raw type: java.util.List
+  missing type arguments for generic class java.util.List<E>
+[WARNING] ./jfreechart/src/main/java/org/jfree/chart/plot/CategoryPlot.java:[1480,41] found raw type: java.util.ArrayList
+  missing type arguments for generic class java.util.ArrayList<E>
+[WARNING] ./jfreechart/src/main/java/org/jfree/chart/plot/CategoryPlot.java:[1481,24] unchecked call to add(E) as a member of the raw type java.util.List
+[WARNING] ./jfreechart/src/main/java/org/jfree/chart/plot/CategoryPlot.java:[1495,50] found raw type: java.util.List
+  missing type arguments for generic class java.util.List<E>
+[WARNING] ./jfreechart/src/main/java/org/jfree/chart/plot/CategoryPlot.java:[1498,51] found raw type: java.util.ArrayList
+  missing type arguments for generic class java.util.ArrayList<E>
+[WARNING] ./jfreechart/src/main/java/org/jfree/chart/plot/CategoryPlot.java:[1498,47] unchecked call to ArrayList(java.util.Collection<? extends E>) as a member of the raw type java.util.ArrayList
+[WARNING] ./jfreechart/src/main/java/org/jfree/chart/plot/CategoryPlot.java:[1498,39] unchecked method invocation: method put in class java.util.TreeMap is applied to given types
+  required: K,V
+  found: int,java.util.ArrayList
+[WARNING] ./jfreechart/src/main/java/org/jfree/chart/plot/CategoryPlot.java:[1498,47] unchecked conversion
+  required: V
+  found:    java.util.ArrayList
+[WARNING] ./jfreechart/src/main/java/org/jfree/chart/plot/CategoryPlot.java:[1516,9] found raw type: java.util.List
+  missing type arguments for generic class java.util.List<E>
+[WARNING] ./jfreechart/src/main/java/org/jfree/chart/plot/CategoryPlot.java:[2901,12] found raw type: java.lang.Comparable
+  missing type arguments for generic class java.lang.Comparable<T>
+[WARNING] ./jfreechart/src/main/java/org/jfree/chart/plot/CategoryPlot.java:[2913,42] found raw type: java.lang.Comparable
+  missing type arguments for generic class java.lang.Comparable<T>
+[WARNING] ./jfreechart/src/main/java/org/jfree/chart/plot/CategoryPlot.java:[2926,42] found raw type: java.lang.Comparable
+  missing type arguments for generic class java.lang.Comparable<T>
+[WARNING] ./jfreechart/src/main/java/org/jfree/chart/plot/CategoryPlot.java:[2940,12] found raw type: java.lang.Comparable
+  missing type arguments for generic class java.lang.Comparable<T>
+[WARNING] ./jfreechart/src/main/java/org/jfree/chart/plot/CategoryPlot.java:[2952,45] found raw type: java.lang.Comparable
+  missing type arguments for generic class java.lang.Comparable<T>
+[WARNING] ./jfreechart/src/main/java/org/jfree/chart/plot/CategoryPlot.java:[2965,45] found raw type: java.lang.Comparable
+  missing type arguments for generic class java.lang.Comparable<T>
+[WARNING] ./jfreechart/src/main/java/org/jfree/chart/plot/CategoryPlot.java:[3228,12] found raw type: java.util.List
+  missing type arguments for generic class java.util.List<E>
+[WARNING] ./jfreechart/src/main/java/org/jfree/chart/plot/CategoryPlot.java:[3255,29] unchecked call to add(E) as a member of the raw type java.util.List
+[WARNING] ./jfreechart/src/main/java/org/jfree/chart/plot/CategoryPlot.java:[3522,9] found raw type: java.util.Map
+  missing type arguments for generic class java.util.Map<K,V>
+[WARNING] ./jfreechart/src/main/java/org/jfree/chart/plot/CategoryPlot.java:[3647,9] found raw type: java.lang.Comparable
+  missing type arguments for generic class java.lang.Comparable<T>
+[WARNING] ./jfreechart/src/main/java/org/jfree/chart/plot/CategoryPlot.java:[3648,9] found raw type: java.lang.Comparable
+  missing type arguments for generic class java.lang.Comparable<T>
+[WARNING] ./jfreechart/src/main/java/org/jfree/chart/plot/CategoryPlot.java:[3764,15] found raw type: java.util.Map
+  missing type arguments for generic class java.util.Map<K,V>
+[WARNING] ./jfreechart/src/main/java/org/jfree/chart/plot/CategoryPlot.java:[3785,9] found raw type: java.util.Map
+  missing type arguments for generic class java.util.Map<K,V>
+[WARNING] ./jfreechart/src/main/java/org/jfree/chart/plot/CategoryPlot.java:[3785,32] found raw type: java.util.HashMap
+  missing type arguments for generic class java.util.HashMap<K,V>
+[WARNING] ./jfreechart/src/main/java/org/jfree/chart/plot/CategoryPlot.java:[3790,9] found raw type: java.util.Iterator
+  missing type arguments for generic class java.util.Iterator<E>
+[WARNING] ./jfreechart/src/main/java/org/jfree/chart/plot/CategoryPlot.java:[3797,33] unchecked call to put(K,V) as a member of the raw type java.util.Map
+[WARNING] ./jfreechart/src/main/java/org/jfree/chart/plot/CategoryPlot.java:[3811,33] unchecked call to put(K,V) as a member of the raw type java.util.Map
+[WARNING] ./jfreechart/src/main/java/org/jfree/chart/plot/CategoryPlot.java:[3825,33] unchecked call to put(K,V) as a member of the raw type java.util.Map
+[WARNING] ./jfreechart/src/main/java/org/jfree/chart/plot/CategoryPlot.java:[3839,33] unchecked call to put(K,V) as a member of the raw type java.util.Map
+[WARNING] ./jfreechart/src/main/java/org/jfree/chart/plot/CategoryPlot.java:[3966,39] found raw type: java.util.List
+  missing type arguments for generic class java.util.List<E>
+[WARNING] ./jfreechart/src/main/java/org/jfree/chart/plot/CategoryPlot.java:[3985,9] found raw type: java.util.Iterator
+  missing type arguments for generic class java.util.Iterator<E>
+[WARNING] ./jfreechart/src/main/java/org/jfree/chart/plot/CategoryPlot.java:[4037,13] found raw type: java.util.Iterator
+  missing type arguments for generic class java.util.Iterator<E>
+[WARNING] ./jfreechart/src/main/java/org/jfree/chart/plot/CategoryPlot.java:[4067,9] found raw type: java.util.Collection
+  missing type arguments for generic class java.util.Collection<E>
+[WARNING] ./jfreechart/src/main/java/org/jfree/chart/plot/CategoryPlot.java:[4070,13] found raw type: java.util.Iterator
+  missing type arguments for generic class java.util.Iterator<E>
+[WARNING] ./jfreechart/src/main/java/org/jfree/chart/plot/CategoryPlot.java:[4098,9] found raw type: java.util.Collection
+  missing type arguments for generic class java.util.Collection<E>
+[WARNING] ./jfreechart/src/main/java/org/jfree/chart/plot/CategoryPlot.java:[4101,13] found raw type: java.util.Iterator
+  missing type arguments for generic class java.util.Iterator<E>
+[WARNING] ./jfreechart/src/main/java/org/jfree/chart/plot/CategoryPlot.java:[4159,13] found raw type: java.lang.Comparable
+  missing type arguments for generic class java.lang.Comparable<T>
+[WARNING] ./jfreechart/src/main/java/org/jfree/chart/plot/CategoryPlot.java:[4159,32] found raw type: java.lang.Comparable
+  missing type arguments for generic class java.lang.Comparable<T>
+[WARNING] ./jfreechart/src/main/java/org/jfree/chart/plot/CategoryPlot.java:[4276,13] found raw type: java.util.List
+  missing type arguments for generic class java.util.List<E>
+[WARNING] ./jfreechart/src/main/java/org/jfree/chart/plot/CategoryPlot.java:[4304,13] found raw type: java.util.List
+  missing type arguments for generic class java.util.List<E>
+[WARNING] ./jfreechart/src/main/java/org/jfree/chart/plot/CategoryPlot.java:[4433,12] found raw type: java.util.List
+  missing type arguments for generic class java.util.List<E>
+[WARNING] ./jfreechart/src/main/java/org/jfree/chart/plot/CategoryPlot.java:[4434,9] found raw type: java.util.List
+  missing type arguments for generic class java.util.List<E>
+[WARNING] ./jfreechart/src/main/java/org/jfree/chart/plot/CategoryPlot.java:[4436,50] unchecked method invocation: method unmodifiableList in class java.util.Collections is applied to given types
+  required: java.util.List<? extends T>
+  found: java.util.List
+[WARNING] ./jfreechart/src/main/java/org/jfree/chart/plot/CategoryPlot.java:[4436,77] unchecked conversion
+  required: java.util.List<? extends T>
+  found:    java.util.List
+[WARNING] ./jfreechart/src/main/java/org/jfree/chart/plot/CategoryPlot.java:[4451,12] found raw type: java.util.List
+  missing type arguments for generic class java.util.List<E>
+[WARNING] ./jfreechart/src/main/java/org/jfree/chart/plot/CategoryPlot.java:[4452,9] found raw type: java.util.List
+  missing type arguments for generic class java.util.List<E>
+[WARNING] ./jfreechart/src/main/java/org/jfree/chart/plot/CategoryPlot.java:[4452,27] found raw type: java.util.ArrayList
+  missing type arguments for generic class java.util.ArrayList<E>
+[WARNING] ./jfreechart/src/main/java/org/jfree/chart/plot/CategoryPlot.java:[4457,17] found raw type: java.lang.Comparable
+  missing type arguments for generic class java.lang.Comparable<T>
+[WARNING] ./jfreechart/src/main/java/org/jfree/chart/plot/CategoryPlot.java:[4459,31] unchecked call to add(E) as a member of the raw type java.util.List
+[WARNING] ./jfreechart/src/main/java/org/jfree/chart/plot/CategoryPlot.java:[5087,44] found raw type: java.util.TreeMap
+  missing type arguments for generic class java.util.TreeMap<K,V>
+[WARNING] ./jfreechart/src/main/java/org/jfree/chart/plot/CategoryPlot.java:[5087,40] unchecked conversion
+  required: java.util.TreeMap<java.lang.Integer,java.util.List<java.lang.Integer>>
+  found:    java.util.TreeMap
+[WARNING] ./jfreechart/src/main/java/org/jfree/chart/plot/CategoryPlot.java:[5089,43] found raw type: java.util.TreeMap
+  missing type arguments for generic class java.util.TreeMap<K,V>
+[WARNING] ./jfreechart/src/main/java/org/jfree/chart/plot/CategoryPlot.java:[5089,39] unchecked conversion
+  required: java.util.TreeMap<java.lang.Integer,java.util.List<java.lang.Integer>>
+  found:    java.util.TreeMap
+[WARNING] ./jfreechart/src/main/java/org/jfree/chart/plot/CategoryPlot.java:[5100,65] clone(java.lang.Object) in org.jfree.chart.util.ObjectUtils has been deprecated
+[WARNING] ./jfreechart/src/main/java/org/jfree/chart/plot/CategoryPlot.java:[5104,64] clone(java.lang.Object) in org.jfree.chart.util.ObjectUtils has been deprecated
+[WARNING] ./jfreechart/src/main/java/org/jfree/chart/plot/CategoryPlot.java:[5109,55] unchecked conversion
+  required: java.util.Map<java.lang.Integer,java.util.Collection<org.jfree.chart.plot.Marker>>
+  found:    java.util.Map
+[WARNING] ./jfreechart/src/main/java/org/jfree/chart/plot/CategoryPlot.java:[5111,55] unchecked conversion
+  required: java.util.Map<java.lang.Integer,java.util.Collection<org.jfree.chart.plot.Marker>>
+  found:    java.util.Map
+[WARNING] ./jfreechart/src/main/java/org/jfree/chart/plot/CategoryPlot.java:[5113,54] unchecked conversion
+  required: java.util.Map<java.lang.Integer,java.util.Collection<org.jfree.chart.plot.Marker>>
+  found:    java.util.Map
+[WARNING] ./jfreechart/src/main/java/org/jfree/chart/plot/CategoryPlot.java:[5115,54] unchecked conversion
+  required: java.util.Map<java.lang.Integer,java.util.Collection<org.jfree.chart.plot.Marker>>
+  found:    java.util.Map
+[WARNING] ./jfreechart/src/main/java/org/jfree/chart/plot/CategoryPlot.java:[5134,32] found raw type: java.util.Map
+  missing type arguments for generic class java.util.Map<K,V>
+[WARNING] ./jfreechart/src/main/java/org/jfree/chart/plot/CategoryPlot.java:[5134,13] found raw type: java.util.Map
+  missing type arguments for generic class java.util.Map<K,V>
+[WARNING] ./jfreechart/src/main/java/org/jfree/chart/plot/CategoryPlot.java:[5135,9] found raw type: java.util.Map
+  missing type arguments for generic class java.util.Map<K,V>
+[WARNING] ./jfreechart/src/main/java/org/jfree/chart/plot/CategoryPlot.java:[5135,25] found raw type: java.util.HashMap
+  missing type arguments for generic class java.util.HashMap<K,V>
+[WARNING] ./jfreechart/src/main/java/org/jfree/chart/plot/CategoryPlot.java:[5136,9] found raw type: java.util.Set
+  missing type arguments for generic class java.util.Set<E>
+[WARNING] ./jfreechart/src/main/java/org/jfree/chart/plot/CategoryPlot.java:[5137,9] found raw type: java.util.Iterator
+  missing type arguments for generic class java.util.Iterator<E>
+[WARNING] ./jfreechart/src/main/java/org/jfree/chart/plot/CategoryPlot.java:[5140,13] found raw type: java.util.List
+  missing type arguments for generic class java.util.List<E>
+[WARNING] ./jfreechart/src/main/java/org/jfree/chart/plot/CategoryPlot.java:[5142,22] unchecked call to put(K,V) as a member of the raw type java.util.Map
+[WARNING] ./jfreechart/src/main/java/org/jfree/chart/plot/XYPlot.java:[3610,13] found raw type: java.util.Iterator
+  missing type arguments for generic class java.util.Iterator<E>
+[WARNING] ./jfreechart/src/main/java/org/jfree/chart/plot/XYPlot.java:[3660,17] found raw type: java.util.Iterator
+  missing type arguments for generic class java.util.Iterator<E>
+[WARNING] ./jfreechart/src/main/java/org/jfree/chart/plot/XYPlot.java:[3758,9] found raw type: java.util.Collection
+  missing type arguments for generic class java.util.Collection<E>
+[INFO] ./jfreechart/src/main/java/org/jfree/chart/renderer/category/AbstractCategoryItemRenderer.java: Some input files additionally use or override a deprecated API.
+[INFO] ./jfreechart/src/main/java/org/jfree/chart/plot/XYPlot.java: Some input files additionally use unchecked or unsafe operations.
+[INFO] 
+[INFO] --- maven-resources-plugin:3.1.0:testResources (default-testResources) @ jfreechart ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory ./jfreechart/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.1:testCompile (default-testCompile) @ jfreechart ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 351 source files to ./jfreechart/target/test-classes
+[INFO] ./jfreechart/src/test/java/org/jfree/chart/plot/CombinedDomainCategoryPlotTest.java: Some input files additionally use unchecked or unsafe operations.
+[INFO] -------------------------------------------------------------
+[WARNING] COMPILATION WARNING : 
+[INFO] -------------------------------------------------------------
+[WARNING] ./jfreechart/src/test/java/org/jfree/chart/TestUtils.java:[67,46] found raw type: java.util.Collection
+  missing type arguments for generic class java.util.Collection<E>
+[WARNING] ./jfreechart/src/test/java/org/jfree/chart/TestUtils.java:[67,69] found raw type: java.lang.Class
+  missing type arguments for generic class java.lang.Class<T>
+[WARNING] ./jfreechart/src/test/java/org/jfree/chart/TestUtils.java:[68,9] found raw type: java.util.Iterator
+  missing type arguments for generic class java.util.Iterator<E>
+[WARNING] ./jfreechart/src/test/java/org/jfree/chart/plot/CombinedRangeCategoryPlotTest.java:[71,13] found raw type: java.util.List
+  missing type arguments for generic class java.util.List<E>
+[WARNING] ./jfreechart/src/test/java/org/jfree/chart/plot/CombinedRangeCategoryPlotTest.java:[71,40] found raw type: java.util.ArrayList
+  missing type arguments for generic class java.util.ArrayList<E>
+[WARNING] ./jfreechart/src/test/java/org/jfree/chart/plot/CombinedRangeCategoryPlotTest.java:[80,24] unchecked call to add(E) as a member of the raw type java.util.List
+[WARNING] ./jfreechart/src/test/java/org/jfree/chart/plot/CombinedRangeCategoryPlotTest.java:[130,9] found raw type: java.util.List
+  missing type arguments for generic class java.util.List<E>
+[WARNING] ./jfreechart/src/test/java/org/jfree/chart/plot/CombinedDomainXYPlotTest.java:[73,13] found raw type: java.util.List
+  missing type arguments for generic class java.util.List<E>
+[WARNING] ./jfreechart/src/test/java/org/jfree/chart/plot/CombinedDomainXYPlotTest.java:[73,40] found raw type: java.util.ArrayList
+  missing type arguments for generic class java.util.ArrayList<E>
+[WARNING] ./jfreechart/src/test/java/org/jfree/chart/plot/CombinedDomainXYPlotTest.java:[82,24] unchecked call to add(E) as a member of the raw type java.util.List
+[WARNING] ./jfreechart/src/test/java/org/jfree/chart/plot/CombinedDomainXYPlotTest.java:[106,9] found raw type: java.util.List
+  missing type arguments for generic class java.util.List<E>
+[WARNING] ./jfreechart/src/test/java/org/jfree/data/category/DefaultIntervalCategoryDatasetTest.java:[67,21] found raw type: java.lang.Comparable
+  missing type arguments for generic class java.lang.Comparable<T>
+[WARNING] ./jfreechart/src/test/java/org/jfree/data/category/DefaultIntervalCategoryDatasetTest.java:[68,21] found raw type: java.lang.Comparable
+  missing type arguments for generic class java.lang.Comparable<T>
+[WARNING] ./jfreechart/src/test/java/org/jfree/data/category/DefaultIntervalCategoryDatasetTest.java:[190,21] found raw type: java.lang.Comparable
+  missing type arguments for generic class java.lang.Comparable<T>
+[WARNING] ./jfreechart/src/test/java/org/jfree/data/category/DefaultIntervalCategoryDatasetTest.java:[191,21] found raw type: java.lang.Comparable
+  missing type arguments for generic class java.lang.Comparable<T>
+[WARNING] ./jfreechart/src/test/java/org/jfree/data/category/DefaultIntervalCategoryDatasetTest.java:[235,21] found raw type: java.lang.Comparable
+  missing type arguments for generic class java.lang.Comparable<T>
+[WARNING] ./jfreechart/src/test/java/org/jfree/data/category/DefaultIntervalCategoryDatasetTest.java:[236,21] found raw type: java.lang.Comparable
+  missing type arguments for generic class java.lang.Comparable<T>
+[WARNING] ./jfreechart/src/test/java/org/jfree/data/category/DefaultIntervalCategoryDatasetTest.java:[273,21] found raw type: java.lang.Comparable
+  missing type arguments for generic class java.lang.Comparable<T>
+[WARNING] ./jfreechart/src/test/java/org/jfree/data/category/DefaultIntervalCategoryDatasetTest.java:[274,21] found raw type: java.lang.Comparable
+  missing type arguments for generic class java.lang.Comparable<T>
+[WARNING] ./jfreechart/src/test/java/org/jfree/data/category/DefaultIntervalCategoryDatasetTest.java:[418,9] found raw type: java.util.List
+  missing type arguments for generic class java.util.List<E>
+[WARNING] ./jfreechart/src/test/java/org/jfree/data/category/DefaultIntervalCategoryDatasetTest.java:[431,9] found raw type: java.util.List
+  missing type arguments for generic class java.util.List<E>
+[WARNING] ./jfreechart/src/test/java/org/jfree/data/time/TimeSeriesCollectionTest.java:[308,9] found raw type: java.util.List
+  missing type arguments for generic class java.util.List<E>
+[WARNING] ./jfreechart/src/test/java/org/jfree/data/time/TimeSeriesCollectionTest.java:[308,47] found raw type: java.util.ArrayList
+  missing type arguments for generic class java.util.ArrayList<E>
+[WARNING] ./jfreechart/src/test/java/org/jfree/data/time/TimeSeriesCollectionTest.java:[315,30] unchecked call to add(E) as a member of the raw type java.util.List
+[WARNING] ./jfreechart/src/test/java/org/jfree/data/time/TimeSeriesCollectionTest.java:[332,30] unchecked call to add(E) as a member of the raw type java.util.List
+[WARNING] ./jfreechart/src/test/java/org/jfree/data/time/TimeSeriesCollectionTest.java:[379,9] found raw type: java.util.List
+  missing type arguments for generic class java.util.List<E>
+[WARNING] ./jfreechart/src/test/java/org/jfree/data/time/TimeSeriesCollectionTest.java:[379,25] found raw type: java.util.ArrayList
+  missing type arguments for generic class java.util.ArrayList<E>
+[WARNING] ./jfreechart/src/test/java/org/jfree/data/time/TimeSeriesCollectionTest.java:[380,17] unchecked call to add(E) as a member of the raw type java.util.List
+[WARNING] ./jfreechart/src/test/java/org/jfree/data/time/TimeSeriesCollectionTest.java:[381,17] unchecked call to add(E) as a member of the raw type java.util.List
+[WARNING] ./jfreechart/src/test/java/org/jfree/chart/imagemap/ImageMapUtilsTest.java:[61,62] none() in org.junit.rules.ExpectedException has been deprecated
+[WARNING] ./jfreechart/src/test/java/org/jfree/data/DefaultKeyedValuesTest.java:[93,9] found raw type: java.util.List
+  missing type arguments for generic class java.util.List<E>
+[WARNING] ./jfreechart/src/test/java/org/jfree/chart/urls/CustomCategoryURLGeneratorTest.java:[100,38] found raw type: java.util.ArrayList
+  missing type arguments for generic class java.util.ArrayList<E>
+[WARNING] ./jfreechart/src/test/java/org/jfree/chart/urls/CustomCategoryURLGeneratorTest.java:[100,25] unchecked call to ArrayList(java.util.Collection<? extends E>) as a member of the raw type java.util.ArrayList
+[WARNING] ./jfreechart/src/test/java/org/jfree/data/general/TestIntervalXYZDataset.java:[142,12] found raw type: java.lang.Comparable
+  missing type arguments for generic class java.lang.Comparable<T>
+[WARNING] ./jfreechart/src/test/java/org/jfree/data/general/TestIntervalXYZDataset.java:[147,24] found raw type: java.lang.Comparable
+  missing type arguments for generic class java.lang.Comparable<T>
+[WARNING] ./jfreechart/src/test/java/org/jfree/chart/axis/DateAxisTest.java:[88,12] serializable class org.jfree.chart.axis.DateAxisTest.MyDateAxis has no definition of serialVersionUID
+[WARNING] ./jfreechart/src/test/java/org/jfree/chart/axis/DateAxisTest.java:[1148,9] found raw type: java.util.List
+  missing type arguments for generic class java.util.List<E>
+[WARNING] ./jfreechart/src/test/java/org/jfree/data/statistics/DefaultBoxAndWhiskerXYDatasetTest.java:[72,36] found raw type: java.util.ArrayList
+  missing type arguments for generic class java.util.ArrayList<E>
+[WARNING] ./jfreechart/src/test/java/org/jfree/data/statistics/DefaultBoxAndWhiskerXYDatasetTest.java:[71,30] unchecked method invocation: constructor <init> in class org.jfree.data.statistics.BoxAndWhiskerItem is applied to given types
+  required: double,double,double,double,double,double,double,double,java.util.List<? extends java.lang.Number>
+  found: double,double,double,double,double,double,double,double,java.util.ArrayList
+[WARNING] ./jfreechart/src/test/java/org/jfree/data/statistics/DefaultBoxAndWhiskerXYDatasetTest.java:[72,32] unchecked conversion
+  required: java.util.List<? extends java.lang.Number>
+  found:    java.util.ArrayList
+[WARNING] ./jfreechart/src/test/java/org/jfree/data/statistics/DefaultBoxAndWhiskerXYDatasetTest.java:[75,36] found raw type: java.util.ArrayList
+  missing type arguments for generic class java.util.ArrayList<E>
+[WARNING] ./jfreechart/src/test/java/org/jfree/data/statistics/DefaultBoxAndWhiskerXYDatasetTest.java:[74,30] unchecked method invocation: constructor <init> in class org.jfree.data.statistics.BoxAndWhiskerItem is applied to given types
+  required: double,double,double,double,double,double,double,double,java.util.List<? extends java.lang.Number>
+  found: double,double,double,double,double,double,double,double,java.util.ArrayList
+[WARNING] ./jfreechart/src/test/java/org/jfree/data/statistics/DefaultBoxAndWhiskerXYDatasetTest.java:[75,32] unchecked conversion
+  required: java.util.List<? extends java.lang.Number>
+  found:    java.util.ArrayList
+[WARNING] ./jfreechart/src/test/java/org/jfree/data/statistics/DefaultBoxAndWhiskerXYDatasetTest.java:[87,36] found raw type: java.util.ArrayList
+  missing type arguments for generic class java.util.ArrayList<E>
+[WARNING] ./jfreechart/src/test/java/org/jfree/data/statistics/DefaultBoxAndWhiskerXYDatasetTest.java:[86,30] unchecked method invocation: constructor <init> in class org.jfree.data.statistics.BoxAndWhiskerItem is applied to given types
+  required: double,double,double,double,double,double,double,double,java.util.List<? extends java.lang.Number>
+  found: double,double,double,double,double,double,double,double,java.util.ArrayList
+[WARNING] ./jfreechart/src/test/java/org/jfree/data/statistics/DefaultBoxAndWhiskerXYDatasetTest.java:[87,32] unchecked conversion
+  required: java.util.List<? extends java.lang.Number>
+  found:    java.util.ArrayList
+[WARNING] ./jfreechart/src/test/java/org/jfree/data/statistics/DefaultBoxAndWhiskerXYDatasetTest.java:[94,36] found raw type: java.util.ArrayList
+  missing type arguments for generic class java.util.ArrayList<E>
+[WARNING] ./jfreechart/src/test/java/org/jfree/data/statistics/DefaultBoxAndWhiskerXYDatasetTest.java:[93,30] unchecked method invocation: constructor <init> in class org.jfree.data.statistics.BoxAndWhiskerItem is applied to given types
+  required: double,double,double,double,double,double,double,double,java.util.List<? extends java.lang.Number>
+  found: double,double,double,double,double,double,double,double,java.util.ArrayList
+[WARNING] ./jfreechart/src/test/java/org/jfree/data/statistics/DefaultBoxAndWhiskerXYDatasetTest.java:[94,32] unchecked conversion
+  required: java.util.List<? extends java.lang.Number>
+  found:    java.util.ArrayList
+[WARNING] ./jfreechart/src/test/java/org/jfree/data/statistics/DefaultBoxAndWhiskerXYDatasetTest.java:[106,36] found raw type: java.util.ArrayList
+  missing type arguments for generic class java.util.ArrayList<E>
+[WARNING] ./jfreechart/src/test/java/org/jfree/data/statistics/DefaultBoxAndWhiskerXYDatasetTest.java:[105,30] unchecked method invocation: constructor <init> in class org.jfree.data.statistics.BoxAndWhiskerItem is applied to given types
+  required: double,double,double,double,double,double,double,double,java.util.List<? extends java.lang.Number>
+  found: double,double,double,double,double,double,double,double,java.util.ArrayList
+[WARNING] ./jfreechart/src/test/java/org/jfree/data/statistics/DefaultBoxAndWhiskerXYDatasetTest.java:[106,32] unchecked conversion
+  required: java.util.List<? extends java.lang.Number>
+  found:    java.util.ArrayList
+[WARNING] ./jfreechart/src/test/java/org/jfree/data/statistics/DefaultBoxAndWhiskerXYDatasetTest.java:[115,36] found raw type: java.util.ArrayList
+  missing type arguments for generic class java.util.ArrayList<E>
+[WARNING] ./jfreechart/src/test/java/org/jfree/data/statistics/DefaultBoxAndWhiskerXYDatasetTest.java:[114,30] unchecked method invocation: constructor <init> in class org.jfree.data.statistics.BoxAndWhiskerItem is applied to given types
+  required: double,double,double,double,double,double,double,double,java.util.List<? extends java.lang.Number>
+  found: double,double,double,double,double,double,double,double,java.util.ArrayList
+[WARNING] ./jfreechart/src/test/java/org/jfree/data/statistics/DefaultBoxAndWhiskerXYDatasetTest.java:[115,32] unchecked conversion
+  required: java.util.List<? extends java.lang.Number>
+  found:    java.util.ArrayList
+[WARNING] ./jfreechart/src/test/java/org/jfree/data/statistics/DefaultBoxAndWhiskerXYDatasetTest.java:[129,41] found raw type: java.util.ArrayList
+  missing type arguments for generic class java.util.ArrayList<E>
+[WARNING] ./jfreechart/src/test/java/org/jfree/data/statistics/DefaultBoxAndWhiskerXYDatasetTest.java:[128,35] unchecked method invocation: constructor <init> in class org.jfree.data.statistics.BoxAndWhiskerItem is applied to given types
+  required: double,double,double,double,double,double,double,double,java.util.List<? extends java.lang.Number>
+  found: double,double,double,double,double,double,double,double,java.util.ArrayList
+[WARNING] ./jfreechart/src/test/java/org/jfree/data/statistics/DefaultBoxAndWhiskerXYDatasetTest.java:[129,37] unchecked conversion
+  required: java.util.List<? extends java.lang.Number>
+  found:    java.util.ArrayList
+[WARNING] ./jfreechart/src/test/java/org/jfree/data/statistics/DefaultBoxAndWhiskerXYDatasetTest.java:[167,36] found raw type: java.util.ArrayList
+  missing type arguments for generic class java.util.ArrayList<E>
+[WARNING] ./jfreechart/src/test/java/org/jfree/data/statistics/DefaultBoxAndWhiskerXYDatasetTest.java:[166,30] unchecked method invocation: constructor <init> in class org.jfree.data.statistics.BoxAndWhiskerItem is applied to given types
+  required: double,double,double,double,double,double,double,double,java.util.List<? extends java.lang.Number>
+  found: double,double,double,double,double,double,double,double,java.util.ArrayList
+[WARNING] ./jfreechart/src/test/java/org/jfree/data/statistics/DefaultBoxAndWhiskerXYDatasetTest.java:[167,32] unchecked conversion
+  required: java.util.List<? extends java.lang.Number>
+  found:    java.util.ArrayList
+[WARNING] ./jfreechart/src/test/java/org/jfree/data/statistics/DefaultBoxAndWhiskerXYDatasetTest.java:[172,36] found raw type: java.util.ArrayList
+  missing type arguments for generic class java.util.ArrayList<E>
+[WARNING] ./jfreechart/src/test/java/org/jfree/data/statistics/DefaultBoxAndWhiskerXYDatasetTest.java:[171,30] unchecked method invocation: constructor <init> in class org.jfree.data.statistics.BoxAndWhiskerItem is applied to given types
+  required: double,double,double,double,double,double,double,double,java.util.List<? extends java.lang.Number>
+  found: double,double,double,double,double,double,double,double,java.util.ArrayList
+[WARNING] ./jfreechart/src/test/java/org/jfree/data/statistics/DefaultBoxAndWhiskerXYDatasetTest.java:[172,32] unchecked conversion
+  required: java.util.List<? extends java.lang.Number>
+  found:    java.util.ArrayList
+[WARNING] ./jfreechart/src/test/java/org/jfree/data/statistics/DefaultBoxAndWhiskerXYDatasetTest.java:[177,36] found raw type: java.util.ArrayList
+  missing type arguments for generic class java.util.ArrayList<E>
+[WARNING] ./jfreechart/src/test/java/org/jfree/data/statistics/DefaultBoxAndWhiskerXYDatasetTest.java:[176,30] unchecked method invocation: constructor <init> in class org.jfree.data.statistics.BoxAndWhiskerItem is applied to given types
+  required: double,double,double,double,double,double,double,double,java.util.List<? extends java.lang.Number>
+  found: double,double,double,double,double,double,double,double,java.util.ArrayList
+[WARNING] ./jfreechart/src/test/java/org/jfree/data/statistics/DefaultBoxAndWhiskerXYDatasetTest.java:[177,32] unchecked conversion
+  required: java.util.List<? extends java.lang.Number>
+  found:    java.util.ArrayList
+[WARNING] ./jfreechart/src/test/java/org/jfree/chart/plot/CombinedRangeXYPlotTest.java:[73,13] found raw type: java.util.List
+  missing type arguments for generic class java.util.List<E>
+[WARNING] ./jfreechart/src/test/java/org/jfree/chart/plot/CombinedRangeXYPlotTest.java:[73,40] found raw type: java.util.ArrayList
+  missing type arguments for generic class java.util.ArrayList<E>
+[WARNING] ./jfreechart/src/test/java/org/jfree/chart/plot/CombinedRangeXYPlotTest.java:[82,24] unchecked call to add(E) as a member of the raw type java.util.List
+[WARNING] ./jfreechart/src/test/java/org/jfree/chart/plot/CombinedRangeXYPlotTest.java:[108,9] found raw type: java.util.List
+  missing type arguments for generic class java.util.List<E>
+[WARNING] ./jfreechart/src/test/java/org/jfree/data/KeyedObjectTest.java:[99,27] found raw type: java.util.ArrayList
+  missing type arguments for generic class java.util.ArrayList<E>
+[WARNING] ./jfreechart/src/test/java/org/jfree/data/general/TestIntervalCategoryDataset.java:[126,12] found raw type: java.lang.Comparable
+  missing type arguments for generic class java.lang.Comparable<T>
+[WARNING] ./jfreechart/src/test/java/org/jfree/data/general/TestIntervalCategoryDataset.java:[140,28] found raw type: java.lang.Comparable
+  missing type arguments for generic class java.lang.Comparable<T>
+[WARNING] ./jfreechart/src/test/java/org/jfree/data/general/TestIntervalCategoryDataset.java:[153,12] found raw type: java.util.List
+  missing type arguments for generic class java.util.List<E>
+[WARNING] ./jfreechart/src/test/java/org/jfree/data/general/TestIntervalCategoryDataset.java:[167,12] found raw type: java.lang.Comparable
+  missing type arguments for generic class java.lang.Comparable<T>
+[WARNING] ./jfreechart/src/test/java/org/jfree/data/general/TestIntervalCategoryDataset.java:[181,31] found raw type: java.lang.Comparable
+  missing type arguments for generic class java.lang.Comparable<T>
+[WARNING] ./jfreechart/src/test/java/org/jfree/data/general/TestIntervalCategoryDataset.java:[194,12] found raw type: java.util.List
+  missing type arguments for generic class java.util.List<E>
+[WARNING] ./jfreechart/src/test/java/org/jfree/data/general/TestIntervalCategoryDataset.java:[211,28] found raw type: java.lang.Comparable
+  missing type arguments for generic class java.lang.Comparable<T>
+[WARNING] ./jfreechart/src/test/java/org/jfree/data/general/TestIntervalCategoryDataset.java:[211,47] found raw type: java.lang.Comparable
+  missing type arguments for generic class java.lang.Comparable<T>
+[WARNING] ./jfreechart/src/test/java/org/jfree/data/general/TestIntervalCategoryDataset.java:[231,13] found raw type: java.lang.Comparable
+  missing type arguments for generic class java.lang.Comparable<T>
+[WARNING] ./jfreechart/src/test/java/org/jfree/data/general/TestIntervalCategoryDataset.java:[231,32] found raw type: java.lang.Comparable
+  missing type arguments for generic class java.lang.Comparable<T>
+[WARNING] ./jfreechart/src/test/java/org/jfree/data/general/TestIntervalCategoryDataset.java:[247,13] found raw type: java.lang.Comparable
+  missing type arguments for generic class java.lang.Comparable<T>
+[WARNING] ./jfreechart/src/test/java/org/jfree/data/general/TestIntervalCategoryDataset.java:[247,32] found raw type: java.lang.Comparable
+  missing type arguments for generic class java.lang.Comparable<T>
+[WARNING] ./jfreechart/src/test/java/org/jfree/data/general/TestIntervalCategoryDataset.java:[263,13] found raw type: java.lang.Comparable
+  missing type arguments for generic class java.lang.Comparable<T>
+[WARNING] ./jfreechart/src/test/java/org/jfree/data/general/TestIntervalCategoryDataset.java:[263,32] found raw type: java.lang.Comparable
+  missing type arguments for generic class java.lang.Comparable<T>
+[WARNING] ./jfreechart/src/test/java/org/jfree/data/general/TestIntervalCategoryDataset.java:[280,13] found raw type: java.lang.Comparable
+  missing type arguments for generic class java.lang.Comparable<T>
+[WARNING] ./jfreechart/src/test/java/org/jfree/data/general/TestIntervalCategoryDataset.java:[280,32] found raw type: java.lang.Comparable
+  missing type arguments for generic class java.lang.Comparable<T>
+[WARNING] ./jfreechart/src/test/java/org/jfree/data/general/TestIntervalCategoryDataset.java:[294,28] found raw type: java.lang.Comparable
+  missing type arguments for generic class java.lang.Comparable<T>
+[WARNING] ./jfreechart/src/test/java/org/jfree/data/general/TestIntervalCategoryDataset.java:[294,47] found raw type: java.lang.Comparable
+  missing type arguments for generic class java.lang.Comparable<T>
+[WARNING] ./jfreechart/src/test/java/org/jfree/data/general/TestIntervalCategoryDataset.java:[320,27] found raw type: java.lang.Comparable
+  missing type arguments for generic class java.lang.Comparable<T>
+[WARNING] ./jfreechart/src/test/java/org/jfree/data/general/TestIntervalCategoryDataset.java:[349,30] found raw type: java.lang.Comparable
+  missing type arguments for generic class java.lang.Comparable<T>
+[WARNING] ./jfreechart/src/test/java/org/jfree/data/general/TestIntervalCategoryDataset.java:[441,33] found raw type: java.lang.Comparable
+  missing type arguments for generic class java.lang.Comparable<T>
+[WARNING] ./jfreechart/src/test/java/org/jfree/data/general/TestIntervalCategoryDataset.java:[441,52] found raw type: java.lang.Comparable
+  missing type arguments for generic class java.lang.Comparable<T>
+[WARNING] ./jfreechart/src/test/java/org/jfree/data/general/TestIntervalCategoryDataset.java:[461,31] found raw type: java.lang.Comparable
+  missing type arguments for generic class java.lang.Comparable<T>
+[WARNING] ./jfreechart/src/test/java/org/jfree/data/general/TestIntervalCategoryDataset.java:[461,50] found raw type: java.lang.Comparable
+  missing type arguments for generic class java.lang.Comparable<T>
+[WARNING] ./jfreechart/src/test/java/org/jfree/chart/renderer/AbstractRendererTest.java:[391,20] serializable class org.jfree.chart.renderer.AbstractRendererTest.TestRenderer has no definition of serialVersionUID
+[WARNING] ./jfreechart/src/test/java/org/jfree/chart/annotations/XYDrawableAnnotationTest.java:[65,12] serializable class org.jfree.chart.annotations.XYDrawableAnnotationTest.TestDrawable has no definition of serialVersionUID
+[WARNING] ./jfreechart/src/test/java/org/jfree/chart/annotations/XYDrawableAnnotationTest.java:[65,12] Class org.jfree.chart.annotations.XYDrawableAnnotationTest.TestDrawable overrides equals, but neither it nor any superclass overrides hashCode method
+[WARNING] ./jfreechart/src/test/java/org/jfree/data/ComparableObjectSeriesTest.java:[62,41] found raw type: java.lang.Comparable
+  missing type arguments for generic class java.lang.Comparable<T>
+[INFO] 100 warnings 
+[INFO] -------------------------------------------------------------
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] ./jfreechart/src/test/java/org/jfree/chart/plot/PiePlotTest.java:[574,12] org.jfree.chart.plot.PiePlotTest.NullLegendLabelGenerator is not abstract and does not override abstract method generateAttributedSectionLabel(org.jfree.data.general.PieDataset,java.lang.Comparable) in org.jfree.chart.labels.PieSectionLabelGenerator
+[ERROR] ./jfreechart/src/test/java/org/jfree/chart/plot/PiePlotTest.java:[576,33] name clash: generateAttributedSectionLabel(org.jfree.data.general.PieDataset,java.lang.Comparable<?>) in org.jfree.chart.plot.PiePlotTest.NullLegendLabelGenerator and generateAttributedSectionLabel(org.jfree.data.general.PieDataset,java.lang.Comparable) in org.jfree.chart.labels.PieSectionLabelGenerator have the same erasure, yet neither overrides the other
+[ERROR] ./jfreechart/src/test/java/org/jfree/chart/plot/PiePlotTest.java:[575,9] method does not override or implement a method from a supertype
+[ERROR] ./jfreechart/src/test/java/org/jfree/chart/plot/PiePlotTest.java:[581,23] name clash: generateSectionLabel(org.jfree.data.general.PieDataset,java.lang.Comparable<?>) in org.jfree.chart.plot.PiePlotTest.NullLegendLabelGenerator and generateSectionLabel(org.jfree.data.general.PieDataset,java.lang.Comparable) in org.jfree.chart.labels.PieSectionLabelGenerator have the same erasure, yet neither overrides the other
+[ERROR] ./jfreechart/src/test/java/org/jfree/chart/plot/PiePlotTest.java:[580,9] method does not override or implement a method from a supertype
+[INFO] 5 errors 
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  21.080 s
+[INFO] Finished at: 
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.8.1:testCompile (default-testCompile) on project jfreechart: Compilation failure: Compilation failure: 
+[ERROR] ./jfreechart/src/test/java/org/jfree/chart/plot/PiePlotTest.java:[574,12] org.jfree.chart.plot.PiePlotTest.NullLegendLabelGenerator is not abstract and does not override abstract method generateAttributedSectionLabel(org.jfree.data.general.PieDataset,java.lang.Comparable) in org.jfree.chart.labels.PieSectionLabelGenerator
+[ERROR] ./jfreechart/src/test/java/org/jfree/chart/plot/PiePlotTest.java:[576,33] name clash: generateAttributedSectionLabel(org.jfree.data.general.PieDataset,java.lang.Comparable<?>) in org.jfree.chart.plot.PiePlotTest.NullLegendLabelGenerator and generateAttributedSectionLabel(org.jfree.data.general.PieDataset,java.lang.Comparable) in org.jfree.chart.labels.PieSectionLabelGenerator have the same erasure, yet neither overrides the other
+[ERROR] ./jfreechart/src/test/java/org/jfree/chart/plot/PiePlotTest.java:[575,9] method does not override or implement a method from a supertype
+[ERROR] ./jfreechart/src/test/java/org/jfree/chart/plot/PiePlotTest.java:[581,23] name clash: generateSectionLabel(org.jfree.data.general.PieDataset,java.lang.Comparable<?>) in org.jfree.chart.plot.PiePlotTest.NullLegendLabelGenerator and generateSectionLabel(org.jfree.data.general.PieDataset,java.lang.Comparable) in org.jfree.chart.labels.PieSectionLabelGenerator have the same erasure, yet neither overrides the other
+[ERROR] ./jfreechart/src/test/java/org/jfree/chart/plot/PiePlotTest.java:[580,9] method does not override or implement a method from a supertype
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException

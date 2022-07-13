@@ -1,0 +1,62 @@
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.alibaba:fastjson:jar:1.2.63_preview_01
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-gpg-plugin is missing. @ line 181, column 21
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-surefire-plugin is missing. @ line 149, column 21
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-source-plugin is missing. @ line 133, column 21
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-javadoc-plugin is missing. @ line 159, column 21
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO] 
+[INFO] ------------------------< com.alibaba:fastjson >------------------------
+[INFO] Building fastjson 1.2.63_preview_01
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ fastjson ---
+[INFO] Deleting ./fastjson/target
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ fastjson ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 6 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.0:compile (default-compile) @ fastjson ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 178 source files to ./fastjson/target/classes
+[INFO] ./fastjson/src/main/java/com/alibaba/fastjson/JSON.java: Some input files use or override a deprecated API.
+[INFO] ./fastjson/src/main/java/com/alibaba/fastjson/JSON.java: Recompile with -Xlint:deprecation for details.
+[INFO] ./fastjson/src/main/java/com/alibaba/fastjson/JSON.java: Some input files use unchecked or unsafe operations.
+[INFO] ./fastjson/src/main/java/com/alibaba/fastjson/JSON.java: Recompile with -Xlint:unchecked for details.
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ fastjson ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 98 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.0:testCompile (default-testCompile) @ fastjson ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 2668 source files to ./fastjson/target/test-classes
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] ./fastjson/src/test/java/com/wheelchair/validate/JSONValidatorTest.java:[10,26] '(' expected
+[ERROR] ./fastjson/src/test/java/com/wheelchair/validate/JSONValidatorTest.java:[10,33] invalid method declaration; return type required
+[INFO] 2 errors 
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  10.403 s
+[INFO] Finished at: 
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.8.0:testCompile (default-testCompile) on project fastjson: Compilation failure: Compilation failure: 
+[ERROR] ./fastjson/src/test/java/com/wheelchair/validate/JSONValidatorTest.java:[10,26] '(' expected
+[ERROR] ./fastjson/src/test/java/com/wheelchair/validate/JSONValidatorTest.java:[10,33] invalid method declaration; return type required
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException

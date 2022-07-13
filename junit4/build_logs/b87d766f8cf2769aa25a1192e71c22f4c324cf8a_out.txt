@@ -1,0 +1,61 @@
+[INFO] Scanning for projects...
+[WARNING] The project junit:junit:jar:4.13-SNAPSHOT uses prerequisites which is only intended for maven-plugin projects but not for non maven-plugin projects. For such purposes you should use the maven-enforcer-plugin. See https://maven.apache.org/enforcer/enforcer-rules/requireMavenVersion.html
+[INFO] 
+[INFO] ----------------------------< junit:junit >-----------------------------
+[INFO] Building JUnit 4.13-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.6.1:clean (default-clean) @ junit ---
+[INFO] Deleting ./junit4/target
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.4:enforce (enforce-versions) @ junit ---
+[INFO] 
+[INFO] --- replacer:1.5.3:replace (default) @ junit ---
+[INFO] Replacement run on 1 file.
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:resources (default-resources) @ junit ---
+[INFO] Using 'ISO-8859-1' encoding to copy filtered resources.
+[INFO] Copying 2 resources
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.3:compile (default-compile) @ junit ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 204 source files to ./junit4/target/classes
+[INFO] -------------------------------------------------------------
+[WARNING] COMPILATION WARNING : 
+[INFO] -------------------------------------------------------------
+[WARNING] To suppress warnings about obsolete options, use -Xlint:-options.
+./junit4/src/main/java/junit/extensions/TestDecorator.java:[3,22] [deprecation] Assert in junit.framework has been deprecated
+[WARNING] ./junit4/src/main/java/org/junit/rules/ExpectedException.java:[8,41] [deprecation] ThrowableCauseMatcher in org.junit.internal.matchers has been deprecated
+[WARNING] ./junit4/src/main/java/org/junit/matchers/JUnitMatchers.java:[7,34] [deprecation] StacktracePrintingMatcher in org.junit.internal.matchers has been deprecated
+[WARNING] ./junit4/src/main/java/org/junit/rules/ExpectedExceptionMatcherBuilder.java:[4,32] [deprecation] JUnitMatchers in org.junit.matchers has been deprecated
+[WARNING] ./junit4/src/main/java/org/junit/runner/notification/SynchronizedRunListener.java:[67,7] no description for @throws
+[WARNING] ./junit4/src/main/java/org/junit/runner/JUnitCore.java:[66,7] no description for @param
+[WARNING] ./junit4/src/main/java/org/junit/internal/Classes.java:[22,7] no description for @throws
+[WARNING] ./junit4/src/main/java/org/junit/internal/runners/statements/FailOnTimeout.java:[109,11] no description for @param
+[WARNING] ./junit4/src/main/java/org/junit/runner/FilterFactories.java:[19,7] no description for @throws
+[WARNING] ./junit4/src/main/java/org/junit/rules/ExpectedException.java:[271,12] [deprecation] <T>assertThat(T,Matcher<? super T>) in Assert has been deprecated
+[INFO] 10 warnings 
+[INFO] -------------------------------------------------------------
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] ./junit4/src/main/java/org/junit/Assert.java:[1005,64] error: incompatible types: Throwable cannot be converted to Class<?>
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  8.581 s
+[INFO] Finished at: 
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.3:compile (default-compile) on project junit: Compilation failure
+[ERROR] ./junit4/src/main/java/org/junit/Assert.java:[1005,64] error: incompatible types: Throwable cannot be converted to Class<?>
+[ERROR] 
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException

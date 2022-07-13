@@ -1,0 +1,784 @@
+[INFO] Scanning for projects...
+Downloading from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/jackson-parent/2.5-rc1/jackson-parent-2.5-rc1.pom
+Progress (1): 1.4/7.8 kB
+Progress (1): 2.7/7.8 kB
+Progress (1): 4.1/7.8 kB
+Progress (1): 5.5/7.8 kB
+Progress (1): 6.9/7.8 kB
+Progress (1): 7.8 kB    
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/jackson-parent/2.5-rc1/jackson-parent-2.5-rc1.pom (7.8 kB at 3.1 kB/s)
+[INFO] 
+[INFO] --------------< com.fasterxml.jackson.core:jackson-core >---------------
+[INFO] Building Jackson-core 2.5.0-SNAPSHOT
+[INFO] -------------------------------[ bundle ]-------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ jackson-core ---
+[INFO] Deleting ./jackson-core/target
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.3.1:enforce (enforce-java) @ jackson-core ---
+[INFO] 
+[INFO] --- build-helper-maven-plugin:1.7:add-source (add-generated-sources) @ jackson-core ---
+[INFO] Source directory: ./jackson-core/target/generated-sources added.
+[INFO] 
+[INFO] --- replacer:1.5.2:replace (process-packageVersion) @ jackson-core ---
+[INFO] Replacement run on 1 file.
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ jackson-core ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ jackson-core ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 80 source files to ./jackson-core/target/classes
+[WARNING] bootstrap class path not set in conjunction with -source 1.6
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ jackson-core ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 2 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ jackson-core ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 71 source files to ./jackson-core/target/test-classes
+[WARNING] bootstrap class path not set in conjunction with -source 1.6
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.17:test (default-test) @ jackson-core ---
+[INFO] Surefire report directory: ./jackson-core/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running com.fasterxml.jackson.core.sym.TestByteBasedSymbols
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.064 sec - in com.fasterxml.jackson.core.sym.TestByteBasedSymbols
+Running com.fasterxml.jackson.core.sym.TestSymbolTables
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.184 sec - in com.fasterxml.jackson.core.sym.TestSymbolTables
+Running com.fasterxml.jackson.core.sym.TestJsonParserSymbols
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.013 sec - in com.fasterxml.jackson.core.sym.TestJsonParserSymbols
+Running com.fasterxml.jackson.core.sym.TestHashCollisionChars
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.02 sec - in com.fasterxml.jackson.core.sym.TestHashCollisionChars
+Running com.fasterxml.jackson.core.util.TestSerializedString
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec - in com.fasterxml.jackson.core.util.TestSerializedString
+Running com.fasterxml.jackson.core.util.TestTextBuffer
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.031 sec - in com.fasterxml.jackson.core.util.TestTextBuffer
+Running com.fasterxml.jackson.core.util.TestCharTypes
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.fasterxml.jackson.core.util.TestCharTypes
+Running com.fasterxml.jackson.core.util.TestDefaultPrettyPrinter
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.04 sec - in com.fasterxml.jackson.core.util.TestDefaultPrettyPrinter
+Running com.fasterxml.jackson.core.util.TestDelegates
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.026 sec - in com.fasterxml.jackson.core.util.TestDelegates
+Running com.fasterxml.jackson.core.util.TestVersionUtil
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.011 sec - in com.fasterxml.jackson.core.util.TestVersionUtil
+Running com.fasterxml.jackson.core.util.TestNumberPrinting
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.296 sec - in com.fasterxml.jackson.core.util.TestNumberPrinting
+Running com.fasterxml.jackson.core.base64.TestJsonParserBinary
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.022 sec - in com.fasterxml.jackson.core.base64.TestJsonParserBinary
+Running com.fasterxml.jackson.core.base64.TestBase64Parsing
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.159 sec - in com.fasterxml.jackson.core.base64.TestBase64Parsing
+Running com.fasterxml.jackson.core.base64.TestBase64Codec
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec - in com.fasterxml.jackson.core.base64.TestBase64Codec
+Running com.fasterxml.jackson.core.base64.TestBase64Generation
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.019 sec - in com.fasterxml.jackson.core.base64.TestBase64Generation
+Running com.fasterxml.jackson.core.io.TestJDKSerializable
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.067 sec - in com.fasterxml.jackson.core.io.TestJDKSerializable
+Running com.fasterxml.jackson.core.io.TestIOContext
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.fasterxml.jackson.core.io.TestIOContext
+Running com.fasterxml.jackson.core.io.TestMergedStream
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.fasterxml.jackson.core.io.TestMergedStream
+Running com.fasterxml.jackson.core.io.TestCharTypes
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec - in com.fasterxml.jackson.core.io.TestCharTypes
+Running com.fasterxml.jackson.core.io.TestJsonStringEncoder
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.112 sec - in com.fasterxml.jackson.core.io.TestJsonStringEncoder
+Running com.fasterxml.jackson.core.io.TestUTF8Writer
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.fasterxml.jackson.core.io.TestUTF8Writer
+Running com.fasterxml.jackson.core.TestJsonPointer
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.fasterxml.jackson.core.TestJsonPointer
+Running com.fasterxml.jackson.core.json.TestWithTonsaSymbols
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.08 sec - in com.fasterxml.jackson.core.json.TestWithTonsaSymbols
+Running com.fasterxml.jackson.core.json.TestRootValues
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.014 sec - in com.fasterxml.jackson.core.json.TestRootValues
+Running com.fasterxml.jackson.core.json.TestUtf8Parser
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.022 sec - in com.fasterxml.jackson.core.json.TestUtf8Parser
+Running com.fasterxml.jackson.core.json.TestJsonFactory
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.021 sec - in com.fasterxml.jackson.core.json.TestJsonFactory
+Running com.fasterxml.jackson.core.json.TestCharEscaping
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 sec - in com.fasterxml.jackson.core.json.TestCharEscaping
+Running com.fasterxml.jackson.core.json.TestNumericValues
+Tests run: 15, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.067 sec - in com.fasterxml.jackson.core.json.TestNumericValues
+Running com.fasterxml.jackson.core.json.TestParserDupHandling
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 sec - in com.fasterxml.jackson.core.json.TestParserDupHandling
+Running com.fasterxml.jackson.core.json.TestParserErrorHandling
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 sec - in com.fasterxml.jackson.core.json.TestParserErrorHandling
+Running com.fasterxml.jackson.core.json.TestComments
+Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.013 sec - in com.fasterxml.jackson.core.json.TestComments
+Running com.fasterxml.jackson.core.json.TestJsonParser
+Tests run: 14, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.055 sec - in com.fasterxml.jackson.core.json.TestJsonParser
+Running com.fasterxml.jackson.core.json.TestGeneratorWithSerializedString
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in com.fasterxml.jackson.core.json.TestGeneratorWithSerializedString
+Running com.fasterxml.jackson.core.json.TestNextXxx
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.501 sec - in com.fasterxml.jackson.core.json.TestNextXxx
+Running com.fasterxml.jackson.core.json.TestLocation
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 sec - in com.fasterxml.jackson.core.json.TestLocation
+Running com.fasterxml.jackson.core.json.TestDecorators
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec - in com.fasterxml.jackson.core.json.TestDecorators
+Running com.fasterxml.jackson.core.json.TestJsonGeneratorFeatures
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 sec - in com.fasterxml.jackson.core.json.TestJsonGeneratorFeatures
+Running com.fasterxml.jackson.core.json.TestCustomEscaping
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 sec - in com.fasterxml.jackson.core.json.TestCustomEscaping
+Running com.fasterxml.jackson.core.json.TestParserOverrides
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 sec - in com.fasterxml.jackson.core.json.TestParserOverrides
+Running com.fasterxml.jackson.core.json.TestParserSymbols
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 sec - in com.fasterxml.jackson.core.json.TestParserSymbols
+Running com.fasterxml.jackson.core.json.TestGeneratorDupHandling
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 sec - in com.fasterxml.jackson.core.json.TestGeneratorDupHandling
+Running com.fasterxml.jackson.core.json.TestUnicode
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec - in com.fasterxml.jackson.core.json.TestUnicode
+Running com.fasterxml.jackson.core.json.TestJsonGenerator
+Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.009 sec - in com.fasterxml.jackson.core.json.TestJsonGenerator
+Running com.fasterxml.jackson.core.json.TestUtf8Generator
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 sec - in com.fasterxml.jackson.core.json.TestUtf8Generator
+Running com.fasterxml.jackson.core.json.TestValueConversions
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.01 sec - in com.fasterxml.jackson.core.json.TestValueConversions
+Running com.fasterxml.jackson.core.json.TestParserNonStandard
+Tests run: 11, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.018 sec - in com.fasterxml.jackson.core.json.TestParserNonStandard
+Running com.fasterxml.jackson.core.TestVersions
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in com.fasterxml.jackson.core.TestVersions
+Running com.fasterxml.jackson.core.format.TestJsonFormatDetection
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 sec - in com.fasterxml.jackson.core.format.TestJsonFormatDetection
+Running com.fasterxml.jackson.core.main.TestParserClosing
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 sec - in com.fasterxml.jackson.core.main.TestParserClosing
+Running com.fasterxml.jackson.core.main.TestScopeMatching
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 sec - in com.fasterxml.jackson.core.main.TestScopeMatching
+Running com.fasterxml.jackson.core.main.TestParserFeatures
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 sec - in com.fasterxml.jackson.core.main.TestParserFeatures
+Running com.fasterxml.jackson.core.main.TestParserLinefeeds
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 sec - in com.fasterxml.jackson.core.main.TestParserLinefeeds
+Running com.fasterxml.jackson.core.main.TestParserWithObjects
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec - in com.fasterxml.jackson.core.main.TestParserWithObjects
+Running com.fasterxml.jackson.core.main.TestGeneratorCopy
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec - in com.fasterxml.jackson.core.main.TestGeneratorCopy
+Running com.fasterxml.jackson.core.main.TestGeneratorClosing
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec - in com.fasterxml.jackson.core.main.TestGeneratorClosing
+Running com.fasterxml.jackson.core.main.TestArrayParsing
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 sec - in com.fasterxml.jackson.core.main.TestArrayParsing
+Running com.fasterxml.jackson.core.main.TestNumberParsing
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.263 sec - in com.fasterxml.jackson.core.main.TestNumberParsing
+Running com.fasterxml.jackson.core.main.TestGeneratorMisc
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.545 sec - in com.fasterxml.jackson.core.main.TestGeneratorMisc
+Running com.fasterxml.jackson.core.main.TestStringGeneration
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.407 sec - in com.fasterxml.jackson.core.main.TestStringGeneration
+Running com.fasterxml.jackson.core.main.TestRawStringWriting
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.326 sec - in com.fasterxml.jackson.core.main.TestRawStringWriting
+Running com.fasterxml.jackson.core.main.TestGeneratorArray
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 sec - in com.fasterxml.jackson.core.main.TestGeneratorArray
+Running com.fasterxml.jackson.core.main.TestGeneratorObject
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.013 sec - in com.fasterxml.jackson.core.main.TestGeneratorObject
+Running com.fasterxml.jackson.core.main.TestPrettyPrinter
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.01 sec - in com.fasterxml.jackson.core.main.TestPrettyPrinter
+Running com.fasterxml.jackson.core.TestJDKSerializability
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.015 sec - in com.fasterxml.jackson.core.TestJDKSerializability
+Running com.fasterxml.jackson.core.TestExceptions
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in com.fasterxml.jackson.core.TestExceptions
+
+Results :
+
+Tests run: 254, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] 
+[INFO] --- maven-bundle-plugin:2.5.3:bundle (default-bundle) @ jackson-core ---
+[INFO] 
+[INFO] --- maven-site-plugin:3.1:attach-descriptor (attach-descriptor) @ jackson-core ---
+[INFO] 
+[INFO] --- maven-javadoc-plugin:2.8.1:jar (attach-javadocs) @ jackson-core ---
+[INFO] 
+Loading source files for package com.fasterxml.jackson.core.sym...
+Loading source files for package com.fasterxml.jackson.core...
+Loading source files for package com.fasterxml.jackson.core.util...
+Loading source files for package com.fasterxml.jackson.core.io...
+Loading source files for package com.fasterxml.jackson.core.json...
+Loading source files for package com.fasterxml.jackson.core.type...
+Loading source files for package com.fasterxml.jackson.core.format...
+Loading source files for package com.fasterxml.jackson.core.base...
+Constructing Javadoc information...
+Standard Doclet version 1.8.0_191
+Building tree for all the packages and classes...
+Generating ./jackson-core/target/apidocs/com/fasterxml/jackson/core/sym/BytesToNameCanonicalizer.html...
+Generating ./jackson-core/target/apidocs/com/fasterxml/jackson/core/sym/CharsToNameCanonicalizer.html...
+Generating ./jackson-core/target/apidocs/com/fasterxml/jackson/core/sym/Name.html...
+Generating ./jackson-core/target/apidocs/com/fasterxml/jackson/core/sym/Name1.html...
+Generating ./jackson-core/target/apidocs/com/fasterxml/jackson/core/sym/Name2.html...
+Generating ./jackson-core/target/apidocs/com/fasterxml/jackson/core/sym/Name3.html...
+Generating ./jackson-core/target/apidocs/com/fasterxml/jackson/core/sym/NameN.html...
+Generating ./jackson-core/target/apidocs/com/fasterxml/jackson/core/Base64Variant.html...
+Generating ./jackson-core/target/apidocs/com/fasterxml/jackson/core/Base64Variants.html...
+Generating ./jackson-core/target/apidocs/com/fasterxml/jackson/core/FormatSchema.html...
+Generating ./jackson-core/target/apidocs/com/fasterxml/jackson/core/JsonEncoding.html...
+Generating ./jackson-core/target/apidocs/com/fasterxml/jackson/core/JsonFactory.html...
+Generating ./jackson-core/target/apidocs/com/fasterxml/jackson/core/JsonFactory.Feature.html...
+Generating ./jackson-core/target/apidocs/com/fasterxml/jackson/core/JsonGenerationException.html...
+Generating ./jackson-core/target/apidocs/com/fasterxml/jackson/core/JsonGenerator.html...
+Generating ./jackson-core/target/apidocs/com/fasterxml/jackson/core/JsonGenerator.Feature.html...
+Generating ./jackson-core/target/apidocs/com/fasterxml/jackson/core/JsonLocation.html...
+Generating ./jackson-core/target/apidocs/com/fasterxml/jackson/core/JsonParseException.html...
+Generating ./jackson-core/target/apidocs/com/fasterxml/jackson/core/JsonParser.html...
+Generating ./jackson-core/target/apidocs/com/fasterxml/jackson/core/JsonParser.Feature.html...
+Generating ./jackson-core/target/apidocs/com/fasterxml/jackson/core/JsonParser.NumberType.html...
+Generating ./jackson-core/target/apidocs/com/fasterxml/jackson/core/JsonPointer.html...
+Generating ./jackson-core/target/apidocs/com/fasterxml/jackson/core/JsonProcessingException.html...
+Generating ./jackson-core/target/apidocs/com/fasterxml/jackson/core/JsonStreamContext.html...
+Generating ./jackson-core/target/apidocs/com/fasterxml/jackson/core/JsonToken.html...
+Generating ./jackson-core/target/apidocs/com/fasterxml/jackson/core/JsonTokenId.html...
+Generating ./jackson-core/target/apidocs/com/fasterxml/jackson/core/ObjectCodec.html...
+Generating ./jackson-core/target/apidocs/com/fasterxml/jackson/core/PrettyPrinter.html...
+Generating ./jackson-core/target/apidocs/com/fasterxml/jackson/core/SerializableString.html...
+Generating ./jackson-core/target/apidocs/com/fasterxml/jackson/core/TreeCodec.html...
+Generating ./jackson-core/target/apidocs/com/fasterxml/jackson/core/TreeNode.html...
+Generating ./jackson-core/target/apidocs/com/fasterxml/jackson/core/Version.html...
+Generating ./jackson-core/target/apidocs/com/fasterxml/jackson/core/Versioned.html...
+Generating ./jackson-core/target/apidocs/com/fasterxml/jackson/core/util/BufferRecycler.html...
+Generating ./jackson-core/target/apidocs/com/fasterxml/jackson/core/util/ByteArrayBuilder.html...
+Generating ./jackson-core/target/apidocs/com/fasterxml/jackson/core/util/DefaultIndenter.html...
+Generating ./jackson-core/target/apidocs/com/fasterxml/jackson/core/util/DefaultPrettyPrinter.html...
+Generating ./jackson-core/target/apidocs/com/fasterxml/jackson/core/util/DefaultPrettyPrinter.FixedSpaceIndenter.html...
+Generating ./jackson-core/target/apidocs/com/fasterxml/jackson/core/util/DefaultPrettyPrinter.Indenter.html...
+Generating ./jackson-core/target/apidocs/com/fasterxml/jackson/core/util/DefaultPrettyPrinter.Lf2SpacesIndenter.html...
+Generating ./jackson-core/target/apidocs/com/fasterxml/jackson/core/util/DefaultPrettyPrinter.NopIndenter.html...
+Generating ./jackson-core/target/apidocs/com/fasterxml/jackson/core/util/Instantiatable.html...
+Generating ./jackson-core/target/apidocs/com/fasterxml/jackson/core/util/InternCache.html...
+Generating ./jackson-core/target/apidocs/com/fasterxml/jackson/core/util/JsonGeneratorDelegate.html...
+Generating ./jackson-core/target/apidocs/com/fasterxml/jackson/core/util/JsonParserDelegate.html...
+Generating ./jackson-core/target/apidocs/com/fasterxml/jackson/core/util/JsonParserSequence.html...
+Generating ./jackson-core/target/apidocs/com/fasterxml/jackson/core/util/MinimalPrettyPrinter.html...
+Generating ./jackson-core/target/apidocs/com/fasterxml/jackson/core/util/TextBuffer.html...
+Generating ./jackson-core/target/apidocs/com/fasterxml/jackson/core/util/VersionUtil.html...
+Generating ./jackson-core/target/apidocs/com/fasterxml/jackson/core/io/CharacterEscapes.html...
+Generating ./jackson-core/target/apidocs/com/fasterxml/jackson/core/io/CharTypes.html...
+Generating ./jackson-core/target/apidocs/com/fasterxml/jackson/core/io/InputDecorator.html...
+Generating ./jackson-core/target/apidocs/com/fasterxml/jackson/core/io/IOContext.html...
+Generating ./jackson-core/target/apidocs/com/fasterxml/jackson/core/io/JsonStringEncoder.html...
+Generating ./jackson-core/target/apidocs/com/fasterxml/jackson/core/io/MergedStream.html...
+Generating ./jackson-core/target/apidocs/com/fasterxml/jackson/core/io/NumberInput.html...
+Generating ./jackson-core/target/apidocs/com/fasterxml/jackson/core/io/NumberOutput.html...
+Generating ./jackson-core/target/apidocs/com/fasterxml/jackson/core/io/OutputDecorator.html...
+Generating ./jackson-core/target/apidocs/com/fasterxml/jackson/core/io/SegmentedStringWriter.html...
+Generating ./jackson-core/target/apidocs/com/fasterxml/jackson/core/io/SerializedString.html...
+Generating ./jackson-core/target/apidocs/com/fasterxml/jackson/core/io/UTF32Reader.html...
+Generating ./jackson-core/target/apidocs/com/fasterxml/jackson/core/io/UTF8Writer.html...
+Generating ./jackson-core/target/apidocs/com/fasterxml/jackson/core/json/ByteSourceJsonBootstrapper.html...
+Generating ./jackson-core/target/apidocs/com/fasterxml/jackson/core/json/DupDetector.html...
+Generating ./jackson-core/target/apidocs/com/fasterxml/jackson/core/json/JsonGeneratorImpl.html...
+Generating ./jackson-core/target/apidocs/com/fasterxml/jackson/core/json/JsonReadContext.html...
+Generating ./jackson-core/target/apidocs/com/fasterxml/jackson/core/json/JsonWriteContext.html...
+Generating ./jackson-core/target/apidocs/com/fasterxml/jackson/core/json/PackageVersion.html...
+Generating ./jackson-core/target/apidocs/com/fasterxml/jackson/core/json/ReaderBasedJsonParser.html...
+Generating ./jackson-core/target/apidocs/com/fasterxml/jackson/core/json/UTF8JsonGenerator.html...
+Generating ./jackson-core/target/apidocs/com/fasterxml/jackson/core/json/UTF8StreamJsonParser.html...
+Generating ./jackson-core/target/apidocs/com/fasterxml/jackson/core/json/WriterBasedJsonGenerator.html...
+Generating ./jackson-core/target/apidocs/com/fasterxml/jackson/core/type/ResolvedType.html...
+Generating ./jackson-core/target/apidocs/com/fasterxml/jackson/core/type/TypeReference.html...
+Generating ./jackson-core/target/apidocs/com/fasterxml/jackson/core/format/DataFormatDetector.html...
+Generating ./jackson-core/target/apidocs/com/fasterxml/jackson/core/format/DataFormatMatcher.html...
+Generating ./jackson-core/target/apidocs/com/fasterxml/jackson/core/format/InputAccessor.html...
+Generating ./jackson-core/target/apidocs/com/fasterxml/jackson/core/format/InputAccessor.Std.html...
+Generating ./jackson-core/target/apidocs/com/fasterxml/jackson/core/format/MatchStrength.html...
+Generating ./jackson-core/target/apidocs/com/fasterxml/jackson/core/base/GeneratorBase.html...
+Generating ./jackson-core/target/apidocs/com/fasterxml/jackson/core/base/ParserBase.html...
+Generating ./jackson-core/target/apidocs/com/fasterxml/jackson/core/base/ParserMinimalBase.html...
+Generating ./jackson-core/target/apidocs/overview-frame.html...
+Generating ./jackson-core/target/apidocs/com/fasterxml/jackson/core/package-frame.html...
+Generating ./jackson-core/target/apidocs/com/fasterxml/jackson/core/package-summary.html...
+Generating ./jackson-core/target/apidocs/com/fasterxml/jackson/core/package-tree.html...
+Generating ./jackson-core/target/apidocs/com/fasterxml/jackson/core/base/package-frame.html...
+Generating ./jackson-core/target/apidocs/com/fasterxml/jackson/core/base/package-summary.html...
+Generating ./jackson-core/target/apidocs/com/fasterxml/jackson/core/base/package-tree.html...
+Generating ./jackson-core/target/apidocs/com/fasterxml/jackson/core/format/package-frame.html...
+Generating ./jackson-core/target/apidocs/com/fasterxml/jackson/core/format/package-summary.html...
+Generating ./jackson-core/target/apidocs/com/fasterxml/jackson/core/format/package-tree.html...
+Generating ./jackson-core/target/apidocs/com/fasterxml/jackson/core/io/package-frame.html...
+Generating ./jackson-core/target/apidocs/com/fasterxml/jackson/core/io/package-summary.html...
+Generating ./jackson-core/target/apidocs/com/fasterxml/jackson/core/io/package-tree.html...
+Generating ./jackson-core/target/apidocs/com/fasterxml/jackson/core/json/package-frame.html...
+Generating ./jackson-core/target/apidocs/com/fasterxml/jackson/core/json/package-summary.html...
+Generating ./jackson-core/target/apidocs/com/fasterxml/jackson/core/json/package-tree.html...
+Generating ./jackson-core/target/apidocs/com/fasterxml/jackson/core/sym/package-frame.html...
+Generating ./jackson-core/target/apidocs/com/fasterxml/jackson/core/sym/package-summary.html...
+Generating ./jackson-core/target/apidocs/com/fasterxml/jackson/core/sym/package-tree.html...
+Generating ./jackson-core/target/apidocs/com/fasterxml/jackson/core/type/package-frame.html...
+Generating ./jackson-core/target/apidocs/com/fasterxml/jackson/core/type/package-summary.html...
+Generating ./jackson-core/target/apidocs/com/fasterxml/jackson/core/type/package-tree.html...
+Generating ./jackson-core/target/apidocs/com/fasterxml/jackson/core/util/package-frame.html...
+Generating ./jackson-core/target/apidocs/com/fasterxml/jackson/core/util/package-summary.html...
+Generating ./jackson-core/target/apidocs/com/fasterxml/jackson/core/util/package-tree.html...
+Generating ./jackson-core/target/apidocs/constant-values.html...
+Generating ./jackson-core/target/apidocs/serialized-form.html...
+Generating ./jackson-core/target/apidocs/com/fasterxml/jackson/core/sym/class-use/CharsToNameCanonicalizer.html...
+Generating ./jackson-core/target/apidocs/com/fasterxml/jackson/core/sym/class-use/BytesToNameCanonicalizer.html...
+Generating ./jackson-core/target/apidocs/com/fasterxml/jackson/core/sym/class-use/Name.html...
+Generating ./jackson-core/target/apidocs/com/fasterxml/jackson/core/sym/class-use/Name2.html...
+Generating ./jackson-core/target/apidocs/com/fasterxml/jackson/core/sym/class-use/Name1.html...
+Generating ./jackson-core/target/apidocs/com/fasterxml/jackson/core/sym/class-use/NameN.html...
+Generating ./jackson-core/target/apidocs/com/fasterxml/jackson/core/sym/class-use/Name3.html...
+Generating ./jackson-core/target/apidocs/com/fasterxml/jackson/core/class-use/JsonGenerationException.html...
+Generating ./jackson-core/target/apidocs/com/fasterxml/jackson/core/class-use/JsonParser.html...
+Generating ./jackson-core/target/apidocs/com/fasterxml/jackson/core/class-use/JsonParser.NumberType.html...
+Generating ./jackson-core/target/apidocs/com/fasterxml/jackson/core/class-use/JsonParser.Feature.html...
+Generating ./jackson-core/target/apidocs/com/fasterxml/jackson/core/class-use/ObjectCodec.html...
+Generating ./jackson-core/target/apidocs/com/fasterxml/jackson/core/class-use/JsonParseException.html...
+Generating ./jackson-core/target/apidocs/com/fasterxml/jackson/core/class-use/TreeNode.html...
+Generating ./jackson-core/target/apidocs/com/fasterxml/jackson/core/class-use/TreeCodec.html...
+Generating ./jackson-core/target/apidocs/com/fasterxml/jackson/core/class-use/JsonFactory.html...
+Generating ./jackson-core/target/apidocs/com/fasterxml/jackson/core/class-use/JsonFactory.Feature.html...
+Generating ./jackson-core/target/apidocs/com/fasterxml/jackson/core/class-use/JsonProcessingException.html...
+Generating ./jackson-core/target/apidocs/com/fasterxml/jackson/core/class-use/Base64Variant.html...
+Generating ./jackson-core/target/apidocs/com/fasterxml/jackson/core/class-use/JsonPointer.html...
+Generating ./jackson-core/target/apidocs/com/fasterxml/jackson/core/class-use/JsonTokenId.html...
+Generating ./jackson-core/target/apidocs/com/fasterxml/jackson/core/class-use/JsonGenerator.html...
+Generating ./jackson-core/target/apidocs/com/fasterxml/jackson/core/class-use/JsonGenerator.Feature.html...
+Generating ./jackson-core/target/apidocs/com/fasterxml/jackson/core/class-use/JsonStreamContext.html...
+Generating ./jackson-core/target/apidocs/com/fasterxml/jackson/core/class-use/PrettyPrinter.html...
+Generating ./jackson-core/target/apidocs/com/fasterxml/jackson/core/class-use/Base64Variants.html...
+Generating ./jackson-core/target/apidocs/com/fasterxml/jackson/core/class-use/Version.html...
+Generating ./jackson-core/target/apidocs/com/fasterxml/jackson/core/class-use/JsonToken.html...
+Generating ./jackson-core/target/apidocs/com/fasterxml/jackson/core/class-use/Versioned.html...
+Generating ./jackson-core/target/apidocs/com/fasterxml/jackson/core/class-use/SerializableString.html...
+Generating ./jackson-core/target/apidocs/com/fasterxml/jackson/core/class-use/JsonLocation.html...
+Generating ./jackson-core/target/apidocs/com/fasterxml/jackson/core/class-use/FormatSchema.html...
+Generating ./jackson-core/target/apidocs/com/fasterxml/jackson/core/class-use/JsonEncoding.html...
+Generating ./jackson-core/target/apidocs/com/fasterxml/jackson/core/util/class-use/DefaultPrettyPrinter.html...
+Generating ./jackson-core/target/apidocs/com/fasterxml/jackson/core/util/class-use/DefaultPrettyPrinter.Indenter.html...
+Generating ./jackson-core/target/apidocs/com/fasterxml/jackson/core/util/class-use/DefaultPrettyPrinter.NopIndenter.html...
+Generating ./jackson-core/target/apidocs/com/fasterxml/jackson/core/util/class-use/DefaultPrettyPrinter.FixedSpaceIndenter.html...
+Generating ./jackson-core/target/apidocs/com/fasterxml/jackson/core/util/class-use/DefaultPrettyPrinter.Lf2SpacesIndenter.html...
+Generating ./jackson-core/target/apidocs/com/fasterxml/jackson/core/util/class-use/InternCache.html...
+Generating ./jackson-core/target/apidocs/com/fasterxml/jackson/core/util/class-use/BufferRecycler.html...
+Generating ./jackson-core/target/apidocs/com/fasterxml/jackson/core/util/class-use/MinimalPrettyPrinter.html...
+Generating ./jackson-core/target/apidocs/com/fasterxml/jackson/core/util/class-use/Instantiatable.html...
+Generating ./jackson-core/target/apidocs/com/fasterxml/jackson/core/util/class-use/ByteArrayBuilder.html...
+Generating ./jackson-core/target/apidocs/com/fasterxml/jackson/core/util/class-use/DefaultIndenter.html...
+Generating ./jackson-core/target/apidocs/com/fasterxml/jackson/core/util/class-use/JsonParserSequence.html...
+Generating ./jackson-core/target/apidocs/com/fasterxml/jackson/core/util/class-use/VersionUtil.html...
+Generating ./jackson-core/target/apidocs/com/fasterxml/jackson/core/util/class-use/JsonParserDelegate.html...
+Generating ./jackson-core/target/apidocs/com/fasterxml/jackson/core/util/class-use/JsonGeneratorDelegate.html...
+Generating ./jackson-core/target/apidocs/com/fasterxml/jackson/core/util/class-use/TextBuffer.html...
+Generating ./jackson-core/target/apidocs/com/fasterxml/jackson/core/io/class-use/SegmentedStringWriter.html...
+Generating ./jackson-core/target/apidocs/com/fasterxml/jackson/core/io/class-use/InputDecorator.html...
+Generating ./jackson-core/target/apidocs/com/fasterxml/jackson/core/io/class-use/NumberOutput.html...
+Generating ./jackson-core/target/apidocs/com/fasterxml/jackson/core/io/class-use/MergedStream.html...
+Generating ./jackson-core/target/apidocs/com/fasterxml/jackson/core/io/class-use/UTF32Reader.html...
+Generating ./jackson-core/target/apidocs/com/fasterxml/jackson/core/io/class-use/OutputDecorator.html...
+Generating ./jackson-core/target/apidocs/com/fasterxml/jackson/core/io/class-use/CharacterEscapes.html...
+Generating ./jackson-core/target/apidocs/com/fasterxml/jackson/core/io/class-use/NumberInput.html...
+Generating ./jackson-core/target/apidocs/com/fasterxml/jackson/core/io/class-use/CharTypes.html...
+Generating ./jackson-core/target/apidocs/com/fasterxml/jackson/core/io/class-use/SerializedString.html...
+Generating ./jackson-core/target/apidocs/com/fasterxml/jackson/core/io/class-use/JsonStringEncoder.html...
+Generating ./jackson-core/target/apidocs/com/fasterxml/jackson/core/io/class-use/UTF8Writer.html...
+Generating ./jackson-core/target/apidocs/com/fasterxml/jackson/core/io/class-use/IOContext.html...
+Generating ./jackson-core/target/apidocs/com/fasterxml/jackson/core/json/class-use/ByteSourceJsonBootstrapper.html...
+Generating ./jackson-core/target/apidocs/com/fasterxml/jackson/core/json/class-use/JsonGeneratorImpl.html...
+Generating ./jackson-core/target/apidocs/com/fasterxml/jackson/core/json/class-use/JsonReadContext.html...
+Generating ./jackson-core/target/apidocs/com/fasterxml/jackson/core/json/class-use/UTF8JsonGenerator.html...
+Generating ./jackson-core/target/apidocs/com/fasterxml/jackson/core/json/class-use/PackageVersion.html...
+Generating ./jackson-core/target/apidocs/com/fasterxml/jackson/core/json/class-use/WriterBasedJsonGenerator.html...
+Generating ./jackson-core/target/apidocs/com/fasterxml/jackson/core/json/class-use/UTF8StreamJsonParser.html...
+Generating ./jackson-core/target/apidocs/com/fasterxml/jackson/core/json/class-use/JsonWriteContext.html...
+Generating ./jackson-core/target/apidocs/com/fasterxml/jackson/core/json/class-use/ReaderBasedJsonParser.html...
+Generating ./jackson-core/target/apidocs/com/fasterxml/jackson/core/json/class-use/DupDetector.html...
+Generating ./jackson-core/target/apidocs/com/fasterxml/jackson/core/type/class-use/ResolvedType.html...
+Generating ./jackson-core/target/apidocs/com/fasterxml/jackson/core/type/class-use/TypeReference.html...
+Generating ./jackson-core/target/apidocs/com/fasterxml/jackson/core/format/class-use/DataFormatMatcher.html...
+Generating ./jackson-core/target/apidocs/com/fasterxml/jackson/core/format/class-use/DataFormatDetector.html...
+Generating ./jackson-core/target/apidocs/com/fasterxml/jackson/core/format/class-use/InputAccessor.html...
+Generating ./jackson-core/target/apidocs/com/fasterxml/jackson/core/format/class-use/InputAccessor.Std.html...
+Generating ./jackson-core/target/apidocs/com/fasterxml/jackson/core/format/class-use/MatchStrength.html...
+Generating ./jackson-core/target/apidocs/com/fasterxml/jackson/core/base/class-use/ParserMinimalBase.html...
+Generating ./jackson-core/target/apidocs/com/fasterxml/jackson/core/base/class-use/GeneratorBase.html...
+Generating ./jackson-core/target/apidocs/com/fasterxml/jackson/core/base/class-use/ParserBase.html...
+Generating ./jackson-core/target/apidocs/com/fasterxml/jackson/core/package-use.html...
+Generating ./jackson-core/target/apidocs/com/fasterxml/jackson/core/base/package-use.html...
+Generating ./jackson-core/target/apidocs/com/fasterxml/jackson/core/format/package-use.html...
+Generating ./jackson-core/target/apidocs/com/fasterxml/jackson/core/io/package-use.html...
+Generating ./jackson-core/target/apidocs/com/fasterxml/jackson/core/json/package-use.html...
+Generating ./jackson-core/target/apidocs/com/fasterxml/jackson/core/sym/package-use.html...
+Generating ./jackson-core/target/apidocs/com/fasterxml/jackson/core/type/package-use.html...
+Generating ./jackson-core/target/apidocs/com/fasterxml/jackson/core/util/package-use.html...
+Building index for all the packages and classes...
+Generating ./jackson-core/target/apidocs/overview-tree.html...
+Generating ./jackson-core/target/apidocs/index-all.html...
+Generating ./jackson-core/target/apidocs/deprecated-list.html...
+Building index for all classes...
+Generating ./jackson-core/target/apidocs/allclasses-frame.html...
+Generating ./jackson-core/target/apidocs/allclasses-noframe.html...
+Generating ./jackson-core/target/apidocs/index.html...
+Generating ./jackson-core/target/apidocs/overview-summary.html...
+Generating ./jackson-core/target/apidocs/help-doc.html...
+17 errors
+100 warnings
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  19.705 s
+[INFO] Finished at: 
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-javadoc-plugin:2.8.1:jar (attach-javadocs) on project jackson-core: MavenReportException: Error while creating archive: 
+[ERROR] Exit code: 1 - ./jackson-core/src/main/java/com/fasterxml/jackson/core/sym/BytesToNameCanonicalizer.java:346: warning: no @return
+[ERROR]     public static BytesToNameCanonicalizer createRoot() {
+[ERROR]                                            ^
+[ERROR] ./jackson-core/src/main/java/com/fasterxml/jackson/core/sym/BytesToNameCanonicalizer.java:360: warning: no @param for seed
+[ERROR]     protected static BytesToNameCanonicalizer createRoot(int seed) {
+[ERROR]                                               ^
+[ERROR] ./jackson-core/src/main/java/com/fasterxml/jackson/core/sym/BytesToNameCanonicalizer.java:360: warning: no @return
+[ERROR]     protected static BytesToNameCanonicalizer createRoot(int seed) {
+[ERROR]                                               ^
+[ERROR] ./jackson-core/src/main/java/com/fasterxml/jackson/core/sym/BytesToNameCanonicalizer.java:368: warning: no @param for flags
+[ERROR]     public BytesToNameCanonicalizer makeChild(int flags) {
+[ERROR]                                     ^
+[ERROR] ./jackson-core/src/main/java/com/fasterxml/jackson/core/sym/BytesToNameCanonicalizer.java:368: warning: no @return
+[ERROR]     public BytesToNameCanonicalizer makeChild(int flags) {
+[ERROR]                                     ^
+[ERROR] ./jackson-core/src/main/java/com/fasterxml/jackson/core/sym/BytesToNameCanonicalizer.java:452: warning: no @return
+[ERROR]     public int bucketCount() { return _hash.length; }
+[ERROR]                ^
+[ERROR] ./jackson-core/src/main/java/com/fasterxml/jackson/core/sym/BytesToNameCanonicalizer.java:459: warning: no @return
+[ERROR]     public boolean maybeDirty() { return !_hashShared; }
+[ERROR]                    ^
+[ERROR] ./jackson-core/src/main/java/com/fasterxml/jackson/core/sym/BytesToNameCanonicalizer.java:464: warning: no @return
+[ERROR]     public int hashSeed() { return _seed; }
+[ERROR]                ^
+[ERROR] ./jackson-core/src/main/java/com/fasterxml/jackson/core/sym/BytesToNameCanonicalizer.java:473: warning: no @return
+[ERROR]     public int collisionCount() { return _collCount; }
+[ERROR]                ^
+[ERROR] ./jackson-core/src/main/java/com/fasterxml/jackson/core/sym/BytesToNameCanonicalizer.java:482: warning: no @return
+[ERROR]     public int maxCollisionLength() {
+[ERROR]                ^
+[ERROR] ./jackson-core/src/main/java/com/fasterxml/jackson/core/sym/BytesToNameCanonicalizer.java:1138: warning: no @param for maxLen
+[ERROR]     protected void reportTooManyCollisions(int maxLen)
+[ERROR]                    ^
+[ERROR] ./jackson-core/src/main/java/com/fasterxml/jackson/core/sym/CharsToNameCanonicalizer.java:219: warning: no @return
+[ERROR]     public static CharsToNameCanonicalizer createRoot() {
+[ERROR]                                            ^
+[ERROR] ./jackson-core/src/main/java/com/fasterxml/jackson/core/sym/CharsToNameCanonicalizer.java:297: warning: no @param for flags
+[ERROR]     public CharsToNameCanonicalizer makeChild(int flags) {
+[ERROR]                                     ^
+[ERROR] ./jackson-core/src/main/java/com/fasterxml/jackson/core/sym/CharsToNameCanonicalizer.java:297: warning: no @return
+[ERROR]     public CharsToNameCanonicalizer makeChild(int flags) {
+[ERROR]                                     ^
+[ERROR] ./jackson-core/src/main/java/com/fasterxml/jackson/core/sym/CharsToNameCanonicalizer.java:395: warning: no @return
+[ERROR]     public int bucketCount() {  return _symbols.length; }
+[ERROR]                ^
+[ERROR] ./jackson-core/src/main/java/com/fasterxml/jackson/core/sym/CharsToNameCanonicalizer.java:406: warning: no @return
+[ERROR]     public int collisionCount() {
+[ERROR]                ^
+[ERROR] ./jackson-core/src/main/java/com/fasterxml/jackson/core/sym/CharsToNameCanonicalizer.java:424: warning: no @return
+[ERROR]     public int maxCollisionLength() { return _longestCollisionList; }
+[ERROR]                ^
+[ERROR] ./jackson-core/src/main/java/com/fasterxml/jackson/core/sym/CharsToNameCanonicalizer.java:556: warning: no @param for rawHash
+[ERROR]     public int _hashToIndex(int rawHash) {
+[ERROR]                ^
+[ERROR] ./jackson-core/src/main/java/com/fasterxml/jackson/core/sym/CharsToNameCanonicalizer.java:556: warning: no @return
+[ERROR]     public int _hashToIndex(int rawHash) {
+[ERROR]                ^
+[ERROR] ./jackson-core/src/main/java/com/fasterxml/jackson/core/sym/CharsToNameCanonicalizer.java:570: warning: no @param for buffer
+[ERROR]     public int calcHash(char[] buffer, int start, int len) {
+[ERROR]                ^
+[ERROR] ./jackson-core/src/main/java/com/fasterxml/jackson/core/sym/CharsToNameCanonicalizer.java:570: warning: no @param for start
+[ERROR]     public int calcHash(char[] buffer, int start, int len) {
+[ERROR]                ^
+[ERROR] ./jackson-core/src/main/java/com/fasterxml/jackson/core/sym/CharsToNameCanonicalizer.java:570: warning: no @return
+[ERROR]     public int calcHash(char[] buffer, int start, int len) {
+[ERROR]                ^
+[ERROR] ./jackson-core/src/main/java/com/fasterxml/jackson/core/sym/CharsToNameCanonicalizer.java:696: warning: no @param for maxLen
+[ERROR]     protected void reportTooManyCollisions(int maxLen) {
+[ERROR]                    ^
+[ERROR] ./jackson-core/src/main/java/com/fasterxml/jackson/core/sym/CharsToNameCanonicalizer.java:24: error: self-closing element not allowed
+[ERROR]  * done with all symbols in same bucket index.<br />
+[ERROR]                                               ^
+[ERROR] ./jackson-core/src/main/java/com/fasterxml/jackson/core/Base64Variant.java:179: warning: no @return
+[ERROR]     protected Object readResolve() {
+[ERROR]                      ^
+[ERROR] ./jackson-core/src/main/java/com/fasterxml/jackson/core/Base64Variant.java:208: warning: no @param for c
+[ERROR]     public int decodeBase64Char(char c)
+[ERROR]                ^
+[ERROR] ./jackson-core/src/main/java/com/fasterxml/jackson/core/Base64Variant.java:243: warning: no @param for b24
+[ERROR]     public int encodeBase64Chunk(int b24, char[] buffer, int ptr)
+[ERROR]                ^
+[ERROR] ./jackson-core/src/main/java/com/fasterxml/jackson/core/Base64Variant.java:243: warning: no @param for buffer
+[ERROR]     public int encodeBase64Chunk(int b24, char[] buffer, int ptr)
+[ERROR]                ^
+[ERROR] ./jackson-core/src/main/java/com/fasterxml/jackson/core/Base64Variant.java:243: warning: no @param for ptr
+[ERROR]     public int encodeBase64Chunk(int b24, char[] buffer, int ptr)
+[ERROR]                ^
+[ERROR] ./jackson-core/src/main/java/com/fasterxml/jackson/core/Base64Variant.java:243: warning: no @return
+[ERROR]     public int encodeBase64Chunk(int b24, char[] buffer, int ptr)
+[ERROR]                ^
+[ERROR] ./jackson-core/src/main/java/com/fasterxml/jackson/core/Base64Variant.java:268: warning: no @param for bits
+[ERROR]     public int encodeBase64Partial(int bits, int outputBytes, char[] buffer, int outPtr)
+[ERROR]                ^
+[ERROR] ./jackson-core/src/main/java/com/fasterxml/jackson/core/Base64Variant.java:268: warning: no @param for buffer
+[ERROR]     public int encodeBase64Partial(int bits, int outputBytes, char[] buffer, int outPtr)
+[ERROR]                ^
+[ERROR] ./jackson-core/src/main/java/com/fasterxml/jackson/core/Base64Variant.java:268: warning: no @param for outPtr
+[ERROR]     public int encodeBase64Partial(int bits, int outputBytes, char[] buffer, int outPtr)
+[ERROR]                ^
+[ERROR] ./jackson-core/src/main/java/com/fasterxml/jackson/core/Base64Variant.java:268: warning: no @return
+[ERROR]     public int encodeBase64Partial(int bits, int outputBytes, char[] buffer, int outPtr)
+[ERROR]                ^
+[ERROR] ./jackson-core/src/main/java/com/fasterxml/jackson/core/Base64Variant.java:309: warning: no @param for b24
+[ERROR]     public int encodeBase64Chunk(int b24, byte[] buffer, int ptr)
+[ERROR]                ^
+[ERROR] ./jackson-core/src/main/java/com/fasterxml/jackson/core/Base64Variant.java:309: warning: no @param for buffer
+[ERROR]     public int encodeBase64Chunk(int b24, byte[] buffer, int ptr)
+[ERROR]                ^
+[ERROR] ./jackson-core/src/main/java/com/fasterxml/jackson/core/Base64Variant.java:309: warning: no @param for ptr
+[ERROR]     public int encodeBase64Chunk(int b24, byte[] buffer, int ptr)
+[ERROR]                ^
+[ERROR] ./jackson-core/src/main/java/com/fasterxml/jackson/core/Base64Variant.java:309: warning: no @return
+[ERROR]     public int encodeBase64Chunk(int b24, byte[] buffer, int ptr)
+[ERROR]                ^
+[ERROR] ./jackson-core/src/main/java/com/fasterxml/jackson/core/Base64Variant.java:326: warning: no @param for bits
+[ERROR]     public int encodeBase64Partial(int bits, int outputBytes, byte[] buffer, int outPtr)
+[ERROR]                ^
+[ERROR] ./jackson-core/src/main/java/com/fasterxml/jackson/core/Base64Variant.java:326: warning: no @param for buffer
+[ERROR]     public int encodeBase64Partial(int bits, int outputBytes, byte[] buffer, int outPtr)
+[ERROR]                ^
+[ERROR] ./jackson-core/src/main/java/com/fasterxml/jackson/core/Base64Variant.java:326: warning: no @param for outPtr
+[ERROR]     public int encodeBase64Partial(int bits, int outputBytes, byte[] buffer, int outPtr)
+[ERROR]                ^
+[ERROR] ./jackson-core/src/main/java/com/fasterxml/jackson/core/Base64Variant.java:326: warning: no @return
+[ERROR]     public int encodeBase64Partial(int bits, int outputBytes, byte[] buffer, int outPtr)
+[ERROR]                ^
+[ERROR] ./jackson-core/src/main/java/com/fasterxml/jackson/core/Base64Variant.java:357: warning: no @return
+[ERROR]     public String encode(byte[] input)
+[ERROR]                   ^
+[ERROR] ./jackson-core/src/main/java/com/fasterxml/jackson/core/Base64Variant.java:370: warning: no @return
+[ERROR]     public String encode(byte[] input, boolean addQuotes)
+[ERROR]                   ^
+[ERROR] ./jackson-core/src/main/java/com/fasterxml/jackson/core/Base64Variant.java:423: warning: no description for @param
+[ERROR]      * @param input
+[ERROR]        ^
+[ERROR] ./jackson-core/src/main/java/com/fasterxml/jackson/core/Base64Variant.java:430: warning: no @return
+[ERROR]     public byte[] decode(String input) throws IllegalArgumentException
+[ERROR]                   ^
+[ERROR] ./jackson-core/src/main/java/com/fasterxml/jackson/core/Base64Variant.java:450: warning: no @param for str
+[ERROR]     public void decode(String str, ByteArrayBuilder builder) throws IllegalArgumentException
+[ERROR]                 ^
+[ERROR] ./jackson-core/src/main/java/com/fasterxml/jackson/core/Base64Variant.java:450: warning: no @param for builder
+[ERROR]     public void decode(String str, ByteArrayBuilder builder) throws IllegalArgumentException
+[ERROR]                 ^
+[ERROR] ./jackson-core/src/main/java/com/fasterxml/jackson/core/Base64Variant.java:569: warning: no @param for ch
+[ERROR]     protected void _reportInvalidBase64(char ch, int bindex, String msg)
+[ERROR]                    ^
+[ERROR] ./jackson-core/src/main/java/com/fasterxml/jackson/core/Base64Variant.java:569: warning: no @param for msg
+[ERROR]     protected void _reportInvalidBase64(char ch, int bindex, String msg)
+[ERROR]                    ^
+[ERROR] ./jackson-core/src/main/java/com/fasterxml/jackson/core/Base64Variant.java:154: warning: no @param for base
+[ERROR]     public Base64Variant(Base64Variant base, String name, boolean usesPadding, char paddingChar, int maxLineLength)
+[ERROR]            ^
+[ERROR] ./jackson-core/src/main/java/com/fasterxml/jackson/core/Base64Variant.java:154: warning: no @param for name
+[ERROR]     public Base64Variant(Base64Variant base, String name, boolean usesPadding, char paddingChar, int maxLineLength)
+[ERROR]            ^
+[ERROR] ./jackson-core/src/main/java/com/fasterxml/jackson/core/Base64Variant.java:154: warning: no @param for usesPadding
+[ERROR]     public Base64Variant(Base64Variant base, String name, boolean usesPadding, char paddingChar, int maxLineLength)
+[ERROR]            ^
+[ERROR] ./jackson-core/src/main/java/com/fasterxml/jackson/core/Base64Variant.java:154: warning: no @param for paddingChar
+[ERROR]     public Base64Variant(Base64Variant base, String name, boolean usesPadding, char paddingChar, int maxLineLength)
+[ERROR]            ^
+[ERROR] ./jackson-core/src/main/java/com/fasterxml/jackson/core/Base64Variant.java:154: warning: no @param for maxLineLength
+[ERROR]     public Base64Variant(Base64Variant base, String name, boolean usesPadding, char paddingChar, int maxLineLength)
+[ERROR]            ^
+[ERROR] ./jackson-core/src/main/java/com/fasterxml/jackson/core/Base64Variant.java:144: warning: no @param for base
+[ERROR]     public Base64Variant(Base64Variant base, String name, int maxLineLength)
+[ERROR]            ^
+[ERROR] ./jackson-core/src/main/java/com/fasterxml/jackson/core/Base64Variant.java:144: warning: no @param for name
+[ERROR]     public Base64Variant(Base64Variant base, String name, int maxLineLength)
+[ERROR]            ^
+[ERROR] ./jackson-core/src/main/java/com/fasterxml/jackson/core/Base64Variant.java:144: warning: no @param for maxLineLength
+[ERROR]     public Base64Variant(Base64Variant base, String name, int maxLineLength)
+[ERROR]            ^
+[ERROR] ./jackson-core/src/main/java/com/fasterxml/jackson/core/Base64Variants.java:83: warning: no @return
+[ERROR]     public static Base64Variant getDefaultVariant() {
+[ERROR]                                 ^
+[ERROR] ./jackson-core/src/main/java/com/fasterxml/jackson/core/Base64Variants.java:90: warning: no @param for name
+[ERROR]     public static Base64Variant valueOf(String name) throws IllegalArgumentException
+[ERROR]                                 ^
+[ERROR] ./jackson-core/src/main/java/com/fasterxml/jackson/core/Base64Variants.java:90: warning: no @return
+[ERROR]     public static Base64Variant valueOf(String name) throws IllegalArgumentException
+[ERROR]                                 ^
+[ERROR] ./jackson-core/src/main/java/com/fasterxml/jackson/core/Base64Variants.java:26: error: attribute lacks value
+[ERROR]      * See <a href="">wikipedia Base64 entry</a> for details.
+[ERROR]               ^
+[ERROR] ./jackson-core/src/main/java/com/fasterxml/jackson/core/FormatSchema.java:31: warning: no @return
+[ERROR]     String getSchemaType();
+[ERROR]            ^
+[ERROR] ./jackson-core/src/main/java/com/fasterxml/jackson/core/JsonFactory.java:308: warning: no @return
+[ERROR]     public JsonFactory copy()
+[ERROR]                        ^
+[ERROR] ./jackson-core/src/main/java/com/fasterxml/jackson/core/JsonFactory.java:317: warning: no description for @param
+[ERROR]      * @param exp
+[ERROR]        ^
+[ERROR] ./jackson-core/src/main/java/com/fasterxml/jackson/core/JsonFactory.java:338: warning: no @return
+[ERROR]     protected Object readResolve() {
+[ERROR]                      ^
+[ERROR] ./jackson-core/src/main/java/com/fasterxml/jackson/core/JsonFactory.java:363: warning: no @return
+[ERROR]     public boolean requiresPropertyOrdering() { return false; }
+[ERROR]                    ^
+[ERROR] ./jackson-core/src/main/java/com/fasterxml/jackson/core/JsonFactory.java:377: warning: no @return
+[ERROR]     public boolean canHandleBinaryNatively() { return false; }
+[ERROR]                    ^
+[ERROR] ./jackson-core/src/main/java/com/fasterxml/jackson/core/JsonFactory.java:391: warning: no @return
+[ERROR]     public boolean canUseCharArrays() { return true; }
+[ERROR]                    ^
+[ERROR] ./jackson-core/src/main/java/com/fasterxml/jackson/core/JsonFactory.java:409: warning: no @param for schema
+[ERROR]     public boolean canUseSchema(FormatSchema schema) {
+[ERROR]                    ^
+[ERROR] ./jackson-core/src/main/java/com/fasterxml/jackson/core/JsonFactory.java:409: warning: no @return
+[ERROR]     public boolean canUseSchema(FormatSchema schema) {
+[ERROR]                    ^
+[ERROR] ./jackson-core/src/main/java/com/fasterxml/jackson/core/JsonFactory.java:421: warning: no @return
+[ERROR]     public String getFormatName()
+[ERROR]                   ^
+[ERROR] ./jackson-core/src/main/java/com/fasterxml/jackson/core/JsonFactory.java:463: warning: no @param for acc
+[ERROR]     protected MatchStrength hasJSONFormat(InputAccessor acc) throws IOException
+[ERROR]                             ^
+[ERROR] ./jackson-core/src/main/java/com/fasterxml/jackson/core/JsonFactory.java:463: warning: no @return
+[ERROR]     protected MatchStrength hasJSONFormat(InputAccessor acc) throws IOException
+[ERROR]                             ^
+[ERROR] ./jackson-core/src/main/java/com/fasterxml/jackson/core/JsonFactory.java:463: warning: no @throws for java.io.IOException
+[ERROR]     protected MatchStrength hasJSONFormat(InputAccessor acc) throws IOException
+[ERROR]                             ^
+[ERROR] ./jackson-core/src/main/java/com/fasterxml/jackson/core/JsonFactory.java:489: warning: no @param for f
+[ERROR]     public final JsonFactory configure(JsonFactory.Feature f, boolean state) {
+[ERROR]                              ^
+[ERROR] ./jackson-core/src/main/java/com/fasterxml/jackson/core/JsonFactory.java:489: warning: no @param for state
+[ERROR]     public final JsonFactory configure(JsonFactory.Feature f, boolean state) {
+[ERROR]                              ^
+[ERROR] ./jackson-core/src/main/java/com/fasterxml/jackson/core/JsonFactory.java:489: warning: no @return
+[ERROR]     public final JsonFactory configure(JsonFactory.Feature f, boolean state) {
+[ERROR]                              ^
+[ERROR] ./jackson-core/src/main/java/com/fasterxml/jackson/core/JsonFactory.java:497: warning: no @param for f
+[ERROR]     public JsonFactory enable(JsonFactory.Feature f) {
+[ERROR]                        ^
+[ERROR] ./jackson-core/src/main/java/com/fasterxml/jackson/core/JsonFactory.java:497: warning: no @return
+[ERROR]     public JsonFactory enable(JsonFactory.Feature f) {
+[ERROR]                        ^
+[ERROR] ./jackson-core/src/main/java/com/fasterxml/jackson/core/JsonFactory.java:506: warning: no @param for f
+[ERROR]     public JsonFactory disable(JsonFactory.Feature f) {
+[ERROR]                        ^
+[ERROR] ./jackson-core/src/main/java/com/fasterxml/jackson/core/JsonFactory.java:506: warning: no @return
+[ERROR]     public JsonFactory disable(JsonFactory.Feature f) {
+[ERROR]                        ^
+[ERROR] ./jackson-core/src/main/java/com/fasterxml/jackson/core/JsonFactory.java:514: warning: no @param for f
+[ERROR]     public final boolean isEnabled(JsonFactory.Feature f) {
+[ERROR]                          ^
+[ERROR] ./jackson-core/src/main/java/com/fasterxml/jackson/core/JsonFactory.java:514: warning: no @return
+[ERROR]     public final boolean isEnabled(JsonFactory.Feature f) {
+[ERROR]                          ^
+[ERROR] ./jackson-core/src/main/java/com/fasterxml/jackson/core/JsonFactory.java:528: warning: no @param for f
+[ERROR]     public final JsonFactory configure(JsonParser.Feature f, boolean state) {
+[ERROR]                              ^
+[ERROR] ./jackson-core/src/main/java/com/fasterxml/jackson/core/JsonFactory.java:528: warning: no @param for state
+[ERROR]     public final JsonFactory configure(JsonParser.Feature f, boolean state) {
+[ERROR]                              ^
+[ERROR] ./jackson-core/src/main/java/com/fasterxml/jackson/core/JsonFactory.java:528: warning: no @return
+[ERROR]     public final JsonFactory configure(JsonParser.Feature f, boolean state) {
+[ERROR]                              ^
+[ERROR] ./jackson-core/src/main/java/com/fasterxml/jackson/core/JsonFactory.java:536: warning: no @param for f
+[ERROR]     public JsonFactory enable(JsonParser.Feature f) {
+[ERROR]                        ^
+[ERROR] ./jackson-core/src/main/java/com/fasterxml/jackson/core/JsonFactory.java:536: warning: no @return
+[ERROR]     public JsonFactory enable(JsonParser.Feature f) {
+[ERROR]                        ^
+[ERROR] ./jackson-core/src/main/java/com/fasterxml/jackson/core/JsonFactory.java:545: warning: no @param for f
+[ERROR]     public JsonFactory disable(JsonParser.Feature f) {
+[ERROR]                        ^
+[ERROR] ./jackson-core/src/main/java/com/fasterxml/jackson/core/JsonFactory.java:545: warning: no @return
+[ERROR]     public JsonFactory disable(JsonParser.Feature f) {
+[ERROR]                        ^
+[ERROR] ./jackson-core/src/main/java/com/fasterxml/jackson/core/JsonFactory.java:553: warning: no @param for f
+[ERROR]     public final boolean isEnabled(JsonParser.Feature f) {
+[ERROR]                          ^
+[ERROR] ./jackson-core/src/main/java/com/fasterxml/jackson/core/JsonFactory.java:553: warning: no @return
+[ERROR]     public final boolean isEnabled(JsonParser.Feature f) {
+[ERROR]                          ^
+[ERROR] ./jackson-core/src/main/java/com/fasterxml/jackson/core/JsonFactory.java:561: warning: no @return
+[ERROR]     public InputDecorator getInputDecorator() {
+[ERROR]                           ^
+[ERROR] ./jackson-core/src/main/java/com/fasterxml/jackson/core/JsonFactory.java:568: warning: no @param for d
+[ERROR]     public JsonFactory setInputDecorator(InputDecorator d) {
+[ERROR]                        ^
+[ERROR] ./jackson-core/src/main/java/com/fasterxml/jackson/core/JsonFactory.java:568: warning: no @return
+[ERROR]     public JsonFactory setInputDecorator(InputDecorator d) {
+[ERROR]                        ^
+[ERROR] ./jackson-core/src/main/java/com/fasterxml/jackson/core/JsonFactory.java:583: warning: no @param for f
+[ERROR]     public final JsonFactory configure(JsonGenerator.Feature f, boolean state) {
+[ERROR]                              ^
+[ERROR] ./jackson-core/src/main/java/com/fasterxml/jackson/core/JsonFactory.java:583: warning: no @param for state
+[ERROR]     public final JsonFactory configure(JsonGenerator.Feature f, boolean state) {
+[ERROR]                              ^
+[ERROR] ./jackson-core/src/main/java/com/fasterxml/jackson/core/JsonFactory.java:583: warning: no @return
+[ERROR]     public final JsonFactory configure(JsonGenerator.Feature f, boolean state) {
+[ERROR]                              ^
+[ERROR] ./jackson-core/src/main/java/com/fasterxml/jackson/core/JsonFactory.java:592: warning: no @param for f
+[ERROR]     public JsonFactory enable(JsonGenerator.Feature f) {
+[ERROR]                        ^
+[ERROR] ./jackson-core/src/main/java/com/fasterxml/jackson/core/JsonFactory.java:592: warning: no @return
+[ERROR]     public JsonFactory enable(JsonGenerator.Feature f) {
+[ERROR]                        ^
+[ERROR] ./jackson-core/src/main/java/com/fasterxml/jackson/core/JsonFactory.java:601: warning: no @param for f
+[ERROR]     public JsonFactory disable(JsonGenerator.Feature f) {
+[ERROR]                        ^
+[ERROR] ./jackson-core/src/main/java/com/fasterxml/jackson/core/JsonGenerator.java:296: error: element not closed: code
+[ERROR]      *<code>
+[ERROR]       ^
+[ERROR] ./jackson-core/src/main/java/com/fasterxml/jackson/core/JsonGenerator.java:294: error: element not closed: code
+[ERROR]      *<code>
+[ERROR]       ^
+[ERROR] ./jackson-core/src/main/java/com/fasterxml/jackson/core/JsonGenerator.java:309: error: element not closed: code
+[ERROR]      *<code>
+[ERROR]       ^
+[ERROR] ./jackson-core/src/main/java/com/fasterxml/jackson/core/JsonGenerator.java:307: error: element not closed: code
+[ERROR]      *<code>
+[ERROR]       ^
+[ERROR] ./jackson-core/src/main/java/com/fasterxml/jackson/core/JsonParser.java:284: error: element not closed: code
+[ERROR]      *<code>
+[ERROR]       ^
+[ERROR] ./jackson-core/src/main/java/com/fasterxml/jackson/core/JsonParser.java:282: error: element not closed: code
+[ERROR]      *<code>
+[ERROR]       ^
+[ERROR] ./jackson-core/src/main/java/com/fasterxml/jackson/core/JsonParser.java:297: error: element not closed: code
+[ERROR]      *<code>
+[ERROR]       ^
+[ERROR] ./jackson-core/src/main/java/com/fasterxml/jackson/core/JsonParser.java:295: error: element not closed: code
+[ERROR]      *<code>
+[ERROR]       ^
+[ERROR] ./jackson-core/src/main/java/com/fasterxml/jackson/core/JsonParser.java:551: error: bad HTML entity
+[ERROR]      *  return (nextToken() == JsonToken.FIELD_NAME) && str.getValue().equals(getCurrentName());
+[ERROR]                                                      ^
+[ERROR] ./jackson-core/src/main/java/com/fasterxml/jackson/core/JsonParser.java:551: error: bad HTML entity
+[ERROR]      *  return (nextToken() == JsonToken.FIELD_NAME) && str.getValue().equals(getCurrentName());
+[ERROR]                                                       ^
+[ERROR] ./jackson-core/src/main/java/com/fasterxml/jackson/core/JsonParser.java:556: error: element not closed: code
+[ERROR]      * @param str Property name to compare next token to (if next token is <code>JsonToken.FIELD_NAME<code>)
+[ERROR]                                                                                                      ^
+[ERROR] ./jackson-core/src/main/java/com/fasterxml/jackson/core/JsonParser.java:556: error: element not closed: code
+[ERROR]      * @param str Property name to compare next token to (if next token is <code>JsonToken.FIELD_NAME<code>)
+[ERROR]                                                                            ^
+[ERROR] ./jackson-core/src/main/java/com/fasterxml/jackson/core/type/TypeReference.java:20: error: bad use of '>'
+[ERROR]  * to generic type <code>List&lt;Integer></code>:
+[ERROR]                                         ^
+[ERROR] ./jackson-core/src/main/java/com/fasterxml/jackson/core/type/TypeReference.java:22: error: bad use of '>'
+[ERROR]  *  TypeReference ref = new TypeReference&lt;List&lt;Integer>>() { };
+[ERROR]                                                             ^
+[ERROR] ./jackson-core/src/main/java/com/fasterxml/jackson/core/type/TypeReference.java:22: error: bad use of '>'
+[ERROR]  *  TypeReference ref = new TypeReference&lt;List&lt;Integer>>() { };
+[ERROR]                                                              ^
+[ERROR] 
+[ERROR] Command line was: /Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/bin/javadoc -J-Xmx512m @options @packages
+[ERROR] 
+[ERROR] Refer to the generated Javadoc files in './jackson-core/target/apidocs' dir.
+[ERROR] 
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoExecutionException

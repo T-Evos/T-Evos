@@ -1,0 +1,162 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] -------------------< org.apache.commons:commons-csv >-------------------
+[INFO] Building Commons CSV 1.0-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ commons-csv ---
+[INFO] Deleting ./commons-csv/target
+[INFO] 
+[INFO] --- maven-antrun-plugin:1.7:run (javadoc.resources) @ commons-csv ---
+[INFO] Executing tasks
+
+main:
+     [copy] Copying 2 files to ./commons-csv/target/apidocs/META-INF
+[INFO] Executed tasks
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.4:process (default) @ commons-csv ---
+[INFO] 
+[INFO] --- buildnumber-maven-plugin:1.2:create (default) @ commons-csv ---
+[INFO] Checking for local modifications: skipped.
+[INFO] Updating project files from SCM: skipped.
+[INFO] Executing: /bin/sh -c cd ./commons-csv && svn --non-interactive info
+[INFO] Working directory: ./commons-csv
+[INFO] Storing buildNumber: ?????? at timestamp: 1655745118620
+[INFO] Executing: /bin/sh -c cd ./commons-csv && svn --non-interactive info
+[INFO] Working directory: ./commons-csv
+[INFO] Storing buildScmBranch: UNKNOWN_BRANCH
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ commons-csv ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory ./commons-csv/src/main/resources
+[INFO] Copying 2 resources to META-INF
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ commons-csv ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 11 source files to ./commons-csv/target/classes
+[INFO] 
+[INFO] --- maven-bundle-plugin:2.4.0:manifest (bundle-manifest) @ commons-csv ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ commons-csv ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 13 resources
+[INFO] Copying 2 resources to META-INF
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ commons-csv ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 14 source files to ./commons-csv/target/test-classes
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.15:test (default-test) @ commons-csv ---
+[INFO] Surefire report directory: ./commons-csv/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running org.apache.commons.csv.CSVFormatTest
+Tests run: 37, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.376 sec - in org.apache.commons.csv.CSVFormatTest
+Running org.apache.commons.csv.LexerTest
+Tests run: 26, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.045 sec - in org.apache.commons.csv.LexerTest
+Running org.apache.commons.csv.CSVRecordTest
+Tests run: 12, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 sec - in org.apache.commons.csv.CSVRecordTest
+Running org.apache.commons.csv.FercGovTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.018 sec - in org.apache.commons.csv.FercGovTest
+Running org.apache.commons.csv.AssertionsTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in org.apache.commons.csv.AssertionsTest
+Running org.apache.commons.csv.CSVFileParserTest
+Tests run: 12, Failures: 12, Errors: 0, Skipped: 0, Time elapsed: 0.034 sec <<< FAILURE! - in org.apache.commons.csv.CSVFileParserTest
+testCSVFile[0](org.apache.commons.csv.CSVFileParserTest)  Time elapsed: 0.006 sec  <<< FAILURE!
+org.junit.ComparisonFailure: testCSV85_default.txt Expected format  expected:<...<"> CommentStart=<#>[]> but was:<...<"> CommentStart=<#>[ SkipHeaderRecord:false]>
+	at org.junit.Assert.assertEquals(Assert.java:115)
+	at org.apache.commons.csv.CSVFileParserTest.testCSVFile(CSVFileParserTest.java:111)
+
+testCSVUrl[0](org.apache.commons.csv.CSVFileParserTest)  Time elapsed: 0 sec  <<< FAILURE!
+org.junit.ComparisonFailure: testCSV85_default.txt Expected format  expected:<...<"> CommentStart=<#>[]> but was:<...<"> CommentStart=<#>[ SkipHeaderRecord:false]>
+	at org.junit.Assert.assertEquals(Assert.java:115)
+	at org.apache.commons.csv.CSVFileParserTest.testCSVUrl(CSVFileParserTest.java:154)
+
+testCSVFile[1](org.apache.commons.csv.CSVFileParserTest)  Time elapsed: 0 sec  <<< FAILURE!
+org.junit.ComparisonFailure: testCSV85_ignoreEmpty.txt Expected format  expected:<...> EmptyLines:ignored[]> but was:<...> EmptyLines:ignored[ SkipHeaderRecord:false]>
+	at org.junit.Assert.assertEquals(Assert.java:115)
+	at org.apache.commons.csv.CSVFileParserTest.testCSVFile(CSVFileParserTest.java:111)
+
+testCSVUrl[1](org.apache.commons.csv.CSVFileParserTest)  Time elapsed: 0 sec  <<< FAILURE!
+org.junit.ComparisonFailure: testCSV85_ignoreEmpty.txt Expected format  expected:<...> EmptyLines:ignored[]> but was:<...> EmptyLines:ignored[ SkipHeaderRecord:false]>
+	at org.junit.Assert.assertEquals(Assert.java:115)
+	at org.apache.commons.csv.CSVFileParserTest.testCSVUrl(CSVFileParserTest.java:154)
+
+testCSVFile[2](org.apache.commons.csv.CSVFileParserTest)  Time elapsed: 0 sec  <<< FAILURE!
+org.junit.ComparisonFailure: test_rfc4180_trim.txt Expected format  expected:<...undingSpaces:ignored[]> but was:<...undingSpaces:ignored[ SkipHeaderRecord:false]>
+	at org.junit.Assert.assertEquals(Assert.java:115)
+	at org.apache.commons.csv.CSVFileParserTest.testCSVFile(CSVFileParserTest.java:111)
+
+testCSVUrl[2](org.apache.commons.csv.CSVFileParserTest)  Time elapsed: 0 sec  <<< FAILURE!
+org.junit.ComparisonFailure: test_rfc4180_trim.txt Expected format  expected:<...undingSpaces:ignored[]> but was:<...undingSpaces:ignored[ SkipHeaderRecord:false]>
+	at org.junit.Assert.assertEquals(Assert.java:115)
+	at org.apache.commons.csv.CSVFileParserTest.testCSVUrl(CSVFileParserTest.java:154)
+
+testCSVFile[3](org.apache.commons.csv.CSVFileParserTest)  Time elapsed: 0 sec  <<< FAILURE!
+org.junit.ComparisonFailure: test_default_comment.txt Expected format  expected:<...> EmptyLines:ignored[]> but was:<...> EmptyLines:ignored[ SkipHeaderRecord:false]>
+	at org.junit.Assert.assertEquals(Assert.java:115)
+	at org.apache.commons.csv.CSVFileParserTest.testCSVFile(CSVFileParserTest.java:111)
+
+testCSVUrl[3](org.apache.commons.csv.CSVFileParserTest)  Time elapsed: 0 sec  <<< FAILURE!
+org.junit.ComparisonFailure: test_default_comment.txt Expected format  expected:<...> EmptyLines:ignored[]> but was:<...> EmptyLines:ignored[ SkipHeaderRecord:false]>
+	at org.junit.Assert.assertEquals(Assert.java:115)
+	at org.apache.commons.csv.CSVFileParserTest.testCSVUrl(CSVFileParserTest.java:154)
+
+testCSVFile[4](org.apache.commons.csv.CSVFileParserTest)  Time elapsed: 0 sec  <<< FAILURE!
+org.junit.ComparisonFailure: test_default.txt Expected format  expected:<...> EmptyLines:ignored[]> but was:<...> EmptyLines:ignored[ SkipHeaderRecord:false]>
+	at org.junit.Assert.assertEquals(Assert.java:115)
+	at org.apache.commons.csv.CSVFileParserTest.testCSVFile(CSVFileParserTest.java:111)
+
+testCSVUrl[4](org.apache.commons.csv.CSVFileParserTest)  Time elapsed: 0 sec  <<< FAILURE!
+org.junit.ComparisonFailure: test_default.txt Expected format  expected:<...> EmptyLines:ignored[]> but was:<...> EmptyLines:ignored[ SkipHeaderRecord:false]>
+	at org.junit.Assert.assertEquals(Assert.java:115)
+	at org.apache.commons.csv.CSVFileParserTest.testCSVUrl(CSVFileParserTest.java:154)
+
+testCSVFile[5](org.apache.commons.csv.CSVFileParserTest)  Time elapsed: 0 sec  <<< FAILURE!
+org.junit.ComparisonFailure: test_rfc4180.txt Expected format  expected:<...er=<,> QuoteChar=<">[]> but was:<...er=<,> QuoteChar=<">[ SkipHeaderRecord:false]>
+	at org.junit.Assert.assertEquals(Assert.java:115)
+	at org.apache.commons.csv.CSVFileParserTest.testCSVFile(CSVFileParserTest.java:111)
+
+testCSVUrl[5](org.apache.commons.csv.CSVFileParserTest)  Time elapsed: 0 sec  <<< FAILURE!
+org.junit.ComparisonFailure: test_rfc4180.txt Expected format  expected:<...er=<,> QuoteChar=<">[]> but was:<...er=<,> QuoteChar=<">[ SkipHeaderRecord:false]>
+	at org.junit.Assert.assertEquals(Assert.java:115)
+	at org.apache.commons.csv.CSVFileParserTest.testCSVUrl(CSVFileParserTest.java:154)
+
+Running org.apache.commons.csv.CSVPrinterTest
+Tests run: 37, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.426 sec - in org.apache.commons.csv.CSVPrinterTest
+Running org.apache.commons.csv.CSVParserTest
+Tests run: 48, Failures: 0, Errors: 0, Skipped: 1, Time elapsed: 0.031 sec - in org.apache.commons.csv.CSVParserTest
+Running org.apache.commons.csv.TokenMatchersTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 sec - in org.apache.commons.csv.TokenMatchersTest
+Running org.apache.commons.csv.ExtendedBufferedReaderTest
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in org.apache.commons.csv.ExtendedBufferedReaderTest
+
+Results :
+
+Failed tests: 
+  CSVFileParserTest.testCSVFile:111 testCSV85_default.txt Expected format  expected:<...<"> CommentStart=<#>[]> but was:<...<"> CommentStart=<#>[ SkipHeaderRecord:false]>
+  CSVFileParserTest.testCSVUrl:154 testCSV85_default.txt Expected format  expected:<...<"> CommentStart=<#>[]> but was:<...<"> CommentStart=<#>[ SkipHeaderRecord:false]>
+  CSVFileParserTest.testCSVFile:111 testCSV85_ignoreEmpty.txt Expected format  expected:<...> EmptyLines:ignored[]> but was:<...> EmptyLines:ignored[ SkipHeaderRecord:false]>
+  CSVFileParserTest.testCSVUrl:154 testCSV85_ignoreEmpty.txt Expected format  expected:<...> EmptyLines:ignored[]> but was:<...> EmptyLines:ignored[ SkipHeaderRecord:false]>
+  CSVFileParserTest.testCSVFile:111 test_rfc4180_trim.txt Expected format  expected:<...undingSpaces:ignored[]> but was:<...undingSpaces:ignored[ SkipHeaderRecord:false]>
+  CSVFileParserTest.testCSVUrl:154 test_rfc4180_trim.txt Expected format  expected:<...undingSpaces:ignored[]> but was:<...undingSpaces:ignored[ SkipHeaderRecord:false]>
+  CSVFileParserTest.testCSVFile:111 test_default_comment.txt Expected format  expected:<...> EmptyLines:ignored[]> but was:<...> EmptyLines:ignored[ SkipHeaderRecord:false]>
+  CSVFileParserTest.testCSVUrl:154 test_default_comment.txt Expected format  expected:<...> EmptyLines:ignored[]> but was:<...> EmptyLines:ignored[ SkipHeaderRecord:false]>
+  CSVFileParserTest.testCSVFile:111 test_default.txt Expected format  expected:<...> EmptyLines:ignored[]> but was:<...> EmptyLines:ignored[ SkipHeaderRecord:false]>
+  CSVFileParserTest.testCSVUrl:154 test_default.txt Expected format  expected:<...> EmptyLines:ignored[]> but was:<...> EmptyLines:ignored[ SkipHeaderRecord:false]>
+  CSVFileParserTest.testCSVFile:111 test_rfc4180.txt Expected format  expected:<...er=<,> QuoteChar=<">[]> but was:<...er=<,> QuoteChar=<">[ SkipHeaderRecord:false]>
+  CSVFileParserTest.testCSVUrl:154 test_rfc4180.txt Expected format  expected:<...er=<,> QuoteChar=<">[]> but was:<...er=<,> QuoteChar=<">[ SkipHeaderRecord:false]>
+
+Tests run: 185, Failures: 12, Errors: 0, Skipped: 1
+
+[ERROR] There are test failures.
+
+Please refer to ./commons-csv/target/surefire-reports for the individual test results.
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  33.943 s
+[INFO] Finished at: 
+[INFO] ------------------------------------------------------------------------

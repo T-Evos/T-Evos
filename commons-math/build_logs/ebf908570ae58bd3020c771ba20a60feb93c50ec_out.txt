@@ -1,0 +1,100 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ------------------< org.apache.commons:commons-math4 >------------------
+[INFO] Building Apache Commons Math 4.0-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:3.1.0:clean (default-clean) @ commons-math4 ---
+[INFO] Deleting ./commons-math/target
+[INFO] 
+[INFO] --- maven-enforcer-plugin:3.0.0-M2:enforce (enforce-maven-version) @ commons-math4 ---
+[INFO] 
+[INFO] --- maven-enforcer-plugin:3.0.0-M2:enforce (enforce-maven-3) @ commons-math4 ---
+[INFO] 
+[INFO] --- apache-rat-plugin:0.13:check (rat-check) @ commons-math4 ---
+[INFO] Enabled default license matchers.
+[INFO] Will parse SCM ignores for exclusions...
+[INFO] Parsing exclusions from ./commons-math/.gitignore
+[INFO] Finished adding exclusions from SCM ignore files.
+[INFO] 74 implicit excludes (use -debug for more details).
+[INFO] 34 explicit excludes (use -debug for more details).
+[INFO] 1313 resources included (use -debug for more details)
+[INFO] Rat check: Summary over all files. Unapproved: 0, unknown: 0, generated: 0, approved: 1285 licenses.
+[INFO] 
+[INFO] --- build-helper-maven-plugin:1.7:parse-version (parse-version) @ commons-math4 ---
+[INFO] 
+[INFO] --- maven-antrun-plugin:1.7:run (javadoc.resources) @ commons-math4 ---
+[INFO] Executing tasks
+
+main:
+     [copy] Copying 2 files to ./commons-math/target/apidocs/META-INF
+[INFO] Executed tasks
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.5:process (process-resource-bundles) @ commons-math4 ---
+[INFO] 
+[INFO] --- buildnumber-maven-plugin:1.4:create (default) @ commons-math4 ---
+[INFO] Executing: /bin/sh -c cd './commons-math' && 'git' 'rev-parse' '--verify' 'HEAD'
+[INFO] Working directory: ./commons-math
+[INFO] Storing buildNumber: ebf908570ae58bd3020c771ba20a60feb93c50ec at timestamp: 
+[WARNING] Cannot get the branch information from the git repository: 
+Detecting the current branch failed: fatal: ref HEAD is not a symbolic ref
+
+[INFO] Executing: /bin/sh -c cd './commons-math' && 'git' 'rev-parse' '--verify' 'HEAD'
+[INFO] Working directory: ./commons-math
+[INFO] Storing buildScmBranch: UNKNOWN
+[INFO] 
+[INFO] --- maven-jgit-buildnumber-plugin:1.2.11:extract-buildnumber (default) @ commons-math4 ---
+[INFO] Git info extracted in 146ms, revision: 'ebf9085', branch: '', tag: '', commitsCount: '6471', commitDate: '
+[INFO] 
+[INFO] --- maven-resources-plugin:3.1.0:resources (default-resources) @ commons-math4 ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 3 resources
+[INFO] Copying 2 resources to META-INF
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.1:compile (default-compile) @ commons-math4 ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 712 source files to ./commons-math/target/classes
+[INFO] ./commons-math/src/main/java/org/apache/commons/math4/field/linalg/FieldDenseMatrix.java: ./commons-math/src/main/java/org/apache/commons/math4/field/linalg/FieldDenseMatrix.java uses unchecked or unsafe operations.
+[INFO] ./commons-math/src/main/java/org/apache/commons/math4/field/linalg/FieldDenseMatrix.java: Recompile with -Xlint:unchecked for details.
+[INFO] 
+[INFO] --- maven-bundle-plugin:4.2.1:manifest (bundle-manifest) @ commons-math4 ---
+[INFO] 
+[INFO] --- animal-sniffer-maven-plugin:1.18:check (checkAPIcompatibility) @ commons-math4 ---
+[INFO] Checking unresolved references to org.codehaus.mojo.signature:java18:1.0
+[INFO] 
+[INFO] --- maven-resources-plugin:3.1.0:testResources (default-testResources) @ commons-math4 ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 38 resources
+[INFO] Copying 2 resources to META-INF
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.1:testCompile (default-testCompile) @ commons-math4 ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 441 source files to ./commons-math/target/test-classes
+[INFO] ./commons-math/src/test/java/org/apache/commons/math4/random/SynchronizedRandomGeneratorTest.java: ./commons-math/src/test/java/org/apache/commons/math4/random/SynchronizedRandomGeneratorTest.java uses or overrides a deprecated API.
+[INFO] ./commons-math/src/test/java/org/apache/commons/math4/random/SynchronizedRandomGeneratorTest.java: Recompile with -Xlint:deprecation for details.
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] ./commons-math/src/test/java/org/apache/commons/math4/fitting/leastsquares/GaussNewtonOptimizerWithSVDTest.java:[144,27] cannot find symbol
+  symbol:   method fromPoints(org.apache.commons.geometry.euclidean.threed.Vector3D,org.apache.commons.geometry.euclidean.threed.Vector3D,org.apache.commons.geometry.euclidean.threed.Vector3D,org.apache.commons.geometry.core.precision.EpsilonDoublePrecisionContext)
+  location: class org.apache.commons.geometry.euclidean.threed.Plane
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  14.214 s
+[INFO] Finished at: 
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.8.1:testCompile (default-testCompile) on project commons-math4: Compilation failure
+[ERROR] ./commons-math/src/test/java/org/apache/commons/math4/fitting/leastsquares/GaussNewtonOptimizerWithSVDTest.java:[144,27] cannot find symbol
+[ERROR]   symbol:   method fromPoints(org.apache.commons.geometry.euclidean.threed.Vector3D,org.apache.commons.geometry.euclidean.threed.Vector3D,org.apache.commons.geometry.euclidean.threed.Vector3D,org.apache.commons.geometry.core.precision.EpsilonDoublePrecisionContext)
+[ERROR]   location: class org.apache.commons.geometry.euclidean.threed.Plane
+[ERROR] 
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException

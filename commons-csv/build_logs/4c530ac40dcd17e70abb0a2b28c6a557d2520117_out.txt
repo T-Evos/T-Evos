@@ -1,0 +1,79 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] -------------------< org.apache.commons:commons-csv >-------------------
+[INFO] Building Commons CSV 1.0-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ commons-csv ---
+[INFO] Deleting ./commons-csv/target
+[INFO] 
+[INFO] --- maven-antrun-plugin:1.7:run (javadoc.resources) @ commons-csv ---
+[INFO] Executing tasks
+
+main:
+     [copy] Copying 2 files to ./commons-csv/target/apidocs/META-INF
+[INFO] Executed tasks
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.4:process (default) @ commons-csv ---
+[INFO] 
+[INFO] --- buildnumber-maven-plugin:1.2:create (default) @ commons-csv ---
+[INFO] Checking for local modifications: skipped.
+[INFO] Updating project files from SCM: skipped.
+[INFO] Executing: /bin/sh -c cd ./commons-csv && svn --non-interactive info
+[INFO] Working directory: ./commons-csv
+[INFO] Storing buildNumber: ?????? at timestamp: 1655761825844
+[INFO] Executing: /bin/sh -c cd ./commons-csv && svn --non-interactive info
+[INFO] Working directory: ./commons-csv
+[INFO] Storing buildScmBranch: UNKNOWN_BRANCH
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ commons-csv ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory ./commons-csv/src/main/resources
+[INFO] Copying 2 resources to META-INF
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.0:compile (default-compile) @ commons-csv ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 11 source files to ./commons-csv/target/classes
+[INFO] 
+[INFO] --- maven-bundle-plugin:2.3.7:manifest (bundle-manifest) @ commons-csv ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ commons-csv ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 10 resources
+[INFO] Copying 2 resources to META-INF
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.0:testCompile (default-testCompile) @ commons-csv ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 14 source files to ./commons-csv/target/test-classes
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.13:test (default-test) @ commons-csv ---
+[INFO] Surefire report directory: ./commons-csv/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running org.apache.commons.csv.CSVFormatTest
+Tests run: 12, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.106 sec
+Running org.apache.commons.csv.CSVFormatBuilderTest
+Tests run: 26, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running org.apache.commons.csv.CSVLexerTest
+Tests run: 18, Failures: 0, Errors: 0, Skipped: 2, Time elapsed: 0.015 sec
+Running org.apache.commons.csv.CSVFileParserTest
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.012 sec
+Running org.apache.commons.csv.CSVPrinterTest
+Tests run: 21, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.919 sec
+Running org.apache.commons.csv.CSVParserTest
+Tests run: 33, Failures: 0, Errors: 0, Skipped: 1, Time elapsed: 0.171 sec
+Running org.apache.commons.csv.ExtendedBufferedReaderTest
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 sec
+
+Results :
+
+Tests run: 121, Failures: 0, Errors: 0, Skipped: 3
+
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  5.634 s
+[INFO] Finished at: 
+[INFO] ------------------------------------------------------------------------

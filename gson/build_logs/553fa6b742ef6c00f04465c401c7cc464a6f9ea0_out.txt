@@ -1,0 +1,576 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ---------------------< com.google.code.gson:gson >----------------------
+[INFO] Building Gson 2.2.3-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ gson ---
+[INFO] Deleting ./gson/gson/target
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.0:enforce (enforce-maven) @ gson ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ gson ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory ./gson/gson/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.5.1:compile (default-compile) @ gson ---
+[INFO] Compiling 64 source files to ./gson/gson/target/classes
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] ./gson/gson/src/main/java/com/google/gson/internal/bind/TypeAdapterRuntimeTypeWrapper.java:[21,29] error: cannot find symbol
+[ERROR]   symbol:   class JsonReader
+  location: package com.google.gson.stream
+./gson/gson/src/main/java/com/google/gson/TypeAdapter.java:[21,29] error: cannot find symbol
+[ERROR]   symbol:   class JsonReader
+  location: package com.google.gson.stream
+./gson/gson/src/main/java/com/google/gson/Gson.java:[50,29] error: cannot find symbol
+[ERROR]   symbol:   class JsonReader
+  location: package com.google.gson.stream
+./gson/gson/src/main/java/com/google/gson/internal/bind/TypeAdapterRuntimeTypeWrapper.java:[39,16] error: cannot find symbol
+[ERROR]   symbol:   class JsonReader
+  location: class TypeAdapterRuntimeTypeWrapper<T>
+  where T is a type-variable:
+    T extends Object declared in class TypeAdapterRuntimeTypeWrapper
+./gson/gson/src/main/java/com/google/gson/TypeAdapter.java:[243,25] error: cannot find symbol
+[ERROR]   symbol:   class JsonReader
+  location: class TypeAdapter<T>
+  where T is a type-variable:
+    T extends Object declared in class TypeAdapter
+./gson/gson/src/main/java/com/google/gson/internal/Excluder.java:[28,29] error: cannot find symbol
+[ERROR]   symbol:   class JsonReader
+  location: package com.google.gson.stream
+./gson/gson/src/main/java/com/google/gson/Gson.java:[766,56] error: cannot find symbol
+[ERROR]   symbol:   class JsonReader
+  location: class Gson
+./gson/gson/src/main/java/com/google/gson/Gson.java:[787,24] error: cannot find symbol
+[ERROR]   symbol:   class JsonReader
+  location: class Gson
+./gson/gson/src/main/java/com/google/gson/Gson.java:[872,28] error: cannot find symbol
+[ERROR]   symbol:   class JsonReader
+  location: class FutureTypeAdapter<T>
+  where T is a type-variable:
+    T extends Object declared in class FutureTypeAdapter
+./gson/gson/src/main/java/com/google/gson/internal/bind/ArrayTypeAdapter.java:[31,29] error: cannot find symbol
+[ERROR]   symbol:   class JsonReader
+  location: package com.google.gson.stream
+./gson/gson/src/main/java/com/google/gson/internal/bind/ArrayTypeAdapter.java:[63,21] error: cannot find symbol
+[ERROR]   symbol:   class JsonReader
+  location: class ArrayTypeAdapter<E>
+  where E is a type-variable:
+    E extends Object declared in class ArrayTypeAdapter
+./gson/gson/src/main/java/com/google/gson/internal/bind/SqlDateTypeAdapter.java:[24,29] error: cannot find symbol
+[ERROR]   symbol:   class JsonReader
+  location: package com.google.gson.stream
+./gson/gson/src/main/java/com/google/gson/internal/bind/SqlDateTypeAdapter.java:[50,41] error: cannot find symbol
+[ERROR]   symbol:   class JsonReader
+  location: class SqlDateTypeAdapter
+./gson/gson/src/main/java/com/google/gson/internal/bind/ObjectTypeAdapter.java:[24,29] error: cannot find symbol
+[ERROR]   symbol:   class JsonReader
+  location: package com.google.gson.stream
+./gson/gson/src/main/java/com/google/gson/internal/bind/ObjectTypeAdapter.java:[53,31] error: cannot find symbol
+[ERROR]   symbol:   class JsonReader
+  location: class ObjectTypeAdapter
+./gson/gson/src/main/java/com/google/gson/internal/Streams.java:[25,29] error: cannot find symbol
+[ERROR]   symbol:   class JsonReader
+  location: package com.google.gson.stream
+./gson/gson/src/main/java/com/google/gson/internal/Streams.java:[39,34] error: cannot find symbol
+[ERROR]   symbol:   class JsonReader
+  location: class Streams
+./gson/gson/src/main/java/com/google/gson/internal/bind/ReflectiveTypeAdapterFactory.java:[31,29] error: cannot find symbol
+[ERROR]   symbol:   class JsonReader
+  location: package com.google.gson.stream
+./gson/gson/src/main/java/com/google/gson/internal/bind/ReflectiveTypeAdapterFactory.java:[144,23] error: cannot find symbol
+[ERROR]   symbol:   class JsonReader
+  location: class BoundField
+./gson/gson/src/main/java/com/google/gson/internal/bind/ReflectiveTypeAdapterFactory.java:[156,28] error: cannot find symbol
+[ERROR]   symbol:   class JsonReader
+  location: class ReflectiveTypeAdapterFactory.Adapter<T>
+  where T is a type-variable:
+    T extends Object declared in class ReflectiveTypeAdapterFactory.Adapter
+./gson/gson/src/main/java/com/google/gson/internal/bind/MapTypeAdapterFactory.java:[37,29] error: cannot find symbol
+[ERROR]   symbol:   class JsonReader
+  location: package com.google.gson.stream
+./gson/gson/src/main/java/com/google/gson/internal/bind/MapTypeAdapterFactory.java:[161,26] error: cannot find symbol
+[ERROR]   symbol:   class JsonReader
+  location: class MapTypeAdapterFactory.Adapter<K,V>
+  where K,V are type-variables:
+    K extends Object declared in class MapTypeAdapterFactory.Adapter
+    V extends Object declared in class MapTypeAdapterFactory.Adapter
+./gson/gson/src/main/java/com/google/gson/TreeTypeAdapter.java:[22,29] error: cannot find symbol
+[ERROR]   symbol:   class JsonReader
+  location: package com.google.gson.stream
+./gson/gson/src/main/java/com/google/gson/TreeTypeAdapter.java:[50,26] error: cannot find symbol
+[ERROR]   symbol:   class JsonReader
+  location: class TreeTypeAdapter<T>
+  where T is a type-variable:
+    T extends Object declared in class TreeTypeAdapter
+./gson/gson/src/main/java/com/google/gson/internal/JsonReaderInternalAccess.java:[19,29] error: cannot find symbol
+[ERROR]   symbol:   class JsonReader
+  location: package com.google.gson.stream
+./gson/gson/src/main/java/com/google/gson/internal/JsonReaderInternalAccess.java:[31,42] error: cannot find symbol
+[ERROR]   symbol:   class JsonReader
+  location: class JsonReaderInternalAccess
+./gson/gson/src/main/java/com/google/gson/internal/bind/CollectionTypeAdapterFactory.java:[26,29] error: cannot find symbol
+[ERROR]   symbol:   class JsonReader
+  location: package com.google.gson.stream
+./gson/gson/src/main/java/com/google/gson/internal/bind/CollectionTypeAdapterFactory.java:[72,30] error: cannot find symbol
+[ERROR]   symbol:   class JsonReader
+  location: class CollectionTypeAdapterFactory.Adapter<E>
+  where E is a type-variable:
+    E extends Object declared in class CollectionTypeAdapterFactory.Adapter
+./gson/gson/src/main/java/com/google/gson/JsonStreamParser.java:[26,29] error: cannot find symbol
+[ERROR]   symbol:   class JsonReader
+  location: package com.google.gson.stream
+./gson/gson/src/main/java/com/google/gson/JsonStreamParser.java:[53,16] error: cannot find symbol
+[ERROR]   symbol:   class JsonReader
+  location: class JsonStreamParser
+./gson/gson/src/main/java/com/google/gson/internal/bind/DateTypeAdapter.java:[24,29] error: cannot find symbol
+[ERROR]   symbol:   class JsonReader
+  location: package com.google.gson.stream
+./gson/gson/src/main/java/com/google/gson/internal/bind/DateTypeAdapter.java:[61,29] error: cannot find symbol
+[ERROR]   symbol:   class JsonReader
+  location: class DateTypeAdapter
+./gson/gson/src/main/java/com/google/gson/internal/bind/JsonTreeReader.java:[24,29] error: cannot find symbol
+[ERROR]   symbol:   class JsonReader
+  location: package com.google.gson.stream
+./gson/gson/src/main/java/com/google/gson/internal/bind/JsonTreeReader.java:[39,42] error: cannot find symbol
+[ERROR]   symbol: class JsonReader
+./gson/gson/src/main/java/com/google/gson/JsonParser.java:[23,29] error: cannot find symbol
+[ERROR]   symbol:   class JsonReader
+  location: package com.google.gson.stream
+./gson/gson/src/main/java/com/google/gson/JsonParser.java:[80,27] error: cannot find symbol
+[ERROR]   symbol:   class JsonReader
+  location: class JsonParser
+./gson/gson/src/main/java/com/google/gson/internal/bind/TimeTypeAdapter.java:[24,29] error: cannot find symbol
+[ERROR]   symbol:   class JsonReader
+  location: package com.google.gson.stream
+./gson/gson/src/main/java/com/google/gson/internal/bind/TimeTypeAdapter.java:[50,42] error: cannot find symbol
+[ERROR]   symbol:   class JsonReader
+  location: class TimeTypeAdapter
+./gson/gson/src/main/java/com/google/gson/internal/bind/TypeAdapters.java:[50,29] error: cannot find symbol
+[ERROR]   symbol:   class JsonReader
+  location: package com.google.gson.stream
+./gson/gson/src/main/java/com/google/gson/internal/bind/TypeAdapters.java:[727,18] error: cannot find symbol
+[ERROR]   symbol:   class JsonReader
+  location: class EnumTypeAdapter<T>
+  where T is a type-variable:
+    T extends Enum<T> declared in class EnumTypeAdapter
+./gson/gson/src/main/java/com/google/gson/TypeAdapter.java:[194,30] error: cannot find symbol
+[ERROR]   symbol: class JsonReader
+./gson/gson/src/main/java/com/google/gson/TypeAdapter.java:[255,4] error: cannot find symbol
+[ERROR]   symbol:   class JsonReader
+  location: class TypeAdapter<T>
+  where T is a type-variable:
+    T extends Object declared in class TypeAdapter
+./gson/gson/src/main/java/com/google/gson/TypeAdapter.java:[255,28] error: cannot find symbol
+[ERROR]   symbol:   class JsonReader
+  location: class TypeAdapter<T>
+  where T is a type-variable:
+    T extends Object declared in class TypeAdapter
+./gson/gson/src/main/java/com/google/gson/TypeAdapter.java:[280,6] error: cannot find symbol
+[ERROR]   symbol:   class JsonReader
+  location: class TypeAdapter<T>
+  where T is a type-variable:
+    T extends Object declared in class TypeAdapter
+./gson/gson/src/main/java/com/google/gson/Gson.java:[256,35] error: cannot find symbol
+[ERROR]   symbol: class JsonReader
+./gson/gson/src/main/java/com/google/gson/Gson.java:[280,34] error: cannot find symbol
+[ERROR]   symbol: class JsonReader
+./gson/gson/src/main/java/com/google/gson/Gson.java:[312,35] error: cannot find symbol
+[ERROR]   symbol: class JsonReader
+./gson/gson/src/main/java/com/google/gson/Gson.java:[705,15] error: name clash: <T#1>fromJson(String,Type) in Gson overrides a method whose erasure is the same as another method, yet neither overrides the other
+[ERROR]   first method:  <T#2>fromJson(Reader,Type) in Gson
+  second method: <T#3>fromJson(JsonReader,Type) in Gson
+  where T#1,T#2,T#3 are type-variables:
+    T#1 extends Object declared in method <T#1>fromJson(String,Type)
+    T#2 extends Object declared in method <T#2>fromJson(Reader,Type)
+    T#3 extends Object declared in method <T#3>fromJson(JsonReader,Type)
+./gson/gson/src/main/java/com/google/gson/Gson.java:[733,4] error: cannot find symbol
+[ERROR]   symbol:   class JsonReader
+  location: class Gson
+./gson/gson/src/main/java/com/google/gson/Gson.java:[733,32] error: cannot find symbol
+[ERROR]   symbol:   class JsonReader
+  location: class Gson
+./gson/gson/src/main/java/com/google/gson/Gson.java:[760,4] error: cannot find symbol
+[ERROR]   symbol:   class JsonReader
+  location: class Gson
+./gson/gson/src/main/java/com/google/gson/Gson.java:[760,32] error: cannot find symbol
+[ERROR]   symbol:   class JsonReader
+  location: class Gson
+./gson/gson/src/main/java/com/google/gson/Gson.java:[855,15] error: name clash: <T#1>fromJson(JsonElement,Type) in Gson overrides a method whose erasure is the same as another method, yet neither overrides the other
+[ERROR]   first method:  <T#2>fromJson(Reader,Type) in Gson
+  second method: <T#3>fromJson(JsonReader,Type) in Gson
+  where T#1,T#2,T#3 are type-variables:
+    T#1 extends Object declared in method <T#1>fromJson(JsonElement,Type)
+    T#2 extends Object declared in method <T#2>fromJson(Reader,Type)
+    T#3 extends Object declared in method <T#3>fromJson(JsonReader,Type)
+./gson/gson/src/main/java/com/google/gson/internal/Excluder.java:[124,30] error: cannot find symbol
+[ERROR]   symbol: class JsonReader
+./gson/gson/src/main/java/com/google/gson/internal/bind/ReflectiveTypeAdapterFactory.java:[91,26] error: cannot find symbol
+[ERROR]   symbol: class JsonReader
+./gson/gson/src/main/java/com/google/gson/JsonStreamParser.java:[69,17] error: cannot find symbol
+[ERROR]   symbol:   class JsonReader
+  location: class JsonStreamParser
+./gson/gson/src/main/java/com/google/gson/internal/bind/JsonTreeReader.java:[57,2] error: method does not override or implement a method from a supertype
+[ERROR] ./gson/gson/src/main/java/com/google/gson/internal/bind/JsonTreeReader.java:[63,2] error: method does not override or implement a method from a supertype
+[ERROR] ./gson/gson/src/main/java/com/google/gson/internal/bind/JsonTreeReader.java:[69,2] error: method does not override or implement a method from a supertype
+[ERROR] ./gson/gson/src/main/java/com/google/gson/internal/bind/JsonTreeReader.java:[75,2] error: method does not override or implement a method from a supertype
+[ERROR] ./gson/gson/src/main/java/com/google/gson/internal/bind/JsonTreeReader.java:[81,2] error: method does not override or implement a method from a supertype
+[ERROR] ./gson/gson/src/main/java/com/google/gson/internal/bind/JsonTreeReader.java:[86,2] error: method does not override or implement a method from a supertype
+[ERROR] ./gson/gson/src/main/java/com/google/gson/internal/bind/JsonTreeReader.java:[143,2] error: method does not override or implement a method from a supertype
+[ERROR] ./gson/gson/src/main/java/com/google/gson/internal/bind/JsonTreeReader.java:[151,2] error: method does not override or implement a method from a supertype
+[ERROR] ./gson/gson/src/main/java/com/google/gson/internal/bind/JsonTreeReader.java:[159,2] error: method does not override or implement a method from a supertype
+[ERROR] ./gson/gson/src/main/java/com/google/gson/internal/bind/JsonTreeReader.java:[164,2] error: method does not override or implement a method from a supertype
+[ERROR] ./gson/gson/src/main/java/com/google/gson/internal/bind/JsonTreeReader.java:[169,2] error: method does not override or implement a method from a supertype
+[ERROR] ./gson/gson/src/main/java/com/google/gson/internal/bind/JsonTreeReader.java:[175,9] error: cannot find symbol
+[ERROR]   symbol:   method isLenient()
+  location: class JsonTreeReader
+./gson/gson/src/main/java/com/google/gson/internal/bind/JsonTreeReader.java:[182,2] error: method does not override or implement a method from a supertype
+[ERROR] ./gson/gson/src/main/java/com/google/gson/internal/bind/JsonTreeReader.java:[192,2] error: method does not override or implement a method from a supertype
+[ERROR] ./gson/gson/src/main/java/com/google/gson/internal/bind/JsonTreeReader.java:[202,2] error: method does not override or implement a method from a supertype
+[ERROR] ./gson/gson/src/main/java/com/google/gson/internal/bind/JsonTreeReader.java:[207,2] error: method does not override or implement a method from a supertype
+[ERROR] ./gson/gson/src/main/java/com/google/gson/internal/bind/JsonTreeReader.java:[215,2] error: method does not override or implement a method from a supertype
+[ERROR] ./gson/gson/src/main/java/com/google/gson/internal/bind/JsonTreeReader.java:[216,11] error: cannot find symbol
+[ERROR]   symbol:   method getClass()
+  location: class JsonTreeReader
+./gson/gson/src/main/java/com/google/gson/JsonParser.java:[44,21] error: name clash: parse(String) in JsonParser overrides a method whose erasure is the same as another method, yet neither overrides the other
+[ERROR]   first method:  parse(Reader) in JsonParser
+  second method: parse(JsonReader) in JsonParser
+./gson/gson/src/main/java/com/google/gson/JsonParser.java:[58,6] error: cannot find symbol
+[ERROR]   symbol:   class JsonReader
+  location: class JsonParser
+./gson/gson/src/main/java/com/google/gson/JsonParser.java:[58,34] error: cannot find symbol
+[ERROR]   symbol:   class JsonReader
+  location: class JsonParser
+./gson/gson/src/main/java/com/google/gson/internal/bind/TypeAdapters.java:[68,22] error: cannot find symbol
+[ERROR]   symbol: class JsonReader
+./gson/gson/src/main/java/com/google/gson/internal/bind/TypeAdapters.java:[76,23] error: cannot find symbol
+[ERROR]   symbol: class JsonReader
+./gson/gson/src/main/java/com/google/gson/internal/bind/TypeAdapters.java:[136,24] error: cannot find symbol
+[ERROR]   symbol: class JsonReader
+./gson/gson/src/main/java/com/google/gson/internal/bind/TypeAdapters.java:[161,34] error: cannot find symbol
+[ERROR]   symbol: class JsonReader
+./gson/gson/src/main/java/com/google/gson/internal/bind/TypeAdapters.java:[179,23] error: cannot find symbol
+[ERROR]   symbol: class JsonReader
+./gson/gson/src/main/java/com/google/gson/internal/bind/TypeAdapters.java:[202,23] error: cannot find symbol
+[ERROR]   symbol: class JsonReader
+./gson/gson/src/main/java/com/google/gson/internal/bind/TypeAdapters.java:[224,23] error: cannot find symbol
+[ERROR]   symbol: class JsonReader
+./gson/gson/src/main/java/com/google/gson/internal/bind/TypeAdapters.java:[246,23] error: cannot find symbol
+[ERROR]   symbol: class JsonReader
+./gson/gson/src/main/java/com/google/gson/internal/bind/TypeAdapters.java:[265,23] error: cannot find symbol
+[ERROR]   symbol: class JsonReader
+./gson/gson/src/main/java/com/google/gson/internal/bind/TypeAdapters.java:[280,23] error: cannot find symbol
+[ERROR]   symbol: class JsonReader
+./gson/gson/src/main/java/com/google/gson/internal/bind/TypeAdapters.java:[295,23] error: cannot find symbol
+[ERROR]   symbol: class JsonReader
+./gson/gson/src/main/java/com/google/gson/internal/bind/TypeAdapters.java:[317,26] error: cannot find symbol
+[ERROR]   symbol: class JsonReader
+./gson/gson/src/main/java/com/google/gson/internal/bind/TypeAdapters.java:[339,23] error: cannot find symbol
+[ERROR]   symbol: class JsonReader
+./gson/gson/src/main/java/com/google/gson/internal/bind/TypeAdapters.java:[358,37] error: cannot find symbol
+[ERROR]   symbol: class JsonReader
+./gson/gson/src/main/java/com/google/gson/internal/bind/TypeAdapters.java:[376,37] error: cannot find symbol
+[ERROR]   symbol: class JsonReader
+./gson/gson/src/main/java/com/google/gson/internal/bind/TypeAdapters.java:[397,30] error: cannot find symbol
+[ERROR]   symbol: class JsonReader
+./gson/gson/src/main/java/com/google/gson/internal/bind/TypeAdapters.java:[415,29] error: cannot find symbol
+[ERROR]   symbol: class JsonReader
+./gson/gson/src/main/java/com/google/gson/internal/bind/TypeAdapters.java:[433,20] error: cannot find symbol
+[ERROR]   symbol: class JsonReader
+./gson/gson/src/main/java/com/google/gson/internal/bind/TypeAdapters.java:[451,20] error: cannot find symbol
+[ERROR]   symbol: class JsonReader
+./gson/gson/src/main/java/com/google/gson/internal/bind/TypeAdapters.java:[473,28] error: cannot find symbol
+[ERROR]   symbol: class JsonReader
+./gson/gson/src/main/java/com/google/gson/internal/bind/TypeAdapters.java:[492,21] error: cannot find symbol
+[ERROR]   symbol: class JsonReader
+./gson/gson/src/main/java/com/google/gson/internal/bind/TypeAdapters.java:[516,40] error: cannot find symbol
+[ERROR]   symbol: class JsonReader
+./gson/gson/src/main/java/com/google/gson/internal/bind/TypeAdapters.java:[537,25] error: cannot find symbol
+[INFO] 100 errors 
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  2.072 s
+[INFO] Finished at: 
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:2.5.1:compile (default-compile) on project gson: Compilation failure: Compilation failure: 
+[ERROR] ./gson/gson/src/main/java/com/google/gson/internal/bind/TypeAdapterRuntimeTypeWrapper.java:[21,29] error: cannot find symbol
+[ERROR]   symbol:   class JsonReader
+[ERROR]   location: package com.google.gson.stream
+[ERROR] ./gson/gson/src/main/java/com/google/gson/TypeAdapter.java:[21,29] error: cannot find symbol
+[ERROR]   symbol:   class JsonReader
+[ERROR]   location: package com.google.gson.stream
+[ERROR] ./gson/gson/src/main/java/com/google/gson/Gson.java:[50,29] error: cannot find symbol
+[ERROR]   symbol:   class JsonReader
+[ERROR]   location: package com.google.gson.stream
+[ERROR] ./gson/gson/src/main/java/com/google/gson/internal/bind/TypeAdapterRuntimeTypeWrapper.java:[39,16] error: cannot find symbol
+[ERROR]   symbol:   class JsonReader
+[ERROR]   location: class TypeAdapterRuntimeTypeWrapper<T>
+[ERROR]   where T is a type-variable:
+[ERROR]     T extends Object declared in class TypeAdapterRuntimeTypeWrapper
+[ERROR] ./gson/gson/src/main/java/com/google/gson/TypeAdapter.java:[243,25] error: cannot find symbol
+[ERROR]   symbol:   class JsonReader
+[ERROR]   location: class TypeAdapter<T>
+[ERROR]   where T is a type-variable:
+[ERROR]     T extends Object declared in class TypeAdapter
+[ERROR] ./gson/gson/src/main/java/com/google/gson/internal/Excluder.java:[28,29] error: cannot find symbol
+[ERROR]   symbol:   class JsonReader
+[ERROR]   location: package com.google.gson.stream
+[ERROR] ./gson/gson/src/main/java/com/google/gson/Gson.java:[766,56] error: cannot find symbol
+[ERROR]   symbol:   class JsonReader
+[ERROR]   location: class Gson
+[ERROR] ./gson/gson/src/main/java/com/google/gson/Gson.java:[787,24] error: cannot find symbol
+[ERROR]   symbol:   class JsonReader
+[ERROR]   location: class Gson
+[ERROR] ./gson/gson/src/main/java/com/google/gson/Gson.java:[872,28] error: cannot find symbol
+[ERROR]   symbol:   class JsonReader
+[ERROR]   location: class FutureTypeAdapter<T>
+[ERROR]   where T is a type-variable:
+[ERROR]     T extends Object declared in class FutureTypeAdapter
+[ERROR] ./gson/gson/src/main/java/com/google/gson/internal/bind/ArrayTypeAdapter.java:[31,29] error: cannot find symbol
+[ERROR]   symbol:   class JsonReader
+[ERROR]   location: package com.google.gson.stream
+[ERROR] ./gson/gson/src/main/java/com/google/gson/internal/bind/ArrayTypeAdapter.java:[63,21] error: cannot find symbol
+[ERROR]   symbol:   class JsonReader
+[ERROR]   location: class ArrayTypeAdapter<E>
+[ERROR]   where E is a type-variable:
+[ERROR]     E extends Object declared in class ArrayTypeAdapter
+[ERROR] ./gson/gson/src/main/java/com/google/gson/internal/bind/SqlDateTypeAdapter.java:[24,29] error: cannot find symbol
+[ERROR]   symbol:   class JsonReader
+[ERROR]   location: package com.google.gson.stream
+[ERROR] ./gson/gson/src/main/java/com/google/gson/internal/bind/SqlDateTypeAdapter.java:[50,41] error: cannot find symbol
+[ERROR]   symbol:   class JsonReader
+[ERROR]   location: class SqlDateTypeAdapter
+[ERROR] ./gson/gson/src/main/java/com/google/gson/internal/bind/ObjectTypeAdapter.java:[24,29] error: cannot find symbol
+[ERROR]   symbol:   class JsonReader
+[ERROR]   location: package com.google.gson.stream
+[ERROR] ./gson/gson/src/main/java/com/google/gson/internal/bind/ObjectTypeAdapter.java:[53,31] error: cannot find symbol
+[ERROR]   symbol:   class JsonReader
+[ERROR]   location: class ObjectTypeAdapter
+[ERROR] ./gson/gson/src/main/java/com/google/gson/internal/Streams.java:[25,29] error: cannot find symbol
+[ERROR]   symbol:   class JsonReader
+[ERROR]   location: package com.google.gson.stream
+[ERROR] ./gson/gson/src/main/java/com/google/gson/internal/Streams.java:[39,34] error: cannot find symbol
+[ERROR]   symbol:   class JsonReader
+[ERROR]   location: class Streams
+[ERROR] ./gson/gson/src/main/java/com/google/gson/internal/bind/ReflectiveTypeAdapterFactory.java:[31,29] error: cannot find symbol
+[ERROR]   symbol:   class JsonReader
+[ERROR]   location: package com.google.gson.stream
+[ERROR] ./gson/gson/src/main/java/com/google/gson/internal/bind/ReflectiveTypeAdapterFactory.java:[144,23] error: cannot find symbol
+[ERROR]   symbol:   class JsonReader
+[ERROR]   location: class BoundField
+[ERROR] ./gson/gson/src/main/java/com/google/gson/internal/bind/ReflectiveTypeAdapterFactory.java:[156,28] error: cannot find symbol
+[ERROR]   symbol:   class JsonReader
+[ERROR]   location: class ReflectiveTypeAdapterFactory.Adapter<T>
+[ERROR]   where T is a type-variable:
+[ERROR]     T extends Object declared in class ReflectiveTypeAdapterFactory.Adapter
+[ERROR] ./gson/gson/src/main/java/com/google/gson/internal/bind/MapTypeAdapterFactory.java:[37,29] error: cannot find symbol
+[ERROR]   symbol:   class JsonReader
+[ERROR]   location: package com.google.gson.stream
+[ERROR] ./gson/gson/src/main/java/com/google/gson/internal/bind/MapTypeAdapterFactory.java:[161,26] error: cannot find symbol
+[ERROR]   symbol:   class JsonReader
+[ERROR]   location: class MapTypeAdapterFactory.Adapter<K,V>
+[ERROR]   where K,V are type-variables:
+[ERROR]     K extends Object declared in class MapTypeAdapterFactory.Adapter
+[ERROR]     V extends Object declared in class MapTypeAdapterFactory.Adapter
+[ERROR] ./gson/gson/src/main/java/com/google/gson/TreeTypeAdapter.java:[22,29] error: cannot find symbol
+[ERROR]   symbol:   class JsonReader
+[ERROR]   location: package com.google.gson.stream
+[ERROR] ./gson/gson/src/main/java/com/google/gson/TreeTypeAdapter.java:[50,26] error: cannot find symbol
+[ERROR]   symbol:   class JsonReader
+[ERROR]   location: class TreeTypeAdapter<T>
+[ERROR]   where T is a type-variable:
+[ERROR]     T extends Object declared in class TreeTypeAdapter
+[ERROR] ./gson/gson/src/main/java/com/google/gson/internal/JsonReaderInternalAccess.java:[19,29] error: cannot find symbol
+[ERROR]   symbol:   class JsonReader
+[ERROR]   location: package com.google.gson.stream
+[ERROR] ./gson/gson/src/main/java/com/google/gson/internal/JsonReaderInternalAccess.java:[31,42] error: cannot find symbol
+[ERROR]   symbol:   class JsonReader
+[ERROR]   location: class JsonReaderInternalAccess
+[ERROR] ./gson/gson/src/main/java/com/google/gson/internal/bind/CollectionTypeAdapterFactory.java:[26,29] error: cannot find symbol
+[ERROR]   symbol:   class JsonReader
+[ERROR]   location: package com.google.gson.stream
+[ERROR] ./gson/gson/src/main/java/com/google/gson/internal/bind/CollectionTypeAdapterFactory.java:[72,30] error: cannot find symbol
+[ERROR]   symbol:   class JsonReader
+[ERROR]   location: class CollectionTypeAdapterFactory.Adapter<E>
+[ERROR]   where E is a type-variable:
+[ERROR]     E extends Object declared in class CollectionTypeAdapterFactory.Adapter
+[ERROR] ./gson/gson/src/main/java/com/google/gson/JsonStreamParser.java:[26,29] error: cannot find symbol
+[ERROR]   symbol:   class JsonReader
+[ERROR]   location: package com.google.gson.stream
+[ERROR] ./gson/gson/src/main/java/com/google/gson/JsonStreamParser.java:[53,16] error: cannot find symbol
+[ERROR]   symbol:   class JsonReader
+[ERROR]   location: class JsonStreamParser
+[ERROR] ./gson/gson/src/main/java/com/google/gson/internal/bind/DateTypeAdapter.java:[24,29] error: cannot find symbol
+[ERROR]   symbol:   class JsonReader
+[ERROR]   location: package com.google.gson.stream
+[ERROR] ./gson/gson/src/main/java/com/google/gson/internal/bind/DateTypeAdapter.java:[61,29] error: cannot find symbol
+[ERROR]   symbol:   class JsonReader
+[ERROR]   location: class DateTypeAdapter
+[ERROR] ./gson/gson/src/main/java/com/google/gson/internal/bind/JsonTreeReader.java:[24,29] error: cannot find symbol
+[ERROR]   symbol:   class JsonReader
+[ERROR]   location: package com.google.gson.stream
+[ERROR] ./gson/gson/src/main/java/com/google/gson/internal/bind/JsonTreeReader.java:[39,42] error: cannot find symbol
+[ERROR]   symbol: class JsonReader
+[ERROR] ./gson/gson/src/main/java/com/google/gson/JsonParser.java:[23,29] error: cannot find symbol
+[ERROR]   symbol:   class JsonReader
+[ERROR]   location: package com.google.gson.stream
+[ERROR] ./gson/gson/src/main/java/com/google/gson/JsonParser.java:[80,27] error: cannot find symbol
+[ERROR]   symbol:   class JsonReader
+[ERROR]   location: class JsonParser
+[ERROR] ./gson/gson/src/main/java/com/google/gson/internal/bind/TimeTypeAdapter.java:[24,29] error: cannot find symbol
+[ERROR]   symbol:   class JsonReader
+[ERROR]   location: package com.google.gson.stream
+[ERROR] ./gson/gson/src/main/java/com/google/gson/internal/bind/TimeTypeAdapter.java:[50,42] error: cannot find symbol
+[ERROR]   symbol:   class JsonReader
+[ERROR]   location: class TimeTypeAdapter
+[ERROR] ./gson/gson/src/main/java/com/google/gson/internal/bind/TypeAdapters.java:[50,29] error: cannot find symbol
+[ERROR]   symbol:   class JsonReader
+[ERROR]   location: package com.google.gson.stream
+[ERROR] ./gson/gson/src/main/java/com/google/gson/internal/bind/TypeAdapters.java:[727,18] error: cannot find symbol
+[ERROR]   symbol:   class JsonReader
+[ERROR]   location: class EnumTypeAdapter<T>
+[ERROR]   where T is a type-variable:
+[ERROR]     T extends Enum<T> declared in class EnumTypeAdapter
+[ERROR] ./gson/gson/src/main/java/com/google/gson/TypeAdapter.java:[194,30] error: cannot find symbol
+[ERROR]   symbol: class JsonReader
+[ERROR] ./gson/gson/src/main/java/com/google/gson/TypeAdapter.java:[255,4] error: cannot find symbol
+[ERROR]   symbol:   class JsonReader
+[ERROR]   location: class TypeAdapter<T>
+[ERROR]   where T is a type-variable:
+[ERROR]     T extends Object declared in class TypeAdapter
+[ERROR] ./gson/gson/src/main/java/com/google/gson/TypeAdapter.java:[255,28] error: cannot find symbol
+[ERROR]   symbol:   class JsonReader
+[ERROR]   location: class TypeAdapter<T>
+[ERROR]   where T is a type-variable:
+[ERROR]     T extends Object declared in class TypeAdapter
+[ERROR] ./gson/gson/src/main/java/com/google/gson/TypeAdapter.java:[280,6] error: cannot find symbol
+[ERROR]   symbol:   class JsonReader
+[ERROR]   location: class TypeAdapter<T>
+[ERROR]   where T is a type-variable:
+[ERROR]     T extends Object declared in class TypeAdapter
+[ERROR] ./gson/gson/src/main/java/com/google/gson/Gson.java:[256,35] error: cannot find symbol
+[ERROR]   symbol: class JsonReader
+[ERROR] ./gson/gson/src/main/java/com/google/gson/Gson.java:[280,34] error: cannot find symbol
+[ERROR]   symbol: class JsonReader
+[ERROR] ./gson/gson/src/main/java/com/google/gson/Gson.java:[312,35] error: cannot find symbol
+[ERROR]   symbol: class JsonReader
+[ERROR] ./gson/gson/src/main/java/com/google/gson/Gson.java:[705,15] error: name clash: <T#1>fromJson(String,Type) in Gson overrides a method whose erasure is the same as another method, yet neither overrides the other
+[ERROR]   first method:  <T#2>fromJson(Reader,Type) in Gson
+[ERROR]   second method: <T#3>fromJson(JsonReader,Type) in Gson
+[ERROR]   where T#1,T#2,T#3 are type-variables:
+[ERROR]     T#1 extends Object declared in method <T#1>fromJson(String,Type)
+[ERROR]     T#2 extends Object declared in method <T#2>fromJson(Reader,Type)
+[ERROR]     T#3 extends Object declared in method <T#3>fromJson(JsonReader,Type)
+[ERROR] ./gson/gson/src/main/java/com/google/gson/Gson.java:[733,4] error: cannot find symbol
+[ERROR]   symbol:   class JsonReader
+[ERROR]   location: class Gson
+[ERROR] ./gson/gson/src/main/java/com/google/gson/Gson.java:[733,32] error: cannot find symbol
+[ERROR]   symbol:   class JsonReader
+[ERROR]   location: class Gson
+[ERROR] ./gson/gson/src/main/java/com/google/gson/Gson.java:[760,4] error: cannot find symbol
+[ERROR]   symbol:   class JsonReader
+[ERROR]   location: class Gson
+[ERROR] ./gson/gson/src/main/java/com/google/gson/Gson.java:[760,32] error: cannot find symbol
+[ERROR]   symbol:   class JsonReader
+[ERROR]   location: class Gson
+[ERROR] ./gson/gson/src/main/java/com/google/gson/Gson.java:[855,15] error: name clash: <T#1>fromJson(JsonElement,Type) in Gson overrides a method whose erasure is the same as another method, yet neither overrides the other
+[ERROR]   first method:  <T#2>fromJson(Reader,Type) in Gson
+[ERROR]   second method: <T#3>fromJson(JsonReader,Type) in Gson
+[ERROR]   where T#1,T#2,T#3 are type-variables:
+[ERROR]     T#1 extends Object declared in method <T#1>fromJson(JsonElement,Type)
+[ERROR]     T#2 extends Object declared in method <T#2>fromJson(Reader,Type)
+[ERROR]     T#3 extends Object declared in method <T#3>fromJson(JsonReader,Type)
+[ERROR] ./gson/gson/src/main/java/com/google/gson/internal/Excluder.java:[124,30] error: cannot find symbol
+[ERROR]   symbol: class JsonReader
+[ERROR] ./gson/gson/src/main/java/com/google/gson/internal/bind/ReflectiveTypeAdapterFactory.java:[91,26] error: cannot find symbol
+[ERROR]   symbol: class JsonReader
+[ERROR] ./gson/gson/src/main/java/com/google/gson/JsonStreamParser.java:[69,17] error: cannot find symbol
+[ERROR]   symbol:   class JsonReader
+[ERROR]   location: class JsonStreamParser
+[ERROR] ./gson/gson/src/main/java/com/google/gson/internal/bind/JsonTreeReader.java:[57,2] error: method does not override or implement a method from a supertype
+[ERROR] ./gson/gson/src/main/java/com/google/gson/internal/bind/JsonTreeReader.java:[63,2] error: method does not override or implement a method from a supertype
+[ERROR] ./gson/gson/src/main/java/com/google/gson/internal/bind/JsonTreeReader.java:[69,2] error: method does not override or implement a method from a supertype
+[ERROR] ./gson/gson/src/main/java/com/google/gson/internal/bind/JsonTreeReader.java:[75,2] error: method does not override or implement a method from a supertype
+[ERROR] ./gson/gson/src/main/java/com/google/gson/internal/bind/JsonTreeReader.java:[81,2] error: method does not override or implement a method from a supertype
+[ERROR] ./gson/gson/src/main/java/com/google/gson/internal/bind/JsonTreeReader.java:[86,2] error: method does not override or implement a method from a supertype
+[ERROR] ./gson/gson/src/main/java/com/google/gson/internal/bind/JsonTreeReader.java:[143,2] error: method does not override or implement a method from a supertype
+[ERROR] ./gson/gson/src/main/java/com/google/gson/internal/bind/JsonTreeReader.java:[151,2] error: method does not override or implement a method from a supertype
+[ERROR] ./gson/gson/src/main/java/com/google/gson/internal/bind/JsonTreeReader.java:[159,2] error: method does not override or implement a method from a supertype
+[ERROR] ./gson/gson/src/main/java/com/google/gson/internal/bind/JsonTreeReader.java:[164,2] error: method does not override or implement a method from a supertype
+[ERROR] ./gson/gson/src/main/java/com/google/gson/internal/bind/JsonTreeReader.java:[169,2] error: method does not override or implement a method from a supertype
+[ERROR] ./gson/gson/src/main/java/com/google/gson/internal/bind/JsonTreeReader.java:[175,9] error: cannot find symbol
+[ERROR]   symbol:   method isLenient()
+[ERROR]   location: class JsonTreeReader
+[ERROR] ./gson/gson/src/main/java/com/google/gson/internal/bind/JsonTreeReader.java:[182,2] error: method does not override or implement a method from a supertype
+[ERROR] ./gson/gson/src/main/java/com/google/gson/internal/bind/JsonTreeReader.java:[192,2] error: method does not override or implement a method from a supertype
+[ERROR] ./gson/gson/src/main/java/com/google/gson/internal/bind/JsonTreeReader.java:[202,2] error: method does not override or implement a method from a supertype
+[ERROR] ./gson/gson/src/main/java/com/google/gson/internal/bind/JsonTreeReader.java:[207,2] error: method does not override or implement a method from a supertype
+[ERROR] ./gson/gson/src/main/java/com/google/gson/internal/bind/JsonTreeReader.java:[215,2] error: method does not override or implement a method from a supertype
+[ERROR] ./gson/gson/src/main/java/com/google/gson/internal/bind/JsonTreeReader.java:[216,11] error: cannot find symbol
+[ERROR]   symbol:   method getClass()
+[ERROR]   location: class JsonTreeReader
+[ERROR] ./gson/gson/src/main/java/com/google/gson/JsonParser.java:[44,21] error: name clash: parse(String) in JsonParser overrides a method whose erasure is the same as another method, yet neither overrides the other
+[ERROR]   first method:  parse(Reader) in JsonParser
+[ERROR]   second method: parse(JsonReader) in JsonParser
+[ERROR] ./gson/gson/src/main/java/com/google/gson/JsonParser.java:[58,6] error: cannot find symbol
+[ERROR]   symbol:   class JsonReader
+[ERROR]   location: class JsonParser
+[ERROR] ./gson/gson/src/main/java/com/google/gson/JsonParser.java:[58,34] error: cannot find symbol
+[ERROR]   symbol:   class JsonReader
+[ERROR]   location: class JsonParser
+[ERROR] ./gson/gson/src/main/java/com/google/gson/internal/bind/TypeAdapters.java:[68,22] error: cannot find symbol
+[ERROR]   symbol: class JsonReader
+[ERROR] ./gson/gson/src/main/java/com/google/gson/internal/bind/TypeAdapters.java:[76,23] error: cannot find symbol
+[ERROR]   symbol: class JsonReader
+[ERROR] ./gson/gson/src/main/java/com/google/gson/internal/bind/TypeAdapters.java:[136,24] error: cannot find symbol
+[ERROR]   symbol: class JsonReader
+[ERROR] ./gson/gson/src/main/java/com/google/gson/internal/bind/TypeAdapters.java:[161,34] error: cannot find symbol
+[ERROR]   symbol: class JsonReader
+[ERROR] ./gson/gson/src/main/java/com/google/gson/internal/bind/TypeAdapters.java:[179,23] error: cannot find symbol
+[ERROR]   symbol: class JsonReader
+[ERROR] ./gson/gson/src/main/java/com/google/gson/internal/bind/TypeAdapters.java:[202,23] error: cannot find symbol
+[ERROR]   symbol: class JsonReader
+[ERROR] ./gson/gson/src/main/java/com/google/gson/internal/bind/TypeAdapters.java:[224,23] error: cannot find symbol
+[ERROR]   symbol: class JsonReader
+[ERROR] ./gson/gson/src/main/java/com/google/gson/internal/bind/TypeAdapters.java:[246,23] error: cannot find symbol
+[ERROR]   symbol: class JsonReader
+[ERROR] ./gson/gson/src/main/java/com/google/gson/internal/bind/TypeAdapters.java:[265,23] error: cannot find symbol
+[ERROR]   symbol: class JsonReader
+[ERROR] ./gson/gson/src/main/java/com/google/gson/internal/bind/TypeAdapters.java:[280,23] error: cannot find symbol
+[ERROR]   symbol: class JsonReader
+[ERROR] ./gson/gson/src/main/java/com/google/gson/internal/bind/TypeAdapters.java:[295,23] error: cannot find symbol
+[ERROR]   symbol: class JsonReader
+[ERROR] ./gson/gson/src/main/java/com/google/gson/internal/bind/TypeAdapters.java:[317,26] error: cannot find symbol
+[ERROR]   symbol: class JsonReader
+[ERROR] ./gson/gson/src/main/java/com/google/gson/internal/bind/TypeAdapters.java:[339,23] error: cannot find symbol
+[ERROR]   symbol: class JsonReader
+[ERROR] ./gson/gson/src/main/java/com/google/gson/internal/bind/TypeAdapters.java:[358,37] error: cannot find symbol
+[ERROR]   symbol: class JsonReader
+[ERROR] ./gson/gson/src/main/java/com/google/gson/internal/bind/TypeAdapters.java:[376,37] error: cannot find symbol
+[ERROR]   symbol: class JsonReader
+[ERROR] ./gson/gson/src/main/java/com/google/gson/internal/bind/TypeAdapters.java:[397,30] error: cannot find symbol
+[ERROR]   symbol: class JsonReader
+[ERROR] ./gson/gson/src/main/java/com/google/gson/internal/bind/TypeAdapters.java:[415,29] error: cannot find symbol
+[ERROR]   symbol: class JsonReader
+[ERROR] ./gson/gson/src/main/java/com/google/gson/internal/bind/TypeAdapters.java:[433,20] error: cannot find symbol
+[ERROR]   symbol: class JsonReader
+[ERROR] ./gson/gson/src/main/java/com/google/gson/internal/bind/TypeAdapters.java:[451,20] error: cannot find symbol
+[ERROR]   symbol: class JsonReader
+[ERROR] ./gson/gson/src/main/java/com/google/gson/internal/bind/TypeAdapters.java:[473,28] error: cannot find symbol
+[ERROR]   symbol: class JsonReader
+[ERROR] ./gson/gson/src/main/java/com/google/gson/internal/bind/TypeAdapters.java:[492,21] error: cannot find symbol
+[ERROR]   symbol: class JsonReader
+[ERROR] ./gson/gson/src/main/java/com/google/gson/internal/bind/TypeAdapters.java:[516,40] error: cannot find symbol
+[ERROR]   symbol: class JsonReader
+[ERROR] ./gson/gson/src/main/java/com/google/gson/internal/bind/TypeAdapters.java:[537,25] error: cannot find symbol
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException

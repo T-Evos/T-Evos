@@ -1,0 +1,1077 @@
+{
+    "com.fasterxml.jackson.core.JsonpCharacterEscapesTest": [
+        "testGetEscapeSequenceOne",
+        "testGetEscapeSequenceTwo"
+    ],
+    "com.fasterxml.jackson.core.PointerFromContextTest": [
+        "testViaParser",
+        "testViaGenerator",
+        "testGeneratorWithRoot",
+        "testParserWithRoot"
+    ],
+    "com.fasterxml.jackson.core.TestExceptions": [
+        "testEofExceptionsBytes",
+        "testEofExceptionsChars",
+        "testAccessToGenerator",
+        "testAccessToParser",
+        "testOriginalMesssage"
+    ],
+    "com.fasterxml.jackson.core.TestJDKSerializability": [
+        "testLocation",
+        "testGenerationException",
+        "testBase64Variant",
+        "testJsonFactorySerializable",
+        "testPrettyPrinter",
+        "testParseException"
+    ],
+    "com.fasterxml.jackson.core.TestJsonPointer": [
+        "testSimplePath",
+        "testEmpty",
+        "testLast",
+        "testAppendWithFinalSlash",
+        "testWonkyNumber173",
+        "testLongNumbers",
+        "testSimplePathLonger",
+        "testQuotedPath",
+        "testAppend",
+        "testIZeroIndex"
+    ],
+    "com.fasterxml.jackson.core.TestLocation": [
+        "testDisableSourceInclusion",
+        "testBasicToString",
+        "testTruncatedSource",
+        "testBasics"
+    ],
+    "com.fasterxml.jackson.core.TestVersions": [
+        "testCoreVersions",
+        "testMisc"
+    ],
+    "com.fasterxml.jackson.core.VersionTest": [
+        "testCompareToAndCreatesVersionTaking6ArgumentsAndUnknownVersion",
+        "testCompareToReturningZero",
+        "testCreatesVersionTaking6ArgumentsAndCallsCompareTo",
+        "testCompareToOne",
+        "testCompareToTwo"
+    ],
+    "com.fasterxml.jackson.core.base64.Base64BinaryParsingTest": [
+        "testInvalidChar",
+        "testBase64UsingReader",
+        "testWithEscaped",
+        "testFailDueToMissingPadding",
+        "testInvalidTokenForBase64",
+        "testStreaming",
+        "testBase64UsingInputStream",
+        "testOkMissingPadding",
+        "testWithEscapedPadding",
+        "testInArray",
+        "testSimple"
+    ],
+    "com.fasterxml.jackson.core.base64.Base64CodecTest": [
+        "testCharEncoding",
+        "testProps",
+        "testVariantAccess",
+        "testErrors",
+        "testConvenienceMethods"
+    ],
+    "com.fasterxml.jackson.core.base64.Base64GenerationTest": [
+        "testSimpleBinaryWrite",
+        "testBinaryAsEmbeddedObject",
+        "testStreamingBinaryWrites",
+        "testIssue55"
+    ],
+    "com.fasterxml.jackson.core.filter.BasicGeneratorFilteringTest": [
+        "testSingleMatchFilteringWithPath",
+        "testMultipleMatchFilteringWithPath1",
+        "testMultipleMatchFilteringWithPath2",
+        "testMultipleMatchFilteringWithPath3",
+        "testSingleMatchFilteringWithoutPath",
+        "testSingleMatchFilteringWithPathRawBinary",
+        "testSingleMatchFilteringWithPathSkippedArray",
+        "testSingleMatchFilteringWithPathAlternate1",
+        "testNonFiltering",
+        "testIndexMatchWithPath1",
+        "testIndexMatchWithPath2",
+        "testWriteStartObjectWithObject"
+    ],
+    "com.fasterxml.jackson.core.filter.BasicParserFilteringTest": [
+        "testAllowMultipleMatchesWithPath1",
+        "testAllowMultipleMatchesWithPath2",
+        "testNotAllowMultipleMatchesWithPath1",
+        "testNotAllowMultipleMatchesWithPath2",
+        "testNotAllowMultipleMatchesWithPath3",
+        "testNotAllowMultipleMatchesWithPath4",
+        "testMultipleMatchFilteringWithPath1",
+        "testMultipleMatchFilteringWithPath2",
+        "testMultipleMatchFilteringWithPath3",
+        "testTokensSingleMatchWithPath",
+        "testSingleMatchFilteringWithoutPath",
+        "testNotAllowMultipleMatchesWithoutPath1",
+        "testNotAllowMultipleMatchesWithoutPath2",
+        "testBasicSingleMatchFilteringWithPath",
+        "testSkippingForSingleWithPath",
+        "testNonFiltering",
+        "testIndexMatchWithPath1",
+        "testIndexMatchWithPath2",
+        "testAllowMultipleMatchesWithoutPath",
+        "testSingleMatchFilteringWithPath1",
+        "testSingleMatchFilteringWithPath2",
+        "testSingleMatchFilteringWithPath3"
+    ],
+    "com.fasterxml.jackson.core.filter.JsonPointerGeneratorFilteringTest": [
+        "testSimplePropertyWithPath",
+        "testSimplePropertyWithoutPath",
+        "testArrayNestedWithPath",
+        "testArrayElementWithoutPath",
+        "testArrayNestedWithoutPath",
+        "testArrayElementWithPath"
+    ],
+    "com.fasterxml.jackson.core.filter.JsonPointerParserFilteringTest": [
+        "testSimpleWithPath",
+        "testSimpleNoPath",
+        "testSimplestNoPath",
+        "testSimplestWithPath"
+    ],
+    "com.fasterxml.jackson.core.format.DataFormatMatcherTest": [
+        "testGetDataStream",
+        "testCreatesDataFormatMatcherTwo"
+    ],
+    "com.fasterxml.jackson.core.format.TestJsonFormatDetection": [
+        "testSimpleValidArray",
+        "testSimpleValidObject",
+        "testSimpleValidString",
+        "testSimpleInvalid"
+    ],
+    "com.fasterxml.jackson.core.io.SegmentedStringWriterTest": [
+        "testSimple"
+    ],
+    "com.fasterxml.jackson.core.io.TestCharTypes": [
+        "testAppendQuoted0_31"
+    ],
+    "com.fasterxml.jackson.core.io.TestIOContext": [
+        "testAllocations"
+    ],
+    "com.fasterxml.jackson.core.io.TestJsonStringEncoder": [
+        "testQuoteAsString",
+        "testQuoteLongAsString",
+        "testQuoteLongCharSequenceAsString",
+        "testCtrlChars",
+        "testQuoteAsUTF8",
+        "testEncodeAsUTF8",
+        "testQuoteCharSequenceAsString",
+        "testCharSequenceWithCtrlChars"
+    ],
+    "com.fasterxml.jackson.core.io.TestMergedStream": [
+        "testSimple"
+    ],
+    "com.fasterxml.jackson.core.io.UTF8WriterTest": [
+        "testSimpleAscii",
+        "testSurrogatesFail",
+        "testSurrogatesOk",
+        "testFlushAfterClose",
+        "testSimple"
+    ],
+    "com.fasterxml.jackson.core.json.ArrayGenerationTest": [
+        "testLongArray",
+        "testIntArray",
+        "testDoubleArray"
+    ],
+    "com.fasterxml.jackson.core.json.GeneratorBasicTest": [
+        "testLongValueWrite",
+        "testRootIntsWrite",
+        "testIntValueWrite",
+        "testBooleanWrite",
+        "testGetOutputBufferd",
+        "testOutputContext",
+        "testFieldValueWrites",
+        "testGetOutputTarget",
+        "testNullWrite",
+        "testStringWrite"
+    ],
+    "com.fasterxml.jackson.core.json.GeneratorFailFromReaderTest": [
+        "testFailOnWritingStringFromReaderWithTooFewCharacters",
+        "testFailOnWritingStringFromNullReader",
+        "testFailOnWritingStringNotFieldNameBytes",
+        "testFailOnWritingStringNotFieldNameChars"
+    ],
+    "com.fasterxml.jackson.core.json.GeneratorFailTest": [
+        "testDupFieldNameWrites",
+        "testFailOnWritingFieldNameInRoot",
+        "testFailOnWritingStringNotFieldNameBytes",
+        "testFailOnWritingStringNotFieldNameChars"
+    ],
+    "com.fasterxml.jackson.core.json.GeneratorFeaturesTest": [
+        "testFieldNameQuotingEnabled",
+        "testNonNumericQuoting",
+        "testTooBigBigDecimal",
+        "testFieldNameQuoting",
+        "testNumbersAsJSONStrings",
+        "testConfigOverrides",
+        "testChangeOnGenerator",
+        "testConfigDefaults",
+        "testBigDecimalAsPlain",
+        "testBigDecimalAsPlainString"
+    ],
+    "com.fasterxml.jackson.core.json.JsonFactoryTest": [
+        "testCopy",
+        "testJsonWithFiles",
+        "testGeneratorFeatures",
+        "testDisablingBufferRecycling",
+        "testFactoryFeatures"
+    ],
+    "com.fasterxml.jackson.core.json.JsonParserClosedCaseTest": [
+        "testNullReturnedOnClosedParserOnNextFieldName[ReaderBasedJsonParser]",
+        "testNullReturnedOnClosedParserOnNextToken[ReaderBasedJsonParser]",
+        "testNullReturnedOnClosedParserOnNextValue[ReaderBasedJsonParser]",
+        "testFalseReturnedOnClosedParserOnNextFieldNameSerializedString[ReaderBasedJsonParser]",
+        "testNullReturnedOnClosedParserOnNextFieldName[UTF8StreamJsonParser]",
+        "testNullReturnedOnClosedParserOnNextToken[UTF8StreamJsonParser]",
+        "testNullReturnedOnClosedParserOnNextValue[UTF8StreamJsonParser]",
+        "testFalseReturnedOnClosedParserOnNextFieldNameSerializedString[UTF8StreamJsonParser]",
+        "testNullReturnedOnClosedParserOnNextFieldName[UTF8DataInputJsonParser]",
+        "testNullReturnedOnClosedParserOnNextToken[UTF8DataInputJsonParser]",
+        "testNullReturnedOnClosedParserOnNextValue[UTF8DataInputJsonParser]",
+        "testFalseReturnedOnClosedParserOnNextFieldNameSerializedString[UTF8DataInputJsonParser]"
+    ],
+    "com.fasterxml.jackson.core.json.JsonReadContextTest": [
+        "testReset",
+        "testSetCurrentName",
+        "testSetCurrentNameTwiceWithSameNameRaisesJsonParseException"
+    ],
+    "com.fasterxml.jackson.core.json.LocationInArrayTest": [
+        "testOffsetInArraysBytes",
+        "testOffsetInArraysChars"
+    ],
+    "com.fasterxml.jackson.core.json.LocationInObjectTest": [
+        "testOffsetWithObjectFieldsUsingUTF8",
+        "testOffsetWithObjectFieldsUsingReader"
+    ],
+    "com.fasterxml.jackson.core.json.LocationOffsetsTest": [
+        "testOffsetWithInputOffset",
+        "testSimpleInitialOffsets"
+    ],
+    "com.fasterxml.jackson.core.json.ParserSequenceTest": [
+        "testMultiLevel",
+        "testInitializationDisabled",
+        "testSimple",
+        "testInitializationEnabled"
+    ],
+    "com.fasterxml.jackson.core.json.RawValueWithSurrogatesTest": [
+        "testRawWithSurrogatesCharArray",
+        "testRawWithSurrogatesString"
+    ],
+    "com.fasterxml.jackson.core.json.RequestPayloadOnExceptionTest": [
+        "testNullCharsetOnParseException",
+        "testNullRequestPayloadOnParseException",
+        "testRequestPayloadAsBytesOnParseException",
+        "testNoRequestPayloadOnParseException",
+        "testRawRequestPayloadOnParseException",
+        "testRequestPayloadAsStringOnParseException"
+    ],
+    "com.fasterxml.jackson.core.json.StringGenerationFromReaderTest": [
+        "testBasicEscaping",
+        "testLongerRandomSingleChunk",
+        "testLongerRandomMultiChunk",
+        "testMediumStringsBytes",
+        "testMediumStringsChars"
+    ],
+    "com.fasterxml.jackson.core.json.StringGenerationTest": [
+        "testBasicEscaping",
+        "testLongerRandomSingleChunk",
+        "testLongerRandomMultiChunk",
+        "testMediumStringsBytes",
+        "testMediumStringsChars"
+    ],
+    "com.fasterxml.jackson.core.json.TestCharEscaping": [
+        "testMissingEscaping",
+        "testEscapesForCharArrays",
+        "testWriteLongCustomEscapes",
+        "testEscapeNonLatin1Bytes",
+        "testEscapeNonLatin1Chars",
+        "testInvalid",
+        "testSimpleEscaping",
+        "test8DigitSequence"
+    ],
+    "com.fasterxml.jackson.core.json.TestCustomEscaping": [
+        "testAboveAsciiEscapeWithUTF8Stream",
+        "testAboveAsciiEscapeWithReader",
+        "testEscapeCustomWithReader",
+        "testJsonpEscapes",
+        "testEscapeCustomWithUTF8Stream"
+    ],
+    "com.fasterxml.jackson.core.json.TestDecorators": [
+        "testOutputDecoration",
+        "testInputDecoration"
+    ],
+    "com.fasterxml.jackson.core.json.TestGeneratorDupHandling": [
+        "testSimpleDupsEagerlyBytes",
+        "testSimpleDupsEagerlyChars",
+        "testSimpleDupsLazilyBytes",
+        "testSimpleDupsLazilyChars"
+    ],
+    "com.fasterxml.jackson.core.json.TestGeneratorWithSerializedString": [
+        "testSimpleValues",
+        "testSimpleFieldNames"
+    ],
+    "com.fasterxml.jackson.core.json.TestMaxErrorSize": [
+        "testLongErrorMessageReader",
+        "testLongErrorMessage",
+        "testShortErrorMessage"
+    ],
+    "com.fasterxml.jackson.core.json.TestParserOverrides": [
+        "testCurrentName",
+        "testTokenAccess"
+    ],
+    "com.fasterxml.jackson.core.json.TestRootValues": [
+        "testBrokenNumber",
+        "testSimpleWrites",
+        "testSimpleBooleans",
+        "testSimpleNumbers"
+    ],
+    "com.fasterxml.jackson.core.json.TestUnicode": [
+        "testSurrogates"
+    ],
+    "com.fasterxml.jackson.core.json.TestUtf8Generator": [
+        "testFilteringWithEscapedChars",
+        "testSurrogatesWithRaw",
+        "testUtf8Issue462"
+    ],
+    "com.fasterxml.jackson.core.json.TestWithTonsaSymbols": [
+        "testReaderParser",
+        "testStreamReaderParser"
+    ],
+    "com.fasterxml.jackson.core.json.async.AsyncBinaryParseTest": [
+        "testRawAsRootValue",
+        "testRawAsArray",
+        "testRawAsObject"
+    ],
+    "com.fasterxml.jackson.core.json.async.AsyncCharEscapingTest": [
+        "testMissingLinefeedEscaping",
+        "testSimpleEscaping",
+        "test8DigitSequence"
+    ],
+    "com.fasterxml.jackson.core.json.async.AsyncCommentParsingTest": [
+        "testYAMLCommentsEnabled",
+        "testCCommentsEnabled",
+        "testCommentsEnabled",
+        "testCommentsDisabled",
+        "testCppCommentsEnabled",
+        "testCCommentsWithUTF8"
+    ],
+    "com.fasterxml.jackson.core.json.async.AsyncConcurrencyTest": [
+        "testConcurrentAsync"
+    ],
+    "com.fasterxml.jackson.core.json.async.AsyncFieldNamesTest": [
+        "testSimpleFieldNames",
+        "testEscapedFieldNames"
+    ],
+    "com.fasterxml.jackson.core.json.async.AsyncInvalidCharsTest": [
+        "testHandlingOfInvalidSpace",
+        "testUtf8BOMHandling"
+    ],
+    "com.fasterxml.jackson.core.json.async.AsyncMissingValuesInArrayTest": [
+        "testArrayTrailingCommasTriple[Features []]",
+        "testArrayInnerComma[Features []]",
+        "testArrayTrailingComma[Features []]",
+        "testArrayLeadingComma[Features []]",
+        "testArrayTrailingCommas[Features []]",
+        "testArrayTrailingCommasTriple[Features [ALLOW_MISSING_VALUES]]",
+        "testArrayInnerComma[Features [ALLOW_MISSING_VALUES]]",
+        "testArrayTrailingComma[Features [ALLOW_MISSING_VALUES]]",
+        "testArrayLeadingComma[Features [ALLOW_MISSING_VALUES]]",
+        "testArrayTrailingCommas[Features [ALLOW_MISSING_VALUES]]",
+        "testArrayTrailingCommasTriple[Features [ALLOW_TRAILING_COMMA]]",
+        "testArrayInnerComma[Features [ALLOW_TRAILING_COMMA]]",
+        "testArrayTrailingComma[Features [ALLOW_TRAILING_COMMA]]",
+        "testArrayLeadingComma[Features [ALLOW_TRAILING_COMMA]]",
+        "testArrayTrailingCommas[Features [ALLOW_TRAILING_COMMA]]",
+        "testArrayTrailingCommasTriple[Features [ALLOW_MISSING_VALUES, ALLOW_TRAILING_COMMA]]",
+        "testArrayInnerComma[Features [ALLOW_MISSING_VALUES, ALLOW_TRAILING_COMMA]]",
+        "testArrayTrailingComma[Features [ALLOW_MISSING_VALUES, ALLOW_TRAILING_COMMA]]",
+        "testArrayLeadingComma[Features [ALLOW_MISSING_VALUES, ALLOW_TRAILING_COMMA]]",
+        "testArrayTrailingCommas[Features [ALLOW_MISSING_VALUES, ALLOW_TRAILING_COMMA]]"
+    ],
+    "com.fasterxml.jackson.core.json.async.AsyncMissingValuesInObjectTest": [
+        "testObjectLeadingComma[Features []]",
+        "testObjectBasic[Features []]",
+        "testObjectTrailingCommas[Features []]",
+        "testObjectInnerComma[Features []]",
+        "testObjectTrailingComma[Features []]",
+        "testObjectLeadingComma[Features [ALLOW_MISSING_VALUES]]",
+        "testObjectBasic[Features [ALLOW_MISSING_VALUES]]",
+        "testObjectTrailingCommas[Features [ALLOW_MISSING_VALUES]]",
+        "testObjectInnerComma[Features [ALLOW_MISSING_VALUES]]",
+        "testObjectTrailingComma[Features [ALLOW_MISSING_VALUES]]",
+        "testObjectLeadingComma[Features [ALLOW_TRAILING_COMMA]]",
+        "testObjectBasic[Features [ALLOW_TRAILING_COMMA]]",
+        "testObjectTrailingCommas[Features [ALLOW_TRAILING_COMMA]]",
+        "testObjectInnerComma[Features [ALLOW_TRAILING_COMMA]]",
+        "testObjectTrailingComma[Features [ALLOW_TRAILING_COMMA]]",
+        "testObjectLeadingComma[Features [ALLOW_MISSING_VALUES, ALLOW_TRAILING_COMMA]]",
+        "testObjectBasic[Features [ALLOW_MISSING_VALUES, ALLOW_TRAILING_COMMA]]",
+        "testObjectTrailingCommas[Features [ALLOW_MISSING_VALUES, ALLOW_TRAILING_COMMA]]",
+        "testObjectInnerComma[Features [ALLOW_MISSING_VALUES, ALLOW_TRAILING_COMMA]]",
+        "testObjectTrailingComma[Features [ALLOW_MISSING_VALUES, ALLOW_TRAILING_COMMA]]"
+    ],
+    "com.fasterxml.jackson.core.json.async.AsyncNonStdNumbersTest": [
+        "testAllowInf",
+        "testAllowNaN",
+        "testDisallowInf",
+        "testDisallowNaN",
+        "testDefaultsForAsync"
+    ],
+    "com.fasterxml.jackson.core.json.async.AsyncNonStdParsingTest": [
+        "testAposQuotingEnabled",
+        "testLargeUnquotedNames",
+        "testNonStandardNameChars",
+        "testAposQuotingDisabled",
+        "testSimpleUnquotedNames",
+        "testSingleQuotesEscaped"
+    ],
+    "com.fasterxml.jackson.core.json.async.AsyncNumberCoercionTest": [
+        "testToLongFailing",
+        "testToLongCoercion",
+        "testToIntFailing",
+        "testToBigDecimalCoercion",
+        "testToBigIntegerCoercion",
+        "testToDoubleCoercion",
+        "testToIntCoercion"
+    ],
+    "com.fasterxml.jackson.core.json.async.AsyncNumberLeadingZeroesTest": [
+        "testLeadingZeroesFloat",
+        "testLeadingZeroesInt",
+        "testDefaultsForAsync"
+    ],
+    "com.fasterxml.jackson.core.json.async.AsyncParserNamesTest": [
+        "testSymbolTable",
+        "testLongNames",
+        "testEvenLongerName"
+    ],
+    "com.fasterxml.jackson.core.json.async.AsyncRootNumbersTest": [
+        "testRootDoublesSimple",
+        "testRootInts",
+        "testRootDoublesScientific"
+    ],
+    "com.fasterxml.jackson.core.json.async.AsyncRootValuesTest": [
+        "testMixedRootSequence",
+        "testTokenRootSequence",
+        "testTokenRootTokens"
+    ],
+    "com.fasterxml.jackson.core.json.async.AsyncScalarArrayTest": [
+        "testInts",
+        "testLong",
+        "testBigDecimals",
+        "testBigIntegers",
+        "testFloats",
+        "testDoubles",
+        "testTokens"
+    ],
+    "com.fasterxml.jackson.core.json.async.AsyncScopeMatchingTest": [
+        "testMismatchObjectToArray",
+        "testMismatchArrayToObject"
+    ],
+    "com.fasterxml.jackson.core.json.async.AsyncSimpleNestedTest": [
+        "testMismatchedObject",
+        "testStuffInArray",
+        "testStuffInArray2",
+        "testStuffInObject",
+        "testMismatchedArray"
+    ],
+    "com.fasterxml.jackson.core.json.async.AsyncSimpleObjectTest": [
+        "testBooleans",
+        "testNumbers"
+    ],
+    "com.fasterxml.jackson.core.json.async.AsyncStringArrayTest": [
+        "testLongUnicodeStrings",
+        "testLongAsciiStrings",
+        "testShortAsciiStrings",
+        "testShortUnicodeStrings"
+    ],
+    "com.fasterxml.jackson.core.json.async.AsyncStringObjectTest": [
+        "testBasicFieldsNames"
+    ],
+    "com.fasterxml.jackson.core.json.async.AsyncTokenFilterTest": [
+        "testSkipChildrenFailOnSplit",
+        "testFilteredNonBlockingParserAllContent"
+    ],
+    "com.fasterxml.jackson.core.json.async.AsyncUnicodeHandlingTest": [
+        "testLongUnicodeWithSurrogates",
+        "testShortUnicodeWithSurrogates"
+    ],
+    "com.fasterxml.jackson.core.json.async.ConfigTest": [
+        "testFactoryDefaults",
+        "testAsyncParerDefaults"
+    ],
+    "com.fasterxml.jackson.core.main.TestArrayParsing": [
+        "testNotMissingValueByEnablingFeature",
+        "testMissingValueAsNullByEnablingFeature",
+        "testInvalidEmptyMissingClose",
+        "testValidEmpty",
+        "testMissingValueAsNullByNotEnablingFeature",
+        "testInvalidExtraComma",
+        "testInvalidMissingFieldName"
+    ],
+    "com.fasterxml.jackson.core.main.TestGeneratorArray": [
+        "testInvalidArrayWrite",
+        "testSimpleArrayWrite",
+        "testEmptyArrayWrite"
+    ],
+    "com.fasterxml.jackson.core.main.TestGeneratorClosing": [
+        "testAutoFlushOrNot",
+        "testNoAutoCloseArraysAndObjects",
+        "testCloseGenerator",
+        "testNoAutoCloseGenerator",
+        "testAutoCloseArraysAndObjects",
+        "testNoAutoCloseOutputStream"
+    ],
+    "com.fasterxml.jackson.core.main.TestGeneratorCopy": [
+        "testCopyArrayTokens",
+        "testCopyObjectTokens",
+        "testCopyRootTokens"
+    ],
+    "com.fasterxml.jackson.core.main.TestGeneratorMisc": [
+        "testSimpleWriteObject",
+        "testRaw",
+        "testIsClosed",
+        "testAsEmbedded",
+        "testRawValue",
+        "testLongerObjects"
+    ],
+    "com.fasterxml.jackson.core.main.TestGeneratorObject": [
+        "testEmptyObjectWrite",
+        "testSimpleObjectWrite",
+        "testInvalidObjectWrite",
+        "testConvenienceMethods",
+        "testConvenienceMethodsWithNulls"
+    ],
+    "com.fasterxml.jackson.core.main.TestNumberParsing": [
+        "testLongBoundsChecks",
+        "testIntParsing",
+        "testIntParsingWithStrings",
+        "testFloatBoundary146Bytes",
+        "testFloatBoundary146Chars",
+        "testLongParsing"
+    ],
+    "com.fasterxml.jackson.core.main.TestParserClosing": [
+        "testReleaseContentBytes",
+        "testReleaseContentChars",
+        "testNoAutoCloseReader",
+        "testAutoCloseReader",
+        "testNoAutoCloseInputStream"
+    ],
+    "com.fasterxml.jackson.core.main.TestParserFeatures": [
+        "testDefaultSettings",
+        "testTabsDefault",
+        "testQuotesRequired",
+        "testDeprecatedDefaultSettings",
+        "testTabsEnabled"
+    ],
+    "com.fasterxml.jackson.core.main.TestParserLinefeeds": [
+        "testCRLF",
+        "testCR",
+        "testLF"
+    ],
+    "com.fasterxml.jackson.core.main.TestParserWithObjects": [
+        "testNextValueNested",
+        "testIsClosed",
+        "testNextValue"
+    ],
+    "com.fasterxml.jackson.core.main.TestPrettyPrinter": [
+        "testCustomRootSeparatorWithPP",
+        "testObjectCount",
+        "testArrayCount",
+        "testCustomSeparatorsWithMinimal",
+        "testCustomSeparatorsWithPP",
+        "testSimpleDocWithMinimal",
+        "testSimpleDocWithDefault",
+        "testCustomRootSeparatorWithFactory",
+        "testCustomSeparatorsWithPPWithoutSpaces"
+    ],
+    "com.fasterxml.jackson.core.main.TestRawStringWriting": [
+        "testWriteRawWithSerializable",
+        "testUtf8RawStrings",
+        "testUtf8StringsWithEscaping"
+    ],
+    "com.fasterxml.jackson.core.read.CommentParsingTest": [
+        "testDefaultSettings",
+        "testCommentsWithUTF8",
+        "testYAMLCommentsBytes",
+        "testYAMLCommentsChars",
+        "testCommentsEnabled",
+        "testCommentsDisabled",
+        "testCCommentsBytes",
+        "testCCommentsChars",
+        "testCppCommentsBytes",
+        "testCppCommentsChars"
+    ],
+    "com.fasterxml.jackson.core.read.DataInputTest": [
+        "testEOFAfterObject",
+        "testEOFAfterScalar",
+        "testEOFAfterArray"
+    ],
+    "com.fasterxml.jackson.core.read.JsonParserTest": [
+        "testBytesAsSource",
+        "testGetValueAsTextDataInput",
+        "testSpacesInURL",
+        "testSkipping",
+        "testLongText",
+        "testSpecExampleFully",
+        "testHandlingOfInvalidSpaceChars",
+        "testLongerReadText",
+        "testNameEscaping",
+        "testSpecExampleSkipping",
+        "testHandlingOfInvalidSpaceByteStream",
+        "testInterningWithReaders",
+        "testGetTextViaWriter",
+        "testKeywords",
+        "testConfig",
+        "testInterningWithStreams",
+        "testGetValueAsTextBytes",
+        "testGetValueAsTextChars",
+        "testHandlingOfInvalidSpaceDataInput",
+        "testUtf8BOMHandling"
+    ],
+    "com.fasterxml.jackson.core.read.NextXxxAccessTest": [
+        "testNextNameWithIndentation",
+        "testNextTextValue",
+        "testNextBooleanValue",
+        "testNextNameWithLongContent",
+        "testNextLongValue",
+        "testIsNextTokenName",
+        "testIsNextTokenName2",
+        "testIsNextTokenName3",
+        "testIsNextTokenName4",
+        "testNextIntValue",
+        "testIssue34",
+        "testIssue38"
+    ],
+    "com.fasterxml.jackson.core.read.NonStandardParserFeaturesTest": [
+        "testAllowNaN",
+        "testNonStandardAnyCharQuoting",
+        "testAllowInfinity",
+        "testNonStandardNameChars",
+        "testLeadingZeroesUTF8",
+        "testSingleQuotesDefault",
+        "testLeadingZeroesReader",
+        "testDefaults",
+        "testSingleQuotesEnabled"
+    ],
+    "com.fasterxml.jackson.core.read.NonStandardUnquotedNamesTest": [
+        "testLargeUnquoted",
+        "testUnquotedIssue510",
+        "testSimpleUnquotedBytes",
+        "testSimpleUnquotedChars"
+    ],
+    "com.fasterxml.jackson.core.read.NumberCoercionTest": [
+        "testToLongFailing",
+        "testToLongCoercion",
+        "testToIntFailing",
+        "testToBigDecimalCoercion",
+        "testToBigIntegerCoercion",
+        "testToDoubleCoercion",
+        "testToIntCoercion"
+    ],
+    "com.fasterxml.jackson.core.read.NumberOverflowTest": [
+        "testMaliciousBigIntToFloat",
+        "testMaliciousBigIntToDouble",
+        "testMaliciousLongOverflow",
+        "testSimpleLongOverflow",
+        "testMaliciousIntOverflow"
+    ],
+    "com.fasterxml.jackson.core.read.NumberParsingTest": [
+        "testSimpleLong",
+        "testParsingOfLongerSequencesWithNonNumeric",
+        "testInvalidLongAccess",
+        "testSimpleInt",
+        "testSimpleDouble",
+        "testLongerFloatingPoint",
+        "testBigNumbers",
+        "testInvalidBooleanAccess",
+        "testSimpleBoolean",
+        "testLongNumbers",
+        "testBigDecimalRange",
+        "testParsingOfLongerSequences",
+        "testInvalidNumber",
+        "testLongRange",
+        "testLongNumbers2",
+        "testIntRange",
+        "testNumbers",
+        "testInvalidIntAccess"
+    ],
+    "com.fasterxml.jackson.core.read.ParserDupHandlingTest": [
+        "testSimpleDupCheckDisabled",
+        "testSimpleDupsDataInput",
+        "testSimpleDupsBytes",
+        "testSimpleDupsChars"
+    ],
+    "com.fasterxml.jackson.core.read.ParserErrorHandlingTest": [
+        "testMangledFloatsBytes",
+        "testMangledNumbersChars",
+        "testMangledIntsBytes",
+        "testInvalidKeywordsBytes",
+        "testInvalidKeywordsChars"
+    ],
+    "com.fasterxml.jackson.core.read.ParserScopeMatchingTest": [
+        "testEOFInName",
+        "testWeirdToken",
+        "testMismatchObjectToArray",
+        "testUnclosedArray",
+        "testUnclosedObject",
+        "testMismatchArrayToObject",
+        "testMisssingColon"
+    ],
+    "com.fasterxml.jackson.core.read.ParserSymbolHandlingTest": [
+        "testSymbolsWithNullBytes",
+        "testSymbolsWithNullChars"
+    ],
+    "com.fasterxml.jackson.core.read.TrailingCommasTest": [
+        "testObjectLeadingComma[Mode 0, Features []]",
+        "testObjectBasic[Mode 0, Features []]",
+        "testArrayBasic[Mode 0, Features []]",
+        "testObjectTrailingCommas[Mode 0, Features []]",
+        "testObjectInnerComma[Mode 0, Features []]",
+        "testArrayTrailingCommasTriple[Mode 0, Features []]",
+        "testArrayInnerComma[Mode 0, Features []]",
+        "testObjectTrailingCommaWithNextFieldNameStr[Mode 0, Features []]",
+        "testObjectTrailingCommaWithNextFieldName[Mode 0, Features []]",
+        "testArrayTrailingComma[Mode 0, Features []]",
+        "testArrayLeadingComma[Mode 0, Features []]",
+        "testObjectTrailingComma[Mode 0, Features []]",
+        "testArrayTrailingCommas[Mode 0, Features []]",
+        "testObjectLeadingComma[Mode 0, Features [ALLOW_MISSING_VALUES]]",
+        "testObjectBasic[Mode 0, Features [ALLOW_MISSING_VALUES]]",
+        "testArrayBasic[Mode 0, Features [ALLOW_MISSING_VALUES]]",
+        "testObjectTrailingCommas[Mode 0, Features [ALLOW_MISSING_VALUES]]",
+        "testObjectInnerComma[Mode 0, Features [ALLOW_MISSING_VALUES]]",
+        "testArrayTrailingCommasTriple[Mode 0, Features [ALLOW_MISSING_VALUES]]",
+        "testArrayInnerComma[Mode 0, Features [ALLOW_MISSING_VALUES]]",
+        "testObjectTrailingCommaWithNextFieldNameStr[Mode 0, Features [ALLOW_MISSING_VALUES]]",
+        "testObjectTrailingCommaWithNextFieldName[Mode 0, Features [ALLOW_MISSING_VALUES]]",
+        "testArrayTrailingComma[Mode 0, Features [ALLOW_MISSING_VALUES]]",
+        "testArrayLeadingComma[Mode 0, Features [ALLOW_MISSING_VALUES]]",
+        "testObjectTrailingComma[Mode 0, Features [ALLOW_MISSING_VALUES]]",
+        "testArrayTrailingCommas[Mode 0, Features [ALLOW_MISSING_VALUES]]",
+        "testObjectLeadingComma[Mode 0, Features [ALLOW_TRAILING_COMMA]]",
+        "testObjectBasic[Mode 0, Features [ALLOW_TRAILING_COMMA]]",
+        "testArrayBasic[Mode 0, Features [ALLOW_TRAILING_COMMA]]",
+        "testObjectTrailingCommas[Mode 0, Features [ALLOW_TRAILING_COMMA]]",
+        "testObjectInnerComma[Mode 0, Features [ALLOW_TRAILING_COMMA]]",
+        "testArrayTrailingCommasTriple[Mode 0, Features [ALLOW_TRAILING_COMMA]]",
+        "testArrayInnerComma[Mode 0, Features [ALLOW_TRAILING_COMMA]]",
+        "testObjectTrailingCommaWithNextFieldNameStr[Mode 0, Features [ALLOW_TRAILING_COMMA]]",
+        "testObjectTrailingCommaWithNextFieldName[Mode 0, Features [ALLOW_TRAILING_COMMA]]",
+        "testArrayTrailingComma[Mode 0, Features [ALLOW_TRAILING_COMMA]]",
+        "testArrayLeadingComma[Mode 0, Features [ALLOW_TRAILING_COMMA]]",
+        "testObjectTrailingComma[Mode 0, Features [ALLOW_TRAILING_COMMA]]",
+        "testArrayTrailingCommas[Mode 0, Features [ALLOW_TRAILING_COMMA]]",
+        "testObjectLeadingComma[Mode 0, Features [ALLOW_MISSING_VALUES, ALLOW_TRAILING_COMMA]]",
+        "testObjectBasic[Mode 0, Features [ALLOW_MISSING_VALUES, ALLOW_TRAILING_COMMA]]",
+        "testArrayBasic[Mode 0, Features [ALLOW_MISSING_VALUES, ALLOW_TRAILING_COMMA]]",
+        "testObjectTrailingCommas[Mode 0, Features [ALLOW_MISSING_VALUES, ALLOW_TRAILING_COMMA]]",
+        "testObjectInnerComma[Mode 0, Features [ALLOW_MISSING_VALUES, ALLOW_TRAILING_COMMA]]",
+        "testArrayTrailingCommasTriple[Mode 0, Features [ALLOW_MISSING_VALUES, ALLOW_TRAILING_COMMA]]",
+        "testArrayInnerComma[Mode 0, Features [ALLOW_MISSING_VALUES, ALLOW_TRAILING_COMMA]]",
+        "testObjectTrailingCommaWithNextFieldNameStr[Mode 0, Features [ALLOW_MISSING_VALUES, ALLOW_TRAILING_COMMA]]",
+        "testObjectTrailingCommaWithNextFieldName[Mode 0, Features [ALLOW_MISSING_VALUES, ALLOW_TRAILING_COMMA]]",
+        "testArrayTrailingComma[Mode 0, Features [ALLOW_MISSING_VALUES, ALLOW_TRAILING_COMMA]]",
+        "testArrayLeadingComma[Mode 0, Features [ALLOW_MISSING_VALUES, ALLOW_TRAILING_COMMA]]",
+        "testObjectTrailingComma[Mode 0, Features [ALLOW_MISSING_VALUES, ALLOW_TRAILING_COMMA]]",
+        "testArrayTrailingCommas[Mode 0, Features [ALLOW_MISSING_VALUES, ALLOW_TRAILING_COMMA]]",
+        "testObjectLeadingComma[Mode 1, Features []]",
+        "testObjectBasic[Mode 1, Features []]",
+        "testArrayBasic[Mode 1, Features []]",
+        "testObjectTrailingCommas[Mode 1, Features []]",
+        "testObjectInnerComma[Mode 1, Features []]",
+        "testArrayTrailingCommasTriple[Mode 1, Features []]",
+        "testArrayInnerComma[Mode 1, Features []]",
+        "testObjectTrailingCommaWithNextFieldNameStr[Mode 1, Features []]",
+        "testObjectTrailingCommaWithNextFieldName[Mode 1, Features []]",
+        "testArrayTrailingComma[Mode 1, Features []]",
+        "testArrayLeadingComma[Mode 1, Features []]",
+        "testObjectTrailingComma[Mode 1, Features []]",
+        "testArrayTrailingCommas[Mode 1, Features []]",
+        "testObjectLeadingComma[Mode 1, Features [ALLOW_MISSING_VALUES]]",
+        "testObjectBasic[Mode 1, Features [ALLOW_MISSING_VALUES]]",
+        "testArrayBasic[Mode 1, Features [ALLOW_MISSING_VALUES]]",
+        "testObjectTrailingCommas[Mode 1, Features [ALLOW_MISSING_VALUES]]",
+        "testObjectInnerComma[Mode 1, Features [ALLOW_MISSING_VALUES]]",
+        "testArrayTrailingCommasTriple[Mode 1, Features [ALLOW_MISSING_VALUES]]",
+        "testArrayInnerComma[Mode 1, Features [ALLOW_MISSING_VALUES]]",
+        "testObjectTrailingCommaWithNextFieldNameStr[Mode 1, Features [ALLOW_MISSING_VALUES]]",
+        "testObjectTrailingCommaWithNextFieldName[Mode 1, Features [ALLOW_MISSING_VALUES]]",
+        "testArrayTrailingComma[Mode 1, Features [ALLOW_MISSING_VALUES]]",
+        "testArrayLeadingComma[Mode 1, Features [ALLOW_MISSING_VALUES]]",
+        "testObjectTrailingComma[Mode 1, Features [ALLOW_MISSING_VALUES]]",
+        "testArrayTrailingCommas[Mode 1, Features [ALLOW_MISSING_VALUES]]",
+        "testObjectLeadingComma[Mode 1, Features [ALLOW_TRAILING_COMMA]]",
+        "testObjectBasic[Mode 1, Features [ALLOW_TRAILING_COMMA]]",
+        "testArrayBasic[Mode 1, Features [ALLOW_TRAILING_COMMA]]",
+        "testObjectTrailingCommas[Mode 1, Features [ALLOW_TRAILING_COMMA]]",
+        "testObjectInnerComma[Mode 1, Features [ALLOW_TRAILING_COMMA]]",
+        "testArrayTrailingCommasTriple[Mode 1, Features [ALLOW_TRAILING_COMMA]]",
+        "testArrayInnerComma[Mode 1, Features [ALLOW_TRAILING_COMMA]]",
+        "testObjectTrailingCommaWithNextFieldNameStr[Mode 1, Features [ALLOW_TRAILING_COMMA]]",
+        "testObjectTrailingCommaWithNextFieldName[Mode 1, Features [ALLOW_TRAILING_COMMA]]",
+        "testArrayTrailingComma[Mode 1, Features [ALLOW_TRAILING_COMMA]]",
+        "testArrayLeadingComma[Mode 1, Features [ALLOW_TRAILING_COMMA]]",
+        "testObjectTrailingComma[Mode 1, Features [ALLOW_TRAILING_COMMA]]",
+        "testArrayTrailingCommas[Mode 1, Features [ALLOW_TRAILING_COMMA]]",
+        "testObjectLeadingComma[Mode 1, Features [ALLOW_MISSING_VALUES, ALLOW_TRAILING_COMMA]]",
+        "testObjectBasic[Mode 1, Features [ALLOW_MISSING_VALUES, ALLOW_TRAILING_COMMA]]",
+        "testArrayBasic[Mode 1, Features [ALLOW_MISSING_VALUES, ALLOW_TRAILING_COMMA]]",
+        "testObjectTrailingCommas[Mode 1, Features [ALLOW_MISSING_VALUES, ALLOW_TRAILING_COMMA]]",
+        "testObjectInnerComma[Mode 1, Features [ALLOW_MISSING_VALUES, ALLOW_TRAILING_COMMA]]",
+        "testArrayTrailingCommasTriple[Mode 1, Features [ALLOW_MISSING_VALUES, ALLOW_TRAILING_COMMA]]",
+        "testArrayInnerComma[Mode 1, Features [ALLOW_MISSING_VALUES, ALLOW_TRAILING_COMMA]]",
+        "testObjectTrailingCommaWithNextFieldNameStr[Mode 1, Features [ALLOW_MISSING_VALUES, ALLOW_TRAILING_COMMA]]",
+        "testObjectTrailingCommaWithNextFieldName[Mode 1, Features [ALLOW_MISSING_VALUES, ALLOW_TRAILING_COMMA]]",
+        "testArrayTrailingComma[Mode 1, Features [ALLOW_MISSING_VALUES, ALLOW_TRAILING_COMMA]]",
+        "testArrayLeadingComma[Mode 1, Features [ALLOW_MISSING_VALUES, ALLOW_TRAILING_COMMA]]",
+        "testObjectTrailingComma[Mode 1, Features [ALLOW_MISSING_VALUES, ALLOW_TRAILING_COMMA]]",
+        "testArrayTrailingCommas[Mode 1, Features [ALLOW_MISSING_VALUES, ALLOW_TRAILING_COMMA]]",
+        "testObjectLeadingComma[Mode 2, Features []]",
+        "testObjectBasic[Mode 2, Features []]",
+        "testArrayBasic[Mode 2, Features []]",
+        "testObjectTrailingCommas[Mode 2, Features []]",
+        "testObjectInnerComma[Mode 2, Features []]",
+        "testArrayTrailingCommasTriple[Mode 2, Features []]",
+        "testArrayInnerComma[Mode 2, Features []]",
+        "testObjectTrailingCommaWithNextFieldNameStr[Mode 2, Features []]",
+        "testObjectTrailingCommaWithNextFieldName[Mode 2, Features []]",
+        "testArrayTrailingComma[Mode 2, Features []]",
+        "testArrayLeadingComma[Mode 2, Features []]",
+        "testObjectTrailingComma[Mode 2, Features []]",
+        "testArrayTrailingCommas[Mode 2, Features []]",
+        "testObjectLeadingComma[Mode 2, Features [ALLOW_MISSING_VALUES]]",
+        "testObjectBasic[Mode 2, Features [ALLOW_MISSING_VALUES]]",
+        "testArrayBasic[Mode 2, Features [ALLOW_MISSING_VALUES]]",
+        "testObjectTrailingCommas[Mode 2, Features [ALLOW_MISSING_VALUES]]",
+        "testObjectInnerComma[Mode 2, Features [ALLOW_MISSING_VALUES]]",
+        "testArrayTrailingCommasTriple[Mode 2, Features [ALLOW_MISSING_VALUES]]",
+        "testArrayInnerComma[Mode 2, Features [ALLOW_MISSING_VALUES]]",
+        "testObjectTrailingCommaWithNextFieldNameStr[Mode 2, Features [ALLOW_MISSING_VALUES]]",
+        "testObjectTrailingCommaWithNextFieldName[Mode 2, Features [ALLOW_MISSING_VALUES]]",
+        "testArrayTrailingComma[Mode 2, Features [ALLOW_MISSING_VALUES]]",
+        "testArrayLeadingComma[Mode 2, Features [ALLOW_MISSING_VALUES]]",
+        "testObjectTrailingComma[Mode 2, Features [ALLOW_MISSING_VALUES]]",
+        "testArrayTrailingCommas[Mode 2, Features [ALLOW_MISSING_VALUES]]",
+        "testObjectLeadingComma[Mode 2, Features [ALLOW_TRAILING_COMMA]]",
+        "testObjectBasic[Mode 2, Features [ALLOW_TRAILING_COMMA]]",
+        "testArrayBasic[Mode 2, Features [ALLOW_TRAILING_COMMA]]",
+        "testObjectTrailingCommas[Mode 2, Features [ALLOW_TRAILING_COMMA]]",
+        "testObjectInnerComma[Mode 2, Features [ALLOW_TRAILING_COMMA]]",
+        "testArrayTrailingCommasTriple[Mode 2, Features [ALLOW_TRAILING_COMMA]]",
+        "testArrayInnerComma[Mode 2, Features [ALLOW_TRAILING_COMMA]]",
+        "testObjectTrailingCommaWithNextFieldNameStr[Mode 2, Features [ALLOW_TRAILING_COMMA]]",
+        "testObjectTrailingCommaWithNextFieldName[Mode 2, Features [ALLOW_TRAILING_COMMA]]",
+        "testArrayTrailingComma[Mode 2, Features [ALLOW_TRAILING_COMMA]]",
+        "testArrayLeadingComma[Mode 2, Features [ALLOW_TRAILING_COMMA]]",
+        "testObjectTrailingComma[Mode 2, Features [ALLOW_TRAILING_COMMA]]",
+        "testArrayTrailingCommas[Mode 2, Features [ALLOW_TRAILING_COMMA]]",
+        "testObjectLeadingComma[Mode 2, Features [ALLOW_MISSING_VALUES, ALLOW_TRAILING_COMMA]]",
+        "testObjectBasic[Mode 2, Features [ALLOW_MISSING_VALUES, ALLOW_TRAILING_COMMA]]",
+        "testArrayBasic[Mode 2, Features [ALLOW_MISSING_VALUES, ALLOW_TRAILING_COMMA]]",
+        "testObjectTrailingCommas[Mode 2, Features [ALLOW_MISSING_VALUES, ALLOW_TRAILING_COMMA]]",
+        "testObjectInnerComma[Mode 2, Features [ALLOW_MISSING_VALUES, ALLOW_TRAILING_COMMA]]",
+        "testArrayTrailingCommasTriple[Mode 2, Features [ALLOW_MISSING_VALUES, ALLOW_TRAILING_COMMA]]",
+        "testArrayInnerComma[Mode 2, Features [ALLOW_MISSING_VALUES, ALLOW_TRAILING_COMMA]]",
+        "testObjectTrailingCommaWithNextFieldNameStr[Mode 2, Features [ALLOW_MISSING_VALUES, ALLOW_TRAILING_COMMA]]",
+        "testObjectTrailingCommaWithNextFieldName[Mode 2, Features [ALLOW_MISSING_VALUES, ALLOW_TRAILING_COMMA]]",
+        "testArrayTrailingComma[Mode 2, Features [ALLOW_MISSING_VALUES, ALLOW_TRAILING_COMMA]]",
+        "testArrayLeadingComma[Mode 2, Features [ALLOW_MISSING_VALUES, ALLOW_TRAILING_COMMA]]",
+        "testObjectTrailingComma[Mode 2, Features [ALLOW_MISSING_VALUES, ALLOW_TRAILING_COMMA]]",
+        "testArrayTrailingCommas[Mode 2, Features [ALLOW_MISSING_VALUES, ALLOW_TRAILING_COMMA]]",
+        "testObjectLeadingComma[Mode 3, Features []]",
+        "testObjectBasic[Mode 3, Features []]",
+        "testArrayBasic[Mode 3, Features []]",
+        "testObjectTrailingCommas[Mode 3, Features []]",
+        "testObjectInnerComma[Mode 3, Features []]",
+        "testArrayTrailingCommasTriple[Mode 3, Features []]",
+        "testArrayInnerComma[Mode 3, Features []]",
+        "testObjectTrailingCommaWithNextFieldNameStr[Mode 3, Features []]",
+        "testObjectTrailingCommaWithNextFieldName[Mode 3, Features []]",
+        "testArrayTrailingComma[Mode 3, Features []]",
+        "testArrayLeadingComma[Mode 3, Features []]",
+        "testObjectTrailingComma[Mode 3, Features []]",
+        "testArrayTrailingCommas[Mode 3, Features []]",
+        "testObjectLeadingComma[Mode 3, Features [ALLOW_MISSING_VALUES]]",
+        "testObjectBasic[Mode 3, Features [ALLOW_MISSING_VALUES]]",
+        "testArrayBasic[Mode 3, Features [ALLOW_MISSING_VALUES]]",
+        "testObjectTrailingCommas[Mode 3, Features [ALLOW_MISSING_VALUES]]",
+        "testObjectInnerComma[Mode 3, Features [ALLOW_MISSING_VALUES]]",
+        "testArrayTrailingCommasTriple[Mode 3, Features [ALLOW_MISSING_VALUES]]",
+        "testArrayInnerComma[Mode 3, Features [ALLOW_MISSING_VALUES]]",
+        "testObjectTrailingCommaWithNextFieldNameStr[Mode 3, Features [ALLOW_MISSING_VALUES]]",
+        "testObjectTrailingCommaWithNextFieldName[Mode 3, Features [ALLOW_MISSING_VALUES]]",
+        "testArrayTrailingComma[Mode 3, Features [ALLOW_MISSING_VALUES]]",
+        "testArrayLeadingComma[Mode 3, Features [ALLOW_MISSING_VALUES]]",
+        "testObjectTrailingComma[Mode 3, Features [ALLOW_MISSING_VALUES]]",
+        "testArrayTrailingCommas[Mode 3, Features [ALLOW_MISSING_VALUES]]",
+        "testObjectLeadingComma[Mode 3, Features [ALLOW_TRAILING_COMMA]]",
+        "testObjectBasic[Mode 3, Features [ALLOW_TRAILING_COMMA]]",
+        "testArrayBasic[Mode 3, Features [ALLOW_TRAILING_COMMA]]",
+        "testObjectTrailingCommas[Mode 3, Features [ALLOW_TRAILING_COMMA]]",
+        "testObjectInnerComma[Mode 3, Features [ALLOW_TRAILING_COMMA]]",
+        "testArrayTrailingCommasTriple[Mode 3, Features [ALLOW_TRAILING_COMMA]]",
+        "testArrayInnerComma[Mode 3, Features [ALLOW_TRAILING_COMMA]]",
+        "testObjectTrailingCommaWithNextFieldNameStr[Mode 3, Features [ALLOW_TRAILING_COMMA]]",
+        "testObjectTrailingCommaWithNextFieldName[Mode 3, Features [ALLOW_TRAILING_COMMA]]",
+        "testArrayTrailingComma[Mode 3, Features [ALLOW_TRAILING_COMMA]]",
+        "testArrayLeadingComma[Mode 3, Features [ALLOW_TRAILING_COMMA]]",
+        "testObjectTrailingComma[Mode 3, Features [ALLOW_TRAILING_COMMA]]",
+        "testArrayTrailingCommas[Mode 3, Features [ALLOW_TRAILING_COMMA]]",
+        "testObjectLeadingComma[Mode 3, Features [ALLOW_MISSING_VALUES, ALLOW_TRAILING_COMMA]]",
+        "testObjectBasic[Mode 3, Features [ALLOW_MISSING_VALUES, ALLOW_TRAILING_COMMA]]",
+        "testArrayBasic[Mode 3, Features [ALLOW_MISSING_VALUES, ALLOW_TRAILING_COMMA]]",
+        "testObjectTrailingCommas[Mode 3, Features [ALLOW_MISSING_VALUES, ALLOW_TRAILING_COMMA]]",
+        "testObjectInnerComma[Mode 3, Features [ALLOW_MISSING_VALUES, ALLOW_TRAILING_COMMA]]",
+        "testArrayTrailingCommasTriple[Mode 3, Features [ALLOW_MISSING_VALUES, ALLOW_TRAILING_COMMA]]",
+        "testArrayInnerComma[Mode 3, Features [ALLOW_MISSING_VALUES, ALLOW_TRAILING_COMMA]]",
+        "testObjectTrailingCommaWithNextFieldNameStr[Mode 3, Features [ALLOW_MISSING_VALUES, ALLOW_TRAILING_COMMA]]",
+        "testObjectTrailingCommaWithNextFieldName[Mode 3, Features [ALLOW_MISSING_VALUES, ALLOW_TRAILING_COMMA]]",
+        "testArrayTrailingComma[Mode 3, Features [ALLOW_MISSING_VALUES, ALLOW_TRAILING_COMMA]]",
+        "testArrayLeadingComma[Mode 3, Features [ALLOW_MISSING_VALUES, ALLOW_TRAILING_COMMA]]",
+        "testObjectTrailingComma[Mode 3, Features [ALLOW_MISSING_VALUES, ALLOW_TRAILING_COMMA]]",
+        "testArrayTrailingCommas[Mode 3, Features [ALLOW_MISSING_VALUES, ALLOW_TRAILING_COMMA]]"
+    ],
+    "com.fasterxml.jackson.core.read.UTF32ParseTest": [
+        "testSimpleEOFs",
+        "testSimpleInvalidUTF32",
+        "testSimpleSevenNullBytes"
+    ],
+    "com.fasterxml.jackson.core.read.UTF8NamesParseTest": [
+        "testUtf8Name2Bytes",
+        "testUtf8Name3Bytes",
+        "testUtf8StringTrivial",
+        "testEmptyName",
+        "testUtf8StringValue",
+        "testNextFieldName"
+    ],
+    "com.fasterxml.jackson.core.read.ValueConversionsTest": [
+        "testAsInt",
+        "testAsDouble",
+        "testAsLong",
+        "testAsBoolean"
+    ],
+    "com.fasterxml.jackson.core.sym.SymbolTableMergingTest": [
+        "testByteSymbolsWithEOF",
+        "testCharSymbolsWithClose",
+        "testCharSymbolsWithEOF",
+        "testByteSymbolsWithClose",
+        "testHashCalc"
+    ],
+    "com.fasterxml.jackson.core.sym.SymbolsViaParserTest": [
+        "test17ByteSymbols",
+        "test17CharSymbols",
+        "testSymbolTableExpansionBytes",
+        "testSymbolTableExpansionChars"
+    ],
+    "com.fasterxml.jackson.core.sym.TestByteBasedSymbols": [
+        "testAuxMethodsWithNewSymboTable",
+        "testSharedSymbols",
+        "testIssue207"
+    ],
+    "com.fasterxml.jackson.core.sym.TestHashCollisionChars": [
+        "testReaderCollisions"
+    ],
+    "com.fasterxml.jackson.core.sym.TestSymbolTables": [
+        "testByteBasedSymbolTable",
+        "testShortNameCollisionsDirect",
+        "testShortQuotedDirectBytes",
+        "testShortQuotedDirectChars",
+        "testCollisionsWithBytesNew187a",
+        "testCollisionsWithBytesNew187b",
+        "testShortNameCollisionsViaParser",
+        "testThousandsOfSymbolsWithNew",
+        "testSyntheticWithBytesNew",
+        "testShortNameCollisionsDirectNew",
+        "testSyntheticWithChars",
+        "testLongSymbols17Bytes",
+        "testCollisionsWithChars187",
+        "testThousandsOfSymbolsWithChars"
+    ],
+    "com.fasterxml.jackson.core.sym.TestSymbolsWithMediaItem": [
+        "testSmallSymbolSetWithBytes",
+        "testSmallSymbolSetWithChars"
+    ],
+    "com.fasterxml.jackson.core.type.TypeReferenceTest": [
+        "testResolvedType",
+        "testInvalid",
+        "testSimple"
+    ],
+    "com.fasterxml.jackson.core.util.ByteArrayBuilderTest": [
+        "testSimple"
+    ],
+    "com.fasterxml.jackson.core.util.DefaultIndenterTest": [
+        "testWithLinefeed",
+        "testWithIndent"
+    ],
+    "com.fasterxml.jackson.core.util.RequestPayloadTest": [
+        "testFailsToCreateTakingCharSequenceThrowsIllegalArgumentExceptionOne",
+        "testFailsToCreateTakingCharSequenceThrowsIllegalArgumentExceptionTwo",
+        "testCreateTakingCharSequenceAndCallsGetRawPayload",
+        "testCreateTaking2ArgumentsAndCallsGetRawPayload"
+    ],
+    "com.fasterxml.jackson.core.util.SeparatorsTest": [
+        "testWithObjectFieldValueSeparatorWithDigit",
+        "testWithArrayValueSeparatorWithDigit",
+        "testWithObjectEntrySeparator"
+    ],
+    "com.fasterxml.jackson.core.util.TestCharTypes": [
+        "testQuoting"
+    ],
+    "com.fasterxml.jackson.core.util.TestDefaultPrettyPrinter": [
+        "testSystemLinefeed",
+        "testUnixLinefeed",
+        "testWindowsLinefeed",
+        "testWithLineFeed",
+        "testRootSeparator",
+        "testInvalidSubClass",
+        "testWithIndent",
+        "testTabIndent"
+    ],
+    "com.fasterxml.jackson.core.util.TestDelegates": [
+        "testNotDelegateCopyMethods",
+        "testParserDelegate",
+        "testGeneratorWithCodec",
+        "testGeneratorDelegate"
+    ],
+    "com.fasterxml.jackson.core.util.TestNumberPrinting": [
+        "testIntPrinting",
+        "testLongPrinting"
+    ],
+    "com.fasterxml.jackson.core.util.TestSerializedString": [
+        "testFailedAccess",
+        "testAppending"
+    ],
+    "com.fasterxml.jackson.core.util.TestTextBuffer": [
+        "testGetTextBufferAndAppendTakingCharAndContentsAsArray",
+        "testLongAppend",
+        "testResetWithAndSetCurrentAndReturn",
+        "testContentsAsDecimalThrowsNumberFormatException",
+        "testGetCurrentSegmentSizeResetWith",
+        "testResetWithString",
+        "testEmpty",
+        "testAppendTakingTwoAndThreeInts",
+        "testEnsureNotSharedAndResetWithString",
+        "testGetTextBufferAndResetWithString",
+        "testGetSizeFinishCurrentSegmentAndResetWith",
+        "testGetTextBufferAndEmptyAndGetCurrentSegmentAndFinishCurrentSegment",
+        "testExpand",
+        "testLonger",
+        "testSimple",
+        "testGetCurrentSegment"
+    ],
+    "com.fasterxml.jackson.core.util.TestVersionUtil": [
+        "testVersionParsing",
+        "testVersionPartParsing",
+        "testPackageVersionMatches",
+        "testMavenVersionParsing",
+        "testVersionForUnknownVersion"
+    ],
+    "com.fasterxml.jackson.core.util.VersionUtilTest": [
+        "testParseVersionPartReturningPositive",
+        "testParseVersionWithNullAndEmptyString",
+        "testParseVersionWithEmptyStringAndEmptyString",
+        "testParseVersionReturningVersionWhereGetMajorVersionIsZero"
+    ]
+}

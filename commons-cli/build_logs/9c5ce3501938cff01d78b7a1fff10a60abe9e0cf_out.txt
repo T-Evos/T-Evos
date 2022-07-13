@@ -1,0 +1,121 @@
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for commons-cli:commons-cli:jar:1.2-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-idea-plugin is missing. @ org.apache.commons:commons-parent:11, ./.m2/repository/org/apache/commons/commons-parent/11/commons-parent-11.pom, line 255, column 15
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO] 
+[INFO] ----------------------< commons-cli:commons-cli >-----------------------
+[INFO] Building Commons CLI 1.2-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ commons-cli ---
+[INFO] Deleting ./commons-cli/target
+[INFO] 
+[INFO] --- maven-antrun-plugin:1.1:run (javadoc.resources) @ commons-cli ---
+[INFO] Executing tasks
+     [copy] Copying 2 files to ./commons-cli/target/apidocs/META-INF
+[INFO] Executed tasks
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ commons-cli ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 2 resources to META-INF
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.0.2:compile (default-compile) @ commons-cli ---
+[INFO] Compiling 20 source files to ./commons-cli/target/classes
+[INFO] 
+[INFO] --- maven-bundle-plugin:1.4.0:manifest (bundle-manifest) @ commons-cli ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ commons-cli ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory ./commons-cli/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.0.2:testCompile (default-testCompile) @ commons-cli ---
+[INFO] Compiling 24 source files to ./commons-cli/target/test-classes
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.4.3:test (default-test) @ commons-cli ---
+[INFO] Surefire report directory: ./commons-cli/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running org.apache.commons.cli.PosixParserTest
+Tests run: 13, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.037 sec
+Running org.apache.commons.cli.BugsTest
+Tests run: 15, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.021 sec
+Running org.apache.commons.cli.bug.BugCLI13Test
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 sec
+Running org.apache.commons.cli.ValueTest
+Tests run: 16, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.017 sec
+Running org.apache.commons.cli.bug.BugCLI51Test
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.01 sec
+Running org.apache.commons.cli.bug.BugCLI18Test
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 sec
+Running org.apache.commons.cli.OptionTest
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 sec
+Running org.apache.commons.cli.ValuesTest
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 sec
+Running org.apache.commons.cli.UtilTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.012 sec
+Running org.apache.commons.cli.OptionsTest
+Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.009 sec
+Running org.apache.commons.cli.HelpFormatterTest
+Tests run: 13, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.012 sec
+Running org.apache.commons.cli.OptionBuilderTest
+Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 sec
+Running org.apache.commons.cli.bug.BugCLI148Test
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 sec
+Running org.apache.commons.cli.GnuParserTest
+Tests run: 15, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.029 sec
+Running org.apache.commons.cli.BasicParserTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec
+Running org.apache.commons.cli.CommandLineTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 sec
+Running org.apache.commons.cli.OptionGroupTest
+Tests run: 11, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.01 sec <<< FAILURE!
+Running org.apache.commons.cli.PatternOptionBuilderTest
+For input string: "3,5"
+Unable to find: System.DateTime
+java.lang.IllegalAccessException; Unable to create an instance of: java.util.Calendar
+Unable to find the class: System.DateTime
+Unable to parse the URL: foo://commons.apache.org
+Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.064 sec
+Running org.apache.commons.cli.ApplicationTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec
+Running org.apache.commons.cli.bug.BugCLI133Test
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running org.apache.commons.cli.bug.BugCLI71Test
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec
+Running org.apache.commons.cli.ParseRequiredTest
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.01 sec
+Running org.apache.commons.cli.ArgumentIsOptionTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec
+
+Results :
+
+Failed tests: 
+  testToString(org.apache.commons.cli.OptionGroupTest)
+
+Tests run: 145, Failures: 1, Errors: 0, Skipped: 0
+
+[ERROR] There are test failures.
+
+Please refer to ./commons-cli/target/surefire-reports for the individual test results.
+[INFO] 
+[INFO] --- maven-jar-plugin:2.2:jar (default-jar) @ commons-cli ---
+[INFO] Building jar: ./commons-cli/target/commons-cli-1.2-SNAPSHOT.jar
+[INFO] 
+[INFO] --- maven-install-plugin:2.2:install (default-install) @ commons-cli ---
+[INFO] Installing ./commons-cli/target/commons-cli-1.2-SNAPSHOT.jar to ./.m2/repository/commons-cli/commons-cli/1.2-SNAPSHOT/commons-cli-1.2-SNAPSHOT.jar
+[INFO] Installing ./commons-cli/pom.xml to ./.m2/repository/commons-cli/commons-cli/1.2-SNAPSHOT/commons-cli-1.2-SNAPSHOT.pom
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  4.014 s
+[INFO] Finished at: 
+[INFO] ------------------------------------------------------------------------

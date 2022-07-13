@@ -1,0 +1,2863 @@
+{
+    "org.jfree.chart.AreaChartTest": [
+        "testDrawWithNullInfo",
+        "testSetSeriesToolTipGenerator",
+        "testSetSeriesURLGenerator",
+        "testReplaceDataset"
+    ],
+    "org.jfree.chart.BarChartTest": [
+        "testDrawWithNullInfo",
+        "testSetSeriesToolTipGenerator",
+        "testSetSeriesURLGenerator",
+        "testReplaceDataset"
+    ],
+    "org.jfree.chart.ChartPanelTest": [
+        "test2502355_restoreAutoDomainBounds",
+        "testConstructor1",
+        "test2502355_zoomOutBoth",
+        "test2502355_zoomInDomain",
+        "testGetListeners",
+        "test2502355_restoreAutoBounds",
+        "test2502355_zoomInBoth",
+        "test2502355_zoomOutRange",
+        "test2502355_restoreAutoRangeBounds",
+        "test2502355_zoom",
+        "test2502355_zoomOutDomain",
+        "testSetMouseWheelEnabled",
+        "test2502355_zoomInRange",
+        "testSetChart"
+    ],
+    "org.jfree.chart.ChartRenderingInfoTest": [
+        "testSerialization",
+        "testCloning",
+        "testEquals",
+        "testSerialization2"
+    ],
+    "org.jfree.chart.GanttChartTest": [
+        "testDrawWithNullInfo",
+        "testSetSeriesToolTipGenerator",
+        "testSetSeriesURLGenerator",
+        "testDrawWithNullInfo2",
+        "testReplaceDataset"
+    ],
+    "org.jfree.chart.HashUtilsTest": [
+        "testHashCodeForDoubleArray"
+    ],
+    "org.jfree.chart.JFreeChartTest": [
+        "testEquals2",
+        "testSubtitleCount",
+        "testLegendEvents",
+        "testTitleChangeEvent",
+        "testGetSubtitle",
+        "testAddSubtitle",
+        "testBug942",
+        "testEquals",
+        "testGetSubtitles",
+        "testSerialization1",
+        "testSerialization2",
+        "testSerialization3",
+        "testSerialization4"
+    ],
+    "org.jfree.chart.LegendItemCollectionTest": [
+        "testSerialization",
+        "testCloning",
+        "testEquals"
+    ],
+    "org.jfree.chart.LegendItemTest": [
+        "testSerialization",
+        "testCloning",
+        "testEquals",
+        "testSerialization2"
+    ],
+    "org.jfree.chart.LineChartTest": [
+        "testDrawWithNullInfo",
+        "testSetSeriesToolTipGenerator",
+        "testSetSeriesURLGenerator",
+        "testReplaceDataset"
+    ],
+    "org.jfree.chart.MeterChartTest": [
+        "testDrawWithNullInfo"
+    ],
+    "org.jfree.chart.PaintMapTest": [
+        "testGetPaint",
+        "testPut",
+        "testKeysOfDifferentClasses",
+        "testCloning",
+        "testEquals",
+        "testSerialization1",
+        "testSerialization2"
+    ],
+    "org.jfree.chart.PieChart3DTest": [
+        "testNullValueInDataset",
+        "testReplaceDatasetOnPieChart"
+    ],
+    "org.jfree.chart.PieChartTest": [
+        "testReplaceDatasetOnPieChart"
+    ],
+    "org.jfree.chart.ScatterPlotTest": [
+        "testDrawWithNullInfo",
+        "testSetSeriesToolTipGenerator",
+        "testReplaceDataset"
+    ],
+    "org.jfree.chart.StackedAreaChartTest": [
+        "testDrawWithNullInfo",
+        "testSetSeriesToolTipGenerator",
+        "testSetSeriesURLGenerator",
+        "testReplaceDataset"
+    ],
+    "org.jfree.chart.StackedBarChartTest": [
+        "testDrawWithNullInfo",
+        "testSetSeriesToolTipGenerator",
+        "testSetSeriesURLGenerator",
+        "testReplaceDataset"
+    ],
+    "org.jfree.chart.StandardChartThemeTest": [
+        "testSerialization",
+        "testCloning",
+        "testEquals"
+    ],
+    "org.jfree.chart.StrokeMapTest": [
+        "testPut",
+        "testCloning",
+        "testEquals",
+        "testGetStroke",
+        "testSerialization1",
+        "testSerialization2"
+    ],
+    "org.jfree.chart.TimeSeriesChartTest": [
+        "testDrawWithNullInfo",
+        "testSetSeriesToolTipGenerator",
+        "testReplaceDataset"
+    ],
+    "org.jfree.chart.WaterfallChartTest": [
+        "testDrawWithNullInfo",
+        "testSetSeriesToolTipGenerator",
+        "testSetSeriesURLGenerator"
+    ],
+    "org.jfree.chart.XYAreaChartTest": [
+        "testDrawWithNullInfo",
+        "testSetSeriesToolTipGenerator",
+        "testReplaceDataset"
+    ],
+    "org.jfree.chart.XYBarChartTest": [
+        "testDrawWithNullInfo",
+        "testSetSeriesToolTipGenerator",
+        "testReplaceDataset"
+    ],
+    "org.jfree.chart.XYLineChartTest": [
+        "testDrawWithNullInfo",
+        "testSetSeriesToolTipGenerator",
+        "testReplaceDataset"
+    ],
+    "org.jfree.chart.XYStepAreaChartTest": [
+        "testDrawWithNullInfo",
+        "testSetSeriesToolTipGenerator",
+        "testReplaceDataset"
+    ],
+    "org.jfree.chart.XYStepChartTest": [
+        "testDrawWithNullInfo",
+        "testSetSeriesToolTipGenerator",
+        "testReplaceDataset"
+    ],
+    "org.jfree.chart.annotations.CategoryLineAnnotationTest": [
+        "testSerialization",
+        "testPublicCloneable",
+        "testCloning",
+        "testHashcode",
+        "testEquals"
+    ],
+    "org.jfree.chart.annotations.CategoryPointerAnnotationTest": [
+        "testSerialization",
+        "testPublicCloneable",
+        "testCloning",
+        "testHashCode",
+        "testEquals"
+    ],
+    "org.jfree.chart.annotations.CategoryTextAnnotationTest": [
+        "testSerialization",
+        "testPublicCloneable",
+        "testCloning",
+        "testHashcode",
+        "testEquals"
+    ],
+    "org.jfree.chart.annotations.TextAnnotationTest": [
+        "testSetRotationAnchor",
+        "testChangeEvents",
+        "testHashCode",
+        "testEquals"
+    ],
+    "org.jfree.chart.annotations.XYBoxAnnotationTest": [
+        "testDrawWithNullInfo",
+        "testSerialization",
+        "testPublicCloneable",
+        "testCloning",
+        "testHashCode",
+        "testEquals"
+    ],
+    "org.jfree.chart.annotations.XYDrawableAnnotationTest": [
+        "testSerialization",
+        "testPublicCloneable",
+        "testCloning",
+        "testHashCode",
+        "testEquals"
+    ],
+    "org.jfree.chart.annotations.XYLineAnnotationTest": [
+        "testSerialization",
+        "testPublicCloneable",
+        "testCloning",
+        "testHashCode",
+        "testEquals"
+    ],
+    "org.jfree.chart.annotations.XYPointerAnnotationTest": [
+        "testSerialization",
+        "testPublicCloneable",
+        "testCloning",
+        "testHashCode",
+        "testEquals"
+    ],
+    "org.jfree.chart.annotations.XYPolygonAnnotationTest": [
+        "testSerialization",
+        "testPublicCloneable",
+        "testCloning",
+        "testHashCode",
+        "testEquals"
+    ],
+    "org.jfree.chart.annotations.XYShapeAnnotationTest": [
+        "testSerialization",
+        "testPublicCloneable",
+        "testCloning",
+        "testHashCode",
+        "testEquals"
+    ],
+    "org.jfree.chart.annotations.XYTextAnnotationTest": [
+        "testSerialization",
+        "testPublicCloneable",
+        "testCloning",
+        "testHashCode",
+        "testEquals"
+    ],
+    "org.jfree.chart.annotations.XYTitleAnnotationTest": [
+        "testDrawWithNullInfo",
+        "testSerialization",
+        "testCloning",
+        "testHashCode",
+        "testEquals"
+    ],
+    "org.jfree.chart.axis.AxisLocationTest": [
+        "testSerialization",
+        "testHashCode",
+        "testEquals"
+    ],
+    "org.jfree.chart.axis.AxisSpaceTest": [
+        "testCloning",
+        "testHashCode",
+        "testEquals"
+    ],
+    "org.jfree.chart.axis.AxisTest": [
+        "testSerialization",
+        "testCloning",
+        "testHashCode",
+        "testEquals"
+    ],
+    "org.jfree.chart.axis.CategoryAnchorTest": [
+        "testSerialization",
+        "testHashCode",
+        "testEquals"
+    ],
+    "org.jfree.chart.axis.CategoryAxisTest": [
+        "testSerialization",
+        "testCloning",
+        "testHashCode",
+        "testEquals",
+        "testCloning2"
+    ],
+    "org.jfree.chart.axis.CategoryLabelPositionTest": [
+        "testSerialization",
+        "testHashCode",
+        "testEquals"
+    ],
+    "org.jfree.chart.axis.CategoryLabelPositionsTest": [
+        "testSerialization",
+        "testHashCode",
+        "testEquals"
+    ],
+    "org.jfree.chart.axis.CategoryLabelWidthTypeTest": [
+        "testSerialization",
+        "testHashCode",
+        "testEquals"
+    ],
+    "org.jfree.chart.axis.CategoryTickTest": [
+        "testSerialization",
+        "testCloning",
+        "testHashCode",
+        "testEquals"
+    ],
+    "org.jfree.chart.axis.CyclicNumberAxisTest": [
+        "testSerialization",
+        "testCloning",
+        "testHashCode",
+        "testEquals"
+    ],
+    "org.jfree.chart.axis.DateAxisTest": [
+        "testSetMaximumDate",
+        "testBug2201869",
+        "testSerialization",
+        "testPreviousStandardDateHourA",
+        "testPreviousStandardDateHourB",
+        "testPreviousStandardDateYearA",
+        "testPreviousStandardDateYearB",
+        "testBug25",
+        "testBug3484403",
+        "testPreviousStandardDateMonthA",
+        "testPreviousStandardDateMonthB",
+        "testPreviousStandardDateDayA",
+        "testPreviousStandardDateDayB",
+        "testJava2DToValue",
+        "test1472942",
+        "testCloning",
+        "testHashCode",
+        "testPreviousStandardDateSecondA",
+        "testPreviousStandardDateSecondB",
+        "testEquals",
+        "testSetMinimumDate",
+        "testPreviousStandardDateMillisecondA",
+        "testPreviousStandardDateMillisecondB",
+        "testSetRange"
+    ],
+    "org.jfree.chart.axis.DateTickMarkPositionTest": [
+        "testSerialization",
+        "testHashCode",
+        "testEquals"
+    ],
+    "org.jfree.chart.axis.DateTickTest": [
+        "testSerialization",
+        "testCloning",
+        "testHashCode",
+        "testEquals"
+    ],
+    "org.jfree.chart.axis.DateTickUnitTest": [
+        "testSerialization",
+        "testHashCode",
+        "testEquals"
+    ],
+    "org.jfree.chart.axis.ExtendedCategoryAxisTest": [
+        "testSerialization",
+        "testCloning",
+        "testHashCode",
+        "testEquals",
+        "testCloning2"
+    ],
+    "org.jfree.chart.axis.LogAxisTest": [
+        "testRefreshTicksWithZeroTickUnit",
+        "testSerialization",
+        "testAutoRange1",
+        "testAutoRange3",
+        "testSetLowerBound",
+        "testXYAutoRange1",
+        "testXYAutoRange2",
+        "testTranslateJava2DToValue",
+        "testCloning",
+        "testHashCode",
+        "testEquals",
+        "testTickMarksVisibleDefault"
+    ],
+    "org.jfree.chart.axis.LogarithmicAxisTest": [
+        "testSerialization",
+        "testValueToJava2D",
+        "testJava2DToValue",
+        "testSwitchedLog10",
+        "testAdjustedLog10"
+    ],
+    "org.jfree.chart.axis.MarkerAxisBandTest": [
+        "testSerialization",
+        "testHashCode",
+        "testEquals"
+    ],
+    "org.jfree.chart.axis.ModuloAxisTest": [
+        "testSerialization",
+        "testCloning",
+        "testHashCode",
+        "testEquals"
+    ],
+    "org.jfree.chart.axis.MonthDateFormatTest": [
+        "testSerialization",
+        "testCloning",
+        "testHashCode",
+        "testEquals"
+    ],
+    "org.jfree.chart.axis.NumberAxisTest": [
+        "testSerialization",
+        "testAutoRange1",
+        "testAutoRange2",
+        "testAutoRange3",
+        "testAutoRange4",
+        "testSetLowerBound",
+        "testXYAutoRange1",
+        "testXYAutoRange2",
+        "testTranslateJava2DToValue",
+        "testCloning",
+        "testHashCode",
+        "testEquals"
+    ],
+    "org.jfree.chart.axis.NumberTickUnitTest": [
+        "testSerialization",
+        "testCloning",
+        "testHashCode",
+        "testEquals"
+    ],
+    "org.jfree.chart.axis.PeriodAxisLabelInfoTest": [
+        "testSerialization",
+        "testCreateInstance",
+        "testCloning",
+        "testHashCode",
+        "testEquals"
+    ],
+    "org.jfree.chart.axis.PeriodAxisTest": [
+        "testSerialization",
+        "test1932146",
+        "testEqualsWithLocale",
+        "testCloning",
+        "testHashCode",
+        "test2490803",
+        "testEquals"
+    ],
+    "org.jfree.chart.axis.QuarterDateFormatTest": [
+        "testSerialization",
+        "testCloning",
+        "testHashCode",
+        "testEquals"
+    ],
+    "org.jfree.chart.axis.StandardTickUnitSourceTest": [
+        "testSerialization",
+        "testEquals"
+    ],
+    "org.jfree.chart.axis.SubCategoryAxisTest": [
+        "testSerialization",
+        "testCloning",
+        "test2275695",
+        "testHashCode",
+        "testEquals"
+    ],
+    "org.jfree.chart.axis.SymbolAxisTest": [
+        "testSerialization",
+        "testCloning",
+        "testEquals"
+    ],
+    "org.jfree.chart.axis.TickUnitsTest": [
+        "testSerialization",
+        "testCloning",
+        "testEquals"
+    ],
+    "org.jfree.chart.axis.ValueAxisTest": [
+        "testAxisMargins",
+        "testCloning",
+        "testEquals",
+        "test3555275"
+    ],
+    "org.jfree.chart.block.AbstractBlockTest": [
+        "testSerialization",
+        "testCloning",
+        "testEquals"
+    ],
+    "org.jfree.chart.block.BlockBorderTest": [
+        "testSerialization",
+        "testCloning",
+        "testEquals"
+    ],
+    "org.jfree.chart.block.BlockContainerTest": [
+        "testSerialization",
+        "testCloning",
+        "testEquals"
+    ],
+    "org.jfree.chart.block.BorderArrangementTest": [
+        "testSerialization",
+        "testBugX",
+        "testCloning",
+        "testSizingWithWidthConstraint",
+        "testEquals",
+        "testSizing"
+    ],
+    "org.jfree.chart.block.ColorBlockTest": [
+        "testSerialization",
+        "testCloning",
+        "testEquals"
+    ],
+    "org.jfree.chart.block.ColumnArrangementTest": [
+        "testSerialization",
+        "testCloning",
+        "testEquals"
+    ],
+    "org.jfree.chart.block.EmptyBlockTest": [
+        "testSerialization",
+        "testCloning",
+        "testEquals"
+    ],
+    "org.jfree.chart.block.FlowArrangementTest": [
+        "testSerialization",
+        "testCloning",
+        "testEquals"
+    ],
+    "org.jfree.chart.block.GridArrangementTest": [
+        "testSerialization",
+        "testFN",
+        "testNF",
+        "testNN",
+        "testNR",
+        "testRF",
+        "testRN",
+        "testRR",
+        "testNullBlock_FF",
+        "testNullBlock_FN",
+        "testNullBlock_FR",
+        "testNullBlock_NN",
+        "testCloning",
+        "testGridNotFull_FF",
+        "testGridNotFull_FN",
+        "testGridNotFull_FR",
+        "testGridNotFull_NN",
+        "testEquals"
+    ],
+    "org.jfree.chart.block.LabelBlockTest": [
+        "testSerialization",
+        "testCloning",
+        "testEquals"
+    ],
+    "org.jfree.chart.block.LineBorderTest": [
+        "testSerialization",
+        "testCloning",
+        "testEquals"
+    ],
+    "org.jfree.chart.block.RectangleConstraintTest": [
+        "testCalculateConstrainedSize"
+    ],
+    "org.jfree.chart.entity.CategoryItemEntityTest": [
+        "testSerialization",
+        "testCloning",
+        "testEquals"
+    ],
+    "org.jfree.chart.entity.CategoryLabelEntityTest": [
+        "testSerialization",
+        "testCloning",
+        "testEquals"
+    ],
+    "org.jfree.chart.entity.LegendItemEntityTest": [
+        "testSerialization",
+        "testCloning",
+        "testEquals"
+    ],
+    "org.jfree.chart.entity.PieSectionEntityTest": [
+        "testSerialization",
+        "testCloning",
+        "testEquals"
+    ],
+    "org.jfree.chart.entity.StandardEntityCollectionTest": [
+        "testSerialization",
+        "testCloning",
+        "testEquals"
+    ],
+    "org.jfree.chart.entity.TickLabelEntityTest": [
+        "testSerialization",
+        "testCloning",
+        "testEquals"
+    ],
+    "org.jfree.chart.entity.XYItemEntityTest": [
+        "testSerialization",
+        "testCloning",
+        "testEquals"
+    ],
+    "org.jfree.chart.imagemap.DynamicDriveToolTipTagFragmentGeneratorTest": [
+        "testGenerateURLFragment"
+    ],
+    "org.jfree.chart.imagemap.ImageMapUtilsTest": [
+        "testGetImageMap",
+        "testHTMLEscape",
+        "testJavascriptEscape",
+        "testGetImageMapIllegalArgumentException",
+        "testGetImageMapIllegalArgumentException_2"
+    ],
+    "org.jfree.chart.imagemap.OverLIBToolTipTagFragmentGeneratorTest": [
+        "testGenerateURLFragment"
+    ],
+    "org.jfree.chart.imagemap.StandardToolTipTagFragmentGeneratorTest": [
+        "testGenerateURLFragment"
+    ],
+    "org.jfree.chart.imagemap.StandardURLTagFragmentGeneratorTest": [
+        "testGenerateURLFragment"
+    ],
+    "org.jfree.chart.labels.BoxAndWhiskerToolTipGeneratorTest": [
+        "testSerialization",
+        "testPublicCloneable",
+        "testCloning",
+        "testHashCode",
+        "testEquals"
+    ],
+    "org.jfree.chart.labels.BoxAndWhiskerXYToolTipGeneratorTest": [
+        "testSerialization",
+        "testPublicCloneable",
+        "testCloning",
+        "testHashCode",
+        "testEquals"
+    ],
+    "org.jfree.chart.labels.BubbleXYItemLabelGeneratorTest": [
+        "testSerialization",
+        "testGenerateLabel",
+        "testPublicCloneable",
+        "testCloning",
+        "testHashCode",
+        "testEquals"
+    ],
+    "org.jfree.chart.labels.CustomXYItemLabelGeneratorTest": [
+        "testSerialization",
+        "testPublicCloneable",
+        "testCloning"
+    ],
+    "org.jfree.chart.labels.HighLowItemLabelGeneratorTest": [
+        "testSerialization",
+        "testPublicCloneable",
+        "testCloning",
+        "testHashCode",
+        "testEquals"
+    ],
+    "org.jfree.chart.labels.IntervalCategoryItemLabelGeneratorTest": [
+        "testSerialization",
+        "testPublicCloneable",
+        "testCloning",
+        "testHashCode",
+        "testEquals"
+    ],
+    "org.jfree.chart.labels.IntervalCategoryToolTipGeneratorTest": [
+        "testEquals2",
+        "testSerialization",
+        "testPublicCloneable",
+        "testCloning",
+        "testHashCode",
+        "testEquals"
+    ],
+    "org.jfree.chart.labels.ItemLabelAnchorTest": [
+        "testSerialization",
+        "testEquals"
+    ],
+    "org.jfree.chart.labels.ItemLabelPositionTest": [
+        "testSerialization",
+        "testEquals"
+    ],
+    "org.jfree.chart.labels.MultipleXYSeriesLabelGeneratorTest": [
+        "testSerialization",
+        "testPublicCloneable",
+        "testCloning",
+        "testHashCode",
+        "testEquals"
+    ],
+    "org.jfree.chart.labels.StandardCategoryItemLabelGeneratorTest": [
+        "testSerialization",
+        "testGenerateLabel",
+        "testPublicCloneable",
+        "testCloning",
+        "testHashCode",
+        "testEquals1481087",
+        "testEquals"
+    ],
+    "org.jfree.chart.labels.StandardCategorySeriesLabelGeneratorTest": [
+        "testSerialization",
+        "testGenerateLabel",
+        "testPublicCloneable",
+        "testCloning",
+        "testHashCode",
+        "testEquals"
+    ],
+    "org.jfree.chart.labels.StandardCategoryToolTipGeneratorTest": [
+        "testSerialization",
+        "testPublicCloneable",
+        "testCloning",
+        "testHashCode",
+        "testEquals1481087",
+        "testEquals"
+    ],
+    "org.jfree.chart.labels.StandardPieSectionLabelGeneratorTest": [
+        "testSerialization",
+        "testPublicCloneable",
+        "testCloning",
+        "testHashCode",
+        "testEquals"
+    ],
+    "org.jfree.chart.labels.StandardPieToolTipGeneratorTest": [
+        "testSerialization",
+        "testPublicCloneable",
+        "testCloning",
+        "testHashCode",
+        "testEquals"
+    ],
+    "org.jfree.chart.labels.StandardXYItemLabelGeneratorTest": [
+        "testSerialization",
+        "testPublicCloneable",
+        "testCloning",
+        "testHashCode",
+        "testEquals"
+    ],
+    "org.jfree.chart.labels.StandardXYSeriesLabelGeneratorTest": [
+        "testSerialization",
+        "testGenerateLabel",
+        "testPublicCloneable",
+        "testCloning",
+        "testHashCode",
+        "testEquals"
+    ],
+    "org.jfree.chart.labels.StandardXYToolTipGeneratorTest": [
+        "testSerialization",
+        "testPublicCloneable",
+        "testCloning",
+        "testHashCode",
+        "testEquals"
+    ],
+    "org.jfree.chart.labels.StandardXYZToolTipGeneratorTest": [
+        "testSerialization",
+        "testPublicCloneable",
+        "testCloning",
+        "testHashCode",
+        "testEquals"
+    ],
+    "org.jfree.chart.labels.SymbolicXYItemLabelGeneratorTest": [
+        "testSerialization",
+        "testPublicCloneable",
+        "testCloning",
+        "testHashCode",
+        "testEquals"
+    ],
+    "org.jfree.chart.needle.ArrowNeedleTest": [
+        "testSerialization",
+        "testCloning",
+        "testEquals"
+    ],
+    "org.jfree.chart.needle.LineNeedleTest": [
+        "testSerialization",
+        "testCloning",
+        "testEquals"
+    ],
+    "org.jfree.chart.needle.LongNeedleTest": [
+        "testSerialization",
+        "testCloning",
+        "testEquals"
+    ],
+    "org.jfree.chart.needle.MeterNeedleTest": [
+        "testEquals"
+    ],
+    "org.jfree.chart.needle.MiddlePinNeedleTest": [
+        "testSerialization",
+        "testCloning",
+        "testEquals"
+    ],
+    "org.jfree.chart.needle.PinNeedleTest": [
+        "testSerialization",
+        "testCloning",
+        "testEquals"
+    ],
+    "org.jfree.chart.needle.PlumNeedleTest": [
+        "testSerialization",
+        "testCloning",
+        "testEquals"
+    ],
+    "org.jfree.chart.needle.PointerNeedleTest": [
+        "testSerialization",
+        "testCloning",
+        "testEquals"
+    ],
+    "org.jfree.chart.needle.ShipNeedleTest": [
+        "testSerialization",
+        "testCloning",
+        "testEquals"
+    ],
+    "org.jfree.chart.needle.WindNeedleTest": [
+        "testSerialization",
+        "testCloning",
+        "testEquals"
+    ],
+    "org.jfree.chart.panel.CrosshairOverlayTest": [
+        "testSerialization",
+        "testCloning",
+        "testEquals"
+    ],
+    "org.jfree.chart.plot.CategoryMarkerTest": [
+        "testSerialization",
+        "testCloning",
+        "testEquals",
+        "testGetSetKey",
+        "testGetSetDrawAsLine"
+    ],
+    "org.jfree.chart.plot.CategoryPlotTest": [
+        "testAxisRange",
+        "testGetRangeAxisForDataset",
+        "testRangeMarkerIndices",
+        "testDomainMarkerIndices",
+        "testEquals_ObjectList",
+        "testBug2817504",
+        "testAddRangeMarker",
+        "testSerialization",
+        "testRendererIndices",
+        "testRemoveRangeMarker",
+        "testGetRangeAxisIndex",
+        "testRemoveDomainMarker",
+        "testGetDomainAxisIndex",
+        "testGetRendererForDataset2",
+        "testGetDomainAxisForDataset",
+        "test1169972",
+        "test1654215",
+        "testAddDomainMarker",
+        "testAxisIndices",
+        "testCloning",
+        "testSetRenderer",
+        "testEquals_ObjectList2",
+        "testEquals_ObjectList3",
+        "testEquals_ObjectList4",
+        "testEquals_ObjectList5",
+        "testAxisLocationIndices",
+        "testMapDatasetToRangeAxis",
+        "testEquals",
+        "testMapDatasetToDomainAxis",
+        "testDatasetIndices",
+        "testSerialization2",
+        "testSerialization3",
+        "testSerialization4",
+        "testSerialization5",
+        "testCloning2",
+        "testCloning3",
+        "testConstructor"
+    ],
+    "org.jfree.chart.plot.CombinedDomainCategoryPlotTest": [
+        "testSerialization",
+        "testCloning",
+        "testRemoveSubplot",
+        "testEquals",
+        "testNotification"
+    ],
+    "org.jfree.chart.plot.CombinedDomainXYPlotTest": [
+        "testSerialization",
+        "testConstructor1",
+        "testCloning",
+        "testRemoveSubplot",
+        "testEquals",
+        "testNotification"
+    ],
+    "org.jfree.chart.plot.CombinedRangeCategoryPlotTest": [
+        "testSerialization",
+        "testCloning",
+        "testRemoveSubplot",
+        "testEquals",
+        "testNotification"
+    ],
+    "org.jfree.chart.plot.CombinedRangeXYPlotTest": [
+        "testSerialization",
+        "testCloning",
+        "testRemoveSubplot",
+        "testEquals",
+        "testNotification"
+    ],
+    "org.jfree.chart.plot.CompassPlotTest": [
+        "testSerialization",
+        "testCloning",
+        "testEquals"
+    ],
+    "org.jfree.chart.plot.CrosshairTest": [
+        "testSerialization",
+        "testPublicCloneable",
+        "testCloning",
+        "testHashCode",
+        "testEquals"
+    ],
+    "org.jfree.chart.plot.DefaultDrawingSupplierTest": [
+        "testSerialization",
+        "testCloning",
+        "testEquals"
+    ],
+    "org.jfree.chart.plot.FastScatterPlotTest": [
+        "testDrawWithNullInfo",
+        "testEquals2",
+        "testSerialization",
+        "testCloning",
+        "testEquals"
+    ],
+    "org.jfree.chart.plot.IntervalMarkerTest": [
+        "testSerialization",
+        "testCloning",
+        "testGetSetStartValue",
+        "testEquals",
+        "testGetSetEndValue"
+    ],
+    "org.jfree.chart.plot.MarkerTest": [
+        "testListenersWithCategoryPlot",
+        "testGetSetLabelFont",
+        "testGetSetLabelTextAnchor",
+        "testGetSetAlpha",
+        "testGetSetLabel",
+        "testGetSetPaint",
+        "testGetSetLabelAnchor",
+        "testGetSetOutlinePaint",
+        "testGetSetLabelOffset",
+        "testGetSetOutlineStroke",
+        "testGetSetLabelOffsetType",
+        "testGetSetLabelPaint",
+        "testListenersWithXYPlot",
+        "testGetSetStroke"
+    ],
+    "org.jfree.chart.plot.MeterIntervalTest": [
+        "testSerialization",
+        "testCloning",
+        "testEquals"
+    ],
+    "org.jfree.chart.plot.MeterPlotTest": [
+        "testCloning",
+        "testEquals",
+        "testSerialization1",
+        "testSerialization2"
+    ],
+    "org.jfree.chart.plot.MultiplePiePlotTest": [
+        "testSerialization",
+        "testGetLegendItems",
+        "testCloning",
+        "testEquals",
+        "testConstructor"
+    ],
+    "org.jfree.chart.plot.PieLabelRecordTest": [
+        "testSerialization",
+        "testCloning",
+        "testEquals"
+    ],
+    "org.jfree.chart.plot.PiePlot3DTest": [
+        "testSerialization",
+        "testEquals",
+        "testDrawWithNullDataset"
+    ],
+    "org.jfree.chart.plot.PiePlotTest": [
+        "testDrawWithNullLegendLabels",
+        "testCloning_LegendItemShape",
+        "testSerialization",
+        "testCloning_LegendLabelURLGenerator",
+        "testCloning_URLGenerator",
+        "testCloning_LegendLabelToolTipGenerator",
+        "testGetLegendItems",
+        "testBug1126",
+        "testBug1126_b",
+        "testBug1126_c",
+        "testBug1126_d",
+        "testBug1126_e",
+        "testCloning",
+        "testEquals",
+        "testCloning_LegendLabelGenerator",
+        "testGetDefaultSectionPaint"
+    ],
+    "org.jfree.chart.plot.PlotOrientationTest": [
+        "testSerialization",
+        "testEquals"
+    ],
+    "org.jfree.chart.plot.PlotRenderingInfoTest": [
+        "testSerialization",
+        "testCloning",
+        "testEquals"
+    ],
+    "org.jfree.chart.plot.PlotTest": [
+        "testEquals"
+    ],
+    "org.jfree.chart.plot.PolarPlotTest": [
+        "testSerialization",
+        "testTranslateToJava2D_LogAxis",
+        "testGetLegendItems",
+        "testGetLegendItems2",
+        "testCloning",
+        "testEquals",
+        "testTranslateToJava2D_NumberAxis",
+        "testTranslateToJava2D_NumberAxisAndMargin"
+    ],
+    "org.jfree.chart.plot.RingPlotTest": [
+        "testSerialization",
+        "testCloning",
+        "testEquals"
+    ],
+    "org.jfree.chart.plot.SpiderWebPlotTest": [
+        "testDrawWithNullInfo",
+        "testSerialization",
+        "testGetLegendItems",
+        "testCloning",
+        "testEquals"
+    ],
+    "org.jfree.chart.plot.ThermometerPlotTest": [
+        "testSerialization",
+        "testCloning",
+        "testEquals",
+        "testSerialization2"
+    ],
+    "org.jfree.chart.plot.ValueMarkerTest": [
+        "testSerialization",
+        "testGetSetValue",
+        "test1802195",
+        "test1808376",
+        "testCloning",
+        "testEquals"
+    ],
+    "org.jfree.chart.plot.XYPlotTest": [
+        "testGetRangeAxisForDataset",
+        "testRangeMarkerIndices",
+        "testDomainMarkerIndices",
+        "testEquals_ObjectList",
+        "testBug2817504",
+        "testDrawRangeGridlines",
+        "testAddRangeMarker",
+        "testRemoveAnnotation",
+        "testRendererIndices",
+        "testRemoveRangeMarker",
+        "testGetLegendItems",
+        "testRemoveDomainMarker",
+        "testGetRendererForDataset2",
+        "testCloning_QuadrantPaint",
+        "testGetDomainAxisForDataset",
+        "test1654215",
+        "testAddDomainMarker",
+        "testAxisIndices",
+        "testCloneIndependence",
+        "testCloning",
+        "testGetDataRange",
+        "testSetRenderer",
+        "testCloning_QuadrantOrigin",
+        "testGetRendererForDataset",
+        "testGetDataRangeWithMultipleDatasets",
+        "testDrawSeriesWithZeroItems",
+        "testEquals_ObjectList2",
+        "testEquals_ObjectList3",
+        "testEquals_ObjectList4",
+        "testEquals_ObjectList5",
+        "testAxisLocationIndices",
+        "testMapDatasetToRangeAxis",
+        "testEquals",
+        "testMapDatasetToDomainAxis",
+        "testDatasetIndices",
+        "testSerialization1",
+        "testSerialization2",
+        "testSerialization3",
+        "testSerialization4",
+        "testSerialization5",
+        "testSetNullRenderer",
+        "testCloning2",
+        "testCloning3",
+        "testCloning4"
+    ],
+    "org.jfree.chart.plot.dial.AbstractDialLayerTest": [
+        "testSerialization",
+        "testCloning",
+        "testEquals"
+    ],
+    "org.jfree.chart.plot.dial.ArcDialFrameTest": [
+        "testSerialization",
+        "testCloning",
+        "testHashCode",
+        "testEquals"
+    ],
+    "org.jfree.chart.plot.dial.DialBackgroundTest": [
+        "testSerialization",
+        "testCloning",
+        "testHashCode",
+        "testEquals"
+    ],
+    "org.jfree.chart.plot.dial.DialCapTest": [
+        "testSerialization",
+        "testCloning",
+        "testHashCode",
+        "testEquals"
+    ],
+    "org.jfree.chart.plot.dial.DialPlotTest": [
+        "testSerialization",
+        "testScaleListener",
+        "testBackgroundListener",
+        "testLayerListener",
+        "testCloning",
+        "testFrameListener",
+        "testCapListener",
+        "testHashCode",
+        "testEquals"
+    ],
+    "org.jfree.chart.plot.dial.DialPointerTest": [
+        "testSerialization",
+        "testEqualsPointer",
+        "testCloning",
+        "testHashCode",
+        "testEquals",
+        "testEqualsPin",
+        "testSerialization2"
+    ],
+    "org.jfree.chart.plot.dial.DialTextAnnotationTest": [
+        "testSerialization",
+        "testCloning",
+        "testHashCode",
+        "testEquals"
+    ],
+    "org.jfree.chart.plot.dial.DialValueIndicatorTest": [
+        "testSerialization",
+        "testCloning",
+        "testHashCode",
+        "testEquals"
+    ],
+    "org.jfree.chart.plot.dial.StandardDialFrameTest": [
+        "testSerialization",
+        "testCloning",
+        "testHashCode",
+        "testEquals"
+    ],
+    "org.jfree.chart.plot.dial.StandardDialRangeTest": [
+        "testSerialization",
+        "testCloning",
+        "testHashCode",
+        "testEquals"
+    ],
+    "org.jfree.chart.plot.dial.StandardDialScaleTest": [
+        "testSerialization",
+        "testAngleToValue",
+        "testCloning",
+        "testValueToAngle",
+        "testHashCode",
+        "testEquals"
+    ],
+    "org.jfree.chart.renderer.AbstractRendererTest": [
+        "testEquals_ObjectList",
+        "testEquals2",
+        "testSerialization",
+        "testOutlinePaintLookup",
+        "testEventNotification",
+        "testCloning",
+        "testAutoPopulateFlagDefaults",
+        "testEquals_ObjectList2",
+        "testEquals_ObjectList3",
+        "testEquals_ObjectList4",
+        "testEquals",
+        "testFillPaintLookup",
+        "testCloning2",
+        "testPaintLookup"
+    ],
+    "org.jfree.chart.renderer.AreaRendererEndTypeTest": [
+        "testSerialization",
+        "testEquals"
+    ],
+    "org.jfree.chart.renderer.DefaultPolarItemRendererTest": [
+        "testSerialization",
+        "testCloning",
+        "testHashcode",
+        "testEquals"
+    ],
+    "org.jfree.chart.renderer.GrayPaintScaleTest": [
+        "testGetPaint",
+        "testSerialization",
+        "testCloning",
+        "testEquals",
+        "testConstructor"
+    ],
+    "org.jfree.chart.renderer.LookupPaintScaleTest": [
+        "testSerialization",
+        "testConstructor1",
+        "testConstructor2",
+        "testGeneral",
+        "testCloning",
+        "testEquals"
+    ],
+    "org.jfree.chart.renderer.OutlierTest": [
+        "testSerialization",
+        "testCloning",
+        "testEquals",
+        "testConstructor"
+    ],
+    "org.jfree.chart.renderer.RendererUtilsTest": [
+        "testFindLiveItemsUpperBound_Descending",
+        "testFindLiveItemsLowerBound_Ascending",
+        "testFindLiveItemsLowerBound_Unordered",
+        "testFindLiveItemsLowerBound_Descending",
+        "testFindLiveItemsUpperBound_Ascending",
+        "test3561093",
+        "testFindLiveItemsUpperBound_Unordered"
+    ],
+    "org.jfree.chart.renderer.category.AbstractCategoryItemRendererTest": [
+        "testEquals_ObjectList",
+        "testCloning_LegendItemToolTipGenerator",
+        "testFindRangeBounds",
+        "testCloning_LegendItemLabelGenerator",
+        "test2947660",
+        "testEquals_ObjectList2",
+        "testEquals_ObjectList3",
+        "testEquals",
+        "testCloning_LegendItemURLGenerator",
+        "testCloning1",
+        "testCloning2"
+    ],
+    "org.jfree.chart.renderer.category.AreaRendererTest": [
+        "testSerialization",
+        "testPublicCloneable",
+        "testGetLegendItemSeriesIndex",
+        "testCloning",
+        "testHashcode",
+        "testEquals"
+    ],
+    "org.jfree.chart.renderer.category.BarRendererTest": [
+        "testSerialization",
+        "testPublicCloneable",
+        "testFindRangeBounds",
+        "testEventNotification",
+        "testGetLegendItemSeriesIndex",
+        "testCloning",
+        "testHashcode",
+        "testEquals",
+        "testGetLegendItem"
+    ],
+    "org.jfree.chart.renderer.category.BoxAndWhiskerRendererTest": [
+        "testDrawWithNullInfo",
+        "testDrawWithNullMean",
+        "testDrawWithNullMinRegular",
+        "testSerialization",
+        "testBug1572478Vertical",
+        "testPublicCloneable",
+        "testDrawWithNullMedian",
+        "testDrawWithNullMaxRegular",
+        "testGetLegendItemSeriesIndex",
+        "testDrawWithNullMinOutlier",
+        "testCloning",
+        "testHashcode",
+        "testDrawWithNullQ1",
+        "testDrawWithNullQ3",
+        "testEquals",
+        "testGetLegendItem",
+        "testBug1572478Horizontal",
+        "testDrawWithNullMaxOutlier"
+    ],
+    "org.jfree.chart.renderer.category.CategoryStepRendererTest": [
+        "testSerialization",
+        "testPublicCloneable",
+        "testGetLegendItemSeriesIndex",
+        "testCloning",
+        "testEquals"
+    ],
+    "org.jfree.chart.renderer.category.DefaultCategoryItemRendererTest": [
+        "testSerialization",
+        "testPublicCloneable",
+        "testCloning",
+        "testHashcode",
+        "testEquals"
+    ],
+    "org.jfree.chart.renderer.category.GanttRendererTest": [
+        "testSerialization",
+        "testPublicCloneable",
+        "testCloning",
+        "testHashcode",
+        "testEquals"
+    ],
+    "org.jfree.chart.renderer.category.GradientBarPainterTest": [
+        "testSerialization",
+        "testCloning",
+        "testHashcode",
+        "testEquals"
+    ],
+    "org.jfree.chart.renderer.category.GroupedStackedBarRendererTest": [
+        "testDrawWithNullInfo",
+        "testSerialization",
+        "testPublicCloneable",
+        "testFindRangeBounds",
+        "testCloning",
+        "testEquals"
+    ],
+    "org.jfree.chart.renderer.category.IntervalBarRendererTest": [
+        "testDrawWithNullInfo",
+        "testSerialization",
+        "testPublicCloneable",
+        "testFindRangeBounds",
+        "testCloning",
+        "testHashcode",
+        "testEquals"
+    ],
+    "org.jfree.chart.renderer.category.LayeredBarRendererTest": [
+        "testDrawWithNullInfo",
+        "testSerialization",
+        "testPublicCloneable",
+        "testCloning",
+        "testHashcode",
+        "testEquals"
+    ],
+    "org.jfree.chart.renderer.category.LevelRendererTest": [
+        "testDrawWithNullInfo",
+        "testSerialization",
+        "testPublicCloneable",
+        "testGetLegendItemSeriesIndex",
+        "testCloning",
+        "testHashcode",
+        "testEquals"
+    ],
+    "org.jfree.chart.renderer.category.LineAndShapeRendererTest": [
+        "testSerialization",
+        "testPublicCloneable",
+        "testFindRangeBounds",
+        "testGetLegendItemSeriesIndex",
+        "testCloning",
+        "testHashcode",
+        "testEquals"
+    ],
+    "org.jfree.chart.renderer.category.MinMaxCategoryRendererTest": [
+        "testDrawWithNullInfo",
+        "testSerialization",
+        "testPublicCloneable",
+        "testCloning",
+        "testHashcode",
+        "testEquals"
+    ],
+    "org.jfree.chart.renderer.category.ScatterRendererTest": [
+        "testSerialization",
+        "testPublicCloneable",
+        "testFindRangeBounds",
+        "testCloning",
+        "testHashcode",
+        "testEquals"
+    ],
+    "org.jfree.chart.renderer.category.StackedAreaRendererTest": [
+        "testSerialization",
+        "testPublicCloneable",
+        "testFindRangeBounds",
+        "testCloning",
+        "testHashcode",
+        "testEquals"
+    ],
+    "org.jfree.chart.renderer.category.StackedBarRendererTest": [
+        "testSerialization",
+        "testPublicCloneable",
+        "testFindRangeBounds",
+        "testCloning",
+        "testHashCode",
+        "testEquals"
+    ],
+    "org.jfree.chart.renderer.category.StandardBarPainterTest": [
+        "testSerialization",
+        "testCloning",
+        "testHashcode",
+        "testEquals"
+    ],
+    "org.jfree.chart.renderer.category.StatisticalBarRendererTest": [
+        "testDrawWithNullInfo",
+        "testSerialization",
+        "testDrawWithNullMeanVertical",
+        "testDrawWithNullDeviationVertical",
+        "testPublicCloneable",
+        "testFindRangeBounds",
+        "testDrawWithNullMeanHorizontal",
+        "testCloning",
+        "testHashcode",
+        "testDrawWithNullDeviationHorizontal",
+        "testEquals"
+    ],
+    "org.jfree.chart.renderer.category.StatisticalLineAndShapeRendererTest": [
+        "testDrawWithNullInfo",
+        "testSerialization",
+        "testPublicCloneable",
+        "testFindRangeBounds",
+        "test1562759",
+        "testCloning",
+        "testHashcode",
+        "testEquals"
+    ],
+    "org.jfree.chart.renderer.category.WaterfallBarRendererTest": [
+        "testSerialization",
+        "testPublicCloneable",
+        "testFindRangeBounds",
+        "testCloning",
+        "testHashcode",
+        "testEquals"
+    ],
+    "org.jfree.chart.renderer.xy.AbstractXYItemRendererTest": [
+        "testEquals_ObjectList",
+        "testCloning_LegendItemToolTipGenerator",
+        "testFindRangeBounds",
+        "testCloning_LegendItemLabelGenerator",
+        "testEquals_ObjectList2",
+        "testFindDomainBounds",
+        "testCloning_LegendItemURLGenerator"
+    ],
+    "org.jfree.chart.renderer.xy.CandlestickRendererTest": [
+        "testSerialization",
+        "testPublicCloneable",
+        "testFindRangeBounds",
+        "testCloning",
+        "testHashcode",
+        "testEquals",
+        "testConstructor"
+    ],
+    "org.jfree.chart.renderer.xy.ClusteredXYBarRendererTest": [
+        "testSerialization",
+        "testPublicCloneable",
+        "testCloning",
+        "testHashcode",
+        "testFindDomainBounds",
+        "testEquals"
+    ],
+    "org.jfree.chart.renderer.xy.DeviationRendererTest": [
+        "testSerialization",
+        "testPublicCloneable",
+        "testCloning",
+        "testHashcode",
+        "testEquals"
+    ],
+    "org.jfree.chart.renderer.xy.GradientXYBarPainterTest": [
+        "testSerialization",
+        "testCloning",
+        "testHashcode",
+        "testEquals"
+    ],
+    "org.jfree.chart.renderer.xy.HighLowRendererTest": [
+        "testSerialization",
+        "testPublicCloneable",
+        "testFindRangeBounds",
+        "testCloning",
+        "testHashcode",
+        "testEquals"
+    ],
+    "org.jfree.chart.renderer.xy.StackedXYAreaRenderer2Test": [
+        "testSerialization",
+        "testDrawWithEmptyDataset",
+        "testPublicCloneable",
+        "testFindRangeBounds",
+        "testCloning",
+        "testHashcode",
+        "testEquals"
+    ],
+    "org.jfree.chart.renderer.xy.StackedXYAreaRendererTest": [
+        "testDrawWithNullInfo",
+        "testSerialization",
+        "testPublicCloneable",
+        "testFindRangeBounds",
+        "testCloning",
+        "testHashcode",
+        "testEquals",
+        "testBug1593156"
+    ],
+    "org.jfree.chart.renderer.xy.StackedXYBarRendererTest": [
+        "testSerialization",
+        "testPublicCloneable",
+        "testFindRangeBounds",
+        "testCloning",
+        "testHashcode",
+        "testFindDomainBounds",
+        "testEquals"
+    ],
+    "org.jfree.chart.renderer.xy.StandardXYBarPainterTest": [
+        "testSerialization",
+        "testCloning",
+        "testHashcode",
+        "testEquals"
+    ],
+    "org.jfree.chart.renderer.xy.StandardXYItemRendererTest": [
+        "testSerialization",
+        "testPublicCloneable",
+        "testGetLegendItemSeriesIndex",
+        "testCloning",
+        "testHashcode",
+        "testEquals",
+        "testNoDisplayedItem"
+    ],
+    "org.jfree.chart.renderer.xy.VectorRendererTest": [
+        "testSerialization",
+        "testPublicCloneable",
+        "testCloning",
+        "testHashcode",
+        "testEquals"
+    ],
+    "org.jfree.chart.renderer.xy.WindItemRendererTest": [
+        "testSerialization",
+        "testPublicCloneable",
+        "testCloning",
+        "testHashcode",
+        "testEquals"
+    ],
+    "org.jfree.chart.renderer.xy.XYAreaRenderer2Test": [
+        "testDrawWithNullInfo",
+        "testSerialization",
+        "testPublicCloneable",
+        "testGetLegendItemSeriesIndex",
+        "testCloning",
+        "testHashcode",
+        "testEquals"
+    ],
+    "org.jfree.chart.renderer.xy.XYAreaRendererTest": [
+        "testDrawWithNullInfo",
+        "testSerialization",
+        "testPublicCloneable",
+        "testGetLegendItemSeriesIndex",
+        "testCloning",
+        "testHashcode",
+        "testEquals"
+    ],
+    "org.jfree.chart.renderer.xy.XYBarRendererTest": [
+        "testFindRangeBounds2",
+        "testSerialization",
+        "testPublicCloneable",
+        "testFindRangeBounds",
+        "testGetLegendItemSeriesIndex",
+        "testCloning",
+        "testHashcode",
+        "testFindDomainBounds",
+        "testEquals",
+        "testSerialization2",
+        "testFindDomainBounds2"
+    ],
+    "org.jfree.chart.renderer.xy.XYBlockRendererTest": [
+        "testSerialization",
+        "testBug1766646A",
+        "testBug1766646B",
+        "testPublicCloneable",
+        "testFindRangeBounds",
+        "testCloning",
+        "testHashcode",
+        "testFindDomainBounds",
+        "testEquals"
+    ],
+    "org.jfree.chart.renderer.xy.XYBoxAndWhiskerRendererTest": [
+        "testSerialization",
+        "testPublicCloneable",
+        "testCloning",
+        "testHashcode",
+        "test2909215",
+        "testEquals"
+    ],
+    "org.jfree.chart.renderer.xy.XYBubbleRendererTest": [
+        "testSerialization",
+        "testPublicCloneable",
+        "testGetLegendItemSeriesIndex",
+        "testCloning",
+        "testHashcode",
+        "testEquals"
+    ],
+    "org.jfree.chart.renderer.xy.XYDifferenceRendererTest": [
+        "testSerialization",
+        "testPublicCloneable",
+        "testGetLegendItemSeriesIndex",
+        "testCloning",
+        "testHashcode",
+        "testEquals"
+    ],
+    "org.jfree.chart.renderer.xy.XYDotRendererTest": [
+        "testSerialization",
+        "testPublicCloneable",
+        "testGetLegendItemSeriesIndex",
+        "testCloning",
+        "testHashcode",
+        "testEquals"
+    ],
+    "org.jfree.chart.renderer.xy.XYErrorRendererTest": [
+        "testSerialization",
+        "testPublicCloneable",
+        "testFindRangeBounds",
+        "testCloning",
+        "testHashcode",
+        "testFindDomainBounds",
+        "testEquals",
+        "testSerialization2",
+        "testCloning2"
+    ],
+    "org.jfree.chart.renderer.xy.XYLineAndShapeRendererTest": [
+        "testEquals2",
+        "testSerialization",
+        "testPublicCloneable",
+        "testFindRangeBounds",
+        "testGetLegendItemSeriesIndex",
+        "testCloning",
+        "testHashcode",
+        "testFindDomainBounds",
+        "testEquals"
+    ],
+    "org.jfree.chart.renderer.xy.XYShapeRendererTest": [
+        "testSerialization",
+        "testFindZBounds",
+        "testCloning",
+        "testEquals",
+        "test3026341"
+    ],
+    "org.jfree.chart.renderer.xy.XYSplineRendererTest": [
+        "testSerialization",
+        "testPublicCloneable",
+        "testCloning",
+        "testHashcode",
+        "testEquals"
+    ],
+    "org.jfree.chart.renderer.xy.XYStepAreaRendererTest": [
+        "testDrawWithNullInfo",
+        "testSerialization",
+        "testPublicCloneable",
+        "testCloning",
+        "testHashcode",
+        "testEquals"
+    ],
+    "org.jfree.chart.renderer.xy.XYStepRendererTest": [
+        "testDrawWithNullInfo",
+        "testSerialization",
+        "testPublicCloneable",
+        "testDrawWithNullValue",
+        "testCloning",
+        "testHashcode",
+        "testEquals"
+    ],
+    "org.jfree.chart.renderer.xy.YIntervalRendererTest": [
+        "testSerialization",
+        "testPublicCloneable",
+        "testGetLegendItemSeriesIndex",
+        "testCloning",
+        "testHashcode",
+        "testEquals"
+    ],
+    "org.jfree.chart.title.CompositeTitleTest": [
+        "testSerialization",
+        "testCloning",
+        "testHashcode",
+        "testEquals",
+        "testConstructor"
+    ],
+    "org.jfree.chart.title.DateTitleTest": [
+        "testSerialization",
+        "testCloning",
+        "testHashcode",
+        "testEquals"
+    ],
+    "org.jfree.chart.title.LegendGraphicTest": [
+        "testSerialization",
+        "testCloning",
+        "testHashcode",
+        "testEquals",
+        "testCloning2"
+    ],
+    "org.jfree.chart.title.LegendTitleTest": [
+        "testSerialization",
+        "testCloning",
+        "testHashcode",
+        "testEquals"
+    ],
+    "org.jfree.chart.title.PaintScaleLegendTest": [
+        "testSerialization",
+        "testCloning",
+        "testHashcode",
+        "testEquals"
+    ],
+    "org.jfree.chart.title.ShortTextTitleTest": [
+        "testSerialization",
+        "testCloning",
+        "testHashcode",
+        "testEquals"
+    ],
+    "org.jfree.chart.title.TextTitleTest": [
+        "testSerialization",
+        "testCloning",
+        "testHashcode",
+        "testEquals"
+    ],
+    "org.jfree.chart.title.TitleTest": [
+        "testHashcode",
+        "testEquals"
+    ],
+    "org.jfree.chart.urls.CustomCategoryURLGeneratorTest": [
+        "testAddURLSeries",
+        "testSerialization",
+        "testPublicCloneable",
+        "testCloning",
+        "testEquals"
+    ],
+    "org.jfree.chart.urls.CustomPieURLGeneratorTest": [
+        "testSerialization",
+        "testPublicCloneable",
+        "testCloning",
+        "testEquals"
+    ],
+    "org.jfree.chart.urls.CustomXYURLGeneratorTest": [
+        "testAddURLSeries",
+        "testSerialization",
+        "testPublicCloneable",
+        "testCloning",
+        "testEquals"
+    ],
+    "org.jfree.chart.urls.StandardCategoryURLGeneratorTest": [
+        "testSerialization",
+        "testPublicCloneable",
+        "testGenerateURL",
+        "testEquals"
+    ],
+    "org.jfree.chart.urls.StandardPieURLGeneratorTest": [
+        "testSerialization",
+        "testURL",
+        "testPublicCloneable",
+        "testEquals"
+    ],
+    "org.jfree.chart.urls.StandardXYURLGeneratorTest": [
+        "testSerialization",
+        "testPublicCloneable"
+    ],
+    "org.jfree.chart.urls.TimeSeriesURLGeneratorTest": [
+        "testSerialization",
+        "testPublicCloneable",
+        "testGenerateURL",
+        "testEquals"
+    ],
+    "org.jfree.chart.util.HMSNumberFormatTest": [
+        "testGeneral"
+    ],
+    "org.jfree.chart.util.LineUtilsTest": [
+        "testClipLine"
+    ],
+    "org.jfree.chart.util.LogFormatTest": [
+        "testSerialization",
+        "testCloning",
+        "testHashcode",
+        "testEquals"
+    ],
+    "org.jfree.chart.util.RelativeDateFormatTest": [
+        "testCloning",
+        "test2033092",
+        "testHashCode",
+        "testEquals",
+        "testFormat",
+        "testNegative"
+    ],
+    "org.jfree.data.ComparableObjectItemTest": [
+        "testSerialization",
+        "testCompareTo",
+        "testCloning",
+        "testEquals",
+        "testConstructor"
+    ],
+    "org.jfree.data.ComparableObjectSeriesTest": [
+        "testSerialization",
+        "testConstructor1",
+        "testCloning",
+        "testHashCode",
+        "testEquals"
+    ],
+    "org.jfree.data.DataUtilsTest": [
+        "testClone",
+        "testEqual",
+        "testCreateNumberArray2D",
+        "testCalculateColumnTotal2",
+        "testCalculateColumnTotal",
+        "testCalculateRowTotal",
+        "testCalculateRowTotal2"
+    ],
+    "org.jfree.data.DefaultKeyedValueTest": [
+        "testSerialization",
+        "testCloning",
+        "testEquals",
+        "testConstructor"
+    ],
+    "org.jfree.data.DefaultKeyedValues2DTest": [
+        "testGetValue",
+        "testColumnCount",
+        "testSerialization",
+        "testRemoveValueBug1690654",
+        "testGetColumnKey",
+        "testRemoveColumnByKey",
+        "testRemoveValue",
+        "testCloning",
+        "testRowCount",
+        "testEquals",
+        "testGetRowKey",
+        "testGetValue2",
+        "testSparsePopulation",
+        "testRemoveRow"
+    ],
+    "org.jfree.data.DefaultKeyedValuesTest": [
+        "testGetIndex",
+        "testGetValue",
+        "testSerialization",
+        "testClear",
+        "testGetItemCount",
+        "testSortByKeyDescending",
+        "testRemoveValue",
+        "testInsertValue",
+        "testAddValue",
+        "testGetKeys",
+        "testSortByKeyAscending",
+        "testSortByValueAscending",
+        "testSortByValueDescending",
+        "testCloning",
+        "testGetIndex2",
+        "testInsertAndRetrieve",
+        "testGetKey",
+        "testConstructor"
+    ],
+    "org.jfree.data.DomainOrderTest": [
+        "testSerialization",
+        "testHashCode",
+        "testEquals"
+    ],
+    "org.jfree.data.KeyToGroupMapTest": [
+        "testGetGroup",
+        "testSerialization",
+        "testGetGroupIndex",
+        "testCloning",
+        "testGroupCount",
+        "testKeyCount",
+        "testEquals",
+        "testMapKeyToGroup"
+    ],
+    "org.jfree.data.KeyedObjectTest": [
+        "testSerialization",
+        "testCloning",
+        "testEquals",
+        "testCloning2"
+    ],
+    "org.jfree.data.KeyedObjects2DTest": [
+        "testGetValueByIndex",
+        "testSerialization",
+        "testRemoveColumnByKey",
+        "testRemoveValue",
+        "testRemoveRowByIndex",
+        "testGetValueByKey",
+        "testRemoveColumnByIndex",
+        "testCloning",
+        "testSetObject",
+        "testEquals",
+        "testRemoveRowByKey"
+    ],
+    "org.jfree.data.KeyedObjectsTest": [
+        "testGetIndex",
+        "testSerialization",
+        "testRemoveValue",
+        "testRemoveValueInt",
+        "testCloning",
+        "testSetObject",
+        "testInsertAndRetrieve",
+        "testGetObject",
+        "testGetKey",
+        "testCloning2"
+    ],
+    "org.jfree.data.RangeTest": [
+        "testSerialization",
+        "testScale",
+        "testShift",
+        "testIsNaNRange",
+        "testCombineIgnoringNaN",
+        "testContains",
+        "testConstrain",
+        "testCombine",
+        "testHashCode",
+        "testEquals",
+        "testExpand",
+        "testIntersects",
+        "testConstructor"
+    ],
+    "org.jfree.data.RangeTypeTest": [
+        "testSerialization",
+        "testHashCode",
+        "testEquals"
+    ],
+    "org.jfree.data.category.CategoryToPieDatasetTest": [
+        "testGetIndex",
+        "testGetValue",
+        "testSerialization",
+        "testEquals",
+        "testGetKey",
+        "testConstructor"
+    ],
+    "org.jfree.data.category.DefaultCategoryDatasetTest": [
+        "testGetValue",
+        "testSerialization",
+        "testRemoveValue",
+        "testAddValue",
+        "testPublicCloneable",
+        "testRemoveColumn",
+        "testCloning",
+        "testIncrementValue",
+        "testEquals",
+        "testGetRowCount",
+        "testGetColumnCount",
+        "testGetValue2",
+        "testBug1835955",
+        "testRemoveRow"
+    ],
+    "org.jfree.data.category.DefaultIntervalCategoryDatasetTest": [
+        "testGetCategoryCount",
+        "testGetCategoryIndex",
+        "testGetValue",
+        "testSetCategoryKeys",
+        "testSerialization",
+        "testSetEndValue",
+        "testGetColumnKeys",
+        "testGetSeriesCount",
+        "testGetSeriesIndex",
+        "testCloning",
+        "testSetStartValue",
+        "testEquals",
+        "testGetRowCount",
+        "testGetRowIndex",
+        "testGetColumnCount",
+        "testGetColumnIndex",
+        "testGetRowKeys",
+        "testCloning2",
+        "testSetSeriesKeys",
+        "testGetRowAndColumnCount"
+    ],
+    "org.jfree.data.category.SlidingCategoryDatasetTest": [
+        "testGetValue",
+        "testSerialization",
+        "testGetColumnKeys",
+        "testCloning",
+        "testEquals",
+        "testGetRowCount",
+        "testGetRowIndex",
+        "testGetColumnCount",
+        "testGetColumnIndex"
+    ],
+    "org.jfree.data.function.LineFunction2DTest": [
+        "testSerialization",
+        "testHashCode",
+        "testEquals",
+        "testConstructor"
+    ],
+    "org.jfree.data.function.NormalDistributionFunction2DTest": [
+        "testSerialization",
+        "testHashCode",
+        "testEquals",
+        "testConstructor"
+    ],
+    "org.jfree.data.function.PolynomialFunction2DTest": [
+        "testGetOrder",
+        "testSerialization",
+        "testGetCoefficients",
+        "testHashCode",
+        "testEquals",
+        "testConstructor"
+    ],
+    "org.jfree.data.function.PowerFunction2DTest": [
+        "testSerialization",
+        "testHashCode",
+        "testEquals",
+        "testConstructor"
+    ],
+    "org.jfree.data.gantt.SlidingGanttCategoryDatasetTest": [
+        "testSerialization",
+        "testKeys",
+        "testCloning",
+        "testEquals"
+    ],
+    "org.jfree.data.gantt.TaskSeriesCollectionTest": [
+        "testGetValue",
+        "testGetEndValue2",
+        "testGetEndValue3",
+        "testSerialization",
+        "testGetEndValue",
+        "testGetColumnKey",
+        "testGetPercentComplete",
+        "testGetSubIntervalCount",
+        "testGetStartValue",
+        "testGetSeriesKey",
+        "testGetSeriesCount",
+        "testCloning",
+        "testGetStartValue2",
+        "testGetStartValue3",
+        "test697153",
+        "test800324",
+        "testEquals",
+        "testGetRowCount",
+        "testGetRowKey",
+        "testGetRowIndex",
+        "testGetSeries",
+        "testGetColumnCount",
+        "testGetColumnIndex",
+        "testRemove"
+    ],
+    "org.jfree.data.gantt.TaskSeriesTest": [
+        "testSerialization",
+        "testGetTask",
+        "testCloning",
+        "testEquals"
+    ],
+    "org.jfree.data.gantt.TaskTest": [
+        "testSerialization",
+        "testGetSubTaskCount",
+        "testCloning",
+        "testEquals"
+    ],
+    "org.jfree.data.gantt.XYTaskDatasetTest": [
+        "testSerialization",
+        "testCloning",
+        "testEquals"
+    ],
+    "org.jfree.data.general.DatasetGroupTest": [
+        "testSerialization"
+    ],
+    "org.jfree.data.general.DatasetUtilsTest": [
+        "testIterateDomainBounds_NaN2",
+        "testIterateToFindDomainBounds_IntervalXYDataset",
+        "testIterateToFindRangeBounds_StatisticalCategoryDataset",
+        "testFindStackedRangeBoundsForTableXYDataset1",
+        "testFindStackedRangeBoundsForTableXYDataset2",
+        "testLimitPieDataset",
+        "testIterateRangeBounds",
+        "testMaximumStackedRangeValue",
+        "testFindRangeBounds2",
+        "testBug2849731",
+        "testFindYValueNonSorted",
+        "testIterateRangeBounds_CategoryDataset",
+        "testIterateToFindRangeBounds1_XYDataset",
+        "testIterateRangeBounds2",
+        "testIterateRangeBounds3",
+        "testIterateRangeBounds4",
+        "testCumulativeRange1",
+        "testCumulativeRange2",
+        "testCumulativeRange3",
+        "testJava",
+        "testFindMinimumRangeValue",
+        "testFindStackedRangeBounds_CategoryDataset1",
+        "testFindStackedRangeBounds_CategoryDataset2",
+        "testFindStackedRangeBounds_CategoryDataset3",
+        "testFindMaximumDomainValue",
+        "testIterateToFindRangeBounds_BoxAndWhiskerXYDataset",
+        "testIterateRangeBounds2_CategoryDataset",
+        "testStackedRangeWithMap",
+        "testFindYValue",
+        "testFindYValueWithDuplicates",
+        "testFindMaximumStackedRangeValue",
+        "testFindMinimumStackedRangeValue",
+        "testFindDomainBounds_NaN",
+        "testFindRangeBounds",
+        "testIterateDomainBounds_NaN",
+        "testFindMinimumStackedRangeValue2",
+        "testSampleFunction2D",
+        "testIterateToFindRangeBounds_MultiValueCategoryDataset",
+        "testFindMaximumStackedRangeValue2",
+        "testIterateRangeBounds3_CategoryDataset",
+        "testIsEmptyOrNullXYDataset",
+        "test803660",
+        "testFindMaximumRangeValue",
+        "testMinMaxRange",
+        "testIterateToFindRangeBounds_IntervalXYDataset",
+        "testIterateToFindRangeBounds2_XYDataset",
+        "testCalculatePieDatasetTotal",
+        "testFindRangeBounds_CategoryDataset",
+        "testFindDomainBounds",
+        "testCreateCategoryDataset1",
+        "testCreateCategoryDataset2",
+        "testIterateRangeBounds_IntervalCategoryDataset",
+        "testBug2849731_2",
+        "testBug2849731_3",
+        "testIterateDomainBounds",
+        "testCumulativeRange_NaN",
+        "testFindDomainBounds2",
+        "testFindDomainBounds3",
+        "testFindDomainBounds4",
+        "testFindMinimumDomainValue"
+    ],
+    "org.jfree.data.general.DefaultHeatMapDatasetTest": [
+        "testSerialization",
+        "testGeneral",
+        "testCloning",
+        "testEquals"
+    ],
+    "org.jfree.data.general.DefaultKeyedValueDatasetTest": [
+        "testSerialization",
+        "testCloneIndependence",
+        "testCloning",
+        "testEquals"
+    ],
+    "org.jfree.data.general.DefaultKeyedValues2DDatasetTest": [
+        "testSerialization",
+        "testCloning"
+    ],
+    "org.jfree.data.general.DefaultKeyedValuesDatasetTest": [
+        "testCloning"
+    ],
+    "org.jfree.data.general.DefaultPieDatasetTest": [
+        "testGetIndex",
+        "testSerialization",
+        "testClear",
+        "testCloning",
+        "testGetKey"
+    ],
+    "org.jfree.data.statistics.BoxAndWhiskerCalculatorTest": [
+        "testCalculateQ1",
+        "testCalculateQ3",
+        "testCalculateBoxAndWhiskerStatistics",
+        "test1593149"
+    ],
+    "org.jfree.data.statistics.BoxAndWhiskerItemTest": [
+        "testSerialization",
+        "testEquals"
+    ],
+    "org.jfree.data.statistics.DefaultBoxAndWhiskerCategoryDatasetTest": [
+        "testSerialization",
+        "testAdd",
+        "testAddUpdatesCachedRange",
+        "test1701822",
+        "testCloning",
+        "testGetRangeBounds",
+        "testEquals",
+        "testRemove",
+        "testConstructor"
+    ],
+    "org.jfree.data.statistics.DefaultBoxAndWhiskerXYDatasetTest": [
+        "testSerialization",
+        "testAdd",
+        "testCloning",
+        "testGetRangeBounds",
+        "testEquals",
+        "testConstructor"
+    ],
+    "org.jfree.data.statistics.DefaultMultiValueCategoryDatasetTest": [
+        "testGetValue",
+        "testSerialization",
+        "testAddValue",
+        "testCloning",
+        "testEquals",
+        "testGetRowCount",
+        "testGetColumnCount",
+        "testGetValue2"
+    ],
+    "org.jfree.data.statistics.DefaultStatisticalCategoryDatasetTest": [
+        "testAdd",
+        "testCloning",
+        "testGetRangeLowerBound",
+        "testGetRangeBounds2",
+        "testGetRangeBounds",
+        "testEquals",
+        "testSerialization1",
+        "testSerialization2",
+        "test3072674",
+        "testRemove",
+        "testGetRangeUpperBound"
+    ],
+    "org.jfree.data.statistics.HistogramBinTest": [
+        "testSerialization",
+        "testCloning",
+        "testEquals"
+    ],
+    "org.jfree.data.statistics.HistogramDatasetTest": [
+        "testSerialization",
+        "testBins",
+        "testAddSeries2",
+        "test1553088",
+        "testBinBoundaries",
+        "testGetSeriesKey",
+        "testCloning",
+        "testAddSeries",
+        "test2902842",
+        "testEquals"
+    ],
+    "org.jfree.data.statistics.MeanAndStandardDeviationTest": [
+        "testSerialization",
+        "testCloning",
+        "testEquals"
+    ],
+    "org.jfree.data.statistics.RegressionTest": [
+        "testPowerRegression1a",
+        "testPowerRegression1b",
+        "testPowerRegression2a",
+        "testPowerRegression2b",
+        "testOLSRegression1a",
+        "testOLSRegression1b",
+        "testOLSRegression2a",
+        "testOLSRegression2b"
+    ],
+    "org.jfree.data.statistics.SimpleHistogramBinTest": [
+        "testAccepts",
+        "testSerialization",
+        "testOverlapsWidth",
+        "testCloning",
+        "testEquals"
+    ],
+    "org.jfree.data.statistics.SimpleHistogramDatasetTest": [
+        "testRemoveAllBins",
+        "testSerialization",
+        "testClearObservations",
+        "testCloning",
+        "testEquals"
+    ],
+    "org.jfree.data.statistics.StatisticsTest": [
+        "testCalculateMean_Array",
+        "testCorrelation1",
+        "testCorrelation2",
+        "testCalculateMedian",
+        "testCalculateMean_Collection",
+        "testCalculateMedian1",
+        "testCalculateMedian2",
+        "testCalculateMedian3",
+        "testCalculateMedian4",
+        "testCalculateMedian5",
+        "testCalculateMedian6",
+        "testGetStdDev"
+    ],
+    "org.jfree.data.time.DateRangeTest": [
+        "testImmutable",
+        "testSerialization",
+        "testClone",
+        "testEquals"
+    ],
+    "org.jfree.data.time.DayTest": [
+        "testGetFirstMillisecondWithCalendar",
+        "testGetStart",
+        "testSerialization",
+        "testNext",
+        "test31Dec9999Next",
+        "testGetLastMillisecondWithCalendar",
+        "testEqualsSelf",
+        "testDateConstructor1",
+        "testDateConstructor2",
+        "test1Jan1900Next",
+        "test31Dec9999Previous",
+        "testGetFirstMillisecond",
+        "testGetFirstMillisecondWithTimeZone",
+        "test1Jan1900Previous",
+        "testNotCloneable",
+        "testHashcode",
+        "testGetSerialIndex",
+        "testEquals",
+        "testGetEnd",
+        "testParseDay",
+        "testGetLastMillisecond",
+        "testGetLastMillisecondWithTimeZone"
+    ],
+    "org.jfree.data.time.FixedMillisecondTest": [
+        "testSerialization",
+        "testNotCloneable",
+        "testHashcode",
+        "testImmutability"
+    ],
+    "org.jfree.data.time.HourTest": [
+        "testGetFirstMillisecondWithCalendar",
+        "testLastHourPrevious",
+        "testGetStart",
+        "testSerialization",
+        "testParseHour",
+        "testNext",
+        "testLastHourNext",
+        "testFirstHourPrevious",
+        "testFirstHourNext",
+        "testGetLastMillisecondWithCalendar",
+        "testEqualsSelf",
+        "testDateConstructor1",
+        "testDateConstructor2",
+        "testGetFirstMillisecond",
+        "testGetFirstMillisecondWithTimeZone",
+        "testNotCloneable",
+        "testHashcode",
+        "testGetSerialIndex",
+        "testEquals",
+        "testGetEnd",
+        "testGetLastMillisecond",
+        "testGetLastMillisecondWithTimeZone"
+    ],
+    "org.jfree.data.time.MillisecondTest": [
+        "testGetFirstMillisecondWithCalendar",
+        "testGetStart",
+        "testSerialization",
+        "testNext",
+        "testGetLastMillisecondWithCalendar",
+        "testEqualsSelf",
+        "testDateConstructor1",
+        "testDateConstructor2",
+        "testGetFirstMillisecond",
+        "testGetFirstMillisecondWithTimeZone",
+        "testNotCloneable",
+        "testHashcode",
+        "test943985",
+        "testGetSerialIndex",
+        "testEquals",
+        "testGetEnd",
+        "testGetLastMillisecond",
+        "testGetLastMillisecondWithTimeZone"
+    ],
+    "org.jfree.data.time.MinuteTest": [
+        "testGetFirstMillisecondWithCalendar",
+        "testGetStart",
+        "testSerialization",
+        "testNext",
+        "testGetLastMillisecondWithCalendar",
+        "testEqualsSelf",
+        "testDateConstructor1",
+        "testDateConstructor2",
+        "test1611872",
+        "testGetFirstMillisecond",
+        "testGetFirstMillisecondWithTimeZone",
+        "testNotCloneable",
+        "testHashcode",
+        "testGetSerialIndex",
+        "testEquals",
+        "testGetEnd",
+        "testGetLastMillisecond",
+        "testGetLastMillisecondWithTimeZone"
+    ],
+    "org.jfree.data.time.MonthTest": [
+        "testGetFirstMillisecondWithCalendar",
+        "testParseMonth",
+        "testGetStart",
+        "testSerialization",
+        "testNext",
+        "testJan1900Next",
+        "testGetLastMillisecondWithCalendar",
+        "testEqualsSelf",
+        "testDateConstructor1",
+        "testDateConstructor2",
+        "testDec9999Next",
+        "testGetFirstMillisecond",
+        "testGetFirstMillisecondWithTimeZone",
+        "testNotCloneable",
+        "testJan1900Previous",
+        "testHashcode",
+        "testGetSerialIndex",
+        "testEquals",
+        "testGetEnd",
+        "testDec9999Previous",
+        "testGetLastMillisecond",
+        "testGetLastMillisecondWithTimeZone"
+    ],
+    "org.jfree.data.time.MovingAverageTest": [
+        "test1"
+    ],
+    "org.jfree.data.time.QuarterTest": [
+        "testGetFirstMillisecondWithCalendar",
+        "testGetStart",
+        "testSerialization",
+        "testQ1Y1900Previous",
+        "testNext",
+        "testQ1Y1900Next",
+        "testGetLastMillisecondWithCalendar",
+        "testEqualsSelf",
+        "testParseQuarter",
+        "testDateConstructor1",
+        "testDateConstructor2",
+        "testQ4Y9999Next",
+        "testGetFirstMillisecond",
+        "testGetFirstMillisecondWithTimeZone",
+        "testNotCloneable",
+        "testHashcode",
+        "testGetSerialIndex",
+        "testEquals",
+        "testGetEnd",
+        "testQ4Y9999Previous",
+        "testGetLastMillisecond",
+        "testGetLastMillisecondWithTimeZone",
+        "testConstructor"
+    ],
+    "org.jfree.data.time.SecondTest": [
+        "testGetFirstMillisecondWithCalendar",
+        "testGetStart",
+        "testSerialization",
+        "testNext",
+        "testGetLastMillisecondWithCalendar",
+        "testEqualsSelf",
+        "testDateConstructor1",
+        "testDateConstructor2",
+        "testGetFirstMillisecond",
+        "testGetFirstMillisecondWithTimeZone",
+        "testNotCloneable",
+        "testHashcode",
+        "testGetSerialIndex",
+        "testEquals",
+        "testGetEnd",
+        "testGetLastMillisecond",
+        "testGetLastMillisecondWithTimeZone"
+    ],
+    "org.jfree.data.time.SimpleTimePeriodTest": [
+        "testImmutable",
+        "testSerialization",
+        "testClone",
+        "testCompareTo",
+        "testEqualsSelf",
+        "testHashcode",
+        "testEquals"
+    ],
+    "org.jfree.data.time.TimePeriodAnchorTest": [
+        "testSerialization",
+        "testEquals"
+    ],
+    "org.jfree.data.time.TimePeriodValueTest": [
+        "testSerialization",
+        "testEqualsSelf",
+        "testEquals"
+    ],
+    "org.jfree.data.time.TimePeriodValuesCollectionTest": [
+        "testGetDomainBoundsWithoutInterval",
+        "testSerialization",
+        "testGetDomainBoundsWithInterval",
+        "test1161340",
+        "testEquals",
+        "testGetSeries"
+    ],
+    "org.jfree.data.time.TimePeriodValuesTest": [
+        "getMinEndIndex",
+        "testSerialization",
+        "testAdd",
+        "testClone",
+        "getMaxEndIndex",
+        "testGetMaxStartIndex",
+        "testAddValue",
+        "test1161329",
+        "testGetMaxMiddleIndex",
+        "testGetMinMiddleIndex",
+        "testGetMinStartIndex",
+        "testEquals"
+    ],
+    "org.jfree.data.time.TimeSeriesCollectionTest": [
+        "testSerialization",
+        "testGetSurroundingItems",
+        "testBug3445507",
+        "testRemoveSeries_int",
+        "test1170825",
+        "testRemoveSeries",
+        "testCloning",
+        "testGetRangeBounds2",
+        "testGetRangeBounds",
+        "testFindDomainBounds",
+        "testEquals",
+        "testIndexOf"
+    ],
+    "org.jfree.data.time.TimeSeriesDataItemTest": [
+        "testSerialization",
+        "testEqualsSelf",
+        "testEquals"
+    ],
+    "org.jfree.data.time.TimeSeriesTest": [
+        "testEquals2",
+        "testGetIndex",
+        "testGetMaxY2",
+        "testGetMinY2",
+        "testGetValue",
+        "testUpdate_RegularTimePeriod",
+        "testSerialization",
+        "testAdd",
+        "testClear",
+        "testClone",
+        "testCreateCopy1",
+        "testCreateCopy2",
+        "testCreateCopy3",
+        "testBug3446965",
+        "testAddOrUpdate",
+        "testAddValue",
+        "testGetMaxY",
+        "testGetMinY",
+        "testFindValueRange",
+        "testFindValueRange2",
+        "testFindValueRange3",
+        "testRemoveAgedItems",
+        "testSetMaximumItemCount",
+        "testAdd_TimeSeriesDataItem",
+        "testAddOrUpdate2",
+        "testAddOrUpdate3",
+        "testAddOrUpdate4",
+        "testDelete_RegularTimePeriod",
+        "testGetDataItem1",
+        "testGetDataItem2",
+        "testHashCode",
+        "testDelete2",
+        "testDelete3",
+        "testClone2",
+        "testDelete",
+        "testEquals",
+        "testBug1075255",
+        "testRemoveAgedItems2",
+        "testRemoveAgedItems3",
+        "testRemoveAgedItems4",
+        "testRemoveAgedItems5",
+        "testSetKey",
+        "testBug1832432",
+        "testBug1864222"
+    ],
+    "org.jfree.data.time.TimeTableXYDatasetTest": [
+        "testGetTimePeriod",
+        "testSerialization",
+        "testClear",
+        "testClone",
+        "testEquals",
+        "testStandard"
+    ],
+    "org.jfree.data.time.WeekTest": [
+        "testGetFirstMillisecondWithCalendar",
+        "testGetStart",
+        "testWeek12005",
+        "testSerialization",
+        "testNext",
+        "testW1Y1900Previous",
+        "testGetLastMillisecondWithCalendar",
+        "testGetFirstMillisecond",
+        "testGetFirstMillisecondWithTimeZone",
+        "testNotCloneable",
+        "testHashcode",
+        "testW52Y9999Next",
+        "testGetSerialIndex",
+        "testW52Y9999Previous",
+        "testEquals",
+        "testGetEnd",
+        "testWeek532005",
+        "testW1Y1900Next",
+        "testBug1448828",
+        "testBug1498805",
+        "testGetLastMillisecond",
+        "testGetLastMillisecondWithTimeZone",
+        "testConstructor"
+    ],
+    "org.jfree.data.time.YearTest": [
+        "testGetFirstMillisecondWithCalendar",
+        "testGetStart",
+        "testSerialization",
+        "testParseYear",
+        "testNext",
+        "testGetLastMillisecondWithCalendar",
+        "testEqualsSelf",
+        "testDateConstructor1",
+        "testDateConstructor2",
+        "testMinuss9999Previous",
+        "testGetFirstMillisecond",
+        "testGetFirstMillisecondWithTimeZone",
+        "testNotCloneable",
+        "test1900Next",
+        "test9999Previous",
+        "testHashcode",
+        "testGetSerialIndex",
+        "testEquals",
+        "testGetEnd",
+        "test9999Next",
+        "testGetLastMillisecond",
+        "testGetLastMillisecondWithTimeZone"
+    ],
+    "org.jfree.data.time.ohlc.OHLCItemTest": [
+        "testSerialization",
+        "testConstructor1",
+        "testCloning",
+        "testHashcode",
+        "testEquals"
+    ],
+    "org.jfree.data.time.ohlc.OHLCSeriesCollectionTest": [
+        "testSerialization",
+        "testRemoveSeries_int",
+        "test1170825",
+        "testRemoveSeries",
+        "testCloning",
+        "testHashcode",
+        "testEquals",
+        "testRemoveAllSeries"
+    ],
+    "org.jfree.data.time.ohlc.OHLCSeriesTest": [
+        "testAdditionOfDuplicatePeriod",
+        "testSerialization",
+        "testSetMaximumItemCount2",
+        "testClear",
+        "testSetMaximumItemCount",
+        "testRemove_int",
+        "testCloning",
+        "testHashcode",
+        "testEquals",
+        "testIndexOf",
+        "testRemove"
+    ],
+    "org.jfree.data.time.ohlc.OHLCTest": [
+        "testSerialization",
+        "testCloning",
+        "testHashcode",
+        "testEquals"
+    ],
+    "org.jfree.data.xy.CategoryTableXYDatasetTest": [
+        "testSerialization",
+        "testPublicCloneable",
+        "testCloning",
+        "testAddSeries",
+        "testEquals",
+        "testCloning2"
+    ],
+    "org.jfree.data.xy.DefaultHighLowDatasetTest": [
+        "testSerialization",
+        "testPublicCloneable",
+        "testCloning",
+        "testEquals"
+    ],
+    "org.jfree.data.xy.DefaultIntervalXYDatasetTest": [
+        "testGetEndXValue",
+        "testGetEndYValue",
+        "testSerialization",
+        "testGetItemCount",
+        "testPublicCloneable",
+        "testGetSeriesKey",
+        "testGetSeriesCount",
+        "testCloning",
+        "testGetStartXValue",
+        "testAddSeries",
+        "testGetStartYValue",
+        "testEquals",
+        "testIndexOf",
+        "testGetXValue",
+        "testGetYValue",
+        "testCloning2"
+    ],
+    "org.jfree.data.xy.DefaultOHLCDatasetTest": [
+        "testSerialization",
+        "testPublicCloneable",
+        "testDataRange",
+        "testCloning",
+        "testEquals",
+        "testCloning2"
+    ],
+    "org.jfree.data.xy.DefaultTableXYDatasetTest": [
+        "testSerialization",
+        "testPublicCloneable",
+        "testCloning",
+        "testAddSeries",
+        "testEquals",
+        "testGetSeries"
+    ],
+    "org.jfree.data.xy.DefaultWindDatasetTest": [
+        "testSerialization",
+        "testPublicCloneable",
+        "testGetSeriesKey",
+        "testCloning",
+        "testEquals",
+        "testIndexOf"
+    ],
+    "org.jfree.data.xy.DefaultXYDatasetTest": [
+        "testSerialization",
+        "testPublicCloneable",
+        "testGetSeriesKey",
+        "testCloning",
+        "testAddSeries",
+        "testEquals",
+        "testIndexOf"
+    ],
+    "org.jfree.data.xy.DefaultXYZDatasetTest": [
+        "testSerialization",
+        "testPublicCloneable",
+        "testGetSeriesKey",
+        "testCloning",
+        "testAddSeries",
+        "testEquals",
+        "testIndexOf"
+    ],
+    "org.jfree.data.xy.IntervalXYDelegateTest": [
+        "testSerialization",
+        "testCloning",
+        "testEquals"
+    ],
+    "org.jfree.data.xy.MatrixSeriesCollectionTest": [
+        "testSerialization",
+        "testPublicCloneable",
+        "testCloning",
+        "testEquals"
+    ],
+    "org.jfree.data.xy.MatrixSeriesTest": [
+        "testGetItemRow",
+        "testSerialization",
+        "testGetItemColumn",
+        "testGetItem",
+        "testCloning",
+        "testEquals"
+    ],
+    "org.jfree.data.xy.OHLCDataItemTest": [
+        "testSerialization",
+        "testCloning",
+        "testEquals"
+    ],
+    "org.jfree.data.xy.TableXYDatasetTest": [
+        "testAutoPrune",
+        "testSerialization",
+        "testPrune",
+        "testPublicCloneable",
+        "testRemoveAllValuesForX",
+        "testCloning",
+        "test788597",
+        "testEquals",
+        "testTableXYDataset"
+    ],
+    "org.jfree.data.xy.VectorDataItemTest": [
+        "testSerialization",
+        "testCloning",
+        "testHashcode",
+        "testEquals"
+    ],
+    "org.jfree.data.xy.VectorSeriesCollectionTest": [
+        "testSerialization",
+        "testPublicCloneable",
+        "testRemoveSeries",
+        "testCloning",
+        "testEquals"
+    ],
+    "org.jfree.data.xy.VectorSeriesTest": [
+        "testSerialization",
+        "testAdd",
+        "testSetMaximumItemCount2",
+        "testClear",
+        "testSetMaximumItemCount",
+        "testCloning",
+        "testAdditionOfDuplicateXValues",
+        "testIndexOf2",
+        "testEquals",
+        "testIndexOf",
+        "testRemove"
+    ],
+    "org.jfree.data.xy.VectorTest": [
+        "testSerialization",
+        "testCloning",
+        "testHashcode",
+        "testEquals"
+    ],
+    "org.jfree.data.xy.XIntervalDataItemTest": [
+        "testSerialization",
+        "testConstructor1",
+        "testCloning",
+        "testEquals"
+    ],
+    "org.jfree.data.xy.XIntervalSeriesCollectionTest": [
+        "testSerialization",
+        "testPublicCloneable",
+        "test1170825",
+        "testRemoveSeries",
+        "testCloning",
+        "testEquals"
+    ],
+    "org.jfree.data.xy.XIntervalSeriesTest": [
+        "testSerialization",
+        "testAdd",
+        "testSetMaximumItemCount2",
+        "testClear",
+        "testSetMaximumItemCount",
+        "testCloning",
+        "testAdditionOfDuplicateXValues",
+        "testGetXHighValue",
+        "testIndexOf2",
+        "testEquals",
+        "testGetXLowValue",
+        "testIndexOf",
+        "testRemove"
+    ],
+    "org.jfree.data.xy.XYBarDatasetTest": [
+        "testSerialization",
+        "testPublicCloneable",
+        "testCloning",
+        "testEquals"
+    ],
+    "org.jfree.data.xy.XYCoordinateTest": [
+        "testSerialization",
+        "testCloning",
+        "testHashcode",
+        "testEquals"
+    ],
+    "org.jfree.data.xy.XYDataItemTest": [
+        "testSerialization",
+        "testCloning",
+        "testEquals"
+    ],
+    "org.jfree.data.xy.XYIntervalDataItemTest": [
+        "testSerialization",
+        "testConstructor1",
+        "testCloning",
+        "testEquals"
+    ],
+    "org.jfree.data.xy.XYIntervalSeriesCollectionTest": [
+        "testSerialization",
+        "testPublicCloneable",
+        "test1170825",
+        "testRemoveSeries",
+        "testCloning",
+        "testEquals"
+    ],
+    "org.jfree.data.xy.XYIntervalSeriesTest": [
+        "testSerialization",
+        "testAdd",
+        "testSetMaximumItemCount2",
+        "testClear",
+        "testSetMaximumItemCount",
+        "testCloning",
+        "testAdditionOfDuplicateXValues",
+        "testIndexOf2",
+        "testEquals",
+        "testIndexOf",
+        "testRemove",
+        "testValues"
+    ],
+    "org.jfree.data.xy.XYIntervalTest": [
+        "testSerialization",
+        "testCloning",
+        "testEquals"
+    ],
+    "org.jfree.data.xy.XYSeriesCollectionTest": [
+        "testSerialization",
+        "testBug3445507",
+        "testGetDomainBounds",
+        "testPublicCloneable",
+        "test1170825",
+        "testRemoveSeries",
+        "testGetSeriesByKey",
+        "testCloning",
+        "testAddSeries",
+        "testGetRangeLowerBound",
+        "testRenameSeries",
+        "testGetRangeBounds",
+        "testEquals",
+        "testGetSeries",
+        "testSeriesRename",
+        "testIndexOf",
+        "testConstructor",
+        "testGetRangeUpperBound"
+    ],
+    "org.jfree.data.xy.XYSeriesTest": [
+        "testGetMaxY2",
+        "testToArray",
+        "testSerialization",
+        "testAdd",
+        "testSetMaximumItemCount2",
+        "testSetMaximumItemCount3",
+        "testSetMaximumItemCount4",
+        "testClear",
+        "testAddOrUpdate",
+        "testUpdate2",
+        "testToArrayExample",
+        "testGetMaxX",
+        "testGetMaxY",
+        "testGetMinX",
+        "testGetMinY",
+        "testSetMaximumItemCount",
+        "testAddOrUpdate2",
+        "testAddOrUpdate3",
+        "testCloning",
+        "testAdditionOfDuplicateXValues",
+        "testRemove2",
+        "testUpdateByIndex",
+        "testUpdateByIndex2",
+        "testUpdateByIndex3",
+        "testIndexOf2",
+        "testIndexOf3",
+        "testHashCode",
+        "testDelete",
+        "testEquals",
+        "testIndexOf",
+        "testRemove",
+        "testSetKey",
+        "testUpdate",
+        "testCloning2",
+        "testCloning3",
+        "testBug1955483",
+        "testUpdateXY"
+    ],
+    "org.jfree.data.xy.YIntervalDataItemTest": [
+        "testSerialization",
+        "testConstructor1",
+        "testCloning",
+        "testEquals"
+    ],
+    "org.jfree.data.xy.YIntervalSeriesCollectionTest": [
+        "testSerialization",
+        "testPublicCloneable",
+        "test1170825",
+        "testRemoveSeries",
+        "testCloning",
+        "testEquals"
+    ],
+    "org.jfree.data.xy.YIntervalSeriesTest": [
+        "testSerialization",
+        "testAdd",
+        "testSetMaximumItemCount2",
+        "testClear",
+        "testSetMaximumItemCount",
+        "testCloning",
+        "testAdditionOfDuplicateXValues",
+        "testIndexOf2",
+        "testEquals",
+        "testIndexOf",
+        "testRemove"
+    ],
+    "org.jfree.data.xy.YIntervalTest": [
+        "testSerialization",
+        "testCloning",
+        "testEquals"
+    ],
+    "org.jfree.data.xy.YWithXIntervalTest": [
+        "testSerialization",
+        "testCloning",
+        "testEquals"
+    ]
+}

@@ -1,0 +1,96 @@
+[INFO] Scanning for projects...
+[WARNING] The project junit:junit:jar:4.12 uses prerequisites which is only intended for maven-plugin projects but not for non maven-plugin projects. For such purposes you should use the maven-enforcer-plugin. See https://maven.apache.org/enforcer/enforcer-rules/requireMavenVersion.html
+[INFO] 
+[INFO] ----------------------------< junit:junit >-----------------------------
+[INFO] Building JUnit 4.12
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ junit ---
+[INFO] Deleting ./junit4/target
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.3.1:enforce (enforce-versions) @ junit ---
+[INFO] 
+[INFO] --- replacer:1.5.3:replace (default) @ junit ---
+[INFO] Replacement run on 1 file.
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ junit ---
+[INFO] Using 'ISO-8859-1' encoding to copy filtered resources.
+[INFO] Copying 2 resources
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ junit ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 195 source files to ./junit4/target/classes
+[WARNING] To suppress warnings about obsolete options, use -Xlint:-options.
+./junit4/src/main/java/junit/extensions/TestDecorator.java:[3,22] [deprecation] Assert in junit.framework has been deprecated
+[WARNING] ./junit4/src/main/java/org/junit/runner/JUnitCore.java:[66,7] no description for @param
+[WARNING] ./junit4/src/main/java/org/junit/internal/Classes.java:[13,7] no description for @throws
+[WARNING] ./junit4/src/main/java/org/junit/internal/runners/statements/FailOnTimeout.java:[108,11] no description for @param
+[WARNING] ./junit4/src/main/java/org/junit/runner/FilterFactories.java:[19,7] no description for @throws
+[WARNING] ./junit4/src/main/java/junit/extensions/TestDecorator.java:[12,35] [deprecation] Assert in junit.framework has been deprecated
+[WARNING] ./junit4/src/main/java/junit/framework/TestCase.java:[76,39] [deprecation] Assert in junit.framework has been deprecated
+[WARNING] ./junit4/src/main/java/junit/framework/ComparisonCompactor.java:[23,19] [deprecation] Assert in junit.framework has been deprecated
+[WARNING] ./junit4/src/main/java/junit/framework/ComparisonCompactor.java:[30,15] [deprecation] Assert in junit.framework has been deprecated
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ junit ---
+[INFO] Using 'ISO-8859-1' encoding to copy filtered resources.
+[INFO] Copying 2 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ junit ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 197 source files to ./junit4/target/test-classes
+[WARNING] To suppress warnings about obsolete options, use -Xlint:-options.
+./junit4/src/test/java/org/junit/tests/experimental/rules/MethodRulesTest.java:[19,22] [deprecation] TestWatchman in org.junit.rules has been deprecated
+[WARNING] ./junit4/src/test/java/org/junit/tests/validation/BadlyFormedClassesTest.java:[7,33] [deprecation] JUnit4ClassRunner in org.junit.internal.runners has been deprecated
+[WARNING] ./junit4/src/test/java/org/junit/tests/experimental/rules/TestWatchmanTest.java:[3,29] [deprecation] Assert in junit.framework has been deprecated
+[WARNING] ./junit4/src/test/java/org/junit/tests/experimental/rules/TestWatchmanTest.java:[11,22] [deprecation] TestWatchman in org.junit.rules has been deprecated
+[WARNING] ./junit4/src/test/java/org/junit/tests/experimental/rules/RuleMemberValidatorTest.java:[18,22] [deprecation] TestWatchman in org.junit.rules has been deprecated
+[WARNING] ./junit4/src/test/java/org/junit/tests/deprecated/JUnit4ClassRunnerTest.java:[8,33] [deprecation] JUnit4ClassRunner in org.junit.internal.runners has been deprecated
+[WARNING] ./junit4/src/test/java/org/junit/tests/AllTests.java:[30,33] [deprecation] JUnit4ClassRunnerTest in org.junit.tests.deprecated has been deprecated
+[WARNING] ./junit4/src/test/java/org/junit/tests/experimental/rules/TestRuleTest.java:[483,27] [deprecation] skipped(AssumptionViolatedException,Description) in TestWatcher has been deprecated
+[WARNING] ./junit4/src/test/java/org/junit/tests/experimental/rules/TestWatcherTest.java:[55,27] [deprecation] skipped(AssumptionViolatedException,Description) in TestWatcher has been deprecated
+[WARNING] ./junit4/src/test/java/org/junit/tests/experimental/rules/TestWatcherTest.java:[62,18] [deprecation] AssumptionViolatedException(String) in AssumptionViolatedException has been deprecated
+[WARNING] ./junit4/src/test/java/org/junit/tests/experimental/rules/TestWatcherTest.java:[78,27] [deprecation] skipped(AssumptionViolatedException,Description) in TestWatcher has been deprecated
+[WARNING] ./junit4/src/test/java/org/junit/tests/experimental/rules/TestWatcherTest.java:[85,18] [deprecation] AssumptionViolatedException(String) in AssumptionViolatedException has been deprecated
+[WARNING] ./junit4/src/test/java/org/junit/tests/experimental/rules/ClassRulesTest.java:[4] documentation comment not expected here
+[WARNING] ./junit4/src/test/java/org/junit/tests/internal/runners/statements/FailOnTimeoutTest.java:[35,48] [deprecation] FailOnTimeout(Statement,long) in FailOnTimeout has been deprecated
+[WARNING] ./junit4/src/test/java/org/junit/tests/internal/runners/statements/FailOnTimeoutTest.java:[117,44] [deprecation] FailOnTimeout(Statement,long) in FailOnTimeout has been deprecated
+[WARNING] ./junit4/src/test/java/org/junit/tests/internal/runners/statements/FailOnTimeoutTest.java:[145,37] [deprecation] FailOnTimeout(Statement,long) in FailOnTimeout has been deprecated
+[WARNING] ./junit4/src/test/java/org/junit/tests/running/classes/ParentRunnerTest.java:[180,18] [deprecation] AssumptionViolatedException(String) in AssumptionViolatedException has been deprecated
+[WARNING] ./junit4/src/test/java/org/junit/tests/running/classes/ParentRunnerTest.java:[212,18] [deprecation] AssumptionViolatedException(String) in AssumptionViolatedException has been deprecated
+[WARNING] ./junit4/src/test/java/org/junit/tests/running/core/MainRunner.java:[43,23] [deprecation] getInCheck() in SecurityManager has been deprecated
+[WARNING] ./junit4/src/test/java/org/junit/tests/running/core/MainRunner.java:[44,79] [deprecation] getInCheck() in SecurityManager has been deprecated
+[WARNING] ./junit4/src/test/java/org/junit/tests/running/core/MainRunner.java:[179,20] [deprecation] checkMulticast(InetAddress,byte) in SecurityManager has been deprecated
+[WARNING] ./junit4/src/test/java/org/junit/tests/running/core/MainRunner.java:[181,39] [deprecation] checkMulticast(InetAddress,byte) in SecurityManager has been deprecated
+[WARNING] ./junit4/src/test/java/org/junit/tests/running/core/MainRunner.java:[200,23] [deprecation] checkTopLevelWindow(Object) in SecurityManager has been deprecated
+[WARNING] ./junit4/src/test/java/org/junit/tests/running/core/MainRunner.java:[201,60] [deprecation] checkTopLevelWindow(Object) in SecurityManager has been deprecated
+[WARNING] ./junit4/src/test/java/org/junit/tests/running/core/MainRunner.java:[201,114] [deprecation] checkTopLevelWindow(Object) in SecurityManager has been deprecated
+[WARNING] ./junit4/src/test/java/org/junit/tests/running/core/MainRunner.java:[212,20] [deprecation] checkSystemClipboardAccess() in SecurityManager has been deprecated
+[WARNING] ./junit4/src/test/java/org/junit/tests/running/core/MainRunner.java:[214,39] [deprecation] checkSystemClipboardAccess() in SecurityManager has been deprecated
+[WARNING] ./junit4/src/test/java/org/junit/tests/running/core/MainRunner.java:[219,20] [deprecation] checkAwtEventQueueAccess() in SecurityManager has been deprecated
+[WARNING] ./junit4/src/test/java/org/junit/tests/running/core/MainRunner.java:[221,39] [deprecation] checkAwtEventQueueAccess() in SecurityManager has been deprecated
+[WARNING] ./junit4/src/test/java/org/junit/tests/running/core/MainRunner.java:[247,20] [deprecation] checkMemberAccess(Class<?>,int) in SecurityManager has been deprecated
+[WARNING] ./junit4/src/test/java/org/junit/tests/running/core/MainRunner.java:[249,39] [deprecation] checkMemberAccess(Class<?>,int) in SecurityManager has been deprecated
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.17:test (default-test) @ junit ---
+[INFO] Surefire report directory: ./junit4/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running org.junit.tests.AllTests
+Tests run: 874, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 7.951 sec - in org.junit.tests.AllTests
+
+Results :
+
+Tests run: 874, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] 
+[INFO] --- animal-sniffer-maven-plugin:1.11:check (signature-check) @ junit ---
+[INFO] Checking unresolved references to org.codehaus.mojo.signature:java15:1.0
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  24.584 s
+[INFO] Finished at: 
+[INFO] ------------------------------------------------------------------------

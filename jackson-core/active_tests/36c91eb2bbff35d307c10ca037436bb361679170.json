@@ -1,0 +1,369 @@
+{
+    "com.fasterxml.jackson.core.TestExceptions": [
+        "testOriginalMesssage"
+    ],
+    "com.fasterxml.jackson.core.TestJDKSerializability": [
+        "testJsonFactorySerializable",
+        "testBase64Variant",
+        "testPrettyPrinter"
+    ],
+    "com.fasterxml.jackson.core.TestJsonPointer": [
+        "testSimplePath",
+        "testWonkyNumber173",
+        "testIZeroIndex",
+        "testQuotedPath",
+        "testLongNumbers"
+    ],
+    "com.fasterxml.jackson.core.TestVersions": [
+        "testCoreVersions"
+    ],
+    "com.fasterxml.jackson.core.base64.TestBase64Codec": [
+        "testProps",
+        "testCharEncoding",
+        "testErrors"
+    ],
+    "com.fasterxml.jackson.core.base64.TestBase64Generation": [
+        "testStreamingWrites",
+        "testIssue55"
+    ],
+    "com.fasterxml.jackson.core.base64.TestBase64Parsing": [
+        "testBase64UsingInputStream",
+        "testBase64UsingReader",
+        "testStreaming"
+    ],
+    "com.fasterxml.jackson.core.base64.TestJsonParserBinary": [
+        "testSimple",
+        "testInArray",
+        "testWithEscaped"
+    ],
+    "com.fasterxml.jackson.core.format.TestJsonFormatDetection": [
+        "testSimpleValidArray",
+        "testSimpleValidObject",
+        "testSimpleValidString",
+        "testSimpleInvalid"
+    ],
+    "com.fasterxml.jackson.core.io.TestCharTypes": [
+        "testAppendQuoted0_31"
+    ],
+    "com.fasterxml.jackson.core.io.TestIOContext": [
+        "testAllocations"
+    ],
+    "com.fasterxml.jackson.core.io.TestJDKSerializable": [
+        "testLocationSerializability"
+    ],
+    "com.fasterxml.jackson.core.io.TestJsonStringEncoder": [
+        "testQuoteAsString",
+        "testQuoteLongAsString",
+        "testQuoteAsUTF8",
+        "testEncodeAsUTF8",
+        "testCtrlChars"
+    ],
+    "com.fasterxml.jackson.core.io.TestMergedStream": [
+        "testSimple"
+    ],
+    "com.fasterxml.jackson.core.io.TestUTF8Writer": [
+        "testSimple",
+        "testFlushAfterClose"
+    ],
+    "com.fasterxml.jackson.core.json.TestCharEscaping": [
+        "testMissingEscaping",
+        "testSimpleEscaping",
+        "testInvalid",
+        "test8DigitSequence",
+        "testWriteLongCustomEscapes",
+        "testEscapesForCharArrays"
+    ],
+    "com.fasterxml.jackson.core.json.TestComments": [
+        "testDefaultSettings",
+        "testCommentsDisabled",
+        "testCommentsEnabled",
+        "testCommentsWithUTF8",
+        "testYAMLCommentsBytes",
+        "testYAMLCommentsChars",
+        "testCCommentsBytes",
+        "testCCommentsChars",
+        "testCppCommentsBytes",
+        "testCppCommentsChars"
+    ],
+    "com.fasterxml.jackson.core.json.TestCustomEscaping": [
+        "testAboveAsciiEscapeWithReader",
+        "testAboveAsciiEscapeWithUTF8Stream",
+        "testEscapeCustomWithReader",
+        "testEscapeCustomWithUTF8Stream"
+    ],
+    "com.fasterxml.jackson.core.json.TestDecorators": [
+        "testInputDecoration",
+        "testOutputDecoration"
+    ],
+    "com.fasterxml.jackson.core.json.TestGeneratorDupHandling": [
+        "testSimpleDups"
+    ],
+    "com.fasterxml.jackson.core.json.TestGeneratorWithSerializedString": [
+        "testSimple"
+    ],
+    "com.fasterxml.jackson.core.json.TestJsonFactory": [
+        "testGeneratorFeatures",
+        "testParserFeatures",
+        "testJsonWithFiles",
+        "testCopy"
+    ],
+    "com.fasterxml.jackson.core.json.TestJsonGenerator": [
+        "testStringWrite",
+        "testIntWrite",
+        "testLongWrite",
+        "testBooleanWrite",
+        "testNullWrite",
+        "testRootIntsWrite",
+        "testFieldValueWrites",
+        "testOutputContext"
+    ],
+    "com.fasterxml.jackson.core.json.TestJsonGeneratorFeatures": [
+        "testConfigDefaults",
+        "testFieldNameQuoting",
+        "testNonNumericQuoting",
+        "testNumbersAsJSONStrings",
+        "testBigDecimalAsPlain"
+    ],
+    "com.fasterxml.jackson.core.json.TestJsonParser": [
+        "testConfig",
+        "testInterningWithStreams",
+        "testInterningWithReaders",
+        "testSpecExampleSkipping",
+        "testSpecExampleFully",
+        "testKeywords",
+        "testSkipping",
+        "testNameEscaping",
+        "testLongText",
+        "testBytesAsSource",
+        "testUtf8BOMHandling",
+        "testSpacesInURL",
+        "testHandlingOfInvalidSpaceBytes",
+        "testHandlingOfInvalidSpaceChars"
+    ],
+    "com.fasterxml.jackson.core.json.TestLocation": [
+        "testSimpleInitialOffsets",
+        "testOffsetWithInputOffset"
+    ],
+    "com.fasterxml.jackson.core.json.TestNextXxx": [
+        "testIsNextTokenName",
+        "testIssue34",
+        "testIssue38",
+        "testNextNameWithLongContent"
+    ],
+    "com.fasterxml.jackson.core.json.TestNumericValues": [
+        "testSimpleBoolean",
+        "testSimpleInt",
+        "testIntRange",
+        "testSimpleLong",
+        "testLongRange",
+        "testBigDecimalRange",
+        "testBigNumbers",
+        "testSimpleDouble",
+        "testNumbers",
+        "testLongOverflow",
+        "testParsingOfLongerSequences",
+        "testLongNumbers2",
+        "testInvalidBooleanAccess",
+        "testInvalidIntAccess",
+        "testLongNumbers"
+    ],
+    "com.fasterxml.jackson.core.json.TestParserDupHandling": [
+        "testSimpleDups"
+    ],
+    "com.fasterxml.jackson.core.json.TestParserErrorHandling": [
+        "testInvalidKeywordsStream",
+        "testInvalidKeywordsReader",
+        "testMangledNumbersBytes",
+        "testMangledNumbersChars"
+    ],
+    "com.fasterxml.jackson.core.json.TestParserNonStandard": [
+        "testSimpleUnquotedBytes",
+        "testSimpleUnquotedChars",
+        "testLargeUnquoted",
+        "testSingleQuotesDefault",
+        "testSingleQuotesEnabled",
+        "testNonStandardNameChars",
+        "testNonStandardAnyCharQuoting",
+        "testLeadingZeroesUTF8",
+        "testLeadingZeroesReader",
+        "testAllowNaN",
+        "testAllowInfinity"
+    ],
+    "com.fasterxml.jackson.core.json.TestParserOverrides": [
+        "testTokenAccess",
+        "testCurrentName"
+    ],
+    "com.fasterxml.jackson.core.json.TestRootValues": [
+        "testSimpleNumbers",
+        "testSimpleBooleans",
+        "testSimpleWrites"
+    ],
+    "com.fasterxml.jackson.core.json.TestUnicode": [
+        "testSurrogates"
+    ],
+    "com.fasterxml.jackson.core.json.TestUtf8Generator": [
+        "testUtf8Issue462",
+        "testSurrogatesWithRaw"
+    ],
+    "com.fasterxml.jackson.core.json.TestUtf8Parser": [
+        "testEmptyName",
+        "testUtf8Name2Bytes",
+        "testUtf8Name3Bytes",
+        "testUtf8StringTrivial",
+        "testUtf8StringValue",
+        "testNextFieldName"
+    ],
+    "com.fasterxml.jackson.core.json.TestValueConversions": [
+        "testAsInt",
+        "testAsBoolean",
+        "testAsLong",
+        "testAsDouble"
+    ],
+    "com.fasterxml.jackson.core.json.TestWithTonsaSymbols": [
+        "testStreamReaderParser",
+        "testReaderParser"
+    ],
+    "com.fasterxml.jackson.core.main.TestArrayParsing": [
+        "testInvalidEmptyMissingClose",
+        "testValidEmpty",
+        "testInvalidMissingFieldName",
+        "testInvalidExtraComma"
+    ],
+    "com.fasterxml.jackson.core.main.TestGeneratorArray": [
+        "testEmptyArrayWrite",
+        "testInvalidArrayWrite",
+        "testSimpleArrayWrite"
+    ],
+    "com.fasterxml.jackson.core.main.TestGeneratorClosing": [
+        "testNoAutoCloseGenerator",
+        "testCloseGenerator",
+        "testNoAutoCloseOutputStream",
+        "testAutoCloseArraysAndObjects",
+        "testNoAutoCloseArraysAndObjects",
+        "testAutoFlushOrNot"
+    ],
+    "com.fasterxml.jackson.core.main.TestGeneratorCopy": [
+        "testCopyRootTokens",
+        "testCopyArrayTokens",
+        "testCopyObjectTokens"
+    ],
+    "com.fasterxml.jackson.core.main.TestGeneratorMisc": [
+        "testRaw",
+        "testIsClosed",
+        "testSimpleWriteObject",
+        "testRawValue",
+        "testBinaryWrite",
+        "testLongerObjects"
+    ],
+    "com.fasterxml.jackson.core.main.TestGeneratorObject": [
+        "testEmptyObjectWrite",
+        "testInvalidObjectWrite",
+        "testSimpleObjectWrite",
+        "testConvenienceMethods",
+        "testConvenienceMethodsWithNulls"
+    ],
+    "com.fasterxml.jackson.core.main.TestNumberParsing": [
+        "testIntParsing",
+        "testIntParsingWithStrings",
+        "testLongParsing",
+        "testLongBoundsChecks",
+        "testFloatBoundary146Chars",
+        "testFloatBoundary146Bytes"
+    ],
+    "com.fasterxml.jackson.core.main.TestParserClosing": [
+        "testNoAutoCloseReader",
+        "testAutoCloseReader",
+        "testNoAutoCloseInputStream",
+        "testReleaseContentBytes",
+        "testReleaseContentChars"
+    ],
+    "com.fasterxml.jackson.core.main.TestParserFeatures": [
+        "testDefaultSettings",
+        "testQuotesRequired",
+        "testTabsDefault",
+        "testTabsEnabled"
+    ],
+    "com.fasterxml.jackson.core.main.TestParserLinefeeds": [
+        "testCR",
+        "testLF",
+        "testCRLF"
+    ],
+    "com.fasterxml.jackson.core.main.TestParserWithObjects": [
+        "testNextValue",
+        "testNextValueNested",
+        "testIsClosed"
+    ],
+    "com.fasterxml.jackson.core.main.TestPrettyPrinter": [
+        "testObjectCount",
+        "testArrayCount",
+        "testSimpleDocWithDefault",
+        "testCustomRootSeparatorWithPP",
+        "testCustomRootSeparatorWithFactory",
+        "testSimpleDocWithMinimal"
+    ],
+    "com.fasterxml.jackson.core.main.TestRawStringWriting": [
+        "testUtf8RawStrings",
+        "testUtf8StringsWithEscaping"
+    ],
+    "com.fasterxml.jackson.core.main.TestScopeMatching": [
+        "testUnclosedArray",
+        "testUnclosedObject",
+        "testEOFInName",
+        "testWeirdToken",
+        "testMismatchArrayToObject",
+        "testMismatchObjectToArray",
+        "testMisssingColon"
+    ],
+    "com.fasterxml.jackson.core.main.TestStringGeneration": [
+        "testBasicEscaping",
+        "testLongerRandomSingleChunk",
+        "testLongerRandomMultiChunk"
+    ],
+    "com.fasterxml.jackson.core.sym.TestByteBasedSymbols": [
+        "testSharedSymbols",
+        "testAuxMethods"
+    ],
+    "com.fasterxml.jackson.core.sym.TestHashCollisionChars": [
+        "testReaderCollisions"
+    ],
+    "com.fasterxml.jackson.core.sym.TestJsonParserSymbols": [
+        "testByteSymbolsWithClose",
+        "testByteSymbolsWithEOF",
+        "testHashCalc",
+        "testCharSymbolsWithClose",
+        "testCharSymbolsWithEOF"
+    ],
+    "com.fasterxml.jackson.core.sym.TestSymbolTables": [
+        "testSyntheticWithChars",
+        "testSyntheticWithBytes",
+        "testThousandsOfSymbols"
+    ],
+    "com.fasterxml.jackson.core.util.TestCharTypes": [
+        "testQuoting"
+    ],
+    "com.fasterxml.jackson.core.util.TestDelegates": [
+        "testParserDelegate",
+        "testGeneratorDelegate",
+        "testNotDelegateCopyMethods"
+    ],
+    "com.fasterxml.jackson.core.util.TestNumberPrinting": [
+        "testIntPrinting",
+        "testLongPrinting"
+    ],
+    "com.fasterxml.jackson.core.util.TestSerializedString": [
+        "testAppending",
+        "testFailedAccess"
+    ],
+    "com.fasterxml.jackson.core.util.TestTextBuffer": [
+        "testSimple",
+        "testLonger",
+        "testLongAppend",
+        "testExpand"
+    ],
+    "com.fasterxml.jackson.core.util.TestVersionUtil": [
+        "testVersionPartParsing",
+        "testVersionParsing",
+        "testMavenVersionParsing",
+        "testPackageVersionMatches"
+    ]
+}

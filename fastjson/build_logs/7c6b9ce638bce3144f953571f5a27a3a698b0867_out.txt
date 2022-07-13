@@ -1,0 +1,160 @@
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.alibaba:fastjson:jar:1.2.60_preview_04
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-gpg-plugin is missing. @ line 176, column 21
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-surefire-plugin is missing. @ line 144, column 21
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-source-plugin is missing. @ line 128, column 21
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-javadoc-plugin is missing. @ line 154, column 21
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO] 
+[INFO] ------------------------< com.alibaba:fastjson >------------------------
+[INFO] Building fastjson 1.2.60_preview_04
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ fastjson ---
+[INFO] Deleting ./fastjson/target
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ fastjson ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 6 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.0:compile (default-compile) @ fastjson ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 178 source files to ./fastjson/target/classes
+[INFO] ./fastjson/src/main/java/com/alibaba/fastjson/JSON.java: Some input files use or override a deprecated API.
+[INFO] ./fastjson/src/main/java/com/alibaba/fastjson/JSON.java: Recompile with -Xlint:deprecation for details.
+[INFO] ./fastjson/src/main/java/com/alibaba/fastjson/JSON.java: Some input files use unchecked or unsafe operations.
+[INFO] ./fastjson/src/main/java/com/alibaba/fastjson/JSON.java: Recompile with -Xlint:unchecked for details.
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ fastjson ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 97 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.0:testCompile (default-testCompile) @ fastjson ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 2627 source files to ./fastjson/target/test-classes
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] ./fastjson/src/test/java/com/alibaba/json/bvt/JSONFieldDefaultValueTest.java:[57,43] cannot find symbol
+  symbol:   method defaultValue()
+  location: @interface com.alibaba.fastjson.annotation.JSONField
+[ERROR] ./fastjson/src/test/java/com/alibaba/json/bvt/JSONFieldDefaultValueTest.java:[60,43] cannot find symbol
+  symbol:   method defaultValue()
+  location: @interface com.alibaba.fastjson.annotation.JSONField
+[ERROR] ./fastjson/src/test/java/com/alibaba/json/bvt/JSONFieldDefaultValueTest.java:[62,43] cannot find symbol
+  symbol:   method defaultValue()
+  location: @interface com.alibaba.fastjson.annotation.JSONField
+[ERROR] ./fastjson/src/test/java/com/alibaba/json/bvt/JSONFieldDefaultValueTest.java:[64,43] cannot find symbol
+  symbol:   method defaultValue()
+  location: @interface com.alibaba.fastjson.annotation.JSONField
+[ERROR] ./fastjson/src/test/java/com/alibaba/json/bvt/JSONFieldDefaultValueTest.java:[66,43] cannot find symbol
+  symbol:   method defaultValue()
+  location: @interface com.alibaba.fastjson.annotation.JSONField
+[ERROR] ./fastjson/src/test/java/com/alibaba/json/bvt/JSONFieldDefaultValueTest.java:[68,43] cannot find symbol
+  symbol:   method defaultValue()
+  location: @interface com.alibaba.fastjson.annotation.JSONField
+[ERROR] ./fastjson/src/test/java/com/alibaba/json/bvt/JSONFieldDefaultValueTest.java:[70,43] cannot find symbol
+  symbol:   method defaultValue()
+  location: @interface com.alibaba.fastjson.annotation.JSONField
+[ERROR] ./fastjson/src/test/java/com/alibaba/json/bvt/JSONFieldDefaultValueTest.java:[72,43] cannot find symbol
+  symbol:   method defaultValue()
+  location: @interface com.alibaba.fastjson.annotation.JSONField
+[ERROR] ./fastjson/src/test/java/com/alibaba/json/bvt/JSONFieldDefaultValueTest.java:[74,43] cannot find symbol
+  symbol:   method defaultValue()
+  location: @interface com.alibaba.fastjson.annotation.JSONField
+[ERROR] ./fastjson/src/test/java/com/alibaba/json/bvt/JSONFieldDefaultValueTest.java:[77,43] cannot find symbol
+  symbol:   method defaultValue()
+  location: @interface com.alibaba.fastjson.annotation.JSONField
+[ERROR] ./fastjson/src/test/java/com/alibaba/json/bvt/JSONFieldDefaultValueTest.java:[79,43] cannot find symbol
+  symbol:   method defaultValue()
+  location: @interface com.alibaba.fastjson.annotation.JSONField
+[ERROR] ./fastjson/src/test/java/com/alibaba/json/bvt/JSONFieldDefaultValueTest.java:[81,43] cannot find symbol
+  symbol:   method defaultValue()
+  location: @interface com.alibaba.fastjson.annotation.JSONField
+[ERROR] ./fastjson/src/test/java/com/alibaba/json/bvt/JSONFieldDefaultValueTest.java:[83,43] cannot find symbol
+  symbol:   method defaultValue()
+  location: @interface com.alibaba.fastjson.annotation.JSONField
+[ERROR] ./fastjson/src/test/java/com/alibaba/json/bvt/JSONFieldDefaultValueTest.java:[85,43] cannot find symbol
+  symbol:   method defaultValue()
+  location: @interface com.alibaba.fastjson.annotation.JSONField
+[ERROR] ./fastjson/src/test/java/com/alibaba/json/bvt/JSONFieldDefaultValueTest.java:[87,43] cannot find symbol
+  symbol:   method defaultValue()
+  location: @interface com.alibaba.fastjson.annotation.JSONField
+[ERROR] ./fastjson/src/test/java/com/alibaba/json/bvt/JSONFieldDefaultValueTest.java:[89,43] cannot find symbol
+  symbol:   method defaultValue()
+  location: @interface com.alibaba.fastjson.annotation.JSONField
+[ERROR] ./fastjson/src/test/java/com/alibaba/json/bvt/JSONFieldDefaultValueTest.java:[91,43] cannot find symbol
+  symbol:   method defaultValue()
+  location: @interface com.alibaba.fastjson.annotation.JSONField
+[INFO] 17 errors 
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  21.157 s
+[INFO] Finished at: 
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.8.0:testCompile (default-testCompile) on project fastjson: Compilation failure: Compilation failure: 
+[ERROR] ./fastjson/src/test/java/com/alibaba/json/bvt/JSONFieldDefaultValueTest.java:[57,43] cannot find symbol
+[ERROR]   symbol:   method defaultValue()
+[ERROR]   location: @interface com.alibaba.fastjson.annotation.JSONField
+[ERROR] ./fastjson/src/test/java/com/alibaba/json/bvt/JSONFieldDefaultValueTest.java:[60,43] cannot find symbol
+[ERROR]   symbol:   method defaultValue()
+[ERROR]   location: @interface com.alibaba.fastjson.annotation.JSONField
+[ERROR] ./fastjson/src/test/java/com/alibaba/json/bvt/JSONFieldDefaultValueTest.java:[62,43] cannot find symbol
+[ERROR]   symbol:   method defaultValue()
+[ERROR]   location: @interface com.alibaba.fastjson.annotation.JSONField
+[ERROR] ./fastjson/src/test/java/com/alibaba/json/bvt/JSONFieldDefaultValueTest.java:[64,43] cannot find symbol
+[ERROR]   symbol:   method defaultValue()
+[ERROR]   location: @interface com.alibaba.fastjson.annotation.JSONField
+[ERROR] ./fastjson/src/test/java/com/alibaba/json/bvt/JSONFieldDefaultValueTest.java:[66,43] cannot find symbol
+[ERROR]   symbol:   method defaultValue()
+[ERROR]   location: @interface com.alibaba.fastjson.annotation.JSONField
+[ERROR] ./fastjson/src/test/java/com/alibaba/json/bvt/JSONFieldDefaultValueTest.java:[68,43] cannot find symbol
+[ERROR]   symbol:   method defaultValue()
+[ERROR]   location: @interface com.alibaba.fastjson.annotation.JSONField
+[ERROR] ./fastjson/src/test/java/com/alibaba/json/bvt/JSONFieldDefaultValueTest.java:[70,43] cannot find symbol
+[ERROR]   symbol:   method defaultValue()
+[ERROR]   location: @interface com.alibaba.fastjson.annotation.JSONField
+[ERROR] ./fastjson/src/test/java/com/alibaba/json/bvt/JSONFieldDefaultValueTest.java:[72,43] cannot find symbol
+[ERROR]   symbol:   method defaultValue()
+[ERROR]   location: @interface com.alibaba.fastjson.annotation.JSONField
+[ERROR] ./fastjson/src/test/java/com/alibaba/json/bvt/JSONFieldDefaultValueTest.java:[74,43] cannot find symbol
+[ERROR]   symbol:   method defaultValue()
+[ERROR]   location: @interface com.alibaba.fastjson.annotation.JSONField
+[ERROR] ./fastjson/src/test/java/com/alibaba/json/bvt/JSONFieldDefaultValueTest.java:[77,43] cannot find symbol
+[ERROR]   symbol:   method defaultValue()
+[ERROR]   location: @interface com.alibaba.fastjson.annotation.JSONField
+[ERROR] ./fastjson/src/test/java/com/alibaba/json/bvt/JSONFieldDefaultValueTest.java:[79,43] cannot find symbol
+[ERROR]   symbol:   method defaultValue()
+[ERROR]   location: @interface com.alibaba.fastjson.annotation.JSONField
+[ERROR] ./fastjson/src/test/java/com/alibaba/json/bvt/JSONFieldDefaultValueTest.java:[81,43] cannot find symbol
+[ERROR]   symbol:   method defaultValue()
+[ERROR]   location: @interface com.alibaba.fastjson.annotation.JSONField
+[ERROR] ./fastjson/src/test/java/com/alibaba/json/bvt/JSONFieldDefaultValueTest.java:[83,43] cannot find symbol
+[ERROR]   symbol:   method defaultValue()
+[ERROR]   location: @interface com.alibaba.fastjson.annotation.JSONField
+[ERROR] ./fastjson/src/test/java/com/alibaba/json/bvt/JSONFieldDefaultValueTest.java:[85,43] cannot find symbol
+[ERROR]   symbol:   method defaultValue()
+[ERROR]   location: @interface com.alibaba.fastjson.annotation.JSONField
+[ERROR] ./fastjson/src/test/java/com/alibaba/json/bvt/JSONFieldDefaultValueTest.java:[87,43] cannot find symbol
+[ERROR]   symbol:   method defaultValue()
+[ERROR]   location: @interface com.alibaba.fastjson.annotation.JSONField
+[ERROR] ./fastjson/src/test/java/com/alibaba/json/bvt/JSONFieldDefaultValueTest.java:[89,43] cannot find symbol
+[ERROR]   symbol:   method defaultValue()
+[ERROR]   location: @interface com.alibaba.fastjson.annotation.JSONField
+[ERROR] ./fastjson/src/test/java/com/alibaba/json/bvt/JSONFieldDefaultValueTest.java:[91,43] cannot find symbol
+[ERROR]   symbol:   method defaultValue()
+[ERROR]   location: @interface com.alibaba.fastjson.annotation.JSONField
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException

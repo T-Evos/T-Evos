@@ -1,0 +1,88 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] -------------------< org.apache.commons:commons-csv >-------------------
+[INFO] Building Apache Commons CSV 1.1-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.6:clean (default-clean) @ commons-csv ---
+[INFO] Deleting ./commons-csv/target
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.3.1:enforce (enforce-maven-3) @ commons-csv ---
+[INFO] 
+[INFO] --- maven-antrun-plugin:1.7:run (javadoc.resources) @ commons-csv ---
+[INFO] Executing tasks
+
+main:
+     [copy] Copying 2 files to ./commons-csv/target/apidocs/META-INF
+[INFO] Executed tasks
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.5:process (default) @ commons-csv ---
+[INFO] 
+[INFO] --- buildnumber-maven-plugin:1.3:create (default) @ commons-csv ---
+[INFO] Executing: /bin/sh -c cd ./commons-csv && svn --non-interactive info
+[INFO] Working directory: ./commons-csv
+[INFO] Storing buildNumber: ?????? at timestamp: 1655774292472
+[INFO] Executing: /bin/sh -c cd ./commons-csv && svn --non-interactive info
+[INFO] Working directory: ./commons-csv
+[INFO] Storing buildScmBranch: UNKNOWN_BRANCH
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:resources (default-resources) @ commons-csv ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory ./commons-csv/src/main/resources
+[INFO] Copying 2 resources to META-INF
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.2:compile (default-compile) @ commons-csv ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 11 source files to ./commons-csv/target/classes
+[INFO] 
+[INFO] --- maven-bundle-plugin:2.5.3:manifest (bundle-manifest) @ commons-csv ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:testResources (default-testResources) @ commons-csv ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 14 resources
+[INFO] Copying 2 resources to META-INF
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.2:testCompile (default-testCompile) @ commons-csv ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 14 source files to ./commons-csv/target/test-classes
+[INFO] 
+[INFO] --- jacoco-maven-plugin:0.7.2.201409121644:prepare-agent (prepare-agent) @ commons-csv ---
+[INFO] argLine set to -javaagent:/home/ubuntu/.m2/repository/org/jacoco/org.jacoco.agent/0.7.2.201409121644/org.jacoco.agent-0.7.2.201409121644-runtime.jar=destfile=./commons-csv/target/jacoco.exec
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.17:test (default-test) @ commons-csv ---
+[INFO] Surefire report directory: ./commons-csv/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running org.apache.commons.csv.CSVFormatTest
+Tests run: 42, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.289 sec - in org.apache.commons.csv.CSVFormatTest
+Running org.apache.commons.csv.LexerTest
+Tests run: 26, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.048 sec - in org.apache.commons.csv.LexerTest
+Running org.apache.commons.csv.CSVRecordTest
+Tests run: 17, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.015 sec - in org.apache.commons.csv.CSVRecordTest
+Running org.apache.commons.csv.FercGovTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 sec - in org.apache.commons.csv.FercGovTest
+Running org.apache.commons.csv.AssertionsTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in org.apache.commons.csv.AssertionsTest
+Running org.apache.commons.csv.CSVFileParserTest
+Tests run: 12, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.049 sec - in org.apache.commons.csv.CSVFileParserTest
+Running org.apache.commons.csv.CSVPrinterTest
+Tests run: 43, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 3.676 sec - in org.apache.commons.csv.CSVPrinterTest
+Running org.apache.commons.csv.CSVParserTest
+Tests run: 62, Failures: 0, Errors: 0, Skipped: 3, Time elapsed: 0.066 sec - in org.apache.commons.csv.CSVParserTest
+Running org.apache.commons.csv.TokenMatchersTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 sec - in org.apache.commons.csv.TokenMatchersTest
+Running org.apache.commons.csv.ExtendedBufferedReaderTest
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.055 sec - in org.apache.commons.csv.ExtendedBufferedReaderTest
+
+Results :
+
+Tests run: 215, Failures: 0, Errors: 0, Skipped: 3
+
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  42.026 s
+[INFO] Finished at: 
+[INFO] ------------------------------------------------------------------------

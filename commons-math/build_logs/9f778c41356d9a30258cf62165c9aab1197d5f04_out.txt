@@ -1,0 +1,163 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ------------------< org.apache.commons:commons-math4 >------------------
+[INFO] Building Apache Commons Math 4.0-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:3.1.0:clean (default-clean) @ commons-math4 ---
+[INFO] Deleting ./commons-math/target
+[INFO] 
+[INFO] --- maven-enforcer-plugin:3.0.0-M2:enforce (enforce-maven-version) @ commons-math4 ---
+[INFO] 
+[INFO] --- maven-enforcer-plugin:3.0.0-M2:enforce (enforce-maven-3) @ commons-math4 ---
+[INFO] 
+[INFO] --- apache-rat-plugin:0.13:check (rat-check) @ commons-math4 ---
+[INFO] Enabled default license matchers.
+[INFO] Will parse SCM ignores for exclusions...
+[INFO] Parsing exclusions from ./commons-math/.gitignore
+[INFO] Finished adding exclusions from SCM ignore files.
+[INFO] 74 implicit excludes (use -debug for more details).
+[INFO] 35 explicit excludes (use -debug for more details).
+[INFO] 1318 resources included (use -debug for more details)
+[INFO] Rat check: Summary over all files. Unapproved: 0, unknown: 0, generated: 0, approved: 1290 licenses.
+[INFO] 
+[INFO] --- build-helper-maven-plugin:1.7:parse-version (parse-version) @ commons-math4 ---
+[INFO] 
+[INFO] --- maven-antrun-plugin:1.7:run (javadoc.resources) @ commons-math4 ---
+[INFO] Executing tasks
+
+main:
+     [copy] Copying 2 files to ./commons-math/target/apidocs/META-INF
+[INFO] Executed tasks
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.5:process (process-resource-bundles) @ commons-math4 ---
+[INFO] 
+[INFO] --- buildnumber-maven-plugin:1.4:create (default) @ commons-math4 ---
+[INFO] Executing: /bin/sh -c cd './commons-math' && 'git' 'rev-parse' '--verify' 'HEAD'
+[INFO] Working directory: ./commons-math
+[INFO] Storing buildNumber: 9f778c41356d9a30258cf62165c9aab1197d5f04 at timestamp: 
+[WARNING] Cannot get the branch information from the git repository: 
+Detecting the current branch failed: fatal: ref HEAD is not a symbolic ref
+
+[INFO] Executing: /bin/sh -c cd './commons-math' && 'git' 'rev-parse' '--verify' 'HEAD'
+[INFO] Working directory: ./commons-math
+[INFO] Storing buildScmBranch: UNKNOWN
+[INFO] 
+[INFO] --- maven-jgit-buildnumber-plugin:1.2.11:extract-buildnumber (default) @ commons-math4 ---
+[INFO] Git info extracted in 178ms, revision: '9f778c4', branch: '', tag: '', commitsCount: '6545', commitDate: '
+[INFO] 
+[INFO] --- maven-resources-plugin:3.1.0:resources (default-resources) @ commons-math4 ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 3 resources
+[INFO] Copying 2 resources to META-INF
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.1:compile (default-compile) @ commons-math4 ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 715 source files to ./commons-math/target/classes
+[INFO] ./commons-math/src/main/java/org/apache/commons/math4/field/linalg/FieldDenseMatrix.java: ./commons-math/src/main/java/org/apache/commons/math4/field/linalg/FieldDenseMatrix.java uses unchecked or unsafe operations.
+[INFO] ./commons-math/src/main/java/org/apache/commons/math4/field/linalg/FieldDenseMatrix.java: Recompile with -Xlint:unchecked for details.
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] ./commons-math/src/main/java/org/apache/commons/math4/distribution/EmpiricalDistribution.java:[33,50] cannot find symbol
+  symbol:   class ConstantContinuousDistribution
+  location: package org.apache.commons.statistics.distribution
+[ERROR] ./commons-math/src/main/java/org/apache/commons/math4/distribution/AbstractRealDistribution.java:[177,14] cannot find symbol
+  symbol:   method isSupportConnected()
+  location: class org.apache.commons.math4.distribution.AbstractRealDistribution
+[ERROR] ./commons-math/src/main/java/org/apache/commons/math4/distribution/AbstractRealDistribution.java:[216,5] method does not override or implement a method from a supertype
+[ERROR] ./commons-math/src/main/java/org/apache/commons/math4/stat/interval/ClopperPearsonInterval.java:[43,58] FDistribution(double,double) has private access in org.apache.commons.statistics.distribution.FDistribution
+[ERROR] ./commons-math/src/main/java/org/apache/commons/math4/stat/interval/ClopperPearsonInterval.java:[51,58] FDistribution(double,double) has private access in org.apache.commons.statistics.distribution.FDistribution
+[ERROR] ./commons-math/src/main/java/org/apache/commons/math4/stat/interval/WilsonScoreInterval.java:[35,55] NormalDistribution(double,double) has private access in org.apache.commons.statistics.distribution.NormalDistribution
+[ERROR] ./commons-math/src/main/java/org/apache/commons/math4/ml/neuralnet/FeatureInitializerFactory.java:[52,26] UniformContinuousDistribution(double,double) has private access in org.apache.commons.statistics.distribution.UniformContinuousDistribution
+[ERROR] ./commons-math/src/main/java/org/apache/commons/math4/stat/inference/TTest.java:[1060,44] org.apache.commons.statistics.distribution.TDistribution is abstract; cannot be instantiated
+[ERROR] ./commons-math/src/main/java/org/apache/commons/math4/stat/inference/TTest.java:[1090,44] org.apache.commons.statistics.distribution.TDistribution is abstract; cannot be instantiated
+[ERROR] ./commons-math/src/main/java/org/apache/commons/math4/stat/inference/TTest.java:[1120,44] org.apache.commons.statistics.distribution.TDistribution is abstract; cannot be instantiated
+[ERROR] ./commons-math/src/main/java/org/apache/commons/math4/stat/inference/ChiSquareTest.java:[160,13] ChiSquaredDistribution(double) has private access in org.apache.commons.statistics.distribution.ChiSquaredDistribution
+[ERROR] ./commons-math/src/main/java/org/apache/commons/math4/stat/inference/ChiSquareTest.java:[316,53] ChiSquaredDistribution(double) has private access in org.apache.commons.statistics.distribution.ChiSquaredDistribution
+[ERROR] ./commons-math/src/main/java/org/apache/commons/math4/stat/inference/ChiSquareTest.java:[513,17] ChiSquaredDistribution(double) has private access in org.apache.commons.statistics.distribution.ChiSquaredDistribution
+[ERROR] ./commons-math/src/main/java/org/apache/commons/math4/stat/inference/OneWayAnova.java:[130,37] FDistribution(double,double) has private access in org.apache.commons.statistics.distribution.FDistribution
+[ERROR] ./commons-math/src/main/java/org/apache/commons/math4/stat/inference/OneWayAnova.java:[172,37] FDistribution(double,double) has private access in org.apache.commons.statistics.distribution.FDistribution
+[ERROR] ./commons-math/src/main/java/org/apache/commons/math4/stat/inference/GTest.java:[157,17] ChiSquaredDistribution(double) has private access in org.apache.commons.statistics.distribution.ChiSquaredDistribution
+[ERROR] ./commons-math/src/main/java/org/apache/commons/math4/stat/inference/GTest.java:[188,17] ChiSquaredDistribution(double) has private access in org.apache.commons.statistics.distribution.ChiSquaredDistribution
+[ERROR] ./commons-math/src/main/java/org/apache/commons/math4/stat/inference/GTest.java:[478,17] ChiSquaredDistribution(double) has private access in org.apache.commons.statistics.distribution.ChiSquaredDistribution
+[ERROR] ./commons-math/src/main/java/org/apache/commons/math4/distribution/EnumeratedRealDistribution.java:[133,5] method does not override or implement a method from a supertype
+[ERROR] ./commons-math/src/main/java/org/apache/commons/math4/distribution/EnumeratedRealDistribution.java:[274,5] method does not override or implement a method from a supertype
+[ERROR] ./commons-math/src/main/java/org/apache/commons/math4/stat/regression/SimpleRegression.java:[700,38] org.apache.commons.statistics.distribution.TDistribution is abstract; cannot be instantiated
+[ERROR] ./commons-math/src/main/java/org/apache/commons/math4/stat/regression/SimpleRegression.java:[732,38] org.apache.commons.statistics.distribution.TDistribution is abstract; cannot be instantiated
+[ERROR] ./commons-math/src/main/java/org/apache/commons/math4/distribution/MultivariateNormalDistribution.java:[184,66] NormalDistribution(double,double) has private access in org.apache.commons.statistics.distribution.NormalDistribution
+[ERROR] ./commons-math/src/main/java/org/apache/commons/math4/optim/nonlinear/scalar/noderiv/CMAESOptimizer.java:[240,23] NormalDistribution(double,double) has private access in org.apache.commons.statistics.distribution.NormalDistribution
+[ERROR] ./commons-math/src/main/java/org/apache/commons/math4/stat/inference/BinomialTest.java:[122,51] BinomialDistribution(int,double) has private access in org.apache.commons.statistics.distribution.BinomialDistribution
+[ERROR] ./commons-math/src/main/java/org/apache/commons/math4/stat/interval/NormalApproximationInterval.java:[39,55] NormalDistribution(double,double) has private access in org.apache.commons.statistics.distribution.NormalDistribution
+[ERROR] ./commons-math/src/main/java/org/apache/commons/math4/stat/inference/MannWhitneyUTest.java:[184,51] NormalDistribution(double,double) has private access in org.apache.commons.statistics.distribution.NormalDistribution
+[ERROR] ./commons-math/src/main/java/org/apache/commons/math4/distribution/EnumeratedIntegerDistribution.java:[227,5] method does not override or implement a method from a supertype
+[ERROR] ./commons-math/src/main/java/org/apache/commons/math4/stat/interval/AgrestiCoullInterval.java:[37,55] NormalDistribution(double,double) has private access in org.apache.commons.statistics.distribution.NormalDistribution
+[ERROR] ./commons-math/src/main/java/org/apache/commons/math4/stat/inference/WilcoxonSignedRankTest.java:[256,51] NormalDistribution(double,double) has private access in org.apache.commons.statistics.distribution.NormalDistribution
+[ERROR] ./commons-math/src/main/java/org/apache/commons/math4/stat/correlation/PearsonsCorrelation.java:[195,39] org.apache.commons.statistics.distribution.TDistribution is abstract; cannot be instantiated
+[ERROR] ./commons-math/src/main/java/org/apache/commons/math4/distribution/EmpiricalDistribution.java:[555,31] cannot find symbol
+  symbol:   class ConstantContinuousDistribution
+  location: class org.apache.commons.math4.distribution.EmpiricalDistribution
+[ERROR] ./commons-math/src/main/java/org/apache/commons/math4/distribution/EmpiricalDistribution.java:[668,5] method does not override or implement a method from a supertype
+[ERROR] ./commons-math/src/main/java/org/apache/commons/math4/distribution/EmpiricalDistribution.java:[748,24] cannot find symbol
+  symbol:   class ConstantContinuousDistribution
+  location: class org.apache.commons.math4.distribution.EmpiricalDistribution
+[ERROR] ./commons-math/src/main/java/org/apache/commons/math4/distribution/EmpiricalDistribution.java:[750,20] NormalDistribution(double,double) has private access in org.apache.commons.statistics.distribution.NormalDistribution
+[INFO] 35 errors 
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  10.080 s
+[INFO] Finished at: 
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.8.1:compile (default-compile) on project commons-math4: Compilation failure: Compilation failure: 
+[ERROR] ./commons-math/src/main/java/org/apache/commons/math4/distribution/EmpiricalDistribution.java:[33,50] cannot find symbol
+[ERROR]   symbol:   class ConstantContinuousDistribution
+[ERROR]   location: package org.apache.commons.statistics.distribution
+[ERROR] ./commons-math/src/main/java/org/apache/commons/math4/distribution/AbstractRealDistribution.java:[177,14] cannot find symbol
+[ERROR]   symbol:   method isSupportConnected()
+[ERROR]   location: class org.apache.commons.math4.distribution.AbstractRealDistribution
+[ERROR] ./commons-math/src/main/java/org/apache/commons/math4/distribution/AbstractRealDistribution.java:[216,5] method does not override or implement a method from a supertype
+[ERROR] ./commons-math/src/main/java/org/apache/commons/math4/stat/interval/ClopperPearsonInterval.java:[43,58] FDistribution(double,double) has private access in org.apache.commons.statistics.distribution.FDistribution
+[ERROR] ./commons-math/src/main/java/org/apache/commons/math4/stat/interval/ClopperPearsonInterval.java:[51,58] FDistribution(double,double) has private access in org.apache.commons.statistics.distribution.FDistribution
+[ERROR] ./commons-math/src/main/java/org/apache/commons/math4/stat/interval/WilsonScoreInterval.java:[35,55] NormalDistribution(double,double) has private access in org.apache.commons.statistics.distribution.NormalDistribution
+[ERROR] ./commons-math/src/main/java/org/apache/commons/math4/ml/neuralnet/FeatureInitializerFactory.java:[52,26] UniformContinuousDistribution(double,double) has private access in org.apache.commons.statistics.distribution.UniformContinuousDistribution
+[ERROR] ./commons-math/src/main/java/org/apache/commons/math4/stat/inference/TTest.java:[1060,44] org.apache.commons.statistics.distribution.TDistribution is abstract; cannot be instantiated
+[ERROR] ./commons-math/src/main/java/org/apache/commons/math4/stat/inference/TTest.java:[1090,44] org.apache.commons.statistics.distribution.TDistribution is abstract; cannot be instantiated
+[ERROR] ./commons-math/src/main/java/org/apache/commons/math4/stat/inference/TTest.java:[1120,44] org.apache.commons.statistics.distribution.TDistribution is abstract; cannot be instantiated
+[ERROR] ./commons-math/src/main/java/org/apache/commons/math4/stat/inference/ChiSquareTest.java:[160,13] ChiSquaredDistribution(double) has private access in org.apache.commons.statistics.distribution.ChiSquaredDistribution
+[ERROR] ./commons-math/src/main/java/org/apache/commons/math4/stat/inference/ChiSquareTest.java:[316,53] ChiSquaredDistribution(double) has private access in org.apache.commons.statistics.distribution.ChiSquaredDistribution
+[ERROR] ./commons-math/src/main/java/org/apache/commons/math4/stat/inference/ChiSquareTest.java:[513,17] ChiSquaredDistribution(double) has private access in org.apache.commons.statistics.distribution.ChiSquaredDistribution
+[ERROR] ./commons-math/src/main/java/org/apache/commons/math4/stat/inference/OneWayAnova.java:[130,37] FDistribution(double,double) has private access in org.apache.commons.statistics.distribution.FDistribution
+[ERROR] ./commons-math/src/main/java/org/apache/commons/math4/stat/inference/OneWayAnova.java:[172,37] FDistribution(double,double) has private access in org.apache.commons.statistics.distribution.FDistribution
+[ERROR] ./commons-math/src/main/java/org/apache/commons/math4/stat/inference/GTest.java:[157,17] ChiSquaredDistribution(double) has private access in org.apache.commons.statistics.distribution.ChiSquaredDistribution
+[ERROR] ./commons-math/src/main/java/org/apache/commons/math4/stat/inference/GTest.java:[188,17] ChiSquaredDistribution(double) has private access in org.apache.commons.statistics.distribution.ChiSquaredDistribution
+[ERROR] ./commons-math/src/main/java/org/apache/commons/math4/stat/inference/GTest.java:[478,17] ChiSquaredDistribution(double) has private access in org.apache.commons.statistics.distribution.ChiSquaredDistribution
+[ERROR] ./commons-math/src/main/java/org/apache/commons/math4/distribution/EnumeratedRealDistribution.java:[133,5] method does not override or implement a method from a supertype
+[ERROR] ./commons-math/src/main/java/org/apache/commons/math4/distribution/EnumeratedRealDistribution.java:[274,5] method does not override or implement a method from a supertype
+[ERROR] ./commons-math/src/main/java/org/apache/commons/math4/stat/regression/SimpleRegression.java:[700,38] org.apache.commons.statistics.distribution.TDistribution is abstract; cannot be instantiated
+[ERROR] ./commons-math/src/main/java/org/apache/commons/math4/stat/regression/SimpleRegression.java:[732,38] org.apache.commons.statistics.distribution.TDistribution is abstract; cannot be instantiated
+[ERROR] ./commons-math/src/main/java/org/apache/commons/math4/distribution/MultivariateNormalDistribution.java:[184,66] NormalDistribution(double,double) has private access in org.apache.commons.statistics.distribution.NormalDistribution
+[ERROR] ./commons-math/src/main/java/org/apache/commons/math4/optim/nonlinear/scalar/noderiv/CMAESOptimizer.java:[240,23] NormalDistribution(double,double) has private access in org.apache.commons.statistics.distribution.NormalDistribution
+[ERROR] ./commons-math/src/main/java/org/apache/commons/math4/stat/inference/BinomialTest.java:[122,51] BinomialDistribution(int,double) has private access in org.apache.commons.statistics.distribution.BinomialDistribution
+[ERROR] ./commons-math/src/main/java/org/apache/commons/math4/stat/interval/NormalApproximationInterval.java:[39,55] NormalDistribution(double,double) has private access in org.apache.commons.statistics.distribution.NormalDistribution
+[ERROR] ./commons-math/src/main/java/org/apache/commons/math4/stat/inference/MannWhitneyUTest.java:[184,51] NormalDistribution(double,double) has private access in org.apache.commons.statistics.distribution.NormalDistribution
+[ERROR] ./commons-math/src/main/java/org/apache/commons/math4/distribution/EnumeratedIntegerDistribution.java:[227,5] method does not override or implement a method from a supertype
+[ERROR] ./commons-math/src/main/java/org/apache/commons/math4/stat/interval/AgrestiCoullInterval.java:[37,55] NormalDistribution(double,double) has private access in org.apache.commons.statistics.distribution.NormalDistribution
+[ERROR] ./commons-math/src/main/java/org/apache/commons/math4/stat/inference/WilcoxonSignedRankTest.java:[256,51] NormalDistribution(double,double) has private access in org.apache.commons.statistics.distribution.NormalDistribution
+[ERROR] ./commons-math/src/main/java/org/apache/commons/math4/stat/correlation/PearsonsCorrelation.java:[195,39] org.apache.commons.statistics.distribution.TDistribution is abstract; cannot be instantiated
+[ERROR] ./commons-math/src/main/java/org/apache/commons/math4/distribution/EmpiricalDistribution.java:[555,31] cannot find symbol
+[ERROR]   symbol:   class ConstantContinuousDistribution
+[ERROR]   location: class org.apache.commons.math4.distribution.EmpiricalDistribution
+[ERROR] ./commons-math/src/main/java/org/apache/commons/math4/distribution/EmpiricalDistribution.java:[668,5] method does not override or implement a method from a supertype
+[ERROR] ./commons-math/src/main/java/org/apache/commons/math4/distribution/EmpiricalDistribution.java:[748,24] cannot find symbol
+[ERROR]   symbol:   class ConstantContinuousDistribution
+[ERROR]   location: class org.apache.commons.math4.distribution.EmpiricalDistribution
+[ERROR] ./commons-math/src/main/java/org/apache/commons/math4/distribution/EmpiricalDistribution.java:[750,20] NormalDistribution(double,double) has private access in org.apache.commons.statistics.distribution.NormalDistribution
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException

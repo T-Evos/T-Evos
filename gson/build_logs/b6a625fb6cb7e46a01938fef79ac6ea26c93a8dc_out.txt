@@ -1,0 +1,49 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ---------------------< com.google.code.gson:gson >----------------------
+[INFO] Building Gson 2.3.1-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ gson ---
+[INFO] Deleting ./gson/gson/target
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.2:enforce (enforce-maven) @ gson ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ gson ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory ./gson/gson/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.2:compile (default-compile) @ gson ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 66 source files to ./gson/gson/target/classes
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] ./gson/gson/src/main/java/com/google/gson/Gson.java:[26,37] cannot find symbol
+  symbol:   class ThrowableTypeAdapterFactory
+  location: package com.google.gson.internal.bind
+[ERROR] ./gson/gson/src/main/java/com/google/gson/Gson.java:[243,23] cannot find symbol
+  symbol:   class ThrowableTypeAdapterFactory
+  location: class com.google.gson.Gson
+[INFO] 2 errors 
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  2.297 s
+[INFO] Finished at: 
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.2:compile (default-compile) on project gson: Compilation failure: Compilation failure: 
+[ERROR] ./gson/gson/src/main/java/com/google/gson/Gson.java:[26,37] cannot find symbol
+[ERROR]   symbol:   class ThrowableTypeAdapterFactory
+[ERROR]   location: package com.google.gson.internal.bind
+[ERROR] ./gson/gson/src/main/java/com/google/gson/Gson.java:[243,23] cannot find symbol
+[ERROR]   symbol:   class ThrowableTypeAdapterFactory
+[ERROR]   location: class com.google.gson.Gson
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException

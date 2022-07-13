@@ -1,0 +1,33 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] --------------------------< org.jsoup:jsoup >---------------------------
+[INFO] Building jsoup 1.7.4-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ jsoup ---
+[INFO] Deleting ./jsoup/target
+[INFO] 
+[INFO] --- maven-resources-plugin:2.4:resources (default-resources) @ jsoup ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 2 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.0.2:compile (default-compile) @ jsoup ---
+[INFO] Compiling 53 source files to ./jsoup/target/classes
+[INFO] 
+[INFO] --- animal-sniffer-maven-plugin:1.9:check (animal-sniffer) @ jsoup ---
+[INFO] Checking unresolved references to org.codehaus.mojo.signature:java15:1.0
+[ERROR] ./jsoup/src/main/java/org/jsoup/nodes/Element.java:456: Undefined reference: boolean String.isEmpty()
+[ERROR] ./jsoup/src/main/java/org/jsoup/nodes/Element.java:461: Undefined reference: boolean String.isEmpty()
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  3.682 s
+[INFO] Finished at: 
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.codehaus.mojo:animal-sniffer-maven-plugin:1.9:check (animal-sniffer) on project jsoup: Signature errors found. Verify them and put @IgnoreJRERequirement on them. -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException

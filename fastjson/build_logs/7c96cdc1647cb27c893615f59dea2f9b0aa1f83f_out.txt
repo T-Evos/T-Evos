@@ -1,0 +1,346 @@
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.alibaba:fastjson:jar:1.2.69
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-gpg-plugin is missing. @ line 180, column 21
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-surefire-plugin is missing. @ line 148, column 21
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-source-plugin is missing. @ line 132, column 21
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-javadoc-plugin is missing. @ line 158, column 21
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO] 
+[INFO] ------------------------< com.alibaba:fastjson >------------------------
+[INFO] Building fastjson 1.2.69
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ fastjson ---
+[INFO] Deleting ./fastjson/target
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ fastjson ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 6 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.0:compile (default-compile) @ fastjson ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 188 source files to ./fastjson/target/classes
+[INFO] ./fastjson/src/main/java/com/alibaba/fastjson/JSON.java: Some input files use or override a deprecated API.
+[INFO] ./fastjson/src/main/java/com/alibaba/fastjson/JSON.java: Recompile with -Xlint:deprecation for details.
+[INFO] ./fastjson/src/main/java/com/alibaba/fastjson/JSON.java: Some input files use unchecked or unsafe operations.
+[INFO] ./fastjson/src/main/java/com/alibaba/fastjson/JSON.java: Recompile with -Xlint:unchecked for details.
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ fastjson ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 98 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.0:testCompile (default-testCompile) @ fastjson ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 2711 source files to ./fastjson/target/test-classes
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] ./fastjson/src/test/java/com/alibaba/json/bvt/serializer/filters/PropertyPathTest3.java:[7,23] package junit.framework does not exist
+[ERROR] ./fastjson/src/test/java/com/alibaba/json/bvt/serializer/filters/PropertyPathTest3.java:[8,17] package org.junit does not exist
+[ERROR] ./fastjson/src/test/java/com/alibaba/json/bvt/serializer/filters/PropertyPathTest3.java:[15,40] cannot find symbol
+  symbol: class TestCase
+[ERROR] ./fastjson/src/test/java/com/alibaba/json/bvt/path/JSONPath_containsValue_double.java:[3,17] package org.junit does not exist
+[ERROR] ./fastjson/src/test/java/com/alibaba/json/bvt/path/JSONPath_containsValue_double.java:[7,23] package junit.framework does not exist
+[ERROR] ./fastjson/src/test/java/com/alibaba/json/bvt/path/JSONPath_containsValue_double.java:[9,52] cannot find symbol
+  symbol: class TestCase
+[ERROR] ./fastjson/src/test/java/com/alibaba/json/bvt/issue_2300/Issue2346.java:[6,23] package junit.framework does not exist
+[ERROR] ./fastjson/src/test/java/com/alibaba/json/bvt/issue_2300/Issue2346.java:[7,14] package lombok does not exist
+[ERROR] ./fastjson/src/test/java/com/alibaba/json/bvt/issue_2300/Issue2346.java:[8,14] package lombok does not exist
+[ERROR] ./fastjson/src/test/java/com/alibaba/json/bvt/issue_2300/Issue2346.java:[10,32] cannot find symbol
+  symbol: class TestCase
+[ERROR] ./fastjson/src/test/java/com/alibaba/json/bvt/issue_2300/Issue2346.java:[17,6] cannot find symbol
+  symbol:   class Builder
+  location: class com.alibaba.json.bvt.issue_2300.Issue2346
+[ERROR] ./fastjson/src/test/java/com/alibaba/json/bvt/issue_2300/Issue2346.java:[18,6] cannot find symbol
+  symbol:   class Getter
+  location: class com.alibaba.json.bvt.issue_2300.Issue2346
+[ERROR] ./fastjson/src/test/java/com/alibaba/json/bvt/issue_2300/Issue2346.java:[32,6] cannot find symbol
+  symbol:   class Getter
+  location: class com.alibaba.json.bvt.issue_2300.Issue2346
+[ERROR] ./fastjson/src/test/java/com/alibaba/json/bvt/issue_2300/Issue2346.java:[59,6] cannot find symbol
+  symbol:   class Getter
+  location: class com.alibaba.json.bvt.issue_2300.Issue2346
+[ERROR] ./fastjson/src/test/java/com/alibaba/json/bvt/bug/Issue169.java:[6,23] package junit.framework does not exist
+[ERROR] ./fastjson/src/test/java/com/alibaba/json/bvt/bug/Issue169.java:[8,17] package org.junit does not exist
+[ERROR] ./fastjson/src/test/java/com/alibaba/json/bvt/bug/Issue169.java:[13,31] cannot find symbol
+  symbol: class TestCase
+[ERROR] ./fastjson/src/test/java/com/alibaba/json/bvt/bug/Bug_101_for_rongganlin_case2.java:[6,17] package org.junit does not exist
+[ERROR] ./fastjson/src/test/java/com/alibaba/json/bvt/bug/Bug_101_for_rongganlin_case2.java:[7,23] package junit.framework does not exist
+[ERROR] ./fastjson/src/test/java/com/alibaba/json/bvt/bug/Bug_101_for_rongganlin_case2.java:[11,51] cannot find symbol
+  symbol: class TestCase
+[ERROR] ./fastjson/src/test/java/com/alibaba/json/test/performance/ObjectEncodePerformanceTest.java:[10,23] package junit.framework does not exist
+[ERROR] ./fastjson/src/test/java/com/alibaba/json/test/performance/ObjectEncodePerformanceTest.java:[20,50] cannot find symbol
+  symbol: class TestCase
+[ERROR] ./fastjson/src/test/java/com/alibaba/json/bvt/serializer/filters/PropertyPreFilterClassLevelTest.java:[3,17] package org.junit does not exist
+[ERROR] ./fastjson/src/test/java/com/alibaba/json/bvt/serializer/filters/PropertyPreFilterClassLevelTest.java:[9,23] package junit.framework does not exist
+[ERROR] ./fastjson/src/test/java/com/alibaba/json/bvt/serializer/filters/PropertyPreFilterClassLevelTest.java:[11,54] cannot find symbol
+  symbol: class TestCase
+[ERROR] ./fastjson/src/test/java/com/alibaba/json/bvt/stream/JSONWriterTest_1.java:[5,23] package junit.framework does not exist
+[ERROR] ./fastjson/src/test/java/com/alibaba/json/bvt/stream/JSONWriterTest_1.java:[7,17] package org.junit does not exist
+[ERROR] ./fastjson/src/test/java/com/alibaba/json/bvt/stream/JSONWriterTest_1.java:[11,39] cannot find symbol
+  symbol: class TestCase
+[ERROR] ./fastjson/src/test/java/com/alibaba/json/bvt/bug/Bug_for_rd.java:[5,23] package junit.framework does not exist
+[ERROR] ./fastjson/src/test/java/com/alibaba/json/bvt/bug/Bug_for_rd.java:[9,33] cannot find symbol
+  symbol: class TestCase
+[ERROR] ./fastjson/src/test/java/com/alibaba/json/bvt/issue_1400/Issue1425.java:[5,23] package junit.framework does not exist
+[ERROR] ./fastjson/src/test/java/com/alibaba/json/bvt/issue_1400/Issue1425.java:[7,32] cannot find symbol
+  symbol: class TestCase
+[ERROR] ./fastjson/src/test/java/com/alibaba/json/bvt/bug/Bug_for_dubbo.java:[4,17] package org.junit does not exist
+[ERROR] ./fastjson/src/test/java/com/alibaba/json/bvt/bug/Bug_for_dubbo.java:[5,23] package junit.framework does not exist
+[ERROR] ./fastjson/src/test/java/com/alibaba/json/bvt/bug/Bug_for_dubbo.java:[14,36] cannot find symbol
+  symbol: class TestCase
+[ERROR] ./fastjson/src/test/java/com/alibaba/json/bvt/ref/RefTest2.java:[3,23] package junit.framework does not exist
+[ERROR] ./fastjson/src/test/java/com/alibaba/json/bvt/ref/RefTest2.java:[5,17] package org.junit does not exist
+[ERROR] ./fastjson/src/test/java/com/alibaba/json/bvt/ref/RefTest2.java:[9,31] cannot find symbol
+  symbol: class TestCase
+[ERROR] ./fastjson/src/test/java/com/alibaba/json/bvt/serializer/TestSpecial6.java:[4,23] package junit.framework does not exist
+[ERROR] ./fastjson/src/test/java/com/alibaba/json/bvt/serializer/TestSpecial6.java:[5,17] package org.junit does not exist
+[ERROR] ./fastjson/src/test/java/com/alibaba/json/bvt/serializer/TestSpecial6.java:[7,35] cannot find symbol
+  symbol: class TestCase
+[ERROR] ./fastjson/src/test/java/com/alibaba/json/bvt/bug/Bug_for_issue_330.java:[3,17] package org.junit does not exist
+[ERROR] ./fastjson/src/test/java/com/alibaba/json/bvt/bug/Bug_for_issue_330.java:[10,23] package junit.framework does not exist
+[ERROR] ./fastjson/src/test/java/com/alibaba/json/bvt/bug/Bug_for_issue_330.java:[12,40] cannot find symbol
+  symbol: class TestCase
+[ERROR] ./fastjson/src/test/java/com/alibaba/json/test/epubview/TestKlutz.java:[7,23] package junit.framework does not exist
+[ERROR] ./fastjson/src/test/java/com/alibaba/json/test/epubview/TestKlutz.java:[12,34] package com.fasterxml.jackson.core does not exist
+[ERROR] ./fastjson/src/test/java/com/alibaba/json/test/epubview/TestKlutz.java:[13,34] package com.fasterxml.jackson.core does not exist
+[ERROR] ./fastjson/src/test/java/com/alibaba/json/test/epubview/TestKlutz.java:[14,38] package com.fasterxml.jackson.databind does not exist
+[ERROR] ./fastjson/src/test/java/com/alibaba/json/test/epubview/TestKlutz.java:[15,38] package com.fasterxml.jackson.databind does not exist
+[ERROR] ./fastjson/src/test/java/com/alibaba/json/test/epubview/TestKlutz.java:[16,23] package com.google.gson does not exist
+[ERROR] ./fastjson/src/test/java/com/alibaba/json/test/epubview/TestKlutz.java:[18,32] cannot find symbol
+  symbol: class TestCase
+[ERROR] ./fastjson/src/test/java/com/alibaba/json/test/epubview/TestKlutz.java:[22,5] cannot find symbol
+  symbol:   class ObjectMapper
+  location: class com.alibaba.json.test.epubview.TestKlutz
+[ERROR] ./fastjson/src/test/java/com/alibaba/json/test/epubview/TestKlutz.java:[23,5] cannot find symbol
+  symbol:   class Gson
+  location: class com.alibaba.json.test.epubview.TestKlutz
+[ERROR] ./fastjson/src/test/java/com/alibaba/json/bvt/issue_1700/Issue1780_Module.java:[6,17] package org.junit does not exist
+[ERROR] ./fastjson/src/test/java/com/alibaba/json/bvt/issue_1700/Issue1780_Module.java:[16,23] package junit.framework does not exist
+[ERROR] ./fastjson/src/test/java/com/alibaba/json/bvt/issue_1700/Issue1780_Module.java:[18,39] cannot find symbol
+  symbol: class TestCase
+[ERROR] ./fastjson/src/test/java/com/alibaba/json/bvt/parser/AutoTypeCheckHandlerTest.java:[6,23] package junit.framework does not exist
+[ERROR] ./fastjson/src/test/java/com/alibaba/json/bvt/parser/AutoTypeCheckHandlerTest.java:[8,47] cannot find symbol
+  symbol: class TestCase
+[ERROR] ./fastjson/src/test/java/com/alibaba/json/test/tmall/TmallTest.java:[6,23] package junit.framework does not exist
+[ERROR] ./fastjson/src/test/java/com/alibaba/json/test/tmall/TmallTest.java:[14,32] cannot find symbol
+  symbol: class TestCase
+[ERROR] ./fastjson/src/test/java/com/alibaba/json/bvt/kotlin/DataClassTest.java:[4,23] package junit.framework does not exist
+[ERROR] ./fastjson/src/test/java/com/alibaba/json/bvt/kotlin/DataClassTest.java:[5,29] package org.apache.commons.io does not exist
+[ERROR] ./fastjson/src/test/java/com/alibaba/json/bvt/kotlin/DataClassTest.java:[13,36] cannot find symbol
+  symbol: class TestCase
+[ERROR] ./fastjson/src/test/java/com/alibaba/json/bvt/path/JSONPath_set_test5.java:[6,17] package org.junit does not exist
+[ERROR] ./fastjson/src/test/java/com/alibaba/json/bvt/path/JSONPath_set_test5.java:[11,23] package junit.framework does not exist
+[ERROR] ./fastjson/src/test/java/com/alibaba/json/bvt/path/JSONPath_set_test5.java:[13,41] cannot find symbol
+  symbol: class TestCase
+[ERROR] ./fastjson/src/test/java/com/alibaba/json/bvt/parser/deser/arraymapping/ArrayMapping_long.java:[3,17] package org.junit does not exist
+[ERROR] ./fastjson/src/test/java/com/alibaba/json/bvt/parser/deser/arraymapping/ArrayMapping_long.java:[8,23] package junit.framework does not exist
+[ERROR] ./fastjson/src/test/java/com/alibaba/json/bvt/parser/deser/arraymapping/ArrayMapping_long.java:[10,40] cannot find symbol
+  symbol: class TestCase
+[ERROR] ./fastjson/src/test/java/com/alibaba/json/demo/hibernate/data/OrderDetailId.java:[4,25] package javax.persistence does not exist
+[ERROR] ./fastjson/src/test/java/com/alibaba/json/demo/hibernate/data/OrderDetailId.java:[5,25] package javax.persistence does not exist
+[ERROR] ./fastjson/src/test/java/com/alibaba/json/demo/hibernate/data/OrderDetailId.java:[8,2] cannot find symbol
+  symbol: class Embeddable
+[ERROR] ./fastjson/src/test/java/com/alibaba/json/bvt/ref/RefTest12.java:[3,17] package org.junit does not exist
+[ERROR] ./fastjson/src/test/java/com/alibaba/json/bvt/ref/RefTest12.java:[4,23] package junit.framework does not exist
+[ERROR] ./fastjson/src/test/java/com/alibaba/json/bvt/ref/RefTest12.java:[11,32] cannot find symbol
+  symbol: class TestCase
+[ERROR] ./fastjson/src/test/java/com/alibaba/json/bvt/JSONTypeTest.java:[3,17] package org.junit does not exist
+[ERROR] ./fastjson/src/test/java/com/alibaba/json/bvt/JSONTypeTest.java:[4,23] package junit.framework does not exist
+[ERROR] ./fastjson/src/test/java/com/alibaba/json/bvt/JSONTypeTest.java:[9,35] cannot find symbol
+  symbol: class TestCase
+[ERROR] ./fastjson/src/test/java/com/alibaba/json/bvt/typeRef/TypeReferenceTest9.java:[5,17] package org.junit does not exist
+[ERROR] ./fastjson/src/test/java/com/alibaba/json/bvt/typeRef/TypeReferenceTest9.java:[6,23] package junit.framework does not exist
+[ERROR] ./fastjson/src/test/java/com/alibaba/json/bvt/typeRef/TypeReferenceTest9.java:[11,41] cannot find symbol
+  symbol: class TestCase
+[ERROR] ./fastjson/src/test/java/com/alibaba/json/bvt/jdk8/OptionalDouble_Test.java:[5,17] package org.junit does not exist
+[ERROR] ./fastjson/src/test/java/com/alibaba/json/bvt/jdk8/OptionalDouble_Test.java:[9,23] package junit.framework does not exist
+[ERROR] ./fastjson/src/test/java/com/alibaba/json/bvt/jdk8/OptionalDouble_Test.java:[11,42] cannot find symbol
+  symbol: class TestCase
+[ERROR] ./fastjson/src/test/java/com/alibaba/json/bvt/util/AntiCollisionHashMapTest.java:[5,23] package junit.framework does not exist
+[ERROR] ./fastjson/src/test/java/com/alibaba/json/bvt/util/AntiCollisionHashMapTest.java:[14,47] cannot find symbol
+  symbol: class TestCase
+[ERROR] ./fastjson/src/test/java/com/alibaba/json/bvt/issue_1100/Issue1151.java:[5,23] package junit.framework does not exist
+[ERROR] ./fastjson/src/test/java/com/alibaba/json/bvt/issue_1100/Issue1151.java:[13,32] cannot find symbol
+  symbol: class TestCase
+[ERROR] ./fastjson/src/test/java/com/alibaba/json/bvt/parser/deser/array/FieldFloatArrayTest_private.java:[4,23] package junit.framework does not exist
+[ERROR] ./fastjson/src/test/java/com/alibaba/json/bvt/parser/deser/array/FieldFloatArrayTest_private.java:[9,50] cannot find symbol
+  symbol: class TestCase
+[ERROR] ./fastjson/src/test/java/com/alibaba/json/test/generic/GenericTypeTest.java:[4,17] package org.junit does not exist
+[ERROR] ./fastjson/src/test/java/com/alibaba/json/test/generic/GenericTypeTest.java:[6,23] package junit.framework does not exist
+[ERROR] ./fastjson/src/test/java/com/alibaba/json/test/generic/GenericTypeTest.java:[7,23] package junit.framework does not exist
+[ERROR] ./fastjson/src/test/java/com/alibaba/json/test/generic/GenericTypeTest.java:[12,38] cannot find symbol
+  symbol: class TestCase
+[ERROR] ./fastjson/src/test/java/com/alibaba/json/bvt/parser/MapResetTest.java:[3,23] package junit.framework does not exist
+[ERROR] ./fastjson/src/test/java/com/alibaba/json/bvt/parser/MapResetTest.java:[7,35] cannot find symbol
+  symbol: class TestCase
+[ERROR] ./fastjson/src/test/java/com/alibaba/json/bvt/JSONObjectTest5.java:[6,23] package junit.framework does not exist
+[ERROR] ./fastjson/src/test/java/com/alibaba/json/bvt/JSONObjectTest5.java:[7,17] package org.junit does not exist
+[ERROR] ./fastjson/src/test/java/com/alibaba/json/bvt/JSONObjectTest5.java:[9,38] cannot find symbol
+  symbol: class TestCase
+[ERROR] ./fastjson/src/test/java/com/alibaba/json/bvt/serializer/CharsetTest.java:[5,17] package org.junit does not exist
+[INFO] 100 errors 
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  10.963 s
+[INFO] Finished at: 
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.8.0:testCompile (default-testCompile) on project fastjson: Compilation failure: Compilation failure: 
+[ERROR] ./fastjson/src/test/java/com/alibaba/json/bvt/serializer/filters/PropertyPathTest3.java:[7,23] package junit.framework does not exist
+[ERROR] ./fastjson/src/test/java/com/alibaba/json/bvt/serializer/filters/PropertyPathTest3.java:[8,17] package org.junit does not exist
+[ERROR] ./fastjson/src/test/java/com/alibaba/json/bvt/serializer/filters/PropertyPathTest3.java:[15,40] cannot find symbol
+[ERROR]   symbol: class TestCase
+[ERROR] ./fastjson/src/test/java/com/alibaba/json/bvt/path/JSONPath_containsValue_double.java:[3,17] package org.junit does not exist
+[ERROR] ./fastjson/src/test/java/com/alibaba/json/bvt/path/JSONPath_containsValue_double.java:[7,23] package junit.framework does not exist
+[ERROR] ./fastjson/src/test/java/com/alibaba/json/bvt/path/JSONPath_containsValue_double.java:[9,52] cannot find symbol
+[ERROR]   symbol: class TestCase
+[ERROR] ./fastjson/src/test/java/com/alibaba/json/bvt/issue_2300/Issue2346.java:[6,23] package junit.framework does not exist
+[ERROR] ./fastjson/src/test/java/com/alibaba/json/bvt/issue_2300/Issue2346.java:[7,14] package lombok does not exist
+[ERROR] ./fastjson/src/test/java/com/alibaba/json/bvt/issue_2300/Issue2346.java:[8,14] package lombok does not exist
+[ERROR] ./fastjson/src/test/java/com/alibaba/json/bvt/issue_2300/Issue2346.java:[10,32] cannot find symbol
+[ERROR]   symbol: class TestCase
+[ERROR] ./fastjson/src/test/java/com/alibaba/json/bvt/issue_2300/Issue2346.java:[17,6] cannot find symbol
+[ERROR]   symbol:   class Builder
+[ERROR]   location: class com.alibaba.json.bvt.issue_2300.Issue2346
+[ERROR] ./fastjson/src/test/java/com/alibaba/json/bvt/issue_2300/Issue2346.java:[18,6] cannot find symbol
+[ERROR]   symbol:   class Getter
+[ERROR]   location: class com.alibaba.json.bvt.issue_2300.Issue2346
+[ERROR] ./fastjson/src/test/java/com/alibaba/json/bvt/issue_2300/Issue2346.java:[32,6] cannot find symbol
+[ERROR]   symbol:   class Getter
+[ERROR]   location: class com.alibaba.json.bvt.issue_2300.Issue2346
+[ERROR] ./fastjson/src/test/java/com/alibaba/json/bvt/issue_2300/Issue2346.java:[59,6] cannot find symbol
+[ERROR]   symbol:   class Getter
+[ERROR]   location: class com.alibaba.json.bvt.issue_2300.Issue2346
+[ERROR] ./fastjson/src/test/java/com/alibaba/json/bvt/bug/Issue169.java:[6,23] package junit.framework does not exist
+[ERROR] ./fastjson/src/test/java/com/alibaba/json/bvt/bug/Issue169.java:[8,17] package org.junit does not exist
+[ERROR] ./fastjson/src/test/java/com/alibaba/json/bvt/bug/Issue169.java:[13,31] cannot find symbol
+[ERROR]   symbol: class TestCase
+[ERROR] ./fastjson/src/test/java/com/alibaba/json/bvt/bug/Bug_101_for_rongganlin_case2.java:[6,17] package org.junit does not exist
+[ERROR] ./fastjson/src/test/java/com/alibaba/json/bvt/bug/Bug_101_for_rongganlin_case2.java:[7,23] package junit.framework does not exist
+[ERROR] ./fastjson/src/test/java/com/alibaba/json/bvt/bug/Bug_101_for_rongganlin_case2.java:[11,51] cannot find symbol
+[ERROR]   symbol: class TestCase
+[ERROR] ./fastjson/src/test/java/com/alibaba/json/test/performance/ObjectEncodePerformanceTest.java:[10,23] package junit.framework does not exist
+[ERROR] ./fastjson/src/test/java/com/alibaba/json/test/performance/ObjectEncodePerformanceTest.java:[20,50] cannot find symbol
+[ERROR]   symbol: class TestCase
+[ERROR] ./fastjson/src/test/java/com/alibaba/json/bvt/serializer/filters/PropertyPreFilterClassLevelTest.java:[3,17] package org.junit does not exist
+[ERROR] ./fastjson/src/test/java/com/alibaba/json/bvt/serializer/filters/PropertyPreFilterClassLevelTest.java:[9,23] package junit.framework does not exist
+[ERROR] ./fastjson/src/test/java/com/alibaba/json/bvt/serializer/filters/PropertyPreFilterClassLevelTest.java:[11,54] cannot find symbol
+[ERROR]   symbol: class TestCase
+[ERROR] ./fastjson/src/test/java/com/alibaba/json/bvt/stream/JSONWriterTest_1.java:[5,23] package junit.framework does not exist
+[ERROR] ./fastjson/src/test/java/com/alibaba/json/bvt/stream/JSONWriterTest_1.java:[7,17] package org.junit does not exist
+[ERROR] ./fastjson/src/test/java/com/alibaba/json/bvt/stream/JSONWriterTest_1.java:[11,39] cannot find symbol
+[ERROR]   symbol: class TestCase
+[ERROR] ./fastjson/src/test/java/com/alibaba/json/bvt/bug/Bug_for_rd.java:[5,23] package junit.framework does not exist
+[ERROR] ./fastjson/src/test/java/com/alibaba/json/bvt/bug/Bug_for_rd.java:[9,33] cannot find symbol
+[ERROR]   symbol: class TestCase
+[ERROR] ./fastjson/src/test/java/com/alibaba/json/bvt/issue_1400/Issue1425.java:[5,23] package junit.framework does not exist
+[ERROR] ./fastjson/src/test/java/com/alibaba/json/bvt/issue_1400/Issue1425.java:[7,32] cannot find symbol
+[ERROR]   symbol: class TestCase
+[ERROR] ./fastjson/src/test/java/com/alibaba/json/bvt/bug/Bug_for_dubbo.java:[4,17] package org.junit does not exist
+[ERROR] ./fastjson/src/test/java/com/alibaba/json/bvt/bug/Bug_for_dubbo.java:[5,23] package junit.framework does not exist
+[ERROR] ./fastjson/src/test/java/com/alibaba/json/bvt/bug/Bug_for_dubbo.java:[14,36] cannot find symbol
+[ERROR]   symbol: class TestCase
+[ERROR] ./fastjson/src/test/java/com/alibaba/json/bvt/ref/RefTest2.java:[3,23] package junit.framework does not exist
+[ERROR] ./fastjson/src/test/java/com/alibaba/json/bvt/ref/RefTest2.java:[5,17] package org.junit does not exist
+[ERROR] ./fastjson/src/test/java/com/alibaba/json/bvt/ref/RefTest2.java:[9,31] cannot find symbol
+[ERROR]   symbol: class TestCase
+[ERROR] ./fastjson/src/test/java/com/alibaba/json/bvt/serializer/TestSpecial6.java:[4,23] package junit.framework does not exist
+[ERROR] ./fastjson/src/test/java/com/alibaba/json/bvt/serializer/TestSpecial6.java:[5,17] package org.junit does not exist
+[ERROR] ./fastjson/src/test/java/com/alibaba/json/bvt/serializer/TestSpecial6.java:[7,35] cannot find symbol
+[ERROR]   symbol: class TestCase
+[ERROR] ./fastjson/src/test/java/com/alibaba/json/bvt/bug/Bug_for_issue_330.java:[3,17] package org.junit does not exist
+[ERROR] ./fastjson/src/test/java/com/alibaba/json/bvt/bug/Bug_for_issue_330.java:[10,23] package junit.framework does not exist
+[ERROR] ./fastjson/src/test/java/com/alibaba/json/bvt/bug/Bug_for_issue_330.java:[12,40] cannot find symbol
+[ERROR]   symbol: class TestCase
+[ERROR] ./fastjson/src/test/java/com/alibaba/json/test/epubview/TestKlutz.java:[7,23] package junit.framework does not exist
+[ERROR] ./fastjson/src/test/java/com/alibaba/json/test/epubview/TestKlutz.java:[12,34] package com.fasterxml.jackson.core does not exist
+[ERROR] ./fastjson/src/test/java/com/alibaba/json/test/epubview/TestKlutz.java:[13,34] package com.fasterxml.jackson.core does not exist
+[ERROR] ./fastjson/src/test/java/com/alibaba/json/test/epubview/TestKlutz.java:[14,38] package com.fasterxml.jackson.databind does not exist
+[ERROR] ./fastjson/src/test/java/com/alibaba/json/test/epubview/TestKlutz.java:[15,38] package com.fasterxml.jackson.databind does not exist
+[ERROR] ./fastjson/src/test/java/com/alibaba/json/test/epubview/TestKlutz.java:[16,23] package com.google.gson does not exist
+[ERROR] ./fastjson/src/test/java/com/alibaba/json/test/epubview/TestKlutz.java:[18,32] cannot find symbol
+[ERROR]   symbol: class TestCase
+[ERROR] ./fastjson/src/test/java/com/alibaba/json/test/epubview/TestKlutz.java:[22,5] cannot find symbol
+[ERROR]   symbol:   class ObjectMapper
+[ERROR]   location: class com.alibaba.json.test.epubview.TestKlutz
+[ERROR] ./fastjson/src/test/java/com/alibaba/json/test/epubview/TestKlutz.java:[23,5] cannot find symbol
+[ERROR]   symbol:   class Gson
+[ERROR]   location: class com.alibaba.json.test.epubview.TestKlutz
+[ERROR] ./fastjson/src/test/java/com/alibaba/json/bvt/issue_1700/Issue1780_Module.java:[6,17] package org.junit does not exist
+[ERROR] ./fastjson/src/test/java/com/alibaba/json/bvt/issue_1700/Issue1780_Module.java:[16,23] package junit.framework does not exist
+[ERROR] ./fastjson/src/test/java/com/alibaba/json/bvt/issue_1700/Issue1780_Module.java:[18,39] cannot find symbol
+[ERROR]   symbol: class TestCase
+[ERROR] ./fastjson/src/test/java/com/alibaba/json/bvt/parser/AutoTypeCheckHandlerTest.java:[6,23] package junit.framework does not exist
+[ERROR] ./fastjson/src/test/java/com/alibaba/json/bvt/parser/AutoTypeCheckHandlerTest.java:[8,47] cannot find symbol
+[ERROR]   symbol: class TestCase
+[ERROR] ./fastjson/src/test/java/com/alibaba/json/test/tmall/TmallTest.java:[6,23] package junit.framework does not exist
+[ERROR] ./fastjson/src/test/java/com/alibaba/json/test/tmall/TmallTest.java:[14,32] cannot find symbol
+[ERROR]   symbol: class TestCase
+[ERROR] ./fastjson/src/test/java/com/alibaba/json/bvt/kotlin/DataClassTest.java:[4,23] package junit.framework does not exist
+[ERROR] ./fastjson/src/test/java/com/alibaba/json/bvt/kotlin/DataClassTest.java:[5,29] package org.apache.commons.io does not exist
+[ERROR] ./fastjson/src/test/java/com/alibaba/json/bvt/kotlin/DataClassTest.java:[13,36] cannot find symbol
+[ERROR]   symbol: class TestCase
+[ERROR] ./fastjson/src/test/java/com/alibaba/json/bvt/path/JSONPath_set_test5.java:[6,17] package org.junit does not exist
+[ERROR] ./fastjson/src/test/java/com/alibaba/json/bvt/path/JSONPath_set_test5.java:[11,23] package junit.framework does not exist
+[ERROR] ./fastjson/src/test/java/com/alibaba/json/bvt/path/JSONPath_set_test5.java:[13,41] cannot find symbol
+[ERROR]   symbol: class TestCase
+[ERROR] ./fastjson/src/test/java/com/alibaba/json/bvt/parser/deser/arraymapping/ArrayMapping_long.java:[3,17] package org.junit does not exist
+[ERROR] ./fastjson/src/test/java/com/alibaba/json/bvt/parser/deser/arraymapping/ArrayMapping_long.java:[8,23] package junit.framework does not exist
+[ERROR] ./fastjson/src/test/java/com/alibaba/json/bvt/parser/deser/arraymapping/ArrayMapping_long.java:[10,40] cannot find symbol
+[ERROR]   symbol: class TestCase
+[ERROR] ./fastjson/src/test/java/com/alibaba/json/demo/hibernate/data/OrderDetailId.java:[4,25] package javax.persistence does not exist
+[ERROR] ./fastjson/src/test/java/com/alibaba/json/demo/hibernate/data/OrderDetailId.java:[5,25] package javax.persistence does not exist
+[ERROR] ./fastjson/src/test/java/com/alibaba/json/demo/hibernate/data/OrderDetailId.java:[8,2] cannot find symbol
+[ERROR]   symbol: class Embeddable
+[ERROR] ./fastjson/src/test/java/com/alibaba/json/bvt/ref/RefTest12.java:[3,17] package org.junit does not exist
+[ERROR] ./fastjson/src/test/java/com/alibaba/json/bvt/ref/RefTest12.java:[4,23] package junit.framework does not exist
+[ERROR] ./fastjson/src/test/java/com/alibaba/json/bvt/ref/RefTest12.java:[11,32] cannot find symbol
+[ERROR]   symbol: class TestCase
+[ERROR] ./fastjson/src/test/java/com/alibaba/json/bvt/JSONTypeTest.java:[3,17] package org.junit does not exist
+[ERROR] ./fastjson/src/test/java/com/alibaba/json/bvt/JSONTypeTest.java:[4,23] package junit.framework does not exist
+[ERROR] ./fastjson/src/test/java/com/alibaba/json/bvt/JSONTypeTest.java:[9,35] cannot find symbol
+[ERROR]   symbol: class TestCase
+[ERROR] ./fastjson/src/test/java/com/alibaba/json/bvt/typeRef/TypeReferenceTest9.java:[5,17] package org.junit does not exist
+[ERROR] ./fastjson/src/test/java/com/alibaba/json/bvt/typeRef/TypeReferenceTest9.java:[6,23] package junit.framework does not exist
+[ERROR] ./fastjson/src/test/java/com/alibaba/json/bvt/typeRef/TypeReferenceTest9.java:[11,41] cannot find symbol
+[ERROR]   symbol: class TestCase
+[ERROR] ./fastjson/src/test/java/com/alibaba/json/bvt/jdk8/OptionalDouble_Test.java:[5,17] package org.junit does not exist
+[ERROR] ./fastjson/src/test/java/com/alibaba/json/bvt/jdk8/OptionalDouble_Test.java:[9,23] package junit.framework does not exist
+[ERROR] ./fastjson/src/test/java/com/alibaba/json/bvt/jdk8/OptionalDouble_Test.java:[11,42] cannot find symbol
+[ERROR]   symbol: class TestCase
+[ERROR] ./fastjson/src/test/java/com/alibaba/json/bvt/util/AntiCollisionHashMapTest.java:[5,23] package junit.framework does not exist
+[ERROR] ./fastjson/src/test/java/com/alibaba/json/bvt/util/AntiCollisionHashMapTest.java:[14,47] cannot find symbol
+[ERROR]   symbol: class TestCase
+[ERROR] ./fastjson/src/test/java/com/alibaba/json/bvt/issue_1100/Issue1151.java:[5,23] package junit.framework does not exist
+[ERROR] ./fastjson/src/test/java/com/alibaba/json/bvt/issue_1100/Issue1151.java:[13,32] cannot find symbol
+[ERROR]   symbol: class TestCase
+[ERROR] ./fastjson/src/test/java/com/alibaba/json/bvt/parser/deser/array/FieldFloatArrayTest_private.java:[4,23] package junit.framework does not exist
+[ERROR] ./fastjson/src/test/java/com/alibaba/json/bvt/parser/deser/array/FieldFloatArrayTest_private.java:[9,50] cannot find symbol
+[ERROR]   symbol: class TestCase
+[ERROR] ./fastjson/src/test/java/com/alibaba/json/test/generic/GenericTypeTest.java:[4,17] package org.junit does not exist
+[ERROR] ./fastjson/src/test/java/com/alibaba/json/test/generic/GenericTypeTest.java:[6,23] package junit.framework does not exist
+[ERROR] ./fastjson/src/test/java/com/alibaba/json/test/generic/GenericTypeTest.java:[7,23] package junit.framework does not exist
+[ERROR] ./fastjson/src/test/java/com/alibaba/json/test/generic/GenericTypeTest.java:[12,38] cannot find symbol
+[ERROR]   symbol: class TestCase
+[ERROR] ./fastjson/src/test/java/com/alibaba/json/bvt/parser/MapResetTest.java:[3,23] package junit.framework does not exist
+[ERROR] ./fastjson/src/test/java/com/alibaba/json/bvt/parser/MapResetTest.java:[7,35] cannot find symbol
+[ERROR]   symbol: class TestCase
+[ERROR] ./fastjson/src/test/java/com/alibaba/json/bvt/JSONObjectTest5.java:[6,23] package junit.framework does not exist
+[ERROR] ./fastjson/src/test/java/com/alibaba/json/bvt/JSONObjectTest5.java:[7,17] package org.junit does not exist
+[ERROR] ./fastjson/src/test/java/com/alibaba/json/bvt/JSONObjectTest5.java:[9,38] cannot find symbol
+[ERROR]   symbol: class TestCase
+[ERROR] ./fastjson/src/test/java/com/alibaba/json/bvt/serializer/CharsetTest.java:[5,17] package org.junit does not exist
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException

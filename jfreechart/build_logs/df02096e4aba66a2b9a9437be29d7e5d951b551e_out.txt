@@ -1,0 +1,245 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ------------------------< org.jfree:jfreechart >------------------------
+[INFO] Building JFreeChart 1.0.16-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ jfreechart ---
+[INFO] Deleting ./jfreechart/target
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.0:enforce (enforce-maven) @ jfreechart ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.5:resources (default-resources) @ jfreechart ---
+[debug] execute contextualize
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 38 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.2:compile (default-compile) @ jfreechart ---
+[INFO] Compiling 600 source files to ./jfreechart/target/classes
+[INFO] 
+[INFO] --- maven-resources-plugin:2.5:testResources (default-testResources) @ jfreechart ---
+[debug] execute contextualize
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory ./jfreechart/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.2:testCompile (default-testCompile) @ jfreechart ---
+[INFO] Compiling 365 source files to ./jfreechart/target/test-classes
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] ./jfreechart/tests/org/jfree/chart/axis/PeriodAxisLabelInfoTest.java:[44,23] error: package org.junit does not exist
+[ERROR] ./jfreechart/tests/org/jfree/chart/axis/PeriodAxisLabelInfoTest.java:[44,0] error: static import only from classes and interfaces
+[ERROR] ./jfreechart/tests/org/jfree/chart/axis/PeriodAxisLabelInfoTest.java:[45,23] error: package org.junit does not exist
+[ERROR] ./jfreechart/tests/org/jfree/chart/axis/PeriodAxisLabelInfoTest.java:[45,0] error: static import only from classes and interfaces
+[ERROR] ./jfreechart/tests/org/jfree/chart/axis/PeriodAxisLabelInfoTest.java:[46,23] error: package org.junit does not exist
+[ERROR] ./jfreechart/tests/org/jfree/chart/axis/PeriodAxisLabelInfoTest.java:[46,0] error: static import only from classes and interfaces
+[ERROR] ./jfreechart/tests/org/jfree/chart/axis/PeriodAxisLabelInfoTest.java:[65,16] error: package org.junit does not exist
+[ERROR] ./jfreechart/tests/org/jfree/chart/plot/ValueMarkerTest.java:[48,23] error: package org.junit does not exist
+[ERROR] ./jfreechart/tests/org/jfree/chart/plot/ValueMarkerTest.java:[48,0] error: static import only from classes and interfaces
+[ERROR] ./jfreechart/tests/org/jfree/chart/plot/ValueMarkerTest.java:[49,23] error: package org.junit does not exist
+[ERROR] ./jfreechart/tests/org/jfree/chart/plot/ValueMarkerTest.java:[49,0] error: static import only from classes and interfaces
+[ERROR] ./jfreechart/tests/org/jfree/chart/plot/ValueMarkerTest.java:[50,23] error: package org.junit does not exist
+[ERROR] ./jfreechart/tests/org/jfree/chart/plot/ValueMarkerTest.java:[50,0] error: static import only from classes and interfaces
+[ERROR] ./jfreechart/tests/org/jfree/chart/plot/ValueMarkerTest.java:[51,23] error: package org.junit does not exist
+[ERROR] ./jfreechart/tests/org/jfree/chart/plot/ValueMarkerTest.java:[51,0] error: static import only from classes and interfaces
+[ERROR] ./jfreechart/tests/org/jfree/chart/plot/ValueMarkerTest.java:[67,16] error: package org.junit does not exist
+[ERROR] ./jfreechart/tests/org/jfree/chart/annotations/CategoryPointerAnnotationTest.java:[44,23] error: package org.junit does not exist
+[ERROR] ./jfreechart/tests/org/jfree/chart/annotations/CategoryPointerAnnotationTest.java:[44,0] error: static import only from classes and interfaces
+[ERROR] ./jfreechart/tests/org/jfree/chart/annotations/CategoryPointerAnnotationTest.java:[45,23] error: package org.junit does not exist
+[ERROR] ./jfreechart/tests/org/jfree/chart/annotations/CategoryPointerAnnotationTest.java:[45,0] error: static import only from classes and interfaces
+[ERROR] ./jfreechart/tests/org/jfree/chart/annotations/CategoryPointerAnnotationTest.java:[46,23] error: package org.junit does not exist
+[ERROR] ./jfreechart/tests/org/jfree/chart/annotations/CategoryPointerAnnotationTest.java:[46,0] error: static import only from classes and interfaces
+[ERROR] ./jfreechart/tests/org/jfree/chart/annotations/CategoryPointerAnnotationTest.java:[55,16] error: package org.junit does not exist
+[ERROR] ./jfreechart/tests/org/jfree/chart/renderer/xy/XYStepAreaRendererTest.java:[47,23] error: package org.junit does not exist
+[ERROR] ./jfreechart/tests/org/jfree/chart/renderer/xy/XYStepAreaRendererTest.java:[47,0] error: static import only from classes and interfaces
+[ERROR] ./jfreechart/tests/org/jfree/chart/renderer/xy/XYStepAreaRendererTest.java:[48,23] error: package org.junit does not exist
+[ERROR] ./jfreechart/tests/org/jfree/chart/renderer/xy/XYStepAreaRendererTest.java:[48,0] error: static import only from classes and interfaces
+[ERROR] ./jfreechart/tests/org/jfree/chart/renderer/xy/XYStepAreaRendererTest.java:[49,23] error: package org.junit does not exist
+[ERROR] ./jfreechart/tests/org/jfree/chart/renderer/xy/XYStepAreaRendererTest.java:[49,0] error: static import only from classes and interfaces
+[ERROR] ./jfreechart/tests/org/jfree/chart/renderer/xy/XYStepAreaRendererTest.java:[50,23] error: package org.junit does not exist
+[ERROR] ./jfreechart/tests/org/jfree/chart/renderer/xy/XYStepAreaRendererTest.java:[50,0] error: static import only from classes and interfaces
+[ERROR] ./jfreechart/tests/org/jfree/chart/renderer/xy/XYStepAreaRendererTest.java:[59,16] error: package org.junit does not exist
+[ERROR] ./jfreechart/tests/org/jfree/data/time/WeekTest.java:[53,23] error: package org.junit does not exist
+[ERROR] ./jfreechart/tests/org/jfree/data/time/WeekTest.java:[53,0] error: static import only from classes and interfaces
+[ERROR] ./jfreechart/tests/org/jfree/data/time/WeekTest.java:[54,23] error: package org.junit does not exist
+[ERROR] ./jfreechart/tests/org/jfree/data/time/WeekTest.java:[54,0] error: static import only from classes and interfaces
+[ERROR] ./jfreechart/tests/org/jfree/data/time/WeekTest.java:[55,23] error: package org.junit does not exist
+[ERROR] ./jfreechart/tests/org/jfree/data/time/WeekTest.java:[55,0] error: static import only from classes and interfaces
+[ERROR] ./jfreechart/tests/org/jfree/data/time/WeekTest.java:[56,23] error: package org.junit does not exist
+[ERROR] ./jfreechart/tests/org/jfree/data/time/WeekTest.java:[56,0] error: static import only from classes and interfaces
+[ERROR] ./jfreechart/tests/org/jfree/data/time/WeekTest.java:[65,16] error: package org.junit does not exist
+[ERROR] ./jfreechart/tests/org/jfree/data/time/WeekTest.java:[66,16] error: package org.junit does not exist
+[ERROR] ./jfreechart/tests/org/jfree/chart/renderer/xy/XYDotRendererTest.java:[46,23] error: package org.junit does not exist
+[ERROR] ./jfreechart/tests/org/jfree/chart/renderer/xy/XYDotRendererTest.java:[46,0] error: static import only from classes and interfaces
+[ERROR] ./jfreechart/tests/org/jfree/chart/renderer/xy/XYDotRendererTest.java:[47,23] error: package org.junit does not exist
+[ERROR] ./jfreechart/tests/org/jfree/chart/renderer/xy/XYDotRendererTest.java:[47,0] error: static import only from classes and interfaces
+[ERROR] ./jfreechart/tests/org/jfree/chart/renderer/xy/XYDotRendererTest.java:[48,23] error: package org.junit does not exist
+[ERROR] ./jfreechart/tests/org/jfree/chart/renderer/xy/XYDotRendererTest.java:[48,0] error: static import only from classes and interfaces
+[ERROR] ./jfreechart/tests/org/jfree/chart/renderer/xy/XYDotRendererTest.java:[60,16] error: package org.junit does not exist
+[ERROR] ./jfreechart/tests/org/jfree/data/xy/XYDataItemTest.java:[43,23] error: package org.junit does not exist
+[ERROR] ./jfreechart/tests/org/jfree/data/xy/XYDataItemTest.java:[43,0] error: static import only from classes and interfaces
+[ERROR] ./jfreechart/tests/org/jfree/data/xy/XYDataItemTest.java:[44,23] error: package org.junit does not exist
+[ERROR] ./jfreechart/tests/org/jfree/data/xy/XYDataItemTest.java:[44,0] error: static import only from classes and interfaces
+[ERROR] ./jfreechart/tests/org/jfree/data/xy/XYDataItemTest.java:[45,23] error: package org.junit does not exist
+[ERROR] ./jfreechart/tests/org/jfree/data/xy/XYDataItemTest.java:[45,0] error: static import only from classes and interfaces
+[ERROR] ./jfreechart/tests/org/jfree/data/xy/XYDataItemTest.java:[48,16] error: package org.junit does not exist
+[ERROR] ./jfreechart/tests/org/jfree/chart/renderer/category/GradientBarPainterTest.java:[43,23] error: package org.junit does not exist
+[ERROR] ./jfreechart/tests/org/jfree/chart/renderer/category/GradientBarPainterTest.java:[43,0] error: static import only from classes and interfaces
+[ERROR] ./jfreechart/tests/org/jfree/chart/renderer/category/GradientBarPainterTest.java:[44,23] error: package org.junit does not exist
+[ERROR] ./jfreechart/tests/org/jfree/chart/renderer/category/GradientBarPainterTest.java:[44,0] error: static import only from classes and interfaces
+[ERROR] ./jfreechart/tests/org/jfree/chart/renderer/category/GradientBarPainterTest.java:[45,23] error: package org.junit does not exist
+[ERROR] ./jfreechart/tests/org/jfree/chart/renderer/category/GradientBarPainterTest.java:[45,0] error: static import only from classes and interfaces
+[ERROR] ./jfreechart/tests/org/jfree/chart/renderer/category/GradientBarPainterTest.java:[50,16] error: package org.junit does not exist
+[ERROR] ./jfreechart/tests/org/jfree/chart/axis/CategoryAxis3DTest.java:[43,23] error: package org.junit does not exist
+[ERROR] ./jfreechart/tests/org/jfree/chart/axis/CategoryAxis3DTest.java:[43,0] error: static import only from classes and interfaces
+[ERROR] ./jfreechart/tests/org/jfree/chart/axis/CategoryAxis3DTest.java:[44,23] error: package org.junit does not exist
+[ERROR] ./jfreechart/tests/org/jfree/chart/axis/CategoryAxis3DTest.java:[44,0] error: static import only from classes and interfaces
+[ERROR] ./jfreechart/tests/org/jfree/chart/axis/CategoryAxis3DTest.java:[47,16] error: package org.junit does not exist
+[ERROR] ./jfreechart/tests/org/jfree/chart/needle/PointerNeedleTest.java:[43,23] error: package org.junit does not exist
+[ERROR] ./jfreechart/tests/org/jfree/chart/needle/PointerNeedleTest.java:[43,0] error: static import only from classes and interfaces
+[ERROR] ./jfreechart/tests/org/jfree/chart/needle/PointerNeedleTest.java:[46,16] error: package org.junit does not exist
+[ERROR] ./jfreechart/tests/org/jfree/chart/axis/DateTickTest.java:[43,23] error: package org.junit does not exist
+[ERROR] ./jfreechart/tests/org/jfree/chart/axis/DateTickTest.java:[43,0] error: static import only from classes and interfaces
+[ERROR] ./jfreechart/tests/org/jfree/chart/axis/DateTickTest.java:[44,23] error: package org.junit does not exist
+[ERROR] ./jfreechart/tests/org/jfree/chart/axis/DateTickTest.java:[44,0] error: static import only from classes and interfaces
+[ERROR] ./jfreechart/tests/org/jfree/chart/axis/DateTickTest.java:[45,23] error: package org.junit does not exist
+[ERROR] ./jfreechart/tests/org/jfree/chart/axis/DateTickTest.java:[45,0] error: static import only from classes and interfaces
+[ERROR] ./jfreechart/tests/org/jfree/chart/axis/DateTickTest.java:[52,16] error: package org.junit does not exist
+[ERROR] ./jfreechart/tests/org/jfree/data/xy/DefaultHighLowDatasetTest.java:[44,23] error: package org.junit does not exist
+[ERROR] ./jfreechart/tests/org/jfree/data/xy/DefaultHighLowDatasetTest.java:[44,0] error: static import only from classes and interfaces
+[ERROR] ./jfreechart/tests/org/jfree/data/xy/DefaultHighLowDatasetTest.java:[45,23] error: package org.junit does not exist
+[ERROR] ./jfreechart/tests/org/jfree/data/xy/DefaultHighLowDatasetTest.java:[45,0] error: static import only from classes and interfaces
+[ERROR] ./jfreechart/tests/org/jfree/data/xy/DefaultHighLowDatasetTest.java:[46,23] error: package org.junit does not exist
+[ERROR] ./jfreechart/tests/org/jfree/data/xy/DefaultHighLowDatasetTest.java:[46,0] error: static import only from classes and interfaces
+[ERROR] ./jfreechart/tests/org/jfree/data/xy/DefaultHighLowDatasetTest.java:[53,16] error: package org.junit does not exist
+[ERROR] ./jfreechart/tests/org/jfree/data/general/DefaultHeatMapDatasetTest.java:[44,23] error: package org.junit does not exist
+[ERROR] ./jfreechart/tests/org/jfree/data/general/DefaultHeatMapDatasetTest.java:[44,0] error: static import only from classes and interfaces
+[ERROR] ./jfreechart/tests/org/jfree/data/general/DefaultHeatMapDatasetTest.java:[45,23] error: package org.junit does not exist
+[ERROR] ./jfreechart/tests/org/jfree/data/general/DefaultHeatMapDatasetTest.java:[45,0] error: static import only from classes and interfaces
+[ERROR] ./jfreechart/tests/org/jfree/data/general/DefaultHeatMapDatasetTest.java:[46,23] error: package org.junit does not exist
+[ERROR] ./jfreechart/tests/org/jfree/data/general/DefaultHeatMapDatasetTest.java:[46,0] error: static import only from classes and interfaces
+[ERROR] ./jfreechart/tests/org/jfree/data/general/DefaultHeatMapDatasetTest.java:[47,23] error: package org.junit does not exist
+[ERROR] ./jfreechart/tests/org/jfree/data/general/DefaultHeatMapDatasetTest.java:[47,0] error: static import only from classes and interfaces
+[ERROR] ./jfreechart/tests/org/jfree/data/general/DefaultHeatMapDatasetTest.java:[48,23] error: package org.junit does not exist
+[ERROR] ./jfreechart/tests/org/jfree/data/general/DefaultHeatMapDatasetTest.java:[48,0] error: static import only from classes and interfaces
+[ERROR] ./jfreechart/tests/org/jfree/data/general/DefaultHeatMapDatasetTest.java:[49,16] error: package org.junit does not exist
+[ERROR] ./jfreechart/tests/org/jfree/chart/axis/StandardTickUnitSourceTest.java:[43,23] error: package org.junit does not exist
+[ERROR] ./jfreechart/tests/org/jfree/chart/axis/StandardTickUnitSourceTest.java:[43,0] error: static import only from classes and interfaces
+[ERROR] ./jfreechart/tests/org/jfree/chart/axis/StandardTickUnitSourceTest.java:[44,23] error: package org.junit does not exist
+[ERROR] ./jfreechart/tests/org/jfree/chart/axis/StandardTickUnitSourceTest.java:[44,0] error: static import only from classes and interfaces
+[INFO] 100 errors 
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  9.546 s
+[INFO] Finished at: 
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:2.3.2:testCompile (default-testCompile) on project jfreechart: Compilation failure: Compilation failure: 
+[ERROR] ./jfreechart/tests/org/jfree/chart/axis/PeriodAxisLabelInfoTest.java:[44,23] error: package org.junit does not exist
+[ERROR] ./jfreechart/tests/org/jfree/chart/axis/PeriodAxisLabelInfoTest.java:[44,0] error: static import only from classes and interfaces
+[ERROR] ./jfreechart/tests/org/jfree/chart/axis/PeriodAxisLabelInfoTest.java:[45,23] error: package org.junit does not exist
+[ERROR] ./jfreechart/tests/org/jfree/chart/axis/PeriodAxisLabelInfoTest.java:[45,0] error: static import only from classes and interfaces
+[ERROR] ./jfreechart/tests/org/jfree/chart/axis/PeriodAxisLabelInfoTest.java:[46,23] error: package org.junit does not exist
+[ERROR] ./jfreechart/tests/org/jfree/chart/axis/PeriodAxisLabelInfoTest.java:[46,0] error: static import only from classes and interfaces
+[ERROR] ./jfreechart/tests/org/jfree/chart/axis/PeriodAxisLabelInfoTest.java:[65,16] error: package org.junit does not exist
+[ERROR] ./jfreechart/tests/org/jfree/chart/plot/ValueMarkerTest.java:[48,23] error: package org.junit does not exist
+[ERROR] ./jfreechart/tests/org/jfree/chart/plot/ValueMarkerTest.java:[48,0] error: static import only from classes and interfaces
+[ERROR] ./jfreechart/tests/org/jfree/chart/plot/ValueMarkerTest.java:[49,23] error: package org.junit does not exist
+[ERROR] ./jfreechart/tests/org/jfree/chart/plot/ValueMarkerTest.java:[49,0] error: static import only from classes and interfaces
+[ERROR] ./jfreechart/tests/org/jfree/chart/plot/ValueMarkerTest.java:[50,23] error: package org.junit does not exist
+[ERROR] ./jfreechart/tests/org/jfree/chart/plot/ValueMarkerTest.java:[50,0] error: static import only from classes and interfaces
+[ERROR] ./jfreechart/tests/org/jfree/chart/plot/ValueMarkerTest.java:[51,23] error: package org.junit does not exist
+[ERROR] ./jfreechart/tests/org/jfree/chart/plot/ValueMarkerTest.java:[51,0] error: static import only from classes and interfaces
+[ERROR] ./jfreechart/tests/org/jfree/chart/plot/ValueMarkerTest.java:[67,16] error: package org.junit does not exist
+[ERROR] ./jfreechart/tests/org/jfree/chart/annotations/CategoryPointerAnnotationTest.java:[44,23] error: package org.junit does not exist
+[ERROR] ./jfreechart/tests/org/jfree/chart/annotations/CategoryPointerAnnotationTest.java:[44,0] error: static import only from classes and interfaces
+[ERROR] ./jfreechart/tests/org/jfree/chart/annotations/CategoryPointerAnnotationTest.java:[45,23] error: package org.junit does not exist
+[ERROR] ./jfreechart/tests/org/jfree/chart/annotations/CategoryPointerAnnotationTest.java:[45,0] error: static import only from classes and interfaces
+[ERROR] ./jfreechart/tests/org/jfree/chart/annotations/CategoryPointerAnnotationTest.java:[46,23] error: package org.junit does not exist
+[ERROR] ./jfreechart/tests/org/jfree/chart/annotations/CategoryPointerAnnotationTest.java:[46,0] error: static import only from classes and interfaces
+[ERROR] ./jfreechart/tests/org/jfree/chart/annotations/CategoryPointerAnnotationTest.java:[55,16] error: package org.junit does not exist
+[ERROR] ./jfreechart/tests/org/jfree/chart/renderer/xy/XYStepAreaRendererTest.java:[47,23] error: package org.junit does not exist
+[ERROR] ./jfreechart/tests/org/jfree/chart/renderer/xy/XYStepAreaRendererTest.java:[47,0] error: static import only from classes and interfaces
+[ERROR] ./jfreechart/tests/org/jfree/chart/renderer/xy/XYStepAreaRendererTest.java:[48,23] error: package org.junit does not exist
+[ERROR] ./jfreechart/tests/org/jfree/chart/renderer/xy/XYStepAreaRendererTest.java:[48,0] error: static import only from classes and interfaces
+[ERROR] ./jfreechart/tests/org/jfree/chart/renderer/xy/XYStepAreaRendererTest.java:[49,23] error: package org.junit does not exist
+[ERROR] ./jfreechart/tests/org/jfree/chart/renderer/xy/XYStepAreaRendererTest.java:[49,0] error: static import only from classes and interfaces
+[ERROR] ./jfreechart/tests/org/jfree/chart/renderer/xy/XYStepAreaRendererTest.java:[50,23] error: package org.junit does not exist
+[ERROR] ./jfreechart/tests/org/jfree/chart/renderer/xy/XYStepAreaRendererTest.java:[50,0] error: static import only from classes and interfaces
+[ERROR] ./jfreechart/tests/org/jfree/chart/renderer/xy/XYStepAreaRendererTest.java:[59,16] error: package org.junit does not exist
+[ERROR] ./jfreechart/tests/org/jfree/data/time/WeekTest.java:[53,23] error: package org.junit does not exist
+[ERROR] ./jfreechart/tests/org/jfree/data/time/WeekTest.java:[53,0] error: static import only from classes and interfaces
+[ERROR] ./jfreechart/tests/org/jfree/data/time/WeekTest.java:[54,23] error: package org.junit does not exist
+[ERROR] ./jfreechart/tests/org/jfree/data/time/WeekTest.java:[54,0] error: static import only from classes and interfaces
+[ERROR] ./jfreechart/tests/org/jfree/data/time/WeekTest.java:[55,23] error: package org.junit does not exist
+[ERROR] ./jfreechart/tests/org/jfree/data/time/WeekTest.java:[55,0] error: static import only from classes and interfaces
+[ERROR] ./jfreechart/tests/org/jfree/data/time/WeekTest.java:[56,23] error: package org.junit does not exist
+[ERROR] ./jfreechart/tests/org/jfree/data/time/WeekTest.java:[56,0] error: static import only from classes and interfaces
+[ERROR] ./jfreechart/tests/org/jfree/data/time/WeekTest.java:[65,16] error: package org.junit does not exist
+[ERROR] ./jfreechart/tests/org/jfree/data/time/WeekTest.java:[66,16] error: package org.junit does not exist
+[ERROR] ./jfreechart/tests/org/jfree/chart/renderer/xy/XYDotRendererTest.java:[46,23] error: package org.junit does not exist
+[ERROR] ./jfreechart/tests/org/jfree/chart/renderer/xy/XYDotRendererTest.java:[46,0] error: static import only from classes and interfaces
+[ERROR] ./jfreechart/tests/org/jfree/chart/renderer/xy/XYDotRendererTest.java:[47,23] error: package org.junit does not exist
+[ERROR] ./jfreechart/tests/org/jfree/chart/renderer/xy/XYDotRendererTest.java:[47,0] error: static import only from classes and interfaces
+[ERROR] ./jfreechart/tests/org/jfree/chart/renderer/xy/XYDotRendererTest.java:[48,23] error: package org.junit does not exist
+[ERROR] ./jfreechart/tests/org/jfree/chart/renderer/xy/XYDotRendererTest.java:[48,0] error: static import only from classes and interfaces
+[ERROR] ./jfreechart/tests/org/jfree/chart/renderer/xy/XYDotRendererTest.java:[60,16] error: package org.junit does not exist
+[ERROR] ./jfreechart/tests/org/jfree/data/xy/XYDataItemTest.java:[43,23] error: package org.junit does not exist
+[ERROR] ./jfreechart/tests/org/jfree/data/xy/XYDataItemTest.java:[43,0] error: static import only from classes and interfaces
+[ERROR] ./jfreechart/tests/org/jfree/data/xy/XYDataItemTest.java:[44,23] error: package org.junit does not exist
+[ERROR] ./jfreechart/tests/org/jfree/data/xy/XYDataItemTest.java:[44,0] error: static import only from classes and interfaces
+[ERROR] ./jfreechart/tests/org/jfree/data/xy/XYDataItemTest.java:[45,23] error: package org.junit does not exist
+[ERROR] ./jfreechart/tests/org/jfree/data/xy/XYDataItemTest.java:[45,0] error: static import only from classes and interfaces
+[ERROR] ./jfreechart/tests/org/jfree/data/xy/XYDataItemTest.java:[48,16] error: package org.junit does not exist
+[ERROR] ./jfreechart/tests/org/jfree/chart/renderer/category/GradientBarPainterTest.java:[43,23] error: package org.junit does not exist
+[ERROR] ./jfreechart/tests/org/jfree/chart/renderer/category/GradientBarPainterTest.java:[43,0] error: static import only from classes and interfaces
+[ERROR] ./jfreechart/tests/org/jfree/chart/renderer/category/GradientBarPainterTest.java:[44,23] error: package org.junit does not exist
+[ERROR] ./jfreechart/tests/org/jfree/chart/renderer/category/GradientBarPainterTest.java:[44,0] error: static import only from classes and interfaces
+[ERROR] ./jfreechart/tests/org/jfree/chart/renderer/category/GradientBarPainterTest.java:[45,23] error: package org.junit does not exist
+[ERROR] ./jfreechart/tests/org/jfree/chart/renderer/category/GradientBarPainterTest.java:[45,0] error: static import only from classes and interfaces
+[ERROR] ./jfreechart/tests/org/jfree/chart/renderer/category/GradientBarPainterTest.java:[50,16] error: package org.junit does not exist
+[ERROR] ./jfreechart/tests/org/jfree/chart/axis/CategoryAxis3DTest.java:[43,23] error: package org.junit does not exist
+[ERROR] ./jfreechart/tests/org/jfree/chart/axis/CategoryAxis3DTest.java:[43,0] error: static import only from classes and interfaces
+[ERROR] ./jfreechart/tests/org/jfree/chart/axis/CategoryAxis3DTest.java:[44,23] error: package org.junit does not exist
+[ERROR] ./jfreechart/tests/org/jfree/chart/axis/CategoryAxis3DTest.java:[44,0] error: static import only from classes and interfaces
+[ERROR] ./jfreechart/tests/org/jfree/chart/axis/CategoryAxis3DTest.java:[47,16] error: package org.junit does not exist
+[ERROR] ./jfreechart/tests/org/jfree/chart/needle/PointerNeedleTest.java:[43,23] error: package org.junit does not exist
+[ERROR] ./jfreechart/tests/org/jfree/chart/needle/PointerNeedleTest.java:[43,0] error: static import only from classes and interfaces
+[ERROR] ./jfreechart/tests/org/jfree/chart/needle/PointerNeedleTest.java:[46,16] error: package org.junit does not exist
+[ERROR] ./jfreechart/tests/org/jfree/chart/axis/DateTickTest.java:[43,23] error: package org.junit does not exist
+[ERROR] ./jfreechart/tests/org/jfree/chart/axis/DateTickTest.java:[43,0] error: static import only from classes and interfaces
+[ERROR] ./jfreechart/tests/org/jfree/chart/axis/DateTickTest.java:[44,23] error: package org.junit does not exist
+[ERROR] ./jfreechart/tests/org/jfree/chart/axis/DateTickTest.java:[44,0] error: static import only from classes and interfaces
+[ERROR] ./jfreechart/tests/org/jfree/chart/axis/DateTickTest.java:[45,23] error: package org.junit does not exist
+[ERROR] ./jfreechart/tests/org/jfree/chart/axis/DateTickTest.java:[45,0] error: static import only from classes and interfaces
+[ERROR] ./jfreechart/tests/org/jfree/chart/axis/DateTickTest.java:[52,16] error: package org.junit does not exist
+[ERROR] ./jfreechart/tests/org/jfree/data/xy/DefaultHighLowDatasetTest.java:[44,23] error: package org.junit does not exist
+[ERROR] ./jfreechart/tests/org/jfree/data/xy/DefaultHighLowDatasetTest.java:[44,0] error: static import only from classes and interfaces
+[ERROR] ./jfreechart/tests/org/jfree/data/xy/DefaultHighLowDatasetTest.java:[45,23] error: package org.junit does not exist
+[ERROR] ./jfreechart/tests/org/jfree/data/xy/DefaultHighLowDatasetTest.java:[45,0] error: static import only from classes and interfaces
+[ERROR] ./jfreechart/tests/org/jfree/data/xy/DefaultHighLowDatasetTest.java:[46,23] error: package org.junit does not exist
+[ERROR] ./jfreechart/tests/org/jfree/data/xy/DefaultHighLowDatasetTest.java:[46,0] error: static import only from classes and interfaces
+[ERROR] ./jfreechart/tests/org/jfree/data/xy/DefaultHighLowDatasetTest.java:[53,16] error: package org.junit does not exist
+[ERROR] ./jfreechart/tests/org/jfree/data/general/DefaultHeatMapDatasetTest.java:[44,23] error: package org.junit does not exist
+[ERROR] ./jfreechart/tests/org/jfree/data/general/DefaultHeatMapDatasetTest.java:[44,0] error: static import only from classes and interfaces
+[ERROR] ./jfreechart/tests/org/jfree/data/general/DefaultHeatMapDatasetTest.java:[45,23] error: package org.junit does not exist
+[ERROR] ./jfreechart/tests/org/jfree/data/general/DefaultHeatMapDatasetTest.java:[45,0] error: static import only from classes and interfaces
+[ERROR] ./jfreechart/tests/org/jfree/data/general/DefaultHeatMapDatasetTest.java:[46,23] error: package org.junit does not exist
+[ERROR] ./jfreechart/tests/org/jfree/data/general/DefaultHeatMapDatasetTest.java:[46,0] error: static import only from classes and interfaces
+[ERROR] ./jfreechart/tests/org/jfree/data/general/DefaultHeatMapDatasetTest.java:[47,23] error: package org.junit does not exist
+[ERROR] ./jfreechart/tests/org/jfree/data/general/DefaultHeatMapDatasetTest.java:[47,0] error: static import only from classes and interfaces
+[ERROR] ./jfreechart/tests/org/jfree/data/general/DefaultHeatMapDatasetTest.java:[48,23] error: package org.junit does not exist
+[ERROR] ./jfreechart/tests/org/jfree/data/general/DefaultHeatMapDatasetTest.java:[48,0] error: static import only from classes and interfaces
+[ERROR] ./jfreechart/tests/org/jfree/data/general/DefaultHeatMapDatasetTest.java:[49,16] error: package org.junit does not exist
+[ERROR] ./jfreechart/tests/org/jfree/chart/axis/StandardTickUnitSourceTest.java:[43,23] error: package org.junit does not exist
+[ERROR] ./jfreechart/tests/org/jfree/chart/axis/StandardTickUnitSourceTest.java:[43,0] error: static import only from classes and interfaces
+[ERROR] ./jfreechart/tests/org/jfree/chart/axis/StandardTickUnitSourceTest.java:[44,23] error: package org.junit does not exist
+[ERROR] ./jfreechart/tests/org/jfree/chart/axis/StandardTickUnitSourceTest.java:[44,0] error: static import only from classes and interfaces
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException

@@ -1,0 +1,2697 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ------------------< org.apache.commons:commons-lang3 >------------------
+[INFO] Building Apache Commons Lang 3.12.0-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+Downloading from central: https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter/5.7.0/junit-jupiter-5.7.0.pom
+Progress (1): 1.4/3.2 kB
+Progress (1): 2.7/3.2 kB
+Progress (1): 3.2 kB    
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter/5.7.0/junit-jupiter-5.7.0.pom (3.2 kB at 11 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-api/5.7.0/junit-jupiter-api-5.7.0.pom
+Progress (1): 1.4/3.2 kB
+Progress (1): 2.7/3.2 kB
+Progress (1): 3.2 kB    
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-api/5.7.0/junit-jupiter-api-5.7.0.pom (3.2 kB at 177 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-commons/1.7.0/junit-platform-commons-1.7.0.pom
+Progress (1): 1.4/2.8 kB
+Progress (1): 2.7/2.8 kB
+Progress (1): 2.8 kB    
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-commons/1.7.0/junit-platform-commons-1.7.0.pom (2.8 kB at 166 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-params/5.7.0/junit-jupiter-params-5.7.0.pom
+Progress (1): 1.4/3.0 kB
+Progress (1): 2.7/3.0 kB
+Progress (1): 3.0 kB    
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-params/5.7.0/junit-jupiter-params-5.7.0.pom (3.0 kB at 177 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-engine/5.7.0/junit-jupiter-engine-5.7.0.pom
+Progress (1): 1.4/3.2 kB
+Progress (1): 2.7/3.2 kB
+Progress (1): 3.2 kB    
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-engine/5.7.0/junit-jupiter-engine-5.7.0.pom (3.2 kB at 91 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-engine/1.7.0/junit-platform-engine-1.7.0.pom
+Progress (1): 1.4/3.2 kB
+Progress (1): 2.7/3.2 kB
+Progress (1): 3.2 kB    
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-engine/1.7.0/junit-platform-engine-1.7.0.pom (3.2 kB at 103 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/junit-pioneer/junit-pioneer/0.9.2/junit-pioneer-0.9.2.pom
+Progress (1): 1.4/4.8 kB
+Progress (1): 2.7/4.8 kB
+Progress (1): 4.1/4.8 kB
+Progress (1): 4.8 kB    
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/junit-pioneer/junit-pioneer/0.9.2/junit-pioneer-0.9.2.pom (4.8 kB at 53 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/junit/junit-bom/5.5.2/junit-bom-5.5.2.pom
+Progress (1): 1.4/4.4 kB
+Progress (1): 2.7/4.4 kB
+Progress (1): 4.1/4.4 kB
+Progress (1): 4.4 kB    
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/junit-bom/5.5.2/junit-bom-5.5.2.pom (4.4 kB at 246 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-api/5.7.0/junit-jupiter-api-5.7.0.jar
+Downloading from central: https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter/5.7.0/junit-jupiter-5.7.0.jar
+Downloading from central: https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-params/5.7.0/junit-jupiter-params-5.7.0.jar
+Downloading from central: https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-engine/5.7.0/junit-jupiter-engine-5.7.0.jar
+Downloading from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-engine/1.7.0/junit-platform-engine-1.7.0.jar
+Progress (1): 1.4/175 kB
+Progress (1): 2.7/175 kB
+Progress (1): 4.1/175 kB
+Progress (1): 5.5/175 kB
+Progress (1): 6.9/175 kB
+Progress (1): 8.2/175 kB
+Progress (1): 9.6/175 kB
+Progress (1): 11/175 kB 
+Progress (1): 12/175 kB
+Progress (1): 14/175 kB
+Progress (1): 15/175 kB
+Progress (1): 16/175 kB
+Progress (1): 18/175 kB
+Progress (1): 19/175 kB
+Progress (1): 21/175 kB
+Progress (1): 22/175 kB
+Progress (1): 23/175 kB
+Progress (1): 25/175 kB
+Progress (1): 26/175 kB
+Progress (1): 27/175 kB
+Progress (1): 29/175 kB
+Progress (1): 30/175 kB
+Progress (1): 32/175 kB
+Progress (1): 33/175 kB
+Progress (1): 34/175 kB
+Progress (1): 36/175 kB
+Progress (1): 37/175 kB
+Progress (1): 38/175 kB
+Progress (1): 40/175 kB
+Progress (1): 41/175 kB
+Progress (1): 43/175 kB
+Progress (1): 44/175 kB
+Progress (1): 45/175 kB
+Progress (1): 47/175 kB
+Progress (1): 48/175 kB
+Progress (1): 49/175 kB
+Progress (1): 51/175 kB
+Progress (1): 52/175 kB
+Progress (1): 53/175 kB
+Progress (1): 55/175 kB
+Progress (1): 56/175 kB
+Progress (1): 58/175 kB
+Progress (2): 58/175 kB | 1.4/212 kB
+Progress (2): 59/175 kB | 1.4/212 kB
+Progress (3): 59/175 kB | 1.4/212 kB | 1.4/181 kB
+Progress (3): 59/175 kB | 1.4/212 kB | 2.7/181 kB
+Progress (4): 59/175 kB | 1.4/212 kB | 2.7/181 kB | 1.4/567 kB
+Progress (4): 59/175 kB | 1.4/212 kB | 4.1/181 kB | 1.4/567 kB
+Progress (4): 60/175 kB | 1.4/212 kB | 4.1/181 kB | 1.4/567 kB
+Progress (4): 60/175 kB | 2.7/212 kB | 4.1/181 kB | 1.4/567 kB
+Progress (4): 60/175 kB | 4.1/212 kB | 4.1/181 kB | 1.4/567 kB
+Progress (4): 60/175 kB | 5.5/212 kB | 4.1/181 kB | 1.4/567 kB
+Progress (4): 60/175 kB | 6.9/212 kB | 4.1/181 kB | 1.4/567 kB
+Progress (4): 60/175 kB | 8.2/212 kB | 4.1/181 kB | 1.4/567 kB
+Progress (4): 60/175 kB | 9.6/212 kB | 4.1/181 kB | 1.4/567 kB
+Progress (4): 62/175 kB | 9.6/212 kB | 4.1/181 kB | 1.4/567 kB
+Progress (4): 63/175 kB | 9.6/212 kB | 4.1/181 kB | 1.4/567 kB
+Progress (5): 63/175 kB | 9.6/212 kB | 4.1/181 kB | 1.4/567 kB | 1.4/6.4 kB
+Progress (5): 63/175 kB | 9.6/212 kB | 4.1/181 kB | 1.4/567 kB | 2.7/6.4 kB
+Progress (5): 63/175 kB | 9.6/212 kB | 4.1/181 kB | 1.4/567 kB | 4.1/6.4 kB
+Progress (5): 63/175 kB | 9.6/212 kB | 4.1/181 kB | 1.4/567 kB | 5.5/6.4 kB
+Progress (5): 63/175 kB | 9.6/212 kB | 4.1/181 kB | 1.4/567 kB | 6.4 kB    
+Progress (5): 63/175 kB | 9.6/212 kB | 5.5/181 kB | 1.4/567 kB | 6.4 kB
+Progress (5): 63/175 kB | 9.6/212 kB | 5.5/181 kB | 2.7/567 kB | 6.4 kB
+Progress (5): 63/175 kB | 9.6/212 kB | 6.9/181 kB | 2.7/567 kB | 6.4 kB
+Progress (5): 64/175 kB | 9.6/212 kB | 6.9/181 kB | 2.7/567 kB | 6.4 kB
+Progress (5): 64/175 kB | 11/212 kB | 6.9/181 kB | 2.7/567 kB | 6.4 kB 
+Progress (5): 66/175 kB | 11/212 kB | 6.9/181 kB | 2.7/567 kB | 6.4 kB
+Progress (5): 66/175 kB | 11/212 kB | 8.2/181 kB | 2.7/567 kB | 6.4 kB
+Progress (5): 66/175 kB | 11/212 kB | 8.2/181 kB | 4.1/567 kB | 6.4 kB
+Progress (5): 66/175 kB | 11/212 kB | 9.6/181 kB | 4.1/567 kB | 6.4 kB
+Progress (5): 67/175 kB | 11/212 kB | 9.6/181 kB | 4.1/567 kB | 6.4 kB
+Progress (5): 67/175 kB | 12/212 kB | 9.6/181 kB | 4.1/567 kB | 6.4 kB
+Progress (5): 69/175 kB | 12/212 kB | 9.6/181 kB | 4.1/567 kB | 6.4 kB
+Progress (5): 69/175 kB | 12/212 kB | 11/181 kB | 4.1/567 kB | 6.4 kB 
+Progress (5): 69/175 kB | 12/212 kB | 11/181 kB | 5.5/567 kB | 6.4 kB
+Progress (5): 69/175 kB | 12/212 kB | 12/181 kB | 5.5/567 kB | 6.4 kB
+Progress (5): 70/175 kB | 12/212 kB | 12/181 kB | 5.5/567 kB | 6.4 kB
+Progress (5): 70/175 kB | 14/212 kB | 12/181 kB | 5.5/567 kB | 6.4 kB
+Progress (5): 70/175 kB | 15/212 kB | 12/181 kB | 5.5/567 kB | 6.4 kB
+Progress (5): 70/175 kB | 16/212 kB | 12/181 kB | 5.5/567 kB | 6.4 kB
+Progress (5): 70/175 kB | 18/212 kB | 12/181 kB | 5.5/567 kB | 6.4 kB
+Progress (5): 70/175 kB | 19/212 kB | 12/181 kB | 5.5/567 kB | 6.4 kB
+Progress (5): 70/175 kB | 21/212 kB | 12/181 kB | 5.5/567 kB | 6.4 kB
+Progress (5): 70/175 kB | 22/212 kB | 12/181 kB | 5.5/567 kB | 6.4 kB
+Progress (5): 70/175 kB | 23/212 kB | 12/181 kB | 5.5/567 kB | 6.4 kB
+Progress (5): 70/175 kB | 25/212 kB | 12/181 kB | 5.5/567 kB | 6.4 kB
+Progress (5): 70/175 kB | 26/212 kB | 12/181 kB | 5.5/567 kB | 6.4 kB
+                                                                     
+Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter/5.7.0/junit-jupiter-5.7.0.jar (6.4 kB at 125 kB/s)
+Progress (4): 71/175 kB | 26/212 kB | 12/181 kB | 5.5/567 kB
+Progress (4): 71/175 kB | 26/212 kB | 14/181 kB | 5.5/567 kB
+Progress (4): 71/175 kB | 26/212 kB | 14/181 kB | 6.9/567 kB
+Progress (4): 71/175 kB | 26/212 kB | 15/181 kB | 6.9/567 kB
+Progress (4): 73/175 kB | 26/212 kB | 15/181 kB | 6.9/567 kB
+Progress (4): 73/175 kB | 27/212 kB | 15/181 kB | 6.9/567 kB
+                                                            
+Downloading from central: https://repo.maven.apache.org/maven2/org/junit-pioneer/junit-pioneer/0.9.2/junit-pioneer-0.9.2.jar
+Progress (4): 74/175 kB | 27/212 kB | 15/181 kB | 6.9/567 kB
+Progress (4): 75/175 kB | 27/212 kB | 15/181 kB | 6.9/567 kB
+Progress (4): 77/175 kB | 27/212 kB | 15/181 kB | 6.9/567 kB
+Progress (4): 78/175 kB | 27/212 kB | 15/181 kB | 6.9/567 kB
+Progress (4): 78/175 kB | 27/212 kB | 16/181 kB | 6.9/567 kB
+Progress (4): 78/175 kB | 27/212 kB | 16/181 kB | 8.2/567 kB
+Progress (4): 78/175 kB | 29/212 kB | 16/181 kB | 8.2/567 kB
+Progress (4): 78/175 kB | 29/212 kB | 18/181 kB | 8.2/567 kB
+Progress (4): 80/175 kB | 29/212 kB | 18/181 kB | 8.2/567 kB
+Progress (4): 80/175 kB | 29/212 kB | 19/181 kB | 8.2/567 kB
+Progress (4): 80/175 kB | 29/212 kB | 19/181 kB | 9.6/567 kB
+Progress (4): 80/175 kB | 29/212 kB | 21/181 kB | 9.6/567 kB
+Progress (4): 81/175 kB | 29/212 kB | 21/181 kB | 9.6/567 kB
+Progress (4): 81/175 kB | 30/212 kB | 21/181 kB | 9.6/567 kB
+Progress (4): 81/175 kB | 32/212 kB | 21/181 kB | 9.6/567 kB
+Progress (4): 81/175 kB | 33/212 kB | 21/181 kB | 9.6/567 kB
+Progress (4): 81/175 kB | 34/212 kB | 21/181 kB | 9.6/567 kB
+Progress (4): 81/175 kB | 34/212 kB | 22/181 kB | 9.6/567 kB
+Progress (4): 81/175 kB | 34/212 kB | 22/181 kB | 11/567 kB 
+Progress (4): 81/175 kB | 36/212 kB | 22/181 kB | 11/567 kB
+Progress (4): 81/175 kB | 36/212 kB | 23/181 kB | 11/567 kB
+Progress (4): 82/175 kB | 36/212 kB | 23/181 kB | 11/567 kB
+Progress (4): 82/175 kB | 37/212 kB | 23/181 kB | 11/567 kB
+Progress (4): 82/175 kB | 37/212 kB | 25/181 kB | 11/567 kB
+Progress (4): 82/175 kB | 37/212 kB | 25/181 kB | 12/567 kB
+Progress (4): 82/175 kB | 37/212 kB | 26/181 kB | 12/567 kB
+Progress (4): 84/175 kB | 37/212 kB | 26/181 kB | 12/567 kB
+Progress (4): 84/175 kB | 38/212 kB | 26/181 kB | 12/567 kB
+Progress (4): 84/175 kB | 40/212 kB | 26/181 kB | 12/567 kB
+Progress (4): 84/175 kB | 40/212 kB | 27/181 kB | 12/567 kB
+Progress (4): 84/175 kB | 40/212 kB | 27/181 kB | 14/567 kB
+Progress (4): 84/175 kB | 40/212 kB | 29/181 kB | 14/567 kB
+Progress (4): 85/175 kB | 40/212 kB | 29/181 kB | 14/567 kB
+Progress (4): 85/175 kB | 41/212 kB | 29/181 kB | 14/567 kB
+Progress (4): 85/175 kB | 43/212 kB | 29/181 kB | 14/567 kB
+Progress (4): 85/175 kB | 43/212 kB | 30/181 kB | 14/567 kB
+Progress (4): 85/175 kB | 43/212 kB | 30/181 kB | 15/567 kB
+Progress (4): 85/175 kB | 43/212 kB | 32/181 kB | 15/567 kB
+Progress (4): 86/175 kB | 43/212 kB | 32/181 kB | 15/567 kB
+Progress (4): 86/175 kB | 44/212 kB | 32/181 kB | 15/567 kB
+Progress (4): 86/175 kB | 45/212 kB | 32/181 kB | 15/567 kB
+Progress (4): 86/175 kB | 45/212 kB | 33/181 kB | 15/567 kB
+Progress (4): 86/175 kB | 45/212 kB | 33/181 kB | 16/567 kB
+Progress (4): 86/175 kB | 45/212 kB | 34/181 kB | 16/567 kB
+Progress (4): 88/175 kB | 45/212 kB | 34/181 kB | 16/567 kB
+Progress (4): 88/175 kB | 45/212 kB | 36/181 kB | 16/567 kB
+Progress (4): 88/175 kB | 45/212 kB | 36/181 kB | 18/567 kB
+Progress (4): 88/175 kB | 47/212 kB | 36/181 kB | 18/567 kB
+Progress (4): 88/175 kB | 48/212 kB | 36/181 kB | 18/567 kB
+Progress (4): 88/175 kB | 48/212 kB | 37/181 kB | 18/567 kB
+Progress (4): 89/175 kB | 48/212 kB | 37/181 kB | 18/567 kB
+Progress (4): 89/175 kB | 48/212 kB | 38/181 kB | 18/567 kB
+Progress (4): 89/175 kB | 48/212 kB | 38/181 kB | 19/567 kB
+Progress (4): 89/175 kB | 49/212 kB | 38/181 kB | 19/567 kB
+Progress (4): 89/175 kB | 49/212 kB | 40/181 kB | 19/567 kB
+Progress (4): 90/175 kB | 49/212 kB | 40/181 kB | 19/567 kB
+Progress (4): 90/175 kB | 49/212 kB | 41/181 kB | 19/567 kB
+Progress (4): 90/175 kB | 49/212 kB | 41/181 kB | 21/567 kB
+Progress (4): 90/175 kB | 51/212 kB | 41/181 kB | 21/567 kB
+Progress (4): 90/175 kB | 52/212 kB | 41/181 kB | 21/567 kB
+Progress (4): 90/175 kB | 53/212 kB | 41/181 kB | 21/567 kB
+Progress (4): 90/175 kB | 53/212 kB | 43/181 kB | 21/567 kB
+Progress (4): 92/175 kB | 53/212 kB | 43/181 kB | 21/567 kB
+Progress (4): 92/175 kB | 53/212 kB | 44/181 kB | 21/567 kB
+Progress (4): 92/175 kB | 53/212 kB | 44/181 kB | 22/567 kB
+Progress (4): 92/175 kB | 53/212 kB | 45/181 kB | 22/567 kB
+Progress (4): 93/175 kB | 53/212 kB | 45/181 kB | 22/567 kB
+Progress (4): 93/175 kB | 55/212 kB | 45/181 kB | 22/567 kB
+Progress (4): 93/175 kB | 56/212 kB | 45/181 kB | 22/567 kB
+Progress (4): 93/175 kB | 58/212 kB | 45/181 kB | 22/567 kB
+Progress (4): 93/175 kB | 58/212 kB | 47/181 kB | 22/567 kB
+Progress (4): 93/175 kB | 58/212 kB | 47/181 kB | 23/567 kB
+Progress (4): 93/175 kB | 58/212 kB | 48/181 kB | 23/567 kB
+Progress (4): 95/175 kB | 58/212 kB | 48/181 kB | 23/567 kB
+Progress (4): 95/175 kB | 58/212 kB | 49/181 kB | 23/567 kB
+Progress (4): 95/175 kB | 58/212 kB | 49/181 kB | 25/567 kB
+Progress (4): 95/175 kB | 58/212 kB | 51/181 kB | 25/567 kB
+Progress (4): 96/175 kB | 58/212 kB | 51/181 kB | 25/567 kB
+Progress (4): 96/175 kB | 59/212 kB | 51/181 kB | 25/567 kB
+Progress (4): 96/175 kB | 60/212 kB | 51/181 kB | 25/567 kB
+Progress (4): 96/175 kB | 62/212 kB | 51/181 kB | 25/567 kB
+Progress (4): 96/175 kB | 63/212 kB | 51/181 kB | 25/567 kB
+Progress (4): 96/175 kB | 63/212 kB | 52/181 kB | 25/567 kB
+Progress (4): 96/175 kB | 63/212 kB | 52/181 kB | 26/567 kB
+Progress (4): 96/175 kB | 63/212 kB | 53/181 kB | 26/567 kB
+Progress (4): 97/175 kB | 63/212 kB | 53/181 kB | 26/567 kB
+Progress (4): 99/175 kB | 63/212 kB | 53/181 kB | 26/567 kB
+Progress (4): 99/175 kB | 63/212 kB | 53/181 kB | 27/567 kB
+Progress (4): 99/175 kB | 64/212 kB | 53/181 kB | 27/567 kB
+Progress (4): 99/175 kB | 64/212 kB | 53/181 kB | 29/567 kB
+Progress (4): 100/175 kB | 64/212 kB | 53/181 kB | 29/567 kB
+Progress (4): 100/175 kB | 64/212 kB | 55/181 kB | 29/567 kB
+Progress (4): 101/175 kB | 64/212 kB | 55/181 kB | 29/567 kB
+Progress (4): 101/175 kB | 64/212 kB | 55/181 kB | 30/567 kB
+Progress (4): 101/175 kB | 66/212 kB | 55/181 kB | 30/567 kB
+Progress (4): 101/175 kB | 66/212 kB | 55/181 kB | 32/567 kB
+Progress (4): 103/175 kB | 66/212 kB | 55/181 kB | 32/567 kB
+Progress (4): 103/175 kB | 66/212 kB | 56/181 kB | 32/567 kB
+Progress (4): 104/175 kB | 66/212 kB | 56/181 kB | 32/567 kB
+Progress (4): 104/175 kB | 67/212 kB | 56/181 kB | 32/567 kB
+Progress (4): 104/175 kB | 67/212 kB | 56/181 kB | 33/567 kB
+Progress (4): 106/175 kB | 67/212 kB | 56/181 kB | 33/567 kB
+Progress (4): 106/175 kB | 67/212 kB | 58/181 kB | 33/567 kB
+Progress (4): 107/175 kB | 67/212 kB | 58/181 kB | 33/567 kB
+Progress (4): 107/175 kB | 67/212 kB | 58/181 kB | 34/567 kB
+Progress (4): 107/175 kB | 69/212 kB | 58/181 kB | 34/567 kB
+Progress (4): 107/175 kB | 69/212 kB | 58/181 kB | 36/567 kB
+Progress (4): 107/175 kB | 70/212 kB | 58/181 kB | 36/567 kB
+Progress (4): 108/175 kB | 70/212 kB | 58/181 kB | 36/567 kB
+Progress (4): 108/175 kB | 70/212 kB | 59/181 kB | 36/567 kB
+Progress (4): 110/175 kB | 70/212 kB | 59/181 kB | 36/567 kB
+Progress (4): 110/175 kB | 71/212 kB | 59/181 kB | 36/567 kB
+Progress (4): 110/175 kB | 71/212 kB | 59/181 kB | 37/567 kB
+Progress (4): 111/175 kB | 71/212 kB | 59/181 kB | 37/567 kB
+Progress (4): 111/175 kB | 71/212 kB | 60/181 kB | 37/567 kB
+Progress (4): 112/175 kB | 71/212 kB | 60/181 kB | 37/567 kB
+Progress (4): 112/175 kB | 71/212 kB | 60/181 kB | 38/567 kB
+Progress (4): 112/175 kB | 73/212 kB | 60/181 kB | 38/567 kB
+Progress (4): 112/175 kB | 73/212 kB | 60/181 kB | 40/567 kB
+Progress (4): 114/175 kB | 73/212 kB | 60/181 kB | 40/567 kB
+Progress (4): 114/175 kB | 73/212 kB | 62/181 kB | 40/567 kB
+Progress (4): 115/175 kB | 73/212 kB | 62/181 kB | 40/567 kB
+Progress (4): 115/175 kB | 73/212 kB | 62/181 kB | 41/567 kB
+Progress (4): 117/175 kB | 73/212 kB | 62/181 kB | 41/567 kB
+Progress (4): 117/175 kB | 74/212 kB | 62/181 kB | 41/567 kB
+Progress (4): 118/175 kB | 74/212 kB | 62/181 kB | 41/567 kB
+Progress (4): 118/175 kB | 74/212 kB | 62/181 kB | 43/567 kB
+Progress (4): 118/175 kB | 74/212 kB | 63/181 kB | 43/567 kB
+Progress (4): 118/175 kB | 74/212 kB | 63/181 kB | 44/567 kB
+Progress (4): 118/175 kB | 74/212 kB | 64/181 kB | 44/567 kB
+Progress (4): 119/175 kB | 74/212 kB | 64/181 kB | 44/567 kB
+Progress (4): 119/175 kB | 75/212 kB | 64/181 kB | 44/567 kB
+Progress (4): 121/175 kB | 75/212 kB | 64/181 kB | 44/567 kB
+Progress (4): 121/175 kB | 77/212 kB | 64/181 kB | 44/567 kB
+Progress (4): 121/175 kB | 77/212 kB | 66/181 kB | 44/567 kB
+Progress (4): 121/175 kB | 77/212 kB | 66/181 kB | 45/567 kB
+Progress (4): 121/175 kB | 77/212 kB | 67/181 kB | 45/567 kB
+Progress (4): 121/175 kB | 77/212 kB | 67/181 kB | 47/567 kB
+Progress (4): 121/175 kB | 77/212 kB | 69/181 kB | 47/567 kB
+Progress (4): 122/175 kB | 77/212 kB | 69/181 kB | 47/567 kB
+Progress (4): 122/175 kB | 78/212 kB | 69/181 kB | 47/567 kB
+Progress (4): 122/175 kB | 78/212 kB | 70/181 kB | 47/567 kB
+Progress (4): 122/175 kB | 78/212 kB | 70/181 kB | 48/567 kB
+Progress (4): 122/175 kB | 78/212 kB | 71/181 kB | 48/567 kB
+Progress (4): 123/175 kB | 78/212 kB | 71/181 kB | 48/567 kB
+Progress (4): 123/175 kB | 80/212 kB | 71/181 kB | 48/567 kB
+Progress (4): 125/175 kB | 80/212 kB | 71/181 kB | 48/567 kB
+Progress (4): 125/175 kB | 80/212 kB | 73/181 kB | 48/567 kB
+Progress (4): 125/175 kB | 80/212 kB | 73/181 kB | 49/567 kB
+Progress (4): 125/175 kB | 80/212 kB | 74/181 kB | 49/567 kB
+Progress (4): 126/175 kB | 80/212 kB | 74/181 kB | 49/567 kB
+Progress (4): 126/175 kB | 81/212 kB | 74/181 kB | 49/567 kB
+Progress (4): 128/175 kB | 81/212 kB | 74/181 kB | 49/567 kB
+Progress (4): 128/175 kB | 81/212 kB | 75/181 kB | 49/567 kB
+Progress (4): 128/175 kB | 81/212 kB | 75/181 kB | 51/567 kB
+Progress (4): 128/175 kB | 81/212 kB | 75/181 kB | 52/567 kB
+Progress (4): 129/175 kB | 81/212 kB | 75/181 kB | 52/567 kB
+Progress (4): 129/175 kB | 81/212 kB | 77/181 kB | 52/567 kB
+Progress (4): 130/175 kB | 81/212 kB | 77/181 kB | 52/567 kB
+Progress (4): 130/175 kB | 82/212 kB | 77/181 kB | 52/567 kB
+Progress (4): 130/175 kB | 82/212 kB | 78/181 kB | 52/567 kB
+Progress (4): 130/175 kB | 82/212 kB | 78/181 kB | 53/567 kB
+Progress (4): 130/175 kB | 82/212 kB | 80/181 kB | 53/567 kB
+Progress (4): 132/175 kB | 82/212 kB | 80/181 kB | 53/567 kB
+Progress (4): 132/175 kB | 84/212 kB | 80/181 kB | 53/567 kB
+Progress (4): 132/175 kB | 84/212 kB | 81/181 kB | 53/567 kB
+Progress (4): 132/175 kB | 84/212 kB | 81/181 kB | 55/567 kB
+Progress (4): 132/175 kB | 84/212 kB | 82/181 kB | 55/567 kB
+Progress (4): 133/175 kB | 84/212 kB | 82/181 kB | 55/567 kB
+Progress (4): 133/175 kB | 85/212 kB | 82/181 kB | 55/567 kB
+Progress (4): 133/175 kB | 85/212 kB | 84/181 kB | 55/567 kB
+Progress (4): 133/175 kB | 85/212 kB | 84/181 kB | 56/567 kB
+Progress (4): 133/175 kB | 85/212 kB | 85/181 kB | 56/567 kB
+Progress (4): 133/175 kB | 85/212 kB | 85/181 kB | 58/567 kB
+Progress (4): 134/175 kB | 85/212 kB | 85/181 kB | 58/567 kB
+Progress (4): 134/175 kB | 86/212 kB | 85/181 kB | 58/567 kB
+Progress (4): 134/175 kB | 86/212 kB | 85/181 kB | 59/567 kB
+Progress (4): 134/175 kB | 86/212 kB | 86/181 kB | 59/567 kB
+Progress (4): 134/175 kB | 86/212 kB | 86/181 kB | 60/567 kB
+Progress (4): 134/175 kB | 88/212 kB | 86/181 kB | 60/567 kB
+Progress (4): 136/175 kB | 88/212 kB | 86/181 kB | 60/567 kB
+Progress (4): 136/175 kB | 89/212 kB | 86/181 kB | 60/567 kB
+Progress (4): 136/175 kB | 89/212 kB | 86/181 kB | 62/567 kB
+Progress (4): 136/175 kB | 90/212 kB | 86/181 kB | 62/567 kB
+Progress (4): 136/175 kB | 90/212 kB | 86/181 kB | 63/567 kB
+Progress (4): 136/175 kB | 90/212 kB | 88/181 kB | 63/567 kB
+Progress (4): 136/175 kB | 90/212 kB | 88/181 kB | 64/567 kB
+Progress (4): 136/175 kB | 90/212 kB | 89/181 kB | 64/567 kB
+Progress (4): 137/175 kB | 90/212 kB | 89/181 kB | 64/567 kB
+Progress (4): 137/175 kB | 92/212 kB | 89/181 kB | 64/567 kB
+Progress (4): 137/175 kB | 92/212 kB | 90/181 kB | 64/567 kB
+Progress (4): 137/175 kB | 92/212 kB | 90/181 kB | 66/567 kB
+Progress (4): 137/175 kB | 92/212 kB | 92/181 kB | 66/567 kB
+Progress (4): 137/175 kB | 92/212 kB | 92/181 kB | 67/567 kB
+Progress (4): 137/175 kB | 92/212 kB | 93/181 kB | 67/567 kB
+Progress (4): 138/175 kB | 92/212 kB | 93/181 kB | 67/567 kB
+Progress (4): 138/175 kB | 93/212 kB | 93/181 kB | 67/567 kB
+Progress (4): 138/175 kB | 93/212 kB | 95/181 kB | 67/567 kB
+Progress (4): 138/175 kB | 93/212 kB | 95/181 kB | 69/567 kB
+Progress (4): 138/175 kB | 93/212 kB | 96/181 kB | 69/567 kB
+Progress (4): 138/175 kB | 93/212 kB | 96/181 kB | 70/567 kB
+Progress (4): 138/175 kB | 93/212 kB | 97/181 kB | 70/567 kB
+Progress (4): 140/175 kB | 93/212 kB | 97/181 kB | 70/567 kB
+Progress (4): 140/175 kB | 95/212 kB | 97/181 kB | 70/567 kB
+Progress (4): 140/175 kB | 95/212 kB | 99/181 kB | 70/567 kB
+Progress (4): 140/175 kB | 95/212 kB | 99/181 kB | 71/567 kB
+Progress (4): 140/175 kB | 95/212 kB | 100/181 kB | 71/567 kB
+Progress (4): 140/175 kB | 95/212 kB | 100/181 kB | 73/567 kB
+Progress (4): 140/175 kB | 95/212 kB | 101/181 kB | 73/567 kB
+Progress (4): 141/175 kB | 95/212 kB | 101/181 kB | 73/567 kB
+Progress (4): 141/175 kB | 96/212 kB | 101/181 kB | 73/567 kB
+Progress (4): 141/175 kB | 96/212 kB | 103/181 kB | 73/567 kB
+Progress (4): 141/175 kB | 96/212 kB | 103/181 kB | 74/567 kB
+Progress (4): 141/175 kB | 96/212 kB | 104/181 kB | 74/567 kB
+Progress (4): 143/175 kB | 96/212 kB | 104/181 kB | 74/567 kB
+Progress (4): 143/175 kB | 97/212 kB | 104/181 kB | 74/567 kB
+Progress (4): 143/175 kB | 97/212 kB | 106/181 kB | 74/567 kB
+Progress (4): 143/175 kB | 97/212 kB | 106/181 kB | 75/567 kB
+Progress (4): 143/175 kB | 97/212 kB | 107/181 kB | 75/567 kB
+Progress (4): 143/175 kB | 97/212 kB | 107/181 kB | 77/567 kB
+Progress (4): 144/175 kB | 97/212 kB | 107/181 kB | 77/567 kB
+Progress (4): 144/175 kB | 97/212 kB | 108/181 kB | 77/567 kB
+Progress (4): 144/175 kB | 97/212 kB | 108/181 kB | 78/567 kB
+Progress (4): 144/175 kB | 97/212 kB | 110/181 kB | 78/567 kB
+Progress (4): 144/175 kB | 97/212 kB | 110/181 kB | 80/567 kB
+Progress (4): 144/175 kB | 99/212 kB | 110/181 kB | 80/567 kB
+Progress (4): 144/175 kB | 99/212 kB | 110/181 kB | 81/567 kB
+Progress (4): 145/175 kB | 99/212 kB | 110/181 kB | 81/567 kB
+Progress (4): 145/175 kB | 99/212 kB | 110/181 kB | 82/567 kB
+Progress (4): 145/175 kB | 99/212 kB | 111/181 kB | 82/567 kB
+Progress (4): 145/175 kB | 100/212 kB | 111/181 kB | 82/567 kB
+Progress (4): 145/175 kB | 100/212 kB | 111/181 kB | 84/567 kB
+Progress (4): 145/175 kB | 101/212 kB | 111/181 kB | 84/567 kB
+Progress (4): 147/175 kB | 101/212 kB | 111/181 kB | 84/567 kB
+Progress (4): 147/175 kB | 103/212 kB | 111/181 kB | 84/567 kB
+Progress (4): 147/175 kB | 103/212 kB | 112/181 kB | 84/567 kB
+Progress (4): 147/175 kB | 103/212 kB | 112/181 kB | 85/567 kB
+Progress (4): 147/175 kB | 104/212 kB | 112/181 kB | 85/567 kB
+Progress (4): 147/175 kB | 104/212 kB | 114/181 kB | 85/567 kB
+Progress (4): 148/175 kB | 104/212 kB | 114/181 kB | 85/567 kB
+Progress (4): 148/175 kB | 106/212 kB | 114/181 kB | 85/567 kB
+Progress (4): 148/175 kB | 106/212 kB | 115/181 kB | 85/567 kB
+Progress (4): 148/175 kB | 106/212 kB | 115/181 kB | 86/567 kB
+Progress (4): 148/175 kB | 107/212 kB | 115/181 kB | 86/567 kB
+Progress (4): 148/175 kB | 107/212 kB | 115/181 kB | 88/567 kB
+Progress (4): 148/175 kB | 108/212 kB | 115/181 kB | 88/567 kB
+Progress (4): 148/175 kB | 108/212 kB | 117/181 kB | 88/567 kB
+Progress (4): 149/175 kB | 108/212 kB | 117/181 kB | 88/567 kB
+Progress (4): 149/175 kB | 110/212 kB | 117/181 kB | 88/567 kB
+Progress (4): 149/175 kB | 110/212 kB | 118/181 kB | 88/567 kB
+Progress (4): 149/175 kB | 110/212 kB | 118/181 kB | 89/567 kB
+Progress (4): 149/175 kB | 110/212 kB | 119/181 kB | 89/567 kB
+Progress (4): 151/175 kB | 110/212 kB | 119/181 kB | 89/567 kB
+Progress (4): 151/175 kB | 110/212 kB | 121/181 kB | 89/567 kB
+Progress (4): 151/175 kB | 111/212 kB | 121/181 kB | 89/567 kB
+Progress (4): 151/175 kB | 111/212 kB | 121/181 kB | 90/567 kB
+Progress (4): 152/175 kB | 111/212 kB | 121/181 kB | 90/567 kB
+Progress (4): 152/175 kB | 112/212 kB | 121/181 kB | 90/567 kB
+Progress (4): 152/175 kB | 112/212 kB | 122/181 kB | 90/567 kB
+Progress (4): 152/175 kB | 112/212 kB | 122/181 kB | 92/567 kB
+Progress (4): 152/175 kB | 114/212 kB | 122/181 kB | 92/567 kB
+Progress (4): 154/175 kB | 114/212 kB | 122/181 kB | 92/567 kB
+Progress (4): 154/175 kB | 115/212 kB | 122/181 kB | 92/567 kB
+Progress (4): 154/175 kB | 115/212 kB | 122/181 kB | 93/567 kB
+Progress (4): 154/175 kB | 115/212 kB | 123/181 kB | 93/567 kB
+Progress (4): 154/175 kB | 115/212 kB | 123/181 kB | 95/567 kB
+Progress (4): 154/175 kB | 115/212 kB | 125/181 kB | 95/567 kB
+Progress (4): 154/175 kB | 115/212 kB | 126/181 kB | 95/567 kB
+Progress (4): 154/175 kB | 117/212 kB | 126/181 kB | 95/567 kB
+Progress (4): 155/175 kB | 117/212 kB | 126/181 kB | 95/567 kB
+Progress (4): 155/175 kB | 117/212 kB | 128/181 kB | 95/567 kB
+Progress (4): 155/175 kB | 118/212 kB | 128/181 kB | 95/567 kB
+Progress (4): 155/175 kB | 118/212 kB | 128/181 kB | 96/567 kB
+Progress (4): 155/175 kB | 118/212 kB | 129/181 kB | 96/567 kB
+Progress (4): 155/175 kB | 119/212 kB | 129/181 kB | 96/567 kB
+Progress (4): 156/175 kB | 119/212 kB | 129/181 kB | 96/567 kB
+Progress (4): 156/175 kB | 119/212 kB | 130/181 kB | 96/567 kB
+Progress (4): 156/175 kB | 121/212 kB | 130/181 kB | 96/567 kB
+Progress (4): 156/175 kB | 121/212 kB | 130/181 kB | 97/567 kB
+Progress (4): 156/175 kB | 122/212 kB | 130/181 kB | 97/567 kB
+Progress (4): 158/175 kB | 122/212 kB | 130/181 kB | 97/567 kB
+Progress (4): 158/175 kB | 123/212 kB | 130/181 kB | 97/567 kB
+Progress (4): 158/175 kB | 123/212 kB | 130/181 kB | 99/567 kB
+Progress (4): 158/175 kB | 123/212 kB | 132/181 kB | 99/567 kB
+Progress (4): 158/175 kB | 123/212 kB | 132/181 kB | 100/567 kB
+Progress (4): 159/175 kB | 123/212 kB | 132/181 kB | 100/567 kB
+Progress (4): 159/175 kB | 123/212 kB | 132/181 kB | 101/567 kB
+Progress (4): 159/175 kB | 125/212 kB | 132/181 kB | 101/567 kB
+Progress (4): 159/175 kB | 125/212 kB | 132/181 kB | 103/567 kB
+Progress (4): 159/175 kB | 125/212 kB | 133/181 kB | 103/567 kB
+Progress (4): 159/175 kB | 125/212 kB | 133/181 kB | 104/567 kB
+Progress (4): 160/175 kB | 125/212 kB | 133/181 kB | 104/567 kB
+Progress (4): 160/175 kB | 126/212 kB | 133/181 kB | 104/567 kB
+Progress (4): 160/175 kB | 126/212 kB | 133/181 kB | 106/567 kB
+Progress (4): 160/175 kB | 126/212 kB | 134/181 kB | 106/567 kB
+Progress (4): 160/175 kB | 126/212 kB | 134/181 kB | 107/567 kB
+Progress (4): 160/175 kB | 126/212 kB | 136/181 kB | 107/567 kB
+Progress (4): 160/175 kB | 126/212 kB | 136/181 kB | 108/567 kB
+Progress (4): 160/175 kB | 128/212 kB | 136/181 kB | 108/567 kB
+Progress (4): 162/175 kB | 128/212 kB | 136/181 kB | 108/567 kB
+Progress (4): 162/175 kB | 129/212 kB | 136/181 kB | 108/567 kB
+Progress (4): 162/175 kB | 129/212 kB | 137/181 kB | 108/567 kB
+Progress (4): 162/175 kB | 129/212 kB | 137/181 kB | 110/567 kB
+Progress (4): 162/175 kB | 129/212 kB | 138/181 kB | 110/567 kB
+Progress (4): 162/175 kB | 129/212 kB | 138/181 kB | 111/567 kB
+Progress (4): 163/175 kB | 129/212 kB | 138/181 kB | 111/567 kB
+Progress (4): 163/175 kB | 129/212 kB | 140/181 kB | 111/567 kB
+Progress (4): 163/175 kB | 129/212 kB | 140/181 kB | 112/567 kB
+Progress (4): 163/175 kB | 130/212 kB | 140/181 kB | 112/567 kB
+Progress (4): 163/175 kB | 130/212 kB | 140/181 kB | 114/567 kB
+Progress (4): 163/175 kB | 130/212 kB | 141/181 kB | 114/567 kB
+Progress (4): 165/175 kB | 130/212 kB | 141/181 kB | 114/567 kB
+Progress (4): 165/175 kB | 130/212 kB | 143/181 kB | 114/567 kB
+Progress (4): 165/175 kB | 130/212 kB | 143/181 kB | 115/567 kB
+Progress (4): 165/175 kB | 132/212 kB | 143/181 kB | 115/567 kB
+Progress (4): 165/175 kB | 132/212 kB | 143/181 kB | 117/567 kB
+Progress (4): 165/175 kB | 133/212 kB | 143/181 kB | 117/567 kB
+Progress (4): 166/175 kB | 133/212 kB | 143/181 kB | 117/567 kB
+Progress (4): 166/175 kB | 133/212 kB | 144/181 kB | 117/567 kB
+Progress (4): 166/175 kB | 134/212 kB | 144/181 kB | 117/567 kB
+Progress (4): 166/175 kB | 134/212 kB | 144/181 kB | 118/567 kB
+Progress (4): 167/175 kB | 134/212 kB | 144/181 kB | 118/567 kB
+Progress (4): 167/175 kB | 136/212 kB | 144/181 kB | 118/567 kB
+Progress (4): 167/175 kB | 136/212 kB | 145/181 kB | 118/567 kB
+Progress (4): 167/175 kB | 136/212 kB | 145/181 kB | 119/567 kB
+Progress (4): 169/175 kB | 136/212 kB | 145/181 kB | 119/567 kB
+Progress (4): 169/175 kB | 136/212 kB | 145/181 kB | 121/567 kB
+Progress (4): 169/175 kB | 136/212 kB | 147/181 kB | 121/567 kB
+Progress (4): 169/175 kB | 137/212 kB | 147/181 kB | 121/567 kB
+Progress (4): 169/175 kB | 137/212 kB | 147/181 kB | 122/567 kB
+Progress (4): 170/175 kB | 137/212 kB | 147/181 kB | 122/567 kB
+Progress (4): 170/175 kB | 137/212 kB | 147/181 kB | 123/567 kB
+Progress (4): 171/175 kB | 137/212 kB | 147/181 kB | 123/567 kB
+Progress (4): 171/175 kB | 137/212 kB | 147/181 kB | 125/567 kB
+Progress (4): 173/175 kB | 137/212 kB | 147/181 kB | 125/567 kB
+Progress (4): 173/175 kB | 137/212 kB | 147/181 kB | 126/567 kB
+Progress (4): 173/175 kB | 137/212 kB | 147/181 kB | 128/567 kB
+Progress (4): 173/175 kB | 138/212 kB | 147/181 kB | 128/567 kB
+Progress (4): 174/175 kB | 138/212 kB | 147/181 kB | 128/567 kB
+Progress (4): 174/175 kB | 138/212 kB | 147/181 kB | 129/567 kB
+Progress (4): 175 kB | 138/212 kB | 147/181 kB | 129/567 kB    
+Progress (4): 175 kB | 140/212 kB | 147/181 kB | 129/567 kB
+Progress (4): 175 kB | 140/212 kB | 147/181 kB | 130/567 kB
+Progress (4): 175 kB | 140/212 kB | 148/181 kB | 130/567 kB
+Progress (4): 175 kB | 140/212 kB | 148/181 kB | 132/567 kB
+Progress (4): 175 kB | 140/212 kB | 148/181 kB | 133/567 kB
+Progress (4): 175 kB | 141/212 kB | 148/181 kB | 133/567 kB
+Progress (4): 175 kB | 141/212 kB | 149/181 kB | 133/567 kB
+Progress (4): 175 kB | 141/212 kB | 149/181 kB | 134/567 kB
+Progress (4): 175 kB | 141/212 kB | 149/181 kB | 136/567 kB
+Progress (4): 175 kB | 143/212 kB | 149/181 kB | 136/567 kB
+Progress (4): 175 kB | 143/212 kB | 149/181 kB | 137/567 kB
+Progress (4): 175 kB | 143/212 kB | 151/181 kB | 137/567 kB
+Progress (4): 175 kB | 143/212 kB | 151/181 kB | 138/567 kB
+Progress (4): 175 kB | 144/212 kB | 151/181 kB | 138/567 kB
+Progress (4): 175 kB | 144/212 kB | 151/181 kB | 140/567 kB
+Progress (4): 175 kB | 145/212 kB | 151/181 kB | 140/567 kB
+Progress (4): 175 kB | 145/212 kB | 151/181 kB | 141/567 kB
+Progress (4): 175 kB | 145/212 kB | 152/181 kB | 141/567 kB
+Progress (4): 175 kB | 145/212 kB | 152/181 kB | 143/567 kB
+Progress (4): 175 kB | 145/212 kB | 154/181 kB | 143/567 kB
+Progress (4): 175 kB | 145/212 kB | 154/181 kB | 144/567 kB
+Progress (4): 175 kB | 145/212 kB | 155/181 kB | 144/567 kB
+Progress (4): 175 kB | 145/212 kB | 155/181 kB | 145/567 kB
+Progress (4): 175 kB | 147/212 kB | 155/181 kB | 145/567 kB
+Progress (4): 175 kB | 147/212 kB | 155/181 kB | 147/567 kB
+Progress (4): 175 kB | 147/212 kB | 155/181 kB | 148/567 kB
+Progress (4): 175 kB | 147/212 kB | 156/181 kB | 148/567 kB
+Progress (4): 175 kB | 147/212 kB | 156/181 kB | 149/567 kB
+Progress (4): 175 kB | 148/212 kB | 156/181 kB | 149/567 kB
+Progress (4): 175 kB | 148/212 kB | 156/181 kB | 151/567 kB
+Progress (4): 175 kB | 148/212 kB | 156/181 kB | 152/567 kB
+Progress (4): 175 kB | 149/212 kB | 156/181 kB | 152/567 kB
+Progress (4): 175 kB | 149/212 kB | 158/181 kB | 152/567 kB
+Progress (4): 175 kB | 149/212 kB | 158/181 kB | 154/567 kB
+Progress (4): 175 kB | 149/212 kB | 158/181 kB | 155/567 kB
+Progress (4): 175 kB | 149/212 kB | 159/181 kB | 155/567 kB
+Progress (4): 175 kB | 151/212 kB | 159/181 kB | 155/567 kB
+Progress (4): 175 kB | 151/212 kB | 159/181 kB | 156/567 kB
+Progress (4): 175 kB | 151/212 kB | 160/181 kB | 156/567 kB
+Progress (4): 175 kB | 151/212 kB | 160/181 kB | 158/567 kB
+Progress (4): 175 kB | 152/212 kB | 160/181 kB | 158/567 kB
+Progress (4): 175 kB | 152/212 kB | 160/181 kB | 159/567 kB
+Progress (4): 175 kB | 152/212 kB | 160/181 kB | 160/567 kB
+Progress (4): 175 kB | 152/212 kB | 162/181 kB | 160/567 kB
+Progress (4): 175 kB | 154/212 kB | 162/181 kB | 160/567 kB
+Progress (4): 175 kB | 154/212 kB | 162/181 kB | 162/567 kB
+Progress (4): 175 kB | 154/212 kB | 162/181 kB | 163/567 kB
+Progress (4): 175 kB | 154/212 kB | 163/181 kB | 163/567 kB
+Progress (4): 175 kB | 155/212 kB | 163/181 kB | 163/567 kB
+Progress (4): 175 kB | 155/212 kB | 163/181 kB | 165/567 kB
+Progress (4): 175 kB | 155/212 kB | 163/181 kB | 166/567 kB
+Progress (4): 175 kB | 155/212 kB | 165/181 kB | 166/567 kB
+Progress (4): 175 kB | 156/212 kB | 165/181 kB | 166/567 kB
+Progress (4): 175 kB | 156/212 kB | 165/181 kB | 167/567 kB
+Progress (4): 175 kB | 156/212 kB | 165/181 kB | 169/567 kB
+Progress (4): 175 kB | 156/212 kB | 166/181 kB | 169/567 kB
+Progress (4): 175 kB | 156/212 kB | 166/181 kB | 170/567 kB
+Progress (4): 175 kB | 156/212 kB | 166/181 kB | 171/567 kB
+Progress (4): 175 kB | 156/212 kB | 166/181 kB | 173/567 kB
+Progress (4): 175 kB | 156/212 kB | 166/181 kB | 174/567 kB
+Progress (4): 175 kB | 156/212 kB | 166/181 kB | 175/567 kB
+Progress (4): 175 kB | 156/212 kB | 166/181 kB | 177/567 kB
+Progress (4): 175 kB | 156/212 kB | 166/181 kB | 178/567 kB
+Progress (4): 175 kB | 156/212 kB | 166/181 kB | 180/567 kB
+Progress (4): 175 kB | 156/212 kB | 166/181 kB | 181/567 kB
+Progress (4): 175 kB | 156/212 kB | 166/181 kB | 182/567 kB
+Progress (4): 175 kB | 156/212 kB | 166/181 kB | 184/567 kB
+Progress (4): 175 kB | 156/212 kB | 166/181 kB | 185/567 kB
+                                                           
+Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-api/5.7.0/junit-jupiter-api-5.7.0.jar (175 kB at 1.4 MB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-commons/1.7.0/junit-platform-commons-1.7.0.jar
+Progress (3): 158/212 kB | 166/181 kB | 185/567 kB
+Progress (3): 158/212 kB | 166/181 kB | 186/567 kB
+Progress (3): 159/212 kB | 166/181 kB | 186/567 kB
+Progress (3): 159/212 kB | 167/181 kB | 186/567 kB
+Progress (3): 159/212 kB | 167/181 kB | 188/567 kB
+Progress (3): 159/212 kB | 169/181 kB | 188/567 kB
+Progress (3): 159/212 kB | 169/181 kB | 189/567 kB
+Progress (3): 160/212 kB | 169/181 kB | 189/567 kB
+Progress (3): 160/212 kB | 169/181 kB | 191/567 kB
+Progress (3): 160/212 kB | 170/181 kB | 191/567 kB
+Progress (3): 160/212 kB | 170/181 kB | 192/567 kB
+Progress (3): 162/212 kB | 170/181 kB | 192/567 kB
+Progress (3): 162/212 kB | 170/181 kB | 193/567 kB
+Progress (3): 162/212 kB | 171/181 kB | 193/567 kB
+Progress (3): 162/212 kB | 171/181 kB | 195/567 kB
+Progress (3): 163/212 kB | 171/181 kB | 195/567 kB
+Progress (3): 163/212 kB | 171/181 kB | 196/567 kB
+Progress (3): 163/212 kB | 173/181 kB | 196/567 kB
+Progress (3): 163/212 kB | 173/181 kB | 197/567 kB
+Progress (3): 165/212 kB | 173/181 kB | 197/567 kB
+Progress (3): 165/212 kB | 173/181 kB | 199/567 kB
+Progress (3): 165/212 kB | 174/181 kB | 199/567 kB
+Progress (3): 165/212 kB | 174/181 kB | 200/567 kB
+Progress (3): 166/212 kB | 174/181 kB | 200/567 kB
+Progress (3): 166/212 kB | 174/181 kB | 202/567 kB
+Progress (3): 166/212 kB | 175/181 kB | 202/567 kB
+Progress (3): 167/212 kB | 175/181 kB | 202/567 kB
+Progress (3): 167/212 kB | 177/181 kB | 202/567 kB
+Progress (3): 169/212 kB | 177/181 kB | 202/567 kB
+Progress (3): 169/212 kB | 178/181 kB | 202/567 kB
+Progress (3): 170/212 kB | 178/181 kB | 202/567 kB
+Progress (3): 170/212 kB | 180/181 kB | 202/567 kB
+Progress (3): 171/212 kB | 180/181 kB | 202/567 kB
+Progress (3): 171/212 kB | 181 kB | 202/567 kB    
+Progress (3): 173/212 kB | 181 kB | 202/567 kB
+Progress (3): 174/212 kB | 181 kB | 202/567 kB
+Progress (3): 175/212 kB | 181 kB | 202/567 kB
+Progress (3): 177/212 kB | 181 kB | 202/567 kB
+Progress (3): 178/212 kB | 181 kB | 202/567 kB
+Progress (3): 180/212 kB | 181 kB | 202/567 kB
+Progress (3): 181/212 kB | 181 kB | 202/567 kB
+Progress (3): 182/212 kB | 181 kB | 202/567 kB
+Progress (3): 184/212 kB | 181 kB | 202/567 kB
+Progress (4): 184/212 kB | 181 kB | 202/567 kB | 4.1/100 kB
+Progress (4): 184/212 kB | 181 kB | 202/567 kB | 8.2/100 kB
+Progress (4): 184/212 kB | 181 kB | 202/567 kB | 12/100 kB 
+Progress (4): 184/212 kB | 181 kB | 202/567 kB | 16/100 kB
+Progress (4): 184/212 kB | 181 kB | 203/567 kB | 16/100 kB
+Progress (4): 184/212 kB | 181 kB | 204/567 kB | 16/100 kB
+Progress (4): 184/212 kB | 181 kB | 204/567 kB | 20/100 kB
+Progress (4): 184/212 kB | 181 kB | 206/567 kB | 20/100 kB
+Progress (4): 184/212 kB | 181 kB | 206/567 kB | 25/100 kB
+Progress (4): 184/212 kB | 181 kB | 207/567 kB | 25/100 kB
+Progress (4): 184/212 kB | 181 kB | 207/567 kB | 29/100 kB
+Progress (4): 184/212 kB | 181 kB | 208/567 kB | 29/100 kB
+Progress (4): 185/212 kB | 181 kB | 208/567 kB | 29/100 kB
+Progress (4): 185/212 kB | 181 kB | 208/567 kB | 33/100 kB
+Progress (4): 185/212 kB | 181 kB | 210/567 kB | 33/100 kB
+Progress (4): 185/212 kB | 181 kB | 211/567 kB | 33/100 kB
+Progress (4): 185/212 kB | 181 kB | 213/567 kB | 33/100 kB
+Progress (4): 185/212 kB | 181 kB | 214/567 kB | 33/100 kB
+Progress (4): 185/212 kB | 181 kB | 215/567 kB | 33/100 kB
+Progress (4): 185/212 kB | 181 kB | 217/567 kB | 33/100 kB
+Progress (4): 185/212 kB | 181 kB | 218/567 kB | 33/100 kB
+Progress (4): 185/212 kB | 181 kB | 219/567 kB | 33/100 kB
+Progress (4): 185/212 kB | 181 kB | 221/567 kB | 33/100 kB
+Progress (4): 185/212 kB | 181 kB | 222/567 kB | 33/100 kB
+                                                          
+Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-engine/1.7.0/junit-platform-engine-1.7.0.jar (181 kB at 1.3 MB/s)
+Progress (3): 186/212 kB | 222/567 kB | 33/100 kB
+Progress (3): 188/212 kB | 222/567 kB | 33/100 kB
+Progress (3): 189/212 kB | 222/567 kB | 33/100 kB
+Progress (3): 189/212 kB | 222/567 kB | 37/100 kB
+Progress (3): 189/212 kB | 223/567 kB | 37/100 kB
+Progress (3): 189/212 kB | 223/567 kB | 41/100 kB
+Progress (3): 189/212 kB | 225/567 kB | 41/100 kB
+Progress (3): 191/212 kB | 225/567 kB | 41/100 kB
+Progress (3): 191/212 kB | 226/567 kB | 41/100 kB
+Progress (3): 191/212 kB | 226/567 kB | 45/100 kB
+Progress (3): 191/212 kB | 228/567 kB | 45/100 kB
+Progress (3): 192/212 kB | 228/567 kB | 45/100 kB
+Progress (3): 192/212 kB | 229/567 kB | 45/100 kB
+Progress (3): 192/212 kB | 229/567 kB | 49/100 kB
+Progress (3): 192/212 kB | 230/567 kB | 49/100 kB
+Progress (3): 192/212 kB | 232/567 kB | 49/100 kB
+Progress (3): 192/212 kB | 233/567 kB | 49/100 kB
+Progress (3): 193/212 kB | 233/567 kB | 49/100 kB
+Progress (3): 193/212 kB | 234/567 kB | 49/100 kB
+Progress (3): 193/212 kB | 236/567 kB | 49/100 kB
+Progress (3): 195/212 kB | 236/567 kB | 49/100 kB
+Progress (3): 196/212 kB | 236/567 kB | 49/100 kB
+Progress (3): 197/212 kB | 236/567 kB | 49/100 kB
+Progress (3): 197/212 kB | 236/567 kB | 53/100 kB
+Progress (3): 197/212 kB | 237/567 kB | 53/100 kB
+Progress (3): 197/212 kB | 237/567 kB | 57/100 kB
+Progress (3): 197/212 kB | 239/567 kB | 57/100 kB
+Progress (3): 199/212 kB | 239/567 kB | 57/100 kB
+Progress (3): 199/212 kB | 240/567 kB | 57/100 kB
+Progress (3): 199/212 kB | 240/567 kB | 61/100 kB
+Progress (3): 199/212 kB | 240/567 kB | 66/100 kB
+Progress (3): 200/212 kB | 240/567 kB | 66/100 kB
+Progress (3): 200/212 kB | 241/567 kB | 66/100 kB
+Progress (3): 200/212 kB | 243/567 kB | 66/100 kB
+Progress (3): 200/212 kB | 244/567 kB | 66/100 kB
+Progress (3): 202/212 kB | 244/567 kB | 66/100 kB
+Progress (3): 202/212 kB | 245/567 kB | 66/100 kB
+Progress (3): 202/212 kB | 247/567 kB | 66/100 kB
+Progress (3): 202/212 kB | 248/567 kB | 66/100 kB
+Progress (3): 202/212 kB | 250/567 kB | 66/100 kB
+Progress (3): 203/212 kB | 250/567 kB | 66/100 kB
+Progress (3): 203/212 kB | 251/567 kB | 66/100 kB
+Progress (3): 203/212 kB | 252/567 kB | 66/100 kB
+Progress (3): 203/212 kB | 254/567 kB | 66/100 kB
+Progress (3): 204/212 kB | 254/567 kB | 66/100 kB
+Progress (3): 204/212 kB | 255/567 kB | 66/100 kB
+Progress (3): 204/212 kB | 255/567 kB | 66/100 kB
+Progress (3): 204/212 kB | 255/567 kB | 70/100 kB
+Progress (3): 206/212 kB | 255/567 kB | 70/100 kB
+Progress (3): 207/212 kB | 255/567 kB | 70/100 kB
+Progress (3): 207/212 kB | 255/567 kB | 74/100 kB
+Progress (3): 207/212 kB | 259/567 kB | 74/100 kB
+Progress (3): 207/212 kB | 259/567 kB | 78/100 kB
+Progress (3): 207/212 kB | 263/567 kB | 78/100 kB
+Progress (3): 207/212 kB | 268/567 kB | 78/100 kB
+Progress (3): 207/212 kB | 268/567 kB | 82/100 kB
+Progress (3): 207/212 kB | 272/567 kB | 82/100 kB
+Progress (3): 208/212 kB | 272/567 kB | 82/100 kB
+Progress (3): 210/212 kB | 272/567 kB | 82/100 kB
+Progress (3): 210/212 kB | 276/567 kB | 82/100 kB
+Progress (3): 210/212 kB | 280/567 kB | 82/100 kB
+Progress (3): 210/212 kB | 284/567 kB | 82/100 kB
+Progress (3): 211/212 kB | 284/567 kB | 82/100 kB
+Progress (3): 211/212 kB | 288/567 kB | 82/100 kB
+Progress (3): 212 kB | 288/567 kB | 82/100 kB    
+Progress (3): 212 kB | 288/567 kB | 86/100 kB
+Progress (3): 212 kB | 288/567 kB | 90/100 kB
+Progress (3): 212 kB | 288/567 kB | 94/100 kB
+Progress (3): 212 kB | 288/567 kB | 98/100 kB
+Progress (3): 212 kB | 288/567 kB | 100 kB   
+Progress (3): 212 kB | 292/567 kB | 100 kB
+Progress (3): 212 kB | 296/567 kB | 100 kB
+Progress (3): 212 kB | 300/567 kB | 100 kB
+Progress (3): 212 kB | 304/567 kB | 100 kB
+Progress (3): 212 kB | 309/567 kB | 100 kB
+Progress (3): 212 kB | 313/567 kB | 100 kB
+Progress (3): 212 kB | 317/567 kB | 100 kB
+Progress (3): 212 kB | 321/567 kB | 100 kB
+Progress (3): 212 kB | 325/567 kB | 100 kB
+Progress (3): 212 kB | 329/567 kB | 100 kB
+Progress (3): 212 kB | 333/567 kB | 100 kB
+Progress (3): 212 kB | 337/567 kB | 100 kB
+Progress (3): 212 kB | 341/567 kB | 100 kB
+Progress (3): 212 kB | 345/567 kB | 100 kB
+Progress (3): 212 kB | 349/567 kB | 100 kB
+Progress (3): 212 kB | 354/567 kB | 100 kB
+                                          
+Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-commons/1.7.0/junit-platform-commons-1.7.0.jar (100 kB at 655 kB/s)
+Progress (2): 212 kB | 358/567 kB
+                                 
+Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-engine/5.7.0/junit-jupiter-engine-5.7.0.jar (212 kB at 1.4 MB/s)
+Progress (1): 362/567 kB
+Progress (1): 366/567 kB
+Progress (1): 370/567 kB
+Progress (1): 374/567 kB
+Progress (1): 378/567 kB
+Progress (1): 382/567 kB
+Progress (1): 386/567 kB
+Progress (1): 390/567 kB
+Progress (1): 395/567 kB
+Progress (1): 399/567 kB
+Progress (1): 403/567 kB
+Progress (1): 407/567 kB
+Progress (1): 411/567 kB
+Progress (1): 415/567 kB
+Progress (1): 419/567 kB
+Progress (1): 423/567 kB
+Progress (1): 427/567 kB
+Progress (1): 431/567 kB
+Progress (1): 435/567 kB
+Progress (1): 440/567 kB
+Progress (1): 444/567 kB
+Progress (1): 448/567 kB
+Progress (1): 452/567 kB
+Progress (1): 456/567 kB
+Progress (1): 460/567 kB
+Progress (1): 464/567 kB
+Progress (1): 468/567 kB
+Progress (1): 472/567 kB
+Progress (1): 475/567 kB
+Progress (1): 479/567 kB
+Progress (1): 483/567 kB
+Progress (1): 487/567 kB
+Progress (1): 491/567 kB
+Progress (1): 495/567 kB
+Progress (1): 499/567 kB
+Progress (1): 503/567 kB
+Progress (1): 507/567 kB
+Progress (1): 511/567 kB
+Progress (1): 515/567 kB
+Progress (1): 520/567 kB
+Progress (1): 524/567 kB
+Progress (1): 528/567 kB
+Progress (1): 532/567 kB
+Progress (1): 536/567 kB
+Progress (1): 540/567 kB
+Progress (1): 544/567 kB
+Progress (1): 548/567 kB
+Progress (1): 552/567 kB
+Progress (1): 556/567 kB
+Progress (1): 561/567 kB
+Progress (1): 565/567 kB
+Progress (1): 567 kB    
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-params/5.7.0/junit-jupiter-params-5.7.0.jar (567 kB at 3.2 MB/s)
+Progress (1): 1.4/84 kB
+Progress (1): 2.7/84 kB
+Progress (1): 4.1/84 kB
+Progress (1): 5.5/84 kB
+Progress (1): 6.9/84 kB
+Progress (1): 8.2/84 kB
+Progress (1): 9.6/84 kB
+Progress (1): 11/84 kB 
+Progress (1): 12/84 kB
+Progress (1): 14/84 kB
+Progress (1): 15/84 kB
+Progress (1): 16/84 kB
+Progress (1): 18/84 kB
+Progress (1): 19/84 kB
+Progress (1): 21/84 kB
+Progress (1): 22/84 kB
+Progress (1): 23/84 kB
+Progress (1): 25/84 kB
+Progress (1): 26/84 kB
+Progress (1): 27/84 kB
+Progress (1): 29/84 kB
+Progress (1): 30/84 kB
+Progress (1): 32/84 kB
+Progress (1): 33/84 kB
+Progress (1): 34/84 kB
+Progress (1): 36/84 kB
+Progress (1): 37/84 kB
+Progress (1): 38/84 kB
+Progress (1): 40/84 kB
+Progress (1): 41/84 kB
+Progress (1): 43/84 kB
+Progress (1): 44/84 kB
+Progress (1): 45/84 kB
+Progress (1): 47/84 kB
+Progress (1): 48/84 kB
+Progress (1): 49/84 kB
+Progress (1): 51/84 kB
+Progress (1): 52/84 kB
+Progress (1): 53/84 kB
+Progress (1): 55/84 kB
+Progress (1): 56/84 kB
+Progress (1): 58/84 kB
+Progress (1): 59/84 kB
+Progress (1): 60/84 kB
+Progress (1): 62/84 kB
+Progress (1): 63/84 kB
+Progress (1): 64/84 kB
+Progress (1): 66/84 kB
+Progress (1): 67/84 kB
+Progress (1): 69/84 kB
+Progress (1): 70/84 kB
+Progress (1): 71/84 kB
+Progress (1): 73/84 kB
+Progress (1): 74/84 kB
+Progress (1): 75/84 kB
+Progress (1): 77/84 kB
+Progress (1): 78/84 kB
+Progress (1): 80/84 kB
+Progress (1): 81/84 kB
+Progress (1): 82/84 kB
+Progress (1): 84/84 kB
+Progress (1): 84 kB   
+                   
+Downloaded from central: https://repo.maven.apache.org/maven2/org/junit-pioneer/junit-pioneer/0.9.2/junit-pioneer-0.9.2.jar (84 kB at 281 kB/s)
+[INFO] 
+[INFO] --- maven-clean-plugin:3.1.0:clean (default-clean) @ commons-lang3 ---
+[INFO] Deleting ./commons-lang/target
+[INFO] 
+[INFO] --- maven-enforcer-plugin:3.0.0-M3:enforce (enforce-maven-version) @ commons-lang3 ---
+[INFO] 
+[INFO] --- maven-enforcer-plugin:3.0.0-M3:enforce (enforce-maven-3) @ commons-lang3 ---
+[INFO] 
+[INFO] --- apache-rat-plugin:0.13:check (rat-check) @ commons-lang3 ---
+[INFO] Enabled default license matchers.
+[INFO] Will parse SCM ignores for exclusions...
+[INFO] Parsing exclusions from ./commons-lang/.gitignore
+[INFO] Finished adding exclusions from SCM ignore files.
+[INFO] 73 implicit excludes (use -debug for more details).
+[INFO] 14 explicit excludes (use -debug for more details).
+[INFO] 433 resources included (use -debug for more details)
+[INFO] Rat check: Summary over all files. Unapproved: 0, unknown: 0, generated: 0, approved: 428 licenses.
+[INFO] 
+[INFO] --- build-helper-maven-plugin:3.2.0:parse-version (parse-version) @ commons-lang3 ---
+[INFO] 
+[INFO] --- maven-antrun-plugin:1.8:run (javadoc.resources) @ commons-lang3 ---
+[INFO] Executing tasks
+
+main:
+     [copy] Copying 2 files to ./commons-lang/target/apidocs/META-INF
+[INFO] Executed tasks
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.7.0:process (process-resource-bundles) @ commons-lang3 ---
+[INFO] Skipping remote resources execution.
+[INFO] 
+[INFO] --- buildnumber-maven-plugin:1.4:create (default) @ commons-lang3 ---
+[INFO] Executing: /bin/sh -c cd './commons-lang' && 'git' 'rev-parse' '--verify' 'HEAD'
+[INFO] Working directory: ./commons-lang
+[INFO] Storing buildNumber: 02d6a732fdbbb8a2985dcaf8de1386aa297b6b3b at timestamp: 1625598589129
+[WARNING] Cannot get the branch information from the git repository: 
+Detecting the current branch failed: fatal: ref HEAD is not a symbolic ref
+
+[INFO] Executing: /bin/sh -c cd './commons-lang' && 'git' 'rev-parse' '--verify' 'HEAD'
+[INFO] Working directory: ./commons-lang
+[INFO] Storing buildScmBranch: UNKNOWN
+[INFO] 
+[INFO] --- maven-resources-plugin:3.1.0:resources (default-resources) @ commons-lang3 ---
+[INFO] Using 'ISO-8859-1' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory ./commons-lang/src/main/resources
+[INFO] Copying 2 resources to META-INF
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.1:compile (default-compile) @ commons-lang3 ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 210 source files to ./commons-lang/target/classes
+[INFO] ./commons-lang/src/main/java/org/apache/commons/lang3/builder/ToStringStyle.java: Some input files use or override a deprecated API.
+[INFO] ./commons-lang/src/main/java/org/apache/commons/lang3/builder/ToStringStyle.java: Recompile with -Xlint:deprecation for details.
+[INFO] ./commons-lang/src/main/java/org/apache/commons/lang3/function/FailableObjIntConsumer.java: Some input files use unchecked or unsafe operations.
+[INFO] ./commons-lang/src/main/java/org/apache/commons/lang3/function/FailableObjIntConsumer.java: Recompile with -Xlint:unchecked for details.
+[INFO] 
+[INFO] --- maven-bundle-plugin:5.1.1:manifest (bundle-manifest) @ commons-lang3 ---
+Downloading from central: https://repo.maven.apache.org/maven2/biz/aQute/bnd/biz.aQute.bndlib/5.2.0/biz.aQute.bndlib-5.2.0.pom
+Progress (1): 1.4/4.5 kB
+Progress (1): 2.7/4.5 kB
+Progress (1): 4.1/4.5 kB
+Progress (1): 4.5 kB    
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/biz/aQute/bnd/biz.aQute.bndlib/5.2.0/biz.aQute.bndlib-5.2.0.pom (4.5 kB at 283 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/biz/aQute/bnd/biz.aQute.bndlib/5.2.0/biz.aQute.bndlib-5.2.0.jar
+Progress (1): 0/3.7 MB
+Progress (1): 0/3.7 MB
+Progress (1): 0/3.7 MB
+Progress (1): 0/3.7 MB
+Progress (1): 0/3.7 MB
+Progress (1): 0/3.7 MB
+Progress (1): 0/3.7 MB
+Progress (1): 0/3.7 MB
+Progress (1): 0/3.7 MB
+Progress (1): 0/3.7 MB
+Progress (1): 0/3.7 MB
+Progress (1): 0/3.7 MB
+Progress (1): 0/3.7 MB
+Progress (1): 0/3.7 MB
+Progress (1): 0/3.7 MB
+Progress (1): 0/3.7 MB
+Progress (1): 0/3.7 MB
+Progress (1): 0/3.7 MB
+Progress (1): 0/3.7 MB
+Progress (1): 0/3.7 MB
+Progress (1): 0/3.7 MB
+Progress (1): 0/3.7 MB
+Progress (1): 0/3.7 MB
+Progress (1): 0/3.7 MB
+Progress (1): 0/3.7 MB
+Progress (1): 0/3.7 MB
+Progress (1): 0/3.7 MB
+Progress (1): 0/3.7 MB
+Progress (1): 0/3.7 MB
+Progress (1): 0/3.7 MB
+Progress (1): 0/3.7 MB
+Progress (1): 0/3.7 MB
+Progress (1): 0/3.7 MB
+Progress (1): 0/3.7 MB
+Progress (1): 0/3.7 MB
+Progress (1): 0/3.7 MB
+Progress (1): 0.1/3.7 MB
+Progress (1): 0.1/3.7 MB
+Progress (1): 0.1/3.7 MB
+Progress (1): 0.1/3.7 MB
+Progress (1): 0.1/3.7 MB
+Progress (1): 0.1/3.7 MB
+Progress (1): 0.1/3.7 MB
+Progress (1): 0.1/3.7 MB
+Progress (1): 0.1/3.7 MB
+Progress (1): 0.1/3.7 MB
+Progress (1): 0.1/3.7 MB
+Progress (1): 0.1/3.7 MB
+Progress (1): 0.1/3.7 MB
+Progress (1): 0.1/3.7 MB
+Progress (1): 0.1/3.7 MB
+Progress (1): 0.1/3.7 MB
+Progress (1): 0.1/3.7 MB
+Progress (1): 0.1/3.7 MB
+Progress (1): 0.1/3.7 MB
+Progress (1): 0.1/3.7 MB
+Progress (1): 0.1/3.7 MB
+Progress (1): 0.1/3.7 MB
+Progress (1): 0.1/3.7 MB
+Progress (1): 0.1/3.7 MB
+Progress (1): 0.1/3.7 MB
+Progress (1): 0.1/3.7 MB
+Progress (1): 0.1/3.7 MB
+Progress (1): 0.1/3.7 MB
+Progress (1): 0.1/3.7 MB
+Progress (1): 0.1/3.7 MB
+Progress (1): 0.1/3.7 MB
+Progress (1): 0.1/3.7 MB
+Progress (1): 0.1/3.7 MB
+Progress (1): 0.1/3.7 MB
+Progress (1): 0.1/3.7 MB
+Progress (1): 0.1/3.7 MB
+Progress (1): 0.1/3.7 MB
+Progress (1): 0.1/3.7 MB
+Progress (1): 0.1/3.7 MB
+Progress (1): 0.1/3.7 MB
+Progress (1): 0.1/3.7 MB
+Progress (1): 0.1/3.7 MB
+Progress (1): 0.1/3.7 MB
+Progress (1): 0.1/3.7 MB
+Progress (1): 0.1/3.7 MB
+Progress (1): 0.1/3.7 MB
+Progress (1): 0.1/3.7 MB
+Progress (1): 0.1/3.7 MB
+Progress (1): 0.1/3.7 MB
+Progress (1): 0.1/3.7 MB
+Progress (1): 0.1/3.7 MB
+Progress (1): 0.1/3.7 MB
+Progress (1): 0.1/3.7 MB
+Progress (1): 0.1/3.7 MB
+Progress (1): 0.1/3.7 MB
+Progress (1): 0.1/3.7 MB
+Progress (1): 0.1/3.7 MB
+Progress (1): 0.1/3.7 MB
+Progress (1): 0.1/3.7 MB
+Progress (1): 0.1/3.7 MB
+Progress (1): 0.1/3.7 MB
+Progress (1): 0.1/3.7 MB
+Progress (1): 0.1/3.7 MB
+Progress (1): 0.1/3.7 MB
+Progress (1): 0.1/3.7 MB
+Progress (1): 0.1/3.7 MB
+Progress (1): 0.1/3.7 MB
+Progress (1): 0.1/3.7 MB
+Progress (1): 0.1/3.7 MB
+Progress (1): 0.1/3.7 MB
+Progress (1): 0.1/3.7 MB
+Progress (1): 0.1/3.7 MB
+Progress (1): 0.1/3.7 MB
+Progress (1): 0.2/3.7 MB
+Progress (1): 0.2/3.7 MB
+Progress (1): 0.2/3.7 MB
+Progress (1): 0.2/3.7 MB
+Progress (1): 0.2/3.7 MB
+Progress (1): 0.2/3.7 MB
+Progress (1): 0.2/3.7 MB
+Progress (1): 0.2/3.7 MB
+Progress (1): 0.2/3.7 MB
+Progress (1): 0.2/3.7 MB
+Progress (1): 0.2/3.7 MB
+Progress (1): 0.2/3.7 MB
+Progress (1): 0.2/3.7 MB
+Progress (1): 0.2/3.7 MB
+Progress (1): 0.2/3.7 MB
+Progress (1): 0.2/3.7 MB
+Progress (1): 0.2/3.7 MB
+Progress (1): 0.2/3.7 MB
+Progress (1): 0.2/3.7 MB
+Progress (1): 0.2/3.7 MB
+Progress (1): 0.2/3.7 MB
+Progress (1): 0.2/3.7 MB
+Progress (1): 0.2/3.7 MB
+Progress (1): 0.2/3.7 MB
+Progress (1): 0.2/3.7 MB
+Progress (1): 0.2/3.7 MB
+Progress (1): 0.2/3.7 MB
+Progress (1): 0.2/3.7 MB
+Progress (1): 0.2/3.7 MB
+Progress (1): 0.2/3.7 MB
+Progress (1): 0.2/3.7 MB
+Progress (1): 0.2/3.7 MB
+Progress (1): 0.2/3.7 MB
+Progress (1): 0.2/3.7 MB
+Progress (1): 0.2/3.7 MB
+Progress (1): 0.2/3.7 MB
+Progress (1): 0.2/3.7 MB
+Progress (1): 0.2/3.7 MB
+Progress (1): 0.2/3.7 MB
+Progress (1): 0.2/3.7 MB
+Progress (1): 0.2/3.7 MB
+Progress (1): 0.2/3.7 MB
+Progress (1): 0.2/3.7 MB
+Progress (1): 0.2/3.7 MB
+Progress (1): 0.2/3.7 MB
+Progress (1): 0.2/3.7 MB
+Progress (1): 0.2/3.7 MB
+Progress (1): 0.2/3.7 MB
+Progress (1): 0.2/3.7 MB
+Progress (1): 0.2/3.7 MB
+Progress (1): 0.2/3.7 MB
+Progress (1): 0.2/3.7 MB
+Progress (1): 0.2/3.7 MB
+Progress (1): 0.2/3.7 MB
+Progress (1): 0.2/3.7 MB
+Progress (1): 0.2/3.7 MB
+Progress (1): 0.2/3.7 MB
+Progress (1): 0.2/3.7 MB
+Progress (1): 0.2/3.7 MB
+Progress (1): 0.2/3.7 MB
+Progress (1): 0.2/3.7 MB
+Progress (1): 0.2/3.7 MB
+Progress (1): 0.2/3.7 MB
+Progress (1): 0.2/3.7 MB
+Progress (1): 0.2/3.7 MB
+Progress (1): 0.2/3.7 MB
+Progress (1): 0.2/3.7 MB
+Progress (1): 0.2/3.7 MB
+Progress (1): 0.2/3.7 MB
+Progress (1): 0.2/3.7 MB
+Progress (1): 0.2/3.7 MB
+Progress (1): 0.2/3.7 MB
+Progress (1): 0.2/3.7 MB
+Progress (1): 0.3/3.7 MB
+Progress (1): 0.3/3.7 MB
+Progress (1): 0.3/3.7 MB
+Progress (1): 0.3/3.7 MB
+Progress (1): 0.3/3.7 MB
+Progress (1): 0.3/3.7 MB
+Progress (1): 0.3/3.7 MB
+Progress (1): 0.3/3.7 MB
+Progress (1): 0.3/3.7 MB
+Progress (1): 0.3/3.7 MB
+Progress (1): 0.3/3.7 MB
+Progress (1): 0.3/3.7 MB
+Progress (1): 0.3/3.7 MB
+Progress (1): 0.3/3.7 MB
+Progress (1): 0.3/3.7 MB
+Progress (1): 0.3/3.7 MB
+Progress (1): 0.3/3.7 MB
+Progress (1): 0.3/3.7 MB
+Progress (1): 0.3/3.7 MB
+Progress (1): 0.3/3.7 MB
+Progress (1): 0.3/3.7 MB
+Progress (1): 0.3/3.7 MB
+Progress (1): 0.3/3.7 MB
+Progress (1): 0.3/3.7 MB
+Progress (1): 0.3/3.7 MB
+Progress (1): 0.3/3.7 MB
+Progress (1): 0.3/3.7 MB
+Progress (1): 0.3/3.7 MB
+Progress (1): 0.3/3.7 MB
+Progress (1): 0.3/3.7 MB
+Progress (1): 0.3/3.7 MB
+Progress (1): 0.3/3.7 MB
+Progress (1): 0.3/3.7 MB
+Progress (1): 0.3/3.7 MB
+Progress (1): 0.3/3.7 MB
+Progress (1): 0.3/3.7 MB
+Progress (1): 0.3/3.7 MB
+Progress (1): 0.3/3.7 MB
+Progress (1): 0.3/3.7 MB
+Progress (1): 0.3/3.7 MB
+Progress (1): 0.3/3.7 MB
+Progress (1): 0.3/3.7 MB
+Progress (1): 0.3/3.7 MB
+Progress (1): 0.3/3.7 MB
+Progress (1): 0.3/3.7 MB
+Progress (1): 0.3/3.7 MB
+Progress (1): 0.3/3.7 MB
+Progress (1): 0.3/3.7 MB
+Progress (1): 0.3/3.7 MB
+Progress (1): 0.3/3.7 MB
+Progress (1): 0.3/3.7 MB
+Progress (1): 0.3/3.7 MB
+Progress (1): 0.3/3.7 MB
+Progress (1): 0.3/3.7 MB
+Progress (1): 0.3/3.7 MB
+Progress (1): 0.3/3.7 MB
+Progress (1): 0.3/3.7 MB
+Progress (1): 0.3/3.7 MB
+Progress (1): 0.3/3.7 MB
+Progress (1): 0.3/3.7 MB
+Progress (1): 0.3/3.7 MB
+Progress (1): 0.3/3.7 MB
+Progress (1): 0.3/3.7 MB
+Progress (1): 0.3/3.7 MB
+Progress (1): 0.3/3.7 MB
+Progress (1): 0.3/3.7 MB
+Progress (1): 0.3/3.7 MB
+Progress (1): 0.3/3.7 MB
+Progress (1): 0.3/3.7 MB
+Progress (1): 0.3/3.7 MB
+Progress (1): 0.3/3.7 MB
+Progress (1): 0.3/3.7 MB
+Progress (1): 0.3/3.7 MB
+Progress (1): 0.4/3.7 MB
+Progress (1): 0.4/3.7 MB
+Progress (1): 0.4/3.7 MB
+Progress (1): 0.4/3.7 MB
+Progress (1): 0.4/3.7 MB
+Progress (1): 0.4/3.7 MB
+Progress (1): 0.4/3.7 MB
+Progress (1): 0.4/3.7 MB
+Progress (1): 0.4/3.7 MB
+Progress (1): 0.4/3.7 MB
+Progress (1): 0.4/3.7 MB
+Progress (1): 0.4/3.7 MB
+Progress (1): 0.4/3.7 MB
+Progress (1): 0.4/3.7 MB
+Progress (1): 0.4/3.7 MB
+Progress (1): 0.4/3.7 MB
+Progress (1): 0.4/3.7 MB
+Progress (1): 0.4/3.7 MB
+Progress (1): 0.4/3.7 MB
+Progress (1): 0.4/3.7 MB
+Progress (1): 0.4/3.7 MB
+Progress (1): 0.4/3.7 MB
+Progress (1): 0.4/3.7 MB
+Progress (1): 0.4/3.7 MB
+Progress (1): 0.4/3.7 MB
+Progress (1): 0.4/3.7 MB
+Progress (1): 0.4/3.7 MB
+Progress (1): 0.4/3.7 MB
+Progress (1): 0.4/3.7 MB
+Progress (1): 0.4/3.7 MB
+Progress (1): 0.4/3.7 MB
+Progress (1): 0.4/3.7 MB
+Progress (1): 0.4/3.7 MB
+Progress (1): 0.4/3.7 MB
+Progress (1): 0.4/3.7 MB
+Progress (1): 0.4/3.7 MB
+Progress (1): 0.4/3.7 MB
+Progress (1): 0.4/3.7 MB
+Progress (1): 0.4/3.7 MB
+Progress (1): 0.4/3.7 MB
+Progress (1): 0.4/3.7 MB
+Progress (1): 0.4/3.7 MB
+Progress (1): 0.4/3.7 MB
+Progress (1): 0.4/3.7 MB
+Progress (1): 0.4/3.7 MB
+Progress (1): 0.4/3.7 MB
+Progress (1): 0.4/3.7 MB
+Progress (1): 0.4/3.7 MB
+Progress (1): 0.4/3.7 MB
+Progress (1): 0.4/3.7 MB
+Progress (1): 0.4/3.7 MB
+Progress (1): 0.4/3.7 MB
+Progress (1): 0.4/3.7 MB
+Progress (1): 0.4/3.7 MB
+Progress (1): 0.4/3.7 MB
+Progress (1): 0.4/3.7 MB
+Progress (1): 0.4/3.7 MB
+Progress (1): 0.4/3.7 MB
+Progress (1): 0.4/3.7 MB
+Progress (1): 0.4/3.7 MB
+Progress (1): 0.4/3.7 MB
+Progress (1): 0.4/3.7 MB
+Progress (1): 0.4/3.7 MB
+Progress (1): 0.4/3.7 MB
+Progress (1): 0.4/3.7 MB
+Progress (1): 0.4/3.7 MB
+Progress (1): 0.4/3.7 MB
+Progress (1): 0.4/3.7 MB
+Progress (1): 0.4/3.7 MB
+Progress (1): 0.4/3.7 MB
+Progress (1): 0.4/3.7 MB
+Progress (1): 0.4/3.7 MB
+Progress (1): 0.4/3.7 MB
+Progress (1): 0.5/3.7 MB
+Progress (1): 0.5/3.7 MB
+Progress (1): 0.5/3.7 MB
+Progress (1): 0.5/3.7 MB
+Progress (1): 0.5/3.7 MB
+Progress (1): 0.5/3.7 MB
+Progress (1): 0.5/3.7 MB
+Progress (1): 0.5/3.7 MB
+Progress (1): 0.5/3.7 MB
+Progress (1): 0.5/3.7 MB
+Progress (1): 0.5/3.7 MB
+Progress (1): 0.5/3.7 MB
+Progress (1): 0.5/3.7 MB
+Progress (1): 0.5/3.7 MB
+Progress (1): 0.5/3.7 MB
+Progress (1): 0.5/3.7 MB
+Progress (1): 0.5/3.7 MB
+Progress (1): 0.5/3.7 MB
+Progress (1): 0.5/3.7 MB
+Progress (1): 0.5/3.7 MB
+Progress (1): 0.5/3.7 MB
+Progress (1): 0.5/3.7 MB
+Progress (1): 0.5/3.7 MB
+Progress (1): 0.5/3.7 MB
+Progress (1): 0.5/3.7 MB
+Progress (1): 0.5/3.7 MB
+Progress (1): 0.5/3.7 MB
+Progress (1): 0.5/3.7 MB
+Progress (1): 0.5/3.7 MB
+Progress (1): 0.5/3.7 MB
+Progress (1): 0.5/3.7 MB
+Progress (1): 0.5/3.7 MB
+Progress (1): 0.5/3.7 MB
+Progress (1): 0.5/3.7 MB
+Progress (1): 0.5/3.7 MB
+Progress (1): 0.5/3.7 MB
+Progress (1): 0.5/3.7 MB
+Progress (1): 0.6/3.7 MB
+Progress (1): 0.6/3.7 MB
+Progress (1): 0.6/3.7 MB
+Progress (1): 0.6/3.7 MB
+Progress (1): 0.6/3.7 MB
+Progress (1): 0.6/3.7 MB
+Progress (1): 0.6/3.7 MB
+Progress (1): 0.6/3.7 MB
+Progress (1): 0.6/3.7 MB
+Progress (1): 0.6/3.7 MB
+Progress (1): 0.6/3.7 MB
+Progress (1): 0.6/3.7 MB
+Progress (1): 0.6/3.7 MB
+Progress (1): 0.6/3.7 MB
+Progress (1): 0.6/3.7 MB
+Progress (1): 0.6/3.7 MB
+Progress (1): 0.6/3.7 MB
+Progress (1): 0.6/3.7 MB
+Progress (1): 0.6/3.7 MB
+Progress (1): 0.6/3.7 MB
+Progress (1): 0.6/3.7 MB
+Progress (1): 0.6/3.7 MB
+Progress (1): 0.6/3.7 MB
+Progress (1): 0.6/3.7 MB
+Progress (1): 0.7/3.7 MB
+Progress (1): 0.7/3.7 MB
+Progress (1): 0.7/3.7 MB
+Progress (1): 0.7/3.7 MB
+Progress (1): 0.7/3.7 MB
+Progress (1): 0.7/3.7 MB
+Progress (1): 0.7/3.7 MB
+Progress (1): 0.7/3.7 MB
+Progress (1): 0.7/3.7 MB
+Progress (1): 0.7/3.7 MB
+Progress (1): 0.7/3.7 MB
+Progress (1): 0.7/3.7 MB
+Progress (1): 0.7/3.7 MB
+Progress (1): 0.7/3.7 MB
+Progress (1): 0.7/3.7 MB
+Progress (1): 0.7/3.7 MB
+Progress (1): 0.7/3.7 MB
+Progress (1): 0.7/3.7 MB
+Progress (1): 0.7/3.7 MB
+Progress (1): 0.7/3.7 MB
+Progress (1): 0.7/3.7 MB
+Progress (1): 0.7/3.7 MB
+Progress (1): 0.7/3.7 MB
+Progress (1): 0.7/3.7 MB
+Progress (1): 0.7/3.7 MB
+Progress (1): 0.8/3.7 MB
+Progress (1): 0.8/3.7 MB
+Progress (1): 0.8/3.7 MB
+Progress (1): 0.8/3.7 MB
+Progress (1): 0.8/3.7 MB
+Progress (1): 0.8/3.7 MB
+Progress (1): 0.8/3.7 MB
+Progress (1): 0.8/3.7 MB
+Progress (1): 0.8/3.7 MB
+Progress (1): 0.8/3.7 MB
+Progress (1): 0.8/3.7 MB
+Progress (1): 0.8/3.7 MB
+Progress (1): 0.8/3.7 MB
+Progress (1): 0.8/3.7 MB
+Progress (1): 0.8/3.7 MB
+Progress (1): 0.8/3.7 MB
+Progress (1): 0.8/3.7 MB
+Progress (1): 0.8/3.7 MB
+Progress (1): 0.8/3.7 MB
+Progress (1): 0.8/3.7 MB
+Progress (1): 0.8/3.7 MB
+Progress (1): 0.8/3.7 MB
+Progress (1): 0.8/3.7 MB
+Progress (1): 0.8/3.7 MB
+Progress (1): 0.8/3.7 MB
+Progress (1): 0.9/3.7 MB
+Progress (1): 0.9/3.7 MB
+Progress (1): 0.9/3.7 MB
+Progress (1): 0.9/3.7 MB
+Progress (1): 0.9/3.7 MB
+Progress (1): 0.9/3.7 MB
+Progress (1): 0.9/3.7 MB
+Progress (1): 0.9/3.7 MB
+Progress (1): 0.9/3.7 MB
+Progress (1): 0.9/3.7 MB
+Progress (1): 0.9/3.7 MB
+Progress (1): 0.9/3.7 MB
+Progress (1): 0.9/3.7 MB
+Progress (1): 0.9/3.7 MB
+Progress (1): 0.9/3.7 MB
+Progress (1): 0.9/3.7 MB
+Progress (1): 0.9/3.7 MB
+Progress (1): 0.9/3.7 MB
+Progress (1): 0.9/3.7 MB
+Progress (1): 0.9/3.7 MB
+Progress (1): 0.9/3.7 MB
+Progress (1): 0.9/3.7 MB
+Progress (1): 0.9/3.7 MB
+Progress (1): 0.9/3.7 MB
+Progress (1): 0.9/3.7 MB
+Progress (1): 1.0/3.7 MB
+Progress (1): 1.0/3.7 MB
+Progress (1): 1.0/3.7 MB
+Progress (1): 1.0/3.7 MB
+Progress (1): 1.0/3.7 MB
+Progress (1): 1.0/3.7 MB
+Progress (1): 1.0/3.7 MB
+Progress (1): 1.0/3.7 MB
+Progress (1): 1.0/3.7 MB
+Progress (1): 1.0/3.7 MB
+Progress (1): 1.0/3.7 MB
+Progress (1): 1.0/3.7 MB
+Progress (1): 1.0/3.7 MB
+Progress (1): 1.0/3.7 MB
+Progress (1): 1.0/3.7 MB
+Progress (1): 1.0/3.7 MB
+Progress (1): 1.0/3.7 MB
+Progress (1): 1.0/3.7 MB
+Progress (1): 1.0/3.7 MB
+Progress (1): 1.0/3.7 MB
+Progress (1): 1.0/3.7 MB
+Progress (1): 1.0/3.7 MB
+Progress (1): 1.0/3.7 MB
+Progress (1): 1.0/3.7 MB
+Progress (1): 1.1/3.7 MB
+Progress (1): 1.1/3.7 MB
+Progress (1): 1.1/3.7 MB
+Progress (1): 1.1/3.7 MB
+Progress (1): 1.1/3.7 MB
+Progress (1): 1.1/3.7 MB
+Progress (1): 1.1/3.7 MB
+Progress (1): 1.1/3.7 MB
+Progress (1): 1.1/3.7 MB
+Progress (1): 1.1/3.7 MB
+Progress (1): 1.1/3.7 MB
+Progress (1): 1.1/3.7 MB
+Progress (1): 1.1/3.7 MB
+Progress (1): 1.1/3.7 MB
+Progress (1): 1.1/3.7 MB
+Progress (1): 1.1/3.7 MB
+Progress (1): 1.1/3.7 MB
+Progress (1): 1.1/3.7 MB
+Progress (1): 1.1/3.7 MB
+Progress (1): 1.1/3.7 MB
+Progress (1): 1.1/3.7 MB
+Progress (1): 1.1/3.7 MB
+Progress (1): 1.1/3.7 MB
+Progress (1): 1.1/3.7 MB
+Progress (1): 1.1/3.7 MB
+Progress (1): 1.2/3.7 MB
+Progress (1): 1.2/3.7 MB
+Progress (1): 1.2/3.7 MB
+Progress (1): 1.2/3.7 MB
+Progress (1): 1.2/3.7 MB
+Progress (1): 1.2/3.7 MB
+Progress (1): 1.2/3.7 MB
+Progress (1): 1.2/3.7 MB
+Progress (1): 1.2/3.7 MB
+Progress (1): 1.2/3.7 MB
+Progress (1): 1.2/3.7 MB
+Progress (1): 1.2/3.7 MB
+Progress (1): 1.2/3.7 MB
+Progress (1): 1.2/3.7 MB
+Progress (1): 1.2/3.7 MB
+Progress (1): 1.2/3.7 MB
+Progress (1): 1.2/3.7 MB
+Progress (1): 1.2/3.7 MB
+Progress (1): 1.2/3.7 MB
+Progress (1): 1.2/3.7 MB
+Progress (1): 1.2/3.7 MB
+Progress (1): 1.2/3.7 MB
+Progress (1): 1.2/3.7 MB
+Progress (1): 1.2/3.7 MB
+Progress (1): 1.3/3.7 MB
+Progress (1): 1.3/3.7 MB
+Progress (1): 1.3/3.7 MB
+Progress (1): 1.3/3.7 MB
+Progress (1): 1.3/3.7 MB
+Progress (1): 1.3/3.7 MB
+Progress (1): 1.3/3.7 MB
+Progress (1): 1.3/3.7 MB
+Progress (1): 1.3/3.7 MB
+Progress (1): 1.3/3.7 MB
+Progress (1): 1.3/3.7 MB
+Progress (1): 1.3/3.7 MB
+Progress (1): 1.3/3.7 MB
+Progress (1): 1.3/3.7 MB
+Progress (1): 1.3/3.7 MB
+Progress (1): 1.3/3.7 MB
+Progress (1): 1.3/3.7 MB
+Progress (1): 1.3/3.7 MB
+Progress (1): 1.3/3.7 MB
+Progress (1): 1.3/3.7 MB
+Progress (1): 1.3/3.7 MB
+Progress (1): 1.3/3.7 MB
+Progress (1): 1.3/3.7 MB
+Progress (1): 1.3/3.7 MB
+Progress (1): 1.3/3.7 MB
+Progress (1): 1.4/3.7 MB
+Progress (1): 1.4/3.7 MB
+Progress (1): 1.4/3.7 MB
+Progress (1): 1.4/3.7 MB
+Progress (1): 1.4/3.7 MB
+Progress (1): 1.4/3.7 MB
+Progress (1): 1.4/3.7 MB
+Progress (1): 1.4/3.7 MB
+Progress (1): 1.4/3.7 MB
+Progress (1): 1.4/3.7 MB
+Progress (1): 1.4/3.7 MB
+Progress (1): 1.4/3.7 MB
+Progress (1): 1.4/3.7 MB
+Progress (1): 1.4/3.7 MB
+Progress (1): 1.4/3.7 MB
+Progress (1): 1.4/3.7 MB
+Progress (1): 1.4/3.7 MB
+Progress (1): 1.4/3.7 MB
+Progress (1): 1.4/3.7 MB
+Progress (1): 1.4/3.7 MB
+Progress (1): 1.4/3.7 MB
+Progress (1): 1.4/3.7 MB
+Progress (1): 1.4/3.7 MB
+Progress (1): 1.4/3.7 MB
+Progress (1): 1.4/3.7 MB
+Progress (1): 1.5/3.7 MB
+Progress (1): 1.5/3.7 MB
+Progress (1): 1.5/3.7 MB
+Progress (1): 1.5/3.7 MB
+Progress (1): 1.5/3.7 MB
+Progress (1): 1.5/3.7 MB
+Progress (1): 1.5/3.7 MB
+Progress (1): 1.5/3.7 MB
+Progress (1): 1.5/3.7 MB
+Progress (1): 1.5/3.7 MB
+Progress (1): 1.5/3.7 MB
+Progress (1): 1.5/3.7 MB
+Progress (1): 1.5/3.7 MB
+Progress (1): 1.5/3.7 MB
+Progress (1): 1.5/3.7 MB
+Progress (1): 1.5/3.7 MB
+Progress (1): 1.5/3.7 MB
+Progress (1): 1.5/3.7 MB
+Progress (1): 1.5/3.7 MB
+Progress (1): 1.5/3.7 MB
+Progress (1): 1.5/3.7 MB
+Progress (1): 1.5/3.7 MB
+Progress (1): 1.5/3.7 MB
+Progress (1): 1.5/3.7 MB
+Progress (1): 1.6/3.7 MB
+Progress (1): 1.6/3.7 MB
+Progress (1): 1.6/3.7 MB
+Progress (1): 1.6/3.7 MB
+Progress (1): 1.6/3.7 MB
+Progress (1): 1.6/3.7 MB
+Progress (1): 1.6/3.7 MB
+Progress (1): 1.6/3.7 MB
+Progress (1): 1.6/3.7 MB
+Progress (1): 1.6/3.7 MB
+Progress (1): 1.6/3.7 MB
+Progress (1): 1.6/3.7 MB
+Progress (1): 1.6/3.7 MB
+Progress (1): 1.6/3.7 MB
+Progress (1): 1.6/3.7 MB
+Progress (1): 1.6/3.7 MB
+Progress (1): 1.6/3.7 MB
+Progress (1): 1.6/3.7 MB
+Progress (1): 1.6/3.7 MB
+Progress (1): 1.6/3.7 MB
+Progress (1): 1.6/3.7 MB
+Progress (1): 1.6/3.7 MB
+Progress (1): 1.6/3.7 MB
+Progress (1): 1.6/3.7 MB
+Progress (1): 1.6/3.7 MB
+Progress (1): 1.7/3.7 MB
+Progress (1): 1.7/3.7 MB
+Progress (1): 1.7/3.7 MB
+Progress (1): 1.7/3.7 MB
+Progress (1): 1.7/3.7 MB
+Progress (1): 1.7/3.7 MB
+Progress (1): 1.7/3.7 MB
+Progress (1): 1.7/3.7 MB
+Progress (1): 1.7/3.7 MB
+Progress (1): 1.7/3.7 MB
+Progress (1): 1.7/3.7 MB
+Progress (1): 1.7/3.7 MB
+Progress (1): 1.7/3.7 MB
+Progress (1): 1.7/3.7 MB
+Progress (1): 1.7/3.7 MB
+Progress (1): 1.7/3.7 MB
+Progress (1): 1.7/3.7 MB
+Progress (1): 1.7/3.7 MB
+Progress (1): 1.7/3.7 MB
+Progress (1): 1.7/3.7 MB
+Progress (1): 1.7/3.7 MB
+Progress (1): 1.7/3.7 MB
+Progress (1): 1.7/3.7 MB
+Progress (1): 1.7/3.7 MB
+Progress (1): 1.8/3.7 MB
+Progress (1): 1.8/3.7 MB
+Progress (1): 1.8/3.7 MB
+Progress (1): 1.8/3.7 MB
+Progress (1): 1.8/3.7 MB
+Progress (1): 1.8/3.7 MB
+Progress (1): 1.8/3.7 MB
+Progress (1): 1.8/3.7 MB
+Progress (1): 1.8/3.7 MB
+Progress (1): 1.8/3.7 MB
+Progress (1): 1.8/3.7 MB
+Progress (1): 1.8/3.7 MB
+Progress (1): 1.8/3.7 MB
+Progress (1): 1.8/3.7 MB
+Progress (1): 1.8/3.7 MB
+Progress (1): 1.8/3.7 MB
+Progress (1): 1.8/3.7 MB
+Progress (1): 1.8/3.7 MB
+Progress (1): 1.8/3.7 MB
+Progress (1): 1.8/3.7 MB
+Progress (1): 1.8/3.7 MB
+Progress (1): 1.8/3.7 MB
+Progress (1): 1.8/3.7 MB
+Progress (1): 1.8/3.7 MB
+Progress (1): 1.8/3.7 MB
+Progress (1): 1.9/3.7 MB
+Progress (1): 1.9/3.7 MB
+Progress (1): 1.9/3.7 MB
+Progress (1): 1.9/3.7 MB
+Progress (1): 1.9/3.7 MB
+Progress (1): 1.9/3.7 MB
+Progress (1): 1.9/3.7 MB
+Progress (1): 1.9/3.7 MB
+Progress (1): 1.9/3.7 MB
+Progress (1): 1.9/3.7 MB
+Progress (1): 1.9/3.7 MB
+Progress (1): 1.9/3.7 MB
+Progress (1): 1.9/3.7 MB
+Progress (1): 1.9/3.7 MB
+Progress (1): 1.9/3.7 MB
+Progress (1): 1.9/3.7 MB
+Progress (1): 1.9/3.7 MB
+Progress (1): 1.9/3.7 MB
+Progress (1): 1.9/3.7 MB
+Progress (1): 1.9/3.7 MB
+Progress (1): 1.9/3.7 MB
+Progress (1): 1.9/3.7 MB
+Progress (1): 1.9/3.7 MB
+Progress (1): 1.9/3.7 MB
+Progress (1): 2.0/3.7 MB
+Progress (1): 2.0/3.7 MB
+Progress (1): 2.0/3.7 MB
+Progress (1): 2.0/3.7 MB
+Progress (1): 2.0/3.7 MB
+Progress (1): 2.0/3.7 MB
+Progress (1): 2.0/3.7 MB
+Progress (1): 2.0/3.7 MB
+Progress (1): 2.0/3.7 MB
+Progress (1): 2.0/3.7 MB
+Progress (1): 2.0/3.7 MB
+Progress (1): 2.0/3.7 MB
+Progress (1): 2.0/3.7 MB
+Progress (1): 2.0/3.7 MB
+Progress (1): 2.0/3.7 MB
+Progress (1): 2.0/3.7 MB
+Progress (1): 2.0/3.7 MB
+Progress (1): 2.0/3.7 MB
+Progress (1): 2.0/3.7 MB
+Progress (1): 2.0/3.7 MB
+Progress (1): 2.0/3.7 MB
+Progress (1): 2.0/3.7 MB
+Progress (1): 2.0/3.7 MB
+Progress (1): 2.0/3.7 MB
+Progress (1): 2.1/3.7 MB
+Progress (1): 2.1/3.7 MB
+Progress (1): 2.1/3.7 MB
+Progress (1): 2.1/3.7 MB
+Progress (1): 2.1/3.7 MB
+Progress (1): 2.1/3.7 MB
+Progress (1): 2.1/3.7 MB
+Progress (1): 2.1/3.7 MB
+Progress (1): 2.1/3.7 MB
+Progress (1): 2.1/3.7 MB
+Progress (1): 2.1/3.7 MB
+Progress (1): 2.1/3.7 MB
+Progress (1): 2.1/3.7 MB
+Progress (1): 2.1/3.7 MB
+Progress (1): 2.1/3.7 MB
+Progress (1): 2.1/3.7 MB
+Progress (1): 2.1/3.7 MB
+Progress (1): 2.1/3.7 MB
+Progress (1): 2.1/3.7 MB
+Progress (1): 2.1/3.7 MB
+Progress (1): 2.1/3.7 MB
+Progress (1): 2.1/3.7 MB
+Progress (1): 2.1/3.7 MB
+Progress (1): 2.1/3.7 MB
+Progress (1): 2.1/3.7 MB
+Progress (1): 2.2/3.7 MB
+Progress (1): 2.2/3.7 MB
+Progress (1): 2.2/3.7 MB
+Progress (1): 2.2/3.7 MB
+Progress (1): 2.2/3.7 MB
+Progress (1): 2.2/3.7 MB
+Progress (1): 2.2/3.7 MB
+Progress (1): 2.2/3.7 MB
+Progress (1): 2.2/3.7 MB
+Progress (1): 2.2/3.7 MB
+Progress (1): 2.2/3.7 MB
+Progress (1): 2.2/3.7 MB
+Progress (1): 2.2/3.7 MB
+Progress (1): 2.2/3.7 MB
+Progress (1): 2.2/3.7 MB
+Progress (1): 2.2/3.7 MB
+Progress (1): 2.2/3.7 MB
+Progress (1): 2.2/3.7 MB
+Progress (1): 2.2/3.7 MB
+Progress (1): 2.2/3.7 MB
+Progress (1): 2.2/3.7 MB
+Progress (1): 2.2/3.7 MB
+Progress (1): 2.2/3.7 MB
+Progress (1): 2.2/3.7 MB
+Progress (1): 2.3/3.7 MB
+Progress (1): 2.3/3.7 MB
+Progress (1): 2.3/3.7 MB
+Progress (1): 2.3/3.7 MB
+Progress (1): 2.3/3.7 MB
+Progress (1): 2.3/3.7 MB
+Progress (1): 2.3/3.7 MB
+Progress (1): 2.3/3.7 MB
+Progress (1): 2.3/3.7 MB
+Progress (1): 2.3/3.7 MB
+Progress (1): 2.3/3.7 MB
+Progress (1): 2.3/3.7 MB
+Progress (1): 2.3/3.7 MB
+Progress (1): 2.3/3.7 MB
+Progress (1): 2.3/3.7 MB
+Progress (1): 2.3/3.7 MB
+Progress (1): 2.3/3.7 MB
+Progress (1): 2.3/3.7 MB
+Progress (1): 2.3/3.7 MB
+Progress (1): 2.3/3.7 MB
+Progress (1): 2.3/3.7 MB
+Progress (1): 2.3/3.7 MB
+Progress (1): 2.3/3.7 MB
+Progress (1): 2.3/3.7 MB
+Progress (1): 2.3/3.7 MB
+Progress (1): 2.4/3.7 MB
+Progress (1): 2.4/3.7 MB
+Progress (1): 2.4/3.7 MB
+Progress (1): 2.4/3.7 MB
+Progress (1): 2.4/3.7 MB
+Progress (1): 2.4/3.7 MB
+Progress (1): 2.4/3.7 MB
+Progress (1): 2.4/3.7 MB
+Progress (1): 2.4/3.7 MB
+Progress (1): 2.4/3.7 MB
+Progress (1): 2.4/3.7 MB
+Progress (1): 2.4/3.7 MB
+Progress (1): 2.4/3.7 MB
+Progress (1): 2.4/3.7 MB
+Progress (1): 2.4/3.7 MB
+Progress (1): 2.4/3.7 MB
+Progress (1): 2.4/3.7 MB
+Progress (1): 2.4/3.7 MB
+Progress (1): 2.4/3.7 MB
+Progress (1): 2.4/3.7 MB
+Progress (1): 2.4/3.7 MB
+Progress (1): 2.4/3.7 MB
+Progress (1): 2.4/3.7 MB
+Progress (1): 2.4/3.7 MB
+Progress (1): 2.5/3.7 MB
+Progress (1): 2.5/3.7 MB
+Progress (1): 2.5/3.7 MB
+Progress (1): 2.5/3.7 MB
+Progress (1): 2.5/3.7 MB
+Progress (1): 2.5/3.7 MB
+Progress (1): 2.5/3.7 MB
+Progress (1): 2.5/3.7 MB
+Progress (1): 2.5/3.7 MB
+Progress (1): 2.5/3.7 MB
+Progress (1): 2.5/3.7 MB
+Progress (1): 2.5/3.7 MB
+Progress (1): 2.5/3.7 MB
+Progress (1): 2.5/3.7 MB
+Progress (1): 2.5/3.7 MB
+Progress (1): 2.5/3.7 MB
+Progress (1): 2.5/3.7 MB
+Progress (1): 2.5/3.7 MB
+Progress (1): 2.5/3.7 MB
+Progress (1): 2.5/3.7 MB
+Progress (1): 2.5/3.7 MB
+Progress (1): 2.5/3.7 MB
+Progress (1): 2.5/3.7 MB
+Progress (1): 2.5/3.7 MB
+Progress (1): 2.5/3.7 MB
+Progress (1): 2.6/3.7 MB
+Progress (1): 2.6/3.7 MB
+Progress (1): 2.6/3.7 MB
+Progress (1): 2.6/3.7 MB
+Progress (1): 2.6/3.7 MB
+Progress (1): 2.6/3.7 MB
+Progress (1): 2.6/3.7 MB
+Progress (1): 2.6/3.7 MB
+Progress (1): 2.6/3.7 MB
+Progress (1): 2.6/3.7 MB
+Progress (1): 2.6/3.7 MB
+Progress (1): 2.6/3.7 MB
+Progress (1): 2.6/3.7 MB
+Progress (1): 2.6/3.7 MB
+Progress (1): 2.6/3.7 MB
+Progress (1): 2.6/3.7 MB
+Progress (1): 2.6/3.7 MB
+Progress (1): 2.6/3.7 MB
+Progress (1): 2.6/3.7 MB
+Progress (1): 2.6/3.7 MB
+Progress (1): 2.6/3.7 MB
+Progress (1): 2.6/3.7 MB
+Progress (1): 2.6/3.7 MB
+Progress (1): 2.6/3.7 MB
+Progress (1): 2.7/3.7 MB
+Progress (1): 2.7/3.7 MB
+Progress (1): 2.7/3.7 MB
+Progress (1): 2.7/3.7 MB
+Progress (1): 2.7/3.7 MB
+Progress (1): 2.7/3.7 MB
+Progress (1): 2.7/3.7 MB
+Progress (1): 2.7/3.7 MB
+Progress (1): 2.7/3.7 MB
+Progress (1): 2.7/3.7 MB
+Progress (1): 2.7/3.7 MB
+Progress (1): 2.7/3.7 MB
+Progress (1): 2.7/3.7 MB
+Progress (1): 2.7/3.7 MB
+Progress (1): 2.7/3.7 MB
+Progress (1): 2.7/3.7 MB
+Progress (1): 2.7/3.7 MB
+Progress (1): 2.7/3.7 MB
+Progress (1): 2.7/3.7 MB
+Progress (1): 2.7/3.7 MB
+Progress (1): 2.7/3.7 MB
+Progress (1): 2.7/3.7 MB
+Progress (1): 2.7/3.7 MB
+Progress (1): 2.7/3.7 MB
+Progress (1): 2.8/3.7 MB
+Progress (1): 2.8/3.7 MB
+Progress (1): 2.8/3.7 MB
+Progress (1): 2.8/3.7 MB
+Progress (1): 2.8/3.7 MB
+Progress (1): 2.8/3.7 MB
+Progress (1): 2.8/3.7 MB
+Progress (1): 2.8/3.7 MB
+Progress (1): 2.8/3.7 MB
+Progress (1): 2.8/3.7 MB
+Progress (1): 2.8/3.7 MB
+Progress (1): 2.8/3.7 MB
+Progress (1): 2.8/3.7 MB
+Progress (1): 2.8/3.7 MB
+Progress (1): 2.8/3.7 MB
+Progress (1): 2.8/3.7 MB
+Progress (1): 2.8/3.7 MB
+Progress (1): 2.8/3.7 MB
+Progress (1): 2.8/3.7 MB
+Progress (1): 2.8/3.7 MB
+Progress (1): 2.8/3.7 MB
+Progress (1): 2.8/3.7 MB
+Progress (1): 2.8/3.7 MB
+Progress (1): 2.8/3.7 MB
+Progress (1): 2.8/3.7 MB
+Progress (1): 2.9/3.7 MB
+Progress (1): 2.9/3.7 MB
+Progress (1): 2.9/3.7 MB
+Progress (1): 2.9/3.7 MB
+Progress (1): 2.9/3.7 MB
+Progress (1): 2.9/3.7 MB
+Progress (1): 2.9/3.7 MB
+Progress (1): 2.9/3.7 MB
+Progress (1): 2.9/3.7 MB
+Progress (1): 2.9/3.7 MB
+Progress (1): 2.9/3.7 MB
+Progress (1): 2.9/3.7 MB
+Progress (1): 2.9/3.7 MB
+Progress (1): 2.9/3.7 MB
+Progress (1): 2.9/3.7 MB
+Progress (1): 2.9/3.7 MB
+Progress (1): 2.9/3.7 MB
+Progress (1): 2.9/3.7 MB
+Progress (1): 2.9/3.7 MB
+Progress (1): 2.9/3.7 MB
+Progress (1): 2.9/3.7 MB
+Progress (1): 2.9/3.7 MB
+Progress (1): 2.9/3.7 MB
+Progress (1): 2.9/3.7 MB
+Progress (1): 2.9/3.7 MB
+Progress (1): 3.0/3.7 MB
+Progress (1): 3.0/3.7 MB
+Progress (1): 3.0/3.7 MB
+Progress (1): 3.0/3.7 MB
+Progress (1): 3.0/3.7 MB
+Progress (1): 3.0/3.7 MB
+Progress (1): 3.0/3.7 MB
+Progress (1): 3.0/3.7 MB
+Progress (1): 3.0/3.7 MB
+Progress (1): 3.0/3.7 MB
+Progress (1): 3.0/3.7 MB
+Progress (1): 3.0/3.7 MB
+Progress (1): 3.0/3.7 MB
+Progress (1): 3.0/3.7 MB
+Progress (1): 3.0/3.7 MB
+Progress (1): 3.0/3.7 MB
+Progress (1): 3.0/3.7 MB
+Progress (1): 3.0/3.7 MB
+Progress (1): 3.0/3.7 MB
+Progress (1): 3.0/3.7 MB
+Progress (1): 3.0/3.7 MB
+Progress (1): 3.0/3.7 MB
+Progress (1): 3.0/3.7 MB
+Progress (1): 3.0/3.7 MB
+Progress (1): 3.1/3.7 MB
+Progress (1): 3.1/3.7 MB
+Progress (1): 3.1/3.7 MB
+Progress (1): 3.1/3.7 MB
+Progress (1): 3.1/3.7 MB
+Progress (1): 3.1/3.7 MB
+Progress (1): 3.1/3.7 MB
+Progress (1): 3.1/3.7 MB
+Progress (1): 3.1/3.7 MB
+Progress (1): 3.1/3.7 MB
+Progress (1): 3.1/3.7 MB
+Progress (1): 3.1/3.7 MB
+Progress (1): 3.1/3.7 MB
+Progress (1): 3.1/3.7 MB
+Progress (1): 3.1/3.7 MB
+Progress (1): 3.1/3.7 MB
+Progress (1): 3.1/3.7 MB
+Progress (1): 3.1/3.7 MB
+Progress (1): 3.1/3.7 MB
+Progress (1): 3.1/3.7 MB
+Progress (1): 3.1/3.7 MB
+Progress (1): 3.1/3.7 MB
+Progress (1): 3.1/3.7 MB
+Progress (1): 3.1/3.7 MB
+Progress (1): 3.1/3.7 MB
+Progress (1): 3.2/3.7 MB
+Progress (1): 3.2/3.7 MB
+Progress (1): 3.2/3.7 MB
+Progress (1): 3.2/3.7 MB
+Progress (1): 3.2/3.7 MB
+Progress (1): 3.2/3.7 MB
+Progress (1): 3.2/3.7 MB
+Progress (1): 3.2/3.7 MB
+Progress (1): 3.2/3.7 MB
+Progress (1): 3.2/3.7 MB
+Progress (1): 3.2/3.7 MB
+Progress (1): 3.2/3.7 MB
+Progress (1): 3.2/3.7 MB
+Progress (1): 3.2/3.7 MB
+Progress (1): 3.2/3.7 MB
+Progress (1): 3.2/3.7 MB
+Progress (1): 3.2/3.7 MB
+Progress (1): 3.2/3.7 MB
+Progress (1): 3.2/3.7 MB
+Progress (1): 3.2/3.7 MB
+Progress (1): 3.2/3.7 MB
+Progress (1): 3.2/3.7 MB
+Progress (1): 3.2/3.7 MB
+Progress (1): 3.2/3.7 MB
+Progress (1): 3.3/3.7 MB
+Progress (1): 3.3/3.7 MB
+Progress (1): 3.3/3.7 MB
+Progress (1): 3.3/3.7 MB
+Progress (1): 3.3/3.7 MB
+Progress (1): 3.3/3.7 MB
+Progress (1): 3.3/3.7 MB
+Progress (1): 3.3/3.7 MB
+Progress (1): 3.3/3.7 MB
+Progress (1): 3.3/3.7 MB
+Progress (1): 3.3/3.7 MB
+Progress (1): 3.3/3.7 MB
+Progress (1): 3.3/3.7 MB
+Progress (1): 3.3/3.7 MB
+Progress (1): 3.3/3.7 MB
+Progress (1): 3.3/3.7 MB
+Progress (1): 3.3/3.7 MB
+Progress (1): 3.3/3.7 MB
+Progress (1): 3.3/3.7 MB
+Progress (1): 3.3/3.7 MB
+Progress (1): 3.3/3.7 MB
+Progress (1): 3.3/3.7 MB
+Progress (1): 3.3/3.7 MB
+Progress (1): 3.3/3.7 MB
+Progress (1): 3.3/3.7 MB
+Progress (1): 3.4/3.7 MB
+Progress (1): 3.4/3.7 MB
+Progress (1): 3.4/3.7 MB
+Progress (1): 3.4/3.7 MB
+Progress (1): 3.4/3.7 MB
+Progress (1): 3.4/3.7 MB
+Progress (1): 3.4/3.7 MB
+Progress (1): 3.4/3.7 MB
+Progress (1): 3.4/3.7 MB
+Progress (1): 3.4/3.7 MB
+Progress (1): 3.4/3.7 MB
+Progress (1): 3.4/3.7 MB
+Progress (1): 3.4/3.7 MB
+Progress (1): 3.4/3.7 MB
+Progress (1): 3.4/3.7 MB
+Progress (1): 3.4/3.7 MB
+Progress (1): 3.4/3.7 MB
+Progress (1): 3.4/3.7 MB
+Progress (1): 3.4/3.7 MB
+Progress (1): 3.4/3.7 MB
+Progress (1): 3.4/3.7 MB
+Progress (1): 3.4/3.7 MB
+Progress (1): 3.4/3.7 MB
+Progress (1): 3.4/3.7 MB
+Progress (1): 3.5/3.7 MB
+Progress (1): 3.5/3.7 MB
+Progress (1): 3.5/3.7 MB
+Progress (1): 3.5/3.7 MB
+Progress (1): 3.5/3.7 MB
+Progress (1): 3.5/3.7 MB
+Progress (1): 3.5/3.7 MB
+Progress (1): 3.5/3.7 MB
+Progress (1): 3.5/3.7 MB
+Progress (1): 3.5/3.7 MB
+Progress (1): 3.5/3.7 MB
+Progress (1): 3.5/3.7 MB
+Progress (1): 3.5/3.7 MB
+Progress (1): 3.5/3.7 MB
+Progress (1): 3.5/3.7 MB
+Progress (1): 3.5/3.7 MB
+Progress (1): 3.5/3.7 MB
+Progress (1): 3.5/3.7 MB
+Progress (1): 3.5/3.7 MB
+Progress (1): 3.5/3.7 MB
+Progress (1): 3.5/3.7 MB
+Progress (1): 3.5/3.7 MB
+Progress (1): 3.5/3.7 MB
+Progress (1): 3.5/3.7 MB
+Progress (1): 3.6/3.7 MB
+Progress (1): 3.6/3.7 MB
+Progress (1): 3.6/3.7 MB
+Progress (1): 3.6/3.7 MB
+Progress (1): 3.6/3.7 MB
+Progress (1): 3.6/3.7 MB
+Progress (1): 3.6/3.7 MB
+Progress (1): 3.6/3.7 MB
+Progress (1): 3.6/3.7 MB
+Progress (1): 3.6/3.7 MB
+Progress (1): 3.6/3.7 MB
+Progress (1): 3.6/3.7 MB
+Progress (1): 3.6/3.7 MB
+Progress (1): 3.6/3.7 MB
+Progress (1): 3.6/3.7 MB
+Progress (1): 3.6/3.7 MB
+Progress (1): 3.6/3.7 MB
+Progress (1): 3.6/3.7 MB
+Progress (1): 3.6/3.7 MB
+Progress (1): 3.6/3.7 MB
+Progress (1): 3.6/3.7 MB
+Progress (1): 3.6/3.7 MB
+Progress (1): 3.6/3.7 MB
+Progress (1): 3.6/3.7 MB
+Progress (1): 3.6/3.7 MB
+Progress (1): 3.7/3.7 MB
+Progress (1): 3.7/3.7 MB
+Progress (1): 3.7/3.7 MB
+Progress (1): 3.7/3.7 MB
+Progress (1): 3.7/3.7 MB
+Progress (1): 3.7/3.7 MB
+Progress (1): 3.7/3.7 MB
+Progress (1): 3.7/3.7 MB
+Progress (1): 3.7/3.7 MB
+Progress (1): 3.7/3.7 MB
+Progress (1): 3.7/3.7 MB
+Progress (1): 3.7/3.7 MB
+Progress (1): 3.7/3.7 MB
+Progress (1): 3.7/3.7 MB
+Progress (1): 3.7/3.7 MB
+Progress (1): 3.7 MB    
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/biz/aQute/bnd/biz.aQute.bndlib/5.2.0/biz.aQute.bndlib-5.2.0.jar (3.7 MB at 20 MB/s)
+[INFO] 
+[INFO] --- maven-resources-plugin:3.1.0:testResources (default-testResources) @ commons-lang3 ---
+[INFO] Using 'ISO-8859-1' encoding to copy filtered resources.
+[INFO] Copying 2 resources
+[INFO] Copying 2 resources to META-INF
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.1:testCompile (default-testCompile) @ commons-lang3 ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 182 source files to ./commons-lang/target/test-classes
+[INFO] ./commons-lang/src/test/java/org/apache/commons/lang3/ObjectUtilsTest.java: Some input files use or override a deprecated API.
+[INFO] ./commons-lang/src/test/java/org/apache/commons/lang3/ObjectUtilsTest.java: Recompile with -Xlint:deprecation for details.
+[INFO] ./commons-lang/src/test/java/org/apache/commons/lang3/builder/ReflectionDiffBuilderTest.java: Some input files use unchecked or unsafe operations.
+[INFO] ./commons-lang/src/test/java/org/apache/commons/lang3/builder/ReflectionDiffBuilderTest.java: Recompile with -Xlint:unchecked for details.
+[INFO] 
+[INFO] --- animal-sniffer-maven-plugin:1.19:check (checkAPIcompatibility) @ commons-lang3 ---
+[INFO] Checking unresolved references to org.codehaus.mojo.signature:java18:1.0
+[INFO] 
+[INFO] --- jacoco-maven-plugin:0.8.6:prepare-agent (prepare-agent) @ commons-lang3 ---
+[INFO] argLine set to -javaagent:./.m2/repository/org/jacoco/org.jacoco.agent/0.8.6/org.jacoco.agent-0.8.6-runtime.jar=destfile=./commons-lang/target/jacoco.exec -Xmx512m
+[INFO] 
+[INFO] --- maven-surefire-plugin:3.0.0-M5:test (default-test) @ commons-lang3 ---
+Downloading from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-launcher/1.7.0/junit-platform-launcher-1.7.0.jar
+Progress (1): 4.1/137 kB
+Progress (1): 8.2/137 kB
+Progress (1): 12/137 kB 
+Progress (1): 16/137 kB
+Progress (1): 20/137 kB
+Progress (1): 25/137 kB
+Progress (1): 29/137 kB
+Progress (1): 33/137 kB
+Progress (1): 37/137 kB
+Progress (1): 41/137 kB
+Progress (1): 45/137 kB
+Progress (1): 49/137 kB
+Progress (1): 53/137 kB
+Progress (1): 57/137 kB
+Progress (1): 61/137 kB
+Progress (1): 66/137 kB
+Progress (1): 70/137 kB
+Progress (1): 74/137 kB
+Progress (1): 78/137 kB
+Progress (1): 82/137 kB
+Progress (1): 86/137 kB
+Progress (1): 90/137 kB
+Progress (1): 94/137 kB
+Progress (1): 98/137 kB
+Progress (1): 102/137 kB
+Progress (1): 106/137 kB
+Progress (1): 111/137 kB
+Progress (1): 115/137 kB
+Progress (1): 119/137 kB
+Progress (1): 123/137 kB
+Progress (1): 127/137 kB
+Progress (1): 131/137 kB
+Progress (1): 135/137 kB
+Progress (1): 137 kB    
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-launcher/1.7.0/junit-platform-launcher-1.7.0.jar (137 kB at 5.5 MB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-launcher/1.7.0/junit-platform-launcher-1.7.0.pom
+Progress (1): 3.0 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-launcher/1.7.0/junit-platform-launcher-1.7.0.pom (3.0 kB at 233 kB/s)
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running org.apache.commons.lang3.CharSetUtilsTest
+[INFO] Tests run: 11, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.124 s - in org.apache.commons.lang3.CharSetUtilsTest
+[INFO] Running org.apache.commons.lang3.concurrent.MultiBackgroundInitializerTest
+[INFO] Tests run: 17, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.083 s - in org.apache.commons.lang3.concurrent.MultiBackgroundInitializerTest
+[INFO] Running org.apache.commons.lang3.concurrent.CallableBackgroundInitializerTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s - in org.apache.commons.lang3.concurrent.CallableBackgroundInitializerTest
+[INFO] Running org.apache.commons.lang3.concurrent.MemoizerTest
+[INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.032 s - in org.apache.commons.lang3.concurrent.MemoizerTest
+[INFO] Running org.apache.commons.lang3.concurrent.BasicThreadFactoryTest
+[INFO] Tests run: 15, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.019 s - in org.apache.commons.lang3.concurrent.BasicThreadFactoryTest
+[INFO] Running org.apache.commons.lang3.concurrent.AtomicInitializerTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.016 s - in org.apache.commons.lang3.concurrent.AtomicInitializerTest
+[INFO] Running org.apache.commons.lang3.concurrent.locks.LockingVisitorsTest
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 33.073 s - in org.apache.commons.lang3.concurrent.locks.LockingVisitorsTest
+[INFO] Running org.apache.commons.lang3.concurrent.EventCountCircuitBreakerTest
+[INFO] Tests run: 18, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.09 s - in org.apache.commons.lang3.concurrent.EventCountCircuitBreakerTest
+[INFO] Running org.apache.commons.lang3.concurrent.ConcurrentUtilsTest
+[INFO] Tests run: 41, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.027 s - in org.apache.commons.lang3.concurrent.ConcurrentUtilsTest
+[INFO] Running org.apache.commons.lang3.concurrent.LazyInitializerTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.021 s - in org.apache.commons.lang3.concurrent.LazyInitializerTest
+[INFO] Running org.apache.commons.lang3.concurrent.ConstantInitializerTest
+[INFO] Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 s - in org.apache.commons.lang3.concurrent.ConstantInitializerTest
+[INFO] Running org.apache.commons.lang3.concurrent.AtomicSafeInitializerTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.042 s - in org.apache.commons.lang3.concurrent.AtomicSafeInitializerTest
+[INFO] Running org.apache.commons.lang3.concurrent.TimedSemaphoreTest
+[INFO] Tests run: 17, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.21 s - in org.apache.commons.lang3.concurrent.TimedSemaphoreTest
+[INFO] Running org.apache.commons.lang3.concurrent.ThresholdCircuitBreakerTest
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s - in org.apache.commons.lang3.concurrent.ThresholdCircuitBreakerTest
+[INFO] Running org.apache.commons.lang3.concurrent.BackgroundInitializerTest
+[INFO] Tests run: 15, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.054 s - in org.apache.commons.lang3.concurrent.BackgroundInitializerTest
+[INFO] Running org.apache.commons.lang3.concurrent.CircuitBreakingExceptionTest
+[INFO] Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 s - in org.apache.commons.lang3.concurrent.CircuitBreakingExceptionTest
+[INFO] Running org.apache.commons.lang3.StringUtilsEmptyBlankTest
+[INFO] Tests run: 12, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.021 s - in org.apache.commons.lang3.StringUtilsEmptyBlankTest
+[INFO] Running org.apache.commons.lang3.tuple.PairTest
+[INFO] Tests run: 12, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.014 s - in org.apache.commons.lang3.tuple.PairTest
+[INFO] Running org.apache.commons.lang3.tuple.TripleTest
+[INFO] Tests run: 12, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 s - in org.apache.commons.lang3.tuple.TripleTest
+[INFO] Running org.apache.commons.lang3.tuple.MutableTripleTest
+[INFO] Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.018 s - in org.apache.commons.lang3.tuple.MutableTripleTest
+[INFO] Running org.apache.commons.lang3.tuple.ImmutableTripleTest
+[INFO] Tests run: 16, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.011 s - in org.apache.commons.lang3.tuple.ImmutableTripleTest
+[INFO] Running org.apache.commons.lang3.tuple.MutablePairTest
+[INFO] Tests run: 11, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 s - in org.apache.commons.lang3.tuple.MutablePairTest
+[INFO] Running org.apache.commons.lang3.tuple.ImmutablePairTest
+[INFO] Tests run: 22, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.01 s - in org.apache.commons.lang3.tuple.ImmutablePairTest
+[INFO] Running org.apache.commons.lang3.RangeTest
+[INFO] Tests run: 26, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.02 s - in org.apache.commons.lang3.RangeTest
+[INFO] Running org.apache.commons.lang3.StringUtilsIsTest
+[INFO] Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 s - in org.apache.commons.lang3.StringUtilsIsTest
+[INFO] Running org.apache.commons.lang3.builder.NoFieldNamesToStringStyleTest
+[INFO] Tests run: 11, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.019 s - in org.apache.commons.lang3.builder.NoFieldNamesToStringStyleTest
+[INFO] Running org.apache.commons.lang3.builder.StandardToStringStyleTest
+[INFO] Tests run: 15, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.011 s - in org.apache.commons.lang3.builder.StandardToStringStyleTest
+[INFO] Running org.apache.commons.lang3.builder.HashCodeBuilderTest
+[INFO] Tests run: 45, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.025 s - in org.apache.commons.lang3.builder.HashCodeBuilderTest
+[INFO] Running org.apache.commons.lang3.builder.DiffResultTest
+[INFO] Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.016 s - in org.apache.commons.lang3.builder.DiffResultTest
+[INFO] Running org.apache.commons.lang3.builder.MultilineRecursiveToStringStyleTest
+[INFO] Tests run: 11, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 s - in org.apache.commons.lang3.builder.MultilineRecursiveToStringStyleTest
+[INFO] Running org.apache.commons.lang3.builder.ToStringStyleTest
+[INFO] Tests run: 12, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 s - in org.apache.commons.lang3.builder.ToStringStyleTest
+[INFO] Running org.apache.commons.lang3.builder.SimpleToStringStyleTest
+[INFO] Tests run: 11, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 s - in org.apache.commons.lang3.builder.SimpleToStringStyleTest
+[INFO] Running org.apache.commons.lang3.builder.ReflectionToStringBuilderExcludeWithAnnotationTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 s - in org.apache.commons.lang3.builder.ReflectionToStringBuilderExcludeWithAnnotationTest
+[INFO] Running org.apache.commons.lang3.builder.DefaultToStringStyleTest
+[INFO] Tests run: 11, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 s - in org.apache.commons.lang3.builder.DefaultToStringStyleTest
+[INFO] Running org.apache.commons.lang3.builder.DiffBuilderTest
+[INFO] Tests run: 31, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.026 s - in org.apache.commons.lang3.builder.DiffBuilderTest
+[INFO] Running org.apache.commons.lang3.builder.ToStringStyleConcurrencyTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.811 s - in org.apache.commons.lang3.builder.ToStringStyleConcurrencyTest
+[INFO] Running org.apache.commons.lang3.builder.ShortPrefixToStringStyleTest
+[INFO] Tests run: 11, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 s - in org.apache.commons.lang3.builder.ShortPrefixToStringStyleTest
+[INFO] Running org.apache.commons.lang3.builder.JsonToStringStyleTest
+[INFO] Tests run: 29, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.043 s - in org.apache.commons.lang3.builder.JsonToStringStyleTest
+[INFO] Running org.apache.commons.lang3.builder.ToStringBuilderTest
+[INFO] Tests run: 94, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.041 s - in org.apache.commons.lang3.builder.ToStringBuilderTest
+[INFO] Running org.apache.commons.lang3.builder.NoClassNameToStringStyleTest
+[INFO] Tests run: 11, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 s - in org.apache.commons.lang3.builder.NoClassNameToStringStyleTest
+[INFO] Running org.apache.commons.lang3.builder.HashCodeBuilderAndEqualsBuilderTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 s - in org.apache.commons.lang3.builder.HashCodeBuilderAndEqualsBuilderTest
+[INFO] Running org.apache.commons.lang3.builder.EqualsBuilderTest
+[INFO] Tests run: 56, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.022 s - in org.apache.commons.lang3.builder.EqualsBuilderTest
+[INFO] Running org.apache.commons.lang3.builder.RecursiveToStringStyleTest
+[INFO] Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 s - in org.apache.commons.lang3.builder.RecursiveToStringStyleTest
+[INFO] Running org.apache.commons.lang3.builder.ReflectionToStringBuilderMutateInspectConcurrencyTest
+[WARNING] Tests run: 1, Failures: 0, Errors: 0, Skipped: 1, Time elapsed: 0.002 s - in org.apache.commons.lang3.builder.ReflectionToStringBuilderMutateInspectConcurrencyTest
+[INFO] Running org.apache.commons.lang3.builder.DiffTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in org.apache.commons.lang3.builder.DiffTest
+[INFO] Running org.apache.commons.lang3.builder.ReflectionToStringBuilderTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.apache.commons.lang3.builder.ReflectionToStringBuilderTest
+[INFO] Running org.apache.commons.lang3.builder.ReflectionToStringBuilderSummaryTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.apache.commons.lang3.builder.ReflectionToStringBuilderSummaryTest
+[INFO] Running org.apache.commons.lang3.builder.ReflectionToStringBuilderExcludeNullValuesTest
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.016 s - in org.apache.commons.lang3.builder.ReflectionToStringBuilderExcludeNullValuesTest
+[INFO] Running org.apache.commons.lang3.builder.CompareToBuilderTest
+[INFO] Tests run: 48, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.016 s - in org.apache.commons.lang3.builder.CompareToBuilderTest
+[INFO] Running org.apache.commons.lang3.builder.ReflectionToStringBuilderConcurrencyTest
+[WARNING] Tests run: 3, Failures: 0, Errors: 0, Skipped: 3, Time elapsed: 0.001 s - in org.apache.commons.lang3.builder.ReflectionToStringBuilderConcurrencyTest
+[INFO] Running org.apache.commons.lang3.builder.ReflectionToStringBuilderExcludeTest
+[INFO] Tests run: 11, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 s - in org.apache.commons.lang3.builder.ReflectionToStringBuilderExcludeTest
+[INFO] Running org.apache.commons.lang3.builder.MultiLineToStringStyleTest
+[INFO] Tests run: 11, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 s - in org.apache.commons.lang3.builder.MultiLineToStringStyleTest
+[INFO] Running org.apache.commons.lang3.builder.ReflectionDiffBuilderTest
+[INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 s - in org.apache.commons.lang3.builder.ReflectionDiffBuilderTest
+[INFO] Running org.apache.commons.lang3.ValidateTest
+[INFO] Running org.apache.commons.lang3.ValidateTest$UtilClassConventions
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in org.apache.commons.lang3.ValidateTest$UtilClassConventions
+[INFO] Running org.apache.commons.lang3.ValidateTest$IsAssignable
+[INFO] Running org.apache.commons.lang3.ValidateTest$IsAssignable$WithMessage
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in org.apache.commons.lang3.ValidateTest$IsAssignable$WithMessage
+[INFO] Running org.apache.commons.lang3.ValidateTest$IsAssignable$WithoutMessage
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in org.apache.commons.lang3.ValidateTest$IsAssignable$WithoutMessage
+[INFO] Tests run: 0, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 s - in org.apache.commons.lang3.ValidateTest$IsAssignable
+[INFO] Running org.apache.commons.lang3.ValidateTest$IsInstanceOf
+[INFO] Running org.apache.commons.lang3.ValidateTest$IsInstanceOf$WithMessageTemplate
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in org.apache.commons.lang3.ValidateTest$IsInstanceOf$WithMessageTemplate
+[INFO] Running org.apache.commons.lang3.ValidateTest$IsInstanceOf$WithMessage
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in org.apache.commons.lang3.ValidateTest$IsInstanceOf$WithMessage
+[INFO] Running org.apache.commons.lang3.ValidateTest$IsInstanceOf$WithoutMessage
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in org.apache.commons.lang3.ValidateTest$IsInstanceOf$WithoutMessage
+[INFO] Tests run: 0, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 s - in org.apache.commons.lang3.ValidateTest$IsInstanceOf
+[INFO] Running org.apache.commons.lang3.ValidateTest$ExclusiveBetween
+[INFO] Running org.apache.commons.lang3.ValidateTest$ExclusiveBetween$WithDouble
+[INFO] Running org.apache.commons.lang3.ValidateTest$ExclusiveBetween$WithDouble$WithMessage
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s - in org.apache.commons.lang3.ValidateTest$ExclusiveBetween$WithDouble$WithMessage
+[INFO] Running org.apache.commons.lang3.ValidateTest$ExclusiveBetween$WithDouble$WithoutMessage
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s - in org.apache.commons.lang3.ValidateTest$ExclusiveBetween$WithDouble$WithoutMessage
+[INFO] Tests run: 0, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 s - in org.apache.commons.lang3.ValidateTest$ExclusiveBetween$WithDouble
+[INFO] Running org.apache.commons.lang3.ValidateTest$ExclusiveBetween$WithLong
+[INFO] Running org.apache.commons.lang3.ValidateTest$ExclusiveBetween$WithLong$WithMessage
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s - in org.apache.commons.lang3.ValidateTest$ExclusiveBetween$WithLong$WithMessage
+[INFO] Running org.apache.commons.lang3.ValidateTest$ExclusiveBetween$WithLong$WithoutMessage
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 s - in org.apache.commons.lang3.ValidateTest$ExclusiveBetween$WithLong$WithoutMessage
+[INFO] Tests run: 0, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 s - in org.apache.commons.lang3.ValidateTest$ExclusiveBetween$WithLong
+[INFO] Running org.apache.commons.lang3.ValidateTest$ExclusiveBetween$WithComparable
+[INFO] Running org.apache.commons.lang3.ValidateTest$ExclusiveBetween$WithComparable$WithMessage
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s - in org.apache.commons.lang3.ValidateTest$ExclusiveBetween$WithComparable$WithMessage
+[INFO] Running org.apache.commons.lang3.ValidateTest$ExclusiveBetween$WithComparable$WithoutMessage
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s - in org.apache.commons.lang3.ValidateTest$ExclusiveBetween$WithComparable$WithoutMessage
+[INFO] Tests run: 0, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 s - in org.apache.commons.lang3.ValidateTest$ExclusiveBetween$WithComparable
+[INFO] Tests run: 0, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.023 s - in org.apache.commons.lang3.ValidateTest$ExclusiveBetween
+[INFO] Running org.apache.commons.lang3.ValidateTest$InclusiveBetween
+[INFO] Running org.apache.commons.lang3.ValidateTest$InclusiveBetween$WithDouble
+[INFO] Running org.apache.commons.lang3.ValidateTest$InclusiveBetween$WithDouble$WithMessage
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in org.apache.commons.lang3.ValidateTest$InclusiveBetween$WithDouble$WithMessage
+[INFO] Running org.apache.commons.lang3.ValidateTest$InclusiveBetween$WithDouble$WithoutMessage
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in org.apache.commons.lang3.ValidateTest$InclusiveBetween$WithDouble$WithoutMessage
+[INFO] Tests run: 0, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 s - in org.apache.commons.lang3.ValidateTest$InclusiveBetween$WithDouble
+[INFO] Running org.apache.commons.lang3.ValidateTest$InclusiveBetween$WithLong
+[INFO] Running org.apache.commons.lang3.ValidateTest$InclusiveBetween$WithLong$WithMessage
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in org.apache.commons.lang3.ValidateTest$InclusiveBetween$WithLong$WithMessage
+[INFO] Running org.apache.commons.lang3.ValidateTest$InclusiveBetween$WithLong$WithoutMessage
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in org.apache.commons.lang3.ValidateTest$InclusiveBetween$WithLong$WithoutMessage
+[INFO] Tests run: 0, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 s - in org.apache.commons.lang3.ValidateTest$InclusiveBetween$WithLong
+[INFO] Running org.apache.commons.lang3.ValidateTest$InclusiveBetween$WithComparable
+[INFO] Running org.apache.commons.lang3.ValidateTest$InclusiveBetween$WithComparable$WithMessage
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in org.apache.commons.lang3.ValidateTest$InclusiveBetween$WithComparable$WithMessage
+[INFO] Running org.apache.commons.lang3.ValidateTest$InclusiveBetween$WithComparable$WithoutMessage
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s - in org.apache.commons.lang3.ValidateTest$InclusiveBetween$WithComparable$WithoutMessage
+[INFO] Tests run: 0, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 s - in org.apache.commons.lang3.ValidateTest$InclusiveBetween$WithComparable
+[INFO] Tests run: 0, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.025 s - in org.apache.commons.lang3.ValidateTest$InclusiveBetween
+[INFO] Running org.apache.commons.lang3.ValidateTest$Finite
+[INFO] Running org.apache.commons.lang3.ValidateTest$Finite$WithMessage
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in org.apache.commons.lang3.ValidateTest$Finite$WithMessage
+[INFO] Running org.apache.commons.lang3.ValidateTest$Finite$WithoutMessage
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in org.apache.commons.lang3.ValidateTest$Finite$WithoutMessage
+[INFO] Tests run: 0, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 s - in org.apache.commons.lang3.ValidateTest$Finite
+[INFO] Running org.apache.commons.lang3.ValidateTest$NotNaN
+[INFO] Running org.apache.commons.lang3.ValidateTest$NotNaN$WithMessage
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 s - in org.apache.commons.lang3.ValidateTest$NotNaN$WithMessage
+[INFO] Running org.apache.commons.lang3.ValidateTest$NotNaN$WithoutMessage
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in org.apache.commons.lang3.ValidateTest$NotNaN$WithoutMessage
+[INFO] Tests run: 0, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 s - in org.apache.commons.lang3.ValidateTest$NotNaN
+[INFO] Running org.apache.commons.lang3.ValidateTest$MatchesPattern
+[INFO] Running org.apache.commons.lang3.ValidateTest$MatchesPattern$WithMessage
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in org.apache.commons.lang3.ValidateTest$MatchesPattern$WithMessage
+[INFO] Running org.apache.commons.lang3.ValidateTest$MatchesPattern$WithoutMessage
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in org.apache.commons.lang3.ValidateTest$MatchesPattern$WithoutMessage
+[INFO] Tests run: 0, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s - in org.apache.commons.lang3.ValidateTest$MatchesPattern
+[INFO] Running org.apache.commons.lang3.ValidateTest$ValidIndex
+[INFO] Running org.apache.commons.lang3.ValidateTest$ValidIndex$WithCharSequence
+[INFO] Running org.apache.commons.lang3.ValidateTest$ValidIndex$WithCharSequence$WithMessage
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s - in org.apache.commons.lang3.ValidateTest$ValidIndex$WithCharSequence$WithMessage
+[INFO] Running org.apache.commons.lang3.ValidateTest$ValidIndex$WithCharSequence$WithoutMessage
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 s - in org.apache.commons.lang3.ValidateTest$ValidIndex$WithCharSequence$WithoutMessage
+[INFO] Tests run: 0, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.01 s - in org.apache.commons.lang3.ValidateTest$ValidIndex$WithCharSequence
+[INFO] Running org.apache.commons.lang3.ValidateTest$ValidIndex$WithCollection
+[INFO] Running org.apache.commons.lang3.ValidateTest$ValidIndex$WithCollection$WithMessage
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s - in org.apache.commons.lang3.ValidateTest$ValidIndex$WithCollection$WithMessage
+[INFO] Running org.apache.commons.lang3.ValidateTest$ValidIndex$WithCollection$WithoutMessage
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.134 s - in org.apache.commons.lang3.ValidateTest$ValidIndex$WithCollection$WithoutMessage
+[INFO] Tests run: 0, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.139 s - in org.apache.commons.lang3.ValidateTest$ValidIndex$WithCollection
+[INFO] Running org.apache.commons.lang3.ValidateTest$ValidIndex$WithArray
+[INFO] Running org.apache.commons.lang3.ValidateTest$ValidIndex$WithArray$WithMessage
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 s - in org.apache.commons.lang3.ValidateTest$ValidIndex$WithArray$WithMessage
+[INFO] Running org.apache.commons.lang3.ValidateTest$ValidIndex$WithArray$WithoutMessage
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s - in org.apache.commons.lang3.ValidateTest$ValidIndex$WithArray$WithoutMessage
+[INFO] Tests run: 0, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 s - in org.apache.commons.lang3.ValidateTest$ValidIndex$WithArray
+[INFO] Tests run: 0, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.168 s - in org.apache.commons.lang3.ValidateTest$ValidIndex
+[INFO] Running org.apache.commons.lang3.ValidateTest$NoNullElements
+[INFO] Running org.apache.commons.lang3.ValidateTest$NoNullElements$WithCollection
+[INFO] Running org.apache.commons.lang3.ValidateTest$NoNullElements$WithCollection$WithMessage
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in org.apache.commons.lang3.ValidateTest$NoNullElements$WithCollection$WithMessage
+[INFO] Running org.apache.commons.lang3.ValidateTest$NoNullElements$WithCollection$WithoutMessage
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.01 s - in org.apache.commons.lang3.ValidateTest$NoNullElements$WithCollection$WithoutMessage
+[INFO] Tests run: 0, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.013 s - in org.apache.commons.lang3.ValidateTest$NoNullElements$WithCollection
+[INFO] Running org.apache.commons.lang3.ValidateTest$NoNullElements$WithArray
+[INFO] Running org.apache.commons.lang3.ValidateTest$NoNullElements$WithArray$WithMessage
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 s - in org.apache.commons.lang3.ValidateTest$NoNullElements$WithArray$WithMessage
+[INFO] Running org.apache.commons.lang3.ValidateTest$NoNullElements$WithArray$WithoutMessage
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 s - in org.apache.commons.lang3.ValidateTest$NoNullElements$WithArray$WithoutMessage
+[INFO] Tests run: 0, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.013 s - in org.apache.commons.lang3.ValidateTest$NoNullElements$WithArray
+[INFO] Tests run: 0, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.028 s - in org.apache.commons.lang3.ValidateTest$NoNullElements
+[INFO] Running org.apache.commons.lang3.ValidateTest$NotBlank
+[INFO] Running org.apache.commons.lang3.ValidateTest$NotBlank$WithMessage
+[INFO] Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 s - in org.apache.commons.lang3.ValidateTest$NotBlank$WithMessage
+[INFO] Running org.apache.commons.lang3.ValidateTest$NotBlank$WithoutMessage
+[INFO] Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 s - in org.apache.commons.lang3.ValidateTest$NotBlank$WithoutMessage
+[INFO] Tests run: 0, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.018 s - in org.apache.commons.lang3.ValidateTest$NotBlank
+[INFO] Running org.apache.commons.lang3.ValidateTest$NotEmpty
+[INFO] Running org.apache.commons.lang3.ValidateTest$NotEmpty$WithCharSequence
+[INFO] Running org.apache.commons.lang3.ValidateTest$NotEmpty$WithCharSequence$WithMessage
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in org.apache.commons.lang3.ValidateTest$NotEmpty$WithCharSequence$WithMessage
+[INFO] Running org.apache.commons.lang3.ValidateTest$NotEmpty$WithCharSequence$WithoutMessage
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in org.apache.commons.lang3.ValidateTest$NotEmpty$WithCharSequence$WithoutMessage
+[INFO] Tests run: 0, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 s - in org.apache.commons.lang3.ValidateTest$NotEmpty$WithCharSequence
+[INFO] Running org.apache.commons.lang3.ValidateTest$NotEmpty$WithMap
+[INFO] Running org.apache.commons.lang3.ValidateTest$NotEmpty$WithMap$WithMessage
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in org.apache.commons.lang3.ValidateTest$NotEmpty$WithMap$WithMessage
+[INFO] Running org.apache.commons.lang3.ValidateTest$NotEmpty$WithMap$WithoutMessage
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.009 s - in org.apache.commons.lang3.ValidateTest$NotEmpty$WithMap$WithoutMessage
+[INFO] Tests run: 0, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.012 s - in org.apache.commons.lang3.ValidateTest$NotEmpty$WithMap
+[INFO] Running org.apache.commons.lang3.ValidateTest$NotEmpty$WithCollection
+[INFO] Running org.apache.commons.lang3.ValidateTest$NotEmpty$WithCollection$WithMessage
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in org.apache.commons.lang3.ValidateTest$NotEmpty$WithCollection$WithMessage
+[INFO] Running org.apache.commons.lang3.ValidateTest$NotEmpty$WithCollection$WithoutMessage
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s - in org.apache.commons.lang3.ValidateTest$NotEmpty$WithCollection$WithoutMessage
+[INFO] Tests run: 0, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 s - in org.apache.commons.lang3.ValidateTest$NotEmpty$WithCollection
+[INFO] Running org.apache.commons.lang3.ValidateTest$NotEmpty$WithArray
+[INFO] Running org.apache.commons.lang3.ValidateTest$NotEmpty$WithArray$WithMessage
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s - in org.apache.commons.lang3.ValidateTest$NotEmpty$WithArray$WithMessage
+[INFO] Running org.apache.commons.lang3.ValidateTest$NotEmpty$WithArray$WithoutMessage
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in org.apache.commons.lang3.ValidateTest$NotEmpty$WithArray$WithoutMessage
+[INFO] Tests run: 0, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 s - in org.apache.commons.lang3.ValidateTest$NotEmpty$WithArray
+[INFO] Tests run: 0, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.033 s - in org.apache.commons.lang3.ValidateTest$NotEmpty
+[INFO] Running org.apache.commons.lang3.ValidateTest$NotNull
+[INFO] Running org.apache.commons.lang3.ValidateTest$NotNull$WithMessage
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in org.apache.commons.lang3.ValidateTest$NotNull$WithMessage
+[INFO] Running org.apache.commons.lang3.ValidateTest$NotNull$WithoutMessage
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s - in org.apache.commons.lang3.ValidateTest$NotNull$WithoutMessage
+[INFO] Tests run: 0, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 s - in org.apache.commons.lang3.ValidateTest$NotNull
+[INFO] Running org.apache.commons.lang3.ValidateTest$IsTrue
+[INFO] Running org.apache.commons.lang3.ValidateTest$IsTrue$WithObjectTemplate
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in org.apache.commons.lang3.ValidateTest$IsTrue$WithObjectTemplate
+[INFO] Running org.apache.commons.lang3.ValidateTest$IsTrue$WithDoubleTemplate
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.013 s - in org.apache.commons.lang3.ValidateTest$IsTrue$WithDoubleTemplate
+[INFO] Running org.apache.commons.lang3.ValidateTest$IsTrue$WithLongTemplate
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in org.apache.commons.lang3.ValidateTest$IsTrue$WithLongTemplate
+[INFO] Running org.apache.commons.lang3.ValidateTest$IsTrue$WithMessage
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in org.apache.commons.lang3.ValidateTest$IsTrue$WithMessage
+[INFO] Running org.apache.commons.lang3.ValidateTest$IsTrue$WithoutMessage
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in org.apache.commons.lang3.ValidateTest$IsTrue$WithoutMessage
+[INFO] Tests run: 0, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.053 s - in org.apache.commons.lang3.ValidateTest$IsTrue
+[INFO] Tests run: 0, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.394 s - in org.apache.commons.lang3.ValidateTest
+[INFO] Running org.apache.commons.lang3.CharsetsTestCase
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in org.apache.commons.lang3.CharsetsTestCase
+[INFO] Running org.apache.commons.lang3.ClassUtilsTest
+[INFO] Tests run: 63, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.057 s - in org.apache.commons.lang3.ClassUtilsTest
+[INFO] Running org.apache.commons.lang3.math.FractionTest
+[INFO] Tests run: 25, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.121 s - in org.apache.commons.lang3.math.FractionTest
+[INFO] Running org.apache.commons.lang3.math.NumberUtilsTest
+[INFO] Tests run: 112, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.053 s - in org.apache.commons.lang3.math.NumberUtilsTest
+[INFO] Running org.apache.commons.lang3.math.IEEE754rUtilsTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 s - in org.apache.commons.lang3.math.IEEE754rUtilsTest
+[INFO] Running org.apache.commons.lang3.compare.ComparableUtilsTest
+[INFO] Running org.apache.commons.lang3.compare.ComparableUtilsTest$A_is_1
+[INFO] Running org.apache.commons.lang3.compare.ComparableUtilsTest$A_is_1$B_is_10
+[INFO] Running org.apache.commons.lang3.compare.ComparableUtilsTest$A_is_1$B_is_10$C_is_10
+[INFO] Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in org.apache.commons.lang3.compare.ComparableUtilsTest$A_is_1$B_is_10$C_is_10
+[INFO] Running org.apache.commons.lang3.compare.ComparableUtilsTest$A_is_1$B_is_10$C_is_1
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.apache.commons.lang3.compare.ComparableUtilsTest$A_is_1$B_is_10$C_is_1
+[INFO] Running org.apache.commons.lang3.compare.ComparableUtilsTest$A_is_1$B_is_10$C_is_0
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in org.apache.commons.lang3.compare.ComparableUtilsTest$A_is_1$B_is_10$C_is_0
+[INFO] Tests run: 0, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.011 s - in org.apache.commons.lang3.compare.ComparableUtilsTest$A_is_1$B_is_10
+[INFO] Running org.apache.commons.lang3.compare.ComparableUtilsTest$A_is_1$B_is_1
+[INFO] Running org.apache.commons.lang3.compare.ComparableUtilsTest$A_is_1$B_is_1$C_is_10
+[INFO] Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in org.apache.commons.lang3.compare.ComparableUtilsTest$A_is_1$B_is_1$C_is_10
+[INFO] Running org.apache.commons.lang3.compare.ComparableUtilsTest$A_is_1$B_is_1$C_is_1
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in org.apache.commons.lang3.compare.ComparableUtilsTest$A_is_1$B_is_1$C_is_1
+[INFO] Running org.apache.commons.lang3.compare.ComparableUtilsTest$A_is_1$B_is_1$C_is_0
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in org.apache.commons.lang3.compare.ComparableUtilsTest$A_is_1$B_is_1$C_is_0
+[INFO] Tests run: 0, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.009 s - in org.apache.commons.lang3.compare.ComparableUtilsTest$A_is_1$B_is_1
+[INFO] Running org.apache.commons.lang3.compare.ComparableUtilsTest$A_is_1$B_is_0
+[INFO] Running org.apache.commons.lang3.compare.ComparableUtilsTest$A_is_1$B_is_0$C_is_10
+[INFO] Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in org.apache.commons.lang3.compare.ComparableUtilsTest$A_is_1$B_is_0$C_is_10
+[INFO] Running org.apache.commons.lang3.compare.ComparableUtilsTest$A_is_1$B_is_0$C_is_1
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in org.apache.commons.lang3.compare.ComparableUtilsTest$A_is_1$B_is_0$C_is_1
+[INFO] Running org.apache.commons.lang3.compare.ComparableUtilsTest$A_is_1$B_is_0$C_is_0
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in org.apache.commons.lang3.compare.ComparableUtilsTest$A_is_1$B_is_0$C_is_0
+[INFO] Tests run: 0, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.01 s - in org.apache.commons.lang3.compare.ComparableUtilsTest$A_is_1$B_is_0
+[INFO] Tests run: 0, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.037 s - in org.apache.commons.lang3.compare.ComparableUtilsTest$A_is_1
+[INFO] Tests run: 0, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.039 s - in org.apache.commons.lang3.compare.ComparableUtilsTest
+[INFO] Running org.apache.commons.lang3.compare.ObjectToStringComparatorTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in org.apache.commons.lang3.compare.ObjectToStringComparatorTest
+[INFO] Running org.apache.commons.lang3.ClassLoaderUtilsTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 s - in org.apache.commons.lang3.ClassLoaderUtilsTest
+[INFO] Running org.apache.commons.lang3.StringUtilsEqualsIndexOfTest
+[INFO] Tests run: 37, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.011 s - in org.apache.commons.lang3.StringUtilsEqualsIndexOfTest
+[INFO] Running org.apache.commons.lang3.mutable.MutableObjectTest
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in org.apache.commons.lang3.mutable.MutableObjectTest
+[INFO] Running org.apache.commons.lang3.mutable.MutableIntTest
+[INFO] Tests run: 25, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.01 s - in org.apache.commons.lang3.mutable.MutableIntTest
+[INFO] Running org.apache.commons.lang3.mutable.MutableBooleanTest
+[INFO] Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 s - in org.apache.commons.lang3.mutable.MutableBooleanTest
+[INFO] Running org.apache.commons.lang3.mutable.MutableLongTest
+[INFO] Tests run: 25, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 s - in org.apache.commons.lang3.mutable.MutableLongTest
+[INFO] Running org.apache.commons.lang3.mutable.MutableByteTest
+[INFO] Tests run: 25, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 s - in org.apache.commons.lang3.mutable.MutableByteTest
+[INFO] Running org.apache.commons.lang3.mutable.MutableShortTest
+[INFO] Tests run: 22, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 s - in org.apache.commons.lang3.mutable.MutableShortTest
+[INFO] Running org.apache.commons.lang3.mutable.MutableFloatTest
+[INFO] Tests run: 26, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 s - in org.apache.commons.lang3.mutable.MutableFloatTest
+[INFO] Running org.apache.commons.lang3.mutable.MutableDoubleTest
+[INFO] Tests run: 26, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.009 s - in org.apache.commons.lang3.mutable.MutableDoubleTest
+[INFO] Running org.apache.commons.lang3.function.FailableFunctionsTest
+[INFO] Tests run: 138, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.171 s - in org.apache.commons.lang3.function.FailableFunctionsTest
+[INFO] Running org.apache.commons.lang3.ObjectUtilsTest
+[INFO] Tests run: 50, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.031 s - in org.apache.commons.lang3.ObjectUtilsTest
+[INFO] Running org.apache.commons.lang3.LocaleUtilsTest
+[INFO] Tests run: 175, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.199 s - in org.apache.commons.lang3.LocaleUtilsTest
+[INFO] Running org.apache.commons.lang3.time.FastDateParser_TimeZoneStrategyTest
+[INFO] Tests run: 161, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 4.266 s - in org.apache.commons.lang3.time.FastDateParser_TimeZoneStrategyTest
+[INFO] Running org.apache.commons.lang3.time.FastDateFormat_ParserTest
+[INFO] Tests run: 40, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.489 s - in org.apache.commons.lang3.time.FastDateFormat_ParserTest
+[INFO] Running org.apache.commons.lang3.time.DateUtilsTest
+[INFO] Tests run: 63, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.063 s - in org.apache.commons.lang3.time.DateUtilsTest
+[INFO] Running org.apache.commons.lang3.time.DateUtilsFragmentTest
+[INFO] Tests run: 57, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.018 s - in org.apache.commons.lang3.time.DateUtilsFragmentTest
+[INFO] Running org.apache.commons.lang3.time.FastDatePrinterTest
+[INFO] Tests run: 22, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.011 s - in org.apache.commons.lang3.time.FastDatePrinterTest
+[INFO] Running org.apache.commons.lang3.time.StopWatchTest
+[INFO] Tests run: 19, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 7.009 s - in org.apache.commons.lang3.time.StopWatchTest
+[INFO] Running org.apache.commons.lang3.time.FastDateParser_MoreOrLessTest
+[INFO] Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in org.apache.commons.lang3.time.FastDateParser_MoreOrLessTest
+[INFO] Running org.apache.commons.lang3.time.FastDateFormatTest
+[INFO] Tests run: 16, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.969 s - in org.apache.commons.lang3.time.FastDateFormatTest
+[INFO] Running org.apache.commons.lang3.time.DurationFormatUtilsTest
+[INFO] Tests run: 25, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.304 s - in org.apache.commons.lang3.time.DurationFormatUtilsTest
+[INFO] Running org.apache.commons.lang3.time.FastDatePrinterTimeZonesTest
+[INFO] Tests run: 627, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.287 s - in org.apache.commons.lang3.time.FastDatePrinterTimeZonesTest
+[INFO] Running org.apache.commons.lang3.time.DateFormatUtilsTest
+[INFO] Tests run: 12, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 s - in org.apache.commons.lang3.time.DateFormatUtilsTest
+[INFO] Running org.apache.commons.lang3.time.CalendarUtilsTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in org.apache.commons.lang3.time.CalendarUtilsTest
+[INFO] Running org.apache.commons.lang3.time.FastTimeZoneTest
+[INFO] Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in org.apache.commons.lang3.time.FastTimeZoneTest
+[INFO] Running org.apache.commons.lang3.time.FastDateParserTest
+[INFO] Tests run: 40, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.198 s - in org.apache.commons.lang3.time.FastDateParserTest
+[INFO] Running org.apache.commons.lang3.time.WeekYearTest
+[INFO] Tests run: 32, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.013 s - in org.apache.commons.lang3.time.WeekYearTest
+[INFO] Running org.apache.commons.lang3.time.FastDateFormat_PrinterTest
+[INFO] Tests run: 22, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 s - in org.apache.commons.lang3.time.FastDateFormat_PrinterTest
+[INFO] Running org.apache.commons.lang3.time.FastDateParserSDFTest
+[INFO] Tests run: 276, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.084 s - in org.apache.commons.lang3.time.FastDateParserSDFTest
+[INFO] Running org.apache.commons.lang3.time.DateUtilsRoundingTest
+[INFO] Tests run: 22, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.013 s - in org.apache.commons.lang3.time.DateUtilsRoundingTest
+[INFO] Running org.apache.commons.lang3.time.GmtTimeZoneTest
+[INFO] Tests run: 12, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in org.apache.commons.lang3.time.GmtTimeZoneTest
+[INFO] Running org.apache.commons.lang3.EnumUtilsTest
+[INFO] Tests run: 43, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.016 s - in org.apache.commons.lang3.EnumUtilsTest
+[INFO] Running org.apache.commons.lang3.BitFieldTest
+[INFO] Tests run: 15, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 s - in org.apache.commons.lang3.BitFieldTest
+[INFO] Running org.apache.commons.lang3.NotImplementedExceptionTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.apache.commons.lang3.NotImplementedExceptionTest
+[INFO] Running org.apache.commons.lang3.StringUtilsContainsTest
+[INFO] Tests run: 22, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s - in org.apache.commons.lang3.StringUtilsContainsTest
+[INFO] Running org.apache.commons.lang3.ConversionTest
+[INFO] Tests run: 42, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.01 s - in org.apache.commons.lang3.ConversionTest
+[INFO] Running org.apache.commons.lang3.ArrayUtilsTest
+[INFO] Tests run: 332, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.05 s - in org.apache.commons.lang3.ArrayUtilsTest
+[INFO] Running org.apache.commons.lang3.StringUtilsStartsEndsWithTest
+[INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in org.apache.commons.lang3.StringUtilsStartsEndsWithTest
+[INFO] Running org.apache.commons.lang3.JavaVersionTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in org.apache.commons.lang3.JavaVersionTest
+[INFO] Running org.apache.commons.lang3.stream.StreamsTest
+[INFO] Tests run: 11, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.019 s - in org.apache.commons.lang3.stream.StreamsTest
+[INFO] Running org.apache.commons.lang3.ArrayUtilsInsertTest
+[INFO] Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 s - in org.apache.commons.lang3.ArrayUtilsInsertTest
+[INFO] Running org.apache.commons.lang3.CharRangeTest
+[INFO] Tests run: 17, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.016 s - in org.apache.commons.lang3.CharRangeTest
+[INFO] Running org.apache.commons.lang3.ArrayUtilsRemoveMultipleTest
+[INFO] Tests run: 55, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.013 s - in org.apache.commons.lang3.ArrayUtilsRemoveMultipleTest
+[INFO] Running org.apache.commons.lang3.ClassPathUtilsTest
+[INFO] Tests run: 13, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 s - in org.apache.commons.lang3.ClassPathUtilsTest
+[INFO] Running org.apache.commons.lang3.StringUtilsTest
+[WARNING] Tests run: 154, Failures: 0, Errors: 0, Skipped: 1, Time elapsed: 0.058 s - in org.apache.commons.lang3.StringUtilsTest
+[INFO] Running org.apache.commons.lang3.StreamsTest
+[INFO] Tests run: 11, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.013 s - in org.apache.commons.lang3.StreamsTest
+[INFO] Running org.apache.commons.lang3.exception.ExceptionUtilsTest
+[INFO] Tests run: 40, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.024 s - in org.apache.commons.lang3.exception.ExceptionUtilsTest
+[INFO] Running org.apache.commons.lang3.exception.ContextedExceptionTest
+[INFO] Tests run: 14, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.03 s - in org.apache.commons.lang3.exception.ContextedExceptionTest
+[INFO] Running org.apache.commons.lang3.exception.CloneFailedExceptionTest
+[INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in org.apache.commons.lang3.exception.CloneFailedExceptionTest
+[INFO] Running org.apache.commons.lang3.exception.ContextedRuntimeExceptionTest
+[INFO] Tests run: 14, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.01 s - in org.apache.commons.lang3.exception.ContextedRuntimeExceptionTest
+[INFO] Running org.apache.commons.lang3.exception.DefaultExceptionContextTest
+[INFO] Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s - in org.apache.commons.lang3.exception.DefaultExceptionContextTest
+[INFO] Running org.apache.commons.lang3.RandomUtilsTest
+[INFO] Tests run: 30, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.012 s - in org.apache.commons.lang3.RandomUtilsTest
+[INFO] Running org.apache.commons.lang3.BooleanUtilsTest
+[INFO] Tests run: 74, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.014 s - in org.apache.commons.lang3.BooleanUtilsTest
+[INFO] Running org.apache.commons.lang3.RandomStringUtilsTest
+[INFO] Tests run: 18, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.061 s - in org.apache.commons.lang3.RandomStringUtilsTest
+[INFO] Running org.apache.commons.lang3.StringUtilsValueOfTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.apache.commons.lang3.StringUtilsValueOfTest
+[INFO] Running org.apache.commons.lang3.AnnotationUtilsTest
+[INFO] Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.021 s - in org.apache.commons.lang3.AnnotationUtilsTest
+[INFO] Running org.apache.commons.lang3.RegExUtilsTest
+[INFO] Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s - in org.apache.commons.lang3.RegExUtilsTest
+[INFO] Running org.apache.commons.lang3.CharEncodingTest
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 s - in org.apache.commons.lang3.CharEncodingTest
+[INFO] Running org.apache.commons.lang3.ThreadUtilsTest
+[INFO] Tests run: 27, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.077 s - in org.apache.commons.lang3.ThreadUtilsTest
+[INFO] Running org.apache.commons.lang3.event.EventUtilsTest
+[INFO] Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.013 s - in org.apache.commons.lang3.event.EventUtilsTest
+[INFO] Running org.apache.commons.lang3.event.EventListenerSupportTest
+[INFO] Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.015 s - in org.apache.commons.lang3.event.EventListenerSupportTest
+[INFO] Running org.apache.commons.lang3.SystemUtilsTest
+[INFO] Tests run: 19, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 s - in org.apache.commons.lang3.SystemUtilsTest
+[INFO] Running org.apache.commons.lang3.CharUtilsTest
+[INFO] Tests run: 24, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 s - in org.apache.commons.lang3.CharUtilsTest
+[INFO] Running org.apache.commons.lang3.ArchUtilsTest
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in org.apache.commons.lang3.ArchUtilsTest
+[INFO] Running org.apache.commons.lang3.StringUtilsTrimStripTest
+[INFO] Tests run: 11, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s - in org.apache.commons.lang3.StringUtilsTrimStripTest
+[INFO] Running org.apache.commons.lang3.text.StrMatcherTest
+[INFO] Tests run: 14, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 s - in org.apache.commons.lang3.text.StrMatcherTest
+[INFO] Running org.apache.commons.lang3.text.WordUtilsTest
+[INFO] Tests run: 16, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 s - in org.apache.commons.lang3.text.WordUtilsTest
+[INFO] Running org.apache.commons.lang3.text.translate.EntityArraysTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in org.apache.commons.lang3.text.translate.EntityArraysTest
+[INFO] Running org.apache.commons.lang3.text.translate.OctalUnescaperTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 s - in org.apache.commons.lang3.text.translate.OctalUnescaperTest
+[INFO] Running org.apache.commons.lang3.text.translate.LookupTranslatorTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.apache.commons.lang3.text.translate.LookupTranslatorTest
+[INFO] Running org.apache.commons.lang3.text.translate.UnicodeUnpairedSurrogateRemoverTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.apache.commons.lang3.text.translate.UnicodeUnpairedSurrogateRemoverTest
+[INFO] Running org.apache.commons.lang3.text.translate.NumericEntityEscaperTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.apache.commons.lang3.text.translate.NumericEntityEscaperTest
+[INFO] Running org.apache.commons.lang3.text.translate.UnicodeUnescaperTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in org.apache.commons.lang3.text.translate.UnicodeUnescaperTest
+[INFO] Running org.apache.commons.lang3.text.translate.UnicodeEscaperTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in org.apache.commons.lang3.text.translate.UnicodeEscaperTest
+[INFO] Running org.apache.commons.lang3.text.translate.NumericEntityUnescaperTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in org.apache.commons.lang3.text.translate.NumericEntityUnescaperTest
+[INFO] Running org.apache.commons.lang3.text.StrBuilderTest
+[INFO] Tests run: 91, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.023 s - in org.apache.commons.lang3.text.StrBuilderTest
+[INFO] Running org.apache.commons.lang3.text.CompositeFormatTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in org.apache.commons.lang3.text.CompositeFormatTest
+[INFO] Running org.apache.commons.lang3.text.StrLookupTest
+[INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s - in org.apache.commons.lang3.text.StrLookupTest
+[INFO] Running org.apache.commons.lang3.text.FormattableUtilsTest
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in org.apache.commons.lang3.text.FormattableUtilsTest
+[INFO] Running org.apache.commons.lang3.text.StrSubstitutorTest
+[INFO] Tests run: 41, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.022 s - in org.apache.commons.lang3.text.StrSubstitutorTest
+[INFO] Running org.apache.commons.lang3.text.StrTokenizerTest
+[INFO] Tests run: 55, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.01 s - in org.apache.commons.lang3.text.StrTokenizerTest
+[INFO] Running org.apache.commons.lang3.text.StrBuilderAppendInsertTest
+[INFO] Tests run: 51, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.025 s - in org.apache.commons.lang3.text.StrBuilderAppendInsertTest
+[INFO] Running org.apache.commons.lang3.text.ExtendedMessageFormatTest
+[INFO] Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.23 s - in org.apache.commons.lang3.text.ExtendedMessageFormatTest
+[INFO] Running org.apache.commons.lang3.reflect.InheritanceUtilsTest
+[INFO] Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s - in org.apache.commons.lang3.reflect.InheritanceUtilsTest
+[INFO] Running org.apache.commons.lang3.reflect.ConstructorUtilsTest
+[INFO] Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 s - in org.apache.commons.lang3.reflect.ConstructorUtilsTest
+[INFO] Running org.apache.commons.lang3.reflect.MethodUtilsTest
+[INFO] Tests run: 42, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.029 s - in org.apache.commons.lang3.reflect.MethodUtilsTest
+[INFO] Running org.apache.commons.lang3.reflect.FieldUtilsTest
+[INFO] Tests run: 64, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.04 s - in org.apache.commons.lang3.reflect.FieldUtilsTest
+[INFO] Running org.apache.commons.lang3.reflect.TypeUtilsTest
+[INFO] Tests run: 24, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.014 s - in org.apache.commons.lang3.reflect.TypeUtilsTest
+[INFO] Running org.apache.commons.lang3.reflect.TypeLiteralTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.009 s - in org.apache.commons.lang3.reflect.TypeLiteralTest
+[INFO] Running org.apache.commons.lang3.CharSetTest
+[INFO] Tests run: 15, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 s - in org.apache.commons.lang3.CharSetTest
+[INFO] Running org.apache.commons.lang3.CharSequenceUtilsTest
+[INFO] Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.063 s - in org.apache.commons.lang3.CharSequenceUtilsTest
+[INFO] Running org.apache.commons.lang3.StringUtilsSubstringTest
+[INFO] Tests run: 16, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in org.apache.commons.lang3.StringUtilsSubstringTest
+[INFO] Running org.apache.commons.lang3.ArrayUtilsRemoveTest
+[INFO] Tests run: 37, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.014 s - in org.apache.commons.lang3.ArrayUtilsRemoveTest
+[INFO] Running org.apache.commons.lang3.SerializationUtilsTest
+[INFO] Tests run: 26, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.025 s - in org.apache.commons.lang3.SerializationUtilsTest
+[INFO] Running org.apache.commons.lang3.FunctionsTest
+[INFO] Tests run: 43, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.063 s - in org.apache.commons.lang3.FunctionsTest
+[INFO] Running org.apache.commons.lang3.ArrayUtilsAddTest
+[INFO] Tests run: 22, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.009 s - in org.apache.commons.lang3.ArrayUtilsAddTest
+[INFO] Running org.apache.commons.lang3.StringEscapeUtilsTest
+[INFO] Tests run: 32, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.192 s - in org.apache.commons.lang3.StringEscapeUtilsTest
+[INFO] 
+[INFO] Results:
+[INFO] 
+[WARNING] Tests run: 4980, Failures: 0, Errors: 0, Skipped: 5
+[INFO] 
+[INFO] 
+[INFO] --- maven-jar-plugin:3.2.0:jar (default-jar) @ commons-lang3 ---
+[INFO] Building jar: ./commons-lang/target/commons-lang3-3.12.0-SNAPSHOT.jar
+[INFO] 
+[INFO] --- maven-site-plugin:3.9.1:attach-descriptor (attach-descriptor) @ commons-lang3 ---
+[INFO] Skipping because packaging 'jar' is not pom.
+[INFO] 
+[INFO] --- maven-jar-plugin:3.2.0:test-jar (default) @ commons-lang3 ---
+[INFO] Building jar: ./commons-lang/target/commons-lang3-3.12.0-SNAPSHOT-tests.jar
+[INFO] 
+[INFO] --- maven-source-plugin:3.2.1:jar-no-fork (create-source-jar) @ commons-lang3 ---
+[INFO] Building jar: ./commons-lang/target/commons-lang3-3.12.0-SNAPSHOT-sources.jar
+[INFO] 
+[INFO] --- maven-source-plugin:3.2.1:test-jar-no-fork (create-source-jar) @ commons-lang3 ---
+[INFO] Building jar: ./commons-lang/target/commons-lang3-3.12.0-SNAPSHOT-test-sources.jar
+[INFO] 
+[INFO] >>> maven-javadoc-plugin:3.2.0:javadoc (create-javadoc-jar) > generate-sources @ commons-lang3 >>>
+[INFO] 
+[INFO] --- maven-enforcer-plugin:3.0.0-M3:enforce (enforce-maven-version) @ commons-lang3 ---
+[INFO] 
+[INFO] --- maven-enforcer-plugin:3.0.0-M3:enforce (enforce-maven-3) @ commons-lang3 ---
+[INFO] 
+[INFO] --- apache-rat-plugin:0.13:check (rat-check) @ commons-lang3 ---
+[INFO] Enabled default license matchers.
+[INFO] Will parse SCM ignores for exclusions...
+[INFO] Parsing exclusions from ./commons-lang/.gitignore
+[INFO] Finished adding exclusions from SCM ignore files.
+[INFO] 73 implicit excludes (use -debug for more details).
+[INFO] 14 explicit excludes (use -debug for more details).
+[INFO] 433 resources included (use -debug for more details)
+[INFO] Rat check: Summary over all files. Unapproved: 0, unknown: 0, generated: 0, approved: 428 licenses.
+[INFO] 
+[INFO] --- build-helper-maven-plugin:3.2.0:parse-version (parse-version) @ commons-lang3 ---
+[INFO] 
+[INFO] --- maven-antrun-plugin:1.8:run (javadoc.resources) @ commons-lang3 ---
+[INFO] Executing tasks
+
+main:
+[INFO] Executed tasks
+[INFO] 
+[INFO] <<< maven-javadoc-plugin:3.2.0:javadoc (create-javadoc-jar) < generate-sources @ commons-lang3 <<<
+[INFO] 
+[INFO] 
+[INFO] --- maven-javadoc-plugin:3.2.0:javadoc (create-javadoc-jar) @ commons-lang3 ---
+[INFO] No previous run data found, generating javadoc.
+[INFO] 
+[INFO] --- maven-javadoc-plugin:3.2.0:jar (create-javadoc-jar) @ commons-lang3 ---
+[INFO] Configuration changed, re-generating javadoc.
+[INFO] Building jar: ./commons-lang/target/commons-lang3-3.12.0-SNAPSHOT-javadoc.jar
+[INFO] 
+[INFO] --- jacoco-maven-plugin:0.8.6:check (check) @ commons-lang3 ---
+[INFO] Loading execution data file ./commons-lang/target/jacoco.exec
+[INFO] Analyzed bundle 'commons-lang3' with 290 classes
+[WARNING] Rule violated for bundle commons-lang3: classes covered ratio is 0.92, but expected minimum is 1.00
+[WARNING] Rule violated for bundle commons-lang3: methods covered ratio is 0.93, but expected minimum is 0.95
+[WARNING] Coverage checks have not been met. See log for details.
+[INFO] 
+[INFO] --- maven-install-plugin:2.5.2:install (default-install) @ commons-lang3 ---
+[INFO] Installing ./commons-lang/target/commons-lang3-3.12.0-SNAPSHOT.jar to ./.m2/repository/org/apache/commons/commons-lang3/3.12.0-SNAPSHOT/commons-lang3-3.12.0-SNAPSHOT.jar
+[INFO] Installing ./commons-lang/pom.xml to ./.m2/repository/org/apache/commons/commons-lang3/3.12.0-SNAPSHOT/commons-lang3-3.12.0-SNAPSHOT.pom
+[INFO] Installing ./commons-lang/target/commons-lang3-3.12.0-SNAPSHOT-tests.jar to ./.m2/repository/org/apache/commons/commons-lang3/3.12.0-SNAPSHOT/commons-lang3-3.12.0-SNAPSHOT-tests.jar
+[INFO] Installing ./commons-lang/target/commons-lang3-3.12.0-SNAPSHOT-sources.jar to ./.m2/repository/org/apache/commons/commons-lang3/3.12.0-SNAPSHOT/commons-lang3-3.12.0-SNAPSHOT-sources.jar
+[INFO] Installing ./commons-lang/target/commons-lang3-3.12.0-SNAPSHOT-test-sources.jar to ./.m2/repository/org/apache/commons/commons-lang3/3.12.0-SNAPSHOT/commons-lang3-3.12.0-SNAPSHOT-test-sources.jar
+[INFO] Installing ./commons-lang/target/commons-lang3-3.12.0-SNAPSHOT-javadoc.jar to ./.m2/repository/org/apache/commons/commons-lang3/3.12.0-SNAPSHOT/commons-lang3-3.12.0-SNAPSHOT-javadoc.jar
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  01:21 min
+[INFO] Finished at: 
+[INFO] ------------------------------------------------------------------------

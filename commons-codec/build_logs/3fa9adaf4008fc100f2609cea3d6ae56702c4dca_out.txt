@@ -1,0 +1,704 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] --------------------< commons-codec:commons-codec >---------------------
+[INFO] Building Commons Codec 1.7-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/mojo/buildnumber-maven-plugin/1.0/buildnumber-maven-plugin-1.0.pom
+Progress (1): 1.4/12 kB
+Progress (1): 2.7/12 kB
+Progress (1): 4.1/12 kB
+Progress (1): 5.5/12 kB
+Progress (1): 6.9/12 kB
+Progress (1): 8.2/12 kB
+Progress (1): 9.6/12 kB
+Progress (1): 11/12 kB 
+Progress (1): 12/12 kB
+Progress (1): 12 kB   
+                   
+Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/mojo/buildnumber-maven-plugin/1.0/buildnumber-maven-plugin-1.0.pom (12 kB at 8.7 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/mojo/buildnumber-maven-plugin/1.0/buildnumber-maven-plugin-1.0.jar
+Progress (1): 1.4/25 kB
+Progress (1): 2.7/25 kB
+Progress (1): 4.1/25 kB
+Progress (1): 5.5/25 kB
+Progress (1): 6.9/25 kB
+Progress (1): 8.2/25 kB
+Progress (1): 9.6/25 kB
+Progress (1): 11/25 kB 
+Progress (1): 12/25 kB
+Progress (1): 14/25 kB
+Progress (1): 15/25 kB
+Progress (1): 16/25 kB
+Progress (1): 18/25 kB
+Progress (1): 19/25 kB
+Progress (1): 21/25 kB
+Progress (1): 22/25 kB
+Progress (1): 23/25 kB
+Progress (1): 25/25 kB
+Progress (1): 25 kB   
+                   
+Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/mojo/buildnumber-maven-plugin/1.0/buildnumber-maven-plugin-1.0.jar (25 kB at 26 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-surefire-plugin/2.12/maven-surefire-plugin-2.12.pom
+Progress (1): 1.4/10 kB
+Progress (1): 2.7/10 kB
+Progress (1): 4.1/10 kB
+Progress (1): 5.5/10 kB
+Progress (1): 6.9/10 kB
+Progress (1): 8.2/10 kB
+Progress (1): 9.6/10 kB
+Progress (1): 10 kB    
+                   
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-surefire-plugin/2.12/maven-surefire-plugin-2.12.pom (10 kB at 6.7 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire/2.12/surefire-2.12.pom
+Progress (1): 1.4/11 kB
+Progress (1): 2.7/11 kB
+Progress (1): 4.1/11 kB
+Progress (1): 5.5/11 kB
+Progress (1): 6.9/11 kB
+Progress (1): 8.2/11 kB
+Progress (1): 9.6/11 kB
+Progress (1): 11/11 kB 
+Progress (1): 11 kB   
+                   
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire/2.12/surefire-2.12.pom (11 kB at 3.7 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-surefire-plugin/2.12/maven-surefire-plugin-2.12.jar
+Progress (1): 1.4/31 kB
+Progress (1): 2.7/31 kB
+Progress (1): 6.8/31 kB
+Progress (1): 11/31 kB 
+Progress (1): 15/31 kB
+Progress (1): 19/31 kB
+Progress (1): 23/31 kB
+Progress (1): 27/31 kB
+Progress (1): 31 kB   
+                   
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-surefire-plugin/2.12/maven-surefire-plugin-2.12.jar (31 kB at 9.0 kB/s)
+[INFO] 
+[INFO] --- maven-clean-plugin:2.4.1:clean (default-clean) @ commons-codec ---
+[INFO] Deleting ./commons-codec/target
+[INFO] 
+[INFO] --- maven-antrun-plugin:1.7:run (javadoc.resources) @ commons-codec ---
+[INFO] Executing tasks
+
+main:
+     [copy] Copying 2 files to ./commons-codec/target/apidocs/META-INF
+[INFO] Executed tasks
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.2.1:process (default) @ commons-codec ---
+[INFO] 
+[INFO] --- buildnumber-maven-plugin:1.0:create (default) @ commons-codec ---
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/scm/maven-scm-manager-plexus/1.5/maven-scm-manager-plexus-1.5.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/scm/maven-scm-manager-plexus/1.5/maven-scm-manager-plexus-1.5.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/scm/maven-scm-managers/1.5/maven-scm-managers-1.5.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/scm/maven-scm-managers/1.5/maven-scm-managers-1.5.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/scm/maven-scm-provider-bazaar/1.5/maven-scm-provider-bazaar-1.5.pom
+Progress (1): 2.1 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/scm/maven-scm-provider-bazaar/1.5/maven-scm-provider-bazaar-1.5.pom (2.1 kB at 3.9 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/scm/maven-scm-provider-svnexe/1.5/maven-scm-provider-svnexe-1.5.pom
+Progress (1): 2.4 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/scm/maven-scm-provider-svnexe/1.5/maven-scm-provider-svnexe-1.5.pom (2.4 kB at 1.6 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/scm/maven-scm-provider-gitexe/1.5/maven-scm-provider-gitexe-1.5.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/scm/maven-scm-provider-gitexe/1.5/maven-scm-provider-gitexe-1.5.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/scm/maven-scm-providers-git/1.5/maven-scm-providers-git-1.5.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/scm/maven-scm-providers-git/1.5/maven-scm-providers-git-1.5.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/scm/maven-scm-provider-git-commons/1.5/maven-scm-provider-git-commons-1.5.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/scm/maven-scm-provider-git-commons/1.5/maven-scm-provider-git-commons-1.5.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/scm/maven-scm-provider-cvsexe/1.5/maven-scm-provider-cvsexe-1.5.pom
+Progress (1): 2.7 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/scm/maven-scm-provider-cvsexe/1.5/maven-scm-provider-cvsexe-1.5.pom (2.7 kB at 1.6 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/scm/maven-scm-providers-cvs/1.5/maven-scm-providers-cvs-1.5.pom
+Progress (1): 1.7 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/scm/maven-scm-providers-cvs/1.5/maven-scm-providers-cvs-1.5.pom (1.7 kB at 2.4 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/scm/maven-scm-provider-cvs-commons/1.5/maven-scm-provider-cvs-commons-1.5.pom
+Progress (1): 2.4 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/scm/maven-scm-provider-cvs-commons/1.5/maven-scm-provider-cvs-commons-1.5.pom (2.4 kB at 1.6 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/scm/maven-scm-provider-starteam/1.5/maven-scm-provider-starteam-1.5.pom
+Progress (1): 2.6 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/scm/maven-scm-provider-starteam/1.5/maven-scm-provider-starteam-1.5.pom (2.6 kB at 2.8 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/scm/maven-scm-provider-clearcase/1.5/maven-scm-provider-clearcase-1.5.pom
+Progress (1): 2.7 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/scm/maven-scm-provider-clearcase/1.5/maven-scm-provider-clearcase-1.5.pom (2.7 kB at 1.5 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/scm/maven-scm-provider-perforce/1.5/maven-scm-provider-perforce-1.5.pom
+Progress (1): 2.6 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/scm/maven-scm-provider-perforce/1.5/maven-scm-provider-perforce-1.5.pom (2.6 kB at 4.0 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/scm/maven-scm-provider-hg/1.5/maven-scm-provider-hg-1.5.pom
+Progress (1): 2.4 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/scm/maven-scm-provider-hg/1.5/maven-scm-provider-hg-1.5.pom (2.4 kB at 2.5 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/scm/maven-scm-api/1.5/maven-scm-api-1.5.jar
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/scm/maven-scm-manager-plexus/1.5/maven-scm-manager-plexus-1.5.jar
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/scm/maven-scm-provider-svnexe/1.5/maven-scm-provider-svnexe-1.5.jar
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/scm/maven-scm-provider-gitexe/1.5/maven-scm-provider-gitexe-1.5.jar
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/scm/maven-scm-provider-bazaar/1.5/maven-scm-provider-bazaar-1.5.jar
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/scm/maven-scm-api/1.5/maven-scm-api-1.5.jar (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/scm/maven-scm-provider-git-commons/1.5/maven-scm-provider-git-commons-1.5.jar
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/scm/maven-scm-provider-git-commons/1.5/maven-scm-provider-git-commons-1.5.jar (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/scm/maven-scm-provider-svn-commons/1.5/maven-scm-provider-svn-commons-1.5.jar
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/scm/maven-scm-provider-gitexe/1.5/maven-scm-provider-gitexe-1.5.jar (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/scm/maven-scm-provider-cvsexe/1.5/maven-scm-provider-cvsexe-1.5.jar
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/scm/maven-scm-manager-plexus/1.5/maven-scm-manager-plexus-1.5.jar (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/scm/maven-scm-provider-cvs-commons/1.5/maven-scm-provider-cvs-commons-1.5.jar
+Progress (1): 1.4/54 kB
+Progress (1): 2.7/54 kB
+Progress (1): 4.1/54 kB
+Progress (1): 5.5/54 kB
+Progress (1): 6.9/54 kB
+Progress (1): 8.2/54 kB
+Progress (1): 9.6/54 kB
+Progress (2): 9.6/54 kB | 1.4/72 kB
+Progress (2): 9.6/54 kB | 2.7/72 kB
+Progress (2): 9.6/54 kB | 4.1/72 kB
+Progress (2): 9.6/54 kB | 5.5/72 kB
+Progress (2): 9.6/54 kB | 6.9/72 kB
+Progress (2): 9.6/54 kB | 8.2/72 kB
+Progress (2): 9.6/54 kB | 9.6/72 kB
+Progress (2): 9.6/54 kB | 11/72 kB 
+Progress (2): 9.6/54 kB | 12/72 kB
+Progress (2): 9.6/54 kB | 14/72 kB
+Progress (2): 9.6/54 kB | 15/72 kB
+Progress (2): 9.6/54 kB | 16/72 kB
+Progress (2): 9.6/54 kB | 18/72 kB
+Progress (2): 9.6/54 kB | 19/72 kB
+Progress (2): 9.6/54 kB | 21/72 kB
+Progress (2): 9.6/54 kB | 22/72 kB
+Progress (2): 9.6/54 kB | 23/72 kB
+Progress (2): 9.6/54 kB | 25/72 kB
+Progress (2): 9.6/54 kB | 26/72 kB
+Progress (2): 9.6/54 kB | 27/72 kB
+Progress (2): 9.6/54 kB | 29/72 kB
+Progress (2): 9.6/54 kB | 30/72 kB
+Progress (2): 9.6/54 kB | 32/72 kB
+Progress (2): 9.6/54 kB | 33/72 kB
+Progress (2): 9.6/54 kB | 34/72 kB
+Progress (2): 9.6/54 kB | 36/72 kB
+Progress (2): 9.6/54 kB | 37/72 kB
+Progress (2): 9.6/54 kB | 38/72 kB
+Progress (2): 9.6/54 kB | 40/72 kB
+Progress (3): 9.6/54 kB | 40/72 kB | 1.4/30 kB
+Progress (3): 9.6/54 kB | 40/72 kB | 2.7/30 kB
+Progress (3): 9.6/54 kB | 40/72 kB | 4.1/30 kB
+Progress (3): 9.6/54 kB | 40/72 kB | 5.5/30 kB
+Progress (3): 9.6/54 kB | 40/72 kB | 6.9/30 kB
+Progress (3): 9.6/54 kB | 40/72 kB | 8.2/30 kB
+Progress (3): 9.6/54 kB | 40/72 kB | 9.6/30 kB
+Progress (3): 9.6/54 kB | 41/72 kB | 9.6/30 kB
+Progress (3): 9.6/54 kB | 43/72 kB | 9.6/30 kB
+Progress (4): 9.6/54 kB | 43/72 kB | 9.6/30 kB | 1.4/80 kB
+Progress (4): 9.6/54 kB | 43/72 kB | 9.6/30 kB | 2.7/80 kB
+Progress (4): 9.6/54 kB | 43/72 kB | 9.6/30 kB | 4.1/80 kB
+Progress (4): 9.6/54 kB | 43/72 kB | 9.6/30 kB | 5.5/80 kB
+Progress (4): 9.6/54 kB | 43/72 kB | 9.6/30 kB | 6.9/80 kB
+Progress (4): 9.6/54 kB | 43/72 kB | 9.6/30 kB | 8.2/80 kB
+Progress (4): 9.6/54 kB | 44/72 kB | 9.6/30 kB | 8.2/80 kB
+Progress (4): 9.6/54 kB | 44/72 kB | 9.6/30 kB | 9.6/80 kB
+Progress (4): 9.6/54 kB | 44/72 kB | 9.6/30 kB | 11/80 kB 
+Progress (4): 9.6/54 kB | 44/72 kB | 9.6/30 kB | 12/80 kB
+Progress (4): 9.6/54 kB | 45/72 kB | 9.6/30 kB | 12/80 kB
+Progress (4): 9.6/54 kB | 47/72 kB | 9.6/30 kB | 12/80 kB
+Progress (4): 9.6/54 kB | 48/72 kB | 9.6/30 kB | 12/80 kB
+Progress (4): 9.6/54 kB | 48/72 kB | 9.6/30 kB | 14/80 kB
+Progress (4): 9.6/54 kB | 48/72 kB | 9.6/30 kB | 15/80 kB
+Progress (4): 9.6/54 kB | 49/72 kB | 9.6/30 kB | 15/80 kB
+Progress (4): 9.6/54 kB | 51/72 kB | 9.6/30 kB | 15/80 kB
+Progress (4): 9.6/54 kB | 52/72 kB | 9.6/30 kB | 15/80 kB
+Progress (4): 9.6/54 kB | 52/72 kB | 9.6/30 kB | 16/80 kB
+Progress (4): 9.6/54 kB | 53/72 kB | 9.6/30 kB | 16/80 kB
+Progress (4): 9.6/54 kB | 53/72 kB | 9.6/30 kB | 18/80 kB
+Progress (4): 11/54 kB | 53/72 kB | 9.6/30 kB | 18/80 kB 
+Progress (4): 11/54 kB | 55/72 kB | 9.6/30 kB | 18/80 kB
+Progress (4): 11/54 kB | 56/72 kB | 9.6/30 kB | 18/80 kB
+Progress (4): 11/54 kB | 56/72 kB | 9.6/30 kB | 19/80 kB
+Progress (4): 11/54 kB | 56/72 kB | 9.6/30 kB | 21/80 kB
+Progress (4): 11/54 kB | 58/72 kB | 9.6/30 kB | 21/80 kB
+Progress (4): 12/54 kB | 58/72 kB | 9.6/30 kB | 21/80 kB
+Progress (4): 12/54 kB | 59/72 kB | 9.6/30 kB | 21/80 kB
+Progress (4): 14/54 kB | 59/72 kB | 9.6/30 kB | 21/80 kB
+Progress (4): 15/54 kB | 59/72 kB | 9.6/30 kB | 21/80 kB
+Progress (4): 16/54 kB | 59/72 kB | 9.6/30 kB | 21/80 kB
+Progress (4): 18/54 kB | 59/72 kB | 9.6/30 kB | 21/80 kB
+Progress (4): 18/54 kB | 60/72 kB | 9.6/30 kB | 21/80 kB
+Progress (4): 18/54 kB | 60/72 kB | 9.6/30 kB | 22/80 kB
+Progress (4): 19/54 kB | 60/72 kB | 9.6/30 kB | 22/80 kB
+Progress (4): 19/54 kB | 60/72 kB | 9.6/30 kB | 23/80 kB
+Progress (4): 19/54 kB | 62/72 kB | 9.6/30 kB | 23/80 kB
+Progress (4): 21/54 kB | 62/72 kB | 9.6/30 kB | 23/80 kB
+Progress (4): 22/54 kB | 62/72 kB | 9.6/30 kB | 23/80 kB
+Progress (4): 23/54 kB | 62/72 kB | 9.6/30 kB | 23/80 kB
+Progress (4): 25/54 kB | 62/72 kB | 9.6/30 kB | 23/80 kB
+Progress (4): 25/54 kB | 63/72 kB | 9.6/30 kB | 23/80 kB
+Progress (4): 26/54 kB | 63/72 kB | 9.6/30 kB | 23/80 kB
+Progress (4): 26/54 kB | 64/72 kB | 9.6/30 kB | 23/80 kB
+Progress (4): 27/54 kB | 64/72 kB | 9.6/30 kB | 23/80 kB
+Progress (4): 29/54 kB | 64/72 kB | 9.6/30 kB | 23/80 kB
+Progress (4): 29/54 kB | 64/72 kB | 9.6/30 kB | 25/80 kB
+Progress (4): 29/54 kB | 64/72 kB | 9.6/30 kB | 26/80 kB
+Progress (4): 29/54 kB | 66/72 kB | 9.6/30 kB | 26/80 kB
+Progress (4): 30/54 kB | 66/72 kB | 9.6/30 kB | 26/80 kB
+Progress (4): 32/54 kB | 66/72 kB | 9.6/30 kB | 26/80 kB
+Progress (4): 33/54 kB | 66/72 kB | 9.6/30 kB | 26/80 kB
+Progress (4): 34/54 kB | 66/72 kB | 9.6/30 kB | 26/80 kB
+Progress (4): 36/54 kB | 66/72 kB | 9.6/30 kB | 26/80 kB
+Progress (4): 37/54 kB | 66/72 kB | 9.6/30 kB | 26/80 kB
+Progress (4): 38/54 kB | 66/72 kB | 9.6/30 kB | 26/80 kB
+Progress (4): 40/54 kB | 66/72 kB | 9.6/30 kB | 26/80 kB
+Progress (4): 41/54 kB | 66/72 kB | 9.6/30 kB | 26/80 kB
+Progress (4): 43/54 kB | 66/72 kB | 9.6/30 kB | 26/80 kB
+Progress (4): 44/54 kB | 66/72 kB | 9.6/30 kB | 26/80 kB
+Progress (4): 45/54 kB | 66/72 kB | 9.6/30 kB | 26/80 kB
+Progress (4): 47/54 kB | 66/72 kB | 9.6/30 kB | 26/80 kB
+Progress (4): 48/54 kB | 66/72 kB | 9.6/30 kB | 26/80 kB
+Progress (4): 48/54 kB | 66/72 kB | 9.6/30 kB | 27/80 kB
+Progress (4): 48/54 kB | 66/72 kB | 9.6/30 kB | 29/80 kB
+Progress (4): 49/54 kB | 66/72 kB | 9.6/30 kB | 29/80 kB
+Progress (4): 51/54 kB | 66/72 kB | 9.6/30 kB | 29/80 kB
+Progress (4): 52/54 kB | 66/72 kB | 9.6/30 kB | 29/80 kB
+Progress (4): 53/54 kB | 66/72 kB | 9.6/30 kB | 29/80 kB
+Progress (4): 54 kB | 66/72 kB | 9.6/30 kB | 29/80 kB   
+Progress (4): 54 kB | 70/72 kB | 9.6/30 kB | 29/80 kB
+Progress (4): 54 kB | 72 kB | 9.6/30 kB | 29/80 kB   
+Progress (4): 54 kB | 72 kB | 9.6/30 kB | 30/80 kB
+Progress (4): 54 kB | 72 kB | 9.6/30 kB | 32/80 kB
+Progress (4): 54 kB | 72 kB | 9.6/30 kB | 33/80 kB
+Progress (4): 54 kB | 72 kB | 9.6/30 kB | 34/80 kB
+Progress (4): 54 kB | 72 kB | 9.6/30 kB | 36/80 kB
+Progress (4): 54 kB | 72 kB | 9.6/30 kB | 37/80 kB
+Progress (4): 54 kB | 72 kB | 9.6/30 kB | 38/80 kB
+Progress (4): 54 kB | 72 kB | 9.6/30 kB | 40/80 kB
+Progress (4): 54 kB | 72 kB | 9.6/30 kB | 41/80 kB
+Progress (4): 54 kB | 72 kB | 9.6/30 kB | 43/80 kB
+Progress (4): 54 kB | 72 kB | 9.6/30 kB | 44/80 kB
+Progress (4): 54 kB | 72 kB | 9.6/30 kB | 45/80 kB
+Progress (4): 54 kB | 72 kB | 11/30 kB | 45/80 kB 
+Progress (4): 54 kB | 72 kB | 12/30 kB | 45/80 kB
+Progress (4): 54 kB | 72 kB | 14/30 kB | 45/80 kB
+Progress (4): 54 kB | 72 kB | 15/30 kB | 45/80 kB
+Progress (4): 54 kB | 72 kB | 16/30 kB | 45/80 kB
+Progress (4): 54 kB | 72 kB | 18/30 kB | 45/80 kB
+Progress (4): 54 kB | 72 kB | 18/30 kB | 47/80 kB
+Progress (4): 54 kB | 72 kB | 19/30 kB | 47/80 kB
+Progress (4): 54 kB | 72 kB | 19/30 kB | 48/80 kB
+Progress (4): 54 kB | 72 kB | 21/30 kB | 48/80 kB
+Progress (4): 54 kB | 72 kB | 22/30 kB | 48/80 kB
+Progress (4): 54 kB | 72 kB | 23/30 kB | 48/80 kB
+Progress (4): 54 kB | 72 kB | 25/30 kB | 48/80 kB
+Progress (4): 54 kB | 72 kB | 26/30 kB | 48/80 kB
+Progress (4): 54 kB | 72 kB | 27/30 kB | 48/80 kB
+Progress (4): 54 kB | 72 kB | 29/30 kB | 48/80 kB
+Progress (4): 54 kB | 72 kB | 29/30 kB | 49/80 kB
+Progress (4): 54 kB | 72 kB | 29/30 kB | 51/80 kB
+Progress (4): 54 kB | 72 kB | 29/30 kB | 52/80 kB
+Progress (4): 54 kB | 72 kB | 29/30 kB | 53/80 kB
+Progress (4): 54 kB | 72 kB | 29/30 kB | 55/80 kB
+Progress (4): 54 kB | 72 kB | 29/30 kB | 56/80 kB
+Progress (4): 54 kB | 72 kB | 29/30 kB | 58/80 kB
+Progress (4): 54 kB | 72 kB | 29/30 kB | 59/80 kB
+Progress (4): 54 kB | 72 kB | 29/30 kB | 60/80 kB
+Progress (4): 54 kB | 72 kB | 29/30 kB | 62/80 kB
+Progress (4): 54 kB | 72 kB | 29/30 kB | 63/80 kB
+Progress (4): 54 kB | 72 kB | 29/30 kB | 64/80 kB
+Progress (4): 54 kB | 72 kB | 29/30 kB | 66/80 kB
+                                                 
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/scm/maven-scm-provider-svnexe/1.5/maven-scm-provider-svnexe-1.5.jar (72 kB at 66 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/scm/maven-scm-provider-starteam/1.5/maven-scm-provider-starteam-1.5.jar
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/scm/maven-scm-provider-bazaar/1.5/maven-scm-provider-bazaar-1.5.jar (54 kB at 50 kB/s)
+Progress (2): 29/30 kB | 70/80 kB
+                                 
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/scm/maven-scm-provider-clearcase/1.5/maven-scm-provider-clearcase-1.5.jar
+Progress (2): 29/30 kB | 74/80 kB
+Progress (2): 29/30 kB | 78/80 kB
+Progress (2): 29/30 kB | 80 kB   
+                              
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/scm/maven-scm-provider-cvs-commons/1.5/maven-scm-provider-cvs-commons-1.5.jar (80 kB at 58 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/scm/maven-scm-provider-perforce/1.5/maven-scm-provider-perforce-1.5.jar
+Progress (2): 29/30 kB | 4.1/74 kB
+Progress (2): 29/30 kB | 8.2/74 kB
+Progress (2): 29/30 kB | 12/74 kB 
+Progress (2): 29/30 kB | 16/74 kB
+Progress (3): 29/30 kB | 16/74 kB | 4.1/71 kB
+Progress (4): 29/30 kB | 16/74 kB | 4.1/71 kB | 1.4/81 kB
+Progress (4): 29/30 kB | 16/74 kB | 8.2/71 kB | 1.4/81 kB
+Progress (4): 29/30 kB | 16/74 kB | 12/71 kB | 1.4/81 kB 
+Progress (4): 29/30 kB | 16/74 kB | 16/71 kB | 1.4/81 kB
+Progress (4): 29/30 kB | 16/74 kB | 20/71 kB | 1.4/81 kB
+Progress (4): 29/30 kB | 16/74 kB | 25/71 kB | 1.4/81 kB
+Progress (4): 29/30 kB | 16/74 kB | 29/71 kB | 1.4/81 kB
+Progress (4): 29/30 kB | 16/74 kB | 33/71 kB | 1.4/81 kB
+Progress (4): 29/30 kB | 20/74 kB | 33/71 kB | 1.4/81 kB
+Progress (4): 29/30 kB | 25/74 kB | 33/71 kB | 1.4/81 kB
+Progress (4): 29/30 kB | 29/74 kB | 33/71 kB | 1.4/81 kB
+Progress (4): 29/30 kB | 33/74 kB | 33/71 kB | 1.4/81 kB
+Progress (4): 29/30 kB | 33/74 kB | 33/71 kB | 2.7/81 kB
+Progress (4): 29/30 kB | 33/74 kB | 33/71 kB | 4.1/81 kB
+Progress (4): 29/30 kB | 37/74 kB | 33/71 kB | 4.1/81 kB
+Progress (4): 29/30 kB | 41/74 kB | 33/71 kB | 4.1/81 kB
+Progress (4): 29/30 kB | 45/74 kB | 33/71 kB | 4.1/81 kB
+Progress (4): 29/30 kB | 49/74 kB | 33/71 kB | 4.1/81 kB
+Progress (4): 29/30 kB | 53/74 kB | 33/71 kB | 4.1/81 kB
+Progress (4): 29/30 kB | 57/74 kB | 33/71 kB | 4.1/81 kB
+Progress (4): 29/30 kB | 61/74 kB | 33/71 kB | 4.1/81 kB
+Progress (4): 29/30 kB | 66/74 kB | 33/71 kB | 4.1/81 kB
+Progress (4): 29/30 kB | 66/74 kB | 33/71 kB | 5.5/81 kB
+Progress (4): 29/30 kB | 66/74 kB | 33/71 kB | 6.9/81 kB
+Progress (4): 29/30 kB | 66/74 kB | 33/71 kB | 8.2/81 kB
+Progress (4): 29/30 kB | 66/74 kB | 33/71 kB | 9.6/81 kB
+Progress (4): 29/30 kB | 66/74 kB | 33/71 kB | 14/81 kB 
+Progress (4): 29/30 kB | 66/74 kB | 33/71 kB | 18/81 kB
+Progress (4): 29/30 kB | 66/74 kB | 33/71 kB | 22/81 kB
+Progress (4): 29/30 kB | 66/74 kB | 33/71 kB | 26/81 kB
+Progress (4): 30 kB | 66/74 kB | 33/71 kB | 26/81 kB   
+Progress (4): 30 kB | 70/74 kB | 33/71 kB | 26/81 kB
+Progress (4): 30 kB | 74/74 kB | 33/71 kB | 26/81 kB
+Progress (4): 30 kB | 74/74 kB | 37/71 kB | 26/81 kB
+Progress (4): 30 kB | 74 kB | 37/71 kB | 26/81 kB   
+Progress (4): 30 kB | 74 kB | 41/71 kB | 26/81 kB
+Progress (4): 30 kB | 74 kB | 45/71 kB | 26/81 kB
+Progress (4): 30 kB | 74 kB | 49/71 kB | 26/81 kB
+Progress (4): 30 kB | 74 kB | 53/71 kB | 26/81 kB
+Progress (4): 30 kB | 74 kB | 57/71 kB | 26/81 kB
+Progress (4): 30 kB | 74 kB | 61/71 kB | 26/81 kB
+Progress (4): 30 kB | 74 kB | 66/71 kB | 26/81 kB
+Progress (4): 30 kB | 74 kB | 70/71 kB | 26/81 kB
+Progress (4): 30 kB | 74 kB | 71 kB | 26/81 kB   
+Progress (4): 30 kB | 74 kB | 71 kB | 30/81 kB
+Progress (4): 30 kB | 74 kB | 71 kB | 34/81 kB
+Progress (4): 30 kB | 74 kB | 71 kB | 38/81 kB
+Progress (4): 30 kB | 74 kB | 71 kB | 42/81 kB
+Progress (4): 30 kB | 74 kB | 71 kB | 46/81 kB
+Progress (4): 30 kB | 74 kB | 71 kB | 51/81 kB
+Progress (4): 30 kB | 74 kB | 71 kB | 55/81 kB
+Progress (4): 30 kB | 74 kB | 71 kB | 59/81 kB
+                                              
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/scm/maven-scm-provider-cvsexe/1.5/maven-scm-provider-cvsexe-1.5.jar (30 kB at 16 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/scm/maven-scm-provider-hg/1.5/maven-scm-provider-hg-1.5.jar
+Progress (3): 74 kB | 71 kB | 63/81 kB
+Progress (3): 74 kB | 71 kB | 67/81 kB
+Progress (3): 74 kB | 71 kB | 71/81 kB
+Progress (3): 74 kB | 71 kB | 75/81 kB
+                                      
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/scm/maven-scm-provider-starteam/1.5/maven-scm-provider-starteam-1.5.jar (74 kB at 38 kB/s)
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/scm/maven-scm-provider-clearcase/1.5/maven-scm-provider-clearcase-1.5.jar (71 kB at 36 kB/s)
+Progress (1): 79/81 kB
+Progress (1): 81 kB   
+Progress (2): 81 kB | 1.4/65 kB
+Progress (2): 81 kB | 2.7/65 kB
+Progress (2): 81 kB | 4.1/65 kB
+Progress (2): 81 kB | 5.5/65 kB
+Progress (2): 81 kB | 6.9/65 kB
+Progress (2): 81 kB | 8.2/65 kB
+Progress (2): 81 kB | 9.6/65 kB
+Progress (2): 81 kB | 11/65 kB 
+Progress (2): 81 kB | 12/65 kB
+Progress (2): 81 kB | 14/65 kB
+Progress (2): 81 kB | 15/65 kB
+Progress (2): 81 kB | 16/65 kB
+Progress (2): 81 kB | 18/65 kB
+Progress (2): 81 kB | 19/65 kB
+Progress (2): 81 kB | 21/65 kB
+Progress (2): 81 kB | 22/65 kB
+Progress (2): 81 kB | 23/65 kB
+Progress (2): 81 kB | 25/65 kB
+Progress (2): 81 kB | 26/65 kB
+Progress (2): 81 kB | 27/65 kB
+Progress (2): 81 kB | 29/65 kB
+Progress (2): 81 kB | 30/65 kB
+Progress (2): 81 kB | 32/65 kB
+Progress (2): 81 kB | 33/65 kB
+Progress (2): 81 kB | 34/65 kB
+                              
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/scm/maven-scm-provider-perforce/1.5/maven-scm-provider-perforce-1.5.jar (81 kB at 37 kB/s)
+Progress (1): 38/65 kB
+Progress (1): 42/65 kB
+Progress (1): 47/65 kB
+Progress (1): 51/65 kB
+Progress (1): 55/65 kB
+Progress (1): 59/65 kB
+Progress (1): 63/65 kB
+Progress (1): 65 kB   
+                   
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/scm/maven-scm-provider-hg/1.5/maven-scm-provider-hg-1.5.jar (65 kB at 24 kB/s)
+Progress (1): 4.1/40 kB
+Progress (1): 8.2/40 kB
+Progress (1): 12/40 kB 
+Progress (1): 16/40 kB
+Progress (1): 20/40 kB
+Progress (1): 25/40 kB
+Progress (1): 29/40 kB
+Progress (1): 33/40 kB
+Progress (1): 37/40 kB
+Progress (1): 40 kB   
+                   
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/scm/maven-scm-provider-svn-commons/1.5/maven-scm-provider-svn-commons-1.5.jar (40 kB at 7.5 kB/s)
+[INFO] Checking for local modifications: skipped.
+[INFO] Updating project files from SCM: skipped.
+[INFO] Executing: /bin/sh -c cd ./commons-codec && svn --non-interactive info
+[INFO] Working directory: ./commons-codec
+[INFO] Storing buildNumber: ?????? at timestamp: 1636379259015
+[INFO] Executing: /bin/sh -c cd ./commons-codec && svn --non-interactive info
+[INFO] Working directory: ./commons-codec
+[INFO] Storing buildScmBranch: UNKNOWN_BRANCH
+[INFO] 
+[INFO] --- maven-resources-plugin:2.5:resources (default-resources) @ commons-codec ---
+[debug] execute contextualize
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 124 resources
+[INFO] Copying 2 resources to META-INF
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.2:compile (default-compile) @ commons-codec ---
+[INFO] Compiling 48 source files to ./commons-codec/target/classes
+[INFO] 
+[INFO] --- maven-bundle-plugin:2.3.7:manifest (bundle-manifest) @ commons-codec ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.5:testResources (default-testResources) @ commons-codec ---
+[debug] execute contextualize
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory ./commons-codec/src/test/resources
+[INFO] Copying 2 resources to META-INF
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.2:testCompile (default-testCompile) @ commons-codec ---
+[INFO] Compiling 40 source files to ./commons-codec/target/test-classes
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12:test (default-test) @ commons-codec ---
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-booter/2.12/surefire-booter-2.12.pom
+Progress (1): 3.0 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-booter/2.12/surefire-booter-2.12.pom (3.0 kB at 1.8 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-api/2.12/surefire-api-2.12.pom
+Progress (1): 2.5 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-api/2.12/surefire-api-2.12.pom (2.5 kB at 1.8 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/maven-surefire-common/2.12/maven-surefire-common-2.12.pom
+Progress (1): 4.1/5.1 kB
+Progress (1): 5.1 kB    
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/maven-surefire-common/2.12/maven-surefire-common-2.12.pom (5.1 kB at 4.5 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-booter/2.12/surefire-booter-2.12.jar
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-api/2.12/surefire-api-2.12.jar
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/maven-surefire-common/2.12/maven-surefire-common-2.12.jar
+Progress (1): 4.1/124 kB
+Progress (1): 8.2/124 kB
+Progress (1): 12/124 kB 
+Progress (1): 16/124 kB
+Progress (1): 20/124 kB
+Progress (1): 25/124 kB
+Progress (1): 29/124 kB
+Progress (1): 33/124 kB
+Progress (2): 33/124 kB | 4.1/224 kB
+Progress (2): 33/124 kB | 8.2/224 kB
+Progress (2): 33/124 kB | 12/224 kB 
+Progress (2): 33/124 kB | 16/224 kB
+Progress (2): 33/124 kB | 20/224 kB
+Progress (2): 33/124 kB | 25/224 kB
+Progress (2): 33/124 kB | 29/224 kB
+Progress (2): 33/124 kB | 33/224 kB
+Progress (2): 37/124 kB | 33/224 kB
+Progress (2): 41/124 kB | 33/224 kB
+Progress (2): 45/124 kB | 33/224 kB
+Progress (2): 49/124 kB | 33/224 kB
+Progress (2): 53/124 kB | 33/224 kB
+Progress (2): 57/124 kB | 33/224 kB
+Progress (2): 61/124 kB | 33/224 kB
+Progress (2): 66/124 kB | 33/224 kB
+Progress (2): 70/124 kB | 33/224 kB
+Progress (2): 74/124 kB | 33/224 kB
+Progress (2): 78/124 kB | 33/224 kB
+Progress (2): 82/124 kB | 33/224 kB
+Progress (2): 82/124 kB | 37/224 kB
+Progress (2): 82/124 kB | 41/224 kB
+Progress (2): 82/124 kB | 45/224 kB
+Progress (2): 82/124 kB | 49/224 kB
+Progress (2): 86/124 kB | 49/224 kB
+Progress (2): 90/124 kB | 49/224 kB
+Progress (2): 94/124 kB | 49/224 kB
+Progress (2): 98/124 kB | 49/224 kB
+Progress (2): 102/124 kB | 49/224 kB
+Progress (2): 106/124 kB | 49/224 kB
+Progress (2): 111/124 kB | 49/224 kB
+Progress (2): 115/124 kB | 49/224 kB
+Progress (2): 119/124 kB | 49/224 kB
+Progress (2): 123/124 kB | 49/224 kB
+Progress (2): 124 kB | 49/224 kB    
+Progress (2): 124 kB | 53/224 kB
+Progress (2): 124 kB | 57/224 kB
+Progress (2): 124 kB | 61/224 kB
+Progress (2): 124 kB | 66/224 kB
+Progress (2): 124 kB | 70/224 kB
+Progress (2): 124 kB | 74/224 kB
+Progress (2): 124 kB | 78/224 kB
+Progress (2): 124 kB | 82/224 kB
+Progress (2): 124 kB | 86/224 kB
+Progress (2): 124 kB | 90/224 kB
+Progress (2): 124 kB | 94/224 kB
+Progress (2): 124 kB | 98/224 kB
+Progress (2): 124 kB | 102/224 kB
+Progress (2): 124 kB | 106/224 kB
+Progress (2): 124 kB | 111/224 kB
+Progress (2): 124 kB | 115/224 kB
+Progress (2): 124 kB | 119/224 kB
+Progress (2): 124 kB | 123/224 kB
+Progress (2): 124 kB | 127/224 kB
+Progress (2): 124 kB | 131/224 kB
+Progress (2): 124 kB | 135/224 kB
+Progress (2): 124 kB | 139/224 kB
+Progress (2): 124 kB | 143/224 kB
+Progress (2): 124 kB | 147/224 kB
+Progress (2): 124 kB | 152/224 kB
+Progress (2): 124 kB | 156/224 kB
+Progress (2): 124 kB | 160/224 kB
+Progress (2): 124 kB | 164/224 kB
+                                 
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-api/2.12/surefire-api-2.12.jar (124 kB at 129 kB/s)
+Progress (1): 168/224 kB
+Progress (1): 172/224 kB
+Progress (1): 176/224 kB
+Progress (1): 180/224 kB
+Progress (1): 184/224 kB
+Progress (1): 188/224 kB
+Progress (1): 193/224 kB
+Progress (1): 197/224 kB
+Progress (2): 197/224 kB | 4.1/33 kB
+Progress (2): 197/224 kB | 8.2/33 kB
+Progress (2): 197/224 kB | 12/33 kB 
+Progress (2): 197/224 kB | 16/33 kB
+Progress (2): 201/224 kB | 16/33 kB
+Progress (2): 205/224 kB | 16/33 kB
+Progress (2): 209/224 kB | 16/33 kB
+Progress (2): 213/224 kB | 16/33 kB
+Progress (2): 217/224 kB | 16/33 kB
+Progress (2): 221/224 kB | 16/33 kB
+Progress (2): 224 kB | 16/33 kB    
+                               
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/maven-surefire-common/2.12/maven-surefire-common-2.12.jar (224 kB at 60 kB/s)
+Progress (1): 20/33 kB
+Progress (1): 25/33 kB
+Progress (1): 29/33 kB
+Progress (1): 33/33 kB
+Progress (1): 33 kB   
+                   
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-booter/2.12/surefire-booter-2.12.jar (33 kB at 7.1 kB/s)
+[INFO] Surefire report directory: ./commons-codec/target/surefire-reports
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-junit4/2.12/surefire-junit4-2.12.pom
+Progress (1): 2.4 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-junit4/2.12/surefire-junit4-2.12.pom (2.4 kB at 3.4 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-providers/2.12/surefire-providers-2.12.pom
+Progress (1): 2.3 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-providers/2.12/surefire-providers-2.12.pom (2.3 kB at 1.9 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-junit4/2.12/surefire-junit4-2.12.jar
+Progress (1): 4.1/34 kB
+Progress (1): 8.2/34 kB
+Progress (1): 12/34 kB 
+Progress (1): 16/34 kB
+Progress (1): 20/34 kB
+Progress (1): 25/34 kB
+Progress (1): 29/34 kB
+Progress (1): 33/34 kB
+Progress (1): 34 kB   
+                   
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-junit4/2.12/surefire-junit4-2.12.jar (34 kB at 7.9 kB/s)
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running org.apache.commons.codec.net.RFC1522CodecTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.048 sec
+Running org.apache.commons.codec.net.BCodecTest
+Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running org.apache.commons.codec.net.QuotedPrintableCodecTest
+Tests run: 21, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.011 sec
+Running org.apache.commons.codec.net.UtilsTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running org.apache.commons.codec.net.URLCodecTest
+Tests run: 16, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.01 sec
+Running org.apache.commons.codec.net.QCodecTest
+Tests run: 12, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 sec
+Running org.apache.commons.codec.EncoderExceptionTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec
+Running org.apache.commons.codec.digest.DigestUtilsTest
+Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.261 sec
+Running org.apache.commons.codec.DecoderExceptionTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 sec
+Running org.apache.commons.codec.language.MetaphoneTest
+Tests run: 34, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.058 sec
+Running org.apache.commons.codec.language.bm.LanguageGuessingTest
+Tests run: 18, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.116 sec
+Running org.apache.commons.codec.language.bm.RuleTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.011 sec
+Running org.apache.commons.codec.language.bm.PhoneticEngineTest
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.189 sec
+Running org.apache.commons.codec.language.bm.BeiderMorseEncoderTest
+Tests run: 22, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 3.49 sec
+Running org.apache.commons.codec.language.Caverphone2Test
+Tests run: 13, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.03 sec
+Running org.apache.commons.codec.language.DoubleMetaphoneTest
+Tests run: 15, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.035 sec
+Running org.apache.commons.codec.language.SoundexTest
+Tests run: 28, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.014 sec
+Running org.apache.commons.codec.language.ColognePhoneticTest
+Tests run: 13, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.012 sec
+Running org.apache.commons.codec.language.Caverphone1Test
+Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 sec
+Running org.apache.commons.codec.language.RefinedSoundexTest
+Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 sec
+Running org.apache.commons.codec.language.DoubleMetaphone2Test
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.016 sec
+Running org.apache.commons.codec.language.NysiisTest
+Tests run: 23, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.01 sec
+Running org.apache.commons.codec.StringEncoderComparatorTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
+Running org.apache.commons.codec.binary.HexTest
+Tests run: 21, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.203 sec
+Running org.apache.commons.codec.binary.Base64Codec13Test
+Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.018 sec
+Running org.apache.commons.codec.binary.BaseNCodecTest
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running org.apache.commons.codec.binary.StringUtilsTest
+Tests run: 15, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec
+Running org.apache.commons.codec.binary.Base32InputStreamTest
+Tests run: 16, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.093 sec
+Running org.apache.commons.codec.binary.Base64Test
+Tests run: 52, Failures: 0, Errors: 0, Skipped: 1, Time elapsed: 0.023 sec
+Running org.apache.commons.codec.binary.Base32Test
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec
+Running org.apache.commons.codec.binary.BinaryCodecTest
+Tests run: 13, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 sec
+Running org.apache.commons.codec.binary.Base64InputStreamTest
+Tests run: 19, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.069 sec
+Running org.apache.commons.codec.binary.Base32OutputStreamTest
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.26 sec
+Running org.apache.commons.codec.binary.Base64OutputStreamTest
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.26 sec
+Running org.apache.commons.codec.CharEncodingTest
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
+
+Results :
+
+Tests run: 459, Failures: 0, Errors: 0, Skipped: 1
+
+[INFO] 
+[INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ commons-codec ---
+[INFO] Building jar: ./commons-codec/target/commons-codec-1.7-SNAPSHOT.jar
+[INFO] 
+[INFO] --- maven-jar-plugin:2.4:test-jar (default) @ commons-codec ---
+[INFO] Building jar: ./commons-codec/target/commons-codec-1.7-SNAPSHOT-tests.jar
+[INFO] 
+[INFO] --- maven-site-plugin:3.0:attach-descriptor (attach-descriptor) @ commons-codec ---
+[INFO] 
+[INFO] --- maven-install-plugin:2.3.1:install (default-install) @ commons-codec ---
+[INFO] Installing ./commons-codec/target/commons-codec-1.7-SNAPSHOT.jar to ./.m2/repository/commons-codec/commons-codec/1.7-SNAPSHOT/commons-codec-1.7-SNAPSHOT.jar
+[INFO] Installing ./commons-codec/pom.xml to ./.m2/repository/commons-codec/commons-codec/1.7-SNAPSHOT/commons-codec-1.7-SNAPSHOT.pom
+[INFO] Installing ./commons-codec/target/commons-codec-1.7-SNAPSHOT-tests.jar to ./.m2/repository/commons-codec/commons-codec/1.7-SNAPSHOT/commons-codec-1.7-SNAPSHOT-tests.jar
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  55.540 s
+[INFO] Finished at: 
+[INFO] ------------------------------------------------------------------------

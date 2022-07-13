@@ -1,0 +1,233 @@
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for commons-cli:commons-cli:jar:1.3-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-idea-plugin is missing. @ org.apache.commons:commons-parent:15, ./.m2/repository/org/apache/commons/commons-parent/15/commons-parent-15.pom, line 329, column 15
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO] 
+[INFO] ----------------------< commons-cli:commons-cli >-----------------------
+[INFO] Building Commons CLI 1.3-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.4:clean (default-clean) @ commons-cli ---
+[INFO] Deleting ./commons-cli/target
+[INFO] 
+[INFO] --- maven-antrun-plugin:1.3:run (javadoc.resources) @ commons-cli ---
+[INFO] Executing tasks
+     [copy] Copying 2 files to ./commons-cli/target/apidocs/META-INF
+[INFO] Executed tasks
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.0:process (default) @ commons-cli ---
+[INFO] Setting property: classpath.resource.loader.class => 'org.codehaus.plexus.velocity.ContextClassLoaderResourceLoader'.
+[INFO] Setting property: velocimacro.messages.on => 'false'.
+[INFO] Setting property: resource.loader => 'classpath'.
+[INFO] Setting property: resource.manager.logwhenfound => 'false'.
+[INFO] 
+[INFO] --- maven-resources-plugin:2.4.1:resources (default-resources) @ commons-cli ---
+[INFO] Using 'iso-8859-1' encoding to copy filtered resources.
+[INFO] Copying 2 resources to META-INF
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.1:compile (default-compile) @ commons-cli ---
+[INFO] Compiling 22 source files to ./commons-cli/target/classes
+[INFO] 
+[INFO] --- maven-bundle-plugin:1.4.3:manifest (bundle-manifest) @ commons-cli ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.4.1:testResources (default-testResources) @ commons-cli ---
+[INFO] Using 'iso-8859-1' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory ./commons-cli/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.1:testCompile (default-testCompile) @ commons-cli ---
+[INFO] Compiling 24 source files to ./commons-cli/target/test-classes
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.5:test (default-test) @ commons-cli ---
+[INFO] Surefire report directory: ./commons-cli/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running org.apache.commons.cli.PosixParserTest
+Tests run: 58, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.054 sec
+Running org.apache.commons.cli.BugsTest
+Tests run: 12, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.01 sec
+Running org.apache.commons.cli.bug.BugCLI13Test
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec
+Running org.apache.commons.cli.ValueTest
+Tests run: 12, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 sec
+Running org.apache.commons.cli.bug.BugCLI18Test
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
+Running org.apache.commons.cli.OptionTest
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 sec
+Running org.apache.commons.cli.ValuesTest
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 sec
+Running org.apache.commons.cli.UtilTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec
+Running org.apache.commons.cli.OptionsTest
+Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 sec
+Running org.apache.commons.cli.HelpFormatterTest
+Tests run: 25, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.024 sec
+Running org.apache.commons.cli.OptionBuilderTest
+Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 sec
+Running org.apache.commons.cli.bug.BugCLI148Test
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec
+Running org.apache.commons.cli.GnuParserTest
+Tests run: 58, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.019 sec
+Running org.apache.commons.cli.BasicParserTest
+Tests run: 58, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.021 sec
+Running org.apache.commons.cli.DefaultParserTest
+Tests run: 58, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.029 sec
+Running org.apache.commons.cli.bug.BugCLI162Test
+usage: app
+ -h,--help   This is
+             a
+             looooon
+             g
+             descrip
+             tion
+usage: org.apache.commons.cli.bug.BugCLI162Test
+ -2,--jdbc2sfmd <arg>        Converts the JDBC file in the first argument
+                             to an SMFD file specified in the second
+                             argument.
+ -a,--paramNames <arg>       Parameter XML names; default names are
+                             param1, param2, etc. Example: -a "pname1
+                             pname2"
+ -b,--jdbc <arg>             Writes a JDBC binding node file for the given
+                             SQL
+ -c,--url <arg>              Connection URL
+ -d,--driver <arg>           JDBC driver class name
+ -e,--description <arg>      SFMD description. A default description is
+                             used if omited. Example: -e "Runs such and
+                             such"
+ -f,--sfmd <arg>             Writes a SFMD file for the given SQL
+ -g,--printTiming            Prints timing information
+ -h,--help                   Prints help and quits
+ -i,--interactive            Runs in interactive mode, reading and writing
+                             from the console, 'go' or '/' sends a
+                             statement
+ -j,--node <arg>             Writes a JDBC node file for the given SQL
+                             (internal debugging)
+ -l,--columnNames <arg>      Column XML names; default names column
+                             labels. Example: -l "cname1 cname2"
+ -m,--printMetaData          Prints metadata information
+ -n,--info                   Prints driver information and properties. If
+                             -c is not specified, all drivers on the
+                             classpath are displayed.
+ -o,--paramModes <arg>       Parameters modes (1=IN, 2=INOUT, 4=OUT,
+                             0=Unknown). -o and -O are mutually exclusive.
+                             Example for 2 parameters, OUT and IN: -o "4
+                             1"
+ -O,--paramModeNames <arg>   Parameters mode names (IN, INOUT, OUT,
+                             Unknown). -o and -O are mutually exclusive.
+                             Example for 2 parameters, OUT and IN: -O "OUT
+                             IN"
+ -p,--password <arg>         The database password for the user specified
+                             with the -u option. You can obfuscate the
+                             password with
+                             org.mortbay.jetty.security.Password, see
+                             http://docs.codehaus.org/display/JETTY/Securi
+                             ng+Passwords
+ -s,--sql <arg>              Runs SQL or {call stored_procedure(?, ?)} or
+                             {?=call function(?, ?)}
+ -t,--printStack             Prints stack traces on errors
+    --trim <arg>             Trims leading and trailing spaces from all
+                             column values. Column XML names can be
+                             optionally specified to set which columns to
+                             trim.
+ -u,--user <arg>             A database user name
+ -w,--outfile <arg>          Writes the SQL output to the given file
+ -y,--paramTypes <arg>       Parameter types from java.sql.Types. -y and
+                             -Y are mutually exclusive. Example: -y "-10
+                             12"
+ -Y,--paramTypeNames <arg>   Parameter java.sql.Types names. -y and -Y are
+                             mutually exclusive. Example: -Y "CURSOR
+                             VARCHAR"
+usage:
+       org.apache.comm
+       ons.cli.bug.Bug
+       CLI162Test
+Header
+-x,--extralongarg
+ This description is
+ Long.
+Footer
+
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.027 sec
+Running org.apache.commons.cli.CommandLineTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 sec
+Running org.apache.commons.cli.OptionGroupTest
+Tests run: 13, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.015 sec
+Running org.apache.commons.cli.PatternOptionBuilderTest
+Exception found converting x to desired type: For input string: "3,5"
+Exception found converting d to desired type: Unable to find the class: System.DateTime
+Exception found converting i to desired type: java.lang.IllegalAccessException; Unable to create an instance of: java.util.Calendar
+Exception found converting n to desired type: Unable to find the class: System.DateTime
+Exception found converting v to desired type: Unable to parse the URL: foo://commons.apache.org
+Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.031 sec
+Running org.apache.commons.cli.ApplicationTest
+usage: man [-c|-f|-k|-w|-tZT device] [-adlhu7V] [-Mpath]
+           [-Ppager] [-Slist] [-msystem] [-pstring]
+           [-Llocale] [-eextension] [section] page ...
+ -7,--ascii                display ASCII translation or
+                           certain latin1 chars.
+ -a,--all                  find all matching manual pages.
+ -c,--catman               used by catman to reformat out of
+                           date cat pages.
+ -d,--debug                emit debugging messages.
+ -D,--default              reset all options to their
+                           default values.
+ -e,--extension            limit search to extension type
+                           'extension'.
+ -f,--whatis               equivalent to whatis.
+ -h,--help                 show this usage message.
+ -k,--apropos              equivalent to apropos.
+ -l,--local-file           interpret 'page' argument(s) as
+                           local filename(s)
+ -L,--locale <arg>         define the locale for this
+                           particular man search.
+ -M,--manpath <arg>        set search path for manual pages
+                           to 'path'.
+ -m,--systems <arg>        search for man pages from other
+                           unix system(s).
+ -P,--pager <arg>          use program 'pager' to display
+                           output.
+ -p,--preprocessor <arg>   string indicates which
+                           preprocessor to run.
+                           e - [n]eqn  p - pic     t - tbl
+                           g - grap    r - refer   v -
+                           vgrind
+ -r,--prompt <arg>         provide 'less' pager with prompt.
+ -S,--sections <arg>       use colon separated section list.
+ -t,--troff                use troff format pages.
+ -T,--troff-device <arg>   use groff with selected device.
+ -u,--update               force a cache consistency check.
+ -V,--version              show version.
+ -w,--location             print physical location of man
+                           page(s).
+ -Z,--ditroff              use groff with selected device.
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 sec
+Running org.apache.commons.cli.bug.BugCLI133Test
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
+Running org.apache.commons.cli.bug.BugCLI71Test
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 sec
+Running org.apache.commons.cli.ArgumentIsOptionTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
+
+Results :
+
+Tests run: 360, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] 
+[INFO] --- maven-jar-plugin:2.3:jar (default-jar) @ commons-cli ---
+[INFO] Building jar: ./commons-cli/target/commons-cli-1.3-SNAPSHOT.jar
+[INFO] 
+[INFO] --- maven-install-plugin:2.3:install (default-install) @ commons-cli ---
+[INFO] Installing ./commons-cli/target/commons-cli-1.3-SNAPSHOT.jar to ./.m2/repository/commons-cli/commons-cli/1.3-SNAPSHOT/commons-cli-1.3-SNAPSHOT.jar
+[INFO] Installing ./commons-cli/pom.xml to ./.m2/repository/commons-cli/commons-cli/1.3-SNAPSHOT/commons-cli-1.3-SNAPSHOT.pom
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  4.656 s
+[INFO] Finished at: 
+[INFO] ------------------------------------------------------------------------

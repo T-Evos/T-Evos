@@ -1,0 +1,272 @@
+[INFO] Scanning for projects...
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/wagon/wagon-http/1.0/wagon-http-1.0.pom
+Progress (1): 1.4/3.3 kB
+Progress (1): 2.7/3.3 kB
+Progress (1): 3.3 kB    
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/wagon/wagon-http/1.0/wagon-http-1.0.pom (3.3 kB at 1.7 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/wagon/wagon-http-shared/1.0/wagon-http-shared-1.0.pom
+Progress (1): 1.4/2.6 kB
+Progress (1): 2.6 kB    
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/wagon/wagon-http-shared/1.0/wagon-http-shared-1.0.pom (2.6 kB at 3.7 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/jsoup/jsoup/1.6.1/jsoup-1.6.1.pom
+Progress (1): 1.4/5.1 kB
+Progress (1): 2.7/5.1 kB
+Progress (1): 4.1/5.1 kB
+Progress (1): 5.1 kB    
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/jsoup/jsoup/1.6.1/jsoup-1.6.1.pom (5.1 kB at 10 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/wagon/wagon-http/1.0/wagon-http-1.0.jar
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/wagon/wagon-http-shared/1.0/wagon-http-shared-1.0.jar
+Downloading from central: https://repo.maven.apache.org/maven2/org/jsoup/jsoup/1.6.1/jsoup-1.6.1.jar
+Progress (1): 1.4/10 kB
+Progress (1): 2.7/10 kB
+Progress (1): 4.1/10 kB
+Progress (1): 5.5/10 kB
+Progress (1): 6.9/10 kB
+Progress (1): 8.2/10 kB
+Progress (1): 9.6/10 kB
+Progress (1): 10 kB    
+                   
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/wagon/wagon-http/1.0/wagon-http-1.0.jar (10 kB at 20 kB/s)
+Progress (1): 1.4/282 kB
+Progress (1): 2.7/282 kB
+Progress (1): 4.1/282 kB
+Progress (1): 5.5/282 kB
+Progress (1): 6.9/282 kB
+Progress (1): 8.2/282 kB
+Progress (1): 9.6/282 kB
+Progress (1): 11/282 kB 
+Progress (1): 12/282 kB
+Progress (1): 14/282 kB
+Progress (1): 15/282 kB
+Progress (1): 16/282 kB
+Progress (1): 17/282 kB
+Progress (1): 19/282 kB
+Progress (1): 20/282 kB
+Progress (1): 21/282 kB
+Progress (2): 21/282 kB | 1.4/25 kB
+Progress (2): 21/282 kB | 2.7/25 kB
+Progress (2): 21/282 kB | 4.1/25 kB
+Progress (2): 21/282 kB | 5.5/25 kB
+Progress (2): 21/282 kB | 6.9/25 kB
+Progress (2): 21/282 kB | 8.2/25 kB
+Progress (2): 21/282 kB | 9.6/25 kB
+Progress (2): 21/282 kB | 11/25 kB 
+Progress (2): 23/282 kB | 11/25 kB
+Progress (2): 24/282 kB | 11/25 kB
+Progress (2): 25/282 kB | 11/25 kB
+Progress (2): 27/282 kB | 11/25 kB
+Progress (2): 28/282 kB | 11/25 kB
+Progress (2): 30/282 kB | 11/25 kB
+Progress (2): 31/282 kB | 11/25 kB
+Progress (2): 32/282 kB | 11/25 kB
+Progress (2): 34/282 kB | 11/25 kB
+Progress (2): 35/282 kB | 11/25 kB
+Progress (2): 36/282 kB | 11/25 kB
+Progress (2): 38/282 kB | 11/25 kB
+Progress (2): 39/282 kB | 11/25 kB
+Progress (2): 40/282 kB | 11/25 kB
+Progress (2): 42/282 kB | 11/25 kB
+Progress (2): 43/282 kB | 11/25 kB
+Progress (2): 45/282 kB | 11/25 kB
+Progress (2): 46/282 kB | 11/25 kB
+Progress (2): 47/282 kB | 11/25 kB
+Progress (2): 49/282 kB | 11/25 kB
+Progress (2): 53/282 kB | 11/25 kB
+Progress (2): 57/282 kB | 11/25 kB
+Progress (2): 61/282 kB | 11/25 kB
+Progress (2): 65/282 kB | 11/25 kB
+Progress (2): 69/282 kB | 11/25 kB
+Progress (2): 73/282 kB | 11/25 kB
+Progress (2): 77/282 kB | 11/25 kB
+Progress (2): 81/282 kB | 11/25 kB
+Progress (2): 85/282 kB | 11/25 kB
+Progress (2): 90/282 kB | 11/25 kB
+Progress (2): 94/282 kB | 11/25 kB
+Progress (2): 98/282 kB | 11/25 kB
+Progress (2): 98/282 kB | 12/25 kB
+Progress (2): 98/282 kB | 14/25 kB
+Progress (2): 98/282 kB | 15/25 kB
+Progress (2): 98/282 kB | 16/25 kB
+Progress (2): 98/282 kB | 17/25 kB
+Progress (2): 98/282 kB | 19/25 kB
+Progress (2): 98/282 kB | 20/25 kB
+Progress (2): 98/282 kB | 21/25 kB
+Progress (2): 98/282 kB | 23/25 kB
+Progress (2): 98/282 kB | 24/25 kB
+Progress (2): 98/282 kB | 25 kB   
+Progress (2): 102/282 kB | 25 kB
+Progress (2): 106/282 kB | 25 kB
+Progress (2): 110/282 kB | 25 kB
+Progress (2): 114/282 kB | 25 kB
+Progress (2): 118/282 kB | 25 kB
+Progress (2): 122/282 kB | 25 kB
+Progress (2): 126/282 kB | 25 kB
+Progress (2): 131/282 kB | 25 kB
+Progress (2): 135/282 kB | 25 kB
+Progress (2): 139/282 kB | 25 kB
+Progress (2): 143/282 kB | 25 kB
+Progress (2): 147/282 kB | 25 kB
+Progress (2): 151/282 kB | 25 kB
+Progress (2): 155/282 kB | 25 kB
+Progress (2): 159/282 kB | 25 kB
+Progress (2): 163/282 kB | 25 kB
+Progress (2): 167/282 kB | 25 kB
+Progress (2): 171/282 kB | 25 kB
+Progress (2): 176/282 kB | 25 kB
+Progress (2): 180/282 kB | 25 kB
+                                
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/wagon/wagon-http-shared/1.0/wagon-http-shared-1.0.jar (25 kB at 13 kB/s)
+Progress (1): 184/282 kB
+Progress (1): 188/282 kB
+Progress (1): 192/282 kB
+Progress (1): 196/282 kB
+Progress (1): 200/282 kB
+Progress (1): 204/282 kB
+Progress (1): 208/282 kB
+Progress (1): 212/282 kB
+Progress (1): 217/282 kB
+Progress (1): 221/282 kB
+Progress (1): 225/282 kB
+Progress (1): 229/282 kB
+Progress (1): 233/282 kB
+Progress (1): 237/282 kB
+Progress (1): 241/282 kB
+Progress (1): 245/282 kB
+Progress (1): 249/282 kB
+Progress (1): 253/282 kB
+Progress (1): 258/282 kB
+Progress (1): 262/282 kB
+Progress (1): 266/282 kB
+Progress (1): 270/282 kB
+Progress (1): 274/282 kB
+Progress (1): 278/282 kB
+Progress (1): 282 kB    
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/jsoup/jsoup/1.6.1/jsoup-1.6.1.jar (282 kB at 105 kB/s)
+[WARNING] The project junit:junit:jar:4.12-SNAPSHOT uses prerequisites which is only intended for maven-plugin projects but not for non maven-plugin projects. For such purposes you should use the maven-enforcer-plugin. See https://maven.apache.org/enforcer/enforcer-rules/requireMavenVersion.html
+[INFO] 
+[INFO] ----------------------------< junit:junit >-----------------------------
+[INFO] Building JUnit 4.12-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ junit ---
+[INFO] Deleting ./junit4/target
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.1.1:enforce (enforce-versions) @ junit ---
+[INFO] 
+[INFO] --- maven-replacer-plugin:1.3.8:replace (default) @ junit ---
+[INFO] Replacement run on 1 file.
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ junit ---
+[INFO] Using 'ISO-8859-1' encoding to copy filtered resources.
+[INFO] Copying 2 resources
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.5.1:compile (default-compile) @ junit ---
+[INFO] Compiling 170 source files to ./junit4/target/classes
+[WARNING] To suppress warnings about obsolete options, use -Xlint:-options.
+./junit4/src/main/java/junit/extensions/TestDecorator.java:[3,22] [deprecation] Assert in junit.framework has been deprecated
+[WARNING] ./junit4/src/main/java/org/junit/runner/FilterFactory.java:[4,45] NotImplementedException is internal proprietary API and may be removed in a future release
+[WARNING] ./junit4/src/main/java/junit/framework/TestCase.java:[76,39] [deprecation] Assert in junit.framework has been deprecated
+[WARNING] ./junit4/src/main/java/junit/extensions/TestDecorator.java:[12,35] [deprecation] Assert in junit.framework has been deprecated
+[WARNING] ./junit4/src/main/java/org/junit/runner/FilterFactory.java:[8,18] NotImplementedException is internal proprietary API and may be removed in a future release
+[WARNING] ./junit4/src/main/java/org/junit/runner/FilterFactory.java:[12,18] NotImplementedException is internal proprietary API and may be removed in a future release
+[WARNING] ./junit4/src/main/java/junit/framework/ComparisonCompactor.java:[23,19] [deprecation] Assert in junit.framework has been deprecated
+[WARNING] ./junit4/src/main/java/junit/framework/ComparisonCompactor.java:[30,15] [deprecation] Assert in junit.framework has been deprecated
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ junit ---
+[INFO] Using 'ISO-8859-1' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory ./junit4/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.5.1:testCompile (default-testCompile) @ junit ---
+[INFO] Compiling 168 source files to ./junit4/target/test-classes
+[WARNING] To suppress warnings about obsolete options, use -Xlint:-options.
+./junit4/src/test/java/org/junit/tests/experimental/rules/TestWatcherTest.java:[3,29] [deprecation] Assert in junit.framework has been deprecated
+[WARNING] ./junit4/src/test/java/org/junit/runner/FilterOptionIntegrationTest.java:[14,29] [deprecation] Assert in junit.framework has been deprecated
+[WARNING] ./junit4/src/test/java/org/junit/runner/FilterOptionIntegrationTest.java:[15,29] [deprecation] Assert in junit.framework has been deprecated
+[WARNING] ./junit4/src/test/java/org/junit/tests/experimental/rules/MethodRulesTest.java:[20,22] [deprecation] TestWatchman in org.junit.rules has been deprecated
+[WARNING] ./junit4/src/test/java/org/junit/tests/validation/BadlyFormedClassesTest.java:[7,33] [deprecation] JUnit4ClassRunner in org.junit.internal.runners has been deprecated
+[WARNING] ./junit4/src/test/java/org/junit/tests/deprecated/JUnit4ClassRunnerTest.java:[8,33] [deprecation] JUnit4ClassRunner in org.junit.internal.runners has been deprecated
+[WARNING] ./junit4/src/test/java/org/junit/tests/experimental/rules/TestWatchmanTest.java:[3,29] [deprecation] Assert in junit.framework has been deprecated
+[WARNING] ./junit4/src/test/java/org/junit/tests/experimental/rules/TestWatchmanTest.java:[11,22] [deprecation] TestWatchman in org.junit.rules has been deprecated
+[WARNING] ./junit4/src/test/java/org/junit/tests/AllTests.java:[13,33] [deprecation] JUnit4ClassRunnerTest in org.junit.tests.deprecated has been deprecated
+[WARNING] ./junit4/src/test/java/org/junit/tests/running/core/MainRunner.java:[43,23] [deprecation] getInCheck() in SecurityManager has been deprecated
+[WARNING] ./junit4/src/test/java/org/junit/tests/running/core/MainRunner.java:[44,79] [deprecation] getInCheck() in SecurityManager has been deprecated
+[WARNING] ./junit4/src/test/java/org/junit/tests/running/core/MainRunner.java:[179,20] [deprecation] checkMulticast(InetAddress,byte) in SecurityManager has been deprecated
+[WARNING] ./junit4/src/test/java/org/junit/tests/running/core/MainRunner.java:[181,39] [deprecation] checkMulticast(InetAddress,byte) in SecurityManager has been deprecated
+[WARNING] ./junit4/src/test/java/org/junit/tests/running/core/MainRunner.java:[200,23] [deprecation] checkTopLevelWindow(Object) in SecurityManager has been deprecated
+[WARNING] ./junit4/src/test/java/org/junit/tests/running/core/MainRunner.java:[201,60] [deprecation] checkTopLevelWindow(Object) in SecurityManager has been deprecated
+[WARNING] ./junit4/src/test/java/org/junit/tests/running/core/MainRunner.java:[201,114] [deprecation] checkTopLevelWindow(Object) in SecurityManager has been deprecated
+[WARNING] ./junit4/src/test/java/org/junit/tests/running/core/MainRunner.java:[212,20] [deprecation] checkSystemClipboardAccess() in SecurityManager has been deprecated
+[WARNING] ./junit4/src/test/java/org/junit/tests/running/core/MainRunner.java:[214,39] [deprecation] checkSystemClipboardAccess() in SecurityManager has been deprecated
+[WARNING] ./junit4/src/test/java/org/junit/tests/running/core/MainRunner.java:[219,20] [deprecation] checkAwtEventQueueAccess() in SecurityManager has been deprecated
+[WARNING] ./junit4/src/test/java/org/junit/tests/running/core/MainRunner.java:[221,39] [deprecation] checkAwtEventQueueAccess() in SecurityManager has been deprecated
+[WARNING] ./junit4/src/test/java/org/junit/tests/running/core/MainRunner.java:[247,20] [deprecation] checkMemberAccess(Class<?>,int) in SecurityManager has been deprecated
+[WARNING] ./junit4/src/test/java/org/junit/tests/running/core/MainRunner.java:[249,39] [deprecation] checkMemberAccess(Class<?>,int) in SecurityManager has been deprecated
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.3:test (default-test) @ junit ---
+[INFO] Surefire report directory: ./junit4/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running org.junit.tests.AllTests
+Tests run: 666, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 4.964 sec <<< FAILURE!
+inaccessibleBaseClassIsCaughtAtValidation(org.junit.tests.validation.InaccessibleBaseClassTest)  Time elapsed: 4 sec  <<< ERROR!
+java.lang.AssertionError: Expected exception: org.junit.runners.model.InitializationError
+	at org.junit.internal.runners.statements.ExpectException.evaluate(ExpectException.java:33)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at org.junit.runners.Suite.runChild(Suite.java:127)
+	at org.junit.runners.Suite.runChild(Suite.java:26)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at junit.framework.JUnit4TestAdapter.run(JUnit4TestAdapter.java:38)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.maven.surefire.junit.JUnitTestSet.execute(JUnitTestSet.java:95)
+	at org.apache.maven.surefire.junit.JUnit3Provider.executeTestSet(JUnit3Provider.java:121)
+	at org.apache.maven.surefire.junit.JUnit3Provider.invoke(JUnit3Provider.java:98)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+
+
+Results :
+
+Tests in error: 
+  inaccessibleBaseClassIsCaughtAtValidation(org.junit.tests.validation.InaccessibleBaseClassTest): Expected exception: org.junit.runners.model.InitializationError
+
+Tests run: 666, Failures: 0, Errors: 1, Skipped: 0
+
+[ERROR] There are test failures.
+
+Please refer to ./junit4/target/surefire-reports for the individual test results.
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  22.460 s
+[INFO] Finished at: 
+[INFO] ------------------------------------------------------------------------

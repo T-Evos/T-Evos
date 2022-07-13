@@ -1,0 +1,185 @@
+[INFO] Scanning for projects...
+[WARNING] The project junit:junit:jar:4.12-SNAPSHOT uses prerequisites which is only intended for maven-plugin projects but not for non maven-plugin projects. For such purposes you should use the maven-enforcer-plugin. See https://maven.apache.org/enforcer/enforcer-rules/requireMavenVersion.html
+[INFO] 
+[INFO] ----------------------------< junit:junit >-----------------------------
+[INFO] Building JUnit 4.12-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ junit ---
+[INFO] Deleting ./junit4/target
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.1.1:enforce (enforce-versions) @ junit ---
+[INFO] 
+[INFO] --- maven-replacer-plugin:1.3.8:replace (default) @ junit ---
+[INFO] Replacement run on 1 file.
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ junit ---
+[INFO] Using 'ISO-8859-1' encoding to copy filtered resources.
+[INFO] Copying 2 resources
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.5.1:compile (default-compile) @ junit ---
+[INFO] Compiling 182 source files to ./junit4/target/classes
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] To suppress warnings about obsolete options, use -Xlint:-options.
+./junit4/src/main/java/org/junit/runners/model/TestClass.java:[102,0] error: illegal start of type
+[ERROR] ./junit4/src/main/java/org/junit/runners/model/TestClass.java:[102,2] error: ';' expected
+[ERROR] ./junit4/src/main/java/org/junit/runners/model/TestClass.java:[102,4] error: illegal start of type
+[ERROR] ./junit4/src/main/java/org/junit/runners/model/TestClass.java:[102,6] error: <identifier> expected
+[ERROR] ./junit4/src/main/java/org/junit/runners/model/TestClass.java:[102,7] error: ';' expected
+[ERROR] ./junit4/src/main/java/org/junit/runners/model/TestClass.java:[106,0] error: illegal start of expression
+[ERROR] ./junit4/src/main/java/org/junit/runners/model/TestClass.java:[106,2] error: illegal start of expression
+[ERROR] ./junit4/src/main/java/org/junit/runners/model/TestClass.java:[106,4] error: illegal start of expression
+[ERROR] ./junit4/src/main/java/org/junit/runners/model/TestClass.java:[106,6] error: illegal start of expression
+[ERROR] ./junit4/src/main/java/org/junit/runners/model/TestClass.java:[111,4] error: illegal start of expression
+[ERROR] ./junit4/src/main/java/org/junit/runners/model/TestClass.java:[111,49] error: ';' expected
+[ERROR] ./junit4/src/main/java/org/junit/runners/model/TestClass.java:[119,4] error: illegal start of expression
+[ERROR] ./junit4/src/main/java/org/junit/runners/model/TestClass.java:[119,16] error: illegal start of expression
+[ERROR] ./junit4/src/main/java/org/junit/runners/model/TestClass.java:[119,24] error: illegal start of expression
+[ERROR] ./junit4/src/main/java/org/junit/runners/model/TestClass.java:[120,46] error: lambda expressions are not supported in -source 1.5
+[ERROR]   (use -source 8 or higher to enable lambda expressions)
+./junit4/src/main/java/org/junit/runners/model/TestClass.java:[120,45] error: -> expected
+[ERROR] ./junit4/src/main/java/org/junit/runners/model/TestClass.java:[122,0] error: illegal start of expression
+[ERROR] ./junit4/src/main/java/org/junit/runners/model/TestClass.java:[122,3] error: illegal start of expression
+[ERROR] ./junit4/src/main/java/org/junit/runners/model/TestClass.java:[122,6] error: illegal start of expression
+[ERROR] ./junit4/src/main/java/org/junit/runners/model/TestClass.java:[122,14] error: ';' expected
+[ERROR] ./junit4/src/main/java/org/junit/runners/model/TestClass.java:[122,36] error: ';' expected
+[ERROR] ./junit4/src/main/java/org/junit/runners/model/TestClass.java:[123,15] error: ';' expected
+[ERROR] ./junit4/src/main/java/org/junit/runners/model/TestClass.java:[119,43] error: not a statement
+[ERROR] ./junit4/src/main/java/org/junit/runners/model/TestClass.java:[127,5] error: ';' expected
+[ERROR] ./junit4/src/main/java/org/junit/runners/model/TestClass.java:[129,4] error: illegal start of expression
+[ERROR] ./junit4/src/main/java/org/junit/runners/model/TestClass.java:[129,11] error: ';' expected
+[ERROR] ./junit4/src/main/java/org/junit/runners/model/TestClass.java:[129,42] error: ';' expected
+[ERROR] ./junit4/src/main/java/org/junit/runners/model/TestClass.java:[129,81] error: ';' expected
+[ERROR] ./junit4/src/main/java/org/junit/runners/model/TestClass.java:[134,4] error: illegal start of expression
+[ERROR] ./junit4/src/main/java/org/junit/runners/model/TestClass.java:[134,12] error: illegal start of expression
+[ERROR] ./junit4/src/main/java/org/junit/runners/model/TestClass.java:[134,23] error: ';' expected
+[ERROR] ./junit4/src/main/java/org/junit/runners/model/TestClass.java:[134,34] error: illegal start of expression
+[ERROR] ./junit4/src/main/java/org/junit/runners/model/TestClass.java:[134,56] error: illegal start of expression
+[ERROR] ./junit4/src/main/java/org/junit/runners/model/TestClass.java:[134,57] error: illegal start of expression
+[ERROR] ./junit4/src/main/java/org/junit/runners/model/TestClass.java:[134,68] error: : expected
+[ERROR] ./junit4/src/main/java/org/junit/runners/model/TestClass.java:[134,69] error: ')' expected
+[ERROR] ./junit4/src/main/java/org/junit/runners/model/TestClass.java:[134,49] error: not a statement
+[ERROR] ./junit4/src/main/java/org/junit/runners/model/TestClass.java:[134,71] error: ';' expected
+[ERROR] ./junit4/src/main/java/org/junit/runners/model/TestClass.java:[135,28] error: illegal start of expression
+[ERROR] ./junit4/src/main/java/org/junit/runners/model/TestClass.java:[135,36] error: illegal start of expression
+[ERROR] ./junit4/src/main/java/org/junit/runners/model/TestClass.java:[135,37] error: ';' expected
+[ERROR] ./junit4/src/main/java/org/junit/runners/model/TestClass.java:[135,51] error: not a statement
+[ERROR] ./junit4/src/main/java/org/junit/runners/model/TestClass.java:[135,61] error: ';' expected
+[ERROR] ./junit4/src/main/java/org/junit/runners/model/TestClass.java:[147,4] error: illegal start of expression
+[ERROR] ./junit4/src/main/java/org/junit/runners/model/TestClass.java:[147,32] error: ';' expected
+[ERROR] ./junit4/src/main/java/org/junit/runners/model/TestClass.java:[154,4] error: illegal start of expression
+[ERROR] ./junit4/src/main/java/org/junit/runners/model/TestClass.java:[154,25] error: ';' expected
+[ERROR] ./junit4/src/main/java/org/junit/runners/model/TestClass.java:[166,4] error: illegal start of expression
+[ERROR] ./junit4/src/main/java/org/junit/runners/model/TestClass.java:[166,44] error: ';' expected
+[ERROR] ./junit4/src/main/java/org/junit/runners/model/TestClass.java:[175,4] error: illegal start of expression
+[ERROR] ./junit4/src/main/java/org/junit/runners/model/TestClass.java:[175,38] error: ';' expected
+[ERROR] ./junit4/src/main/java/org/junit/runners/model/TestClass.java:[182,4] error: illegal start of expression
+[ERROR] ./junit4/src/main/java/org/junit/runners/model/TestClass.java:[182,15] error: illegal start of expression
+[ERROR] ./junit4/src/main/java/org/junit/runners/model/TestClass.java:[182,23] error: illegal start of expression
+[ERROR] ./junit4/src/main/java/org/junit/runners/model/TestClass.java:[183,77] error: -> expected
+[ERROR] ./junit4/src/main/java/org/junit/runners/model/TestClass.java:[182,46] error: not a statement
+[ERROR] ./junit4/src/main/java/org/junit/runners/model/TestClass.java:[197,5] error: ';' expected
+[ERROR] ./junit4/src/main/java/org/junit/runners/model/TestClass.java:[199,4] error: illegal start of expression
+[ERROR] ./junit4/src/main/java/org/junit/runners/model/TestClass.java:[199,54] error: ')' expected
+[ERROR] ./junit4/src/main/java/org/junit/runners/model/TestClass.java:[199,21] error: not a statement
+[ERROR] ./junit4/src/main/java/org/junit/runners/model/TestClass.java:[199,59] error: illegal start of expression
+[ERROR] ./junit4/src/main/java/org/junit/runners/model/TestClass.java:[200,17] error: ';' expected
+[ERROR] ./junit4/src/main/java/org/junit/runners/model/TestClass.java:[200,18] error: illegal start of type
+[ERROR] ./junit4/src/main/java/org/junit/runners/model/TestClass.java:[200,20] error: illegal start of expression
+[ERROR] ./junit4/src/main/java/org/junit/runners/model/TestClass.java:[200,27] error: ';' expected
+[ERROR] ./junit4/src/main/java/org/junit/runners/model/TestClass.java:[200,38] error: illegal start of expression
+[ERROR] ./junit4/src/main/java/org/junit/runners/model/TestClass.java:[200,62] error: ';' expected
+[ERROR] ./junit4/src/main/java/org/junit/runners/model/TestClass.java:[200,66] error: illegal start of expression
+[ERROR] ./junit4/src/main/java/org/junit/runners/model/TestClass.java:[200,76] error: illegal start of expression
+[ERROR] ./junit4/src/main/java/org/junit/runners/model/TestClass.java:[200,77] error: ';' expected
+[INFO] 70 errors 
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  2.302 s
+[INFO] Finished at: 
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:2.5.1:compile (default-compile) on project junit: Compilation failure: Compilation failure: 
+[ERROR] To suppress warnings about obsolete options, use -Xlint:-options.
+[ERROR] ./junit4/src/main/java/org/junit/runners/model/TestClass.java:[102,0] error: illegal start of type
+[ERROR] ./junit4/src/main/java/org/junit/runners/model/TestClass.java:[102,2] error: ';' expected
+[ERROR] ./junit4/src/main/java/org/junit/runners/model/TestClass.java:[102,4] error: illegal start of type
+[ERROR] ./junit4/src/main/java/org/junit/runners/model/TestClass.java:[102,6] error: <identifier> expected
+[ERROR] ./junit4/src/main/java/org/junit/runners/model/TestClass.java:[102,7] error: ';' expected
+[ERROR] ./junit4/src/main/java/org/junit/runners/model/TestClass.java:[106,0] error: illegal start of expression
+[ERROR] ./junit4/src/main/java/org/junit/runners/model/TestClass.java:[106,2] error: illegal start of expression
+[ERROR] ./junit4/src/main/java/org/junit/runners/model/TestClass.java:[106,4] error: illegal start of expression
+[ERROR] ./junit4/src/main/java/org/junit/runners/model/TestClass.java:[106,6] error: illegal start of expression
+[ERROR] ./junit4/src/main/java/org/junit/runners/model/TestClass.java:[111,4] error: illegal start of expression
+[ERROR] ./junit4/src/main/java/org/junit/runners/model/TestClass.java:[111,49] error: ';' expected
+[ERROR] ./junit4/src/main/java/org/junit/runners/model/TestClass.java:[119,4] error: illegal start of expression
+[ERROR] ./junit4/src/main/java/org/junit/runners/model/TestClass.java:[119,16] error: illegal start of expression
+[ERROR] ./junit4/src/main/java/org/junit/runners/model/TestClass.java:[119,24] error: illegal start of expression
+[ERROR] ./junit4/src/main/java/org/junit/runners/model/TestClass.java:[120,46] error: lambda expressions are not supported in -source 1.5
+[ERROR]   (use -source 8 or higher to enable lambda expressions)
+[ERROR] ./junit4/src/main/java/org/junit/runners/model/TestClass.java:[120,45] error: -> expected
+[ERROR] ./junit4/src/main/java/org/junit/runners/model/TestClass.java:[122,0] error: illegal start of expression
+[ERROR] ./junit4/src/main/java/org/junit/runners/model/TestClass.java:[122,3] error: illegal start of expression
+[ERROR] ./junit4/src/main/java/org/junit/runners/model/TestClass.java:[122,6] error: illegal start of expression
+[ERROR] ./junit4/src/main/java/org/junit/runners/model/TestClass.java:[122,14] error: ';' expected
+[ERROR] ./junit4/src/main/java/org/junit/runners/model/TestClass.java:[122,36] error: ';' expected
+[ERROR] ./junit4/src/main/java/org/junit/runners/model/TestClass.java:[123,15] error: ';' expected
+[ERROR] ./junit4/src/main/java/org/junit/runners/model/TestClass.java:[119,43] error: not a statement
+[ERROR] ./junit4/src/main/java/org/junit/runners/model/TestClass.java:[127,5] error: ';' expected
+[ERROR] ./junit4/src/main/java/org/junit/runners/model/TestClass.java:[129,4] error: illegal start of expression
+[ERROR] ./junit4/src/main/java/org/junit/runners/model/TestClass.java:[129,11] error: ';' expected
+[ERROR] ./junit4/src/main/java/org/junit/runners/model/TestClass.java:[129,42] error: ';' expected
+[ERROR] ./junit4/src/main/java/org/junit/runners/model/TestClass.java:[129,81] error: ';' expected
+[ERROR] ./junit4/src/main/java/org/junit/runners/model/TestClass.java:[134,4] error: illegal start of expression
+[ERROR] ./junit4/src/main/java/org/junit/runners/model/TestClass.java:[134,12] error: illegal start of expression
+[ERROR] ./junit4/src/main/java/org/junit/runners/model/TestClass.java:[134,23] error: ';' expected
+[ERROR] ./junit4/src/main/java/org/junit/runners/model/TestClass.java:[134,34] error: illegal start of expression
+[ERROR] ./junit4/src/main/java/org/junit/runners/model/TestClass.java:[134,56] error: illegal start of expression
+[ERROR] ./junit4/src/main/java/org/junit/runners/model/TestClass.java:[134,57] error: illegal start of expression
+[ERROR] ./junit4/src/main/java/org/junit/runners/model/TestClass.java:[134,68] error: : expected
+[ERROR] ./junit4/src/main/java/org/junit/runners/model/TestClass.java:[134,69] error: ')' expected
+[ERROR] ./junit4/src/main/java/org/junit/runners/model/TestClass.java:[134,49] error: not a statement
+[ERROR] ./junit4/src/main/java/org/junit/runners/model/TestClass.java:[134,71] error: ';' expected
+[ERROR] ./junit4/src/main/java/org/junit/runners/model/TestClass.java:[135,28] error: illegal start of expression
+[ERROR] ./junit4/src/main/java/org/junit/runners/model/TestClass.java:[135,36] error: illegal start of expression
+[ERROR] ./junit4/src/main/java/org/junit/runners/model/TestClass.java:[135,37] error: ';' expected
+[ERROR] ./junit4/src/main/java/org/junit/runners/model/TestClass.java:[135,51] error: not a statement
+[ERROR] ./junit4/src/main/java/org/junit/runners/model/TestClass.java:[135,61] error: ';' expected
+[ERROR] ./junit4/src/main/java/org/junit/runners/model/TestClass.java:[147,4] error: illegal start of expression
+[ERROR] ./junit4/src/main/java/org/junit/runners/model/TestClass.java:[147,32] error: ';' expected
+[ERROR] ./junit4/src/main/java/org/junit/runners/model/TestClass.java:[154,4] error: illegal start of expression
+[ERROR] ./junit4/src/main/java/org/junit/runners/model/TestClass.java:[154,25] error: ';' expected
+[ERROR] ./junit4/src/main/java/org/junit/runners/model/TestClass.java:[166,4] error: illegal start of expression
+[ERROR] ./junit4/src/main/java/org/junit/runners/model/TestClass.java:[166,44] error: ';' expected
+[ERROR] ./junit4/src/main/java/org/junit/runners/model/TestClass.java:[175,4] error: illegal start of expression
+[ERROR] ./junit4/src/main/java/org/junit/runners/model/TestClass.java:[175,38] error: ';' expected
+[ERROR] ./junit4/src/main/java/org/junit/runners/model/TestClass.java:[182,4] error: illegal start of expression
+[ERROR] ./junit4/src/main/java/org/junit/runners/model/TestClass.java:[182,15] error: illegal start of expression
+[ERROR] ./junit4/src/main/java/org/junit/runners/model/TestClass.java:[182,23] error: illegal start of expression
+[ERROR] ./junit4/src/main/java/org/junit/runners/model/TestClass.java:[183,77] error: -> expected
+[ERROR] ./junit4/src/main/java/org/junit/runners/model/TestClass.java:[182,46] error: not a statement
+[ERROR] ./junit4/src/main/java/org/junit/runners/model/TestClass.java:[197,5] error: ';' expected
+[ERROR] ./junit4/src/main/java/org/junit/runners/model/TestClass.java:[199,4] error: illegal start of expression
+[ERROR] ./junit4/src/main/java/org/junit/runners/model/TestClass.java:[199,54] error: ')' expected
+[ERROR] ./junit4/src/main/java/org/junit/runners/model/TestClass.java:[199,21] error: not a statement
+[ERROR] ./junit4/src/main/java/org/junit/runners/model/TestClass.java:[199,59] error: illegal start of expression
+[ERROR] ./junit4/src/main/java/org/junit/runners/model/TestClass.java:[200,17] error: ';' expected
+[ERROR] ./junit4/src/main/java/org/junit/runners/model/TestClass.java:[200,18] error: illegal start of type
+[ERROR] ./junit4/src/main/java/org/junit/runners/model/TestClass.java:[200,20] error: illegal start of expression
+[ERROR] ./junit4/src/main/java/org/junit/runners/model/TestClass.java:[200,27] error: ';' expected
+[ERROR] ./junit4/src/main/java/org/junit/runners/model/TestClass.java:[200,38] error: illegal start of expression
+[ERROR] ./junit4/src/main/java/org/junit/runners/model/TestClass.java:[200,62] error: ';' expected
+[ERROR] ./junit4/src/main/java/org/junit/runners/model/TestClass.java:[200,66] error: illegal start of expression
+[ERROR] ./junit4/src/main/java/org/junit/runners/model/TestClass.java:[200,76] error: illegal start of expression
+[ERROR] ./junit4/src/main/java/org/junit/runners/model/TestClass.java:[200,77] error: ';' expected
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException

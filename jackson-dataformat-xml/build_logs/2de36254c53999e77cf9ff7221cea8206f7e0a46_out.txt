@@ -1,0 +1,664 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ------< com.fasterxml.jackson.dataformat:jackson-dataformat-xml >-------
+[INFO] Building Jackson-dataformat-XML 2.6.0-rc1-SNAPSHOT
+[INFO] -------------------------------[ bundle ]-------------------------------
+Downloading from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.6.0-rc1/jackson-databind-2.6.0-rc1.pom
+Progress (1): 1.4/5.3 kB
+Progress (1): 2.7/5.3 kB
+Progress (1): 4.1/5.3 kB
+Progress (1): 5.3 kB    
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.6.0-rc1/jackson-databind-2.6.0-rc1.pom (5.3 kB at 2.7 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/module/jackson-module-jaxb-annotations/2.6.0-rc1/jackson-module-jaxb-annotations-2.6.0-rc1.pom
+Progress (1): 1.4/4.3 kB
+Progress (1): 2.7/4.3 kB
+Progress (1): 4.1/4.3 kB
+Progress (1): 4.3 kB    
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/module/jackson-module-jaxb-annotations/2.6.0-rc1/jackson-module-jaxb-annotations-2.6.0-rc1.pom (4.3 kB at 6.0 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.6.0-rc1/jackson-databind-2.6.0-rc1.jar
+Downloading from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/module/jackson-module-jaxb-annotations/2.6.0-rc1/jackson-module-jaxb-annotations-2.6.0-rc1.jar
+Progress (1): 0/1.1 MB
+Progress (1): 0/1.1 MB
+Progress (1): 0/1.1 MB
+Progress (1): 0/1.1 MB
+Progress (1): 0/1.1 MB
+Progress (1): 0/1.1 MB
+Progress (1): 0/1.1 MB
+Progress (1): 0/1.1 MB
+Progress (1): 0/1.1 MB
+Progress (1): 0/1.1 MB
+Progress (1): 0/1.1 MB
+Progress (1): 0/1.1 MB
+Progress (1): 0/1.1 MB
+Progress (1): 0/1.1 MB
+Progress (1): 0/1.1 MB
+Progress (1): 0/1.1 MB
+Progress (1): 0/1.1 MB
+Progress (1): 0/1.1 MB
+Progress (1): 0/1.1 MB
+Progress (1): 0/1.1 MB
+Progress (1): 0/1.1 MB
+Progress (1): 0/1.1 MB
+Progress (1): 0/1.1 MB
+Progress (1): 0/1.1 MB
+Progress (1): 0/1.1 MB
+Progress (1): 0/1.1 MB
+Progress (1): 0/1.1 MB
+Progress (1): 0/1.1 MB
+Progress (1): 0/1.1 MB
+Progress (1): 0/1.1 MB
+Progress (1): 0/1.1 MB
+Progress (1): 0/1.1 MB
+Progress (1): 0/1.1 MB
+Progress (1): 0/1.1 MB
+Progress (1): 0/1.1 MB
+Progress (1): 0/1.1 MB
+Progress (1): 0.1/1.1 MB
+Progress (1): 0.1/1.1 MB
+Progress (1): 0.1/1.1 MB
+Progress (1): 0.1/1.1 MB
+Progress (1): 0.1/1.1 MB
+Progress (1): 0.1/1.1 MB
+Progress (1): 0.1/1.1 MB
+Progress (1): 0.1/1.1 MB
+Progress (1): 0.1/1.1 MB
+Progress (1): 0.1/1.1 MB
+Progress (1): 0.1/1.1 MB
+Progress (1): 0.1/1.1 MB
+Progress (1): 0.1/1.1 MB
+Progress (1): 0.1/1.1 MB
+Progress (1): 0.1/1.1 MB
+Progress (1): 0.1/1.1 MB
+Progress (1): 0.1/1.1 MB
+Progress (1): 0.1/1.1 MB
+Progress (1): 0.1/1.1 MB
+Progress (1): 0.1/1.1 MB
+Progress (1): 0.1/1.1 MB
+Progress (1): 0.1/1.1 MB
+Progress (1): 0.1/1.1 MB
+Progress (1): 0.1/1.1 MB
+Progress (1): 0.2/1.1 MB
+Progress (1): 0.2/1.1 MB
+Progress (1): 0.2/1.1 MB
+Progress (1): 0.2/1.1 MB
+Progress (1): 0.2/1.1 MB
+Progress (1): 0.2/1.1 MB
+Progress (1): 0.2/1.1 MB
+Progress (1): 0.2/1.1 MB
+Progress (1): 0.2/1.1 MB
+Progress (1): 0.2/1.1 MB
+Progress (1): 0.2/1.1 MB
+Progress (1): 0.2/1.1 MB
+Progress (2): 0.2/1.1 MB | 1.4/33 kB
+Progress (2): 0.2/1.1 MB | 2.7/33 kB
+Progress (2): 0.2/1.1 MB | 4.1/33 kB
+Progress (2): 0.2/1.1 MB | 5.5/33 kB
+Progress (2): 0.2/1.1 MB | 6.9/33 kB
+Progress (2): 0.2/1.1 MB | 8.2/33 kB
+Progress (2): 0.2/1.1 MB | 9.6/33 kB
+Progress (2): 0.2/1.1 MB | 11/33 kB 
+Progress (2): 0.2/1.1 MB | 12/33 kB
+Progress (2): 0.2/1.1 MB | 12/33 kB
+Progress (2): 0.2/1.1 MB | 12/33 kB
+Progress (2): 0.2/1.1 MB | 12/33 kB
+Progress (2): 0.2/1.1 MB | 12/33 kB
+Progress (2): 0.2/1.1 MB | 14/33 kB
+Progress (2): 0.2/1.1 MB | 15/33 kB
+Progress (2): 0.2/1.1 MB | 16/33 kB
+Progress (2): 0.2/1.1 MB | 16/33 kB
+Progress (2): 0.2/1.1 MB | 16/33 kB
+Progress (2): 0.2/1.1 MB | 16/33 kB
+Progress (2): 0.2/1.1 MB | 16/33 kB
+Progress (2): 0.2/1.1 MB | 17/33 kB
+Progress (2): 0.2/1.1 MB | 19/33 kB
+Progress (2): 0.2/1.1 MB | 19/33 kB
+Progress (2): 0.2/1.1 MB | 19/33 kB
+Progress (2): 0.2/1.1 MB | 19/33 kB
+Progress (2): 0.2/1.1 MB | 19/33 kB
+Progress (2): 0.2/1.1 MB | 20/33 kB
+Progress (2): 0.2/1.1 MB | 21/33 kB
+Progress (2): 0.2/1.1 MB | 23/33 kB
+Progress (2): 0.2/1.1 MB | 24/33 kB
+Progress (2): 0.2/1.1 MB | 25/33 kB
+Progress (2): 0.2/1.1 MB | 27/33 kB
+Progress (2): 0.2/1.1 MB | 28/33 kB
+Progress (2): 0.2/1.1 MB | 30/33 kB
+Progress (2): 0.2/1.1 MB | 31/33 kB
+Progress (2): 0.2/1.1 MB | 32/33 kB
+Progress (2): 0.2/1.1 MB | 33 kB   
+Progress (2): 0.2/1.1 MB | 33 kB
+Progress (2): 0.3/1.1 MB | 33 kB
+Progress (2): 0.3/1.1 MB | 33 kB
+Progress (2): 0.3/1.1 MB | 33 kB
+Progress (2): 0.3/1.1 MB | 33 kB
+Progress (2): 0.3/1.1 MB | 33 kB
+Progress (2): 0.3/1.1 MB | 33 kB
+Progress (2): 0.3/1.1 MB | 33 kB
+Progress (2): 0.3/1.1 MB | 33 kB
+Progress (2): 0.3/1.1 MB | 33 kB
+Progress (2): 0.3/1.1 MB | 33 kB
+Progress (2): 0.3/1.1 MB | 33 kB
+Progress (2): 0.3/1.1 MB | 33 kB
+Progress (2): 0.3/1.1 MB | 33 kB
+Progress (2): 0.3/1.1 MB | 33 kB
+Progress (2): 0.3/1.1 MB | 33 kB
+Progress (2): 0.3/1.1 MB | 33 kB
+Progress (2): 0.3/1.1 MB | 33 kB
+Progress (2): 0.3/1.1 MB | 33 kB
+Progress (2): 0.3/1.1 MB | 33 kB
+Progress (2): 0.3/1.1 MB | 33 kB
+Progress (2): 0.3/1.1 MB | 33 kB
+Progress (2): 0.3/1.1 MB | 33 kB
+Progress (2): 0.3/1.1 MB | 33 kB
+                                
+Downloaded from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/module/jackson-module-jaxb-annotations/2.6.0-rc1/jackson-module-jaxb-annotations-2.6.0-rc1.jar (33 kB at 20 kB/s)
+Progress (1): 0.3/1.1 MB
+Progress (1): 0.4/1.1 MB
+Progress (1): 0.4/1.1 MB
+Progress (1): 0.4/1.1 MB
+Progress (1): 0.4/1.1 MB
+Progress (1): 0.4/1.1 MB
+Progress (1): 0.4/1.1 MB
+Progress (1): 0.4/1.1 MB
+Progress (1): 0.4/1.1 MB
+Progress (1): 0.4/1.1 MB
+Progress (1): 0.4/1.1 MB
+Progress (1): 0.4/1.1 MB
+Progress (1): 0.4/1.1 MB
+Progress (1): 0.4/1.1 MB
+Progress (1): 0.4/1.1 MB
+Progress (1): 0.4/1.1 MB
+Progress (1): 0.4/1.1 MB
+Progress (1): 0.4/1.1 MB
+Progress (1): 0.4/1.1 MB
+Progress (1): 0.4/1.1 MB
+Progress (1): 0.4/1.1 MB
+Progress (1): 0.4/1.1 MB
+Progress (1): 0.4/1.1 MB
+Progress (1): 0.4/1.1 MB
+Progress (1): 0.4/1.1 MB
+Progress (1): 0.4/1.1 MB
+Progress (1): 0.5/1.1 MB
+Progress (1): 0.5/1.1 MB
+Progress (1): 0.5/1.1 MB
+Progress (1): 0.5/1.1 MB
+Progress (1): 0.5/1.1 MB
+Progress (1): 0.5/1.1 MB
+Progress (1): 0.5/1.1 MB
+Progress (1): 0.5/1.1 MB
+Progress (1): 0.5/1.1 MB
+Progress (1): 0.5/1.1 MB
+Progress (1): 0.5/1.1 MB
+Progress (1): 0.5/1.1 MB
+Progress (1): 0.5/1.1 MB
+Progress (1): 0.5/1.1 MB
+Progress (1): 0.5/1.1 MB
+Progress (1): 0.5/1.1 MB
+Progress (1): 0.5/1.1 MB
+Progress (1): 0.5/1.1 MB
+Progress (1): 0.5/1.1 MB
+Progress (1): 0.5/1.1 MB
+Progress (1): 0.5/1.1 MB
+Progress (1): 0.5/1.1 MB
+Progress (1): 0.5/1.1 MB
+Progress (1): 0.5/1.1 MB
+Progress (1): 0.6/1.1 MB
+Progress (1): 0.6/1.1 MB
+Progress (1): 0.6/1.1 MB
+Progress (1): 0.6/1.1 MB
+Progress (1): 0.6/1.1 MB
+Progress (1): 0.6/1.1 MB
+Progress (1): 0.6/1.1 MB
+Progress (1): 0.6/1.1 MB
+Progress (1): 0.6/1.1 MB
+Progress (1): 0.6/1.1 MB
+Progress (1): 0.6/1.1 MB
+Progress (1): 0.6/1.1 MB
+Progress (1): 0.6/1.1 MB
+Progress (1): 0.6/1.1 MB
+Progress (1): 0.6/1.1 MB
+Progress (1): 0.6/1.1 MB
+Progress (1): 0.6/1.1 MB
+Progress (1): 0.6/1.1 MB
+Progress (1): 0.6/1.1 MB
+Progress (1): 0.6/1.1 MB
+Progress (1): 0.6/1.1 MB
+Progress (1): 0.6/1.1 MB
+Progress (1): 0.6/1.1 MB
+Progress (1): 0.6/1.1 MB
+Progress (1): 0.7/1.1 MB
+Progress (1): 0.7/1.1 MB
+Progress (1): 0.7/1.1 MB
+Progress (1): 0.7/1.1 MB
+Progress (1): 0.7/1.1 MB
+Progress (1): 0.7/1.1 MB
+Progress (1): 0.7/1.1 MB
+Progress (1): 0.7/1.1 MB
+Progress (1): 0.7/1.1 MB
+Progress (1): 0.7/1.1 MB
+Progress (1): 0.7/1.1 MB
+Progress (1): 0.7/1.1 MB
+Progress (1): 0.7/1.1 MB
+Progress (1): 0.7/1.1 MB
+Progress (1): 0.7/1.1 MB
+Progress (1): 0.7/1.1 MB
+Progress (1): 0.7/1.1 MB
+Progress (1): 0.7/1.1 MB
+Progress (1): 0.7/1.1 MB
+Progress (1): 0.7/1.1 MB
+Progress (1): 0.7/1.1 MB
+Progress (1): 0.7/1.1 MB
+Progress (1): 0.7/1.1 MB
+Progress (1): 0.7/1.1 MB
+Progress (1): 0.7/1.1 MB
+Progress (1): 0.8/1.1 MB
+Progress (1): 0.8/1.1 MB
+Progress (1): 0.8/1.1 MB
+Progress (1): 0.8/1.1 MB
+Progress (1): 0.8/1.1 MB
+Progress (1): 0.8/1.1 MB
+Progress (1): 0.8/1.1 MB
+Progress (1): 0.8/1.1 MB
+Progress (1): 0.8/1.1 MB
+Progress (1): 0.8/1.1 MB
+Progress (1): 0.8/1.1 MB
+Progress (1): 0.8/1.1 MB
+Progress (1): 0.8/1.1 MB
+Progress (1): 0.8/1.1 MB
+Progress (1): 0.8/1.1 MB
+Progress (1): 0.8/1.1 MB
+Progress (1): 0.8/1.1 MB
+Progress (1): 0.8/1.1 MB
+Progress (1): 0.8/1.1 MB
+Progress (1): 0.8/1.1 MB
+Progress (1): 0.8/1.1 MB
+Progress (1): 0.8/1.1 MB
+Progress (1): 0.8/1.1 MB
+Progress (1): 0.8/1.1 MB
+Progress (1): 0.9/1.1 MB
+Progress (1): 0.9/1.1 MB
+Progress (1): 0.9/1.1 MB
+Progress (1): 0.9/1.1 MB
+Progress (1): 0.9/1.1 MB
+Progress (1): 0.9/1.1 MB
+Progress (1): 0.9/1.1 MB
+Progress (1): 0.9/1.1 MB
+Progress (1): 0.9/1.1 MB
+Progress (1): 0.9/1.1 MB
+Progress (1): 0.9/1.1 MB
+Progress (1): 0.9/1.1 MB
+Progress (1): 0.9/1.1 MB
+Progress (1): 0.9/1.1 MB
+Progress (1): 0.9/1.1 MB
+Progress (1): 0.9/1.1 MB
+Progress (1): 0.9/1.1 MB
+Progress (1): 0.9/1.1 MB
+Progress (1): 0.9/1.1 MB
+Progress (1): 0.9/1.1 MB
+Progress (1): 0.9/1.1 MB
+Progress (1): 0.9/1.1 MB
+Progress (1): 0.9/1.1 MB
+Progress (1): 0.9/1.1 MB
+Progress (1): 0.9/1.1 MB
+Progress (1): 1.0/1.1 MB
+Progress (1): 1.0/1.1 MB
+Progress (1): 1.0/1.1 MB
+Progress (1): 1.0/1.1 MB
+Progress (1): 1.0/1.1 MB
+Progress (1): 1.0/1.1 MB
+Progress (1): 1.0/1.1 MB
+Progress (1): 1.0/1.1 MB
+Progress (1): 1.0/1.1 MB
+Progress (1): 1.0/1.1 MB
+Progress (1): 1.0/1.1 MB
+Progress (1): 1.0/1.1 MB
+Progress (1): 1.0/1.1 MB
+Progress (1): 1.0/1.1 MB
+Progress (1): 1.0/1.1 MB
+Progress (1): 1.0/1.1 MB
+Progress (1): 1.0/1.1 MB
+Progress (1): 1.0/1.1 MB
+Progress (1): 1.0/1.1 MB
+Progress (1): 1.0/1.1 MB
+Progress (1): 1.0/1.1 MB
+Progress (1): 1.0/1.1 MB
+Progress (1): 1.0/1.1 MB
+Progress (1): 1.0/1.1 MB
+Progress (1): 1.0/1.1 MB
+Progress (1): 1.1/1.1 MB
+Progress (1): 1.1/1.1 MB
+Progress (1): 1.1/1.1 MB
+Progress (1): 1.1/1.1 MB
+Progress (1): 1.1/1.1 MB
+Progress (1): 1.1/1.1 MB
+Progress (1): 1.1/1.1 MB
+Progress (1): 1.1/1.1 MB
+Progress (1): 1.1/1.1 MB
+Progress (1): 1.1/1.1 MB
+Progress (1): 1.1/1.1 MB
+Progress (1): 1.1/1.1 MB
+Progress (1): 1.1/1.1 MB
+Progress (1): 1.1/1.1 MB
+Progress (1): 1.1/1.1 MB
+Progress (1): 1.1/1.1 MB
+Progress (1): 1.1/1.1 MB
+Progress (1): 1.1/1.1 MB
+Progress (1): 1.1/1.1 MB
+Progress (1): 1.1/1.1 MB
+Progress (1): 1.1/1.1 MB
+Progress (1): 1.1/1.1 MB
+Progress (1): 1.1/1.1 MB
+Progress (1): 1.1/1.1 MB
+Progress (1): 1.1 MB    
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.6.0-rc1/jackson-databind-2.6.0-rc1.jar (1.1 MB at 271 kB/s)
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ jackson-dataformat-xml ---
+[INFO] Deleting ./jackson-dataformat-xml/target
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.3.1:enforce (enforce-java) @ jackson-dataformat-xml ---
+[INFO] 
+[INFO] --- build-helper-maven-plugin:1.7:add-source (add-generated-sources) @ jackson-dataformat-xml ---
+[INFO] Source directory: ./jackson-dataformat-xml/target/generated-sources added.
+[INFO] 
+[INFO] --- replacer:1.5.2:replace (process-packageVersion) @ jackson-dataformat-xml ---
+[INFO] Replacement run on 1 file.
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ jackson-dataformat-xml ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 4 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.2:compile (default-compile) @ jackson-dataformat-xml ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 36 source files to ./jackson-dataformat-xml/target/classes
+[WARNING] bootstrap class path not set in conjunction with -source 1.6
+[WARNING] ./jackson-dataformat-xml/src/main/java/com/fasterxml/jackson/dataformat/xml/XmlMapper.java:[231,29] _defaultPrettyPrinter() in com.fasterxml.jackson.databind.ObjectMapper has been deprecated
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ jackson-dataformat-xml ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory ./jackson-dataformat-xml/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.2:testCompile (default-testCompile) @ jackson-dataformat-xml ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 56 source files to ./jackson-dataformat-xml/target/test-classes
+[WARNING] bootstrap class path not set in conjunction with -source 1.6
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.17:test (default-test) @ jackson-dataformat-xml ---
+[INFO] Surefire report directory: ./jackson-dataformat-xml/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running com.fasterxml.jackson.dataformat.xml.misc.ObjectId104Test
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.327 sec - in com.fasterxml.jackson.dataformat.xml.misc.ObjectId104Test
+Running com.fasterxml.jackson.dataformat.xml.misc.PolymorphicTypesTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.04 sec - in com.fasterxml.jackson.dataformat.xml.misc.PolymorphicTypesTest
+Running com.fasterxml.jackson.dataformat.xml.misc.XmlTextTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.013 sec - in com.fasterxml.jackson.dataformat.xml.misc.XmlTextTest
+Running com.fasterxml.jackson.dataformat.xml.misc.TextValueTest
+Tests run: 6, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.035 sec <<< FAILURE! - in com.fasterxml.jackson.dataformat.xml.misc.TextValueTest
+testSerializeAsText(com.fasterxml.jackson.dataformat.xml.misc.TextValueTest)  Time elapsed: 0.034 sec  <<< ERROR!
+com.fasterxml.jackson.databind.JsonMappingException: Unexpected IOException (of type java.io.IOException): javax.xml.stream.XMLStreamException: Trying to write an attribute when there is no open start element.
+	at com.ctc.wstx.sw.BaseStreamWriter.throwOutputError(BaseStreamWriter.java:1564)
+	at com.ctc.wstx.sw.BaseNsStreamWriter.writeTypedAttribute(BaseNsStreamWriter.java:326)
+	at com.ctc.wstx.sw.RepairingNsStreamWriter.writeTypedAttribute(RepairingNsStreamWriter.java:257)
+	at com.ctc.wstx.sw.TypedStreamWriter.writeIntAttribute(TypedStreamWriter.java:216)
+	at com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator.writeNumber(ToXmlGenerator.java:754)
+	at com.fasterxml.jackson.databind.ser.std.NumberSerializers$IntegerSerializer.serialize(NumberSerializers.java:146)
+	at com.fasterxml.jackson.databind.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:577)
+	at com.fasterxml.jackson.dataformat.xml.ser.XmlBeanSerializerBase.serializeFields(XmlBeanSerializerBase.java:202)
+	at com.fasterxml.jackson.dataformat.xml.ser.XmlBeanSerializer.serialize(XmlBeanSerializer.java:119)
+	at com.fasterxml.jackson.dataformat.xml.ser.XmlSerializerProvider.serializeValue(XmlSerializerProvider.java:92)
+	at com.fasterxml.jackson.databind.ObjectWriter._configAndWriteValue(ObjectWriter.java:1083)
+	at com.fasterxml.jackson.databind.ObjectWriter.writeValueAsString(ObjectWriter.java:948)
+	at com.fasterxml.jackson.dataformat.xml.misc.TextValueTest.testSerializeAsText(TextValueTest.java:105)
+
+Running com.fasterxml.jackson.dataformat.xml.misc.UnwrappingWithXMLTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.055 sec - in com.fasterxml.jackson.dataformat.xml.misc.UnwrappingWithXMLTest
+Running com.fasterxml.jackson.dataformat.xml.misc.NodeTest
+-> {"child":"4"}
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.019 sec - in com.fasterxml.jackson.dataformat.xml.misc.NodeTest
+Running com.fasterxml.jackson.dataformat.xml.misc.ArrayConversionsTest
+Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.089 sec - in com.fasterxml.jackson.dataformat.xml.misc.ArrayConversionsTest
+Running com.fasterxml.jackson.dataformat.xml.incr.PartialReadTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 sec - in com.fasterxml.jackson.dataformat.xml.incr.PartialReadTest
+Running com.fasterxml.jackson.dataformat.xml.incr.IncrementalWritingTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 sec - in com.fasterxml.jackson.dataformat.xml.incr.IncrementalWritingTest
+Running com.fasterxml.jackson.dataformat.xml.lists.ListDeserializationTest
+Tests run: 5, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 0.03 sec <<< FAILURE! - in com.fasterxml.jackson.dataformat.xml.lists.ListDeserializationTest
+testWrappedList(com.fasterxml.jackson.dataformat.xml.lists.ListDeserializationTest)  Time elapsed: 0.005 sec  <<< ERROR!
+com.fasterxml.jackson.databind.JsonMappingException: Unexpected IOException (of type java.io.IOException): javax.xml.stream.XMLStreamException: Trying to output second root, <age>
+	at com.ctc.wstx.sw.BaseStreamWriter.throwOutputError(BaseStreamWriter.java:1564)
+	at com.ctc.wstx.sw.BaseStreamWriter.throwOutputError(BaseStreamWriter.java:1571)
+	at com.ctc.wstx.sw.BaseStreamWriter.reportNwfStructure(BaseStreamWriter.java:1599)
+	at com.ctc.wstx.sw.BaseNsStreamWriter.checkStartElement(BaseNsStreamWriter.java:469)
+	at com.ctc.wstx.sw.RepairingNsStreamWriter.writeStartOrEmpty(RepairingNsStreamWriter.java:265)
+	at com.ctc.wstx.sw.BaseNsStreamWriter.writeStartElement(BaseNsStreamWriter.java:310)
+	at com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator.writeNumber(ToXmlGenerator.java:764)
+	at com.fasterxml.jackson.databind.ser.std.NumberSerializers$IntegerSerializer.serialize(NumberSerializers.java:146)
+	at com.fasterxml.jackson.databind.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:577)
+	at com.fasterxml.jackson.dataformat.xml.ser.XmlBeanSerializerBase.serializeFields(XmlBeanSerializerBase.java:202)
+	at com.fasterxml.jackson.dataformat.xml.ser.XmlBeanSerializer.serialize(XmlBeanSerializer.java:119)
+	at com.fasterxml.jackson.dataformat.xml.ser.XmlSerializerProvider.serializeValue(XmlSerializerProvider.java:92)
+	at com.fasterxml.jackson.databind.ObjectMapper._configAndWriteValue(ObjectMapper.java:3522)
+	at com.fasterxml.jackson.databind.ObjectMapper.writeValueAsString(ObjectMapper.java:2912)
+	at com.fasterxml.jackson.dataformat.xml.lists.ListDeserializationTest.testWrappedList(ListDeserializationTest.java:93)
+
+testWrappedListWithGetters(com.fasterxml.jackson.dataformat.xml.lists.ListDeserializationTest)  Time elapsed: 0.005 sec  <<< ERROR!
+com.fasterxml.jackson.databind.JsonMappingException: Unexpected IOException (of type java.io.IOException): javax.xml.stream.XMLStreamException: Trying to write an attribute when there is no open start element.
+	at com.ctc.wstx.sw.BaseStreamWriter.throwOutputError(BaseStreamWriter.java:1564)
+	at com.ctc.wstx.sw.RepairingNsStreamWriter.writeAttribute(RepairingNsStreamWriter.java:111)
+	at com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator.writeString(ToXmlGenerator.java:491)
+	at com.fasterxml.jackson.databind.ser.std.StringSerializer.serialize(StringSerializer.java:49)
+	at com.fasterxml.jackson.databind.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:577)
+	at com.fasterxml.jackson.dataformat.xml.ser.XmlBeanSerializerBase.serializeFields(XmlBeanSerializerBase.java:202)
+	at com.fasterxml.jackson.dataformat.xml.ser.XmlBeanSerializer.serialize(XmlBeanSerializer.java:119)
+	at com.fasterxml.jackson.dataformat.xml.ser.XmlSerializerProvider.serializeValue(XmlSerializerProvider.java:92)
+	at com.fasterxml.jackson.databind.ObjectMapper._configAndWriteValue(ObjectMapper.java:3522)
+	at com.fasterxml.jackson.databind.ObjectMapper.writeValueAsString(ObjectMapper.java:2912)
+	at com.fasterxml.jackson.dataformat.xml.lists.ListDeserializationTest.testWrappedListWithGetters(ListDeserializationTest.java:108)
+
+Running com.fasterxml.jackson.dataformat.xml.lists.Issue101UnwrappedListAttributesTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.046 sec - in com.fasterxml.jackson.dataformat.xml.lists.Issue101UnwrappedListAttributesTest
+Running com.fasterxml.jackson.dataformat.xml.lists.ListAsObjectTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.029 sec - in com.fasterxml.jackson.dataformat.xml.lists.ListAsObjectTest
+Running com.fasterxml.jackson.dataformat.xml.lists.NestedUnwrappedListsTest
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.035 sec - in com.fasterxml.jackson.dataformat.xml.lists.NestedUnwrappedListsTest
+Running com.fasterxml.jackson.dataformat.xml.lists.ListRoundtripTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.03 sec - in com.fasterxml.jackson.dataformat.xml.lists.ListRoundtripTest
+Running com.fasterxml.jackson.dataformat.xml.lists.WrappedListsTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 sec - in com.fasterxml.jackson.dataformat.xml.lists.WrappedListsTest
+Running com.fasterxml.jackson.dataformat.xml.lists.RootListHandlingTest
+Tests run: 3, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 0.025 sec <<< FAILURE! - in com.fasterxml.jackson.dataformat.xml.lists.RootListHandlingTest
+testArraySerialization(com.fasterxml.jackson.dataformat.xml.lists.RootListHandlingTest)  Time elapsed: 0.016 sec  <<< ERROR!
+com.fasterxml.jackson.databind.JsonMappingException: Unexpected IOException (of type java.io.IOException): javax.xml.stream.XMLStreamException: Trying to output second root, <name>
+	at com.ctc.wstx.sw.BaseStreamWriter.throwOutputError(BaseStreamWriter.java:1564)
+	at com.ctc.wstx.sw.BaseStreamWriter.throwOutputError(BaseStreamWriter.java:1571)
+	at com.ctc.wstx.sw.BaseStreamWriter.reportNwfStructure(BaseStreamWriter.java:1599)
+	at com.ctc.wstx.sw.BaseNsStreamWriter.checkStartElement(BaseNsStreamWriter.java:469)
+	at com.ctc.wstx.sw.RepairingNsStreamWriter.writeStartOrEmpty(RepairingNsStreamWriter.java:265)
+	at com.ctc.wstx.sw.BaseNsStreamWriter.writeStartElement(BaseNsStreamWriter.java:310)
+	at com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator.writeString(ToXmlGenerator.java:506)
+	at com.fasterxml.jackson.databind.ser.std.StringSerializer.serialize(StringSerializer.java:49)
+	at com.fasterxml.jackson.databind.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:577)
+	at com.fasterxml.jackson.dataformat.xml.ser.XmlBeanSerializerBase.serializeFields(XmlBeanSerializerBase.java:202)
+	at com.fasterxml.jackson.dataformat.xml.ser.XmlBeanSerializer.serialize(XmlBeanSerializer.java:119)
+	at com.fasterxml.jackson.databind.ser.std.ObjectArraySerializer.serializeContents(ObjectArraySerializer.java:241)
+	at com.fasterxml.jackson.databind.ser.std.ObjectArraySerializer.serialize(ObjectArraySerializer.java:201)
+	at com.fasterxml.jackson.databind.ser.std.ObjectArraySerializer.serialize(ObjectArraySerializer.java:25)
+	at com.fasterxml.jackson.dataformat.xml.ser.XmlSerializerProvider.serializeValue(XmlSerializerProvider.java:92)
+	at com.fasterxml.jackson.databind.ObjectWriter._configAndWriteValue(ObjectWriter.java:1083)
+	at com.fasterxml.jackson.databind.ObjectWriter.writeValueAsString(ObjectWriter.java:948)
+	at com.fasterxml.jackson.dataformat.xml.lists.RootListHandlingTest._testArraySerialization(RootListHandlingTest.java:171)
+	at com.fasterxml.jackson.dataformat.xml.lists.RootListHandlingTest.testArraySerialization(RootListHandlingTest.java:142)
+
+testListSerialization(com.fasterxml.jackson.dataformat.xml.lists.RootListHandlingTest)  Time elapsed: 0.003 sec  <<< ERROR!
+com.fasterxml.jackson.databind.JsonMappingException: Unexpected IOException (of type java.io.IOException): javax.xml.stream.XMLStreamException: Trying to output second root, <name>
+	at com.ctc.wstx.sw.BaseStreamWriter.throwOutputError(BaseStreamWriter.java:1564)
+	at com.ctc.wstx.sw.BaseStreamWriter.throwOutputError(BaseStreamWriter.java:1571)
+	at com.ctc.wstx.sw.BaseStreamWriter.reportNwfStructure(BaseStreamWriter.java:1599)
+	at com.ctc.wstx.sw.BaseNsStreamWriter.checkStartElement(BaseNsStreamWriter.java:469)
+	at com.ctc.wstx.sw.RepairingNsStreamWriter.writeStartOrEmpty(RepairingNsStreamWriter.java:265)
+	at com.ctc.wstx.sw.BaseNsStreamWriter.writeStartElement(BaseNsStreamWriter.java:310)
+	at com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator.writeString(ToXmlGenerator.java:506)
+	at com.fasterxml.jackson.databind.ser.std.StringSerializer.serialize(StringSerializer.java:49)
+	at com.fasterxml.jackson.databind.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:577)
+	at com.fasterxml.jackson.dataformat.xml.ser.XmlBeanSerializerBase.serializeFields(XmlBeanSerializerBase.java:202)
+	at com.fasterxml.jackson.dataformat.xml.ser.XmlBeanSerializer.serialize(XmlBeanSerializer.java:119)
+	at com.fasterxml.jackson.databind.ser.impl.IndexedListSerializer.serializeContents(IndexedListSerializer.java:113)
+	at com.fasterxml.jackson.databind.ser.impl.IndexedListSerializer.serialize(IndexedListSerializer.java:73)
+	at com.fasterxml.jackson.databind.ser.impl.IndexedListSerializer.serialize(IndexedListSerializer.java:19)
+	at com.fasterxml.jackson.dataformat.xml.ser.XmlSerializerProvider.serializeValue(XmlSerializerProvider.java:92)
+	at com.fasterxml.jackson.databind.ObjectWriter._configAndWriteValue(ObjectWriter.java:1083)
+	at com.fasterxml.jackson.databind.ObjectWriter.writeValueAsString(ObjectWriter.java:948)
+	at com.fasterxml.jackson.dataformat.xml.lists.RootListHandlingTest._testListSerialization(RootListHandlingTest.java:113)
+	at com.fasterxml.jackson.dataformat.xml.lists.RootListHandlingTest.testListSerialization(RootListHandlingTest.java:82)
+
+Running com.fasterxml.jackson.dataformat.xml.lists.ListSerializationTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 sec - in com.fasterxml.jackson.dataformat.xml.lists.ListSerializationTest
+Running com.fasterxml.jackson.dataformat.xml.lists.UnwrappedListWithEmptyCData129Test
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 sec - in com.fasterxml.jackson.dataformat.xml.lists.UnwrappedListWithEmptyCData129Test
+Running com.fasterxml.jackson.dataformat.xml.lists.ListAnnotationSharingTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.014 sec - in com.fasterxml.jackson.dataformat.xml.lists.ListAnnotationSharingTest
+Running com.fasterxml.jackson.dataformat.xml.lists.UnwrappedListsTest
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.057 sec - in com.fasterxml.jackson.dataformat.xml.lists.UnwrappedListsTest
+Running com.fasterxml.jackson.dataformat.xml.deser.TestStringValues
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.016 sec - in com.fasterxml.jackson.dataformat.xml.deser.TestStringValues
+Running com.fasterxml.jackson.dataformat.xml.deser.TestBinaryData
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 sec - in com.fasterxml.jackson.dataformat.xml.deser.TestBinaryData
+Running com.fasterxml.jackson.dataformat.xml.deser.TestDeserialization
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.047 sec - in com.fasterxml.jackson.dataformat.xml.deser.TestDeserialization
+Running com.fasterxml.jackson.dataformat.xml.deser.TestEnums
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec - in com.fasterxml.jackson.dataformat.xml.deser.TestEnums
+Running com.fasterxml.jackson.dataformat.xml.deser.TestViews
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.03 sec - in com.fasterxml.jackson.dataformat.xml.deser.TestViews
+Running com.fasterxml.jackson.dataformat.xml.stream.XmlGeneratorTest
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.047 sec - in com.fasterxml.jackson.dataformat.xml.stream.XmlGeneratorTest
+Running com.fasterxml.jackson.dataformat.xml.stream.XmlTokenStreamTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 sec - in com.fasterxml.jackson.dataformat.xml.stream.XmlTokenStreamTest
+Running com.fasterxml.jackson.dataformat.xml.stream.FormatDetectionTest
+Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.049 sec - in com.fasterxml.jackson.dataformat.xml.stream.FormatDetectionTest
+Running com.fasterxml.jackson.dataformat.xml.stream.XmlParserTest
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.048 sec - in com.fasterxml.jackson.dataformat.xml.stream.XmlParserTest
+Running com.fasterxml.jackson.dataformat.xml.adapters.TestIssue47Attribute
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.019 sec - in com.fasterxml.jackson.dataformat.xml.adapters.TestIssue47Attribute
+Running com.fasterxml.jackson.dataformat.xml.jaxb.WithJAXBAnnotationsTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.021 sec - in com.fasterxml.jackson.dataformat.xml.jaxb.WithJAXBAnnotationsTest
+Running com.fasterxml.jackson.dataformat.xml.jaxb.AttributesWithJAXBTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.011 sec - in com.fasterxml.jackson.dataformat.xml.jaxb.AttributesWithJAXBTest
+Running com.fasterxml.jackson.dataformat.xml.jaxb.ElementWrapperTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.01 sec - in com.fasterxml.jackson.dataformat.xml.jaxb.ElementWrapperTest
+Running com.fasterxml.jackson.dataformat.xml.RoundtripContentTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.026 sec - in com.fasterxml.jackson.dataformat.xml.RoundtripContentTest
+Running com.fasterxml.jackson.dataformat.xml.ser.TestSerializationAttr
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.011 sec - in com.fasterxml.jackson.dataformat.xml.ser.TestSerializationAttr
+Running com.fasterxml.jackson.dataformat.xml.ser.TestXmlDeclaration
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 sec - in com.fasterxml.jackson.dataformat.xml.ser.TestXmlDeclaration
+Running com.fasterxml.jackson.dataformat.xml.ser.TestSerialization
+Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.021 sec - in com.fasterxml.jackson.dataformat.xml.ser.TestSerialization
+Running com.fasterxml.jackson.dataformat.xml.ser.TestSerializationOrdering
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 sec - in com.fasterxml.jackson.dataformat.xml.ser.TestSerializationOrdering
+Running com.fasterxml.jackson.dataformat.xml.ser.TestNamespaces
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.032 sec - in com.fasterxml.jackson.dataformat.xml.ser.TestNamespaces
+Running com.fasterxml.jackson.dataformat.xml.ser.TestIndentation
+Tests run: 5, Failures: 1, Errors: 4, Skipped: 0, Time elapsed: 0.032 sec <<< FAILURE! - in com.fasterxml.jackson.dataformat.xml.ser.TestIndentation
+testSimpleStringBean(com.fasterxml.jackson.dataformat.xml.ser.TestIndentation)  Time elapsed: 0.004 sec  <<< ERROR!
+java.io.IOException: com.ctc.wstx.exc.WstxUnexpectedCharException: Unexpected character '{' (code 123) in prolog; expected '<'
+ at [row,col {unknown-source}]: [1,1]
+	at com.ctc.wstx.sr.StreamScanner.throwUnexpectedChar(StreamScanner.java:651)
+	at com.ctc.wstx.sr.BasicStreamReader.nextFromProlog(BasicStreamReader.java:2126)
+	at com.ctc.wstx.sr.BasicStreamReader.next(BasicStreamReader.java:1173)
+	at com.fasterxml.jackson.dataformat.xml.XmlFactory._initializeXmlReader(XmlFactory.java:638)
+	at com.fasterxml.jackson.dataformat.xml.XmlFactory._createParser(XmlFactory.java:545)
+	at com.fasterxml.jackson.dataformat.xml.XmlFactory.createParser(XmlFactory.java:419)
+	at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:2711)
+	at com.fasterxml.jackson.dataformat.xml.ser.TestIndentation.testSimpleStringBean(TestIndentation.java:92)
+
+testSimpleMap(com.fasterxml.jackson.dataformat.xml.ser.TestIndentation)  Time elapsed: 0.002 sec  <<< FAILURE!
+junit.framework.AssertionFailedError: No indentation: XML == {<a>b</a>
+}
+	at junit.framework.Assert.fail(Assert.java:57)
+	at junit.framework.TestCase.fail(TestCase.java:227)
+	at com.fasterxml.jackson.dataformat.xml.ser.TestIndentation.testSimpleMap(TestIndentation.java:127)
+
+testEmptyElem(com.fasterxml.jackson.dataformat.xml.ser.TestIndentation)  Time elapsed: 0.011 sec  <<< ERROR!
+com.fasterxml.jackson.databind.JsonMappingException: Unexpected IOException (of type java.io.IOException): javax.xml.stream.XMLStreamException: Trying to write an attribute when there is no open start element.
+	at com.ctc.wstx.sw.BaseStreamWriter.throwOutputError(BaseStreamWriter.java:1564)
+	at com.ctc.wstx.sw.RepairingNsStreamWriter.writeAttribute(RepairingNsStreamWriter.java:111)
+	at com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator.writeString(ToXmlGenerator.java:491)
+	at com.fasterxml.jackson.databind.ser.std.StringSerializer.serialize(StringSerializer.java:49)
+	at com.fasterxml.jackson.databind.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:577)
+	at com.fasterxml.jackson.dataformat.xml.ser.XmlBeanSerializerBase.serializeFields(XmlBeanSerializerBase.java:202)
+	at com.fasterxml.jackson.dataformat.xml.ser.XmlBeanSerializer.serialize(XmlBeanSerializer.java:119)
+	at com.fasterxml.jackson.dataformat.xml.ser.XmlSerializerProvider.serializeValue(XmlSerializerProvider.java:92)
+	at com.fasterxml.jackson.databind.ObjectMapper._configAndWriteValue(ObjectMapper.java:3522)
+	at com.fasterxml.jackson.databind.ObjectMapper.writeValueAsString(ObjectMapper.java:2912)
+	at com.fasterxml.jackson.dataformat.xml.ser.TestIndentation.testEmptyElem(TestIndentation.java:149)
+
+testWithAttr(com.fasterxml.jackson.dataformat.xml.ser.TestIndentation)  Time elapsed: 0.002 sec  <<< ERROR!
+com.fasterxml.jackson.databind.JsonMappingException: Unexpected IOException (of type java.io.IOException): javax.xml.stream.XMLStreamException: Trying to write an attribute when there is no open start element.
+	at com.ctc.wstx.sw.BaseStreamWriter.throwOutputError(BaseStreamWriter.java:1564)
+	at com.ctc.wstx.sw.BaseNsStreamWriter.writeTypedAttribute(BaseNsStreamWriter.java:326)
+	at com.ctc.wstx.sw.RepairingNsStreamWriter.writeTypedAttribute(RepairingNsStreamWriter.java:257)
+	at com.ctc.wstx.sw.TypedStreamWriter.writeIntAttribute(TypedStreamWriter.java:216)
+	at com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator.writeNumber(ToXmlGenerator.java:754)
+	at com.fasterxml.jackson.databind.ser.std.NumberSerializers$IntegerSerializer.serialize(NumberSerializers.java:146)
+	at com.fasterxml.jackson.databind.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:577)
+	at com.fasterxml.jackson.dataformat.xml.ser.XmlBeanSerializerBase.serializeFields(XmlBeanSerializerBase.java:202)
+	at com.fasterxml.jackson.dataformat.xml.ser.XmlBeanSerializer.serialize(XmlBeanSerializer.java:119)
+	at com.fasterxml.jackson.dataformat.xml.ser.XmlSerializerProvider.serializeValue(XmlSerializerProvider.java:92)
+	at com.fasterxml.jackson.databind.ObjectMapper._configAndWriteValue(ObjectMapper.java:3522)
+	at com.fasterxml.jackson.databind.ObjectMapper.writeValueAsString(ObjectMapper.java:2912)
+	at com.fasterxml.jackson.dataformat.xml.ser.TestIndentation.testWithAttr(TestIndentation.java:140)
+
+testSimpleIntBean(com.fasterxml.jackson.dataformat.xml.ser.TestIndentation)  Time elapsed: 0.002 sec  <<< ERROR!
+java.io.IOException: com.ctc.wstx.exc.WstxUnexpectedCharException: Unexpected character '{' (code 123) in prolog; expected '<'
+ at [row,col {unknown-source}]: [1,1]
+	at com.ctc.wstx.sr.StreamScanner.throwUnexpectedChar(StreamScanner.java:651)
+	at com.ctc.wstx.sr.BasicStreamReader.nextFromProlog(BasicStreamReader.java:2126)
+	at com.ctc.wstx.sr.BasicStreamReader.next(BasicStreamReader.java:1173)
+	at com.fasterxml.jackson.dataformat.xml.XmlFactory._initializeXmlReader(XmlFactory.java:638)
+	at com.fasterxml.jackson.dataformat.xml.XmlFactory._createParser(XmlFactory.java:545)
+	at com.fasterxml.jackson.dataformat.xml.XmlFactory.createParser(XmlFactory.java:419)
+	at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:2711)
+	at com.fasterxml.jackson.dataformat.xml.ser.TestIndentation.testSimpleIntBean(TestIndentation.java:114)
+
+Running com.fasterxml.jackson.dataformat.xml.ser.TestSerializerCustom
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.012 sec - in com.fasterxml.jackson.dataformat.xml.ser.TestSerializerCustom
+Running com.fasterxml.jackson.dataformat.xml.ser.TestJDKSerializability
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.24 sec - in com.fasterxml.jackson.dataformat.xml.ser.TestJDKSerializability
+Running com.fasterxml.jackson.dataformat.xml.ser.TestSerializationManual
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in com.fasterxml.jackson.dataformat.xml.ser.TestSerializationManual
+Running com.fasterxml.jackson.dataformat.xml.VersionInfoTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.041 sec - in com.fasterxml.jackson.dataformat.xml.VersionInfoTest
+
+Results :
+
+Failed tests: 
+  TestIndentation.testSimpleMap:127 No indentation: XML == {<a>b</a>
+}
+
+Tests in error: 
+  TextValueTest.testSerializeAsText:105 » JsonMapping Unexpected IOException (of...
+  ListDeserializationTest.testWrappedList:93 » JsonMapping Unexpected IOExceptio...
+  ListDeserializationTest.testWrappedListWithGetters:108 » JsonMapping Unexpecte...
+  RootListHandlingTest.testArraySerialization:142->_testArraySerialization:171 » JsonMapping
+  RootListHandlingTest.testListSerialization:82->_testListSerialization:113 » JsonMapping
+  TestIndentation.testSimpleStringBean:92 » IO com.ctc.wstx.exc.WstxUnexpectedCh...
+  TestIndentation.testEmptyElem:149 » JsonMapping Unexpected IOException (of typ...
+  TestIndentation.testWithAttr:140 » JsonMapping Unexpected IOException (of type...
+  TestIndentation.testSimpleIntBean:114 » IO com.ctc.wstx.exc.WstxUnexpectedChar...
+
+Tests run: 132, Failures: 1, Errors: 9, Skipped: 0
+
+[ERROR] There are test failures.
+
+Please refer to ./jackson-dataformat-xml/target/surefire-reports for the individual test results.
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  13.394 s
+[INFO] Finished at: 
+[INFO] ------------------------------------------------------------------------

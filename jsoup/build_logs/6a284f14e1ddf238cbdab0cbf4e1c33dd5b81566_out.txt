@@ -1,0 +1,56 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] --------------------------< org.jsoup:jsoup >---------------------------
+[INFO] Building jsoup Java HTML Parser 1.11.1-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ jsoup ---
+[INFO] Deleting ./jsoup/target
+[INFO] 
+[INFO] --- maven-resources-plugin:3.0.1:resources (default-resources) @ jsoup ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 3 resources
+[INFO] Copying 3 resources to META-INF/
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.5.1:compile (default-compile) @ jsoup ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 62 source files to ./jsoup/target/classes
+[INFO] ./jsoup/src/main/java/org/jsoup/nodes/Attributes.java: ./jsoup/src/main/java/org/jsoup/nodes/Attributes.java uses or overrides a deprecated API.
+[INFO] ./jsoup/src/main/java/org/jsoup/nodes/Attributes.java: Recompile with -Xlint:deprecation for details.
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] ./jsoup/src/main/java/org/jsoup/select/NodeTraversor.java:[64,9] cannot find symbol
+  symbol:   variable Validate
+  location: class org.jsoup.select.NodeTraversor
+[ERROR] ./jsoup/src/main/java/org/jsoup/select/NodeTraversor.java:[65,9] cannot find symbol
+  symbol:   variable Validate
+  location: class org.jsoup.select.NodeTraversor
+[ERROR] ./jsoup/src/main/java/org/jsoup/select/NodeTraversor.java:[66,14] cannot find symbol
+  symbol:   class Element
+  location: class org.jsoup.select.NodeTraversor
+[INFO] 3 errors 
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  3.308 s
+[INFO] Finished at: 
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.5.1:compile (default-compile) on project jsoup: Compilation failure: Compilation failure: 
+[ERROR] ./jsoup/src/main/java/org/jsoup/select/NodeTraversor.java:[64,9] cannot find symbol
+[ERROR]   symbol:   variable Validate
+[ERROR]   location: class org.jsoup.select.NodeTraversor
+[ERROR] ./jsoup/src/main/java/org/jsoup/select/NodeTraversor.java:[65,9] cannot find symbol
+[ERROR]   symbol:   variable Validate
+[ERROR]   location: class org.jsoup.select.NodeTraversor
+[ERROR] ./jsoup/src/main/java/org/jsoup/select/NodeTraversor.java:[66,14] cannot find symbol
+[ERROR]   symbol:   class Element
+[ERROR]   location: class org.jsoup.select.NodeTraversor
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException

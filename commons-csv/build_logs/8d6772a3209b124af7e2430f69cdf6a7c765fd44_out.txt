@@ -1,0 +1,99 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] -------------------< org.apache.commons:commons-csv >-------------------
+[INFO] Building Apache Commons CSV 1.8-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:3.1.0:clean (default-clean) @ commons-csv ---
+[INFO] Deleting ./commons-csv/target
+[INFO] 
+[INFO] --- maven-enforcer-plugin:3.0.0-M2:enforce (enforce-maven-version) @ commons-csv ---
+[INFO] 
+[INFO] --- maven-enforcer-plugin:3.0.0-M2:enforce (enforce-maven-3) @ commons-csv ---
+[INFO] 
+[INFO] --- apache-rat-plugin:0.13:check (rat-check) @ commons-csv ---
+[INFO] Enabled default license matchers.
+[INFO] Will parse SCM ignores for exclusions...
+[INFO] Parsing exclusions from ./commons-csv/.gitignore
+[INFO] Finished adding exclusions from SCM ignore files.
+[INFO] 70 implicit excludes (use -debug for more details).
+[INFO] 23 explicit excludes (use -debug for more details).
+[INFO] 130 resources included (use -debug for more details)
+[INFO] Rat check: Summary over all files. Unapproved: 69, unknown: 69, generated: 0, approved: 54 licenses.
+[WARNING] Rat check: 69 files with unapproved licenses. See RAT report in: ./commons-csv/target/rat.txt
+[INFO] 
+[INFO] --- build-helper-maven-plugin:3.0.0:parse-version (parse-version) @ commons-csv ---
+[INFO] 
+[INFO] --- maven-antrun-plugin:1.8:run (javadoc.resources) @ commons-csv ---
+[INFO] Executing tasks
+
+main:
+     [copy] Copying 2 files to ./commons-csv/target/apidocs/META-INF
+[INFO] Executed tasks
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.5:process (process-resource-bundles) @ commons-csv ---
+[INFO] 
+[INFO] --- buildnumber-maven-plugin:1.4:create (default) @ commons-csv ---
+[INFO] Executing: /bin/sh -c cd './commons-csv' && 'git' 'rev-parse' '--verify' 'HEAD'
+[INFO] Working directory: ./commons-csv
+[INFO] Storing buildNumber: 8d6772a3209b124af7e2430f69cdf6a7c765fd44 at timestamp: 1655805823661
+[WARNING] Cannot get the branch information from the git repository: 
+Detecting the current branch failed: fatal: ref HEAD is not a symbolic ref
+
+[INFO] Executing: /bin/sh -c cd './commons-csv' && 'git' 'rev-parse' '--verify' 'HEAD'
+[INFO] Working directory: ./commons-csv
+[INFO] Storing buildScmBranch: UNKNOWN
+[INFO] 
+[INFO] --- maven-resources-plugin:3.1.0:resources (default-resources) @ commons-csv ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 3 resources
+[INFO] Copying 2 resources to META-INF
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.1:compile (default-compile) @ commons-csv ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 12 source files to ./commons-csv/target/classes
+[INFO] 
+[INFO] --- maven-bundle-plugin:4.2.1:manifest (bundle-manifest) @ commons-csv ---
+[INFO] 
+[INFO] --- animal-sniffer-maven-plugin:1.18:check (checkAPIcompatibility) @ commons-csv ---
+[INFO] Checking unresolved references to org.codehaus.mojo.signature:java18:1.0
+[INFO] 
+[INFO] --- maven-resources-plugin:3.1.0:testResources (default-testResources) @ commons-csv ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 14 resources
+[INFO] Copying 2 resources to META-INF
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.1:testCompile (default-testCompile) @ commons-csv ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 21 source files to ./commons-csv/target/test-classes
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] ./commons-csv/src/test/java/org/apache/commons/csv/CSVRecordTest.java:[246,14] cannot find symbol
+  symbol:   class FileOutputStream
+  location: class org.apache.commons.csv.CSVRecordTest
+[ERROR] ./commons-csv/src/test/java/org/apache/commons/csv/CSVRecordTest.java:[246,41] cannot find symbol
+  symbol:   class FileOutputStream
+  location: class org.apache.commons.csv.CSVRecordTest
+[INFO] 2 errors 
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  48.815 s
+[INFO] Finished at: 
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.8.1:testCompile (default-testCompile) on project commons-csv: Compilation failure: Compilation failure: 
+[ERROR] ./commons-csv/src/test/java/org/apache/commons/csv/CSVRecordTest.java:[246,14] cannot find symbol
+[ERROR]   symbol:   class FileOutputStream
+[ERROR]   location: class org.apache.commons.csv.CSVRecordTest
+[ERROR] ./commons-csv/src/test/java/org/apache/commons/csv/CSVRecordTest.java:[246,41] cannot find symbol
+[ERROR]   symbol:   class FileOutputStream
+[ERROR]   location: class org.apache.commons.csv.CSVRecordTest
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException

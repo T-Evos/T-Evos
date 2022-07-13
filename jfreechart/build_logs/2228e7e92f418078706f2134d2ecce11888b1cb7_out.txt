@@ -1,0 +1,630 @@
+[INFO] Scanning for projects...
+[INFO] Inspecting build with total of 1 modules...
+[INFO] Installing Nexus Staging features:
+[INFO]   ... total of 1 executions of maven-deploy-plugin replaced with nexus-staging-maven-plugin
+[INFO] 
+[INFO] ------------------------< org.jfree:jfreechart >------------------------
+[INFO] Building JFreeChart 1.0.20-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ jfreechart ---
+[INFO] Deleting ./jfreechart/target
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.2:enforce (enforce-maven) @ jfreechart ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ jfreechart ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 39 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ jfreechart ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ jfreechart ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory ./jfreechart/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ jfreechart ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 366 source files to ./jfreechart/target/test-classes
+[INFO] -------------------------------------------------------------
+[WARNING] COMPILATION WARNING : 
+[INFO] -------------------------------------------------------------
+[WARNING] ./jfreechart/src/test/java/org/jfree/data/time/TimeSeriesCollectionTest.java: Some input files use unchecked or unsafe operations.
+[WARNING] ./jfreechart/src/test/java/org/jfree/data/time/TimeSeriesCollectionTest.java: Recompile with -Xlint:unchecked for details.
+[INFO] 2 warnings 
+[INFO] -------------------------------------------------------------
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] ./jfreechart/src/test/java/org/jfree/chart/renderer/category/StatisticalLineAndShapeRendererTest.java:[54,23] cannot find symbol
+  symbol:   class JFreeChart
+  location: package org.jfree.chart
+[ERROR] ./jfreechart/src/test/java/org/jfree/chart/renderer/category/StatisticalLineAndShapeRendererTest.java:[56,28] cannot find symbol
+  symbol:   class CategoryAxis
+  location: package org.jfree.chart.axis
+[ERROR] ./jfreechart/src/test/java/org/jfree/chart/renderer/category/StatisticalLineAndShapeRendererTest.java:[57,28] cannot find symbol
+  symbol:   class NumberAxis
+  location: package org.jfree.chart.axis
+[ERROR] ./jfreechart/src/test/java/org/jfree/chart/renderer/category/StatisticalLineAndShapeRendererTest.java:[58,28] cannot find symbol
+  symbol:   class CategoryPlot
+  location: package org.jfree.chart.plot
+[ERROR] ./jfreechart/src/test/java/org/jfree/chart/renderer/category/StatisticalLineAndShapeRendererTest.java:[59,22] cannot find symbol
+  symbol:   class Range
+  location: package org.jfree.data
+[ERROR] ./jfreechart/src/test/java/org/jfree/chart/renderer/category/StatisticalLineAndShapeRendererTest.java:[60,33] cannot find symbol
+  symbol:   class DefaultStatisticalCategoryDataset
+  location: package org.jfree.data.statistics
+[ERROR] ./jfreechart/src/test/java/org/jfree/chart/title/PaintScaleLegendTest.java:[54,28] cannot find symbol
+  symbol:   class AxisLocation
+  location: package org.jfree.chart.axis
+[ERROR] ./jfreechart/src/test/java/org/jfree/chart/title/PaintScaleLegendTest.java:[55,28] cannot find symbol
+  symbol:   class NumberAxis
+  location: package org.jfree.chart.axis
+[ERROR] ./jfreechart/src/test/java/org/jfree/chart/title/PaintScaleLegendTest.java:[56,32] cannot find symbol
+  symbol:   class GrayPaintScale
+  location: package org.jfree.chart.renderer
+[ERROR] ./jfreechart/src/test/java/org/jfree/chart/title/PaintScaleLegendTest.java:[57,32] cannot find symbol
+  symbol:   class LookupPaintScale
+  location: package org.jfree.chart.renderer
+[ERROR] ./jfreechart/src/test/java/org/jfree/chart/renderer/xy/StackedXYBarRendererTest.java:[53,23] cannot find symbol
+  symbol:   class ChartFactory
+  location: package org.jfree.chart
+[ERROR] ./jfreechart/src/test/java/org/jfree/chart/renderer/xy/StackedXYBarRendererTest.java:[54,23] cannot find symbol
+  symbol:   class JFreeChart
+  location: package org.jfree.chart
+[ERROR] ./jfreechart/src/test/java/org/jfree/chart/renderer/xy/StackedXYBarRendererTest.java:[56,28] cannot find symbol
+  symbol:   class NumberAxis
+  location: package org.jfree.chart.axis
+[ERROR] ./jfreechart/src/test/java/org/jfree/chart/renderer/xy/StackedXYBarRendererTest.java:[57,28] cannot find symbol
+  symbol:   class PlotOrientation
+  location: package org.jfree.chart.plot
+[ERROR] ./jfreechart/src/test/java/org/jfree/chart/renderer/xy/StackedXYBarRendererTest.java:[58,28] cannot find symbol
+  symbol:   class XYPlot
+  location: package org.jfree.chart.plot
+[ERROR] ./jfreechart/src/test/java/org/jfree/chart/renderer/xy/StackedXYBarRendererTest.java:[59,22] cannot find symbol
+  symbol:   class Range
+  location: package org.jfree.data
+[ERROR] ./jfreechart/src/test/java/org/jfree/chart/renderer/xy/StackedXYBarRendererTest.java:[60,25] cannot find symbol
+  symbol:   class TableXYDataset
+  location: package org.jfree.data.xy
+[ERROR] ./jfreechart/src/test/java/org/jfree/chart/axis/SegmentedTimelineAdditionalTest.java:[363,13] cannot find symbol
+  symbol:   class SegmentedTimeline
+  location: class org.jfree.chart.axis.SegmentedTimelineAdditionalTest
+[ERROR] ./jfreechart/src/test/java/org/jfree/chart/axis/SegmentedTimelineAdditionalTest.java:[396,13] cannot find symbol
+  symbol:   class SegmentedTimeline
+  location: class org.jfree.chart.axis.SegmentedTimelineAdditionalTest
+[ERROR] ./jfreechart/src/test/java/org/jfree/data/time/TimePeriodValuesTest.java:[53,30] cannot find symbol
+  symbol:   class SeriesChangeEvent
+  location: package org.jfree.data.general
+[ERROR] ./jfreechart/src/test/java/org/jfree/data/time/TimePeriodValuesTest.java:[54,30] cannot find symbol
+  symbol:   class SeriesChangeListener
+  location: package org.jfree.data.general
+[ERROR] ./jfreechart/src/test/java/org/jfree/data/time/TimePeriodValuesTest.java:[65,13] cannot find symbol
+  symbol:   class TimePeriodValues
+  location: class org.jfree.data.time.TimePeriodValuesTest
+[ERROR] ./jfreechart/src/test/java/org/jfree/data/time/TimePeriodValuesTest.java:[68,13] cannot find symbol
+  symbol:   class TimePeriodValues
+  location: class org.jfree.data.time.TimePeriodValuesTest
+[ERROR] ./jfreechart/src/test/java/org/jfree/data/time/TimePeriodValuesTest.java:[71,13] cannot find symbol
+  symbol:   class TimePeriodValues
+  location: class org.jfree.data.time.TimePeriodValuesTest
+[ERROR] ./jfreechart/src/test/java/org/jfree/data/time/TimePeriodValuesTest.java:[335,52] cannot find symbol
+  symbol:   class SeriesChangeListener
+  location: class org.jfree.data.time.TimePeriodValuesTest
+[ERROR] ./jfreechart/src/test/java/org/jfree/data/time/TimePeriodValuesTest.java:[337,9] cannot find symbol
+  symbol:   class SeriesChangeEvent
+  location: class org.jfree.data.time.TimePeriodValuesTest.MySeriesChangeListener
+[ERROR] ./jfreechart/src/test/java/org/jfree/data/time/TimePeriodValuesTest.java:[351,16] cannot find symbol
+  symbol:   class SeriesChangeEvent
+  location: class org.jfree.data.time.TimePeriodValuesTest.MySeriesChangeListener
+[ERROR] ./jfreechart/src/test/java/org/jfree/data/time/TimePeriodValuesTest.java:[368,35] cannot find symbol
+  symbol:   class SeriesChangeEvent
+  location: class org.jfree.data.time.TimePeriodValuesTest.MySeriesChangeListener
+[ERROR] ./jfreechart/src/test/java/org/jfree/chart/annotations/CategoryTextAnnotationTest.java:[51,28] cannot find symbol
+  symbol:   class CategoryAnchor
+  location: package org.jfree.chart.axis
+[ERROR] ./jfreechart/src/test/java/org/jfree/chart/StackedAreaChartTest.java:[51,28] cannot find symbol
+  symbol:   class ValueAxis
+  location: package org.jfree.chart.axis
+[ERROR] ./jfreechart/src/test/java/org/jfree/chart/StackedAreaChartTest.java:[52,29] package org.jfree.chart.event does not exist
+[ERROR] ./jfreechart/src/test/java/org/jfree/chart/StackedAreaChartTest.java:[53,29] package org.jfree.chart.event does not exist
+[ERROR] ./jfreechart/src/test/java/org/jfree/chart/StackedAreaChartTest.java:[54,30] cannot find symbol
+  symbol:   class CategoryToolTipGenerator
+  location: package org.jfree.chart.labels
+[ERROR] ./jfreechart/src/test/java/org/jfree/chart/StackedAreaChartTest.java:[55,30] cannot find symbol
+  symbol:   class StandardCategoryToolTipGenerator
+  location: package org.jfree.chart.labels
+[ERROR] ./jfreechart/src/test/java/org/jfree/chart/StackedAreaChartTest.java:[56,28] cannot find symbol
+  symbol:   class CategoryPlot
+  location: package org.jfree.chart.plot
+[ERROR] ./jfreechart/src/test/java/org/jfree/chart/StackedAreaChartTest.java:[57,28] cannot find symbol
+  symbol:   class PlotOrientation
+  location: package org.jfree.chart.plot
+[ERROR] ./jfreechart/src/test/java/org/jfree/chart/StackedAreaChartTest.java:[58,41] cannot find symbol
+  symbol:   class CategoryItemRenderer
+  location: package org.jfree.chart.renderer.category
+[ERROR] ./jfreechart/src/test/java/org/jfree/chart/StackedAreaChartTest.java:[59,28] cannot find symbol
+  symbol:   class CategoryURLGenerator
+  location: package org.jfree.chart.urls
+[ERROR] ./jfreechart/src/test/java/org/jfree/chart/StackedAreaChartTest.java:[60,28] cannot find symbol
+  symbol:   class StandardCategoryURLGenerator
+  location: package org.jfree.chart.urls
+[ERROR] ./jfreechart/src/test/java/org/jfree/chart/StackedAreaChartTest.java:[61,22] cannot find symbol
+  symbol:   class Range
+  location: package org.jfree.data
+[ERROR] ./jfreechart/src/test/java/org/jfree/chart/StackedAreaChartTest.java:[62,31] cannot find symbol
+  symbol:   class CategoryDataset
+  location: package org.jfree.data.category
+[ERROR] ./jfreechart/src/test/java/org/jfree/chart/StackedAreaChartTest.java:[63,30] cannot find symbol
+  symbol:   class DatasetUtilities
+  location: package org.jfree.data.general
+[ERROR] ./jfreechart/src/test/java/org/jfree/chart/StackedAreaChartTest.java:[73,13] cannot find symbol
+  symbol:   class JFreeChart
+  location: class org.jfree.chart.StackedAreaChartTest
+[ERROR] ./jfreechart/src/test/java/org/jfree/chart/StackedAreaChartTest.java:[164,20] cannot find symbol
+  symbol:   class JFreeChart
+  location: class org.jfree.chart.StackedAreaChartTest
+[ERROR] ./jfreechart/src/test/java/org/jfree/chart/StackedAreaChartTest.java:[187,43] cannot find symbol
+  symbol:   class ChartChangeListener
+  location: class org.jfree.chart.StackedAreaChartTest
+[ERROR] ./jfreechart/src/test/java/org/jfree/chart/StackedAreaChartTest.java:[198,34] cannot find symbol
+  symbol:   class ChartChangeEvent
+  location: class org.jfree.chart.StackedAreaChartTest.LocalListener
+[ERROR] ./jfreechart/src/test/java/org/jfree/chart/axis/ModuloAxisTest.java:[49,22] cannot find symbol
+  symbol:   class Range
+  location: package org.jfree.data
+[ERROR] ./jfreechart/src/test/java/org/jfree/chart/renderer/xy/HighLowRendererTest.java:[58,22] cannot find symbol
+  symbol:   class Range
+  location: package org.jfree.data
+[ERROR] ./jfreechart/src/test/java/org/jfree/chart/renderer/xy/HighLowRendererTest.java:[59,25] cannot find symbol
+  symbol:   class DefaultOHLCDataset
+  location: package org.jfree.data.xy
+[ERROR] ./jfreechart/src/test/java/org/jfree/chart/renderer/xy/HighLowRendererTest.java:[60,25] cannot find symbol
+  symbol:   class OHLCDataItem
+  location: package org.jfree.data.xy
+[ERROR] ./jfreechart/src/test/java/org/jfree/chart/renderer/xy/HighLowRendererTest.java:[61,25] cannot find symbol
+  symbol:   class OHLCDataset
+  location: package org.jfree.data.xy
+[ERROR] ./jfreechart/src/test/java/org/jfree/data/xy/DefaultXYDatasetTest.java:[214,12] cannot find symbol
+  symbol:   class DefaultXYDataset
+  location: class org.jfree.data.xy.DefaultXYDatasetTest
+[ERROR] ./jfreechart/src/test/java/org/jfree/chart/entity/StandardEntityCollectionTest.java:[51,30] cannot find symbol
+  symbol:   class DefaultPieDataset
+  location: package org.jfree.data.general
+[ERROR] ./jfreechart/src/test/java/org/jfree/chart/renderer/category/CategoryStepRendererTest.java:[50,23] cannot find symbol
+  symbol:   class JFreeChart
+  location: package org.jfree.chart
+[ERROR] ./jfreechart/src/test/java/org/jfree/chart/renderer/category/CategoryStepRendererTest.java:[51,23] cannot find symbol
+  symbol:   class LegendItem
+  location: package org.jfree.chart
+[ERROR] ./jfreechart/src/test/java/org/jfree/chart/renderer/category/CategoryStepRendererTest.java:[53,28] cannot find symbol
+  symbol:   class CategoryAxis
+  location: package org.jfree.chart.axis
+[ERROR] ./jfreechart/src/test/java/org/jfree/chart/renderer/category/CategoryStepRendererTest.java:[54,28] cannot find symbol
+  symbol:   class NumberAxis
+  location: package org.jfree.chart.axis
+[ERROR] ./jfreechart/src/test/java/org/jfree/chart/renderer/category/CategoryStepRendererTest.java:[55,28] cannot find symbol
+  symbol:   class CategoryPlot
+  location: package org.jfree.chart.plot
+[ERROR] ./jfreechart/src/test/java/org/jfree/chart/renderer/category/CategoryStepRendererTest.java:[56,31] cannot find symbol
+  symbol:   class DefaultCategoryDataset
+  location: package org.jfree.data.category
+[ERROR] ./jfreechart/src/test/java/org/jfree/chart/StackedBarChartTest.java:[55,28] cannot find symbol
+  symbol:   class ValueAxis
+  location: package org.jfree.chart.axis
+[ERROR] ./jfreechart/src/test/java/org/jfree/chart/StackedBarChartTest.java:[56,29] package org.jfree.chart.event does not exist
+[ERROR] ./jfreechart/src/test/java/org/jfree/chart/StackedBarChartTest.java:[57,29] package org.jfree.chart.event does not exist
+[ERROR] ./jfreechart/src/test/java/org/jfree/chart/StackedBarChartTest.java:[58,30] cannot find symbol
+  symbol:   class CategoryToolTipGenerator
+  location: package org.jfree.chart.labels
+[ERROR] ./jfreechart/src/test/java/org/jfree/chart/StackedBarChartTest.java:[59,30] cannot find symbol
+  symbol:   class StandardCategoryToolTipGenerator
+  location: package org.jfree.chart.labels
+[ERROR] ./jfreechart/src/test/java/org/jfree/chart/StackedBarChartTest.java:[60,28] cannot find symbol
+  symbol:   class CategoryPlot
+  location: package org.jfree.chart.plot
+[ERROR] ./jfreechart/src/test/java/org/jfree/chart/StackedBarChartTest.java:[61,28] cannot find symbol
+  symbol:   class PlotOrientation
+  location: package org.jfree.chart.plot
+[ERROR] ./jfreechart/src/test/java/org/jfree/chart/StackedBarChartTest.java:[62,41] cannot find symbol
+  symbol:   class CategoryItemRenderer
+  location: package org.jfree.chart.renderer.category
+[ERROR] ./jfreechart/src/test/java/org/jfree/chart/StackedBarChartTest.java:[63,28] cannot find symbol
+  symbol:   class CategoryURLGenerator
+  location: package org.jfree.chart.urls
+[ERROR] ./jfreechart/src/test/java/org/jfree/chart/StackedBarChartTest.java:[64,28] cannot find symbol
+  symbol:   class StandardCategoryURLGenerator
+  location: package org.jfree.chart.urls
+[ERROR] ./jfreechart/src/test/java/org/jfree/chart/StackedBarChartTest.java:[65,22] cannot find symbol
+  symbol:   class Range
+  location: package org.jfree.data
+[ERROR] ./jfreechart/src/test/java/org/jfree/chart/StackedBarChartTest.java:[66,31] cannot find symbol
+  symbol:   class CategoryDataset
+  location: package org.jfree.data.category
+[ERROR] ./jfreechart/src/test/java/org/jfree/chart/StackedBarChartTest.java:[67,30] cannot find symbol
+  symbol:   class DatasetUtilities
+  location: package org.jfree.data.general
+[ERROR] ./jfreechart/src/test/java/org/jfree/chart/StackedBarChartTest.java:[77,13] cannot find symbol
+  symbol:   class JFreeChart
+  location: class org.jfree.chart.StackedBarChartTest
+[ERROR] ./jfreechart/src/test/java/org/jfree/chart/StackedBarChartTest.java:[170,20] cannot find symbol
+  symbol:   class JFreeChart
+  location: class org.jfree.chart.StackedBarChartTest
+[ERROR] ./jfreechart/src/test/java/org/jfree/chart/StackedBarChartTest.java:[193,43] cannot find symbol
+  symbol:   class ChartChangeListener
+  location: class org.jfree.chart.StackedBarChartTest
+[ERROR] ./jfreechart/src/test/java/org/jfree/chart/StackedBarChartTest.java:[204,34] cannot find symbol
+  symbol:   class ChartChangeEvent
+  location: class org.jfree.chart.StackedBarChartTest.LocalListener
+[ERROR] ./jfreechart/src/test/java/org/jfree/chart/plot/PiePlot3DTest.java:[54,23] cannot find symbol
+  symbol:   class ChartFactory
+  location: package org.jfree.chart
+[ERROR] ./jfreechart/src/test/java/org/jfree/chart/plot/PiePlot3DTest.java:[55,23] cannot find symbol
+  symbol:   class JFreeChart
+  location: package org.jfree.chart
+[ERROR] ./jfreechart/src/test/java/org/jfree/chart/renderer/xy/XYStepRendererTest.java:[50,23] cannot find symbol
+  symbol:   class JFreeChart
+  location: package org.jfree.chart
+[ERROR] ./jfreechart/src/test/java/org/jfree/chart/renderer/xy/XYStepRendererTest.java:[52,28] cannot find symbol
+  symbol:   class NumberAxis
+  location: package org.jfree.chart.axis
+[ERROR] ./jfreechart/src/test/java/org/jfree/chart/renderer/xy/XYStepRendererTest.java:[53,28] cannot find symbol
+  symbol:   class XYPlot
+  location: package org.jfree.chart.plot
+[ERROR] ./jfreechart/src/test/java/org/jfree/chart/renderer/xy/XYStepRendererTest.java:[54,25] cannot find symbol
+  symbol:   class DefaultTableXYDataset
+  location: package org.jfree.data.xy
+[ERROR] ./jfreechart/src/test/java/org/jfree/chart/renderer/xy/XYStepRendererTest.java:[55,25] cannot find symbol
+  symbol:   class XYSeries
+  location: package org.jfree.data.xy
+[ERROR] ./jfreechart/src/test/java/org/jfree/chart/StackedBarChart3DTest.java:[51,28] cannot find symbol
+  symbol:   class ValueAxis
+  location: package org.jfree.chart.axis
+[ERROR] ./jfreechart/src/test/java/org/jfree/chart/StackedBarChart3DTest.java:[52,29] package org.jfree.chart.event does not exist
+[ERROR] ./jfreechart/src/test/java/org/jfree/chart/StackedBarChart3DTest.java:[53,29] package org.jfree.chart.event does not exist
+[ERROR] ./jfreechart/src/test/java/org/jfree/chart/StackedBarChart3DTest.java:[54,30] cannot find symbol
+  symbol:   class CategoryToolTipGenerator
+  location: package org.jfree.chart.labels
+[ERROR] ./jfreechart/src/test/java/org/jfree/chart/StackedBarChart3DTest.java:[55,30] cannot find symbol
+  symbol:   class StandardCategoryToolTipGenerator
+  location: package org.jfree.chart.labels
+[ERROR] ./jfreechart/src/test/java/org/jfree/chart/StackedBarChart3DTest.java:[56,28] cannot find symbol
+  symbol:   class CategoryPlot
+  location: package org.jfree.chart.plot
+[ERROR] ./jfreechart/src/test/java/org/jfree/chart/StackedBarChart3DTest.java:[57,28] cannot find symbol
+  symbol:   class PlotOrientation
+  location: package org.jfree.chart.plot
+[ERROR] ./jfreechart/src/test/java/org/jfree/chart/StackedBarChart3DTest.java:[58,41] cannot find symbol
+  symbol:   class CategoryItemRenderer
+  location: package org.jfree.chart.renderer.category
+[ERROR] ./jfreechart/src/test/java/org/jfree/chart/StackedBarChart3DTest.java:[59,28] cannot find symbol
+  symbol:   class CategoryURLGenerator
+  location: package org.jfree.chart.urls
+[ERROR] ./jfreechart/src/test/java/org/jfree/chart/StackedBarChart3DTest.java:[60,28] cannot find symbol
+  symbol:   class StandardCategoryURLGenerator
+  location: package org.jfree.chart.urls
+[ERROR] ./jfreechart/src/test/java/org/jfree/chart/StackedBarChart3DTest.java:[61,22] cannot find symbol
+  symbol:   class Range
+  location: package org.jfree.data
+[ERROR] ./jfreechart/src/test/java/org/jfree/chart/StackedBarChart3DTest.java:[62,31] cannot find symbol
+  symbol:   class CategoryDataset
+  location: package org.jfree.data.category
+[ERROR] ./jfreechart/src/test/java/org/jfree/chart/StackedBarChart3DTest.java:[63,30] cannot find symbol
+  symbol:   class DatasetUtilities
+  location: package org.jfree.data.general
+[ERROR] ./jfreechart/src/test/java/org/jfree/chart/StackedBarChart3DTest.java:[73,13] cannot find symbol
+  symbol:   class JFreeChart
+  location: class org.jfree.chart.StackedBarChart3DTest
+[ERROR] ./jfreechart/src/test/java/org/jfree/chart/StackedBarChart3DTest.java:[166,20] cannot find symbol
+  symbol:   class JFreeChart
+  location: class org.jfree.chart.StackedBarChart3DTest
+[ERROR] ./jfreechart/src/test/java/org/jfree/chart/StackedBarChart3DTest.java:[190,43] cannot find symbol
+  symbol:   class ChartChangeListener
+  location: class org.jfree.chart.StackedBarChart3DTest
+[ERROR] ./jfreechart/src/test/java/org/jfree/chart/StackedBarChart3DTest.java:[201,34] cannot find symbol
+  symbol:   class ChartChangeEvent
+  location: class org.jfree.chart.StackedBarChart3DTest.LocalListener
+[INFO] 100 errors 
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  5.861 s
+[INFO] Finished at: 
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.1:testCompile (default-testCompile) on project jfreechart: Compilation failure: Compilation failure: 
+[ERROR] ./jfreechart/src/test/java/org/jfree/chart/renderer/category/StatisticalLineAndShapeRendererTest.java:[54,23] cannot find symbol
+[ERROR]   symbol:   class JFreeChart
+[ERROR]   location: package org.jfree.chart
+[ERROR] ./jfreechart/src/test/java/org/jfree/chart/renderer/category/StatisticalLineAndShapeRendererTest.java:[56,28] cannot find symbol
+[ERROR]   symbol:   class CategoryAxis
+[ERROR]   location: package org.jfree.chart.axis
+[ERROR] ./jfreechart/src/test/java/org/jfree/chart/renderer/category/StatisticalLineAndShapeRendererTest.java:[57,28] cannot find symbol
+[ERROR]   symbol:   class NumberAxis
+[ERROR]   location: package org.jfree.chart.axis
+[ERROR] ./jfreechart/src/test/java/org/jfree/chart/renderer/category/StatisticalLineAndShapeRendererTest.java:[58,28] cannot find symbol
+[ERROR]   symbol:   class CategoryPlot
+[ERROR]   location: package org.jfree.chart.plot
+[ERROR] ./jfreechart/src/test/java/org/jfree/chart/renderer/category/StatisticalLineAndShapeRendererTest.java:[59,22] cannot find symbol
+[ERROR]   symbol:   class Range
+[ERROR]   location: package org.jfree.data
+[ERROR] ./jfreechart/src/test/java/org/jfree/chart/renderer/category/StatisticalLineAndShapeRendererTest.java:[60,33] cannot find symbol
+[ERROR]   symbol:   class DefaultStatisticalCategoryDataset
+[ERROR]   location: package org.jfree.data.statistics
+[ERROR] ./jfreechart/src/test/java/org/jfree/chart/title/PaintScaleLegendTest.java:[54,28] cannot find symbol
+[ERROR]   symbol:   class AxisLocation
+[ERROR]   location: package org.jfree.chart.axis
+[ERROR] ./jfreechart/src/test/java/org/jfree/chart/title/PaintScaleLegendTest.java:[55,28] cannot find symbol
+[ERROR]   symbol:   class NumberAxis
+[ERROR]   location: package org.jfree.chart.axis
+[ERROR] ./jfreechart/src/test/java/org/jfree/chart/title/PaintScaleLegendTest.java:[56,32] cannot find symbol
+[ERROR]   symbol:   class GrayPaintScale
+[ERROR]   location: package org.jfree.chart.renderer
+[ERROR] ./jfreechart/src/test/java/org/jfree/chart/title/PaintScaleLegendTest.java:[57,32] cannot find symbol
+[ERROR]   symbol:   class LookupPaintScale
+[ERROR]   location: package org.jfree.chart.renderer
+[ERROR] ./jfreechart/src/test/java/org/jfree/chart/renderer/xy/StackedXYBarRendererTest.java:[53,23] cannot find symbol
+[ERROR]   symbol:   class ChartFactory
+[ERROR]   location: package org.jfree.chart
+[ERROR] ./jfreechart/src/test/java/org/jfree/chart/renderer/xy/StackedXYBarRendererTest.java:[54,23] cannot find symbol
+[ERROR]   symbol:   class JFreeChart
+[ERROR]   location: package org.jfree.chart
+[ERROR] ./jfreechart/src/test/java/org/jfree/chart/renderer/xy/StackedXYBarRendererTest.java:[56,28] cannot find symbol
+[ERROR]   symbol:   class NumberAxis
+[ERROR]   location: package org.jfree.chart.axis
+[ERROR] ./jfreechart/src/test/java/org/jfree/chart/renderer/xy/StackedXYBarRendererTest.java:[57,28] cannot find symbol
+[ERROR]   symbol:   class PlotOrientation
+[ERROR]   location: package org.jfree.chart.plot
+[ERROR] ./jfreechart/src/test/java/org/jfree/chart/renderer/xy/StackedXYBarRendererTest.java:[58,28] cannot find symbol
+[ERROR]   symbol:   class XYPlot
+[ERROR]   location: package org.jfree.chart.plot
+[ERROR] ./jfreechart/src/test/java/org/jfree/chart/renderer/xy/StackedXYBarRendererTest.java:[59,22] cannot find symbol
+[ERROR]   symbol:   class Range
+[ERROR]   location: package org.jfree.data
+[ERROR] ./jfreechart/src/test/java/org/jfree/chart/renderer/xy/StackedXYBarRendererTest.java:[60,25] cannot find symbol
+[ERROR]   symbol:   class TableXYDataset
+[ERROR]   location: package org.jfree.data.xy
+[ERROR] ./jfreechart/src/test/java/org/jfree/chart/axis/SegmentedTimelineAdditionalTest.java:[363,13] cannot find symbol
+[ERROR]   symbol:   class SegmentedTimeline
+[ERROR]   location: class org.jfree.chart.axis.SegmentedTimelineAdditionalTest
+[ERROR] ./jfreechart/src/test/java/org/jfree/chart/axis/SegmentedTimelineAdditionalTest.java:[396,13] cannot find symbol
+[ERROR]   symbol:   class SegmentedTimeline
+[ERROR]   location: class org.jfree.chart.axis.SegmentedTimelineAdditionalTest
+[ERROR] ./jfreechart/src/test/java/org/jfree/data/time/TimePeriodValuesTest.java:[53,30] cannot find symbol
+[ERROR]   symbol:   class SeriesChangeEvent
+[ERROR]   location: package org.jfree.data.general
+[ERROR] ./jfreechart/src/test/java/org/jfree/data/time/TimePeriodValuesTest.java:[54,30] cannot find symbol
+[ERROR]   symbol:   class SeriesChangeListener
+[ERROR]   location: package org.jfree.data.general
+[ERROR] ./jfreechart/src/test/java/org/jfree/data/time/TimePeriodValuesTest.java:[65,13] cannot find symbol
+[ERROR]   symbol:   class TimePeriodValues
+[ERROR]   location: class org.jfree.data.time.TimePeriodValuesTest
+[ERROR] ./jfreechart/src/test/java/org/jfree/data/time/TimePeriodValuesTest.java:[68,13] cannot find symbol
+[ERROR]   symbol:   class TimePeriodValues
+[ERROR]   location: class org.jfree.data.time.TimePeriodValuesTest
+[ERROR] ./jfreechart/src/test/java/org/jfree/data/time/TimePeriodValuesTest.java:[71,13] cannot find symbol
+[ERROR]   symbol:   class TimePeriodValues
+[ERROR]   location: class org.jfree.data.time.TimePeriodValuesTest
+[ERROR] ./jfreechart/src/test/java/org/jfree/data/time/TimePeriodValuesTest.java:[335,52] cannot find symbol
+[ERROR]   symbol:   class SeriesChangeListener
+[ERROR]   location: class org.jfree.data.time.TimePeriodValuesTest
+[ERROR] ./jfreechart/src/test/java/org/jfree/data/time/TimePeriodValuesTest.java:[337,9] cannot find symbol
+[ERROR]   symbol:   class SeriesChangeEvent
+[ERROR]   location: class org.jfree.data.time.TimePeriodValuesTest.MySeriesChangeListener
+[ERROR] ./jfreechart/src/test/java/org/jfree/data/time/TimePeriodValuesTest.java:[351,16] cannot find symbol
+[ERROR]   symbol:   class SeriesChangeEvent
+[ERROR]   location: class org.jfree.data.time.TimePeriodValuesTest.MySeriesChangeListener
+[ERROR] ./jfreechart/src/test/java/org/jfree/data/time/TimePeriodValuesTest.java:[368,35] cannot find symbol
+[ERROR]   symbol:   class SeriesChangeEvent
+[ERROR]   location: class org.jfree.data.time.TimePeriodValuesTest.MySeriesChangeListener
+[ERROR] ./jfreechart/src/test/java/org/jfree/chart/annotations/CategoryTextAnnotationTest.java:[51,28] cannot find symbol
+[ERROR]   symbol:   class CategoryAnchor
+[ERROR]   location: package org.jfree.chart.axis
+[ERROR] ./jfreechart/src/test/java/org/jfree/chart/StackedAreaChartTest.java:[51,28] cannot find symbol
+[ERROR]   symbol:   class ValueAxis
+[ERROR]   location: package org.jfree.chart.axis
+[ERROR] ./jfreechart/src/test/java/org/jfree/chart/StackedAreaChartTest.java:[52,29] package org.jfree.chart.event does not exist
+[ERROR] ./jfreechart/src/test/java/org/jfree/chart/StackedAreaChartTest.java:[53,29] package org.jfree.chart.event does not exist
+[ERROR] ./jfreechart/src/test/java/org/jfree/chart/StackedAreaChartTest.java:[54,30] cannot find symbol
+[ERROR]   symbol:   class CategoryToolTipGenerator
+[ERROR]   location: package org.jfree.chart.labels
+[ERROR] ./jfreechart/src/test/java/org/jfree/chart/StackedAreaChartTest.java:[55,30] cannot find symbol
+[ERROR]   symbol:   class StandardCategoryToolTipGenerator
+[ERROR]   location: package org.jfree.chart.labels
+[ERROR] ./jfreechart/src/test/java/org/jfree/chart/StackedAreaChartTest.java:[56,28] cannot find symbol
+[ERROR]   symbol:   class CategoryPlot
+[ERROR]   location: package org.jfree.chart.plot
+[ERROR] ./jfreechart/src/test/java/org/jfree/chart/StackedAreaChartTest.java:[57,28] cannot find symbol
+[ERROR]   symbol:   class PlotOrientation
+[ERROR]   location: package org.jfree.chart.plot
+[ERROR] ./jfreechart/src/test/java/org/jfree/chart/StackedAreaChartTest.java:[58,41] cannot find symbol
+[ERROR]   symbol:   class CategoryItemRenderer
+[ERROR]   location: package org.jfree.chart.renderer.category
+[ERROR] ./jfreechart/src/test/java/org/jfree/chart/StackedAreaChartTest.java:[59,28] cannot find symbol
+[ERROR]   symbol:   class CategoryURLGenerator
+[ERROR]   location: package org.jfree.chart.urls
+[ERROR] ./jfreechart/src/test/java/org/jfree/chart/StackedAreaChartTest.java:[60,28] cannot find symbol
+[ERROR]   symbol:   class StandardCategoryURLGenerator
+[ERROR]   location: package org.jfree.chart.urls
+[ERROR] ./jfreechart/src/test/java/org/jfree/chart/StackedAreaChartTest.java:[61,22] cannot find symbol
+[ERROR]   symbol:   class Range
+[ERROR]   location: package org.jfree.data
+[ERROR] ./jfreechart/src/test/java/org/jfree/chart/StackedAreaChartTest.java:[62,31] cannot find symbol
+[ERROR]   symbol:   class CategoryDataset
+[ERROR]   location: package org.jfree.data.category
+[ERROR] ./jfreechart/src/test/java/org/jfree/chart/StackedAreaChartTest.java:[63,30] cannot find symbol
+[ERROR]   symbol:   class DatasetUtilities
+[ERROR]   location: package org.jfree.data.general
+[ERROR] ./jfreechart/src/test/java/org/jfree/chart/StackedAreaChartTest.java:[73,13] cannot find symbol
+[ERROR]   symbol:   class JFreeChart
+[ERROR]   location: class org.jfree.chart.StackedAreaChartTest
+[ERROR] ./jfreechart/src/test/java/org/jfree/chart/StackedAreaChartTest.java:[164,20] cannot find symbol
+[ERROR]   symbol:   class JFreeChart
+[ERROR]   location: class org.jfree.chart.StackedAreaChartTest
+[ERROR] ./jfreechart/src/test/java/org/jfree/chart/StackedAreaChartTest.java:[187,43] cannot find symbol
+[ERROR]   symbol:   class ChartChangeListener
+[ERROR]   location: class org.jfree.chart.StackedAreaChartTest
+[ERROR] ./jfreechart/src/test/java/org/jfree/chart/StackedAreaChartTest.java:[198,34] cannot find symbol
+[ERROR]   symbol:   class ChartChangeEvent
+[ERROR]   location: class org.jfree.chart.StackedAreaChartTest.LocalListener
+[ERROR] ./jfreechart/src/test/java/org/jfree/chart/axis/ModuloAxisTest.java:[49,22] cannot find symbol
+[ERROR]   symbol:   class Range
+[ERROR]   location: package org.jfree.data
+[ERROR] ./jfreechart/src/test/java/org/jfree/chart/renderer/xy/HighLowRendererTest.java:[58,22] cannot find symbol
+[ERROR]   symbol:   class Range
+[ERROR]   location: package org.jfree.data
+[ERROR] ./jfreechart/src/test/java/org/jfree/chart/renderer/xy/HighLowRendererTest.java:[59,25] cannot find symbol
+[ERROR]   symbol:   class DefaultOHLCDataset
+[ERROR]   location: package org.jfree.data.xy
+[ERROR] ./jfreechart/src/test/java/org/jfree/chart/renderer/xy/HighLowRendererTest.java:[60,25] cannot find symbol
+[ERROR]   symbol:   class OHLCDataItem
+[ERROR]   location: package org.jfree.data.xy
+[ERROR] ./jfreechart/src/test/java/org/jfree/chart/renderer/xy/HighLowRendererTest.java:[61,25] cannot find symbol
+[ERROR]   symbol:   class OHLCDataset
+[ERROR]   location: package org.jfree.data.xy
+[ERROR] ./jfreechart/src/test/java/org/jfree/data/xy/DefaultXYDatasetTest.java:[214,12] cannot find symbol
+[ERROR]   symbol:   class DefaultXYDataset
+[ERROR]   location: class org.jfree.data.xy.DefaultXYDatasetTest
+[ERROR] ./jfreechart/src/test/java/org/jfree/chart/entity/StandardEntityCollectionTest.java:[51,30] cannot find symbol
+[ERROR]   symbol:   class DefaultPieDataset
+[ERROR]   location: package org.jfree.data.general
+[ERROR] ./jfreechart/src/test/java/org/jfree/chart/renderer/category/CategoryStepRendererTest.java:[50,23] cannot find symbol
+[ERROR]   symbol:   class JFreeChart
+[ERROR]   location: package org.jfree.chart
+[ERROR] ./jfreechart/src/test/java/org/jfree/chart/renderer/category/CategoryStepRendererTest.java:[51,23] cannot find symbol
+[ERROR]   symbol:   class LegendItem
+[ERROR]   location: package org.jfree.chart
+[ERROR] ./jfreechart/src/test/java/org/jfree/chart/renderer/category/CategoryStepRendererTest.java:[53,28] cannot find symbol
+[ERROR]   symbol:   class CategoryAxis
+[ERROR]   location: package org.jfree.chart.axis
+[ERROR] ./jfreechart/src/test/java/org/jfree/chart/renderer/category/CategoryStepRendererTest.java:[54,28] cannot find symbol
+[ERROR]   symbol:   class NumberAxis
+[ERROR]   location: package org.jfree.chart.axis
+[ERROR] ./jfreechart/src/test/java/org/jfree/chart/renderer/category/CategoryStepRendererTest.java:[55,28] cannot find symbol
+[ERROR]   symbol:   class CategoryPlot
+[ERROR]   location: package org.jfree.chart.plot
+[ERROR] ./jfreechart/src/test/java/org/jfree/chart/renderer/category/CategoryStepRendererTest.java:[56,31] cannot find symbol
+[ERROR]   symbol:   class DefaultCategoryDataset
+[ERROR]   location: package org.jfree.data.category
+[ERROR] ./jfreechart/src/test/java/org/jfree/chart/StackedBarChartTest.java:[55,28] cannot find symbol
+[ERROR]   symbol:   class ValueAxis
+[ERROR]   location: package org.jfree.chart.axis
+[ERROR] ./jfreechart/src/test/java/org/jfree/chart/StackedBarChartTest.java:[56,29] package org.jfree.chart.event does not exist
+[ERROR] ./jfreechart/src/test/java/org/jfree/chart/StackedBarChartTest.java:[57,29] package org.jfree.chart.event does not exist
+[ERROR] ./jfreechart/src/test/java/org/jfree/chart/StackedBarChartTest.java:[58,30] cannot find symbol
+[ERROR]   symbol:   class CategoryToolTipGenerator
+[ERROR]   location: package org.jfree.chart.labels
+[ERROR] ./jfreechart/src/test/java/org/jfree/chart/StackedBarChartTest.java:[59,30] cannot find symbol
+[ERROR]   symbol:   class StandardCategoryToolTipGenerator
+[ERROR]   location: package org.jfree.chart.labels
+[ERROR] ./jfreechart/src/test/java/org/jfree/chart/StackedBarChartTest.java:[60,28] cannot find symbol
+[ERROR]   symbol:   class CategoryPlot
+[ERROR]   location: package org.jfree.chart.plot
+[ERROR] ./jfreechart/src/test/java/org/jfree/chart/StackedBarChartTest.java:[61,28] cannot find symbol
+[ERROR]   symbol:   class PlotOrientation
+[ERROR]   location: package org.jfree.chart.plot
+[ERROR] ./jfreechart/src/test/java/org/jfree/chart/StackedBarChartTest.java:[62,41] cannot find symbol
+[ERROR]   symbol:   class CategoryItemRenderer
+[ERROR]   location: package org.jfree.chart.renderer.category
+[ERROR] ./jfreechart/src/test/java/org/jfree/chart/StackedBarChartTest.java:[63,28] cannot find symbol
+[ERROR]   symbol:   class CategoryURLGenerator
+[ERROR]   location: package org.jfree.chart.urls
+[ERROR] ./jfreechart/src/test/java/org/jfree/chart/StackedBarChartTest.java:[64,28] cannot find symbol
+[ERROR]   symbol:   class StandardCategoryURLGenerator
+[ERROR]   location: package org.jfree.chart.urls
+[ERROR] ./jfreechart/src/test/java/org/jfree/chart/StackedBarChartTest.java:[65,22] cannot find symbol
+[ERROR]   symbol:   class Range
+[ERROR]   location: package org.jfree.data
+[ERROR] ./jfreechart/src/test/java/org/jfree/chart/StackedBarChartTest.java:[66,31] cannot find symbol
+[ERROR]   symbol:   class CategoryDataset
+[ERROR]   location: package org.jfree.data.category
+[ERROR] ./jfreechart/src/test/java/org/jfree/chart/StackedBarChartTest.java:[67,30] cannot find symbol
+[ERROR]   symbol:   class DatasetUtilities
+[ERROR]   location: package org.jfree.data.general
+[ERROR] ./jfreechart/src/test/java/org/jfree/chart/StackedBarChartTest.java:[77,13] cannot find symbol
+[ERROR]   symbol:   class JFreeChart
+[ERROR]   location: class org.jfree.chart.StackedBarChartTest
+[ERROR] ./jfreechart/src/test/java/org/jfree/chart/StackedBarChartTest.java:[170,20] cannot find symbol
+[ERROR]   symbol:   class JFreeChart
+[ERROR]   location: class org.jfree.chart.StackedBarChartTest
+[ERROR] ./jfreechart/src/test/java/org/jfree/chart/StackedBarChartTest.java:[193,43] cannot find symbol
+[ERROR]   symbol:   class ChartChangeListener
+[ERROR]   location: class org.jfree.chart.StackedBarChartTest
+[ERROR] ./jfreechart/src/test/java/org/jfree/chart/StackedBarChartTest.java:[204,34] cannot find symbol
+[ERROR]   symbol:   class ChartChangeEvent
+[ERROR]   location: class org.jfree.chart.StackedBarChartTest.LocalListener
+[ERROR] ./jfreechart/src/test/java/org/jfree/chart/plot/PiePlot3DTest.java:[54,23] cannot find symbol
+[ERROR]   symbol:   class ChartFactory
+[ERROR]   location: package org.jfree.chart
+[ERROR] ./jfreechart/src/test/java/org/jfree/chart/plot/PiePlot3DTest.java:[55,23] cannot find symbol
+[ERROR]   symbol:   class JFreeChart
+[ERROR]   location: package org.jfree.chart
+[ERROR] ./jfreechart/src/test/java/org/jfree/chart/renderer/xy/XYStepRendererTest.java:[50,23] cannot find symbol
+[ERROR]   symbol:   class JFreeChart
+[ERROR]   location: package org.jfree.chart
+[ERROR] ./jfreechart/src/test/java/org/jfree/chart/renderer/xy/XYStepRendererTest.java:[52,28] cannot find symbol
+[ERROR]   symbol:   class NumberAxis
+[ERROR]   location: package org.jfree.chart.axis
+[ERROR] ./jfreechart/src/test/java/org/jfree/chart/renderer/xy/XYStepRendererTest.java:[53,28] cannot find symbol
+[ERROR]   symbol:   class XYPlot
+[ERROR]   location: package org.jfree.chart.plot
+[ERROR] ./jfreechart/src/test/java/org/jfree/chart/renderer/xy/XYStepRendererTest.java:[54,25] cannot find symbol
+[ERROR]   symbol:   class DefaultTableXYDataset
+[ERROR]   location: package org.jfree.data.xy
+[ERROR] ./jfreechart/src/test/java/org/jfree/chart/renderer/xy/XYStepRendererTest.java:[55,25] cannot find symbol
+[ERROR]   symbol:   class XYSeries
+[ERROR]   location: package org.jfree.data.xy
+[ERROR] ./jfreechart/src/test/java/org/jfree/chart/StackedBarChart3DTest.java:[51,28] cannot find symbol
+[ERROR]   symbol:   class ValueAxis
+[ERROR]   location: package org.jfree.chart.axis
+[ERROR] ./jfreechart/src/test/java/org/jfree/chart/StackedBarChart3DTest.java:[52,29] package org.jfree.chart.event does not exist
+[ERROR] ./jfreechart/src/test/java/org/jfree/chart/StackedBarChart3DTest.java:[53,29] package org.jfree.chart.event does not exist
+[ERROR] ./jfreechart/src/test/java/org/jfree/chart/StackedBarChart3DTest.java:[54,30] cannot find symbol
+[ERROR]   symbol:   class CategoryToolTipGenerator
+[ERROR]   location: package org.jfree.chart.labels
+[ERROR] ./jfreechart/src/test/java/org/jfree/chart/StackedBarChart3DTest.java:[55,30] cannot find symbol
+[ERROR]   symbol:   class StandardCategoryToolTipGenerator
+[ERROR]   location: package org.jfree.chart.labels
+[ERROR] ./jfreechart/src/test/java/org/jfree/chart/StackedBarChart3DTest.java:[56,28] cannot find symbol
+[ERROR]   symbol:   class CategoryPlot
+[ERROR]   location: package org.jfree.chart.plot
+[ERROR] ./jfreechart/src/test/java/org/jfree/chart/StackedBarChart3DTest.java:[57,28] cannot find symbol
+[ERROR]   symbol:   class PlotOrientation
+[ERROR]   location: package org.jfree.chart.plot
+[ERROR] ./jfreechart/src/test/java/org/jfree/chart/StackedBarChart3DTest.java:[58,41] cannot find symbol
+[ERROR]   symbol:   class CategoryItemRenderer
+[ERROR]   location: package org.jfree.chart.renderer.category
+[ERROR] ./jfreechart/src/test/java/org/jfree/chart/StackedBarChart3DTest.java:[59,28] cannot find symbol
+[ERROR]   symbol:   class CategoryURLGenerator
+[ERROR]   location: package org.jfree.chart.urls
+[ERROR] ./jfreechart/src/test/java/org/jfree/chart/StackedBarChart3DTest.java:[60,28] cannot find symbol
+[ERROR]   symbol:   class StandardCategoryURLGenerator
+[ERROR]   location: package org.jfree.chart.urls
+[ERROR] ./jfreechart/src/test/java/org/jfree/chart/StackedBarChart3DTest.java:[61,22] cannot find symbol
+[ERROR]   symbol:   class Range
+[ERROR]   location: package org.jfree.data
+[ERROR] ./jfreechart/src/test/java/org/jfree/chart/StackedBarChart3DTest.java:[62,31] cannot find symbol
+[ERROR]   symbol:   class CategoryDataset
+[ERROR]   location: package org.jfree.data.category
+[ERROR] ./jfreechart/src/test/java/org/jfree/chart/StackedBarChart3DTest.java:[63,30] cannot find symbol
+[ERROR]   symbol:   class DatasetUtilities
+[ERROR]   location: package org.jfree.data.general
+[ERROR] ./jfreechart/src/test/java/org/jfree/chart/StackedBarChart3DTest.java:[73,13] cannot find symbol
+[ERROR]   symbol:   class JFreeChart
+[ERROR]   location: class org.jfree.chart.StackedBarChart3DTest
+[ERROR] ./jfreechart/src/test/java/org/jfree/chart/StackedBarChart3DTest.java:[166,20] cannot find symbol
+[ERROR]   symbol:   class JFreeChart
+[ERROR]   location: class org.jfree.chart.StackedBarChart3DTest
+[ERROR] ./jfreechart/src/test/java/org/jfree/chart/StackedBarChart3DTest.java:[190,43] cannot find symbol
+[ERROR]   symbol:   class ChartChangeListener
+[ERROR]   location: class org.jfree.chart.StackedBarChart3DTest
+[ERROR] ./jfreechart/src/test/java/org/jfree/chart/StackedBarChart3DTest.java:[201,34] cannot find symbol
+[ERROR]   symbol:   class ChartChangeEvent
+[ERROR]   location: class org.jfree.chart.StackedBarChart3DTest.LocalListener
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException

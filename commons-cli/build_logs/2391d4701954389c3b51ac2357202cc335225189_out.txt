@@ -1,0 +1,157 @@
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.commons:commons-cli:jar:2.0-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-idea-plugin is missing. @ org.apache.commons:commons-parent:11, ./.m2/repository/org/apache/commons/commons-parent/11/commons-parent-11.pom, line 255, column 15
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO] 
+[INFO] -------------------< org.apache.commons:commons-cli >-------------------
+[INFO] Building Commons CLI 2.0-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ commons-cli ---
+[INFO] Deleting ./commons-cli/target
+[INFO] 
+[INFO] --- maven-antrun-plugin:1.1:run (javadoc.resources) @ commons-cli ---
+[INFO] Executing tasks
+     [copy] Copying 2 files to ./commons-cli/target/apidocs/META-INF
+[INFO] Executed tasks
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ commons-cli ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 1 resource to org/apache/commons/cli2
+[INFO] Copying 2 resources to META-INF
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.0.2:compile (default-compile) @ commons-cli ---
+[INFO] Compiling 43 source files to ./commons-cli/target/classes
+[INFO] 
+[INFO] --- maven-bundle-plugin:1.4.0:manifest (bundle-manifest) @ commons-cli ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ commons-cli ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 1 resource to org/apache/commons/cli2/resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.0.2:testCompile (default-testCompile) @ commons-cli ---
+[INFO] Compiling 55 source files to ./commons-cli/target/test-classes
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.4.3:test (default-test) @ commons-cli ---
+[INFO] Surefire report directory: ./commons-cli/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running org.apache.commons.cli2.validation.FileValidatorTest
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.028 sec
+Running org.apache.commons.cli2.commandline.PreferencesCommandLineTest
+Tests run: 36, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.064 sec
+Running org.apache.commons.cli2.validation.EnumValidatorTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 sec
+Running org.apache.commons.cli2.option.DefaultOptionTest
+Tests run: 14, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.01 sec
+Running org.apache.commons.cli2.option.GroupTest
+Tests run: 24, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.018 sec
+Running org.apache.commons.cli2.builder.ArgumentBuilderTest
+Tests run: 20, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.023 sec
+Running org.apache.commons.cli2.commandline.WriteableCommandLineImplTest
+Tests run: 38, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.022 sec
+Running org.apache.commons.cli2.application.LsTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 sec
+Running org.apache.commons.cli2.bug.Bug32533Test
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec
+Running org.apache.commons.cli2.bug.BugLoopingOptionLookAlikeTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 sec
+Running org.apache.commons.cli2.bug.Bug13886Test
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec
+Running org.apache.commons.cli2.option.CommandTest
+Tests run: 17, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.011 sec
+Running org.apache.commons.cli2.commandline.ParserTest
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 sec
+Running org.apache.commons.cli2.bug.BugCLI122Test
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec
+Running org.apache.commons.cli2.commandline.DefaultingCommandLineTest
+Tests run: 36, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.024 sec
+Running org.apache.commons.cli2.validation.ClassValidatorTest
+Tests run: 13, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 sec
+Running org.apache.commons.cli2.option.NestedGroupTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 sec
+Running org.apache.commons.cli2.option.SwitchTest
+Tests run: 23, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.009 sec
+Running org.apache.commons.cli2.DocumentationTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 sec
+Running org.apache.commons.cli2.PrecedenceTest
+Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 sec
+Running org.apache.commons.cli2.util.ComparatorsTest
+Tests run: 15, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.01 sec
+Running org.apache.commons.cli2.commandline.PropertiesCommandLineTest
+Tests run: 36, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.015 sec
+Running org.apache.commons.cli2.validation.UrlValidatorTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.06 sec
+Running org.apache.commons.cli2.validation.NumberValidatorTest
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.01 sec
+Running org.apache.commons.cli2.application.AntTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec
+Running org.apache.commons.cli2.bug.BugCLI18Test
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec
+Running org.apache.commons.cli2.util.HelpFormatterTest
+Tests run: 23, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.022 sec
+Running org.apache.commons.cli2.bug.Bug13935Test
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec
+Running org.apache.commons.cli2.resource.ResourceHelperTest
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 sec
+Running org.apache.commons.cli2.bug.Bug28005Test
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 sec
+Running org.apache.commons.cli2.bug.BugCLI126Test
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
+Running org.apache.commons.cli2.application.CpTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 sec
+Running org.apache.commons.cli2.builder.DefaultOptionBuilderTest
+Tests run: 11, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 sec
+Running org.apache.commons.cli2.validation.DateValidatorTest
+Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.012 sec
+Running org.apache.commons.cli2.bug.Bug15648Test
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.009 sec
+Running org.apache.commons.cli2.option.ArgumentTest
+Tests run: 36, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.009 sec
+Running org.apache.commons.cli2.bug.BugCLI80Test
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec
+Running org.apache.commons.cli2.application.CvsTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 sec
+Running org.apache.commons.cli2.option.PropertyOptionTest
+Tests run: 17, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 sec
+Running org.apache.commons.cli2.bug.BugCLI12Test
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
+Running org.apache.commons.cli2.bug.Bug27575Test
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 sec
+Running org.apache.commons.cli2.bug.Bug15046Test
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec
+Running org.apache.commons.cli2.bug.BugCLI145Test
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec
+Running org.apache.commons.cli2.CommandLineDefaultsTest
+Tests run: 15, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 sec
+Running org.apache.commons.cli2.option.ParentTest
+Tests run: 26, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.009 sec
+Running org.apache.commons.cli2.jdepend.JDependTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.747 sec
+
+Results :
+
+Tests run: 480, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] 
+[INFO] --- maven-jar-plugin:2.2:jar (default-jar) @ commons-cli ---
+[INFO] Building jar: ./commons-cli/target/commons-cli-2.0-SNAPSHOT.jar
+[INFO] 
+[INFO] --- maven-install-plugin:2.2:install (default-install) @ commons-cli ---
+[INFO] Installing ./commons-cli/target/commons-cli-2.0-SNAPSHOT.jar to ./.m2/repository/org/apache/commons/commons-cli/2.0-SNAPSHOT/commons-cli-2.0-SNAPSHOT.jar
+[INFO] Installing ./commons-cli/pom.xml to ./.m2/repository/org/apache/commons/commons-cli/2.0-SNAPSHOT/commons-cli-2.0-SNAPSHOT.pom
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  5.159 s
+[INFO] Finished at: 
+[INFO] ------------------------------------------------------------------------

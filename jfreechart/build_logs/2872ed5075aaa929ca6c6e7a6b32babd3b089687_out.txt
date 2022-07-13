@@ -1,0 +1,443 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ------------------------< org.jfree:jfreechart >------------------------
+[INFO] Building JFreeChart 1.0.15-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ jfreechart ---
+[INFO] Deleting ./jfreechart/target
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.0:enforce (enforce-maven) @ jfreechart ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.5:resources (default-resources) @ jfreechart ---
+[debug] execute contextualize
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 38 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.2:compile (default-compile) @ jfreechart ---
+[INFO] Compiling 600 source files to ./jfreechart/target/classes
+[INFO] 
+[INFO] --- maven-resources-plugin:2.5:testResources (default-testResources) @ jfreechart ---
+[debug] execute contextualize
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory ./jfreechart/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.2:testCompile (default-testCompile) @ jfreechart ---
+[INFO] Compiling 365 source files to ./jfreechart/target/test-classes
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] ./jfreechart/tests/org/jfree/chart/axis/PeriodAxisLabelInfoTest.java:[44,7] error: static import declarations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable static import declarations)
+./jfreechart/tests/org/jfree/chart/axis/PeriodAxisLabelInfoTest.java:[75,5] error: annotations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable annotations)
+./jfreechart/tests/org/jfree/chart/plot/ValueMarkerTest.java:[48,7] error: static import declarations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable static import declarations)
+./jfreechart/tests/org/jfree/chart/plot/ValueMarkerTest.java:[79,5] error: annotations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable annotations)
+./jfreechart/tests/org/jfree/chart/annotations/CategoryPointerAnnotationTest.java:[44,7] error: static import declarations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable static import declarations)
+./jfreechart/tests/org/jfree/chart/annotations/CategoryPointerAnnotationTest.java:[65,5] error: annotations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable annotations)
+./jfreechart/tests/org/jfree/chart/renderer/xy/XYStepAreaRendererTest.java:[47,7] error: static import declarations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable static import declarations)
+./jfreechart/tests/org/jfree/chart/renderer/xy/XYStepAreaRendererTest.java:[69,5] error: annotations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable annotations)
+./jfreechart/tests/org/jfree/data/time/WeekTest.java:[53,7] error: static import declarations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable static import declarations)
+./jfreechart/tests/org/jfree/data/time/WeekTest.java:[88,5] error: annotations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable annotations)
+./jfreechart/tests/org/jfree/chart/renderer/xy/XYDotRendererTest.java:[46,7] error: static import declarations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable static import declarations)
+./jfreechart/tests/org/jfree/chart/renderer/xy/XYDotRendererTest.java:[70,5] error: annotations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable annotations)
+./jfreechart/tests/org/jfree/data/xy/XYDataItemTest.java:[43,7] error: static import declarations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable static import declarations)
+./jfreechart/tests/org/jfree/data/xy/XYDataItemTest.java:[58,5] error: annotations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable annotations)
+./jfreechart/tests/org/jfree/chart/renderer/category/GradientBarPainterTest.java:[43,7] error: static import declarations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable static import declarations)
+./jfreechart/tests/org/jfree/chart/renderer/category/GradientBarPainterTest.java:[60,5] error: annotations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable annotations)
+./jfreechart/tests/org/jfree/chart/axis/CategoryAxis3DTest.java:[43,7] error: static import declarations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable static import declarations)
+./jfreechart/tests/org/jfree/chart/axis/CategoryAxis3DTest.java:[57,5] error: annotations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable annotations)
+./jfreechart/tests/org/jfree/chart/needle/PointerNeedleTest.java:[43,7] error: static import declarations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable static import declarations)
+./jfreechart/tests/org/jfree/chart/needle/PointerNeedleTest.java:[56,5] error: annotations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable annotations)
+./jfreechart/tests/org/jfree/chart/axis/DateTickTest.java:[43,7] error: static import declarations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable static import declarations)
+./jfreechart/tests/org/jfree/chart/axis/DateTickTest.java:[62,5] error: annotations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable annotations)
+./jfreechart/tests/org/jfree/data/xy/DefaultHighLowDatasetTest.java:[44,7] error: static import declarations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable static import declarations)
+./jfreechart/tests/org/jfree/data/xy/DefaultHighLowDatasetTest.java:[63,5] error: annotations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable annotations)
+./jfreechart/tests/org/jfree/data/general/DefaultHeatMapDatasetTest.java:[44,7] error: static import declarations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable static import declarations)
+./jfreechart/tests/org/jfree/data/general/DefaultHeatMapDatasetTest.java:[75,5] error: annotations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable annotations)
+./jfreechart/tests/org/jfree/chart/axis/StandardTickUnitSourceTest.java:[43,7] error: static import declarations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable static import declarations)
+./jfreechart/tests/org/jfree/chart/axis/StandardTickUnitSourceTest.java:[57,5] error: annotations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable annotations)
+./jfreechart/tests/org/jfree/chart/renderer/xy/XYLineAndShapeRendererTest.java:[47,7] error: static import declarations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable static import declarations)
+./jfreechart/tests/org/jfree/chart/renderer/xy/XYLineAndShapeRendererTest.java:[77,5] error: annotations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable annotations)
+./jfreechart/tests/org/jfree/chart/XYBarChartTest.java:[43,7] error: static import declarations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable static import declarations)
+./jfreechart/tests/org/jfree/chart/XYBarChartTest.java:[78,5] error: annotations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable annotations)
+./jfreechart/tests/org/jfree/chart/renderer/xy/GradientXYBarPainterTest.java:[43,7] error: static import declarations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable static import declarations)
+./jfreechart/tests/org/jfree/chart/renderer/xy/GradientXYBarPainterTest.java:[60,5] error: annotations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable annotations)
+./jfreechart/tests/org/jfree/chart/renderer/xy/StackedXYBarRendererTest.java:[46,7] error: static import declarations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable static import declarations)
+./jfreechart/tests/org/jfree/chart/renderer/xy/StackedXYBarRendererTest.java:[72,5] error: annotations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable annotations)
+./jfreechart/tests/org/jfree/chart/imagemap/StandardToolTipTagFragmentGeneratorTest.java:[43,7] error: static import declarations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable static import declarations)
+./jfreechart/tests/org/jfree/chart/imagemap/StandardToolTipTagFragmentGeneratorTest.java:[54,5] error: annotations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable annotations)
+./jfreechart/tests/org/jfree/data/gantt/TaskTest.java:[48,7] error: static import declarations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable static import declarations)
+./jfreechart/tests/org/jfree/data/gantt/TaskTest.java:[61,5] error: annotations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable annotations)
+./jfreechart/tests/org/jfree/chart/plot/CategoryPlotTest.java:[54,7] error: static import declarations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable static import declarations)
+./jfreechart/tests/org/jfree/chart/plot/CategoryPlotTest.java:[105,5] error: annotations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable annotations)
+./jfreechart/tests/org/jfree/data/time/ohlc/OHLCTest.java:[44,7] error: static import declarations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable static import declarations)
+./jfreechart/tests/org/jfree/data/time/ohlc/OHLCTest.java:[59,5] error: annotations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable annotations)
+./jfreechart/tests/org/jfree/data/xy/XYIntervalSeriesTest.java:[45,7] error: static import declarations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable static import declarations)
+./jfreechart/tests/org/jfree/data/xy/XYIntervalSeriesTest.java:[76,5] error: annotations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable annotations)
+./jfreechart/tests/org/jfree/chart/axis/CategoryAnchorTest.java:[44,7] error: static import declarations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable static import declarations)
+./jfreechart/tests/org/jfree/chart/axis/CategoryAnchorTest.java:[59,5] error: annotations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable annotations)
+./jfreechart/tests/org/jfree/data/statistics/SimpleHistogramDatasetTest.java:[44,7] error: static import declarations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable static import declarations)
+./jfreechart/tests/org/jfree/data/statistics/SimpleHistogramDatasetTest.java:[59,5] error: annotations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable annotations)
+./jfreechart/tests/org/jfree/data/xy/XYIntervalDataItemTest.java:[43,7] error: static import declarations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable static import declarations)
+./jfreechart/tests/org/jfree/data/xy/XYIntervalDataItemTest.java:[59,5] error: annotations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable annotations)
+./jfreechart/tests/org/jfree/chart/needle/LongNeedleTest.java:[43,7] error: static import declarations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable static import declarations)
+./jfreechart/tests/org/jfree/chart/needle/LongNeedleTest.java:[56,5] error: annotations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable annotations)
+./jfreechart/tests/org/jfree/chart/urls/StandardXYURLGeneratorTest.java:[44,7] error: static import declarations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable static import declarations)
+./jfreechart/tests/org/jfree/chart/urls/StandardXYURLGeneratorTest.java:[60,5] error: annotations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable annotations)
+./jfreechart/tests/org/jfree/data/time/TimeSeriesCollectionTest.java:[47,7] error: static import declarations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable static import declarations)
+./jfreechart/tests/org/jfree/data/time/TimeSeriesCollectionTest.java:[69,5] error: annotations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable annotations)
+./jfreechart/tests/org/jfree/data/DomainOrderTest.java:[45,7] error: static import declarations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable static import declarations)
+./jfreechart/tests/org/jfree/data/DomainOrderTest.java:[58,5] error: annotations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable annotations)
+./jfreechart/tests/org/jfree/data/DefaultKeyedValues2DTest.java:[49,7] error: static import declarations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable static import declarations)
+./jfreechart/tests/org/jfree/data/DefaultKeyedValues2DTest.java:[64,5] error: annotations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable annotations)
+./jfreechart/tests/org/jfree/chart/renderer/category/StackedAreaRendererTest.java:[45,7] error: static import declarations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable static import declarations)
+./jfreechart/tests/org/jfree/chart/renderer/category/StackedAreaRendererTest.java:[65,5] error: annotations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable annotations)
+./jfreechart/tests/org/jfree/data/function/NormalDistributionFunction2DTest.java:[45,7] error: static import declarations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable static import declarations)
+./jfreechart/tests/org/jfree/data/function/NormalDistributionFunction2DTest.java:[58,5] error: annotations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable annotations)
+./jfreechart/tests/org/jfree/chart/renderer/category/StatisticalBarRendererTest.java:[47,7] error: static import declarations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable static import declarations)
+./jfreechart/tests/org/jfree/chart/renderer/category/StatisticalBarRendererTest.java:[75,5] error: annotations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable annotations)
+./jfreechart/tests/org/jfree/chart/needle/LineNeedleTest.java:[43,7] error: static import declarations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable static import declarations)
+./jfreechart/tests/org/jfree/chart/needle/LineNeedleTest.java:[56,5] error: annotations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable annotations)
+./jfreechart/tests/org/jfree/chart/renderer/xy/YIntervalRendererTest.java:[47,7] error: static import declarations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable static import declarations)
+./jfreechart/tests/org/jfree/chart/renderer/xy/YIntervalRendererTest.java:[76,5] error: annotations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable annotations)
+./jfreechart/tests/org/jfree/chart/labels/StandardPieToolTipGeneratorTest.java:[50,7] error: static import declarations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable static import declarations)
+./jfreechart/tests/org/jfree/chart/labels/StandardPieToolTipGeneratorTest.java:[70,5] error: annotations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable annotations)
+./jfreechart/tests/org/jfree/data/statistics/DefaultBoxAndWhiskerXYDatasetTest.java:[43,7] error: static import declarations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable static import declarations)
+./jfreechart/tests/org/jfree/data/statistics/DefaultBoxAndWhiskerXYDatasetTest.java:[63,5] error: annotations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable annotations)
+./jfreechart/tests/org/jfree/chart/axis/LogAxisTest.java:[44,7] error: static import declarations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable static import declarations)
+./jfreechart/tests/org/jfree/chart/axis/LogAxisTest.java:[72,5] error: annotations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable annotations)
+./jfreechart/tests/org/jfree/data/time/MonthTest.java:[52,7] error: static import declarations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable static import declarations)
+./jfreechart/tests/org/jfree/data/time/MonthTest.java:[89,5] error: annotations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable annotations)
+./jfreechart/tests/org/jfree/chart/MeterChartTest.java:[62,5] error: annotations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable annotations)
+./jfreechart/tests/org/jfree/chart/labels/BoxAndWhiskerXYToolTipGeneratorTest.java:[46,7] error: static import declarations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable static import declarations)
+./jfreechart/tests/org/jfree/chart/labels/BoxAndWhiskerXYToolTipGeneratorTest.java:[66,5] error: annotations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable annotations)
+./jfreechart/tests/org/jfree/chart/axis/ExtendedCategoryAxisTest.java:[43,7] error: static import declarations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable static import declarations)
+./jfreechart/tests/org/jfree/chart/axis/ExtendedCategoryAxisTest.java:[63,5] error: annotations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable annotations)
+./jfreechart/tests/org/jfree/chart/plot/CompassPlotTest.java:[44,7] error: static import declarations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable static import declarations)
+./jfreechart/tests/org/jfree/chart/plot/CompassPlotTest.java:[65,5] error: annotations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable annotations)
+./jfreechart/tests/org/jfree/chart/LineChartTest.java:[62,7] error: static import declarations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable static import declarations)
+./jfreechart/tests/org/jfree/chart/LineChartTest.java:[77,5] error: annotations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable annotations)
+./jfreechart/tests/org/jfree/data/category/DefaultCategoryDatasetTest.java:[50,7] error: static import declarations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable static import declarations)
+./jfreechart/tests/org/jfree/data/category/DefaultCategoryDatasetTest.java:[64,5] error: annotations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable annotations)
+./jfreechart/tests/org/jfree/data/gantt/TaskSeriesTest.java:[47,7] error: static import declarations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable static import declarations)
+./jfreechart/tests/org/jfree/data/gantt/TaskSeriesTest.java:[60,5] error: annotations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable annotations)
+./jfreechart/tests/org/jfree/chart/renderer/xy/XYBarRendererTest.java:[48,7] error: static import declarations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable static import declarations)
+./jfreechart/tests/org/jfree/chart/renderer/xy/XYBarRendererTest.java:[82,5] error: annotations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable annotations)
+./jfreechart/tests/org/jfree/chart/axis/CategoryLabelPositionsTest.java:[44,7] error: static import declarations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable static import declarations)
+./jfreechart/tests/org/jfree/chart/axis/CategoryLabelPositionsTest.java:[64,5] error: annotations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable annotations)
+./jfreechart/tests/org/jfree/chart/block/ColumnArrangementTest.java:[43,7] error: static import declarations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable static import declarations)
+./jfreechart/tests/org/jfree/chart/block/ColumnArrangementTest.java:[61,5] error: annotations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable annotations)
+./jfreechart/tests/org/jfree/data/xy/DefaultIntervalXYDatasetTest.java:[45,7] error: static import declarations are not supported in -source 1.3
+[INFO] 100 errors 
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  6.170 s
+[INFO] Finished at: 
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:2.3.2:testCompile (default-testCompile) on project jfreechart: Compilation failure: Compilation failure: 
+[ERROR] ./jfreechart/tests/org/jfree/chart/axis/PeriodAxisLabelInfoTest.java:[44,7] error: static import declarations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable static import declarations)
+[ERROR] ./jfreechart/tests/org/jfree/chart/axis/PeriodAxisLabelInfoTest.java:[75,5] error: annotations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable annotations)
+[ERROR] ./jfreechart/tests/org/jfree/chart/plot/ValueMarkerTest.java:[48,7] error: static import declarations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable static import declarations)
+[ERROR] ./jfreechart/tests/org/jfree/chart/plot/ValueMarkerTest.java:[79,5] error: annotations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable annotations)
+[ERROR] ./jfreechart/tests/org/jfree/chart/annotations/CategoryPointerAnnotationTest.java:[44,7] error: static import declarations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable static import declarations)
+[ERROR] ./jfreechart/tests/org/jfree/chart/annotations/CategoryPointerAnnotationTest.java:[65,5] error: annotations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable annotations)
+[ERROR] ./jfreechart/tests/org/jfree/chart/renderer/xy/XYStepAreaRendererTest.java:[47,7] error: static import declarations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable static import declarations)
+[ERROR] ./jfreechart/tests/org/jfree/chart/renderer/xy/XYStepAreaRendererTest.java:[69,5] error: annotations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable annotations)
+[ERROR] ./jfreechart/tests/org/jfree/data/time/WeekTest.java:[53,7] error: static import declarations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable static import declarations)
+[ERROR] ./jfreechart/tests/org/jfree/data/time/WeekTest.java:[88,5] error: annotations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable annotations)
+[ERROR] ./jfreechart/tests/org/jfree/chart/renderer/xy/XYDotRendererTest.java:[46,7] error: static import declarations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable static import declarations)
+[ERROR] ./jfreechart/tests/org/jfree/chart/renderer/xy/XYDotRendererTest.java:[70,5] error: annotations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable annotations)
+[ERROR] ./jfreechart/tests/org/jfree/data/xy/XYDataItemTest.java:[43,7] error: static import declarations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable static import declarations)
+[ERROR] ./jfreechart/tests/org/jfree/data/xy/XYDataItemTest.java:[58,5] error: annotations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable annotations)
+[ERROR] ./jfreechart/tests/org/jfree/chart/renderer/category/GradientBarPainterTest.java:[43,7] error: static import declarations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable static import declarations)
+[ERROR] ./jfreechart/tests/org/jfree/chart/renderer/category/GradientBarPainterTest.java:[60,5] error: annotations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable annotations)
+[ERROR] ./jfreechart/tests/org/jfree/chart/axis/CategoryAxis3DTest.java:[43,7] error: static import declarations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable static import declarations)
+[ERROR] ./jfreechart/tests/org/jfree/chart/axis/CategoryAxis3DTest.java:[57,5] error: annotations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable annotations)
+[ERROR] ./jfreechart/tests/org/jfree/chart/needle/PointerNeedleTest.java:[43,7] error: static import declarations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable static import declarations)
+[ERROR] ./jfreechart/tests/org/jfree/chart/needle/PointerNeedleTest.java:[56,5] error: annotations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable annotations)
+[ERROR] ./jfreechart/tests/org/jfree/chart/axis/DateTickTest.java:[43,7] error: static import declarations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable static import declarations)
+[ERROR] ./jfreechart/tests/org/jfree/chart/axis/DateTickTest.java:[62,5] error: annotations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable annotations)
+[ERROR] ./jfreechart/tests/org/jfree/data/xy/DefaultHighLowDatasetTest.java:[44,7] error: static import declarations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable static import declarations)
+[ERROR] ./jfreechart/tests/org/jfree/data/xy/DefaultHighLowDatasetTest.java:[63,5] error: annotations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable annotations)
+[ERROR] ./jfreechart/tests/org/jfree/data/general/DefaultHeatMapDatasetTest.java:[44,7] error: static import declarations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable static import declarations)
+[ERROR] ./jfreechart/tests/org/jfree/data/general/DefaultHeatMapDatasetTest.java:[75,5] error: annotations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable annotations)
+[ERROR] ./jfreechart/tests/org/jfree/chart/axis/StandardTickUnitSourceTest.java:[43,7] error: static import declarations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable static import declarations)
+[ERROR] ./jfreechart/tests/org/jfree/chart/axis/StandardTickUnitSourceTest.java:[57,5] error: annotations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable annotations)
+[ERROR] ./jfreechart/tests/org/jfree/chart/renderer/xy/XYLineAndShapeRendererTest.java:[47,7] error: static import declarations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable static import declarations)
+[ERROR] ./jfreechart/tests/org/jfree/chart/renderer/xy/XYLineAndShapeRendererTest.java:[77,5] error: annotations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable annotations)
+[ERROR] ./jfreechart/tests/org/jfree/chart/XYBarChartTest.java:[43,7] error: static import declarations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable static import declarations)
+[ERROR] ./jfreechart/tests/org/jfree/chart/XYBarChartTest.java:[78,5] error: annotations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable annotations)
+[ERROR] ./jfreechart/tests/org/jfree/chart/renderer/xy/GradientXYBarPainterTest.java:[43,7] error: static import declarations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable static import declarations)
+[ERROR] ./jfreechart/tests/org/jfree/chart/renderer/xy/GradientXYBarPainterTest.java:[60,5] error: annotations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable annotations)
+[ERROR] ./jfreechart/tests/org/jfree/chart/renderer/xy/StackedXYBarRendererTest.java:[46,7] error: static import declarations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable static import declarations)
+[ERROR] ./jfreechart/tests/org/jfree/chart/renderer/xy/StackedXYBarRendererTest.java:[72,5] error: annotations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable annotations)
+[ERROR] ./jfreechart/tests/org/jfree/chart/imagemap/StandardToolTipTagFragmentGeneratorTest.java:[43,7] error: static import declarations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable static import declarations)
+[ERROR] ./jfreechart/tests/org/jfree/chart/imagemap/StandardToolTipTagFragmentGeneratorTest.java:[54,5] error: annotations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable annotations)
+[ERROR] ./jfreechart/tests/org/jfree/data/gantt/TaskTest.java:[48,7] error: static import declarations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable static import declarations)
+[ERROR] ./jfreechart/tests/org/jfree/data/gantt/TaskTest.java:[61,5] error: annotations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable annotations)
+[ERROR] ./jfreechart/tests/org/jfree/chart/plot/CategoryPlotTest.java:[54,7] error: static import declarations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable static import declarations)
+[ERROR] ./jfreechart/tests/org/jfree/chart/plot/CategoryPlotTest.java:[105,5] error: annotations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable annotations)
+[ERROR] ./jfreechart/tests/org/jfree/data/time/ohlc/OHLCTest.java:[44,7] error: static import declarations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable static import declarations)
+[ERROR] ./jfreechart/tests/org/jfree/data/time/ohlc/OHLCTest.java:[59,5] error: annotations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable annotations)
+[ERROR] ./jfreechart/tests/org/jfree/data/xy/XYIntervalSeriesTest.java:[45,7] error: static import declarations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable static import declarations)
+[ERROR] ./jfreechart/tests/org/jfree/data/xy/XYIntervalSeriesTest.java:[76,5] error: annotations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable annotations)
+[ERROR] ./jfreechart/tests/org/jfree/chart/axis/CategoryAnchorTest.java:[44,7] error: static import declarations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable static import declarations)
+[ERROR] ./jfreechart/tests/org/jfree/chart/axis/CategoryAnchorTest.java:[59,5] error: annotations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable annotations)
+[ERROR] ./jfreechart/tests/org/jfree/data/statistics/SimpleHistogramDatasetTest.java:[44,7] error: static import declarations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable static import declarations)
+[ERROR] ./jfreechart/tests/org/jfree/data/statistics/SimpleHistogramDatasetTest.java:[59,5] error: annotations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable annotations)
+[ERROR] ./jfreechart/tests/org/jfree/data/xy/XYIntervalDataItemTest.java:[43,7] error: static import declarations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable static import declarations)
+[ERROR] ./jfreechart/tests/org/jfree/data/xy/XYIntervalDataItemTest.java:[59,5] error: annotations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable annotations)
+[ERROR] ./jfreechart/tests/org/jfree/chart/needle/LongNeedleTest.java:[43,7] error: static import declarations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable static import declarations)
+[ERROR] ./jfreechart/tests/org/jfree/chart/needle/LongNeedleTest.java:[56,5] error: annotations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable annotations)
+[ERROR] ./jfreechart/tests/org/jfree/chart/urls/StandardXYURLGeneratorTest.java:[44,7] error: static import declarations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable static import declarations)
+[ERROR] ./jfreechart/tests/org/jfree/chart/urls/StandardXYURLGeneratorTest.java:[60,5] error: annotations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable annotations)
+[ERROR] ./jfreechart/tests/org/jfree/data/time/TimeSeriesCollectionTest.java:[47,7] error: static import declarations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable static import declarations)
+[ERROR] ./jfreechart/tests/org/jfree/data/time/TimeSeriesCollectionTest.java:[69,5] error: annotations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable annotations)
+[ERROR] ./jfreechart/tests/org/jfree/data/DomainOrderTest.java:[45,7] error: static import declarations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable static import declarations)
+[ERROR] ./jfreechart/tests/org/jfree/data/DomainOrderTest.java:[58,5] error: annotations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable annotations)
+[ERROR] ./jfreechart/tests/org/jfree/data/DefaultKeyedValues2DTest.java:[49,7] error: static import declarations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable static import declarations)
+[ERROR] ./jfreechart/tests/org/jfree/data/DefaultKeyedValues2DTest.java:[64,5] error: annotations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable annotations)
+[ERROR] ./jfreechart/tests/org/jfree/chart/renderer/category/StackedAreaRendererTest.java:[45,7] error: static import declarations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable static import declarations)
+[ERROR] ./jfreechart/tests/org/jfree/chart/renderer/category/StackedAreaRendererTest.java:[65,5] error: annotations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable annotations)
+[ERROR] ./jfreechart/tests/org/jfree/data/function/NormalDistributionFunction2DTest.java:[45,7] error: static import declarations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable static import declarations)
+[ERROR] ./jfreechart/tests/org/jfree/data/function/NormalDistributionFunction2DTest.java:[58,5] error: annotations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable annotations)
+[ERROR] ./jfreechart/tests/org/jfree/chart/renderer/category/StatisticalBarRendererTest.java:[47,7] error: static import declarations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable static import declarations)
+[ERROR] ./jfreechart/tests/org/jfree/chart/renderer/category/StatisticalBarRendererTest.java:[75,5] error: annotations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable annotations)
+[ERROR] ./jfreechart/tests/org/jfree/chart/needle/LineNeedleTest.java:[43,7] error: static import declarations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable static import declarations)
+[ERROR] ./jfreechart/tests/org/jfree/chart/needle/LineNeedleTest.java:[56,5] error: annotations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable annotations)
+[ERROR] ./jfreechart/tests/org/jfree/chart/renderer/xy/YIntervalRendererTest.java:[47,7] error: static import declarations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable static import declarations)
+[ERROR] ./jfreechart/tests/org/jfree/chart/renderer/xy/YIntervalRendererTest.java:[76,5] error: annotations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable annotations)
+[ERROR] ./jfreechart/tests/org/jfree/chart/labels/StandardPieToolTipGeneratorTest.java:[50,7] error: static import declarations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable static import declarations)
+[ERROR] ./jfreechart/tests/org/jfree/chart/labels/StandardPieToolTipGeneratorTest.java:[70,5] error: annotations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable annotations)
+[ERROR] ./jfreechart/tests/org/jfree/data/statistics/DefaultBoxAndWhiskerXYDatasetTest.java:[43,7] error: static import declarations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable static import declarations)
+[ERROR] ./jfreechart/tests/org/jfree/data/statistics/DefaultBoxAndWhiskerXYDatasetTest.java:[63,5] error: annotations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable annotations)
+[ERROR] ./jfreechart/tests/org/jfree/chart/axis/LogAxisTest.java:[44,7] error: static import declarations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable static import declarations)
+[ERROR] ./jfreechart/tests/org/jfree/chart/axis/LogAxisTest.java:[72,5] error: annotations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable annotations)
+[ERROR] ./jfreechart/tests/org/jfree/data/time/MonthTest.java:[52,7] error: static import declarations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable static import declarations)
+[ERROR] ./jfreechart/tests/org/jfree/data/time/MonthTest.java:[89,5] error: annotations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable annotations)
+[ERROR] ./jfreechart/tests/org/jfree/chart/MeterChartTest.java:[62,5] error: annotations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable annotations)
+[ERROR] ./jfreechart/tests/org/jfree/chart/labels/BoxAndWhiskerXYToolTipGeneratorTest.java:[46,7] error: static import declarations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable static import declarations)
+[ERROR] ./jfreechart/tests/org/jfree/chart/labels/BoxAndWhiskerXYToolTipGeneratorTest.java:[66,5] error: annotations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable annotations)
+[ERROR] ./jfreechart/tests/org/jfree/chart/axis/ExtendedCategoryAxisTest.java:[43,7] error: static import declarations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable static import declarations)
+[ERROR] ./jfreechart/tests/org/jfree/chart/axis/ExtendedCategoryAxisTest.java:[63,5] error: annotations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable annotations)
+[ERROR] ./jfreechart/tests/org/jfree/chart/plot/CompassPlotTest.java:[44,7] error: static import declarations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable static import declarations)
+[ERROR] ./jfreechart/tests/org/jfree/chart/plot/CompassPlotTest.java:[65,5] error: annotations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable annotations)
+[ERROR] ./jfreechart/tests/org/jfree/chart/LineChartTest.java:[62,7] error: static import declarations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable static import declarations)
+[ERROR] ./jfreechart/tests/org/jfree/chart/LineChartTest.java:[77,5] error: annotations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable annotations)
+[ERROR] ./jfreechart/tests/org/jfree/data/category/DefaultCategoryDatasetTest.java:[50,7] error: static import declarations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable static import declarations)
+[ERROR] ./jfreechart/tests/org/jfree/data/category/DefaultCategoryDatasetTest.java:[64,5] error: annotations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable annotations)
+[ERROR] ./jfreechart/tests/org/jfree/data/gantt/TaskSeriesTest.java:[47,7] error: static import declarations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable static import declarations)
+[ERROR] ./jfreechart/tests/org/jfree/data/gantt/TaskSeriesTest.java:[60,5] error: annotations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable annotations)
+[ERROR] ./jfreechart/tests/org/jfree/chart/renderer/xy/XYBarRendererTest.java:[48,7] error: static import declarations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable static import declarations)
+[ERROR] ./jfreechart/tests/org/jfree/chart/renderer/xy/XYBarRendererTest.java:[82,5] error: annotations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable annotations)
+[ERROR] ./jfreechart/tests/org/jfree/chart/axis/CategoryLabelPositionsTest.java:[44,7] error: static import declarations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable static import declarations)
+[ERROR] ./jfreechart/tests/org/jfree/chart/axis/CategoryLabelPositionsTest.java:[64,5] error: annotations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable annotations)
+[ERROR] ./jfreechart/tests/org/jfree/chart/block/ColumnArrangementTest.java:[43,7] error: static import declarations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable static import declarations)
+[ERROR] ./jfreechart/tests/org/jfree/chart/block/ColumnArrangementTest.java:[61,5] error: annotations are not supported in -source 1.3
+[ERROR]   (use -source 5 or higher to enable annotations)
+[ERROR] ./jfreechart/tests/org/jfree/data/xy/DefaultIntervalXYDatasetTest.java:[45,7] error: static import declarations are not supported in -source 1.3
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException

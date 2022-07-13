@@ -1,0 +1,87 @@
+[INFO] Scanning for projects...
+[INFO] Inspecting build with total of 1 modules...
+[INFO] Installing Nexus Staging features:
+[INFO]   ... total of 1 executions of maven-deploy-plugin replaced with nexus-staging-maven-plugin
+[INFO] 
+[INFO] ------------------------< org.jfree:jfreechart >------------------------
+[INFO] Building JFreeChart 1.5.0-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ jfreechart ---
+[INFO] Deleting ./jfreechart/target
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ jfreechart ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 42 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ jfreechart ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 643 source files to ./jfreechart/target/classes
+[INFO] -------------------------------------------------------------
+[WARNING] COMPILATION WARNING : 
+[INFO] -------------------------------------------------------------
+[WARNING] ./jfreechart/src/main/java/org/jfree/chart/urls/URLUtilities.java: ./jfreechart/src/main/java/org/jfree/chart/urls/URLUtilities.java uses or overrides a deprecated API.
+[WARNING] ./jfreechart/src/main/java/org/jfree/chart/urls/URLUtilities.java: Recompile with -Xlint:deprecation for details.
+[WARNING] ./jfreechart/src/main/java/org/jfree/chart/JFreeChart.java: Some input files use unchecked or unsafe operations.
+[WARNING] ./jfreechart/src/main/java/org/jfree/chart/JFreeChart.java: Recompile with -Xlint:unchecked for details.
+[INFO] 4 warnings 
+[INFO] -------------------------------------------------------------
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] ./jfreechart/src/main/java/org/jfree/chart/renderer/category/AbstractCategoryItemRenderer.java:[167,1] a type with the same simple name is already defined by the single-type-import of org.jfree.chart.text.TextUtils
+[ERROR] ./jfreechart/src/main/java/org/jfree/chart/renderer/xy/AbstractXYItemRenderer.java:[190,1] a type with the same simple name is already defined by the single-type-import of org.jfree.chart.text.TextUtils
+[ERROR] ./jfreechart/src/main/java/org/jfree/chart/renderer/category/AbstractCategoryItemRenderer.java:[1109,45] cannot find symbol
+  symbol:   method calcAlignedStringBounds(java.lang.String,java.awt.Graphics2D,float,float,org.jfree.chart.ui.TextAnchor)
+  location: class org.jfree.chart.text.TextUtils
+[ERROR] ./jfreechart/src/main/java/org/jfree/chart/renderer/category/AbstractCategoryItemRenderer.java:[1215,42] cannot find symbol
+  symbol:   method calcAlignedStringBounds(java.lang.String,java.awt.Graphics2D,float,float,org.jfree.chart.ui.TextAnchor)
+  location: class org.jfree.chart.text.TextUtils
+[ERROR] ./jfreechart/src/main/java/org/jfree/chart/renderer/xy/AbstractXYItemRenderer.java:[1145,42] cannot find symbol
+  symbol:   method calcAlignedStringBounds(java.lang.String,java.awt.Graphics2D,float,float,org.jfree.chart.ui.TextAnchor)
+  location: class org.jfree.chart.text.TextUtils
+[ERROR] ./jfreechart/src/main/java/org/jfree/chart/renderer/xy/AbstractXYItemRenderer.java:[1248,42] cannot find symbol
+  symbol:   method calcAlignedStringBounds(java.lang.String,java.awt.Graphics2D,float,float,org.jfree.chart.ui.TextAnchor)
+  location: class org.jfree.chart.text.TextUtils
+[ERROR] ./jfreechart/src/main/java/org/jfree/chart/renderer/xy/AbstractXYItemRenderer.java:[1345,42] cannot find symbol
+  symbol:   method calcAlignedStringBounds(java.lang.String,java.awt.Graphics2D,float,float,org.jfree.chart.ui.TextAnchor)
+  location: class org.jfree.chart.text.TextUtils
+[ERROR] ./jfreechart/src/main/java/org/jfree/chart/renderer/xy/AbstractXYItemRenderer.java:[1448,42] cannot find symbol
+  symbol:   method calcAlignedStringBounds(java.lang.String,java.awt.Graphics2D,float,float,org.jfree.chart.ui.TextAnchor)
+  location: class org.jfree.chart.text.TextUtils
+[INFO] 8 errors 
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  6.599 s
+[INFO] Finished at: 
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.1:compile (default-compile) on project jfreechart: Compilation failure: Compilation failure: 
+[ERROR] ./jfreechart/src/main/java/org/jfree/chart/renderer/category/AbstractCategoryItemRenderer.java:[167,1] a type with the same simple name is already defined by the single-type-import of org.jfree.chart.text.TextUtils
+[ERROR] ./jfreechart/src/main/java/org/jfree/chart/renderer/xy/AbstractXYItemRenderer.java:[190,1] a type with the same simple name is already defined by the single-type-import of org.jfree.chart.text.TextUtils
+[ERROR] ./jfreechart/src/main/java/org/jfree/chart/renderer/category/AbstractCategoryItemRenderer.java:[1109,45] cannot find symbol
+[ERROR]   symbol:   method calcAlignedStringBounds(java.lang.String,java.awt.Graphics2D,float,float,org.jfree.chart.ui.TextAnchor)
+[ERROR]   location: class org.jfree.chart.text.TextUtils
+[ERROR] ./jfreechart/src/main/java/org/jfree/chart/renderer/category/AbstractCategoryItemRenderer.java:[1215,42] cannot find symbol
+[ERROR]   symbol:   method calcAlignedStringBounds(java.lang.String,java.awt.Graphics2D,float,float,org.jfree.chart.ui.TextAnchor)
+[ERROR]   location: class org.jfree.chart.text.TextUtils
+[ERROR] ./jfreechart/src/main/java/org/jfree/chart/renderer/xy/AbstractXYItemRenderer.java:[1145,42] cannot find symbol
+[ERROR]   symbol:   method calcAlignedStringBounds(java.lang.String,java.awt.Graphics2D,float,float,org.jfree.chart.ui.TextAnchor)
+[ERROR]   location: class org.jfree.chart.text.TextUtils
+[ERROR] ./jfreechart/src/main/java/org/jfree/chart/renderer/xy/AbstractXYItemRenderer.java:[1248,42] cannot find symbol
+[ERROR]   symbol:   method calcAlignedStringBounds(java.lang.String,java.awt.Graphics2D,float,float,org.jfree.chart.ui.TextAnchor)
+[ERROR]   location: class org.jfree.chart.text.TextUtils
+[ERROR] ./jfreechart/src/main/java/org/jfree/chart/renderer/xy/AbstractXYItemRenderer.java:[1345,42] cannot find symbol
+[ERROR]   symbol:   method calcAlignedStringBounds(java.lang.String,java.awt.Graphics2D,float,float,org.jfree.chart.ui.TextAnchor)
+[ERROR]   location: class org.jfree.chart.text.TextUtils
+[ERROR] ./jfreechart/src/main/java/org/jfree/chart/renderer/xy/AbstractXYItemRenderer.java:[1448,42] cannot find symbol
+[ERROR]   symbol:   method calcAlignedStringBounds(java.lang.String,java.awt.Graphics2D,float,float,org.jfree.chart.ui.TextAnchor)
+[ERROR]   location: class org.jfree.chart.text.TextUtils
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException

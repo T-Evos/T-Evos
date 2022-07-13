@@ -1,0 +1,331 @@
+[INFO] Scanning for projects...
+[WARNING] The project junit:junit:jar:4.13-SNAPSHOT uses prerequisites which is only intended for maven-plugin projects but not for non maven-plugin projects. For such purposes you should use the maven-enforcer-plugin. See https://maven.apache.org/enforcer/enforcer-rules/requireMavenVersion.html
+[INFO] 
+[INFO] ----------------------------< junit:junit >-----------------------------
+[INFO] Building JUnit 4.13-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.6.1:clean (default-clean) @ junit ---
+[INFO] Deleting ./junit4/target
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.4:enforce (enforce-versions) @ junit ---
+[INFO] 
+[INFO] --- replacer:1.5.3:replace (default) @ junit ---
+[INFO] Replacement run on 1 file.
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:resources (default-resources) @ junit ---
+[INFO] Using 'ISO-8859-1' encoding to copy filtered resources.
+[INFO] Copying 2 resources
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.3:compile (default-compile) @ junit ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 195 source files to ./junit4/target/classes
+[WARNING] To suppress warnings about obsolete options, use -Xlint:-options.
+./junit4/src/main/java/junit/extensions/TestDecorator.java:[3,22] [deprecation] Assert in junit.framework has been deprecated
+[WARNING] ./junit4/src/main/java/org/junit/rules/ExpectedException.java:[8,41] [deprecation] ThrowableCauseMatcher in org.junit.internal.matchers has been deprecated
+[WARNING] ./junit4/src/main/java/org/junit/matchers/JUnitMatchers.java:[7,34] [deprecation] StacktracePrintingMatcher in org.junit.internal.matchers has been deprecated
+[WARNING] ./junit4/src/main/java/org/junit/rules/ExpectedExceptionMatcherBuilder.java:[4,32] [deprecation] JUnitMatchers in org.junit.matchers has been deprecated
+[WARNING] ./junit4/src/main/java/org/junit/runner/JUnitCore.java:[66,7] no description for @param
+[WARNING] ./junit4/src/main/java/org/junit/internal/Classes.java:[22,7] no description for @throws
+[WARNING] ./junit4/src/main/java/org/junit/internal/runners/statements/FailOnTimeout.java:[109,11] no description for @param
+[WARNING] ./junit4/src/main/java/org/junit/runner/FilterFactories.java:[19,7] no description for @throws
+[WARNING] ./junit4/src/main/java/org/junit/rules/ExpectedException.java:[265,12] [deprecation] <T>assertThat(T,Matcher<? super T>) in Assert has been deprecated
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:testResources (default-testResources) @ junit ---
+[INFO] Using 'ISO-8859-1' encoding to copy filtered resources.
+[INFO] Copying 2 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.3:testCompile (default-testCompile) @ junit ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 227 source files to ./junit4/target/test-classes
+[WARNING] To suppress warnings about obsolete options, use -Xlint:-options.
+./junit4/src/test/java/org/junit/internal/matchers/ThrowableCauseMatcherTest.java:[7,41] [deprecation] ThrowableCauseMatcher in org.junit.internal.matchers has been deprecated
+[WARNING] ./junit4/src/test/java/org/junit/tests/validation/BadlyFormedClassesTest.java:[7,33] [deprecation] JUnit4ClassRunner in org.junit.internal.runners has been deprecated
+[WARNING] ./junit4/src/test/java/org/junit/rules/TestWatchmanTest.java:[3,29] [deprecation] Assert in junit.framework has been deprecated
+[WARNING] ./junit4/src/test/java/org/junit/internal/matchers/StacktracePrintingMatcherTest.java:[10,41] [deprecation] StacktracePrintingMatcher in org.junit.internal.matchers has been deprecated
+[WARNING] ./junit4/src/test/java/org/junit/internal/matchers/StacktracePrintingMatcherTest.java:[11,41] [deprecation] StacktracePrintingMatcher in org.junit.internal.matchers has been deprecated
+[WARNING] ./junit4/src/test/java/org/junit/tests/deprecated/JUnit4ClassRunnerTest.java:[8,33] [deprecation] JUnit4ClassRunner in org.junit.internal.runners has been deprecated
+[WARNING] ./junit4/src/test/java/org/junit/rules/StopwatchTest.java:[172,8] [deprecation] <T>assertThat(T,Matcher<? super T>) in Assert has been deprecated
+[WARNING]   where T is a type-variable:
+    T extends Object declared in method <T>assertThat(T,Matcher<? super T>)
+./junit4/src/test/java/org/junit/rules/StopwatchTest.java:[173,8] [deprecation] <T>assertThat(T,Matcher<? super T>) in Assert has been deprecated
+[WARNING]   where T is a type-variable:
+    T extends Object declared in method <T>assertThat(T,Matcher<? super T>)
+./junit4/src/test/java/org/junit/rules/StopwatchTest.java:[174,8] [deprecation] <T>assertThat(T,Matcher<? super T>) in Assert has been deprecated
+[WARNING]   where T is a type-variable:
+    T extends Object declared in method <T>assertThat(T,Matcher<? super T>)
+./junit4/src/test/java/org/junit/rules/StopwatchTest.java:[176,8] [deprecation] <T>assertThat(T,Matcher<? super T>) in Assert has been deprecated
+[WARNING]   where T is a type-variable:
+    T extends Object declared in method <T>assertThat(T,Matcher<? super T>)
+./junit4/src/test/java/org/junit/rules/StopwatchTest.java:[183,8] [deprecation] <T>assertThat(T,Matcher<? super T>) in Assert has been deprecated
+[WARNING]   where T is a type-variable:
+    T extends Object declared in method <T>assertThat(T,Matcher<? super T>)
+./junit4/src/test/java/org/junit/rules/StopwatchTest.java:[184,8] [deprecation] <T>assertThat(T,Matcher<? super T>) in Assert has been deprecated
+[WARNING]   where T is a type-variable:
+    T extends Object declared in method <T>assertThat(T,Matcher<? super T>)
+./junit4/src/test/java/org/junit/rules/StopwatchTest.java:[185,8] [deprecation] <T>assertThat(T,Matcher<? super T>) in Assert has been deprecated
+[WARNING]   where T is a type-variable:
+    T extends Object declared in method <T>assertThat(T,Matcher<? super T>)
+./junit4/src/test/java/org/junit/rules/StopwatchTest.java:[187,8] [deprecation] <T>assertThat(T,Matcher<? super T>) in Assert has been deprecated
+[WARNING]   where T is a type-variable:
+    T extends Object declared in method <T>assertThat(T,Matcher<? super T>)
+./junit4/src/test/java/org/junit/rules/StopwatchTest.java:[194,8] [deprecation] <T>assertThat(T,Matcher<? super T>) in Assert has been deprecated
+[WARNING]   where T is a type-variable:
+    T extends Object declared in method <T>assertThat(T,Matcher<? super T>)
+./junit4/src/test/java/org/junit/rules/StopwatchTest.java:[195,8] [deprecation] <T>assertThat(T,Matcher<? super T>) in Assert has been deprecated
+[WARNING]   where T is a type-variable:
+    T extends Object declared in method <T>assertThat(T,Matcher<? super T>)
+./junit4/src/test/java/org/junit/rules/StopwatchTest.java:[196,8] [deprecation] <T>assertThat(T,Matcher<? super T>) in Assert has been deprecated
+[WARNING]   where T is a type-variable:
+    T extends Object declared in method <T>assertThat(T,Matcher<? super T>)
+./junit4/src/test/java/org/junit/rules/StopwatchTest.java:[198,8] [deprecation] <T>assertThat(T,Matcher<? super T>) in Assert has been deprecated
+[WARNING]   where T is a type-variable:
+    T extends Object declared in method <T>assertThat(T,Matcher<? super T>)
+./junit4/src/test/java/org/junit/rules/TestRuleTest.java:[209,8] [deprecation] <T>assertThat(T,Matcher<? super T>) in Assert has been deprecated
+[WARNING]   where T is a type-variable:
+    T extends Object declared in method <T>assertThat(T,Matcher<? super T>)
+./junit4/src/test/java/org/junit/rules/TestRuleTest.java:[210,8] [deprecation] <T>assertThat(T,Matcher<? super T>) in Assert has been deprecated
+[WARNING]   where T is a type-variable:
+    T extends Object declared in method <T>assertThat(T,Matcher<? super T>)
+./junit4/src/test/java/org/junit/rules/TestRuleTest.java:[239,8] [deprecation] <T>assertThat(T,Matcher<? super T>) in Assert has been deprecated
+[WARNING]   where T is a type-variable:
+    T extends Object declared in method <T>assertThat(T,Matcher<? super T>)
+./junit4/src/test/java/org/junit/rules/TestRuleTest.java:[254,8] [deprecation] <T>assertThat(T,Matcher<? super T>) in Assert has been deprecated
+[WARNING]   where T is a type-variable:
+    T extends Object declared in method <T>assertThat(T,Matcher<? super T>)
+./junit4/src/test/java/org/junit/rules/TestRuleTest.java:[264,8] [deprecation] <T>assertThat(T,Matcher<? super T>) in Assert has been deprecated
+[WARNING]   where T is a type-variable:
+    T extends Object declared in method <T>assertThat(T,Matcher<? super T>)
+./junit4/src/test/java/org/junit/rules/TestRuleTest.java:[279,8] [deprecation] <T>assertThat(T,Matcher<? super T>) in Assert has been deprecated
+[WARNING]   where T is a type-variable:
+    T extends Object declared in method <T>assertThat(T,Matcher<? super T>)
+./junit4/src/test/java/org/junit/rules/TestRuleTest.java:[309,8] [deprecation] <T>assertThat(T,Matcher<? super T>) in Assert has been deprecated
+[WARNING]   where T is a type-variable:
+    T extends Object declared in method <T>assertThat(T,Matcher<? super T>)
+./junit4/src/test/java/org/junit/rules/TestRuleTest.java:[478,27] [deprecation] skipped(AssumptionViolatedException,Description) in TestWatcher has been deprecated
+[WARNING] ./junit4/src/test/java/org/junit/rules/TestRuleTest.java:[539,8] [deprecation] <T>assertThat(T,Matcher<? super T>) in Assert has been deprecated
+[WARNING]   where T is a type-variable:
+    T extends Object declared in method <T>assertThat(T,Matcher<? super T>)
+./junit4/src/test/java/org/junit/rules/TestRuleTest.java:[540,8] [deprecation] <T>assertThat(T,Matcher<? super T>) in Assert has been deprecated
+[WARNING]   where T is a type-variable:
+    T extends Object declared in method <T>assertThat(T,Matcher<? super T>)
+./junit4/src/test/java/org/junit/rules/TestRuleTest.java:[588,8] [deprecation] <T>assertThat(T,Matcher<? super T>) in Assert has been deprecated
+[WARNING]   where T is a type-variable:
+    T extends Object declared in method <T>assertThat(T,Matcher<? super T>)
+./junit4/src/test/java/org/junit/rules/TestRuleTest.java:[604,8] [deprecation] <T>assertThat(T,Matcher<? super T>) in Assert has been deprecated
+[WARNING]   where T is a type-variable:
+    T extends Object declared in method <T>assertThat(T,Matcher<? super T>)
+./junit4/src/test/java/org/junit/rules/TestRuleTest.java:[614,8] [deprecation] <T>assertThat(T,Matcher<? super T>) in Assert has been deprecated
+[WARNING]   where T is a type-variable:
+    T extends Object declared in method <T>assertThat(T,Matcher<? super T>)
+./junit4/src/test/java/org/junit/rules/TestRuleTest.java:[631,8] [deprecation] <T>assertThat(T,Matcher<? super T>) in Assert has been deprecated
+[WARNING]   where T is a type-variable:
+    T extends Object declared in method <T>assertThat(T,Matcher<? super T>)
+./junit4/src/test/java/org/junit/rules/TestRuleTest.java:[651,8] [deprecation] <T>assertThat(T,Matcher<? super T>) in Assert has been deprecated
+[WARNING]   where T is a type-variable:
+    T extends Object declared in method <T>assertThat(T,Matcher<? super T>)
+./junit4/src/test/java/org/junit/rules/TestRuleTest.java:[693,8] [deprecation] <T>assertThat(T,Matcher<? super T>) in Assert has been deprecated
+[WARNING]   where T is a type-variable:
+    T extends Object declared in method <T>assertThat(T,Matcher<? super T>)
+./junit4/src/test/java/org/junit/rules/ClassRulesTest.java:[4] documentation comment not expected here
+[WARNING] ./junit4/src/test/java/org/junit/rules/TestWatcherTest.java:[34,8] [deprecation] <T>assertThat(T,Matcher<? super T>) in Assert has been deprecated
+[WARNING]   where T is a type-variable:
+    T extends Object declared in method <T>assertThat(T,Matcher<? super T>)
+./junit4/src/test/java/org/junit/rules/TestWatcherTest.java:[54,27] [deprecation] skipped(AssumptionViolatedException,Description) in TestWatcher has been deprecated
+[WARNING] ./junit4/src/test/java/org/junit/rules/TestWatcherTest.java:[70,8] [deprecation] <T>assertThat(T,Matcher<? super T>) in Assert has been deprecated
+[WARNING]   where T is a type-variable:
+    T extends Object declared in method <T>assertThat(T,Matcher<? super T>)
+./junit4/src/test/java/org/junit/rules/TestWatcherTest.java:[78,27] [deprecation] skipped(AssumptionViolatedException,Description) in TestWatcher has been deprecated
+[WARNING] ./junit4/src/test/java/org/junit/rules/TestWatcherTest.java:[93,8] [deprecation] <T>assertThat(T,Matcher<? super T>) in Assert has been deprecated
+[WARNING]   where T is a type-variable:
+    T extends Object declared in method <T>assertThat(T,Matcher<? super T>)
+./junit4/src/test/java/org/junit/rules/TestWatcherTest.java:[94,8] [deprecation] <T>assertThat(T,Matcher<? super T>) in Assert has been deprecated
+[WARNING]   where T is a type-variable:
+    T extends Object declared in method <T>assertThat(T,Matcher<? super T>)
+./junit4/src/test/java/org/junit/rules/TestWatcherTest.java:[95,8] [deprecation] <T>assertThat(T,Matcher<? super T>) in Assert has been deprecated
+[WARNING]   where T is a type-variable:
+    T extends Object declared in method <T>assertThat(T,Matcher<? super T>)
+./junit4/src/test/java/org/junit/rules/TestWatcherTest.java:[114,8] [deprecation] <T>assertThat(T,Matcher<? super T>) in Assert has been deprecated
+[WARNING]   where T is a type-variable:
+    T extends Object declared in method <T>assertThat(T,Matcher<? super T>)
+./junit4/src/test/java/org/junit/rules/TestWatcherTest.java:[136,8] [deprecation] <T>assertThat(T,Matcher<? super T>) in Assert has been deprecated
+[WARNING]   where T is a type-variable:
+    T extends Object declared in method <T>assertThat(T,Matcher<? super T>)
+./junit4/src/test/java/org/junit/rules/TestWatcherTest.java:[137,8] [deprecation] <T>assertThat(T,Matcher<? super T>) in Assert has been deprecated
+[WARNING]   where T is a type-variable:
+    T extends Object declared in method <T>assertThat(T,Matcher<? super T>)
+./junit4/src/test/java/org/junit/rules/TestWatcherTest.java:[138,8] [deprecation] <T>assertThat(T,Matcher<? super T>) in Assert has been deprecated
+[WARNING]   where T is a type-variable:
+    T extends Object declared in method <T>assertThat(T,Matcher<? super T>)
+./junit4/src/test/java/org/junit/rules/TestWatcherTest.java:[159,8] [deprecation] <T>assertThat(T,Matcher<? super T>) in Assert has been deprecated
+[WARNING]   where T is a type-variable:
+    T extends Object declared in method <T>assertThat(T,Matcher<? super T>)
+./junit4/src/test/java/org/junit/rules/TestWatcherTest.java:[160,8] [deprecation] <T>assertThat(T,Matcher<? super T>) in Assert has been deprecated
+[WARNING]   where T is a type-variable:
+    T extends Object declared in method <T>assertThat(T,Matcher<? super T>)
+./junit4/src/test/java/org/junit/rules/TestWatcherTest.java:[161,8] [deprecation] <T>assertThat(T,Matcher<? super T>) in Assert has been deprecated
+[WARNING]   where T is a type-variable:
+    T extends Object declared in method <T>assertThat(T,Matcher<? super T>)
+./junit4/src/test/java/org/junit/rules/TestWatcherTest.java:[187,8] [deprecation] <T>assertThat(T,Matcher<? super T>) in Assert has been deprecated
+[WARNING]   where T is a type-variable:
+    T extends Object declared in method <T>assertThat(T,Matcher<? super T>)
+./junit4/src/test/java/org/junit/rules/TestWatcherTest.java:[188,8] [deprecation] <T>assertThat(T,Matcher<? super T>) in Assert has been deprecated
+[WARNING]   where T is a type-variable:
+    T extends Object declared in method <T>assertThat(T,Matcher<? super T>)
+./junit4/src/test/java/org/junit/rules/TestWatcherTest.java:[189,8] [deprecation] <T>assertThat(T,Matcher<? super T>) in Assert has been deprecated
+[WARNING]   where T is a type-variable:
+    T extends Object declared in method <T>assertThat(T,Matcher<? super T>)
+./junit4/src/test/java/org/junit/rules/TestWatcherTest.java:[190,8] [deprecation] <T>assertThat(T,Matcher<? super T>) in Assert has been deprecated
+[WARNING]   where T is a type-variable:
+    T extends Object declared in method <T>assertThat(T,Matcher<? super T>)
+./junit4/src/test/java/org/junit/rules/ExternalResourceRuleTest.java:[41,8] [deprecation] <T>assertThat(T,Matcher<? super T>) in Assert has been deprecated
+[WARNING]   where T is a type-variable:
+    T extends Object declared in method <T>assertThat(T,Matcher<? super T>)
+./junit4/src/test/java/org/junit/rules/VerifierRuleTest.java:[29,8] [deprecation] <T>assertThat(T,Matcher<? super T>) in Assert has been deprecated
+[WARNING]   where T is a type-variable:
+    T extends Object declared in method <T>assertThat(T,Matcher<? super T>)
+./junit4/src/test/java/org/junit/rules/VerifierRuleTest.java:[46,8] [deprecation] <T>assertThat(T,Matcher<? super T>) in Assert has been deprecated
+[WARNING]   where T is a type-variable:
+    T extends Object declared in method <T>assertThat(T,Matcher<? super T>)
+./junit4/src/test/java/org/junit/rules/VerifierRuleTest.java:[47,8] [deprecation] <T>assertThat(T,Matcher<? super T>) in Assert has been deprecated
+[WARNING]   where T is a type-variable:
+    T extends Object declared in method <T>assertThat(T,Matcher<? super T>)
+./junit4/src/test/java/org/junit/rules/VerifierRuleTest.java:[56,21] [deprecation] <T>checkThat(T,Matcher<T>) in ErrorCollector has been deprecated
+[WARNING]   where T is a type-variable:
+    T extends Object declared in method <T>checkThat(T,Matcher<T>)
+./junit4/src/test/java/org/junit/rules/VerifierRuleTest.java:[57,21] [deprecation] <T>checkThat(T,Matcher<T>) in ErrorCollector has been deprecated
+[WARNING]   where T is a type-variable:
+    T extends Object declared in method <T>checkThat(T,Matcher<T>)
+./junit4/src/test/java/org/junit/rules/VerifierRuleTest.java:[58,21] [deprecation] <T>checkThat(String,T,Matcher<T>) in ErrorCollector has been deprecated
+[WARNING]   where T is a type-variable:
+    T extends Object declared in method <T>checkThat(String,T,Matcher<T>)
+./junit4/src/test/java/org/junit/rules/VerifierRuleTest.java:[59,21] [deprecation] <T>checkThat(String,T,Matcher<T>) in ErrorCollector has been deprecated
+[WARNING]   where T is a type-variable:
+    T extends Object declared in method <T>checkThat(String,T,Matcher<T>)
+./junit4/src/test/java/org/junit/rules/VerifierRuleTest.java:[66,8] [deprecation] <T>assertThat(T,Matcher<? super T>) in Assert has been deprecated
+[WARNING]   where T is a type-variable:
+    T extends Object declared in method <T>assertThat(T,Matcher<? super T>)
+./junit4/src/test/java/org/junit/rules/VerifierRuleTest.java:[67,8] [deprecation] <T>assertThat(T,Matcher<? super T>) in Assert has been deprecated
+[WARNING]   where T is a type-variable:
+    T extends Object declared in method <T>assertThat(T,Matcher<? super T>)
+./junit4/src/test/java/org/junit/rules/VerifierRuleTest.java:[68,8] [deprecation] <T>assertThat(T,Matcher<? super T>) in Assert has been deprecated
+[WARNING]   where T is a type-variable:
+    T extends Object declared in method <T>assertThat(T,Matcher<? super T>)
+./junit4/src/test/java/org/junit/rules/VerifierRuleTest.java:[69,8] [deprecation] <T>assertThat(T,Matcher<? super T>) in Assert has been deprecated
+[WARNING]   where T is a type-variable:
+    T extends Object declared in method <T>assertThat(T,Matcher<? super T>)
+./junit4/src/test/java/org/junit/rules/VerifierRuleTest.java:[70,8] [deprecation] <T>assertThat(T,Matcher<? super T>) in Assert has been deprecated
+[WARNING]   where T is a type-variable:
+    T extends Object declared in method <T>assertThat(T,Matcher<? super T>)
+./junit4/src/test/java/org/junit/rules/VerifierRuleTest.java:[71,8] [deprecation] <T>assertThat(T,Matcher<? super T>) in Assert has been deprecated
+[WARNING]   where T is a type-variable:
+    T extends Object declared in method <T>assertThat(T,Matcher<? super T>)
+./junit4/src/test/java/org/junit/rules/VerifierRuleTest.java:[102,8] [deprecation] <T>assertThat(T,Matcher<? super T>) in Assert has been deprecated
+[WARNING]   where T is a type-variable:
+    T extends Object declared in method <T>assertThat(T,Matcher<? super T>)
+./junit4/src/test/java/org/junit/rules/VerifierRuleTest.java:[103,8] [deprecation] <T>assertThat(T,Matcher<? super T>) in Assert has been deprecated
+[WARNING]   where T is a type-variable:
+    T extends Object declared in method <T>assertThat(T,Matcher<? super T>)
+./junit4/src/test/java/org/junit/rules/VerifierRuleTest.java:[123,8] [deprecation] <T>assertThat(T,Matcher<? super T>) in Assert has been deprecated
+[WARNING]   where T is a type-variable:
+    T extends Object declared in method <T>assertThat(T,Matcher<? super T>)
+./junit4/src/test/java/org/junit/rules/VerifierRuleTest.java:[146,8] [deprecation] <T>assertThat(T,Matcher<? super T>) in Assert has been deprecated
+[WARNING]   where T is a type-variable:
+    T extends Object declared in method <T>assertThat(T,Matcher<? super T>)
+./junit4/src/test/java/org/junit/tests/experimental/theories/runner/WithOnlyTestAnnotations.java:[29,8] [deprecation] <T>assertThat(T,Matcher<? super T>) in Assert has been deprecated
+[WARNING]   where T is a type-variable:
+    T extends Object declared in method <T>assertThat(T,Matcher<? super T>)
+./junit4/src/test/java/org/junit/tests/experimental/theories/runner/WithOnlyTestAnnotations.java:[42,8] [deprecation] <T>assertThat(T,Matcher<? super T>) in Assert has been deprecated
+[WARNING]   where T is a type-variable:
+    T extends Object declared in method <T>assertThat(T,Matcher<? super T>)
+./junit4/src/test/java/org/junit/tests/experimental/theories/runner/WithOnlyTestAnnotations.java:[61,8] [deprecation] <T>assertThat(T,Matcher<? super T>) in Assert has been deprecated
+[WARNING]   where T is a type-variable:
+    T extends Object declared in method <T>assertThat(T,Matcher<? super T>)
+./junit4/src/test/java/org/junit/tests/experimental/theories/runner/WithOnlyTestAnnotations.java:[80,8] [deprecation] <T>assertThat(T,Matcher<? super T>) in Assert has been deprecated
+[WARNING]   where T is a type-variable:
+    T extends Object declared in method <T>assertThat(T,Matcher<? super T>)
+./junit4/src/test/java/org/junit/experimental/categories/CategoryTest.java:[108,8] [deprecation] <T>assertThat(T,Matcher<? super T>) in Assert has been deprecated
+[WARNING]   where T is a type-variable:
+    T extends Object declared in method <T>assertThat(T,Matcher<? super T>)
+./junit4/src/test/java/org/junit/experimental/categories/CategoryTest.java:[113,8] [deprecation] <T>assertThat(T,Matcher<? super T>) in Assert has been deprecated
+[WARNING]   where T is a type-variable:
+    T extends Object declared in method <T>assertThat(T,Matcher<? super T>)
+./junit4/src/test/java/org/junit/experimental/categories/CategoryTest.java:[157,8] [deprecation] <T>assertThat(T,Matcher<? super T>) in Assert has been deprecated
+[WARNING]   where T is a type-variable:
+    T extends Object declared in method <T>assertThat(T,Matcher<? super T>)
+./junit4/src/test/java/org/junit/experimental/categories/CategoryTest.java:[256,8] [deprecation] <T>assertThat(T,Matcher<? super T>) in Assert has been deprecated
+[WARNING]   where T is a type-variable:
+    T extends Object declared in method <T>assertThat(T,Matcher<? super T>)
+./junit4/src/test/java/org/junit/experimental/categories/CategoryTest.java:[276,8] [deprecation] <T>assertThat(T,Matcher<? super T>) in Assert has been deprecated
+[WARNING]   where T is a type-variable:
+    T extends Object declared in method <T>assertThat(T,Matcher<? super T>)
+./junit4/src/test/java/org/junit/experimental/categories/CategoryTest.java:[299,8] [deprecation] <T>assertThat(T,Matcher<? super T>) in Assert has been deprecated
+[WARNING]   where T is a type-variable:
+    T extends Object declared in method <T>assertThat(T,Matcher<? super T>)
+./junit4/src/test/java/org/junit/experimental/categories/CategoryTest.java:[384,8] [deprecation] <T>assertThat(T,Matcher<? super T>) in Assert has been deprecated
+[WARNING]   where T is a type-variable:
+    T extends Object declared in method <T>assertThat(T,Matcher<? super T>)
+./junit4/src/test/java/org/junit/experimental/categories/CategoryTest.java:[416,8] [deprecation] <T>assertThat(T,Matcher<? super T>) in Assert has been deprecated
+[WARNING]   where T is a type-variable:
+    T extends Object declared in method <T>assertThat(T,Matcher<? super T>)
+./junit4/src/test/java/org/junit/experimental/categories/CategoryTest.java:[443,8] [deprecation] <T>assertThat(T,Matcher<? super T>) in Assert has been deprecated
+[WARNING]   where T is a type-variable:
+    T extends Object declared in method <T>assertThat(T,Matcher<? super T>)
+./junit4/src/test/java/org/junit/experimental/categories/CategoryTest.java:[444,8] [deprecation] <T>assertThat(T,Matcher<? super T>) in Assert has been deprecated
+[WARNING]   where T is a type-variable:
+    T extends Object declared in method <T>assertThat(T,Matcher<? super T>)
+./junit4/src/test/java/org/junit/experimental/categories/CategoryTest.java:[445,8] [deprecation] <T>assertThat(T,Matcher<? super T>) in Assert has been deprecated
+[WARNING]   where T is a type-variable:
+    T extends Object declared in method <T>assertThat(T,Matcher<? super T>)
+./junit4/src/test/java/org/junit/validator/AnnotationsValidatorTest.java:[94,8] [deprecation] <T>assertThat(T,Matcher<? super T>) in Assert has been deprecated
+[WARNING]   where T is a type-variable:
+    T extends Object declared in method <T>assertThat(T,Matcher<? super T>)
+./junit4/src/test/java/org/junit/validator/AnnotationsValidatorTest.java:[95,8] [deprecation] <T>assertThat(T,Matcher<? super T>) in Assert has been deprecated
+[WARNING]   where T is a type-variable:
+    T extends Object declared in method <T>assertThat(T,Matcher<? super T>)
+./junit4/src/test/java/org/junit/runners/model/TestClassTest.java:[51,8] [deprecation] <T>assertThat(T,Matcher<? super T>) in Assert has been deprecated
+[WARNING]   where T is a type-variable:
+    T extends Object declared in method <T>assertThat(T,Matcher<? super T>)
+./junit4/src/test/java/org/junit/runners/model/TestClassTest.java:[62,8] [deprecation] <T>assertThat(T,Matcher<? super T>) in Assert has been deprecated
+[WARNING]   where T is a type-variable:
+    T extends Object declared in method <T>assertThat(T,Matcher<? super T>)
+./junit4/src/test/java/org/junit/runners/model/TestClassTest.java:[75,8] [deprecation] <T>assertThat(T,Matcher<? super T>) in Assert has been deprecated
+[WARNING]   where T is a type-variable:
+    T extends Object declared in method <T>assertThat(T,Matcher<? super T>)
+./junit4/src/test/java/org/junit/runners/model/TestClassTest.java:[86,8] [deprecation] <T>assertThat(T,Matcher<? super T>) in Assert has been deprecated
+[WARNING]   where T is a type-variable:
+    T extends Object declared in method <T>assertThat(T,Matcher<? super T>)
+./junit4/src/test/java/org/junit/runners/model/TestClassTest.java:[105,8] [deprecation] <T>assertThat(String,T,Matcher<? super T>) in Assert has been deprecated
+[WARNING]   where T is a type-variable:
+    T extends Object declared in method <T>assertThat(String,T,Matcher<? super T>)
+./junit4/src/test/java/org/junit/runners/model/TestClassTest.java:[106,8] [deprecation] <T>assertThat(String,T,Matcher<? super T>) in Assert has been deprecated
+[WARNING]   where T is a type-variable:
+    T extends Object declared in method <T>assertThat(String,T,Matcher<? super T>)
+./junit4/src/test/java/org/junit/runners/model/TestClassTest.java:[114,8] [deprecation] <T>assertThat(T,Matcher<? super T>) in Assert has been deprecated
+[WARNING]   where T is a type-variable:
+    T extends Object declared in method <T>assertThat(T,Matcher<? super T>)
+./junit4/src/test/java/org/junit/runners/model/TestClassTest.java:[115,8] [deprecation] <T>assertThat(T,Matcher<? super T>) in Assert has been deprecated
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.18.1:test (default-test) @ junit ---
+[INFO] Surefire report directory: ./junit4/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running org.junit.tests.AllTests
+Tests run: 916, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 7.084 sec - in org.junit.tests.AllTests
+
+Results :
+
+Tests run: 916, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] 
+[INFO] --- animal-sniffer-maven-plugin:1.14:check (signature-check) @ junit ---
+[INFO] Checking unresolved references to org.codehaus.mojo.signature:java15:1.0
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  09:35 min
+[INFO] Finished at: 
+[INFO] ------------------------------------------------------------------------

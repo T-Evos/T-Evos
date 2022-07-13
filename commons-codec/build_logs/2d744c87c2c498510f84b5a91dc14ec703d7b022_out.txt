@@ -1,0 +1,243 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] --------------------< commons-codec:commons-codec >---------------------
+[INFO] Building Apache Commons Codec 1.14-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:3.1.0:clean (default-clean) @ commons-codec ---
+[INFO] Deleting ./commons-codec/target
+[INFO] 
+[INFO] --- maven-enforcer-plugin:3.0.0-M2:enforce (enforce-maven-version) @ commons-codec ---
+[INFO] 
+[INFO] --- maven-enforcer-plugin:3.0.0-M2:enforce (enforce-maven-3) @ commons-codec ---
+[INFO] 
+[INFO] --- apache-rat-plugin:0.13:check (rat-check) @ commons-codec ---
+[INFO] Enabled default license matchers.
+[INFO] Will parse SCM ignores for exclusions...
+[INFO] Parsing exclusions from ./commons-codec/.gitignore
+[INFO] Finished adding exclusions from SCM ignore files.
+[INFO] 72 implicit excludes (use -debug for more details).
+[INFO] 10 explicit excludes (use -debug for more details).
+[INFO] 296 resources included (use -debug for more details)
+[INFO] Rat check: Summary over all files. Unapproved: 1, unknown: 1, generated: 0, approved: 288 licenses.
+[WARNING] Rat check: 1 files with unapproved licenses. See RAT report in: ./commons-codec/target/rat.txt
+[INFO] 
+[INFO] --- build-helper-maven-plugin:3.0.0:parse-version (parse-version) @ commons-codec ---
+[INFO] 
+[INFO] --- maven-antrun-plugin:1.8:run (javadoc.resources) @ commons-codec ---
+[INFO] Executing tasks
+
+main:
+     [copy] Copying 2 files to ./commons-codec/target/apidocs/META-INF
+[INFO] Executed tasks
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.5:process (process-resource-bundles) @ commons-codec ---
+[INFO] 
+[INFO] --- buildnumber-maven-plugin:1.4:create (default) @ commons-codec ---
+[INFO] Executing: /bin/sh -c cd './commons-codec' && 'git' 'rev-parse' '--verify' 'HEAD'
+[INFO] Working directory: ./commons-codec
+[INFO] Storing buildNumber: 2d744c87c2c498510f84b5a91dc14ec703d7b022 at timestamp: 1633691397872
+[WARNING] Cannot get the branch information from the git repository: 
+Detecting the current branch failed: fatal: ref HEAD is not a symbolic ref
+
+[INFO] Executing: /bin/sh -c cd './commons-codec' && 'git' 'rev-parse' '--verify' 'HEAD'
+[INFO] Working directory: ./commons-codec
+[INFO] Storing buildScmBranch: UNKNOWN
+[INFO] 
+[INFO] --- maven-resources-plugin:3.1.0:resources (default-resources) @ commons-codec ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 128 resources
+[INFO] Copying 2 resources to META-INF
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.0:compile (default-compile) @ commons-codec ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 68 source files to ./commons-codec/target/classes
+[INFO] 
+[INFO] --- maven-bundle-plugin:3.5.1:manifest (bundle-manifest) @ commons-codec ---
+[INFO] 
+[INFO] --- animal-sniffer-maven-plugin:1.17:check (checkAPIcompatibility) @ commons-codec ---
+[INFO] Checking unresolved references to org.codehaus.mojo.signature:java17:1.0
+[INFO] 
+[INFO] --- maven-resources-plugin:3.1.0:testResources (default-testResources) @ commons-codec ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 2 resources
+[INFO] Copying 2 resources to META-INF
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.0:testCompile (default-testCompile) @ commons-codec ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 64 source files to ./commons-codec/target/test-classes
+[INFO] 
+[INFO] --- jacoco-maven-plugin:0.8.4:prepare-agent (prepare-agent) @ commons-codec ---
+[INFO] argLine set to -javaagent:./.m2/repository/org/jacoco/org.jacoco.agent/0.8.4/org.jacoco.agent-0.8.4-runtime.jar=destfile=./commons-codec/target/jacoco.exec
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.22.1:test (default-test) @ commons-codec ---
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running org.apache.commons.codec.net.RFC1522CodecTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.086 s - in org.apache.commons.codec.net.RFC1522CodecTest
+[INFO] Running org.apache.commons.codec.net.BCodecTest
+[INFO] Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.03 s - in org.apache.commons.codec.net.BCodecTest
+[INFO] Running org.apache.commons.codec.net.QuotedPrintableCodecTest
+[INFO] Tests run: 21, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.024 s - in org.apache.commons.codec.net.QuotedPrintableCodecTest
+[INFO] Running org.apache.commons.codec.net.UtilsTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.apache.commons.codec.net.UtilsTest
+[INFO] Running org.apache.commons.codec.net.PercentCodecTest
+[WARNING] Tests run: 12, Failures: 0, Errors: 0, Skipped: 1, Time elapsed: 0.032 s - in org.apache.commons.codec.net.PercentCodecTest
+[INFO] Running org.apache.commons.codec.net.URLCodecTest
+[INFO] Tests run: 16, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.018 s - in org.apache.commons.codec.net.URLCodecTest
+[INFO] Running org.apache.commons.codec.net.QCodecTest
+[INFO] Tests run: 12, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.01 s - in org.apache.commons.codec.net.QCodecTest
+[INFO] Running org.apache.commons.codec.EncoderExceptionTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.apache.commons.codec.EncoderExceptionTest
+[INFO] Running org.apache.commons.codec.digest.HmacAlgorithmsTest
+[INFO] Tests run: 96, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.128 s - in org.apache.commons.codec.digest.HmacAlgorithmsTest
+[INFO] Running org.apache.commons.codec.digest.CryptTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.122 s - in org.apache.commons.codec.digest.CryptTest
+[INFO] Running org.apache.commons.codec.digest.MessageDigestAlgorithmsTest
+[WARNING] Tests run: 66, Failures: 0, Errors: 0, Skipped: 24, Time elapsed: 2.839 s - in org.apache.commons.codec.digest.MessageDigestAlgorithmsTest
+[INFO] Running org.apache.commons.codec.digest.DigestUtilsTest
+[WARNING] Tests run: 29, Failures: 0, Errors: 0, Skipped: 8, Time elapsed: 0.594 s - in org.apache.commons.codec.digest.DigestUtilsTest
+[INFO] Running org.apache.commons.codec.digest.PureJavaCrc32CTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.014 s - in org.apache.commons.codec.digest.PureJavaCrc32CTest
+[INFO] Running org.apache.commons.codec.digest.UnixCryptTest
+[INFO] Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 s - in org.apache.commons.codec.digest.UnixCryptTest
+[INFO] Running org.apache.commons.codec.digest.HmacUtilsTest
+[INFO] Tests run: 23, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.01 s - in org.apache.commons.codec.digest.HmacUtilsTest
+[INFO] Running org.apache.commons.codec.digest.Md5CryptTest
+[INFO] Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.064 s - in org.apache.commons.codec.digest.Md5CryptTest
+[INFO] Running org.apache.commons.codec.digest.PureJavaCrc32Test
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.14 s - in org.apache.commons.codec.digest.PureJavaCrc32Test
+[INFO] Running org.apache.commons.codec.digest.B64Test
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in org.apache.commons.codec.digest.B64Test
+[INFO] Running org.apache.commons.codec.digest.MurmurHash3Test
+[ERROR] Tests run: 18, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.043 s <<< FAILURE! - in org.apache.commons.codec.digest.MurmurHash3Test
+[ERROR] testIncrementalHash32(org.apache.commons.codec.digest.MurmurHash3Test)  Time elapsed: 0.008 s  <<< FAILURE!
+java.lang.AssertionError: Hashes differ expected:<1494532643> but was:<2062935736>
+	at org.apache.commons.codec.digest.MurmurHash3Test.assertIncrementalHash32(MurmurHash3Test.java:599)
+	at org.apache.commons.codec.digest.MurmurHash3Test.testIncrementalHash32(MurmurHash3Test.java:564)
+
+[INFO] Running org.apache.commons.codec.digest.Sha256CryptTest
+[INFO] Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.134 s - in org.apache.commons.codec.digest.Sha256CryptTest
+[INFO] Running org.apache.commons.codec.digest.XXHash32Test
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.011 s - in org.apache.commons.codec.digest.XXHash32Test
+[INFO] Running org.apache.commons.codec.digest.Sha2CryptTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s - in org.apache.commons.codec.digest.Sha2CryptTest
+[INFO] Running org.apache.commons.codec.digest.Apr1CryptTest
+[INFO] Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.024 s - in org.apache.commons.codec.digest.Apr1CryptTest
+[INFO] Running org.apache.commons.codec.digest.MurmurHash2Test
+[INFO] Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.01 s - in org.apache.commons.codec.digest.MurmurHash2Test
+[INFO] Running org.apache.commons.codec.digest.Sha512CryptTest
+[INFO] Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.088 s - in org.apache.commons.codec.digest.Sha512CryptTest
+[INFO] Running org.apache.commons.codec.DecoderExceptionTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.apache.commons.codec.DecoderExceptionTest
+[INFO] Running org.apache.commons.codec.language.MetaphoneTest
+[INFO] Tests run: 34, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.039 s - in org.apache.commons.codec.language.MetaphoneTest
+[INFO] Running org.apache.commons.codec.language.bm.PhoneticEngineRegressionTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.266 s - in org.apache.commons.codec.language.bm.PhoneticEngineRegressionTest
+[INFO] Running org.apache.commons.codec.language.bm.LanguageGuessingTest
+[INFO] Tests run: 18, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in org.apache.commons.codec.language.bm.LanguageGuessingTest
+[INFO] Running org.apache.commons.codec.language.bm.RuleTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.apache.commons.codec.language.bm.RuleTest
+[INFO] Running org.apache.commons.codec.language.bm.PhoneticEngineTest
+[INFO] Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.apache.commons.codec.language.bm.PhoneticEngineTest
+[INFO] Running org.apache.commons.codec.language.bm.BeiderMorseEncoderTest
+[INFO] Tests run: 22, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.16 s - in org.apache.commons.codec.language.bm.BeiderMorseEncoderTest
+[INFO] Running org.apache.commons.codec.language.Caverphone2Test
+[INFO] Tests run: 13, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.02 s - in org.apache.commons.codec.language.Caverphone2Test
+[INFO] Running org.apache.commons.codec.language.DoubleMetaphoneTest
+[INFO] Tests run: 16, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.041 s - in org.apache.commons.codec.language.DoubleMetaphoneTest
+[INFO] Running org.apache.commons.codec.language.SoundexTest
+[INFO] Tests run: 31, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.011 s - in org.apache.commons.codec.language.SoundexTest
+[INFO] Running org.apache.commons.codec.language.ColognePhoneticTest
+[INFO] Tests run: 15, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.013 s - in org.apache.commons.codec.language.ColognePhoneticTest
+[INFO] Running org.apache.commons.codec.language.DaitchMokotoffSoundexTest
+[INFO] Tests run: 13, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.012 s - in org.apache.commons.codec.language.DaitchMokotoffSoundexTest
+[INFO] Running org.apache.commons.codec.language.Caverphone1Test
+[INFO] Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 s - in org.apache.commons.codec.language.Caverphone1Test
+[INFO] Running org.apache.commons.codec.language.RefinedSoundexTest
+[INFO] Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 s - in org.apache.commons.codec.language.RefinedSoundexTest
+[INFO] Running org.apache.commons.codec.language.DoubleMetaphone2Test
+[INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.013 s - in org.apache.commons.codec.language.DoubleMetaphone2Test
+[INFO] Running org.apache.commons.codec.language.NysiisTest
+[INFO] Tests run: 23, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 s - in org.apache.commons.codec.language.NysiisTest
+[INFO] Running org.apache.commons.codec.language.MatchRatingApproachEncoderTest
+[INFO] Tests run: 96, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.021 s - in org.apache.commons.codec.language.MatchRatingApproachEncoderTest
+[INFO] Running org.apache.commons.codec.StringEncoderComparatorTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.009 s - in org.apache.commons.codec.StringEncoderComparatorTest
+[INFO] Running org.apache.commons.codec.binary.HexTest
+[INFO] Tests run: 44, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.199 s - in org.apache.commons.codec.binary.HexTest
+[INFO] Running org.apache.commons.codec.binary.Base64Codec13Test
+[INFO] Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.apache.commons.codec.binary.Base64Codec13Test
+[INFO] Running org.apache.commons.codec.binary.BaseNCodecTest
+[INFO] Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in org.apache.commons.codec.binary.BaseNCodecTest
+[INFO] Running org.apache.commons.codec.binary.StringUtilsTest
+[INFO] Tests run: 21, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in org.apache.commons.codec.binary.StringUtilsTest
+[INFO] Running org.apache.commons.codec.binary.Base32InputStreamTest
+[INFO] Tests run: 16, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.apache.commons.codec.binary.Base32InputStreamTest
+[INFO] Running org.apache.commons.codec.binary.Base64Test
+[WARNING] Tests run: 57, Failures: 0, Errors: 0, Skipped: 1, Time elapsed: 0.001 s - in org.apache.commons.codec.binary.Base64Test
+[INFO] Running org.apache.commons.codec.binary.Base32Test
+[INFO] Tests run: 19, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in org.apache.commons.codec.binary.Base32Test
+[INFO] Running org.apache.commons.codec.binary.AllocateDirectHexTest
+[INFO] Tests run: 44, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in org.apache.commons.codec.binary.AllocateDirectHexTest
+[INFO] Running org.apache.commons.codec.binary.BinaryCodecTest
+[INFO] Tests run: 13, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in org.apache.commons.codec.binary.BinaryCodecTest
+[INFO] Running org.apache.commons.codec.binary.Base64InputStreamTest
+[INFO] Tests run: 19, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in org.apache.commons.codec.binary.Base64InputStreamTest
+[INFO] Running org.apache.commons.codec.binary.Base32OutputStreamTest
+[INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.apache.commons.codec.binary.Base32OutputStreamTest
+[INFO] Running org.apache.commons.codec.binary.Base64OutputStreamTest
+[INFO] Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.138 s - in org.apache.commons.codec.binary.Base64OutputStreamTest
+[INFO] Running org.apache.commons.codec.CharEncodingTest
+[INFO] Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.apache.commons.codec.CharEncodingTest
+[INFO] Running org.apache.commons.codec.CharsetsTest
+[INFO] Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.011 s - in org.apache.commons.codec.CharsetsTest
+[INFO] 
+[INFO] Results:
+[INFO] 
+[ERROR] Failures: 
+[ERROR]   MurmurHash3Test.testIncrementalHash32:564->assertIncrementalHash32:599 Hashes differ expected:<1494532643> but was:<2062935736>
+[INFO] 
+[ERROR] Tests run: 978, Failures: 1, Errors: 0, Skipped: 34
+[INFO] 
+[ERROR] There are test failures.
+
+Please refer to ./commons-codec/target/surefire-reports for the individual test results.
+Please refer to dump files (if any exist) [date].dump, [date]-jvmRun[N].dump and [date].dumpstream.
+[INFO] 
+[INFO] --- maven-jar-plugin:3.1.1:jar (default-jar) @ commons-codec ---
+[INFO] Building jar: ./commons-codec/target/commons-codec-1.14-SNAPSHOT.jar
+[INFO] 
+[INFO] --- maven-site-plugin:3.7.1:attach-descriptor (attach-descriptor) @ commons-codec ---
+[INFO] Skipping because packaging 'jar' is not pom.
+[INFO] 
+[INFO] --- maven-jar-plugin:3.1.1:test-jar (default) @ commons-codec ---
+[INFO] Building jar: ./commons-codec/target/commons-codec-1.14-SNAPSHOT-tests.jar
+[INFO] 
+[INFO] --- maven-source-plugin:3.0.1:jar-no-fork (create-source-jar) @ commons-codec ---
+[INFO] Building jar: ./commons-codec/target/commons-codec-1.14-SNAPSHOT-sources.jar
+[INFO] 
+[INFO] --- maven-source-plugin:3.0.1:test-jar-no-fork (create-source-jar) @ commons-codec ---
+[INFO] Building jar: ./commons-codec/target/commons-codec-1.14-SNAPSHOT-test-sources.jar
+[INFO] 
+[INFO] --- jacoco-maven-plugin:0.8.4:check (check) @ commons-codec ---
+[INFO] Loading execution data file ./commons-codec/target/jacoco.exec
+[INFO] Analyzed bundle 'commons-codec' with 91 classes
+[WARNING] Rule violated for bundle commons-codec: classes covered ratio is 0.96, but expected minimum is 1.00
+[WARNING] Rule violated for bundle commons-codec: methods covered ratio is 0.87, but expected minimum is 0.95
+[WARNING] Coverage checks have not been met. See log for details.
+[INFO] 
+[INFO] --- maven-install-plugin:2.5.2:install (default-install) @ commons-codec ---
+[INFO] Installing ./commons-codec/target/commons-codec-1.14-SNAPSHOT.jar to ./.m2/repository/commons-codec/commons-codec/1.14-SNAPSHOT/commons-codec-1.14-SNAPSHOT.jar
+[INFO] Installing ./commons-codec/pom.xml to ./.m2/repository/commons-codec/commons-codec/1.14-SNAPSHOT/commons-codec-1.14-SNAPSHOT.pom
+[INFO] Installing ./commons-codec/target/commons-codec-1.14-SNAPSHOT-tests.jar to ./.m2/repository/commons-codec/commons-codec/1.14-SNAPSHOT/commons-codec-1.14-SNAPSHOT-tests.jar
+[INFO] Installing ./commons-codec/target/commons-codec-1.14-SNAPSHOT-sources.jar to ./.m2/repository/commons-codec/commons-codec/1.14-SNAPSHOT/commons-codec-1.14-SNAPSHOT-sources.jar
+[INFO] Installing ./commons-codec/target/commons-codec-1.14-SNAPSHOT-test-sources.jar to ./.m2/repository/commons-codec/commons-codec/1.14-SNAPSHOT/commons-codec-1.14-SNAPSHOT-test-sources.jar
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  20.481 s
+[INFO] Finished at: 
+[INFO] ------------------------------------------------------------------------

@@ -1,0 +1,179 @@
+{
+    "org.apache.commons.cli.ApplicationTest": [
+        "testLs",
+        "testAnt"
+    ],
+    "org.apache.commons.cli.ArgumentIsOptionTest": [
+        "testOptionAndOptionWithArgument",
+        "testOptionWithArgument",
+        "testOption"
+    ],
+    "org.apache.commons.cli.BasicParserTest": [
+        "testParser"
+    ],
+    "org.apache.commons.cli.BugsTest": [
+        "test11457",
+        "test11458",
+        "test11680",
+        "test11456",
+        "test12210",
+        "test13425",
+        "test13666",
+        "test13935",
+        "test14786",
+        "test15046",
+        "test15648",
+        "test27635",
+        "test31148",
+        "test21215",
+        "test19383"
+    ],
+    "org.apache.commons.cli.GnuParserTest": [
+        "testSimpleShort",
+        "testSimpleLong",
+        "testExtraOption",
+        "testMissingArg",
+        "testStop",
+        "testMultiple",
+        "testMultipleWithLong",
+        "testDoubleDash",
+        "testSingleDash",
+        "testNegativeArgument",
+        "testShortWithEqual",
+        "testShortWithoutEqual",
+        "testLongWithEqual",
+        "testLongWithEqualSingleDash"
+    ],
+    "org.apache.commons.cli.HelpFormatterTest": [
+        "testFindWrapPos",
+        "testPrintWrapped",
+        "testPrintOptions",
+        "testPrintHelpWithEmptySyntax",
+        "testAutomaticUsage",
+        "testPrintUsage",
+        "testPrintSortedUsage",
+        "testPrintSortedUsageWithNullComparator",
+        "testPrintOptionGroupUsage",
+        "testPrintRequiredOptionGroupUsage",
+        "testPrintOptionWithEmptyArgNameUsage",
+        "testRtrim",
+        "testAccessors"
+    ],
+    "org.apache.commons.cli.OptionBuilderTest": [
+        "testCompleteOption",
+        "testTwoCompleteOptions",
+        "testBaseOptionCharOpt",
+        "testBaseOptionStringOpt",
+        "testSpecialOptChars",
+        "testOptionArgNumbers",
+        "testIllegalOptions",
+        "testCreateIncompleteOption"
+    ],
+    "org.apache.commons.cli.OptionGroupTest": [
+        "testSingleOptionFromGroup",
+        "testSingleOption",
+        "testTwoValidOptions",
+        "testSingleLongOption",
+        "testTwoValidLongOptions",
+        "testNoOptionsExtraArgs",
+        "testTwoOptionsFromGroup",
+        "testTwoLongOptionsFromGroup",
+        "testTwoOptionsFromDifferentGroup",
+        "testValidLongOnlyOptions",
+        "testToString"
+    ],
+    "org.apache.commons.cli.OptionTest": [
+        "testClear",
+        "testClone",
+        "testSubclass",
+        "testHasArgName",
+        "testHasArgs",
+        "testGetValue"
+    ],
+    "org.apache.commons.cli.OptionsTest": [
+        "testToString",
+        "testSimple",
+        "testDuplicateSimple",
+        "testLong",
+        "testDuplicateLong",
+        "testHelpOptions",
+        "testMissingOptionException",
+        "testMissingOptionsException"
+    ],
+    "org.apache.commons.cli.ParseRequiredTest": [
+        "testWithRequiredOption",
+        "testOptionAndRequiredOption",
+        "testMissingRequiredOption",
+        "testMissingRequiredOptions",
+        "testReuseOptionsTwice"
+    ],
+    "org.apache.commons.cli.PatternOptionBuilderTest": [
+        "testSimplePattern"
+    ],
+    "org.apache.commons.cli.PosixParserTest": [
+        "testSimpleShort",
+        "testSimpleLong",
+        "testExtraOption",
+        "testMissingArg",
+        "testStop",
+        "testMultiple",
+        "testMultipleWithLong",
+        "testDoubleDash",
+        "testSingleDash",
+        "testComplexShort",
+        "testLongOptionWithShort"
+    ],
+    "org.apache.commons.cli.UtilTest": [
+        "testStripLeadingHyphens",
+        "testStripLeadingAndTrailingQuotes"
+    ],
+    "org.apache.commons.cli.ValueTest": [
+        "testShortNoArg",
+        "testShortWithArg",
+        "testLongNoArg",
+        "testLongWithArg",
+        "testShortOptionalArgNoValue",
+        "testShortOptionalArgValue",
+        "testLongOptionalNoValue",
+        "testLongOptionalArgValue",
+        "testShortOptionalArgValues",
+        "testLongOptionalArgValues",
+        "testShortOptionalNArgValues",
+        "testLongOptionalNArgValues",
+        "testPropertyOptionSingularValue",
+        "testPropertyOptionFlags",
+        "testPropertyOptionMultipleValues",
+        "testPropertyOverrideValues"
+    ],
+    "org.apache.commons.cli.ValuesTest": [
+        "testShortArgs",
+        "testShortArgsWithValue",
+        "testMultipleArgValues",
+        "testTwoArgValues",
+        "testComplexValues",
+        "testExtraArgs",
+        "testCharSeparator"
+    ],
+    "org.apache.commons.cli.bug.BugCLI133Test": [
+        "testOrder"
+    ],
+    "org.apache.commons.cli.bug.BugCLI13Test": [
+        "testCLI13"
+    ],
+    "org.apache.commons.cli.bug.BugCLI148Test": [
+        "testWorkaround1",
+        "testWorkaround2"
+    ],
+    "org.apache.commons.cli.bug.BugCLI18Test": [
+        "testCLI18"
+    ],
+    "org.apache.commons.cli.bug.BugCLI51Test": [
+        "test"
+    ],
+    "org.apache.commons.cli.bug.BugCLI71Test": [
+        "testBasic",
+        "testMistakenArgument",
+        "testLackOfError",
+        "testGetsDefaultIfOptional"
+    ]
+}

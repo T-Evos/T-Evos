@@ -1,0 +1,1709 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ----------------< org.apache.commons:commons-compress >-----------------
+[INFO] Building Apache Commons Compress 1.19-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+Downloading from central: https://repo.maven.apache.org/maven2/com/github/luben/zstd-jni/1.4.0-1/zstd-jni-1.4.0-1.pom
+Progress (1): 1.4/1.9 kB
+Progress (1): 1.9 kB    
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/com/github/luben/zstd-jni/1.4.0-1/zstd-jni-1.4.0-1.pom (1.9 kB at 1.4 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/felix/org.apache.felix.framework/6.0.2/org.apache.felix.framework-6.0.2.pom
+Progress (1): 1.4/6.4 kB
+Progress (1): 2.7/6.4 kB
+Progress (1): 4.1/6.4 kB
+Progress (1): 5.5/6.4 kB
+Progress (1): 6.4 kB    
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/felix/org.apache.felix.framework/6.0.2/org.apache.felix.framework-6.0.2.pom (6.4 kB at 11 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/github/luben/zstd-jni/1.4.0-1/zstd-jni-1.4.0-1.jar
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/felix/org.apache.felix.framework/6.0.2/org.apache.felix.framework-6.0.2.jar
+Progress (1): 1.4/726 kB
+Progress (1): 2.7/726 kB
+Progress (1): 4.1/726 kB
+Progress (1): 5.5/726 kB
+Progress (1): 6.9/726 kB
+Progress (1): 8.2/726 kB
+Progress (1): 9.6/726 kB
+Progress (1): 11/726 kB 
+Progress (1): 12/726 kB
+Progress (1): 14/726 kB
+Progress (1): 15/726 kB
+Progress (1): 16/726 kB
+Progress (1): 18/726 kB
+Progress (1): 19/726 kB
+Progress (1): 21/726 kB
+Progress (1): 22/726 kB
+Progress (1): 23/726 kB
+Progress (1): 25/726 kB
+Progress (1): 26/726 kB
+Progress (1): 27/726 kB
+Progress (1): 29/726 kB
+Progress (1): 30/726 kB
+Progress (1): 32/726 kB
+Progress (2): 32/726 kB | 0/4.0 MB
+Progress (2): 32/726 kB | 0/4.0 MB
+Progress (2): 32/726 kB | 0/4.0 MB
+Progress (2): 32/726 kB | 0/4.0 MB
+Progress (2): 32/726 kB | 0/4.0 MB
+Progress (2): 32/726 kB | 0/4.0 MB
+Progress (2): 32/726 kB | 0/4.0 MB
+Progress (2): 32/726 kB | 0/4.0 MB
+Progress (2): 32/726 kB | 0/4.0 MB
+Progress (2): 32/726 kB | 0/4.0 MB
+Progress (2): 32/726 kB | 0/4.0 MB
+Progress (2): 32/726 kB | 0/4.0 MB
+Progress (2): 32/726 kB | 0/4.0 MB
+Progress (2): 32/726 kB | 0/4.0 MB
+Progress (2): 32/726 kB | 0/4.0 MB
+Progress (2): 32/726 kB | 0/4.0 MB
+Progress (2): 32/726 kB | 0/4.0 MB
+Progress (2): 32/726 kB | 0/4.0 MB
+Progress (2): 32/726 kB | 0/4.0 MB
+Progress (2): 32/726 kB | 0/4.0 MB
+Progress (2): 32/726 kB | 0/4.0 MB
+Progress (2): 32/726 kB | 0/4.0 MB
+Progress (2): 32/726 kB | 0/4.0 MB
+Progress (2): 32/726 kB | 0/4.0 MB
+Progress (2): 32/726 kB | 0/4.0 MB
+Progress (2): 32/726 kB | 0/4.0 MB
+Progress (2): 32/726 kB | 0/4.0 MB
+Progress (2): 32/726 kB | 0/4.0 MB
+Progress (2): 32/726 kB | 0/4.0 MB
+Progress (2): 33/726 kB | 0/4.0 MB
+Progress (2): 33/726 kB | 0/4.0 MB
+Progress (2): 34/726 kB | 0/4.0 MB
+Progress (2): 36/726 kB | 0/4.0 MB
+Progress (2): 37/726 kB | 0/4.0 MB
+Progress (2): 38/726 kB | 0/4.0 MB
+Progress (2): 40/726 kB | 0/4.0 MB
+Progress (2): 41/726 kB | 0/4.0 MB
+Progress (2): 43/726 kB | 0/4.0 MB
+Progress (2): 44/726 kB | 0/4.0 MB
+Progress (2): 45/726 kB | 0/4.0 MB
+Progress (2): 47/726 kB | 0/4.0 MB
+Progress (2): 48/726 kB | 0/4.0 MB
+Progress (2): 49/726 kB | 0/4.0 MB
+Progress (2): 51/726 kB | 0/4.0 MB
+Progress (2): 52/726 kB | 0/4.0 MB
+Progress (2): 53/726 kB | 0/4.0 MB
+Progress (2): 55/726 kB | 0/4.0 MB
+Progress (2): 55/726 kB | 0/4.0 MB
+Progress (2): 55/726 kB | 0/4.0 MB
+Progress (2): 55/726 kB | 0/4.0 MB
+Progress (2): 55/726 kB | 0/4.0 MB
+Progress (2): 55/726 kB | 0/4.0 MB
+Progress (2): 55/726 kB | 0/4.0 MB
+Progress (2): 55/726 kB | 0.1/4.0 MB
+Progress (2): 55/726 kB | 0.1/4.0 MB
+Progress (2): 55/726 kB | 0.1/4.0 MB
+Progress (2): 55/726 kB | 0.1/4.0 MB
+Progress (2): 55/726 kB | 0.1/4.0 MB
+Progress (2): 55/726 kB | 0.1/4.0 MB
+Progress (2): 55/726 kB | 0.1/4.0 MB
+Progress (2): 55/726 kB | 0.1/4.0 MB
+Progress (2): 55/726 kB | 0.1/4.0 MB
+Progress (2): 55/726 kB | 0.1/4.0 MB
+Progress (2): 55/726 kB | 0.1/4.0 MB
+Progress (2): 55/726 kB | 0.1/4.0 MB
+Progress (2): 55/726 kB | 0.1/4.0 MB
+Progress (2): 55/726 kB | 0.1/4.0 MB
+Progress (2): 55/726 kB | 0.1/4.0 MB
+Progress (2): 55/726 kB | 0.1/4.0 MB
+Progress (2): 55/726 kB | 0.1/4.0 MB
+Progress (2): 55/726 kB | 0.1/4.0 MB
+Progress (2): 55/726 kB | 0.1/4.0 MB
+Progress (2): 55/726 kB | 0.1/4.0 MB
+Progress (2): 55/726 kB | 0.1/4.0 MB
+Progress (2): 55/726 kB | 0.1/4.0 MB
+Progress (2): 55/726 kB | 0.1/4.0 MB
+Progress (2): 55/726 kB | 0.1/4.0 MB
+Progress (2): 59/726 kB | 0.1/4.0 MB
+Progress (2): 63/726 kB | 0.1/4.0 MB
+Progress (2): 67/726 kB | 0.1/4.0 MB
+Progress (2): 71/726 kB | 0.1/4.0 MB
+Progress (2): 75/726 kB | 0.1/4.0 MB
+Progress (2): 79/726 kB | 0.1/4.0 MB
+Progress (2): 84/726 kB | 0.1/4.0 MB
+Progress (2): 88/726 kB | 0.1/4.0 MB
+Progress (2): 88/726 kB | 0.1/4.0 MB
+Progress (2): 88/726 kB | 0.1/4.0 MB
+Progress (2): 88/726 kB | 0.1/4.0 MB
+Progress (2): 88/726 kB | 0.1/4.0 MB
+Progress (2): 88/726 kB | 0.1/4.0 MB
+Progress (2): 88/726 kB | 0.1/4.0 MB
+Progress (2): 88/726 kB | 0.1/4.0 MB
+Progress (2): 88/726 kB | 0.1/4.0 MB
+Progress (2): 88/726 kB | 0.2/4.0 MB
+Progress (2): 88/726 kB | 0.2/4.0 MB
+Progress (2): 88/726 kB | 0.2/4.0 MB
+Progress (2): 88/726 kB | 0.2/4.0 MB
+Progress (2): 88/726 kB | 0.2/4.0 MB
+Progress (2): 88/726 kB | 0.2/4.0 MB
+Progress (2): 88/726 kB | 0.2/4.0 MB
+Progress (2): 88/726 kB | 0.2/4.0 MB
+Progress (2): 92/726 kB | 0.2/4.0 MB
+Progress (2): 96/726 kB | 0.2/4.0 MB
+Progress (2): 100/726 kB | 0.2/4.0 MB
+Progress (2): 104/726 kB | 0.2/4.0 MB
+Progress (2): 104/726 kB | 0.2/4.0 MB
+Progress (2): 104/726 kB | 0.2/4.0 MB
+Progress (2): 104/726 kB | 0.2/4.0 MB
+Progress (2): 104/726 kB | 0.2/4.0 MB
+Progress (2): 104/726 kB | 0.2/4.0 MB
+Progress (2): 104/726 kB | 0.2/4.0 MB
+Progress (2): 104/726 kB | 0.2/4.0 MB
+Progress (2): 104/726 kB | 0.2/4.0 MB
+Progress (2): 104/726 kB | 0.2/4.0 MB
+Progress (2): 104/726 kB | 0.2/4.0 MB
+Progress (2): 104/726 kB | 0.2/4.0 MB
+Progress (2): 104/726 kB | 0.2/4.0 MB
+Progress (2): 104/726 kB | 0.2/4.0 MB
+Progress (2): 104/726 kB | 0.2/4.0 MB
+Progress (2): 104/726 kB | 0.2/4.0 MB
+Progress (2): 104/726 kB | 0.2/4.0 MB
+Progress (2): 104/726 kB | 0.3/4.0 MB
+Progress (2): 104/726 kB | 0.3/4.0 MB
+Progress (2): 104/726 kB | 0.3/4.0 MB
+Progress (2): 104/726 kB | 0.3/4.0 MB
+Progress (2): 104/726 kB | 0.3/4.0 MB
+Progress (2): 104/726 kB | 0.3/4.0 MB
+Progress (2): 104/726 kB | 0.3/4.0 MB
+Progress (2): 104/726 kB | 0.3/4.0 MB
+Progress (2): 104/726 kB | 0.3/4.0 MB
+Progress (2): 104/726 kB | 0.3/4.0 MB
+Progress (2): 104/726 kB | 0.3/4.0 MB
+Progress (2): 104/726 kB | 0.3/4.0 MB
+Progress (2): 104/726 kB | 0.3/4.0 MB
+Progress (2): 104/726 kB | 0.3/4.0 MB
+Progress (2): 104/726 kB | 0.3/4.0 MB
+Progress (2): 104/726 kB | 0.3/4.0 MB
+Progress (2): 104/726 kB | 0.3/4.0 MB
+Progress (2): 104/726 kB | 0.3/4.0 MB
+Progress (2): 104/726 kB | 0.3/4.0 MB
+Progress (2): 104/726 kB | 0.3/4.0 MB
+Progress (2): 104/726 kB | 0.3/4.0 MB
+Progress (2): 104/726 kB | 0.3/4.0 MB
+Progress (2): 104/726 kB | 0.3/4.0 MB
+Progress (2): 104/726 kB | 0.3/4.0 MB
+Progress (2): 104/726 kB | 0.3/4.0 MB
+Progress (2): 104/726 kB | 0.4/4.0 MB
+Progress (2): 104/726 kB | 0.4/4.0 MB
+Progress (2): 104/726 kB | 0.4/4.0 MB
+Progress (2): 104/726 kB | 0.4/4.0 MB
+Progress (2): 104/726 kB | 0.4/4.0 MB
+Progress (2): 104/726 kB | 0.4/4.0 MB
+Progress (2): 104/726 kB | 0.4/4.0 MB
+Progress (2): 104/726 kB | 0.4/4.0 MB
+Progress (2): 104/726 kB | 0.4/4.0 MB
+Progress (2): 104/726 kB | 0.4/4.0 MB
+Progress (2): 104/726 kB | 0.4/4.0 MB
+Progress (2): 104/726 kB | 0.4/4.0 MB
+Progress (2): 104/726 kB | 0.4/4.0 MB
+Progress (2): 104/726 kB | 0.4/4.0 MB
+Progress (2): 104/726 kB | 0.4/4.0 MB
+Progress (2): 104/726 kB | 0.4/4.0 MB
+Progress (2): 104/726 kB | 0.4/4.0 MB
+Progress (2): 104/726 kB | 0.4/4.0 MB
+Progress (2): 104/726 kB | 0.4/4.0 MB
+Progress (2): 104/726 kB | 0.4/4.0 MB
+Progress (2): 104/726 kB | 0.4/4.0 MB
+Progress (2): 104/726 kB | 0.4/4.0 MB
+Progress (2): 104/726 kB | 0.4/4.0 MB
+Progress (2): 104/726 kB | 0.4/4.0 MB
+Progress (2): 104/726 kB | 0.5/4.0 MB
+Progress (2): 104/726 kB | 0.5/4.0 MB
+Progress (2): 104/726 kB | 0.5/4.0 MB
+Progress (2): 104/726 kB | 0.5/4.0 MB
+Progress (2): 104/726 kB | 0.5/4.0 MB
+Progress (2): 104/726 kB | 0.5/4.0 MB
+Progress (2): 104/726 kB | 0.5/4.0 MB
+Progress (2): 104/726 kB | 0.5/4.0 MB
+Progress (2): 104/726 kB | 0.5/4.0 MB
+Progress (2): 104/726 kB | 0.5/4.0 MB
+Progress (2): 104/726 kB | 0.5/4.0 MB
+Progress (2): 104/726 kB | 0.5/4.0 MB
+Progress (2): 104/726 kB | 0.5/4.0 MB
+Progress (2): 104/726 kB | 0.5/4.0 MB
+Progress (2): 104/726 kB | 0.5/4.0 MB
+Progress (2): 104/726 kB | 0.5/4.0 MB
+Progress (2): 104/726 kB | 0.5/4.0 MB
+Progress (2): 104/726 kB | 0.5/4.0 MB
+Progress (2): 104/726 kB | 0.5/4.0 MB
+Progress (2): 104/726 kB | 0.5/4.0 MB
+Progress (2): 104/726 kB | 0.5/4.0 MB
+Progress (2): 104/726 kB | 0.5/4.0 MB
+Progress (2): 104/726 kB | 0.5/4.0 MB
+Progress (2): 104/726 kB | 0.5/4.0 MB
+Progress (2): 104/726 kB | 0.5/4.0 MB
+Progress (2): 104/726 kB | 0.6/4.0 MB
+Progress (2): 104/726 kB | 0.6/4.0 MB
+Progress (2): 108/726 kB | 0.6/4.0 MB
+Progress (2): 112/726 kB | 0.6/4.0 MB
+Progress (2): 116/726 kB | 0.6/4.0 MB
+Progress (2): 120/726 kB | 0.6/4.0 MB
+Progress (2): 120/726 kB | 0.6/4.0 MB
+Progress (2): 120/726 kB | 0.6/4.0 MB
+Progress (2): 120/726 kB | 0.6/4.0 MB
+Progress (2): 120/726 kB | 0.6/4.0 MB
+Progress (2): 120/726 kB | 0.6/4.0 MB
+Progress (2): 120/726 kB | 0.6/4.0 MB
+Progress (2): 120/726 kB | 0.6/4.0 MB
+Progress (2): 120/726 kB | 0.6/4.0 MB
+Progress (2): 120/726 kB | 0.6/4.0 MB
+Progress (2): 120/726 kB | 0.6/4.0 MB
+Progress (2): 120/726 kB | 0.6/4.0 MB
+Progress (2): 120/726 kB | 0.6/4.0 MB
+Progress (2): 120/726 kB | 0.6/4.0 MB
+Progress (2): 120/726 kB | 0.6/4.0 MB
+Progress (2): 120/726 kB | 0.6/4.0 MB
+Progress (2): 120/726 kB | 0.6/4.0 MB
+Progress (2): 120/726 kB | 0.6/4.0 MB
+Progress (2): 120/726 kB | 0.6/4.0 MB
+Progress (2): 120/726 kB | 0.6/4.0 MB
+Progress (2): 120/726 kB | 0.6/4.0 MB
+Progress (2): 120/726 kB | 0.6/4.0 MB
+Progress (2): 120/726 kB | 0.6/4.0 MB
+Progress (2): 120/726 kB | 0.7/4.0 MB
+Progress (2): 120/726 kB | 0.7/4.0 MB
+Progress (2): 120/726 kB | 0.7/4.0 MB
+Progress (2): 120/726 kB | 0.7/4.0 MB
+Progress (2): 120/726 kB | 0.7/4.0 MB
+Progress (2): 120/726 kB | 0.7/4.0 MB
+Progress (2): 120/726 kB | 0.7/4.0 MB
+Progress (2): 120/726 kB | 0.7/4.0 MB
+Progress (2): 120/726 kB | 0.7/4.0 MB
+Progress (2): 120/726 kB | 0.7/4.0 MB
+Progress (2): 120/726 kB | 0.7/4.0 MB
+Progress (2): 120/726 kB | 0.7/4.0 MB
+Progress (2): 120/726 kB | 0.7/4.0 MB
+Progress (2): 120/726 kB | 0.7/4.0 MB
+Progress (2): 120/726 kB | 0.7/4.0 MB
+Progress (2): 120/726 kB | 0.7/4.0 MB
+Progress (2): 120/726 kB | 0.7/4.0 MB
+Progress (2): 120/726 kB | 0.7/4.0 MB
+Progress (2): 120/726 kB | 0.7/4.0 MB
+Progress (2): 120/726 kB | 0.7/4.0 MB
+Progress (2): 120/726 kB | 0.7/4.0 MB
+Progress (2): 120/726 kB | 0.7/4.0 MB
+Progress (2): 120/726 kB | 0.7/4.0 MB
+Progress (2): 120/726 kB | 0.7/4.0 MB
+Progress (2): 120/726 kB | 0.7/4.0 MB
+Progress (2): 120/726 kB | 0.8/4.0 MB
+Progress (2): 120/726 kB | 0.8/4.0 MB
+Progress (2): 120/726 kB | 0.8/4.0 MB
+Progress (2): 120/726 kB | 0.8/4.0 MB
+Progress (2): 120/726 kB | 0.8/4.0 MB
+Progress (2): 120/726 kB | 0.8/4.0 MB
+Progress (2): 120/726 kB | 0.8/4.0 MB
+Progress (2): 120/726 kB | 0.8/4.0 MB
+Progress (2): 120/726 kB | 0.8/4.0 MB
+Progress (2): 120/726 kB | 0.8/4.0 MB
+Progress (2): 120/726 kB | 0.8/4.0 MB
+Progress (2): 120/726 kB | 0.8/4.0 MB
+Progress (2): 120/726 kB | 0.8/4.0 MB
+Progress (2): 120/726 kB | 0.8/4.0 MB
+Progress (2): 120/726 kB | 0.8/4.0 MB
+Progress (2): 120/726 kB | 0.8/4.0 MB
+Progress (2): 120/726 kB | 0.8/4.0 MB
+Progress (2): 120/726 kB | 0.8/4.0 MB
+Progress (2): 120/726 kB | 0.8/4.0 MB
+Progress (2): 120/726 kB | 0.8/4.0 MB
+Progress (2): 120/726 kB | 0.8/4.0 MB
+Progress (2): 120/726 kB | 0.8/4.0 MB
+Progress (2): 120/726 kB | 0.8/4.0 MB
+Progress (2): 120/726 kB | 0.8/4.0 MB
+Progress (2): 120/726 kB | 0.9/4.0 MB
+Progress (2): 120/726 kB | 0.9/4.0 MB
+Progress (2): 120/726 kB | 0.9/4.0 MB
+Progress (2): 120/726 kB | 0.9/4.0 MB
+Progress (2): 120/726 kB | 0.9/4.0 MB
+Progress (2): 120/726 kB | 0.9/4.0 MB
+Progress (2): 120/726 kB | 0.9/4.0 MB
+Progress (2): 120/726 kB | 0.9/4.0 MB
+Progress (2): 120/726 kB | 0.9/4.0 MB
+Progress (2): 120/726 kB | 0.9/4.0 MB
+Progress (2): 120/726 kB | 0.9/4.0 MB
+Progress (2): 120/726 kB | 0.9/4.0 MB
+Progress (2): 120/726 kB | 0.9/4.0 MB
+Progress (2): 120/726 kB | 0.9/4.0 MB
+Progress (2): 120/726 kB | 0.9/4.0 MB
+Progress (2): 120/726 kB | 0.9/4.0 MB
+Progress (2): 120/726 kB | 0.9/4.0 MB
+Progress (2): 124/726 kB | 0.9/4.0 MB
+Progress (2): 129/726 kB | 0.9/4.0 MB
+Progress (2): 133/726 kB | 0.9/4.0 MB
+Progress (2): 137/726 kB | 0.9/4.0 MB
+Progress (2): 137/726 kB | 0.9/4.0 MB
+Progress (2): 137/726 kB | 0.9/4.0 MB
+Progress (2): 137/726 kB | 0.9/4.0 MB
+Progress (2): 137/726 kB | 0.9/4.0 MB
+Progress (2): 137/726 kB | 0.9/4.0 MB
+Progress (2): 137/726 kB | 0.9/4.0 MB
+Progress (2): 137/726 kB | 0.9/4.0 MB
+Progress (2): 137/726 kB | 1.0/4.0 MB
+Progress (2): 137/726 kB | 1.0/4.0 MB
+Progress (2): 137/726 kB | 1.0/4.0 MB
+Progress (2): 137/726 kB | 1.0/4.0 MB
+Progress (2): 137/726 kB | 1.0/4.0 MB
+Progress (2): 137/726 kB | 1.0/4.0 MB
+Progress (2): 137/726 kB | 1.0/4.0 MB
+Progress (2): 137/726 kB | 1.0/4.0 MB
+Progress (2): 137/726 kB | 1.0/4.0 MB
+Progress (2): 137/726 kB | 1.0/4.0 MB
+Progress (2): 137/726 kB | 1.0/4.0 MB
+Progress (2): 137/726 kB | 1.0/4.0 MB
+Progress (2): 137/726 kB | 1.0/4.0 MB
+Progress (2): 137/726 kB | 1.0/4.0 MB
+Progress (2): 137/726 kB | 1.0/4.0 MB
+Progress (2): 137/726 kB | 1.0/4.0 MB
+Progress (2): 137/726 kB | 1.0/4.0 MB
+Progress (2): 137/726 kB | 1.0/4.0 MB
+Progress (2): 137/726 kB | 1.0/4.0 MB
+Progress (2): 137/726 kB | 1.0/4.0 MB
+Progress (2): 137/726 kB | 1.0/4.0 MB
+Progress (2): 137/726 kB | 1.0/4.0 MB
+Progress (2): 137/726 kB | 1.0/4.0 MB
+Progress (2): 137/726 kB | 1.0/4.0 MB
+Progress (2): 137/726 kB | 1.0/4.0 MB
+Progress (2): 137/726 kB | 1.1/4.0 MB
+Progress (2): 137/726 kB | 1.1/4.0 MB
+Progress (2): 137/726 kB | 1.1/4.0 MB
+Progress (2): 137/726 kB | 1.1/4.0 MB
+Progress (2): 137/726 kB | 1.1/4.0 MB
+Progress (2): 137/726 kB | 1.1/4.0 MB
+Progress (2): 137/726 kB | 1.1/4.0 MB
+Progress (2): 137/726 kB | 1.1/4.0 MB
+Progress (2): 137/726 kB | 1.1/4.0 MB
+Progress (2): 137/726 kB | 1.1/4.0 MB
+Progress (2): 137/726 kB | 1.1/4.0 MB
+Progress (2): 137/726 kB | 1.1/4.0 MB
+Progress (2): 137/726 kB | 1.1/4.0 MB
+Progress (2): 137/726 kB | 1.1/4.0 MB
+Progress (2): 137/726 kB | 1.1/4.0 MB
+Progress (2): 137/726 kB | 1.1/4.0 MB
+Progress (2): 137/726 kB | 1.1/4.0 MB
+Progress (2): 137/726 kB | 1.1/4.0 MB
+Progress (2): 137/726 kB | 1.1/4.0 MB
+Progress (2): 137/726 kB | 1.1/4.0 MB
+Progress (2): 137/726 kB | 1.1/4.0 MB
+Progress (2): 137/726 kB | 1.1/4.0 MB
+Progress (2): 137/726 kB | 1.1/4.0 MB
+Progress (2): 137/726 kB | 1.1/4.0 MB
+Progress (2): 137/726 kB | 1.2/4.0 MB
+Progress (2): 137/726 kB | 1.2/4.0 MB
+Progress (2): 137/726 kB | 1.2/4.0 MB
+Progress (2): 137/726 kB | 1.2/4.0 MB
+Progress (2): 137/726 kB | 1.2/4.0 MB
+Progress (2): 137/726 kB | 1.2/4.0 MB
+Progress (2): 137/726 kB | 1.2/4.0 MB
+Progress (2): 137/726 kB | 1.2/4.0 MB
+Progress (2): 137/726 kB | 1.2/4.0 MB
+Progress (2): 137/726 kB | 1.2/4.0 MB
+Progress (2): 137/726 kB | 1.2/4.0 MB
+Progress (2): 137/726 kB | 1.2/4.0 MB
+Progress (2): 137/726 kB | 1.2/4.0 MB
+Progress (2): 137/726 kB | 1.2/4.0 MB
+Progress (2): 137/726 kB | 1.2/4.0 MB
+Progress (2): 137/726 kB | 1.2/4.0 MB
+Progress (2): 137/726 kB | 1.2/4.0 MB
+Progress (2): 137/726 kB | 1.2/4.0 MB
+Progress (2): 137/726 kB | 1.2/4.0 MB
+Progress (2): 137/726 kB | 1.2/4.0 MB
+Progress (2): 137/726 kB | 1.2/4.0 MB
+Progress (2): 137/726 kB | 1.2/4.0 MB
+Progress (2): 137/726 kB | 1.2/4.0 MB
+Progress (2): 137/726 kB | 1.2/4.0 MB
+Progress (2): 137/726 kB | 1.2/4.0 MB
+Progress (2): 137/726 kB | 1.3/4.0 MB
+Progress (2): 137/726 kB | 1.3/4.0 MB
+Progress (2): 137/726 kB | 1.3/4.0 MB
+Progress (2): 137/726 kB | 1.3/4.0 MB
+Progress (2): 137/726 kB | 1.3/4.0 MB
+Progress (2): 137/726 kB | 1.3/4.0 MB
+Progress (2): 137/726 kB | 1.3/4.0 MB
+Progress (2): 137/726 kB | 1.3/4.0 MB
+Progress (2): 137/726 kB | 1.3/4.0 MB
+Progress (2): 137/726 kB | 1.3/4.0 MB
+Progress (2): 137/726 kB | 1.3/4.0 MB
+Progress (2): 137/726 kB | 1.3/4.0 MB
+Progress (2): 137/726 kB | 1.3/4.0 MB
+Progress (2): 137/726 kB | 1.3/4.0 MB
+Progress (2): 137/726 kB | 1.3/4.0 MB
+Progress (2): 137/726 kB | 1.3/4.0 MB
+Progress (2): 137/726 kB | 1.3/4.0 MB
+Progress (2): 137/726 kB | 1.3/4.0 MB
+Progress (2): 137/726 kB | 1.3/4.0 MB
+Progress (2): 137/726 kB | 1.3/4.0 MB
+Progress (2): 137/726 kB | 1.3/4.0 MB
+Progress (2): 137/726 kB | 1.3/4.0 MB
+Progress (2): 137/726 kB | 1.3/4.0 MB
+Progress (2): 137/726 kB | 1.3/4.0 MB
+Progress (2): 137/726 kB | 1.4/4.0 MB
+Progress (2): 137/726 kB | 1.4/4.0 MB
+Progress (2): 137/726 kB | 1.4/4.0 MB
+Progress (2): 137/726 kB | 1.4/4.0 MB
+Progress (2): 137/726 kB | 1.4/4.0 MB
+Progress (2): 137/726 kB | 1.4/4.0 MB
+Progress (2): 137/726 kB | 1.4/4.0 MB
+Progress (2): 137/726 kB | 1.4/4.0 MB
+Progress (2): 137/726 kB | 1.4/4.0 MB
+Progress (2): 137/726 kB | 1.4/4.0 MB
+Progress (2): 137/726 kB | 1.4/4.0 MB
+Progress (2): 137/726 kB | 1.4/4.0 MB
+Progress (2): 137/726 kB | 1.4/4.0 MB
+Progress (2): 137/726 kB | 1.4/4.0 MB
+Progress (2): 137/726 kB | 1.4/4.0 MB
+Progress (2): 137/726 kB | 1.4/4.0 MB
+Progress (2): 137/726 kB | 1.4/4.0 MB
+Progress (2): 137/726 kB | 1.4/4.0 MB
+Progress (2): 137/726 kB | 1.4/4.0 MB
+Progress (2): 137/726 kB | 1.4/4.0 MB
+Progress (2): 137/726 kB | 1.4/4.0 MB
+Progress (2): 137/726 kB | 1.4/4.0 MB
+Progress (2): 137/726 kB | 1.4/4.0 MB
+Progress (2): 141/726 kB | 1.4/4.0 MB
+Progress (2): 145/726 kB | 1.4/4.0 MB
+Progress (2): 149/726 kB | 1.4/4.0 MB
+Progress (2): 153/726 kB | 1.4/4.0 MB
+Progress (2): 153/726 kB | 1.4/4.0 MB
+Progress (2): 153/726 kB | 1.4/4.0 MB
+Progress (2): 153/726 kB | 1.5/4.0 MB
+Progress (2): 153/726 kB | 1.5/4.0 MB
+Progress (2): 153/726 kB | 1.5/4.0 MB
+Progress (2): 153/726 kB | 1.5/4.0 MB
+Progress (2): 153/726 kB | 1.5/4.0 MB
+Progress (2): 153/726 kB | 1.5/4.0 MB
+Progress (2): 153/726 kB | 1.5/4.0 MB
+Progress (2): 153/726 kB | 1.5/4.0 MB
+Progress (2): 153/726 kB | 1.5/4.0 MB
+Progress (2): 153/726 kB | 1.5/4.0 MB
+Progress (2): 153/726 kB | 1.5/4.0 MB
+Progress (2): 153/726 kB | 1.5/4.0 MB
+Progress (2): 153/726 kB | 1.5/4.0 MB
+Progress (2): 153/726 kB | 1.5/4.0 MB
+Progress (2): 153/726 kB | 1.5/4.0 MB
+Progress (2): 153/726 kB | 1.5/4.0 MB
+Progress (2): 153/726 kB | 1.5/4.0 MB
+Progress (2): 153/726 kB | 1.5/4.0 MB
+Progress (2): 153/726 kB | 1.5/4.0 MB
+Progress (2): 153/726 kB | 1.5/4.0 MB
+Progress (2): 153/726 kB | 1.5/4.0 MB
+Progress (2): 153/726 kB | 1.5/4.0 MB
+Progress (2): 153/726 kB | 1.5/4.0 MB
+Progress (2): 153/726 kB | 1.5/4.0 MB
+Progress (2): 153/726 kB | 1.6/4.0 MB
+Progress (2): 153/726 kB | 1.6/4.0 MB
+Progress (2): 153/726 kB | 1.6/4.0 MB
+Progress (2): 153/726 kB | 1.6/4.0 MB
+Progress (2): 153/726 kB | 1.6/4.0 MB
+Progress (2): 153/726 kB | 1.6/4.0 MB
+Progress (2): 153/726 kB | 1.6/4.0 MB
+Progress (2): 153/726 kB | 1.6/4.0 MB
+Progress (2): 153/726 kB | 1.6/4.0 MB
+Progress (2): 153/726 kB | 1.6/4.0 MB
+Progress (2): 153/726 kB | 1.6/4.0 MB
+Progress (2): 153/726 kB | 1.6/4.0 MB
+Progress (2): 153/726 kB | 1.6/4.0 MB
+Progress (2): 153/726 kB | 1.6/4.0 MB
+Progress (2): 153/726 kB | 1.6/4.0 MB
+Progress (2): 153/726 kB | 1.6/4.0 MB
+Progress (2): 153/726 kB | 1.6/4.0 MB
+Progress (2): 153/726 kB | 1.6/4.0 MB
+Progress (2): 153/726 kB | 1.6/4.0 MB
+Progress (2): 153/726 kB | 1.6/4.0 MB
+Progress (2): 153/726 kB | 1.6/4.0 MB
+Progress (2): 153/726 kB | 1.6/4.0 MB
+Progress (2): 153/726 kB | 1.6/4.0 MB
+Progress (2): 153/726 kB | 1.6/4.0 MB
+Progress (2): 153/726 kB | 1.7/4.0 MB
+Progress (2): 153/726 kB | 1.7/4.0 MB
+Progress (2): 153/726 kB | 1.7/4.0 MB
+Progress (2): 153/726 kB | 1.7/4.0 MB
+Progress (2): 153/726 kB | 1.7/4.0 MB
+Progress (2): 153/726 kB | 1.7/4.0 MB
+Progress (2): 153/726 kB | 1.7/4.0 MB
+Progress (2): 153/726 kB | 1.7/4.0 MB
+Progress (2): 153/726 kB | 1.7/4.0 MB
+Progress (2): 153/726 kB | 1.7/4.0 MB
+Progress (2): 153/726 kB | 1.7/4.0 MB
+Progress (2): 153/726 kB | 1.7/4.0 MB
+Progress (2): 153/726 kB | 1.7/4.0 MB
+Progress (2): 153/726 kB | 1.7/4.0 MB
+Progress (2): 153/726 kB | 1.7/4.0 MB
+Progress (2): 153/726 kB | 1.7/4.0 MB
+Progress (2): 153/726 kB | 1.7/4.0 MB
+Progress (2): 153/726 kB | 1.7/4.0 MB
+Progress (2): 153/726 kB | 1.7/4.0 MB
+Progress (2): 153/726 kB | 1.7/4.0 MB
+Progress (2): 153/726 kB | 1.7/4.0 MB
+Progress (2): 153/726 kB | 1.7/4.0 MB
+Progress (2): 153/726 kB | 1.7/4.0 MB
+Progress (2): 153/726 kB | 1.7/4.0 MB
+Progress (2): 153/726 kB | 1.7/4.0 MB
+Progress (2): 153/726 kB | 1.8/4.0 MB
+Progress (2): 153/726 kB | 1.8/4.0 MB
+Progress (2): 153/726 kB | 1.8/4.0 MB
+Progress (2): 153/726 kB | 1.8/4.0 MB
+Progress (2): 153/726 kB | 1.8/4.0 MB
+Progress (2): 153/726 kB | 1.8/4.0 MB
+Progress (2): 153/726 kB | 1.8/4.0 MB
+Progress (2): 153/726 kB | 1.8/4.0 MB
+Progress (2): 153/726 kB | 1.8/4.0 MB
+Progress (2): 153/726 kB | 1.8/4.0 MB
+Progress (2): 153/726 kB | 1.8/4.0 MB
+Progress (2): 153/726 kB | 1.8/4.0 MB
+Progress (2): 153/726 kB | 1.8/4.0 MB
+Progress (2): 153/726 kB | 1.8/4.0 MB
+Progress (2): 153/726 kB | 1.8/4.0 MB
+Progress (2): 153/726 kB | 1.8/4.0 MB
+Progress (2): 153/726 kB | 1.8/4.0 MB
+Progress (2): 153/726 kB | 1.8/4.0 MB
+Progress (2): 153/726 kB | 1.8/4.0 MB
+Progress (2): 153/726 kB | 1.8/4.0 MB
+Progress (2): 153/726 kB | 1.8/4.0 MB
+Progress (2): 153/726 kB | 1.8/4.0 MB
+Progress (2): 153/726 kB | 1.8/4.0 MB
+Progress (2): 153/726 kB | 1.8/4.0 MB
+Progress (2): 153/726 kB | 1.8/4.0 MB
+Progress (2): 153/726 kB | 1.9/4.0 MB
+Progress (2): 153/726 kB | 1.9/4.0 MB
+Progress (2): 153/726 kB | 1.9/4.0 MB
+Progress (2): 153/726 kB | 1.9/4.0 MB
+Progress (2): 153/726 kB | 1.9/4.0 MB
+Progress (2): 153/726 kB | 1.9/4.0 MB
+Progress (2): 153/726 kB | 1.9/4.0 MB
+Progress (2): 153/726 kB | 1.9/4.0 MB
+Progress (2): 153/726 kB | 1.9/4.0 MB
+Progress (2): 153/726 kB | 1.9/4.0 MB
+Progress (2): 153/726 kB | 1.9/4.0 MB
+Progress (2): 153/726 kB | 1.9/4.0 MB
+Progress (2): 153/726 kB | 1.9/4.0 MB
+Progress (2): 153/726 kB | 1.9/4.0 MB
+Progress (2): 153/726 kB | 1.9/4.0 MB
+Progress (2): 153/726 kB | 1.9/4.0 MB
+Progress (2): 153/726 kB | 1.9/4.0 MB
+Progress (2): 153/726 kB | 1.9/4.0 MB
+Progress (2): 153/726 kB | 1.9/4.0 MB
+Progress (2): 153/726 kB | 1.9/4.0 MB
+Progress (2): 153/726 kB | 1.9/4.0 MB
+Progress (2): 153/726 kB | 1.9/4.0 MB
+Progress (2): 153/726 kB | 1.9/4.0 MB
+Progress (2): 153/726 kB | 1.9/4.0 MB
+Progress (2): 153/726 kB | 1.9/4.0 MB
+Progress (2): 153/726 kB | 2.0/4.0 MB
+Progress (2): 153/726 kB | 2.0/4.0 MB
+Progress (2): 153/726 kB | 2.0/4.0 MB
+Progress (2): 153/726 kB | 2.0/4.0 MB
+Progress (2): 153/726 kB | 2.0/4.0 MB
+Progress (2): 153/726 kB | 2.0/4.0 MB
+Progress (2): 153/726 kB | 2.0/4.0 MB
+Progress (2): 153/726 kB | 2.0/4.0 MB
+Progress (2): 153/726 kB | 2.0/4.0 MB
+Progress (2): 153/726 kB | 2.0/4.0 MB
+Progress (2): 153/726 kB | 2.0/4.0 MB
+Progress (2): 153/726 kB | 2.0/4.0 MB
+Progress (2): 153/726 kB | 2.0/4.0 MB
+Progress (2): 153/726 kB | 2.0/4.0 MB
+Progress (2): 153/726 kB | 2.0/4.0 MB
+Progress (2): 153/726 kB | 2.0/4.0 MB
+Progress (2): 153/726 kB | 2.0/4.0 MB
+Progress (2): 153/726 kB | 2.0/4.0 MB
+Progress (2): 153/726 kB | 2.0/4.0 MB
+Progress (2): 153/726 kB | 2.0/4.0 MB
+Progress (2): 153/726 kB | 2.0/4.0 MB
+Progress (2): 153/726 kB | 2.0/4.0 MB
+Progress (2): 153/726 kB | 2.0/4.0 MB
+Progress (2): 153/726 kB | 2.0/4.0 MB
+Progress (2): 153/726 kB | 2.1/4.0 MB
+Progress (2): 153/726 kB | 2.1/4.0 MB
+Progress (2): 153/726 kB | 2.1/4.0 MB
+Progress (2): 153/726 kB | 2.1/4.0 MB
+Progress (2): 153/726 kB | 2.1/4.0 MB
+Progress (2): 153/726 kB | 2.1/4.0 MB
+Progress (2): 153/726 kB | 2.1/4.0 MB
+Progress (2): 153/726 kB | 2.1/4.0 MB
+Progress (2): 153/726 kB | 2.1/4.0 MB
+Progress (2): 153/726 kB | 2.1/4.0 MB
+Progress (2): 153/726 kB | 2.1/4.0 MB
+Progress (2): 153/726 kB | 2.1/4.0 MB
+Progress (2): 153/726 kB | 2.1/4.0 MB
+Progress (2): 153/726 kB | 2.1/4.0 MB
+Progress (2): 153/726 kB | 2.1/4.0 MB
+Progress (2): 153/726 kB | 2.1/4.0 MB
+Progress (2): 153/726 kB | 2.1/4.0 MB
+Progress (2): 153/726 kB | 2.1/4.0 MB
+Progress (2): 153/726 kB | 2.1/4.0 MB
+Progress (2): 153/726 kB | 2.1/4.0 MB
+Progress (2): 153/726 kB | 2.1/4.0 MB
+Progress (2): 153/726 kB | 2.1/4.0 MB
+Progress (2): 153/726 kB | 2.1/4.0 MB
+Progress (2): 153/726 kB | 2.1/4.0 MB
+Progress (2): 153/726 kB | 2.1/4.0 MB
+Progress (2): 153/726 kB | 2.2/4.0 MB
+Progress (2): 153/726 kB | 2.2/4.0 MB
+Progress (2): 153/726 kB | 2.2/4.0 MB
+Progress (2): 153/726 kB | 2.2/4.0 MB
+Progress (2): 153/726 kB | 2.2/4.0 MB
+Progress (2): 153/726 kB | 2.2/4.0 MB
+Progress (2): 153/726 kB | 2.2/4.0 MB
+Progress (2): 153/726 kB | 2.2/4.0 MB
+Progress (2): 153/726 kB | 2.2/4.0 MB
+Progress (2): 157/726 kB | 2.2/4.0 MB
+Progress (2): 161/726 kB | 2.2/4.0 MB
+Progress (2): 165/726 kB | 2.2/4.0 MB
+Progress (2): 170/726 kB | 2.2/4.0 MB
+Progress (2): 170/726 kB | 2.2/4.0 MB
+Progress (2): 170/726 kB | 2.2/4.0 MB
+Progress (2): 170/726 kB | 2.2/4.0 MB
+Progress (2): 170/726 kB | 2.2/4.0 MB
+Progress (2): 170/726 kB | 2.2/4.0 MB
+Progress (2): 170/726 kB | 2.2/4.0 MB
+Progress (2): 170/726 kB | 2.2/4.0 MB
+Progress (2): 170/726 kB | 2.2/4.0 MB
+Progress (2): 170/726 kB | 2.2/4.0 MB
+Progress (2): 170/726 kB | 2.2/4.0 MB
+Progress (2): 170/726 kB | 2.2/4.0 MB
+Progress (2): 170/726 kB | 2.2/4.0 MB
+Progress (2): 170/726 kB | 2.2/4.0 MB
+Progress (2): 170/726 kB | 2.2/4.0 MB
+Progress (2): 170/726 kB | 2.2/4.0 MB
+Progress (2): 170/726 kB | 2.3/4.0 MB
+Progress (2): 170/726 kB | 2.3/4.0 MB
+Progress (2): 170/726 kB | 2.3/4.0 MB
+Progress (2): 170/726 kB | 2.3/4.0 MB
+Progress (2): 170/726 kB | 2.3/4.0 MB
+Progress (2): 170/726 kB | 2.3/4.0 MB
+Progress (2): 170/726 kB | 2.3/4.0 MB
+Progress (2): 170/726 kB | 2.3/4.0 MB
+Progress (2): 170/726 kB | 2.3/4.0 MB
+Progress (2): 170/726 kB | 2.3/4.0 MB
+Progress (2): 170/726 kB | 2.3/4.0 MB
+Progress (2): 170/726 kB | 2.3/4.0 MB
+Progress (2): 170/726 kB | 2.3/4.0 MB
+Progress (2): 170/726 kB | 2.3/4.0 MB
+Progress (2): 170/726 kB | 2.3/4.0 MB
+Progress (2): 170/726 kB | 2.3/4.0 MB
+Progress (2): 170/726 kB | 2.3/4.0 MB
+Progress (2): 170/726 kB | 2.3/4.0 MB
+Progress (2): 170/726 kB | 2.3/4.0 MB
+Progress (2): 170/726 kB | 2.3/4.0 MB
+Progress (2): 170/726 kB | 2.3/4.0 MB
+Progress (2): 170/726 kB | 2.3/4.0 MB
+Progress (2): 170/726 kB | 2.3/4.0 MB
+Progress (2): 170/726 kB | 2.3/4.0 MB
+Progress (2): 170/726 kB | 2.3/4.0 MB
+Progress (2): 170/726 kB | 2.4/4.0 MB
+Progress (2): 170/726 kB | 2.4/4.0 MB
+Progress (2): 170/726 kB | 2.4/4.0 MB
+Progress (2): 170/726 kB | 2.4/4.0 MB
+Progress (2): 170/726 kB | 2.4/4.0 MB
+Progress (2): 170/726 kB | 2.4/4.0 MB
+Progress (2): 170/726 kB | 2.4/4.0 MB
+Progress (2): 170/726 kB | 2.4/4.0 MB
+Progress (2): 170/726 kB | 2.4/4.0 MB
+Progress (2): 170/726 kB | 2.4/4.0 MB
+Progress (2): 170/726 kB | 2.4/4.0 MB
+Progress (2): 170/726 kB | 2.4/4.0 MB
+Progress (2): 170/726 kB | 2.4/4.0 MB
+Progress (2): 170/726 kB | 2.4/4.0 MB
+Progress (2): 170/726 kB | 2.4/4.0 MB
+Progress (2): 170/726 kB | 2.4/4.0 MB
+Progress (2): 170/726 kB | 2.4/4.0 MB
+Progress (2): 170/726 kB | 2.4/4.0 MB
+Progress (2): 170/726 kB | 2.4/4.0 MB
+Progress (2): 170/726 kB | 2.4/4.0 MB
+Progress (2): 170/726 kB | 2.4/4.0 MB
+Progress (2): 170/726 kB | 2.4/4.0 MB
+Progress (2): 170/726 kB | 2.4/4.0 MB
+Progress (2): 170/726 kB | 2.4/4.0 MB
+Progress (2): 170/726 kB | 2.4/4.0 MB
+Progress (2): 170/726 kB | 2.5/4.0 MB
+Progress (2): 170/726 kB | 2.5/4.0 MB
+Progress (2): 170/726 kB | 2.5/4.0 MB
+Progress (2): 170/726 kB | 2.5/4.0 MB
+Progress (2): 170/726 kB | 2.5/4.0 MB
+Progress (2): 170/726 kB | 2.5/4.0 MB
+Progress (2): 170/726 kB | 2.5/4.0 MB
+Progress (2): 170/726 kB | 2.5/4.0 MB
+Progress (2): 170/726 kB | 2.5/4.0 MB
+Progress (2): 170/726 kB | 2.5/4.0 MB
+Progress (2): 170/726 kB | 2.5/4.0 MB
+Progress (2): 170/726 kB | 2.5/4.0 MB
+Progress (2): 170/726 kB | 2.5/4.0 MB
+Progress (2): 170/726 kB | 2.5/4.0 MB
+Progress (2): 170/726 kB | 2.5/4.0 MB
+Progress (2): 170/726 kB | 2.5/4.0 MB
+Progress (2): 170/726 kB | 2.5/4.0 MB
+Progress (2): 170/726 kB | 2.5/4.0 MB
+Progress (2): 170/726 kB | 2.5/4.0 MB
+Progress (2): 170/726 kB | 2.5/4.0 MB
+Progress (2): 170/726 kB | 2.5/4.0 MB
+Progress (2): 170/726 kB | 2.5/4.0 MB
+Progress (2): 170/726 kB | 2.5/4.0 MB
+Progress (2): 170/726 kB | 2.5/4.0 MB
+Progress (2): 170/726 kB | 2.6/4.0 MB
+Progress (2): 170/726 kB | 2.6/4.0 MB
+Progress (2): 170/726 kB | 2.6/4.0 MB
+Progress (2): 170/726 kB | 2.6/4.0 MB
+Progress (2): 170/726 kB | 2.6/4.0 MB
+Progress (2): 170/726 kB | 2.6/4.0 MB
+Progress (2): 170/726 kB | 2.6/4.0 MB
+Progress (2): 170/726 kB | 2.6/4.0 MB
+Progress (2): 170/726 kB | 2.6/4.0 MB
+Progress (2): 170/726 kB | 2.6/4.0 MB
+Progress (2): 170/726 kB | 2.6/4.0 MB
+Progress (2): 170/726 kB | 2.6/4.0 MB
+Progress (2): 170/726 kB | 2.6/4.0 MB
+Progress (2): 170/726 kB | 2.6/4.0 MB
+Progress (2): 170/726 kB | 2.6/4.0 MB
+Progress (2): 170/726 kB | 2.6/4.0 MB
+Progress (2): 170/726 kB | 2.6/4.0 MB
+Progress (2): 170/726 kB | 2.6/4.0 MB
+Progress (2): 170/726 kB | 2.6/4.0 MB
+Progress (2): 170/726 kB | 2.6/4.0 MB
+Progress (2): 170/726 kB | 2.6/4.0 MB
+Progress (2): 170/726 kB | 2.6/4.0 MB
+Progress (2): 170/726 kB | 2.6/4.0 MB
+Progress (2): 170/726 kB | 2.6/4.0 MB
+Progress (2): 170/726 kB | 2.6/4.0 MB
+Progress (2): 170/726 kB | 2.7/4.0 MB
+Progress (2): 170/726 kB | 2.7/4.0 MB
+Progress (2): 170/726 kB | 2.7/4.0 MB
+Progress (2): 170/726 kB | 2.7/4.0 MB
+Progress (2): 170/726 kB | 2.7/4.0 MB
+Progress (2): 170/726 kB | 2.7/4.0 MB
+Progress (2): 170/726 kB | 2.7/4.0 MB
+Progress (2): 170/726 kB | 2.7/4.0 MB
+Progress (2): 170/726 kB | 2.7/4.0 MB
+Progress (2): 170/726 kB | 2.7/4.0 MB
+Progress (2): 170/726 kB | 2.7/4.0 MB
+Progress (2): 170/726 kB | 2.7/4.0 MB
+Progress (2): 170/726 kB | 2.7/4.0 MB
+Progress (2): 170/726 kB | 2.7/4.0 MB
+Progress (2): 170/726 kB | 2.7/4.0 MB
+Progress (2): 170/726 kB | 2.7/4.0 MB
+Progress (2): 170/726 kB | 2.7/4.0 MB
+Progress (2): 170/726 kB | 2.7/4.0 MB
+Progress (2): 170/726 kB | 2.7/4.0 MB
+Progress (2): 170/726 kB | 2.7/4.0 MB
+Progress (2): 170/726 kB | 2.7/4.0 MB
+Progress (2): 170/726 kB | 2.7/4.0 MB
+Progress (2): 170/726 kB | 2.7/4.0 MB
+Progress (2): 170/726 kB | 2.7/4.0 MB
+Progress (2): 170/726 kB | 2.8/4.0 MB
+Progress (2): 170/726 kB | 2.8/4.0 MB
+Progress (2): 170/726 kB | 2.8/4.0 MB
+Progress (2): 170/726 kB | 2.8/4.0 MB
+Progress (2): 170/726 kB | 2.8/4.0 MB
+Progress (2): 170/726 kB | 2.8/4.0 MB
+Progress (2): 170/726 kB | 2.8/4.0 MB
+Progress (2): 170/726 kB | 2.8/4.0 MB
+Progress (2): 170/726 kB | 2.8/4.0 MB
+Progress (2): 170/726 kB | 2.8/4.0 MB
+Progress (2): 170/726 kB | 2.8/4.0 MB
+Progress (2): 170/726 kB | 2.8/4.0 MB
+Progress (2): 170/726 kB | 2.8/4.0 MB
+Progress (2): 170/726 kB | 2.8/4.0 MB
+Progress (2): 170/726 kB | 2.8/4.0 MB
+Progress (2): 170/726 kB | 2.8/4.0 MB
+Progress (2): 170/726 kB | 2.8/4.0 MB
+Progress (2): 170/726 kB | 2.8/4.0 MB
+Progress (2): 170/726 kB | 2.8/4.0 MB
+Progress (2): 170/726 kB | 2.8/4.0 MB
+Progress (2): 174/726 kB | 2.8/4.0 MB
+Progress (2): 174/726 kB | 2.8/4.0 MB
+Progress (2): 178/726 kB | 2.8/4.0 MB
+Progress (2): 178/726 kB | 2.8/4.0 MB
+Progress (2): 182/726 kB | 2.8/4.0 MB
+Progress (2): 182/726 kB | 2.8/4.0 MB
+Progress (2): 186/726 kB | 2.8/4.0 MB
+Progress (2): 186/726 kB | 2.8/4.0 MB
+Progress (2): 186/726 kB | 2.8/4.0 MB
+Progress (2): 186/726 kB | 2.9/4.0 MB
+Progress (2): 186/726 kB | 2.9/4.0 MB
+Progress (2): 186/726 kB | 2.9/4.0 MB
+Progress (2): 186/726 kB | 2.9/4.0 MB
+Progress (2): 186/726 kB | 2.9/4.0 MB
+Progress (2): 186/726 kB | 2.9/4.0 MB
+Progress (2): 186/726 kB | 2.9/4.0 MB
+Progress (2): 186/726 kB | 2.9/4.0 MB
+Progress (2): 186/726 kB | 2.9/4.0 MB
+Progress (2): 186/726 kB | 2.9/4.0 MB
+Progress (2): 186/726 kB | 2.9/4.0 MB
+Progress (2): 186/726 kB | 2.9/4.0 MB
+Progress (2): 186/726 kB | 2.9/4.0 MB
+Progress (2): 186/726 kB | 2.9/4.0 MB
+Progress (2): 186/726 kB | 2.9/4.0 MB
+Progress (2): 186/726 kB | 2.9/4.0 MB
+Progress (2): 186/726 kB | 2.9/4.0 MB
+Progress (2): 186/726 kB | 2.9/4.0 MB
+Progress (2): 186/726 kB | 2.9/4.0 MB
+Progress (2): 186/726 kB | 2.9/4.0 MB
+Progress (2): 186/726 kB | 2.9/4.0 MB
+Progress (2): 186/726 kB | 2.9/4.0 MB
+Progress (2): 186/726 kB | 2.9/4.0 MB
+Progress (2): 186/726 kB | 2.9/4.0 MB
+Progress (2): 186/726 kB | 2.9/4.0 MB
+Progress (2): 186/726 kB | 3.0/4.0 MB
+Progress (2): 186/726 kB | 3.0/4.0 MB
+Progress (2): 186/726 kB | 3.0/4.0 MB
+Progress (2): 186/726 kB | 3.0/4.0 MB
+Progress (2): 186/726 kB | 3.0/4.0 MB
+Progress (2): 186/726 kB | 3.0/4.0 MB
+Progress (2): 186/726 kB | 3.0/4.0 MB
+Progress (2): 186/726 kB | 3.0/4.0 MB
+Progress (2): 186/726 kB | 3.0/4.0 MB
+Progress (2): 186/726 kB | 3.0/4.0 MB
+Progress (2): 186/726 kB | 3.0/4.0 MB
+Progress (2): 186/726 kB | 3.0/4.0 MB
+Progress (2): 186/726 kB | 3.0/4.0 MB
+Progress (2): 186/726 kB | 3.0/4.0 MB
+Progress (2): 186/726 kB | 3.0/4.0 MB
+Progress (2): 186/726 kB | 3.0/4.0 MB
+Progress (2): 186/726 kB | 3.0/4.0 MB
+Progress (2): 186/726 kB | 3.0/4.0 MB
+Progress (2): 186/726 kB | 3.0/4.0 MB
+Progress (2): 186/726 kB | 3.0/4.0 MB
+Progress (2): 186/726 kB | 3.0/4.0 MB
+Progress (2): 186/726 kB | 3.0/4.0 MB
+Progress (2): 186/726 kB | 3.0/4.0 MB
+Progress (2): 186/726 kB | 3.0/4.0 MB
+Progress (2): 186/726 kB | 3.0/4.0 MB
+Progress (2): 186/726 kB | 3.1/4.0 MB
+Progress (2): 186/726 kB | 3.1/4.0 MB
+Progress (2): 186/726 kB | 3.1/4.0 MB
+Progress (2): 186/726 kB | 3.1/4.0 MB
+Progress (2): 186/726 kB | 3.1/4.0 MB
+Progress (2): 186/726 kB | 3.1/4.0 MB
+Progress (2): 186/726 kB | 3.1/4.0 MB
+Progress (2): 186/726 kB | 3.1/4.0 MB
+Progress (2): 186/726 kB | 3.1/4.0 MB
+Progress (2): 186/726 kB | 3.1/4.0 MB
+Progress (2): 186/726 kB | 3.1/4.0 MB
+Progress (2): 186/726 kB | 3.1/4.0 MB
+Progress (2): 186/726 kB | 3.1/4.0 MB
+Progress (2): 186/726 kB | 3.1/4.0 MB
+Progress (2): 186/726 kB | 3.1/4.0 MB
+Progress (2): 186/726 kB | 3.1/4.0 MB
+Progress (2): 186/726 kB | 3.1/4.0 MB
+Progress (2): 186/726 kB | 3.1/4.0 MB
+Progress (2): 186/726 kB | 3.1/4.0 MB
+Progress (2): 186/726 kB | 3.1/4.0 MB
+Progress (2): 186/726 kB | 3.1/4.0 MB
+Progress (2): 186/726 kB | 3.1/4.0 MB
+Progress (2): 186/726 kB | 3.1/4.0 MB
+Progress (2): 186/726 kB | 3.1/4.0 MB
+Progress (2): 186/726 kB | 3.2/4.0 MB
+Progress (2): 186/726 kB | 3.2/4.0 MB
+Progress (2): 186/726 kB | 3.2/4.0 MB
+Progress (2): 186/726 kB | 3.2/4.0 MB
+Progress (2): 186/726 kB | 3.2/4.0 MB
+Progress (2): 186/726 kB | 3.2/4.0 MB
+Progress (2): 186/726 kB | 3.2/4.0 MB
+Progress (2): 186/726 kB | 3.2/4.0 MB
+Progress (2): 186/726 kB | 3.2/4.0 MB
+Progress (2): 186/726 kB | 3.2/4.0 MB
+Progress (2): 186/726 kB | 3.2/4.0 MB
+Progress (2): 186/726 kB | 3.2/4.0 MB
+Progress (2): 186/726 kB | 3.2/4.0 MB
+Progress (2): 186/726 kB | 3.2/4.0 MB
+Progress (2): 186/726 kB | 3.2/4.0 MB
+Progress (2): 186/726 kB | 3.2/4.0 MB
+Progress (2): 186/726 kB | 3.2/4.0 MB
+Progress (2): 186/726 kB | 3.2/4.0 MB
+Progress (2): 186/726 kB | 3.2/4.0 MB
+Progress (2): 186/726 kB | 3.2/4.0 MB
+Progress (2): 186/726 kB | 3.2/4.0 MB
+Progress (2): 186/726 kB | 3.2/4.0 MB
+Progress (2): 186/726 kB | 3.2/4.0 MB
+Progress (2): 186/726 kB | 3.2/4.0 MB
+Progress (2): 186/726 kB | 3.2/4.0 MB
+Progress (2): 186/726 kB | 3.3/4.0 MB
+Progress (2): 186/726 kB | 3.3/4.0 MB
+Progress (2): 186/726 kB | 3.3/4.0 MB
+Progress (2): 186/726 kB | 3.3/4.0 MB
+Progress (2): 186/726 kB | 3.3/4.0 MB
+Progress (2): 186/726 kB | 3.3/4.0 MB
+Progress (2): 186/726 kB | 3.3/4.0 MB
+Progress (2): 186/726 kB | 3.3/4.0 MB
+Progress (2): 186/726 kB | 3.3/4.0 MB
+Progress (2): 186/726 kB | 3.3/4.0 MB
+Progress (2): 186/726 kB | 3.3/4.0 MB
+Progress (2): 186/726 kB | 3.3/4.0 MB
+Progress (2): 186/726 kB | 3.3/4.0 MB
+Progress (2): 186/726 kB | 3.3/4.0 MB
+Progress (2): 186/726 kB | 3.3/4.0 MB
+Progress (2): 186/726 kB | 3.3/4.0 MB
+Progress (2): 186/726 kB | 3.3/4.0 MB
+Progress (2): 186/726 kB | 3.3/4.0 MB
+Progress (2): 186/726 kB | 3.3/4.0 MB
+Progress (2): 186/726 kB | 3.3/4.0 MB
+Progress (2): 186/726 kB | 3.3/4.0 MB
+Progress (2): 186/726 kB | 3.3/4.0 MB
+Progress (2): 186/726 kB | 3.3/4.0 MB
+Progress (2): 186/726 kB | 3.3/4.0 MB
+Progress (2): 186/726 kB | 3.4/4.0 MB
+Progress (2): 186/726 kB | 3.4/4.0 MB
+Progress (2): 186/726 kB | 3.4/4.0 MB
+Progress (2): 186/726 kB | 3.4/4.0 MB
+Progress (2): 186/726 kB | 3.4/4.0 MB
+Progress (2): 186/726 kB | 3.4/4.0 MB
+Progress (2): 186/726 kB | 3.4/4.0 MB
+Progress (2): 186/726 kB | 3.4/4.0 MB
+Progress (2): 186/726 kB | 3.4/4.0 MB
+Progress (2): 186/726 kB | 3.4/4.0 MB
+Progress (2): 186/726 kB | 3.4/4.0 MB
+Progress (2): 186/726 kB | 3.4/4.0 MB
+Progress (2): 186/726 kB | 3.4/4.0 MB
+Progress (2): 186/726 kB | 3.4/4.0 MB
+Progress (2): 186/726 kB | 3.4/4.0 MB
+Progress (2): 186/726 kB | 3.4/4.0 MB
+Progress (2): 186/726 kB | 3.4/4.0 MB
+Progress (2): 186/726 kB | 3.4/4.0 MB
+Progress (2): 186/726 kB | 3.4/4.0 MB
+Progress (2): 186/726 kB | 3.4/4.0 MB
+Progress (2): 186/726 kB | 3.4/4.0 MB
+Progress (2): 186/726 kB | 3.4/4.0 MB
+Progress (2): 186/726 kB | 3.4/4.0 MB
+Progress (2): 186/726 kB | 3.4/4.0 MB
+Progress (2): 186/726 kB | 3.4/4.0 MB
+Progress (2): 186/726 kB | 3.5/4.0 MB
+Progress (2): 186/726 kB | 3.5/4.0 MB
+Progress (2): 186/726 kB | 3.5/4.0 MB
+Progress (2): 186/726 kB | 3.5/4.0 MB
+Progress (2): 186/726 kB | 3.5/4.0 MB
+Progress (2): 186/726 kB | 3.5/4.0 MB
+Progress (2): 186/726 kB | 3.5/4.0 MB
+Progress (2): 186/726 kB | 3.5/4.0 MB
+Progress (2): 186/726 kB | 3.5/4.0 MB
+Progress (2): 186/726 kB | 3.5/4.0 MB
+Progress (2): 186/726 kB | 3.5/4.0 MB
+Progress (2): 186/726 kB | 3.5/4.0 MB
+Progress (2): 186/726 kB | 3.5/4.0 MB
+Progress (2): 186/726 kB | 3.5/4.0 MB
+Progress (2): 186/726 kB | 3.5/4.0 MB
+Progress (2): 186/726 kB | 3.5/4.0 MB
+Progress (2): 186/726 kB | 3.5/4.0 MB
+Progress (2): 186/726 kB | 3.5/4.0 MB
+Progress (2): 186/726 kB | 3.5/4.0 MB
+Progress (2): 186/726 kB | 3.5/4.0 MB
+Progress (2): 186/726 kB | 3.5/4.0 MB
+Progress (2): 186/726 kB | 3.5/4.0 MB
+Progress (2): 186/726 kB | 3.5/4.0 MB
+Progress (2): 186/726 kB | 3.5/4.0 MB
+Progress (2): 186/726 kB | 3.5/4.0 MB
+Progress (2): 186/726 kB | 3.6/4.0 MB
+Progress (2): 186/726 kB | 3.6/4.0 MB
+Progress (2): 186/726 kB | 3.6/4.0 MB
+Progress (2): 186/726 kB | 3.6/4.0 MB
+Progress (2): 186/726 kB | 3.6/4.0 MB
+Progress (2): 186/726 kB | 3.6/4.0 MB
+Progress (2): 186/726 kB | 3.6/4.0 MB
+Progress (2): 186/726 kB | 3.6/4.0 MB
+Progress (2): 186/726 kB | 3.6/4.0 MB
+Progress (2): 186/726 kB | 3.6/4.0 MB
+Progress (2): 186/726 kB | 3.6/4.0 MB
+Progress (2): 186/726 kB | 3.6/4.0 MB
+Progress (2): 186/726 kB | 3.6/4.0 MB
+Progress (2): 186/726 kB | 3.6/4.0 MB
+Progress (2): 186/726 kB | 3.6/4.0 MB
+Progress (2): 186/726 kB | 3.6/4.0 MB
+Progress (2): 186/726 kB | 3.6/4.0 MB
+Progress (2): 186/726 kB | 3.6/4.0 MB
+Progress (2): 186/726 kB | 3.6/4.0 MB
+Progress (2): 186/726 kB | 3.6/4.0 MB
+Progress (2): 186/726 kB | 3.6/4.0 MB
+Progress (2): 186/726 kB | 3.6/4.0 MB
+Progress (2): 186/726 kB | 3.6/4.0 MB
+Progress (2): 186/726 kB | 3.6/4.0 MB
+Progress (2): 186/726 kB | 3.7/4.0 MB
+Progress (2): 186/726 kB | 3.7/4.0 MB
+Progress (2): 186/726 kB | 3.7/4.0 MB
+Progress (2): 186/726 kB | 3.7/4.0 MB
+Progress (2): 186/726 kB | 3.7/4.0 MB
+Progress (2): 186/726 kB | 3.7/4.0 MB
+Progress (2): 186/726 kB | 3.7/4.0 MB
+Progress (2): 186/726 kB | 3.7/4.0 MB
+Progress (2): 186/726 kB | 3.7/4.0 MB
+Progress (2): 186/726 kB | 3.7/4.0 MB
+Progress (2): 186/726 kB | 3.7/4.0 MB
+Progress (2): 186/726 kB | 3.7/4.0 MB
+Progress (2): 186/726 kB | 3.7/4.0 MB
+Progress (2): 186/726 kB | 3.7/4.0 MB
+Progress (2): 186/726 kB | 3.7/4.0 MB
+Progress (2): 186/726 kB | 3.7/4.0 MB
+Progress (2): 186/726 kB | 3.7/4.0 MB
+Progress (2): 186/726 kB | 3.7/4.0 MB
+Progress (2): 186/726 kB | 3.7/4.0 MB
+Progress (2): 186/726 kB | 3.7/4.0 MB
+Progress (2): 186/726 kB | 3.7/4.0 MB
+Progress (2): 186/726 kB | 3.7/4.0 MB
+Progress (2): 186/726 kB | 3.7/4.0 MB
+Progress (2): 186/726 kB | 3.7/4.0 MB
+Progress (2): 186/726 kB | 3.7/4.0 MB
+Progress (2): 186/726 kB | 3.8/4.0 MB
+Progress (2): 186/726 kB | 3.8/4.0 MB
+Progress (2): 186/726 kB | 3.8/4.0 MB
+Progress (2): 186/726 kB | 3.8/4.0 MB
+Progress (2): 186/726 kB | 3.8/4.0 MB
+Progress (2): 186/726 kB | 3.8/4.0 MB
+Progress (2): 186/726 kB | 3.8/4.0 MB
+Progress (2): 186/726 kB | 3.8/4.0 MB
+Progress (2): 186/726 kB | 3.8/4.0 MB
+Progress (2): 186/726 kB | 3.8/4.0 MB
+Progress (2): 186/726 kB | 3.8/4.0 MB
+Progress (2): 186/726 kB | 3.8/4.0 MB
+Progress (2): 186/726 kB | 3.8/4.0 MB
+Progress (2): 186/726 kB | 3.8/4.0 MB
+Progress (2): 186/726 kB | 3.8/4.0 MB
+Progress (2): 186/726 kB | 3.8/4.0 MB
+Progress (2): 186/726 kB | 3.8/4.0 MB
+Progress (2): 190/726 kB | 3.8/4.0 MB
+Progress (2): 194/726 kB | 3.8/4.0 MB
+Progress (2): 198/726 kB | 3.8/4.0 MB
+Progress (2): 202/726 kB | 3.8/4.0 MB
+Progress (2): 202/726 kB | 3.8/4.0 MB
+Progress (2): 202/726 kB | 3.8/4.0 MB
+Progress (2): 202/726 kB | 3.8/4.0 MB
+Progress (2): 202/726 kB | 3.8/4.0 MB
+Progress (2): 202/726 kB | 3.8/4.0 MB
+Progress (2): 202/726 kB | 3.8/4.0 MB
+Progress (2): 202/726 kB | 3.8/4.0 MB
+Progress (2): 202/726 kB | 3.9/4.0 MB
+Progress (2): 202/726 kB | 3.9/4.0 MB
+Progress (2): 202/726 kB | 3.9/4.0 MB
+Progress (2): 202/726 kB | 3.9/4.0 MB
+Progress (2): 202/726 kB | 3.9/4.0 MB
+Progress (2): 202/726 kB | 3.9/4.0 MB
+Progress (2): 202/726 kB | 3.9/4.0 MB
+Progress (2): 202/726 kB | 3.9/4.0 MB
+Progress (2): 202/726 kB | 3.9/4.0 MB
+Progress (2): 202/726 kB | 3.9/4.0 MB
+Progress (2): 202/726 kB | 3.9/4.0 MB
+Progress (2): 202/726 kB | 3.9/4.0 MB
+Progress (2): 202/726 kB | 3.9/4.0 MB
+Progress (2): 202/726 kB | 3.9/4.0 MB
+Progress (2): 202/726 kB | 3.9/4.0 MB
+Progress (2): 202/726 kB | 3.9/4.0 MB
+Progress (2): 202/726 kB | 3.9/4.0 MB
+Progress (2): 202/726 kB | 3.9/4.0 MB
+Progress (2): 202/726 kB | 3.9/4.0 MB
+Progress (2): 202/726 kB | 3.9/4.0 MB
+Progress (2): 202/726 kB | 3.9/4.0 MB
+Progress (2): 202/726 kB | 3.9/4.0 MB
+Progress (2): 202/726 kB | 3.9/4.0 MB
+Progress (2): 202/726 kB | 3.9/4.0 MB
+Progress (2): 202/726 kB | 3.9/4.0 MB
+Progress (2): 202/726 kB | 4.0/4.0 MB
+Progress (2): 202/726 kB | 4.0/4.0 MB
+Progress (2): 202/726 kB | 4.0/4.0 MB
+Progress (2): 202/726 kB | 4.0/4.0 MB
+Progress (2): 202/726 kB | 4.0/4.0 MB
+Progress (2): 202/726 kB | 4.0/4.0 MB
+Progress (2): 202/726 kB | 4.0/4.0 MB
+Progress (2): 202/726 kB | 4.0/4.0 MB
+Progress (2): 202/726 kB | 4.0 MB    
+                                 
+Downloaded from central: https://repo.maven.apache.org/maven2/com/github/luben/zstd-jni/1.4.0-1/zstd-jni-1.4.0-1.jar (4.0 MB at 523 kB/s)
+Progress (1): 206/726 kB
+Progress (1): 210/726 kB
+Progress (1): 215/726 kB
+Progress (1): 219/726 kB
+Progress (1): 223/726 kB
+Progress (1): 227/726 kB
+Progress (1): 231/726 kB
+Progress (1): 235/726 kB
+Progress (1): 239/726 kB
+Progress (1): 243/726 kB
+Progress (1): 247/726 kB
+Progress (1): 251/726 kB
+Progress (1): 256/726 kB
+Progress (1): 260/726 kB
+Progress (1): 264/726 kB
+Progress (1): 268/726 kB
+Progress (1): 272/726 kB
+Progress (1): 276/726 kB
+Progress (1): 280/726 kB
+Progress (1): 284/726 kB
+Progress (1): 288/726 kB
+Progress (1): 292/726 kB
+Progress (1): 297/726 kB
+Progress (1): 301/726 kB
+Progress (1): 305/726 kB
+Progress (1): 309/726 kB
+Progress (1): 313/726 kB
+Progress (1): 317/726 kB
+Progress (1): 321/726 kB
+Progress (1): 325/726 kB
+Progress (1): 329/726 kB
+Progress (1): 333/726 kB
+Progress (1): 337/726 kB
+Progress (1): 342/726 kB
+Progress (1): 346/726 kB
+Progress (1): 350/726 kB
+Progress (1): 354/726 kB
+Progress (1): 358/726 kB
+Progress (1): 362/726 kB
+Progress (1): 366/726 kB
+Progress (1): 370/726 kB
+Progress (1): 374/726 kB
+Progress (1): 378/726 kB
+Progress (1): 383/726 kB
+Progress (1): 387/726 kB
+Progress (1): 391/726 kB
+Progress (1): 395/726 kB
+Progress (1): 399/726 kB
+Progress (1): 403/726 kB
+Progress (1): 407/726 kB
+Progress (1): 411/726 kB
+Progress (1): 415/726 kB
+Progress (1): 419/726 kB
+Progress (1): 423/726 kB
+Progress (1): 428/726 kB
+Progress (1): 432/726 kB
+Progress (1): 436/726 kB
+Progress (1): 440/726 kB
+Progress (1): 444/726 kB
+Progress (1): 448/726 kB
+Progress (1): 452/726 kB
+Progress (1): 456/726 kB
+Progress (1): 460/726 kB
+Progress (1): 464/726 kB
+Progress (1): 469/726 kB
+Progress (1): 473/726 kB
+Progress (1): 477/726 kB
+Progress (1): 481/726 kB
+Progress (1): 485/726 kB
+Progress (1): 489/726 kB
+Progress (1): 493/726 kB
+Progress (1): 497/726 kB
+Progress (1): 501/726 kB
+Progress (1): 505/726 kB
+Progress (1): 509/726 kB
+Progress (1): 514/726 kB
+Progress (1): 518/726 kB
+Progress (1): 522/726 kB
+Progress (1): 526/726 kB
+Progress (1): 530/726 kB
+Progress (1): 534/726 kB
+Progress (1): 538/726 kB
+Progress (1): 542/726 kB
+Progress (1): 546/726 kB
+Progress (1): 550/726 kB
+Progress (1): 555/726 kB
+Progress (1): 559/726 kB
+Progress (1): 563/726 kB
+Progress (1): 567/726 kB
+Progress (1): 571/726 kB
+Progress (1): 575/726 kB
+Progress (1): 579/726 kB
+Progress (1): 583/726 kB
+Progress (1): 587/726 kB
+Progress (1): 591/726 kB
+Progress (1): 596/726 kB
+Progress (1): 600/726 kB
+Progress (1): 604/726 kB
+Progress (1): 608/726 kB
+Progress (1): 612/726 kB
+Progress (1): 616/726 kB
+Progress (1): 620/726 kB
+Progress (1): 624/726 kB
+Progress (1): 628/726 kB
+Progress (1): 632/726 kB
+Progress (1): 636/726 kB
+Progress (1): 641/726 kB
+Progress (1): 645/726 kB
+Progress (1): 649/726 kB
+Progress (1): 653/726 kB
+Progress (1): 657/726 kB
+Progress (1): 661/726 kB
+Progress (1): 665/726 kB
+Progress (1): 669/726 kB
+Progress (1): 673/726 kB
+Progress (1): 677/726 kB
+Progress (1): 682/726 kB
+Progress (1): 686/726 kB
+Progress (1): 690/726 kB
+Progress (1): 694/726 kB
+Progress (1): 698/726 kB
+Progress (1): 702/726 kB
+Progress (1): 706/726 kB
+Progress (1): 710/726 kB
+Progress (1): 714/726 kB
+Progress (1): 718/726 kB
+Progress (1): 722/726 kB
+Progress (1): 726 kB    
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/felix/org.apache.felix.framework/6.0.2/org.apache.felix.framework-6.0.2.jar (726 kB at 20 kB/s)
+[INFO] 
+[INFO] --- maven-clean-plugin:3.1.0:clean (default-clean) @ commons-compress ---
+[INFO] Deleting ./commons-compress/target
+[INFO] 
+[INFO] --- maven-enforcer-plugin:3.0.0-M2:enforce (enforce-maven-version) @ commons-compress ---
+[INFO] 
+[INFO] --- maven-enforcer-plugin:3.0.0-M2:enforce (enforce-maven-3) @ commons-compress ---
+[INFO] 
+[INFO] --- apache-rat-plugin:0.13:check (rat-check) @ commons-compress ---
+[INFO] Enabled default license matchers.
+[INFO] Will parse SCM ignores for exclusions...
+[INFO] Parsing exclusions from ./commons-compress/.gitignore
+[INFO] Finished adding exclusions from SCM ignore files.
+[INFO] 68 implicit excludes (use -debug for more details).
+[INFO] 13 explicit excludes (use -debug for more details).
+[INFO] 417 resources included (use -debug for more details)
+[INFO] Rat check: Summary over all files. Unapproved: 1, unknown: 1, generated: 0, approved: 409 licenses.
+[WARNING] Rat check: 1 files with unapproved licenses. See RAT report in: ./commons-compress/target/rat.txt
+[INFO] 
+[INFO] --- build-helper-maven-plugin:3.0.0:parse-version (parse-version) @ commons-compress ---
+[INFO] 
+[INFO] --- maven-antrun-plugin:1.8:run (javadoc.resources) @ commons-compress ---
+[INFO] Executing tasks
+
+main:
+     [copy] Copying 2 files to ./commons-compress/target/apidocs/META-INF
+[INFO] Executed tasks
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.5:process (process-resource-bundles) @ commons-compress ---
+[INFO] 
+[INFO] --- buildnumber-maven-plugin:1.4:create (default) @ commons-compress ---
+[INFO] Executing: /bin/sh -c cd './commons-compress' && 'git' 'rev-parse' '--verify' 'HEAD'
+[INFO] Working directory: ./commons-compress
+[INFO] Storing buildNumber: 8cc87c6fef9abfe6553bbad7ba47257c2d57848a at timestamp: 1633693167571
+[WARNING] Cannot get the branch information from the git repository: 
+Detecting the current branch failed: fatal: ref HEAD is not a symbolic ref
+
+[INFO] Executing: /bin/sh -c cd './commons-compress' && 'git' 'rev-parse' '--verify' 'HEAD'
+[INFO] Working directory: ./commons-compress
+[INFO] Storing buildScmBranch: UNKNOWN
+[INFO] 
+[INFO] --- maven-resources-plugin:3.1.0:resources (default-resources) @ commons-compress ---
+[INFO] Using 'iso-8859-1' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory ./commons-compress/src/main/resources
+[INFO] Copying 2 resources to META-INF
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.0:compile (default-compile) @ commons-compress ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 208 source files to ./commons-compress/target/classes
+[INFO] ./commons-compress/src/main/java/org/apache/commons/compress/compressors/zstandard/ZstdCompressorOutputStream.java: ./commons-compress/src/main/java/org/apache/commons/compress/compressors/zstandard/ZstdCompressorOutputStream.java uses or overrides a deprecated API.
+[INFO] ./commons-compress/src/main/java/org/apache/commons/compress/compressors/zstandard/ZstdCompressorOutputStream.java: Recompile with -Xlint:deprecation for details.
+[INFO] 
+[INFO] --- maven-bundle-plugin:3.5.1:manifest (bundle-manifest) @ commons-compress ---
+[INFO] 
+[INFO] --- animal-sniffer-maven-plugin:1.17:check (checkAPIcompatibility) @ commons-compress ---
+[INFO] Checking unresolved references to org.codehaus.mojo.signature:java17:1.0
+[INFO] 
+[INFO] --- maven-resources-plugin:3.1.0:testResources (default-testResources) @ commons-compress ---
+[INFO] Using 'iso-8859-1' encoding to copy filtered resources.
+[INFO] Copying 181 resources
+[INFO] Copying 2 resources to META-INF
+[INFO] 
+[INFO] --- maven-antrun-plugin:1.8:run (default) @ commons-compress ---
+[INFO] Executing tasks
+
+main:
+    [untar] Expanding: ./commons-compress/src/test/resources/zstd-tests.tar into ./commons-compress/target/test-classes
+[INFO] Executed tasks
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.0:testCompile (default-testCompile) @ commons-compress ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 148 source files to ./commons-compress/target/test-classes
+[INFO] ./commons-compress/src/test/java/org/apache/commons/compress/archivers/examples/SevenZArchiverTest.java: Some input files use or override a deprecated API.
+[INFO] ./commons-compress/src/test/java/org/apache/commons/compress/archivers/examples/SevenZArchiverTest.java: Recompile with -Xlint:deprecation for details.
+[INFO] ./commons-compress/src/test/java/org/apache/commons/compress/compressors/z/ZCompressorInputStreamTest.java: ./commons-compress/src/test/java/org/apache/commons/compress/compressors/z/ZCompressorInputStreamTest.java uses unchecked or unsafe operations.
+[INFO] ./commons-compress/src/test/java/org/apache/commons/compress/compressors/z/ZCompressorInputStreamTest.java: Recompile with -Xlint:unchecked for details.
+[INFO] 
+[INFO] --- jacoco-maven-plugin:0.8.3:prepare-agent (prepare-agent) @ commons-compress ---
+[INFO] argLine set to -javaagent:./.m2/repository/org/jacoco/org.jacoco.agent/0.8.3/org.jacoco.agent-0.8.3-runtime.jar=destfile=./commons-compress/target/jacoco.exec
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.22.1:test (default-test) @ commons-compress ---
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running org.apache.commons.compress.IOMethodsTest
+[INFO] Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.225 s - in org.apache.commons.compress.IOMethodsTest
+[INFO] Running org.apache.commons.compress.ArchiveReadTest
+[INFO] Tests run: 18, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.178 s - in org.apache.commons.compress.ArchiveReadTest
+[INFO] Running org.apache.commons.compress.changes.ChangeTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.023 s - in org.apache.commons.compress.changes.ChangeTest
+[INFO] Running org.apache.commons.compress.changes.ChangeSetTestCase
+[INFO] Tests run: 28, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.367 s - in org.apache.commons.compress.changes.ChangeSetTestCase
+[INFO] Running org.apache.commons.compress.archivers.TarTestCase
+[INFO] Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.032 s - in org.apache.commons.compress.archivers.TarTestCase
+[INFO] Running org.apache.commons.compress.archivers.ArTestCase
+[WARNING] Tests run: 7, Failures: 0, Errors: 0, Skipped: 2, Time elapsed: 0.027 s - in org.apache.commons.compress.archivers.ArTestCase
+[INFO] Running org.apache.commons.compress.archivers.ArchiveStreamFactoryTest
+[INFO] Tests run: 13, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.042 s - in org.apache.commons.compress.archivers.ArchiveStreamFactoryTest
+[INFO] Running org.apache.commons.compress.archivers.CpioTestCase
+[INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.038 s - in org.apache.commons.compress.archivers.CpioTestCase
+[INFO] Running org.apache.commons.compress.archivers.ArchiveOutputStreamTest
+[INFO] Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.019 s - in org.apache.commons.compress.archivers.ArchiveOutputStreamTest
+[INFO] Running org.apache.commons.compress.archivers.dump.DumpArchiveUtilTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.apache.commons.compress.archivers.dump.DumpArchiveUtilTest
+[INFO] Running org.apache.commons.compress.archivers.dump.DumpArchiveEntryTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s - in org.apache.commons.compress.archivers.dump.DumpArchiveEntryTest
+[INFO] Running org.apache.commons.compress.archivers.dump.DumpArchiveInputStreamTest
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.019 s - in org.apache.commons.compress.archivers.dump.DumpArchiveInputStreamTest
+[INFO] Running org.apache.commons.compress.archivers.memory.MemoryArchiveTestCase
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.apache.commons.compress.archivers.memory.MemoryArchiveTestCase
+[INFO] Running org.apache.commons.compress.archivers.DumpTestCase
+[INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.032 s - in org.apache.commons.compress.archivers.DumpTestCase
+[INFO] Running org.apache.commons.compress.archivers.ArchiveServiceLoaderTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 s - in org.apache.commons.compress.archivers.ArchiveServiceLoaderTest
+[INFO] Running org.apache.commons.compress.archivers.jar.JarMarkerTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s - in org.apache.commons.compress.archivers.jar.JarMarkerTest
+[INFO] Running org.apache.commons.compress.archivers.jar.JarArchiveOutputStreamTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 s - in org.apache.commons.compress.archivers.jar.JarArchiveOutputStreamTest
+[INFO] Running org.apache.commons.compress.archivers.ExceptionMessageTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.apache.commons.compress.archivers.ExceptionMessageTest
+[INFO] Running org.apache.commons.compress.archivers.LongSymLinkTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.013 s - in org.apache.commons.compress.archivers.LongSymLinkTest
+[INFO] Running org.apache.commons.compress.archivers.LongPathTest
+[INFO] Tests run: 24, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.239 s - in org.apache.commons.compress.archivers.LongPathTest
+[INFO] Running org.apache.commons.compress.archivers.sevenz.SevenZFileTest
+[INFO] Tests run: 18, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.555 s - in org.apache.commons.compress.archivers.sevenz.SevenZFileTest
+[INFO] Running org.apache.commons.compress.archivers.sevenz.FolderTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.apache.commons.compress.archivers.sevenz.FolderTest
+[INFO] Running org.apache.commons.compress.archivers.sevenz.SevenZMethodConfigurationTest
+[INFO] Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.009 s - in org.apache.commons.compress.archivers.sevenz.SevenZMethodConfigurationTest
+[INFO] Running org.apache.commons.compress.archivers.sevenz.AES256SHA256DecoderTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 s - in org.apache.commons.compress.archivers.sevenz.AES256SHA256DecoderTest
+[INFO] Running org.apache.commons.compress.archivers.sevenz.SevenZArchiveEntryTest
+[INFO] Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.009 s - in org.apache.commons.compress.archivers.sevenz.SevenZArchiveEntryTest
+[INFO] Running org.apache.commons.compress.archivers.sevenz.CoverageTest
+Analysing /dev/null/not-there
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.011 s - in org.apache.commons.compress.archivers.sevenz.CoverageTest
+[INFO] Running org.apache.commons.compress.archivers.sevenz.SevenZNativeHeapTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.009 s - in org.apache.commons.compress.archivers.sevenz.SevenZNativeHeapTest
+[INFO] Running org.apache.commons.compress.archivers.sevenz.SevenZOutputFileTest
+[INFO] Tests run: 33, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.848 s - in org.apache.commons.compress.archivers.sevenz.SevenZOutputFileTest
+[INFO] Running org.apache.commons.compress.archivers.JarTestCase
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.015 s - in org.apache.commons.compress.archivers.JarTestCase
+[INFO] Running org.apache.commons.compress.archivers.zip.EncryptedArchiveTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 s - in org.apache.commons.compress.archivers.zip.EncryptedArchiveTest
+[INFO] Running org.apache.commons.compress.archivers.zip.UTF8ZipFilesTest
+[INFO] Tests run: 17, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.062 s - in org.apache.commons.compress.archivers.zip.UTF8ZipFilesTest
+[INFO] Running org.apache.commons.compress.archivers.zip.ExplodeSupportTest
+[INFO] Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.075 s - in org.apache.commons.compress.archivers.zip.ExplodeSupportTest
+[INFO] Running org.apache.commons.compress.archivers.zip.X000A_NTFSTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s - in org.apache.commons.compress.archivers.zip.X000A_NTFSTest
+[INFO] Running org.apache.commons.compress.archivers.zip.BinaryTreeTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 s - in org.apache.commons.compress.archivers.zip.BinaryTreeTest
+[INFO] Running org.apache.commons.compress.archivers.zip.CircularBufferTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.apache.commons.compress.archivers.zip.CircularBufferTest
+[INFO] Running org.apache.commons.compress.archivers.zip.ZipShortTest
+[INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 s - in org.apache.commons.compress.archivers.zip.ZipShortTest
+[INFO] Running org.apache.commons.compress.archivers.zip.PkWareExtraHeaderTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 s - in org.apache.commons.compress.archivers.zip.PkWareExtraHeaderTest
+[INFO] Running org.apache.commons.compress.archivers.zip.ZipClassCoverageTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 s - in org.apache.commons.compress.archivers.zip.ZipClassCoverageTest
+[INFO] Running org.apache.commons.compress.archivers.zip.ZipEncodingTest
+[INFO] Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.011 s - in org.apache.commons.compress.archivers.zip.ZipEncodingTest
+[INFO] Running org.apache.commons.compress.archivers.zip.ZipUtilTest
+[INFO] Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in org.apache.commons.compress.archivers.zip.ZipUtilTest
+[INFO] Running org.apache.commons.compress.archivers.zip.ParallelScatterZipCreatorTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.595 s - in org.apache.commons.compress.archivers.zip.ParallelScatterZipCreatorTest
+[INFO] Running org.apache.commons.compress.archivers.zip.Zip64ExtendedInformationExtraFieldTest
+[INFO] Tests run: 12, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in org.apache.commons.compress.archivers.zip.Zip64ExtendedInformationExtraFieldTest
+[INFO] Running org.apache.commons.compress.archivers.zip.ExtraFieldUtilsTest
+[INFO] Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.apache.commons.compress.archivers.zip.ExtraFieldUtilsTest
+[INFO] Running org.apache.commons.compress.archivers.zip.ZipFileTest
+[INFO] Tests run: 36, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.073 s - in org.apache.commons.compress.archivers.zip.ZipFileTest
+[INFO] Running org.apache.commons.compress.archivers.zip.X5455_ExtendedTimestampTest
+[INFO] Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.014 s - in org.apache.commons.compress.archivers.zip.X5455_ExtendedTimestampTest
+[INFO] Running org.apache.commons.compress.archivers.zip.AsiExtraFieldTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in org.apache.commons.compress.archivers.zip.AsiExtraFieldTest
+[INFO] Running org.apache.commons.compress.archivers.zip.Maven221MultiVolumeTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.233 s - in org.apache.commons.compress.archivers.zip.Maven221MultiVolumeTest
+[INFO] Running org.apache.commons.compress.archivers.zip.ZipLongTest
+[INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in org.apache.commons.compress.archivers.zip.ZipLongTest
+[INFO] Running org.apache.commons.compress.archivers.zip.GeneralPurposeBitTest
+[INFO] Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 s - in org.apache.commons.compress.archivers.zip.GeneralPurposeBitTest
+[INFO] Running org.apache.commons.compress.archivers.zip.ScatterZipOutputStreamTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 s - in org.apache.commons.compress.archivers.zip.ScatterZipOutputStreamTest
+[INFO] Running org.apache.commons.compress.archivers.zip.BitStreamTest
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.apache.commons.compress.archivers.zip.BitStreamTest
+[INFO] Running org.apache.commons.compress.archivers.zip.DataDescriptorTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.015 s - in org.apache.commons.compress.archivers.zip.DataDescriptorTest
+[INFO] Running org.apache.commons.compress.archivers.zip.StreamCompressorTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.01 s - in org.apache.commons.compress.archivers.zip.StreamCompressorTest
+[INFO] Running org.apache.commons.compress.archivers.zip.X7875_NewUnixTest
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 s - in org.apache.commons.compress.archivers.zip.X7875_NewUnixTest
+[INFO] Running org.apache.commons.compress.archivers.zip.ZipArchiveInputStreamTest
+[INFO] Tests run: 31, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.058 s - in org.apache.commons.compress.archivers.zip.ZipArchiveInputStreamTest
+[INFO] Running org.apache.commons.compress.archivers.zip.ZipArchiveEntryTest
+[INFO] Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s - in org.apache.commons.compress.archivers.zip.ZipArchiveEntryTest
+[INFO] Running org.apache.commons.compress.archivers.zip.ZipFileIgnoringLocalFileHeaderTest
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.009 s - in org.apache.commons.compress.archivers.zip.ZipFileIgnoringLocalFileHeaderTest
+[INFO] Running org.apache.commons.compress.archivers.zip.ScatterSampleTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.011 s - in org.apache.commons.compress.archivers.zip.ScatterSampleTest
+[INFO] Running org.apache.commons.compress.archivers.zip.ZipEightByteIntegerTest
+[INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 s - in org.apache.commons.compress.archivers.zip.ZipEightByteIntegerTest
+[INFO] Running org.apache.commons.compress.archivers.examples.ParameterizedExpanderTest
+[INFO] Tests run: 18, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.126 s - in org.apache.commons.compress.archivers.examples.ParameterizedExpanderTest
+[INFO] Running org.apache.commons.compress.archivers.examples.SevenZArchiverTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.155 s - in org.apache.commons.compress.archivers.examples.SevenZArchiverTest
+[INFO] Running org.apache.commons.compress.archivers.examples.ParameterizedArchiverTest
+[INFO] Tests run: 12, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.067 s - in org.apache.commons.compress.archivers.examples.ParameterizedArchiverTest
+[INFO] Running org.apache.commons.compress.archivers.examples.ExpanderTest
+[INFO] Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.207 s - in org.apache.commons.compress.archivers.examples.ExpanderTest
+[INFO] Running org.apache.commons.compress.archivers.ZipTestCase
+[INFO] Tests run: 20, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.092 s - in org.apache.commons.compress.archivers.ZipTestCase
+[INFO] Running org.apache.commons.compress.archivers.ar.ArArchiveInputStreamTest
+[INFO] Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.011 s - in org.apache.commons.compress.archivers.ar.ArArchiveInputStreamTest
+[INFO] Running org.apache.commons.compress.archivers.ar.ArArchiveOutputStreamTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in org.apache.commons.compress.archivers.ar.ArArchiveOutputStreamTest
+[INFO] Running org.apache.commons.compress.archivers.SevenZTestCase
+[INFO] Tests run: 16, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.458 s - in org.apache.commons.compress.archivers.SevenZTestCase
+[INFO] Running org.apache.commons.compress.archivers.arj.CoverageTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.apache.commons.compress.archivers.arj.CoverageTest
+[INFO] Running org.apache.commons.compress.archivers.arj.ArjArchiveInputStreamTest
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.012 s - in org.apache.commons.compress.archivers.arj.ArjArchiveInputStreamTest
+[INFO] Running org.apache.commons.compress.archivers.tar.TarArchiveEntryTest
+[WARNING] Tests run: 8, Failures: 0, Errors: 0, Skipped: 1, Time elapsed: 0.012 s - in org.apache.commons.compress.archivers.tar.TarArchiveEntryTest
+[INFO] Running org.apache.commons.compress.archivers.tar.TarArchiveOutputStreamTest
+[INFO] Tests run: 29, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.048 s - in org.apache.commons.compress.archivers.tar.TarArchiveOutputStreamTest
+[INFO] Running org.apache.commons.compress.archivers.tar.TarArchiveInputStreamTest
+[INFO] Tests run: 21, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.026 s - in org.apache.commons.compress.archivers.tar.TarArchiveInputStreamTest
+[INFO] Running org.apache.commons.compress.archivers.tar.TarUtilsTest
+[INFO] Tests run: 17, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in org.apache.commons.compress.archivers.tar.TarUtilsTest
+[INFO] Running org.apache.commons.compress.archivers.tar.SparseFilesTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.apache.commons.compress.archivers.tar.SparseFilesTest
+[INFO] Running org.apache.commons.compress.archivers.cpio.CpioArchiveOutputStreamTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in org.apache.commons.compress.archivers.cpio.CpioArchiveOutputStreamTest
+[INFO] Running org.apache.commons.compress.archivers.cpio.CpioArchiveTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in org.apache.commons.compress.archivers.cpio.CpioArchiveTest
+[INFO] Running org.apache.commons.compress.archivers.cpio.CpioArchiveInputStreamTest
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s - in org.apache.commons.compress.archivers.cpio.CpioArchiveInputStreamTest
+[INFO] Running org.apache.commons.compress.archivers.cpio.CpioUtilTest
+[INFO] Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in org.apache.commons.compress.archivers.cpio.CpioUtilTest
+[INFO] Running org.apache.commons.compress.utils.ChecksumVerifyingInputStreamTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.apache.commons.compress.utils.ChecksumVerifyingInputStreamTest
+[INFO] Running org.apache.commons.compress.utils.SeekableInMemoryByteChannelTest
+[INFO] Tests run: 13, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.032 s - in org.apache.commons.compress.utils.SeekableInMemoryByteChannelTest
+[INFO] Running org.apache.commons.compress.utils.FixedLengthBlockOutputStreamTest
+[INFO] Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.142 s - in org.apache.commons.compress.utils.FixedLengthBlockOutputStreamTest
+[INFO] Running org.apache.commons.compress.utils.ChecksumCalculatingInputStreamTest
+[INFO] Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.apache.commons.compress.utils.ChecksumCalculatingInputStreamTest
+[INFO] Running org.apache.commons.compress.utils.IOUtilsTest
+[INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.009 s - in org.apache.commons.compress.utils.IOUtilsTest
+[INFO] Running org.apache.commons.compress.utils.SkipShieldingInputStreamTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in org.apache.commons.compress.utils.SkipShieldingInputStreamTest
+[INFO] Running org.apache.commons.compress.utils.CountingStreamTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in org.apache.commons.compress.utils.CountingStreamTest
+[INFO] Running org.apache.commons.compress.utils.ByteUtilsTest
+[INFO] Tests run: 26, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 s - in org.apache.commons.compress.utils.ByteUtilsTest
+[INFO] Running org.apache.commons.compress.utils.BitInputStreamTest
+[INFO] Tests run: 18, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s - in org.apache.commons.compress.utils.BitInputStreamTest
+[INFO] Running org.apache.commons.compress.utils.ServiceLoaderIteratorTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.009 s - in org.apache.commons.compress.utils.ServiceLoaderIteratorTest
+[INFO] Running org.apache.commons.compress.utils.CharsetsTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.apache.commons.compress.utils.CharsetsTest
+[INFO] Running org.apache.commons.compress.compressors.DetectCompressorTestCase
+[INFO] Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.096 s - in org.apache.commons.compress.compressors.DetectCompressorTestCase
+[INFO] Running org.apache.commons.compress.compressors.deflate64.Deflate64BugsTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.011 s - in org.apache.commons.compress.compressors.deflate64.Deflate64BugsTest
+[INFO] Running org.apache.commons.compress.compressors.deflate64.HuffmanDecoderTest
+[INFO] Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in org.apache.commons.compress.compressors.deflate64.HuffmanDecoderTest
+[INFO] Running org.apache.commons.compress.compressors.deflate64.Deflate64CompressorInputStreamTest
+[INFO] Tests run: 12, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.221 s - in org.apache.commons.compress.compressors.deflate64.Deflate64CompressorInputStreamTest
+[INFO] Running org.apache.commons.compress.compressors.CompressorServiceLoaderTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.apache.commons.compress.compressors.CompressorServiceLoaderTest
+[INFO] Running org.apache.commons.compress.compressors.GzipUtilsTestCase
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.apache.commons.compress.compressors.GzipUtilsTestCase
+[INFO] Running org.apache.commons.compress.compressors.XZTestCase
+XZTestCase: HeapMax=3817865216 bytes 3641.0 MB
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.087 s - in org.apache.commons.compress.compressors.XZTestCase
+[INFO] Running org.apache.commons.compress.compressors.FramedSnappyTestCase
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.32 s - in org.apache.commons.compress.compressors.FramedSnappyTestCase
+[INFO] Running org.apache.commons.compress.compressors.brotli.BrotliCompressorInputStreamTest
+[INFO] Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.096 s - in org.apache.commons.compress.compressors.brotli.BrotliCompressorInputStreamTest
+[INFO] Running org.apache.commons.compress.compressors.lz4.FramedLZ4CompressorRoundtripTest
+[INFO] Tests run: 24, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.556 s - in org.apache.commons.compress.compressors.lz4.FramedLZ4CompressorRoundtripTest
+[INFO] Running org.apache.commons.compress.compressors.lz4.BlockLZ4CompressorInputStreamTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.015 s - in org.apache.commons.compress.compressors.lz4.BlockLZ4CompressorInputStreamTest
+[INFO] Running org.apache.commons.compress.compressors.lz4.BlockLZ4CompressorOutputStreamTest
+[WARNING] Tests run: 20, Failures: 0, Errors: 0, Skipped: 2, Time elapsed: 0.018 s - in org.apache.commons.compress.compressors.lz4.BlockLZ4CompressorOutputStreamTest
+[INFO] Running org.apache.commons.compress.compressors.lz4.FactoryTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.018 s - in org.apache.commons.compress.compressors.lz4.FactoryTest
+[INFO] Running org.apache.commons.compress.compressors.lz4.FramedLZ4CompressorInputStreamTest
+[INFO] Tests run: 39, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.06 s - in org.apache.commons.compress.compressors.lz4.FramedLZ4CompressorInputStreamTest
+[INFO] Running org.apache.commons.compress.compressors.lz4.BlockLZ4CompressorRoundtripTest
+[INFO] Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.542 s - in org.apache.commons.compress.compressors.lz4.BlockLZ4CompressorRoundtripTest
+[INFO] Running org.apache.commons.compress.compressors.lz4.XXHash32Test
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.014 s - in org.apache.commons.compress.compressors.lz4.XXHash32Test
+[INFO] Running org.apache.commons.compress.compressors.z.ZCompressorInputStreamTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.039 s - in org.apache.commons.compress.compressors.z.ZCompressorInputStreamTest
+[INFO] Running org.apache.commons.compress.compressors.xz.XZUtilsTestCase
+[INFO] Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.apache.commons.compress.compressors.xz.XZUtilsTestCase
+[INFO] Running org.apache.commons.compress.compressors.xz.XZCompressorInputStreamTest
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.016 s - in org.apache.commons.compress.compressors.xz.XZCompressorInputStreamTest
+[INFO] Running org.apache.commons.compress.compressors.xz.XZCompressorOutputStreamTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.013 s - in org.apache.commons.compress.compressors.xz.XZCompressorOutputStreamTest
+[INFO] Running org.apache.commons.compress.compressors.snappy.SnappyRoundtripTest
+[INFO] Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 5.396 s - in org.apache.commons.compress.compressors.snappy.SnappyRoundtripTest
+[INFO] Running org.apache.commons.compress.compressors.snappy.FramedSnappyCompressorInputStreamTest
+[INFO] Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.493 s - in org.apache.commons.compress.compressors.snappy.FramedSnappyCompressorInputStreamTest
+[INFO] Running org.apache.commons.compress.compressors.GZipTestCase
+[INFO] Tests run: 15, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.013 s - in org.apache.commons.compress.compressors.GZipTestCase
+[INFO] Running org.apache.commons.compress.compressors.Pack200TestCase
+[INFO] Tests run: 15, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.08 s - in org.apache.commons.compress.compressors.Pack200TestCase
+[INFO] Running org.apache.commons.compress.compressors.BZip2UtilsTestCase
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s - in org.apache.commons.compress.compressors.BZip2UtilsTestCase
+[INFO] Running org.apache.commons.compress.compressors.pack200.Pack200UtilsTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.029 s - in org.apache.commons.compress.compressors.pack200.Pack200UtilsTest
+[INFO] Running org.apache.commons.compress.compressors.DeflateTestCase
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 s - in org.apache.commons.compress.compressors.DeflateTestCase
+[INFO] Running org.apache.commons.compress.compressors.ZTestCase
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.014 s - in org.apache.commons.compress.compressors.ZTestCase
+[INFO] Running org.apache.commons.compress.compressors.deflate.DeflateParametersTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.apache.commons.compress.compressors.deflate.DeflateParametersTest
+[INFO] Running org.apache.commons.compress.compressors.deflate.DeflateCompressorInputStreamTest
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 s - in org.apache.commons.compress.compressors.deflate.DeflateCompressorInputStreamTest
+[INFO] Running org.apache.commons.compress.compressors.deflate.DeflateCompressorOutputStreamTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in org.apache.commons.compress.compressors.deflate.DeflateCompressorOutputStreamTest
+[INFO] Running org.apache.commons.compress.compressors.CompressorStreamFactoryRoundtripTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.018 s - in org.apache.commons.compress.compressors.CompressorStreamFactoryRoundtripTest
+[INFO] Running org.apache.commons.compress.compressors.zstandard.ZstdRoundtripTest
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.031 s - in org.apache.commons.compress.compressors.zstandard.ZstdRoundtripTest
+[INFO] Running org.apache.commons.compress.compressors.zstandard.ZstdCompressorInputStreamTest
+[INFO] Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.015 s - in org.apache.commons.compress.compressors.zstandard.ZstdCompressorInputStreamTest
+[INFO] Running org.apache.commons.compress.compressors.zstandard.ZstdUtilsTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in org.apache.commons.compress.compressors.zstandard.ZstdUtilsTest
+[INFO] Running org.apache.commons.compress.compressors.lz77support.LZ77CompressorTest
+[INFO] Tests run: 14, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.011 s - in org.apache.commons.compress.compressors.lz77support.LZ77CompressorTest
+[INFO] Running org.apache.commons.compress.compressors.lz77support.AbstractLZ77CompressorInputStreamTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 s - in org.apache.commons.compress.compressors.lz77support.AbstractLZ77CompressorInputStreamTest
+[INFO] Running org.apache.commons.compress.compressors.lz77support.ParametersTest
+[INFO] Tests run: 14, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.01 s - in org.apache.commons.compress.compressors.lz77support.ParametersTest
+[INFO] Running org.apache.commons.compress.compressors.lzma.LZMAUtilsTestCase
+[INFO] Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 s - in org.apache.commons.compress.compressors.lzma.LZMAUtilsTestCase
+[INFO] Running org.apache.commons.compress.compressors.LZMATestCase
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.039 s - in org.apache.commons.compress.compressors.LZMATestCase
+[INFO] Running org.apache.commons.compress.compressors.bzip2.BZip2CompressorInputStreamTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.681 s - in org.apache.commons.compress.compressors.bzip2.BZip2CompressorInputStreamTest
+[INFO] Running org.apache.commons.compress.compressors.bzip2.BlockSortTest
+[INFO] Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.02 s - in org.apache.commons.compress.compressors.bzip2.BlockSortTest
+[INFO] Running org.apache.commons.compress.compressors.bzip2.PythonTruncatedBzip2Test
+Attempt to read the whole thing in, should throw ...
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.009 s - in org.apache.commons.compress.compressors.bzip2.PythonTruncatedBzip2Test
+[INFO] Running org.apache.commons.compress.compressors.BZip2TestCase
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.015 s - in org.apache.commons.compress.compressors.BZip2TestCase
+[INFO] Running org.apache.commons.compress.ChainingTestCase
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 s - in org.apache.commons.compress.ChainingTestCase
+[INFO] Running org.apache.commons.compress.ArchiveUtilsTest
+[INFO] Tests run: 11, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.01 s - in org.apache.commons.compress.ArchiveUtilsTest
+[INFO] Running org.apache.commons.compress.DetectArchiverTestCase
+[INFO] Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.012 s - in org.apache.commons.compress.DetectArchiverTestCase
+[INFO] Running org.apache.commons.compress.OsgiITest
+[org.ops4j.pax.swissbox.extender.BundleWatcher] : Creating bundle watcher with scanner [org.ops4j.pax.swissbox.extender.BundleManifestScanner@52441092]...
+[org.ops4j.pax.swissbox.extender.BundleWatcher] : Scanning bundle [org.apache.felix.framework]
+[org.ops4j.pax.swissbox.extender.BundleWatcher] : Scanning bundle [org.ops4j.pax.exam]
+[org.ops4j.pax.swissbox.extender.BundleWatcher] : Scanning bundle [org.ops4j.pax.exam.inject]
+[org.ops4j.pax.swissbox.extender.BundleWatcher] : Scanning bundle [org.ops4j.pax.exam.extender.service]
+[org.ops4j.pax.swissbox.extender.BundleWatcher] : Scanning bundle [osgi.cmpn]
+org.ops4j.pax.logging.pax-logging-api[org.ops4j.pax.logging.internal.Activator] : Enabling SLF4J API support.
+org.ops4j.pax.logging.pax-logging-api[org.ops4j.pax.logging.internal.Activator] : Enabling Jakarta Commons Logging API support.
+org.ops4j.pax.logging.pax-logging-api[org.ops4j.pax.logging.internal.Activator] : Enabling Log4J API support.
+org.ops4j.pax.logging.pax-logging-api[org.ops4j.pax.logging.internal.Activator] : Enabling Avalon Logger API support.
+org.ops4j.pax.logging.pax-logging-api[org.ops4j.pax.logging.internal.Activator] : Enabling JULI Logger API support.
+org.ops4j.pax.logging.pax-logging-api[org.ops4j.pax.logging.internal.Activator] : Enabling Log4J v2 API support. Ignored FQCN: org.apache.logging.log4j.spi.AbstractLogger
+org.ops4j.pax.logging.pax-logging-api[org.ops4j.pax.swissbox.extender.BundleWatcher] : Scanning bundle [org.ops4j.pax.logging.pax-logging-api]
+org.ops4j.pax.logging.pax-logging-api[org.ops4j.pax.swissbox.extender.BundleWatcher] : Scanning bundle [org.ops4j.base]
+org.ops4j.pax.logging.pax-logging-api[org.ops4j.pax.swissbox.extender.BundleWatcher] : Scanning bundle [org.ops4j.pax.swissbox.core]
+org.ops4j.pax.logging.pax-logging-api[org.ops4j.pax.swissbox.extender.BundleWatcher] : Scanning bundle [org.ops4j.pax.swissbox.extender]
+org.ops4j.pax.logging.pax-logging-api[org.ops4j.pax.swissbox.extender.BundleWatcher] : Scanning bundle [org.ops4j.pax.swissbox.framework]
+org.ops4j.pax.logging.pax-logging-api[org.ops4j.pax.swissbox.extender.BundleWatcher] : Scanning bundle [org.ops4j.pax.swissbox.lifecycle]
+org.ops4j.pax.logging.pax-logging-api[org.ops4j.pax.swissbox.extender.BundleWatcher] : Scanning bundle [org.ops4j.pax.swissbox.tracker]
+org.ops4j.pax.logging.pax-logging-api[org.ops4j.pax.swissbox.extender.BundleWatcher] : Scanning bundle [org.apache.geronimo.specs.geronimo-atinject_1.0_spec]
+org.ops4j.pax.logging.pax-logging-api[org.ops4j.pax.swissbox.extender.BundleWatcher] : Scanning bundle [org.apache.felix.scr]
+org.ops4j.pax.logging.pax-logging-api[org.ops4j.pax.swissbox.extender.BundleWatcher] : Scanning bundle [org.apache.felix.configadmin]
+org.ops4j.pax.logging.pax-logging-api[org.ops4j.pax.swissbox.extender.BundleWatcher] : Scanning bundle [org.ops4j.pax.tipi.junit]
+org.ops4j.pax.logging.pax-logging-api[org.ops4j.pax.swissbox.extender.BundleWatcher] : Scanning bundle [org.ops4j.pax.exam.invoker.junit]
+org.ops4j.pax.logging.pax-logging-api[org.ops4j.pax.swissbox.extender.BundleWatcher] : Scanning bundle [org.apache.servicemix.bundles.hamcrest]
+org.ops4j.pax.logging.pax-logging-api[org.ops4j.pax.swissbox.extender.BundleWatcher] : Scanning bundle [org.apache.commons.commons-compress]
+org.ops4j.pax.logging.pax-logging-api[org.ops4j.pax.swissbox.extender.BundleWatcher] : Scanning bundle [PAXEXAM-PROBE-8ee87193-8414-40d9-a640-5a7f39759a62]
+org.ops4j.pax.logging.pax-logging-api[org.ops4j.pax.swissbox.extender.BundleWatcher] : Found resources [ManifestEntry{ key=PaxExam-Executable, value=PaxExam-2b54eefd-22ff-4d73-ac27-7154c627f62a, }, ManifestEntry{ key=PaxExam-2b54eefd-22ff-4d73-ac27-7154c627f62a, value=org.apache.commons.compress.OsgiITest;loadBundle }]
+org.ops4j.pax.exam.extender.service[org.ops4j.pax.exam.raw.extender.intern.Probe] : Test PaxExam-Executable to be in PaxExam-2b54eefd-22ff-4d73-ac27-7154c627f62a,
+org.ops4j.pax.exam.extender.service[org.ops4j.pax.exam.raw.extender.intern.Probe] : Test PaxExam-2b54eefd-22ff-4d73-ac27-7154c627f62a to be in PaxExam-2b54eefd-22ff-4d73-ac27-7154c627f62a,
+org.ops4j.pax.exam.extender.service[org.ops4j.pax.exam.raw.extender.intern.Probe] : Registering Service: org.ops4j.pax.exam.ProbeInvoker with Probe-Signature="PaxExam-2b54eefd-22ff-4d73-ac27-7154c627f62a" and expression="org.apache.commons.compress.OsgiITest;loadBundle"
+org.ops4j.pax.exam.invoker.junit[org.ops4j.pax.exam.invoker.junit.internal.ContainerTestRunner] : running loadBundle in reactor
+org.ops4j.pax.logging.pax-logging-api[org.ops4j.pax.swissbox.extender.BundleWatcher] : Releasing bundle [PAXEXAM-PROBE-8ee87193-8414-40d9-a640-5a7f39759a62]
+org.ops4j.pax.logging.pax-logging-api[org.ops4j.pax.swissbox.extender.BundleWatcher] : Un-registering [ManifestEntry{ key=PaxExam-Executable, value=PaxExam-2b54eefd-22ff-4d73-ac27-7154c627f62a, }, ManifestEntry{ key=PaxExam-2b54eefd-22ff-4d73-ac27-7154c627f62a, value=org.apache.commons.compress.OsgiITest;loadBundle }]
+org.ops4j.pax.logging.pax-logging-api[org.ops4j.pax.exam.raw.extender.intern.TestBundleObserver] : Unregistered testcase [org.ops4j.pax.exam.raw.extender.intern.Probe@2d8c3106.]
+org.ops4j.pax.logging.pax-logging-api[org.ops4j.pax.swissbox.extender.BundleWatcher] : Releasing bundle [org.apache.commons.commons-compress]
+org.ops4j.pax.logging.pax-logging-api[org.ops4j.pax.swissbox.extender.BundleWatcher] : Releasing bundle [org.apache.servicemix.bundles.hamcrest]
+org.ops4j.pax.logging.pax-logging-api[org.ops4j.pax.swissbox.extender.BundleWatcher] : Releasing bundle [org.ops4j.pax.exam.invoker.junit]
+org.ops4j.pax.logging.pax-logging-api[org.ops4j.pax.swissbox.extender.BundleWatcher] : Releasing bundle [org.ops4j.pax.tipi.junit]
+org.ops4j.pax.logging.pax-logging-api[org.ops4j.pax.swissbox.extender.BundleWatcher] : Releasing bundle [org.apache.felix.configadmin]
+org.ops4j.pax.logging.pax-logging-api[org.ops4j.pax.swissbox.extender.BundleWatcher] : Releasing bundle [org.apache.felix.scr]
+org.ops4j.pax.logging.pax-logging-api[org.ops4j.pax.swissbox.extender.BundleWatcher] : Releasing bundle [org.apache.geronimo.specs.geronimo-atinject_1.0_spec]
+org.ops4j.pax.logging.pax-logging-api[org.ops4j.pax.swissbox.extender.BundleWatcher] : Releasing bundle [org.ops4j.pax.swissbox.tracker]
+org.ops4j.pax.logging.pax-logging-api[org.ops4j.pax.swissbox.extender.BundleWatcher] : Releasing bundle [org.ops4j.pax.swissbox.lifecycle]
+org.ops4j.pax.logging.pax-logging-api[org.ops4j.pax.swissbox.extender.BundleWatcher] : Releasing bundle [org.ops4j.pax.swissbox.framework]
+org.ops4j.pax.logging.pax-logging-api[org.ops4j.pax.swissbox.extender.BundleWatcher] : Releasing bundle [org.ops4j.pax.swissbox.extender]
+org.ops4j.pax.logging.pax-logging-api[org.ops4j.pax.swissbox.extender.BundleWatcher] : Releasing bundle [org.ops4j.pax.swissbox.core]
+org.ops4j.pax.logging.pax-logging-api[org.ops4j.pax.swissbox.extender.BundleWatcher] : Releasing bundle [org.ops4j.base]
+org.ops4j.pax.logging.pax-logging-api[org.ops4j.pax.logging.internal.Activator] : Disabling SLF4J API support.
+org.ops4j.pax.logging.pax-logging-api[org.ops4j.pax.logging.internal.Activator] : Disabling Jakarta Commons Logging API support.
+org.ops4j.pax.logging.pax-logging-api[org.ops4j.pax.logging.internal.Activator] : Disabling Log4J API support.
+org.ops4j.pax.logging.pax-logging-api[org.ops4j.pax.logging.internal.Activator] : Disabling Avalon Logger API support.
+org.ops4j.pax.logging.pax-logging-api[org.ops4j.pax.logging.internal.Activator] : Disabling JULI Logger API support.
+org.ops4j.pax.logging.pax-logging-api[org.ops4j.pax.logging.internal.Activator] : Disabling Log4J v2 API support. Ignored FQCN: org.apache.logging.log4j.spi.AbstractLogger
+org.ops4j.pax.logging.pax-logging-api[org.ops4j.pax.swissbox.extender.BundleWatcher] : Releasing bundle [org.ops4j.pax.logging.pax-logging-api]
+org.ops4j.pax.logging.pax-logging-api[org.ops4j.pax.swissbox.extender.BundleWatcher] : Releasing bundle [osgi.cmpn]
+org.ops4j.pax.logging.pax-logging-api[org.ops4j.pax.swissbox.extender.BundleWatcher] : Releasing bundle [org.ops4j.pax.exam.extender.service]
+org.ops4j.pax.logging.pax-logging-api[org.ops4j.pax.swissbox.extender.BundleWatcher] : Releasing bundle [org.apache.felix.framework]
+org.ops4j.pax.logging.pax-logging-api[org.ops4j.pax.swissbox.extender.BundleWatcher] : Releasing bundle [org.ops4j.pax.exam]
+org.ops4j.pax.logging.pax-logging-api[org.ops4j.pax.swissbox.extender.BundleWatcher] : Releasing bundle [org.ops4j.pax.exam.inject]
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.514 s - in org.apache.commons.compress.OsgiITest
+[INFO] 
+[INFO] Results:
+[INFO] 
+[WARNING] Tests run: 1065, Failures: 0, Errors: 0, Skipped: 5
+[INFO] 
+[INFO] 
+[INFO] --- maven-jar-plugin:3.1.1:jar (default-jar) @ commons-compress ---
+[INFO] Building jar: ./commons-compress/target/commons-compress-1.19-SNAPSHOT.jar
+[INFO] 
+[INFO] --- maven-site-plugin:3.7.1:attach-descriptor (attach-descriptor) @ commons-compress ---
+[INFO] Skipping because packaging 'jar' is not pom.
+[INFO] 
+[INFO] --- maven-jar-plugin:3.1.1:test-jar (default) @ commons-compress ---
+[INFO] Building jar: ./commons-compress/target/commons-compress-1.19-SNAPSHOT-tests.jar
+[INFO] 
+[INFO] --- maven-source-plugin:3.0.1:jar-no-fork (create-source-jar) @ commons-compress ---
+[INFO] Building jar: ./commons-compress/target/commons-compress-1.19-SNAPSHOT-sources.jar
+[INFO] 
+[INFO] --- maven-source-plugin:3.0.1:test-jar-no-fork (create-source-jar) @ commons-compress ---
+[INFO] Building jar: ./commons-compress/target/commons-compress-1.19-SNAPSHOT-test-sources.jar
+[INFO] 
+[INFO] --- jacoco-maven-plugin:0.8.3:check (check) @ commons-compress ---
+[INFO] Loading execution data file ./commons-compress/target/jacoco.exec
+[INFO] Analyzed bundle 'commons-compress' with 302 classes
+[WARNING] Rule violated for bundle commons-compress: classes covered ratio is 0.97, but expected minimum is 1.00
+[WARNING] Rule violated for bundle commons-compress: instructions covered ratio is 0.83, but expected minimum is 0.90
+[WARNING] Rule violated for bundle commons-compress: methods covered ratio is 0.84, but expected minimum is 0.95
+[WARNING] Rule violated for bundle commons-compress: branches covered ratio is 0.74, but expected minimum is 0.85
+[WARNING] Rule violated for bundle commons-compress: lines covered ratio is 0.86, but expected minimum is 0.90
+[WARNING] Rule violated for bundle commons-compress: complexity covered ratio is 0.70, but expected minimum is 0.85
+[WARNING] Coverage checks have not been met. See log for details.
+[INFO] 
+[INFO] --- japicmp-maven-plugin:0.13.0:cmp (default) @ commons-compress ---
+[INFO] Written file './commons-compress/target/japicmp/japicmp.diff'.
+[INFO] Written file './commons-compress/target/japicmp/japicmp.xml'.
+[INFO] Written file './commons-compress/target/japicmp/japicmp.html'.
+[INFO] 
+[INFO] --- maven-install-plugin:2.5.2:install (default-install) @ commons-compress ---
+[INFO] Installing ./commons-compress/target/commons-compress-1.19-SNAPSHOT.jar to ./.m2/repository/org/apache/commons/commons-compress/1.19-SNAPSHOT/commons-compress-1.19-SNAPSHOT.jar
+[INFO] Installing ./commons-compress/pom.xml to ./.m2/repository/org/apache/commons/commons-compress/1.19-SNAPSHOT/commons-compress-1.19-SNAPSHOT.pom
+[INFO] Installing ./commons-compress/target/commons-compress-1.19-SNAPSHOT-tests.jar to ./.m2/repository/org/apache/commons/commons-compress/1.19-SNAPSHOT/commons-compress-1.19-SNAPSHOT-tests.jar
+[INFO] Installing ./commons-compress/target/commons-compress-1.19-SNAPSHOT-sources.jar to ./.m2/repository/org/apache/commons/commons-compress/1.19-SNAPSHOT/commons-compress-1.19-SNAPSHOT-sources.jar
+[INFO] Installing ./commons-compress/target/commons-compress-1.19-SNAPSHOT-test-sources.jar to ./.m2/repository/org/apache/commons/commons-compress/1.19-SNAPSHOT/commons-compress-1.19-SNAPSHOT-test-sources.jar
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  01:19 min
+[INFO] Finished at: 
+[INFO] ------------------------------------------------------------------------
